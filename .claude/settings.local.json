@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(claude-in-chrome)",
+      "WebFetch(domain:uvbookings.toursbms.com)",
+      "Skill(deep-research)",
+      "PowerShell(New-Item *)"
+    ]
+  }
+}
