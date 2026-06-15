@@ -4,7 +4,8 @@
       "Skill(claude-in-chrome)",
       "WebFetch(domain:uvbookings.toursbms.com)",
       "Skill(deep-research)",
-      "PowerShell(New-Item *)"
+      "PowerShell(New-Item *)",
+      "PowerShell(Remove-Item *)"
     ]
   }
 }
