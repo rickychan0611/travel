@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "home": "Home",
+    "tours": "Tours",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Register",
+    "myBookings": "My Bookings",
+    "agentPortal": "Agent Portal"
+  },
+  "home": {
+    "heroTitle": "Explore the World, One Adventure at a Time",
+    "heroSubtitle": "Professional tour services for travelers worldwide",
+    "searchPlaceholder": "Search destinations, products or itineraries...",
+    "searchBtn": "Search"
+  },
+  "product": {
+    "from": "From",
+    "perPerson": "/person",
+    "days": " days",
+    "nights": " nights",
+    "bookNow": "Book Now",
+    "available": "Available",
+    "limited": "Limited",
+    "soldOut": "Sold Out",
+    "departure": "Departure",
+    "destination": "Destination",
+    "duration": "Duration",
+    "groupSize": "Min. Persons",
+    "transport": "Transport",
+    "bookingType": "Confirmation",
+    "manual": "Manual Confirm",
+    "instant": "Instant Confirm"
+  },
+  "categories": {
+    "hot_seasonal": "This Season's Picks",
+    "promotion": "Buy 2 Get 2",
+    "world_event": "World Cup Tours",
+    "day_trip": "Day Trips",
+    "premium": "Premium Tours",
+    "small_group": "Boutique Groups",
+    "themed": "Film & TV Tours",
+    "national_park": "National Parks"
+  },
+  "booking": {
+    "selectDate": "Select Date",
+    "selectPartySize": "Select Party Size",
+    "selectPickup": "Select Pickup Location",
+    "addons": "Add-on Services",
+    "summary": "Order Summary",
+    "total": "Total",
+    "confirm": "Confirm Booking",
+    "pending": "Pending",
+    "confirmed": "Confirmed",
+    "cancelled": "Cancelled"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong, please try again",
+    "seeAll": "See All",
+    "back": "Back",
+    "close": "Close",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "currency": "Currency"
+  }
+}

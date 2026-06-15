@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "home": "首頁",
+    "tours": "旅遊產品",
+    "about": "關於我們",
+    "contact": "聯絡我們",
+    "login": "登入",
+    "register": "註冊",
+    "myBookings": "我的訂單",
+    "agentPortal": "代理商入口"
+  },
+  "home": {
+    "heroTitle": "探索世界，精彩每一天",
+    "heroSubtitle": "專業旅遊服務，帶您暢遊全球",
+    "searchPlaceholder": "搜尋目的地、產品或路線...",
+    "searchBtn": "搜尋"
+  },
+  "product": {
+    "from": "起價",
+    "perPerson": "/人",
+    "days": "天",
+    "nights": "晚",
+    "bookNow": "立即預訂",
+    "available": "充足",
+    "limited": "緊張",
+    "soldOut": "售罄",
+    "departure": "出發地",
+    "destination": "目的地",
+    "duration": "行程天數",
+    "groupSize": "最少人數",
+    "transport": "交通方式",
+    "bookingType": "確認方式",
+    "manual": "人工確認",
+    "instant": "即時確認"
+  },
+  "categories": {
+    "hot_seasonal": "當季熱銷",
+    "promotion": "買二送二",
+    "world_event": "世界盃專線",
+    "day_trip": "邊邊遊",
+    "premium": "就是精品",
+    "small_group": "精品小團",
+    "themed": "影視之旅",
+    "national_park": "國家公園"
+  },
+  "booking": {
+    "selectDate": "選擇日期",
+    "selectPartySize": "選擇人數",
+    "selectPickup": "選擇上車地點",
+    "addons": "增值服務",
+    "summary": "訂單摘要",
+    "total": "合計",
+    "confirm": "確認預訂",
+    "pending": "待確認",
+    "confirmed": "已確認",
+    "cancelled": "已取消"
+  },
+  "common": {
+    "loading": "載入中...",
+    "error": "出現錯誤，請重試",
+    "seeAll": "查看全部",
+    "back": "返回",
+    "close": "關閉",
+    "save": "儲存",
+    "cancel": "取消",
+    "confirm": "確認",
+    "currency": "貨幣"
+  }
+}

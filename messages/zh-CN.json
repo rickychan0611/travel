@@ -1,0 +1,69 @@
+{
+  "nav": {
+    "home": "首页",
+    "tours": "旅游产品",
+    "about": "关于我们",
+    "contact": "联系我们",
+    "login": "登录",
+    "register": "注册",
+    "myBookings": "我的订单",
+    "agentPortal": "代理商入口"
+  },
+  "home": {
+    "heroTitle": "探索世界，精彩每一天",
+    "heroSubtitle": "专业旅游服务，带您畅游全球",
+    "searchPlaceholder": "搜索目的地、产品或线路...",
+    "searchBtn": "搜索"
+  },
+  "product": {
+    "from": "起价",
+    "perPerson": "/人",
+    "days": "天",
+    "nights": "晚",
+    "bookNow": "立即预订",
+    "available": "充足",
+    "limited": "紧张",
+    "soldOut": "售罄",
+    "departure": "出发地",
+    "destination": "目的地",
+    "duration": "行程天数",
+    "groupSize": "最少人数",
+    "transport": "交通方式",
+    "bookingType": "确认方式",
+    "manual": "人工确认",
+    "instant": "即时确认"
+  },
+  "categories": {
+    "hot_seasonal": "当季热销",
+    "promotion": "买二送二",
+    "world_event": "世界杯专线",
+    "day_trip": "边边游",
+    "premium": "就是精品",
+    "small_group": "精品小团",
+    "themed": "影视之旅",
+    "national_park": "国家公园"
+  },
+  "booking": {
+    "selectDate": "选择日期",
+    "selectPartySize": "选择人数",
+    "selectPickup": "选择上车地点",
+    "addons": "增值服务",
+    "summary": "订单摘要",
+    "total": "合计",
+    "confirm": "确认预订",
+    "pending": "待确认",
+    "confirmed": "已确认",
+    "cancelled": "已取消"
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "出现错误，请重试",
+    "seeAll": "查看全部",
+    "back": "返回",
+    "close": "关闭",
+    "save": "保存",
+    "cancel": "取消",
+    "confirm": "确认",
+    "currency": "货币"
+  }
+}
