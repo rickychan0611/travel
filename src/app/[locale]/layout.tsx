@@ -4,6 +4,7 @@ import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
 import { Header } from '@/components/layout/Header'
+import { Footer } from '@/components/layout/Footer'
 import '../globals.css'
 
 export const metadata: Metadata = {
@@ -25,10 +26,11 @@ export default async function LocaleLayout({
   const messages = await getMessages()
   return (
     <html lang={locale}>
-      <body>
+      <body className="flex min-h-screen flex-col">
         <NextIntlClientProvider messages={messages}>
           <Header locale={locale} />
-          {children}
+          <main className="flex-1">{children}</main>
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>
