@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl'
 import { Card, CardContent, CardFooter } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
+import type { Route } from 'next'
 import type { CollectionProduct } from '@/lib/shopify/types'
 
 export function ProductCard({
@@ -19,7 +20,7 @@ export function ProductCard({
   const isInstant = product.tags.includes('booking:instant')
   const { amount, currencyCode } = product.priceRange.minVariantPrice
   const price = parseFloat(amount).toFixed(0)
-  const href = `/${locale}/tours/${product.handle}`
+  const href = `/${locale}/tours/${product.handle}` as Route
 
   return (
     <Card className="h-full flex flex-col">

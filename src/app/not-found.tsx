@@ -13,7 +13,7 @@ export default function NotFound() {
       <p className="text-sm text-muted-foreground mb-8">
         The page you're looking for doesn't exist or has been moved.
       </p>
-      <Link href="/">
+      <Link href="/zh-CN">
         <Button>Back to Home</Button>
       </Link>
     </div>

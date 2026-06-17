@@ -1,6 +1,7 @@
 'use client'
 import { useLocale } from 'next-intl'
 import { usePathname, useRouter } from 'next/navigation'
+import type { Route } from 'next'
 import { routing } from '@/i18n/routing'
 
 const LOCALE_LABELS: Record<string, string> = {
@@ -17,7 +18,7 @@ export function LocaleSwitcher() {
   function switchLocale(next: string) {
     const segments = pathname.split('/')
     segments[1] = next
-    router.push(segments.join('/'))
+    router.push(segments.join('/') as Route)
   }
 
   return (
