@@ -1,15 +1,9 @@
-import type { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
-
-export const metadata: Metadata = {
-  title: 'Global Tour Booking',
-  description: 'Book tours worldwide',
-}
 
 export default async function LocaleLayout({
   children,
@@ -27,7 +21,7 @@ export default async function LocaleLayout({
     <NextIntlClientProvider messages={messages}>
       <Header locale={locale} />
       <main className="flex-1">{children}</main>
-      <Footer />
+      <Footer locale={locale} />
     </NextIntlClientProvider>
   )
 }

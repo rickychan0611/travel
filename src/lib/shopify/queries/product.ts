@@ -1,5 +1,5 @@
 export const PRODUCT_QUERY = `#graphql
-  query GetProduct($handle: String!, $metafieldKeys: [HasMetafieldsIdentifier!]!) {
+  query GetProduct($handle: String!) {
     product(handle: $handle) {
       id
       handle
@@ -20,10 +20,46 @@ export const PRODUCT_QUERY = `#graphql
           currencyCode
         }
       }
-      metafields(identifiers: $metafieldKeys) {
-        key
-        value
-        type
+      variants(first: 10) {
+        nodes {
+          id
+          title
+          availableForSale
+          price {
+            amount
+            currencyCode
+          }
+          selectedOptions {
+            name
+            value
+          }
+        }
+      }
+    }
+  }
+`
+
+export const ALL_PRODUCTS_QUERY = `#graphql
+  query GetAllProducts($first: Int!) {
+    products(first: $first) {
+      nodes {
+        id
+        handle
+        title
+        tags
+        productType
+        priceRange {
+          minVariantPrice {
+            amount
+            currencyCode
+          }
+        }
+        images(first: 1) {
+          nodes {
+            url
+            altText
+          }
+        }
       }
     }
   }

@@ -55,6 +55,37 @@
     "confirmed": "Confirmed",
     "cancelled": "Cancelled"
   },
+  "footer": {
+    "tagline": "Your world, your adventure."
+  },
+  "meta": {
+    "homeTitle": "Home",
+    "homeDesc": "Professional tour services for global travelers. Discover curated tours, book instantly, travel with ease.",
+    "toursTitle": "All Tours",
+    "toursDesc": "Browse all available tours, filter by type, and find the perfect itinerary for your next trip.",
+    "aboutTitle": "About Us",
+    "aboutDesc": "Learn about GlobalTours — our team, our mission, and our commitment to making travel unforgettable."
+  },
+  "about": {
+    "title": "About Us",
+    "mission": "We're dedicated to delivering professional, caring travel experiences for global travelers — making every journey an unforgettable chapter of life. With deep roots in the North American tour market and bilingual service, we make every trip worry-free.",
+    "feature1Title": "Expert Guides",
+    "feature1Desc": "Our licensed guides know local culture and history inside out, providing bilingual service every step of the way.",
+    "feature2Title": "Instant Booking",
+    "feature2Desc": "Select tours offer instant confirmation so you can lock in your itinerary without the wait and plan with confidence.",
+    "feature3Title": "Global Coverage",
+    "feature3Desc": "From North America to Europe and the Asia Pacific, we cover the world's most sought-after destinations in one place.",
+    "ctaButton": "Browse Tours"
+  },
+  "tours": {
+    "title": "All Tours",
+    "filterAll": "All",
+    "filterGroupTour": "Group Tour",
+    "filterDayTrip": "Day Trip",
+    "filterSmallGroup": "Small Group",
+    "results": "{count} tours",
+    "noResults": "No tours found"
+  },
   "common": {
     "loading": "Loading...",
     "error": "Something went wrong, please try again",

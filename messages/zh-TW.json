@@ -55,6 +55,37 @@
     "confirmed": "已確認",
     "cancelled": "已取消"
   },
+  "footer": {
+    "tagline": "專業旅遊服務，帶您暢遊全球"
+  },
+  "meta": {
+    "homeTitle": "首頁",
+    "homeDesc": "專業旅遊服務，帶您暢遊全球。發現精品旅遊線路，即時預訂，輕鬆出行。",
+    "toursTitle": "全部旅遊產品",
+    "toursDesc": "瀏覽所有旅遊線路，按類型篩選，找到最適合您的行程。",
+    "aboutTitle": "關於我們",
+    "aboutDesc": "了解 GlobalTours 的團隊與服務理念，讓每一次旅行都成為美好回憶。"
+  },
+  "about": {
+    "title": "關於我們",
+    "mission": "我們致力於為全球華人旅行者提供專業、貼心的海外旅遊服務，讓每一次出行都成為難忘的人生體驗。我們的團隊深耕北美旅遊市場多年，憑藉豐富的本地資源與中英雙語服務，讓您放心出行。",
+    "feature1Title": "專業導遊",
+    "feature1Desc": "我們的導遊均持證上崗，熟悉當地文化與歷史，全程提供中英雙語服務，讓您暢享無憂旅途。",
+    "feature2Title": "即時確認",
+    "feature2Desc": "部分產品支援即時確認，無需漫長等待，快速鎖定心儀行程，安心規劃您的旅程。",
+    "feature3Title": "全球覆蓋",
+    "feature3Desc": "覆蓋北美、歐洲、亞太等主要旅遊目的地，一站式滿足您多樣化的出行需求。",
+    "ctaButton": "瀏覽旅遊產品"
+  },
+  "tours": {
+    "title": "全部旅遊產品",
+    "filterAll": "全部",
+    "filterGroupTour": "跟團遊",
+    "filterDayTrip": "一日遊",
+    "filterSmallGroup": "精品小團",
+    "results": "{count} 條線路",
+    "noResults": "暫無相關產品"
+  },
   "common": {
     "loading": "載入中...",
     "error": "出現錯誤，請重試",

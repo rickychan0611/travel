@@ -1,0 +1,459 @@
+================================================================================
+LESSONS LEARNED — mstravelnew
+Format: one block per phase/task. Append new blocks at the bottom.
+================================================================================
+
+--------------------------------------------------------------------------------
+PHASE 1 — TASK 1: Project Scaffold + Shopify BFF Setup
+Completed: 2026-06-15 / 2026-06-16
+--------------------------------------------------------------------------------
+
+## Next.js version drift
+  The plan said "Next.js 15" but pnpm installed 16.2.9. APIs, file conventions, and
+  deprecation warnings may differ from the plan. Always run `pnpm list next` at the
+  start of a task to confirm the actual version, then read the relevant guide in
+  node_modules/next/dist/docs/ before writing any code.
+
+## Root layout in Next.js 16 MUST contain <html> and <body>
+  Returning `children` directly from RootLayout causes a runtime error:
+    "Missing <html> and <body> tags in the root layout"
+  Fix: root layout must render <html lang={...}><body>...</body></html>.
+  Use `getLocale()` from 'next-intl/server' to set the lang attribute dynamically
+  without hard-coding a locale in the root layout.
+  Do NOT put <html>/<body> in the [locale] layout — only in app/layout.tsx.
+
+## shadcn/ui uses @base-ui/react — asChild prop does NOT exist
+  This project's shadcn/ui is built on @base-ui/react, not Radix UI.
+  The `asChild` prop is unavailable on Button and all other components.
+  Pattern to wrap a Link in a Button:
+    WRONG:  <Button asChild><Link href="...">Label</Link></Button>
+    RIGHT:  <Link href="..."><Button>Label</Button></Link>
+  Apply this everywhere: nav buttons, CTAs, card links.
+
+## typedRoutes breaks build when pages don't yet exist
+  `experimental: { typedRoutes: true }` in next.config causes build failure when
+  route pages (e.g. /[locale]/tours, /[locale]/login) don't exist yet because the
+  type validator references non-existent route files.
+  Leave typedRoutes out until all referenced routes have page.tsx files.
+  Re-enable at the end of the project.
+
+## next-intl plugin must wrap nextConfig in next.config.ts
+  Missing `createNextIntlPlugin` wrap causes "next-intl config not found" error at
+  runtime (not at build time — only discovered when visiting a page).
+  next.config.ts must always end with:
+    export default withNextIntl(nextConfig)
+  where `withNextIntl = createNextIntlPlugin('./src/i18n/request.ts')`.
+
+## Middleware matcher must exclude /api routes
+  next-intl middleware intercepts every request by default, including /api/*.
+  This causes API routes to get 307-redirected to /{locale}/api/... which breaks them.
+  Always include `api` in the exclusion group:
+    matcher: ['/((?!api|_next|_vercel|.*\\..*).*)']
+
+## Stale .next cache after file deletions
+  After deleting or moving files (e.g. removing src/app/page.tsx), the TypeScript
+  build validator in .next/types/ still references deleted paths and errors out.
+  Fix: delete the .next folder, then restart the dev server.
+
+## PowerShell 5.1 syntax — no && operator
+  PowerShell 5.1 (Windows default) does not support the `&&` chain operator.
+  Use semicolons for sequential commands or wrap in if ($?) { ... }.
+  Also: `2>&1 &` for backgrounding doesn't work — use Start-Process or
+  PowerShell's -run_in_background parameter instead.
+
+## pnpm interactive prompts during install
+  pnpm reinstall can prompt interactively (e.g. "approve build scripts").
+  If it hangs: kill the process, delete node_modules manually, then re-run.
+  Do NOT use --force or --yes blindly — check what the prompt is asking first.
+
+## create-next-app fails if target directory has existing files
+  create-next-app refuses to run in a non-empty directory.
+  Workaround: create in a temp dir (e.g. mstravelnew_tmp), then move files over.
+  After copying, check for nested duplicates (src/src, public/public) and clean up.
+
+## Shopify Storefront API — two token types, two headers
+  The Headless channel provides TWO tokens:
+    - Public token  → header: X-Shopify-Storefront-Access-Token  (client-safe)
+    - Private token → header: Shopify-Storefront-Private-Token    (server-only)
+  In @shopify/storefront-api-client:
+    publicAccessToken  → sends the public header
+    privateAccessToken → sends the private header
+  Since all our Shopify calls are server-side BFF (Route Handlers), always use
+  privateAccessToken with the private (server-side) token.
+  The private token from the Headless channel may use shpat_ prefix format.
+
+## Shopify products/collections MUST be published to the Headless channel
+  Products created via Admin API are published to Online Store by default.
+  The Headless channel Storefront API token only sees products explicitly published
+  to the Headless channel — NOT Online Store products.
+  Publish via: Shopify Admin → Products → select all → More actions →
+    "Add to sales channels" → Headless.
+  Publish collections via: Products → Collections → each collection →
+    Publishing section → enable Headless.
+  Until published, collection() queries return null even with a valid token.
+
+## Shopify Admin API — plan required scopes up front
+  The setup script needed these scopes (set in Custom App config):
+    write_products, write_product_listings, read_products, read_product_listings
+  Scopes NOT available or not needed:
+    - unauthenticated_read_collection_listings: removed in newer API versions
+    - write_publications: not granted — required for channel publishing via API
+    - write_storefront_access_token: not granted — needed for storefrontAccessTokenCreate
+  For channel publishing to Headless, either add write_publications scope OR do it
+  manually through the Shopify Admin UI.
+
+## Shopify product variant API requires option1 + options array
+  When creating products via Admin REST API, variants must use `option1` (not `title`)
+  AND the parent product must declare `options: [{ name: 'Party Size' }]`.
+  Without `options` on the product, the API rejects variants with "Invalid variant".
+
+## Shopify Custom App deprecation (January 2026)
+  New custom apps can no longer be created in Shopify Admin. All new apps must be
+  created via the Partner/Developer Dashboard using OAuth flow.
+  Existing legacy apps (shpat_ tokens) continue to work.
+  storefrontAccessTokenCreate mutation requires write_storefront_access_token scope;
+  it is NOT available by default on Admin tokens.
+
+## Shopify collection "handle already taken" on re-run
+  If the setup script runs twice, collections already exist and the POST returns an
+  error. Always fetch existing collections first (GET /custom_collections.json),
+  build a handle→id map, and skip creation for any handle already in the map.
+  Apply same pattern to products.
+
+--------------------------------------------------------------------------------
+PHASE 1 — TASK 2: Homepage CategoryTabs + ProductCard
+Completed: 2026-06-16
+--------------------------------------------------------------------------------
+
+## next-intl: useTranslations vs getTranslations in server components
+  In next-intl v4, async server components CANNOT call `useTranslations` (it's a hook
+  and hooks are illegal in async functions).
+  Rule:
+    - Async server component  → `import { getTranslations } from 'next-intl/server'`
+                                 `const t = await getTranslations('namespace')`
+    - Sync server component   → `import { useTranslations } from 'next-intl'`
+                                 `const t = useTranslations('namespace')`
+    - Client component        → `import { useTranslations } from 'next-intl'`
+                                 `const t = useTranslations('namespace')`
+  Any page that awaits params or does server-side data fetching is async and must
+  use getTranslations. This is caught at runtime (500 error), not by tsc.
+
+## Server components should call data layer directly, not own API routes
+  In Next.js RSC, server components should import and call data-fetching code directly
+  (e.g. `shopifyClient.request(...)`) rather than fetching from `/api/...` HTTP routes.
+  HTTP self-fetch in RSC adds unnecessary latency and can cause circular issues.
+  Keep the BFF Route Handlers for client-side fetch only.
+
+## Client tabs + server initial data pattern
+  For tab UIs where the first tab's data should be SSR'd:
+  - Server component: pre-fetch first tab data and pass as `initialData` prop
+  - Client component: initialise state from `initialData`, fetch on tab switch via
+    client-side fetch to BFF route (/api/shopify/collections/[handle])
+  This avoids a client waterfall on page load while keeping tab switching interactive.
+
+## base-ui Tabs: use onClick on TabsTrigger for side effects, defaultValue for init
+  base-ui's Tabs component handles active-tab visual state internally.
+  To trigger data fetching on tab switch without fighting the controlled API:
+  - Set `defaultValue={TABS[0].id}` on the Root for initial active state
+  - Add `onClick={() => handleFetch(tab.collection)}` to each TabsTrigger
+  - Use a `value` prop on each TabsTrigger matching the Root's tab registry
+  Do NOT try to duplicate base-ui's active state in React state — let it own visuals.
+
+--------------------------------------------------------------------------------
+PHASE 1 — TASK 3: Product Detail Page (PDP)
+Completed: 2026-06-16
+--------------------------------------------------------------------------------
+
+## PRODUCT_QUERY had a required $metafieldKeys variable with no default
+  The original scaffold query declared `$metafieldKeys: [HasMetafieldsIdentifier!]!`
+  as a required variable. Calling it without that arg silently fails or errors.
+  Removed metafields from the query entirely until metafields are actually needed.
+  Lesson: don't declare required GraphQL variables for fields you aren't using yet.
+
+## Nested dynamic routes need no intermediate layout or page
+  `/[locale]/tours/[handle]/page.tsx` works without creating
+  `/[locale]/tours/page.tsx` or `/[locale]/tours/layout.tsx` first.
+  Next.js App Router uses the nearest parent layout (`[locale]/layout.tsx`)
+  automatically. Only create intermediate pages when they're actually needed.
+
+## Tag display: filter out internal tags before rendering
+  Shopify tags like `booking:instant`, `tour-code:Y3`, `region:west-us` are
+  internal routing/logic tags, not user-facing labels.
+  Always filter them before rendering badge lists on the PDP or card.
+  Pattern: `tags.filter(t => !t.startsWith('booking:') && !t.startsWith('tour-code:'))`
+  Then strip the `key:` prefix for display: `tag.replace(/.*:/, '')`.
+
+--------------------------------------------------------------------------------
+PHASE 1 — TASK 4: Cart Page + CartIcon
+Completed: 2026-06-16
+--------------------------------------------------------------------------------
+
+## Client-only pages: use useParams() not params prop
+  Pages that must be 'use client' (e.g. to read Zustand) cannot await params
+  because async functions are not allowed in client components.
+  Use `useParams()` from 'next/navigation' instead — it returns route params
+  synchronously on the client with no prop drilling needed.
+  Pattern:
+    'use client'
+    import { useParams } from 'next/navigation'
+    const params = useParams()
+    const locale = params.locale as string
+
+## CartItem missing currencyCode — technical debt
+  CartItem in store/cart.ts stores pricePerPerson as a plain number with no
+  currency code. Shopify variant price has a currencyCode (CAD for this store)
+  but it's not passed to addItem(). The cart page hardcodes 'CAD'.
+  Future fix: add `currencyCode: string` to CartItem and update TourBookingPanel
+  to pass `selectedVariant.price.currencyCode` into addItem().
+  Do NOT display UIStore.currency as if it were the item's price currency — it
+  is the display preference, not the stored price currency.
+
+## CartIcon hydration: Zustand reads fine in client component
+  CartIcon reads item count from Zustand via `useCartStore((s) => s.items)`.
+  Because the store uses the `persist` middleware (localStorage), the count
+  hydrates client-side after mount. This means SSR HTML shows count=0 and the
+  badge appears after hydration — acceptable for a cart icon.
+
+--------------------------------------------------------------------------------
+PHASE 1 — TASK 5: Tours Listing Page (/[locale]/tours)
+Completed: 2026-06-16
+--------------------------------------------------------------------------------
+
+## Shopify Storefront API `products` root field for all-products listing
+  The `products(first: N)` root field on the Storefront API returns all products
+  published to the Headless channel, regardless of collection membership.
+  Shape is identical to the `collection.products.nodes` shape so `CollectionProduct`
+  type reuses cleanly.
+  Filter to known productTypes server-side (before passing to the client component)
+  to exclude any Shopify demo products (e.g. snowboards) that may be published.
+
+## Client-side filter pattern: server fetches all, client holds filter state
+  For a listing page with a small product count (< 100), fetching all products
+  once on the server and filtering client-side is preferable to re-fetching per
+  filter change. Trade-off: the full list is serialized into the RSC payload.
+  At ~11 products this is negligible; revisit if the catalog grows past ~200.
+
+## next-intl variable interpolation in messages
+  Simple variable substitution uses ICU `{var}` syntax:
+    message: "{count} tours"
+    call:    t('results', { count: n })
+  This is distinct from ICU plural syntax. For English, the singular/plural
+  distinction ("1 tour" vs "2 tours") is lost with simple interpolation.
+  Acceptable for MVP; add plural forms if copy quality becomes a requirement.
+
+--------------------------------------------------------------------------------
+PHASE 1 — TASK 6: Mobile Menu (hamburger + slide panel)
+Completed: 2026-06-16
+--------------------------------------------------------------------------------
+
+## Split client trigger from server layout component
+  Header is a sync server component (uses useTranslations) — it cannot hold
+  client state directly. Pattern: split the hamburger button into a dedicated
+  client component (MobileMenuButton) that reads/writes UIStore, and a separate
+  client component (MobileMenu) for the overlay panel. Header imports both as
+  client leaf nodes and renders them in the right positions.
+
+## Returning a Fragment from a server layout component
+  To render <MobileMenu> at the same DOM level as <header> (sibling, not child),
+  wrap the Header return in a Fragment: return (<><header>...</header><MobileMenu /></>).
+  MobileMenu uses fixed positioning, so DOM position doesn't affect visual layout,
+  but placing it as a sibling of <header> is the cleanest structure.
+
+## Auto-close on pathname change via useEffect
+  usePathname() from 'next/navigation' returns the current path string.
+  Putting it in a useEffect dependency array lets the panel close automatically
+  when any Link inside it is clicked, without needing onClick handlers on every link.
+  Pattern:
+    const pathname = usePathname()
+    useEffect(() => { setOpen(false) }, [pathname, setOpen])
+
+## Always-in-DOM with CSS transitions vs conditional render
+  Returning null when closed prevents the slide-out animation. Using CSS
+  `translate-x-0 / -translate-x-full` with `transition-transform` keeps the
+  element in the DOM and allows smooth open/close. Use `pointer-events-none`
+  on the backdrop when closed so it doesn't capture clicks. Use `aria-hidden`
+  on the panel when closed for accessibility.
+
+--------------------------------------------------------------------------------
+PHASE 1 — TASK 7: About/Login/Agent pages + typedRoutes
+Completed: 2026-06-16
+--------------------------------------------------------------------------------
+
+## typedRoutes requires ALL href targets to have page files
+  `experimental: { typedRoutes: true }` validates every `href` prop on <Link>
+  and every argument to `redirect()` at build time.
+  Any href pointing to a non-existent route file causes a build failure.
+  Strategy: create stub pages for routes that aren't fully implemented yet
+  (login, agent) so typedRoutes can be enabled without blocking development.
+  Stubs can be as minimal as a single paragraph — the goal is just a page file.
+
+## next-intl getTranslations: call t() eagerly, not dynamically in loops
+  When building data-driven sections (e.g. feature cards), call each
+  translation key explicitly and store the result, rather than passing the key
+  string into a loop:
+    WRONG: features.map(f => t(f.titleKey))   — type error with strict next-intl types
+    RIGHT: const features = [{ title: t('feature1Title') }, ...]
+  This keeps TypeScript inference tight and avoids dynamic key access.
+
+--------------------------------------------------------------------------------
+PHASE 1 — TASK 8: SEO Metadata (generateMetadata)
+Completed: 2026-06-16
+--------------------------------------------------------------------------------
+
+## Static metadata in intermediate layout breaks title template chain
+  A `export const metadata` in `[locale]/layout.tsx` overrides — not merges —
+  the title template defined in `app/layout.tsx`. Every child page then inherits
+  the intermediate layout's plain string title rather than the root template.
+  Fix: remove static metadata from intermediate layouts entirely. The root
+  `app/layout.tsx` template (`'%s | GlobalTours'`) then propagates to all
+  locale pages automatically.
+  Rule: only define `metadata` in app/layout.tsx (site-wide defaults + template)
+  and in individual page files (page-specific title/description/OG).
+  Never put static metadata on intermediate layouts unless you intentionally
+  want to reset the template for a subtree.
+
+## generateMetadata for PDP: re-fetch is safe, Next.js deduplicates
+  `generateMetadata` and the page's `default export` both call
+  `shopifyClient.request(PRODUCT_QUERY, { variables: { handle } })`.
+  Next.js deduplicates fetch calls with the same URL+body within one request,
+  so the Shopify API is only hit once per page load despite two call sites.
+  Always wrap the generateMetadata fetch in try/catch and return `{}` on error
+  so a missing or invalid product doesn't cause a 500 on metadata generation.
+
+## generateMetadata with locale: pass locale explicitly to getTranslations
+  In generateMetadata (which receives params), pass locale explicitly:
+    const t = await getTranslations({ locale, namespace: 'meta' })
+  This ensures the correct locale is used even if the request context hasn't
+  been fully set up when generateMetadata runs (it runs in parallel with the
+  page component, outside the normal render tree).
+
+--------------------------------------------------------------------------------
+PHASE 1 — TASK 9: Loading skeletons + error/not-found pages
+Completed: 2026-06-16
+--------------------------------------------------------------------------------
+
+## App Router loading/error/not-found file conventions
+  Next.js App Router reserves three co-located filenames per segment:
+    loading.tsx  — shown instantly while the segment's async page resolves
+    error.tsx    — React error boundary; MUST be 'use client' (receives reset fn)
+    not-found.tsx — shown when notFound() is called or route doesn't exist
+  Place them at the segment level they cover:
+    app/not-found.tsx           → global 404 fallback
+    app/[locale]/error.tsx      → catches errors in all locale pages
+    app/[locale]/tours/loading.tsx → covers only the tours listing
+  A loading.tsx at [locale]/ would cover ALL locale pages — too broad for a
+  storefront where only data-fetching pages need skeletons.
+
+## loading.tsx must mirror the real page layout to avoid layout shift
+  Skeleton dimensions should match the actual rendered content:
+  - Same grid column counts (grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4)
+  - Same aspect ratios (aspect-[4/3] for card images)
+  - Same padding/spacing as the real page
+  Mismatched skeletons cause jarring layout shifts when content loads.
+  Use `animate-pulse` on bg-muted divs — no extra packages needed.
+
+## error.tsx: log to console and expose reset()
+  The error boundary receives `{ error, reset }`. Always:
+    useEffect(() => { console.error(error) }, [error])
+  so errors surface in dev tools even when the UI shows a friendly message.
+  The `reset()` call re-renders the segment without a full page reload,
+  which works for transient errors (network blip, rate limit).
+  The `error.digest` field is a server-side hash Vercel/Next logs — useful
+  for matching client-visible errors to server logs in production.
+
+--------------------------------------------------------------------------------
+PHASE 1 — TASK 11: Shopify Checkout Integration
+Completed: 2026-06-16
+--------------------------------------------------------------------------------
+
+## Shopify headless checkout = cartCreate mutation → checkoutUrl redirect
+  The correct pattern for Shopify headless checkout:
+    1. POST to BFF route with cart items
+    2. BFF calls `cartCreate` Storefront API mutation with `lines` array
+    3. Mutation returns `cart.checkoutUrl` (a Shopify-hosted checkout URL)
+    4. Client does `window.location.href = checkoutUrl`
+  Shopify handles payment, order confirmation, and emails entirely.
+  No PCI scope, no payment form to build.
+
+## CartLineInput: quantity=1 per booking, not per person
+  Our tour variants are priced per party (e.g. "2 Person — CAD 816 total").
+  Send `quantity: 1` for each line item — the variant price already represents
+  the full party cost. Sending `quantity: partySize` would multiply the total
+  incorrectly (e.g. 2 × CAD 816 = CAD 1632 for a CAD 816 tour).
+  Attach partySize as a custom `attribute` instead so it's visible in the order.
+
+## Custom attributes survive into Shopify orders
+  `attributes: [{ key, value }]` on CartLineInput are stored as line item
+  properties in the Shopify order. Use them for tour-specific data:
+  "Departure Date", "Party Size", "Pickup Location".
+  These appear in the Shopify Admin order view and in confirmation emails
+  (if the email template is configured to show line item properties).
+
+## shopifyClient.request supports mutations, not just queries
+  The `@shopify/storefront-api-client` `request()` method works identically
+  for mutations. Pass the mutation string as the first argument — no separate
+  mutation method needed. Use the generic type parameter to type the result:
+    shopifyClient.request<CartCreateResult>(CART_CREATE_MUTATION, { variables })
+
+## Always check userErrors after Storefront API mutations
+  Shopify mutations return both a top-level `errors` array (transport/auth errors)
+  and a `userErrors` array inside the mutation result (business logic errors).
+  Always check both:
+    if (errors) → HTTP 502
+    if (userErrors.length > 0) → HTTP 422 with the first message
+
+## Shopify development store checkout password
+  All Shopify Partner development stores are password-protected by default.
+  Disabling the password requires an active paid Shopify plan.
+  Workaround for testing: visit `{storeDomain}/password`, enter the storefront
+  password (found at Online Store → Preferences → Password protection), and
+  Shopify sets a session cookie that bypasses the prompt for ~48 hours.
+
+--------------------------------------------------------------------------------
+PHASE 1 — TASK 12: Footer upgrade + currencyCode fix
+Completed: 2026-06-16
+--------------------------------------------------------------------------------
+
+## Server component receiving locale for link generation
+  Footer, like Header, needs `locale` to generate `/${locale}/...` hrefs.
+  Pass it as a prop from the locale layout (which already awaits params):
+    layout.tsx: <Footer locale={locale} />
+    Footer.tsx: export function Footer({ locale }: { locale: string })
+  Never use `useLocale()` in a server component — that's for client components.
+  useTranslations() is valid in a sync server component.
+
+## currencyCode must travel with the price, not be assumed
+  Shopify prices always carry a `currencyCode` alongside `amount`.
+  Storing only the number and hardcoding the currency string elsewhere
+  breaks if the store ever supports multiple currencies or the base currency
+  changes. Always propagate `currencyCode` from the variant into the CartItem
+  and display it from there.
+  For the cart total, all items in a single Shopify store share one currency,
+  so `items[0]?.currencyCode` is a safe fallback for the total row.
+
+--------------------------------------------------------------------------------
+PHASE 1 — TASK 13: Tours search + PDP back-link fix
+Completed: 2026-06-16
+--------------------------------------------------------------------------------
+
+## Client-side debounce with useEffect + clearTimeout
+  For search inputs that filter an in-memory list, a 200 ms debounce prevents
+  re-rendering the grid on every keystroke without needing an external library:
+    const [inputValue, setInputValue] = useState('')
+    const [searchQuery, setSearchQuery] = useState('')
+    useEffect(() => {
+      const id = setTimeout(() => setSearchQuery(inputValue.trim().toLowerCase()), 200)
+      return () => clearTimeout(id)
+    }, [inputValue])
+  inputValue drives the controlled input; searchQuery drives the filter.
+  The cleanup function cancels the previous timer when the user types again.
+
+## Combining multiple filter dimensions client-side
+  When multiple filter axes exist (type button + search text), AND them together
+  in a single .filter() pass rather than chaining two .filter() calls:
+    products.filter(p => matchesType(p) && matchesQuery(p))
+  One pass is O(n); two chained passes are also O(n) but allocate an
+  intermediate array. More importantly, a single expression is easier to read
+  and extend with a third dimension later.
+
+================================================================================

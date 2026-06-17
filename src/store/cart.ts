@@ -8,6 +8,7 @@ export interface CartItem {
   departureDate: string
   partySize: number
   pricePerPerson: number
+  currencyCode: string
   quantity: number
   pickupLocationId: string | null
   addons: Array<{ id: string; name: string; price: number; quantity: number }>

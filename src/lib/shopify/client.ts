@@ -10,5 +10,5 @@ if (!process.env.SHOPIFY_STOREFRONT_ACCESS_TOKEN) {
 export const shopifyClient = createStorefrontApiClient({
   storeDomain: process.env.NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN,
   apiVersion: '2026-01',
-  publicAccessToken: process.env.SHOPIFY_STOREFRONT_ACCESS_TOKEN,
+  privateAccessToken: process.env.SHOPIFY_STOREFRONT_ACCESS_TOKEN,
 })
