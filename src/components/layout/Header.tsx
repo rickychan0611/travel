@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
+import { Show, UserButton } from '@clerk/nextjs'
 import { LocaleSwitcher } from './LocaleSwitcher'
 import { CurrencySwitcher } from './CurrencySwitcher'
 import { CartIcon } from './CartIcon'
@@ -32,12 +33,20 @@ export function Header({ locale }: { locale: string }) {
             <LocaleSwitcher />
             <CurrencySwitcher />
             <CartIcon locale={locale} />
-            <Link href={`/${locale}/login`}>
-              <Button variant="outline" size="sm">{t('login')}</Button>
-            </Link>
-            <Link href={`/${locale}/agent`}>
-              <Button size="sm">{t('agentPortal')}</Button>
-            </Link>
+            <Show when="signed-out">
+              <Link href={`/${locale}/login`}>
+                <Button variant="outline" size="sm">{t('login')}</Button>
+              </Link>
+            </Show>
+            <Show when="signed-in">
+              <Link href={`/${locale}/bookings`}>
+                <Button size="sm" variant="ghost">{t('myBookings')}</Button>
+              </Link>
+              <Link href={`/${locale}/agent`}>
+                <Button size="sm" variant="outline">{t('agentPortal')}</Button>
+              </Link>
+              <UserButton />
+            </Show>
           </div>
 
           {/* Mobile actions */}

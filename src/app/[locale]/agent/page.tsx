@@ -1,15 +1,33 @@
-import { Building2 } from 'lucide-react'
+import { currentUser } from '@clerk/nextjs/server'
+import { getTranslations } from 'next-intl/server'
+import type { Metadata } from 'next'
+import { AgentDashboard } from '@/components/agent/AgentDashboard'
+import { AgentAccessDenied } from '@/components/agent/AgentAccessDenied'
 
-export default function AgentPortalPage() {
-  return (
-    <div className="container mx-auto flex flex-col items-center justify-center px-4 py-24 text-center">
-      <div className="p-4 rounded-full bg-muted mb-6">
-        <Building2 className="size-8 text-muted-foreground" />
-      </div>
-      <h1 className="text-xl font-semibold mb-2">Agent Portal</h1>
-      <p className="text-sm text-muted-foreground">
-        The agent portal is under development. Please reach out to your account manager for wholesale pricing and booking tools.
-      </p>
-    </div>
-  )
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}): Promise<Metadata> {
+  const { locale } = await params
+  const t = await getTranslations({ locale, namespace: 'agent' })
+  return { title: t('title') }
+}
+
+export default async function AgentPortalPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>
+}) {
+  const { locale } = await params
+  const user = await currentUser()
+  const isAgent = user?.publicMetadata?.role === 'agent'
+  const displayName =
+    user?.firstName ?? user?.emailAddresses[0]?.emailAddress?.split('@')[0] ?? ''
+
+  if (!isAgent) {
+    return <AgentAccessDenied locale={locale} />
+  }
+
+  return <AgentDashboard locale={locale} displayName={displayName} />
 }

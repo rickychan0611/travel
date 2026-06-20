@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useTranslations } from 'next-intl'
+import { Show, UserButton } from '@clerk/nextjs'
 import { useUIStore } from '@/store/ui'
 import { LocaleSwitcher } from './LocaleSwitcher'
 import { CurrencySwitcher } from './CurrencySwitcher'
@@ -63,12 +64,22 @@ export function MobileMenu({ locale }: { locale: string }) {
 
           {/* CTA buttons */}
           <div className="flex flex-col gap-2 mt-auto">
-            <Link href={`/${locale}/login`} className="w-full">
-              <Button variant="outline" className="w-full">{t('login')}</Button>
-            </Link>
-            <Link href={`/${locale}/agent`} className="w-full">
-              <Button className="w-full">{t('agentPortal')}</Button>
-            </Link>
+            <Show when="signed-out">
+              <Link href={`/${locale}/login`} className="w-full">
+                <Button variant="outline" className="w-full">{t('login')}</Button>
+              </Link>
+            </Show>
+            <Show when="signed-in">
+              <Link href={`/${locale}/bookings`} className="w-full">
+                <Button variant="ghost" className="w-full">{t('myBookings')}</Button>
+              </Link>
+              <Link href={`/${locale}/agent`} className="w-full">
+                <Button variant="outline" className="w-full">{t('agentPortal')}</Button>
+              </Link>
+              <div className="flex items-center gap-3 pt-2 px-1">
+                <UserButton />
+              </div>
+            </Show>
           </div>
         </div>
       </div>

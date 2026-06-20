@@ -456,4 +456,52 @@ Completed: 2026-06-16
   intermediate array. More importantly, a single expression is easier to read
   and extend with a third dimension later.
 
+--------------------------------------------------------------------------------
+DEPLOYMENT: Vercel Production
+Completed: 2026-06-16
+--------------------------------------------------------------------------------
+
+## typedRoutes: dynamic href strings must be cast as Route
+  With `typedRoutes: true`, Next.js validates every <Link href> and router.push()
+  at build time. Template-literal hrefs like `/${locale}/tours/${handle}` are not
+  statically provable as valid routes and fail tsc with:
+    "Type 'string' is not assignable to type 'UrlObject | RouteImpl<string>'"
+  Fix: import `Route` from 'next' and cast the dynamic string:
+    import type { Route } from 'next'
+    const href = `/${locale}/tours/${handle}` as Route
+    router.push(segments.join('/') as Route)
+  Apply this anywhere a string is constructed at runtime and passed to Link/router.
+
+## typedRoutes: not-found.tsx href must point to an existing page
+  The global `app/not-found.tsx` cannot use `href="/"` because there is no
+  `app/page.tsx` in a locale-routed app — the root route doesn't exist.
+  typedRoutes enforces this at build time. Use the default locale path instead:
+    <Link href="/zh-CN">Back to Home</Link>
+  Or redirect via middleware if the default locale may change.
+
+## PowerShell 5.1 pipeline adds BOM to native process stdin
+  When you pipe a string to a native executable in PowerShell 5.1 via `|`, the
+  string bytes may include a UTF-16 BOM (U+FEFF, decimal 65279) at position 0.
+  This affects `vercel env add` and any other CLI that reads values from stdin.
+  The Shopify Storefront API client converts the token to a ByteString for the
+  HTTP header — a BOM character (value > 255) causes:
+    "Cannot convert argument to a ByteString because the character at
+     index 0 has a value of 65279 which is greater than 255."
+  WRONG (PowerShell pipe, any encoding trick):
+    $val | vercel env add NAME production
+    [Console]::OutputEncoding = New-Object System.Text.UTF8Encoding $false
+    $val | vercel env add NAME production   ← still adds BOM
+  RIGHT (use Bash printf — no trailing newline, no BOM):
+    printf 'actual_value' | vercel env add NAME production
+  Rule: always use the Bash tool (Git Bash) for `vercel env add` operations
+  on Windows, never PowerShell, to avoid BOM contamination.
+
+## Vercel env var BOM is silent — only detected at runtime
+  A BOM-prefixed env var looks correct in `vercel env ls` (shown as "Encrypted")
+  and the deployment builds successfully. The BOM is only detected at runtime
+  when the value is used — in this case, as an HTTP header value.
+  Pattern for diagnosing: call the affected API route directly and read the
+  error body. A ByteString error with value 65279 = BOM in an env var.
+  Fix: `vercel env rm NAME environment --yes`, then re-add via Bash printf.
+
 ================================================================================
