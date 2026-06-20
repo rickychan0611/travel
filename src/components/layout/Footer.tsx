@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { useTranslations } from 'next-intl'
+import type { Route } from 'next'
 
 export function Footer({ locale }: { locale: string }) {
   const t  = useTranslations('nav')
@@ -11,7 +12,7 @@ export function Footer({ locale }: { locale: string }) {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
           <div className="space-y-2">
-            <Link href={`/${locale}`} className="text-lg font-bold text-primary">
+            <Link href={`/${locale}` as Route} className="text-lg font-bold text-primary">
               GlobalTours
             </Link>
             <p className="text-sm text-muted-foreground">{tf('tagline')}</p>
@@ -22,7 +23,7 @@ export function Footer({ locale }: { locale: string }) {
             <h4 className="text-sm font-semibold">Explore</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <Link href={`/${locale}/tours`} className="hover:text-foreground transition-colors">
+                <Link href={`/${locale}/tours` as Route} className="hover:text-foreground transition-colors">
                   {t('tours')}
                 </Link>
               </li>
@@ -34,17 +35,17 @@ export function Footer({ locale }: { locale: string }) {
             <h4 className="text-sm font-semibold">Company</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
-                <Link href={`/${locale}/about`} className="hover:text-foreground transition-colors">
+                <Link href={`/${locale}/about` as Route} className="hover:text-foreground transition-colors">
                   {t('about')}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/login`} className="hover:text-foreground transition-colors">
+                <Link href={`/${locale}/login` as Route} className="hover:text-foreground transition-colors">
                   {t('login')}
                 </Link>
               </li>
               <li>
-                <Link href={`/${locale}/agent`} className="hover:text-foreground transition-colors">
+                <Link href={`/${locale}/agent` as Route} className="hover:text-foreground transition-colors">
                   {t('agentPortal')}
                 </Link>
               </li>

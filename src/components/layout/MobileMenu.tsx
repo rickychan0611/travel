@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useTranslations } from 'next-intl'
 import { Show, UserButton } from '@clerk/nextjs'
+import type { Route } from 'next'
 import { useUIStore } from '@/store/ui'
 import { LocaleSwitcher } from './LocaleSwitcher'
 import { CurrencySwitcher } from './CurrencySwitcher'
@@ -41,13 +42,13 @@ export function MobileMenu({ locale }: { locale: string }) {
           {/* Nav links */}
           <nav className="flex flex-col gap-1 mb-6">
             <Link
-              href={`/${locale}/tours`}
+              href={`/${locale}/tours` as Route}
               className="px-3 py-2 rounded-md text-sm font-medium hover:bg-muted transition-colors"
             >
               {t('tours')}
             </Link>
             <Link
-              href={`/${locale}/about`}
+              href={`/${locale}/about` as Route}
               className="px-3 py-2 rounded-md text-sm font-medium hover:bg-muted transition-colors"
             >
               {t('about')}
@@ -65,15 +66,15 @@ export function MobileMenu({ locale }: { locale: string }) {
           {/* CTA buttons */}
           <div className="flex flex-col gap-2 mt-auto">
             <Show when="signed-out">
-              <Link href={`/${locale}/login`} className="w-full">
+              <Link href={`/${locale}/login` as Route} className="w-full">
                 <Button variant="outline" className="w-full">{t('login')}</Button>
               </Link>
             </Show>
             <Show when="signed-in">
-              <Link href={`/${locale}/bookings`} className="w-full">
+              <Link href={`/${locale}/bookings` as Route} className="w-full">
                 <Button variant="ghost" className="w-full">{t('myBookings')}</Button>
               </Link>
-              <Link href={`/${locale}/agent`} className="w-full">
+              <Link href={`/${locale}/agent` as Route} className="w-full">
                 <Button variant="outline" className="w-full">{t('agentPortal')}</Button>
               </Link>
               <div className="flex items-center gap-3 pt-2 px-1">
