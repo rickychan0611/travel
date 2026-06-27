@@ -1,0 +1,58 @@
+{
+  "productHandle": "test-yellowstone-y3",
+  "productTitle": "Yellowstone 3-Day Tour 黄石3日游 (Test)",
+  "productType": "group-tour",
+  "tags": ["tour-code:Y3", "region:west-us", "tier:silver", "booking:manual"],
+  "departures": [
+    {
+      "date": "2026-08-05",
+      "inventory": 20,
+      "prices": {
+        "1 Person": "718.00",
+        "2 Persons": "488.00",
+        "3 Persons": "448.00",
+        "4 Persons": "408.00"
+      }
+    },
+    {
+      "date": "2026-08-12",
+      "inventory": 3,
+      "prices": {
+        "1 Person": "718.00",
+        "2 Persons": "488.00",
+        "3 Persons": "448.00",
+        "4 Persons": "408.00"
+      }
+    },
+    {
+      "date": "2026-08-19",
+      "inventory": 0,
+      "prices": {
+        "1 Person": "758.00",
+        "2 Persons": "518.00",
+        "3 Persons": "478.00",
+        "4 Persons": "438.00"
+      }
+    },
+    {
+      "date": "2026-08-26",
+      "inventory": 12,
+      "prices": {
+        "1 Person": "758.00",
+        "2 Persons": "518.00",
+        "3 Persons": "478.00",
+        "4 Persons": "438.00"
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "inventory": 8,
+      "prices": {
+        "1 Person": "718.00",
+        "2 Persons": "488.00",
+        "3 Persons": "448.00",
+        "4 Persons": "408.00"
+      }
+    }
+  ]
+}
