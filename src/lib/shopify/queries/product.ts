@@ -20,11 +20,12 @@ export const PRODUCT_QUERY = `#graphql
           currencyCode
         }
       }
-      variants(first: 10) {
+      variants(first: 250) {
         nodes {
           id
           title
           availableForSale
+          quantityAvailable
           price {
             amount
             currencyCode
