@@ -4,6 +4,9 @@
  * Creates the product if it does not exist; adds any missing departure × party-size
  * variants. Idempotent: re-running skips departure dates that already have variants.
  *
+ * Requires only write_products scope — inventory is set via inventory_quantity
+ * on the variant body at creation time (no separate inventory_levels/set call needed).
+ *
  * Usage:
  *   node scripts/seed-departure-variants.mjs
  *   node scripts/seed-departure-variants.mjs --handle my-other-tour
@@ -71,29 +74,10 @@ async function shopifyPost(path, body) {
   return json
 }
 
-// ── Inventory ─────────────────────────────────────────────────────────────────
-
-async function getLocationId() {
-  const { locations } = await shopifyGet('/locations.json')
-  if (!locations?.length) throw new Error('No locations found in Shopify store')
-  return locations[0].id
-}
-
-async function setInventory(locationId, inventoryItemId, available) {
-  await shopifyPost('/inventory_levels/set.json', {
-    location_id: locationId,
-    inventory_item_id: inventoryItemId,
-    available,
-  })
-}
-
 // ── Main ──────────────────────────────────────────────────────────────────────
 
 async function main() {
   console.log(`\n🚀 Seeding: ${handle}`)
-
-  const locationId = await getLocationId()
-  console.log(`✓ Location ID: ${locationId}`)
 
   // 1. Check for existing product
   const { products } = await shopifyGet(
@@ -110,7 +94,7 @@ async function main() {
         option2: ps,
         price: dep.prices[ps],
         inventory_management: 'shopify',
-        inventory_quantity: 0, // overridden below via inventory_levels/set
+        inventory_quantity: dep.inventory,
       })),
     )
 
@@ -131,12 +115,9 @@ async function main() {
     product = created
     console.log(`  ✓ Created product ID: ${product.id}`)
 
-    // Set inventory for every variant
-    for (const variant of product.variants) {
-      const dep = config.departures.find(d => d.date === variant.option1)
-      if (!dep) continue
-      await setInventory(locationId, variant.inventory_item_id, dep.inventory)
-      console.log(`  ✓ Inventory: ${variant.option1} / ${variant.option2} → ${dep.inventory}`)
+    for (const v of product.variants) {
+      const dep = config.departures.find(d => d.date === v.option1)
+      console.log(`  ✓ ${v.option1} / ${v.option2} — ${v.price} (qty: ${dep?.inventory ?? '?'})`)
     }
   } else {
     // 2b. Add only the missing departure dates
@@ -156,16 +137,16 @@ async function main() {
             option2: ps,
             price: dep.prices[ps],
             inventory_management: 'shopify',
+            inventory_quantity: dep.inventory,
           },
         })
-        await setInventory(locationId, variant.inventory_item_id, dep.inventory)
-        console.log(`    ✓ ${ps} → ${dep.prices[ps]} (qty: ${dep.inventory})`)
+        console.log(`    ✓ ${ps} → ${variant.price} (qty: ${dep.inventory})`)
       }
     }
   }
 
   console.log('\n✅ Done!')
-  console.log(`  👉 Publish this product to the Headless channel in Shopify Admin:`)
+  console.log(`  👉 Publish to the Headless channel in Shopify Admin:`)
   console.log(`     https://${DOMAIN}/admin/products/${product.id}`)
 }
 
