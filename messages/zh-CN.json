@@ -136,5 +136,12 @@
     "cancel": "取消",
     "confirm": "确认",
     "currency": "货币"
+  },
+  "calendar": {
+    "weekdays": ["日", "一", "二", "三", "四", "五", "六"],
+    "limited": "紧张",
+    "soldOut": "售罄",
+    "noDateThisMonth": "本月暂无出发日期",
+    "selectDatePrompt": "请在日历中选择出发日期"
   }
 }
