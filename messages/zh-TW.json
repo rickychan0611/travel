@@ -136,5 +136,25 @@
     "cancel": "取消",
     "confirm": "確認",
     "currency": "貨幣"
+  },
+  "orderConfirmation": {
+    "title": "預訂成功！",
+    "orderNumber": "訂單號",
+    "itinerarySummary": "行程摘要",
+    "departureDate": "出發日期",
+    "partySize": "人數",
+    "pricePerPerson": "單價",
+    "subtotal": "小計",
+    "total": "合計",
+    "emailSentTo": "確認郵件已發送至",
+    "orderStatus": "訂單狀態",
+    "continueBrowsing": "繼續瀏覽行程",
+    "myBookings": "查看我的預訂",
+    "status": {
+      "paid": "已付款",
+      "pending": "待付款",
+      "refunded": "已退款",
+      "other": "處理中"
+    }
   }
 }
