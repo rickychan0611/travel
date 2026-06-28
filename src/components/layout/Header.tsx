@@ -7,6 +7,7 @@ import { CartIcon } from './CartIcon'
 import { MobileMenu } from './MobileMenu'
 import { MobileMenuButton } from './MobileMenuButton'
 import { Button } from '@/components/ui/button'
+import type { Route } from 'next'
 import { version } from '../../../package.json'
 
 const buildTime = process.env.BUILD_TIME
@@ -27,7 +28,7 @@ export function Header({ locale }: { locale: string }) {
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur">
         <div className="container mx-auto flex h-16 items-center justify-between px-4">
           <div className="flex items-center gap-2">
-            <Link href={`/${locale}`} className="text-xl font-bold text-primary">
+            <Link href={`/${locale}` as Route} className="text-xl font-bold text-primary">
               GlobalTours
             </Link>
             <span className="hidden md:flex flex-col leading-none text-[10px] text-muted-foreground bg-muted px-1.5 py-1 rounded gap-0.5">
@@ -38,10 +39,10 @@ export function Header({ locale }: { locale: string }) {
 
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-6 text-sm">
-            <Link href={`/${locale}/tours`} className="text-muted-foreground hover:text-foreground transition-colors">
+            <Link href={`/${locale}/tours` as Route} className="text-muted-foreground hover:text-foreground transition-colors">
               {t('tours')}
             </Link>
-            <Link href={`/${locale}/about`} className="text-muted-foreground hover:text-foreground transition-colors">
+            <Link href={`/${locale}/about` as Route} className="text-muted-foreground hover:text-foreground transition-colors">
               {t('about')}
             </Link>
           </nav>
@@ -52,15 +53,15 @@ export function Header({ locale }: { locale: string }) {
             <CurrencySwitcher />
             <CartIcon locale={locale} />
             <Show when="signed-out">
-              <Link href={`/${locale}/login`}>
+              <Link href={`/${locale}/login` as Route}>
                 <Button variant="outline" size="sm">{t('login')}</Button>
               </Link>
             </Show>
             <Show when="signed-in">
-              <Link href={`/${locale}/bookings`}>
+              <Link href={`/${locale}/bookings` as Route}>
                 <Button size="sm" variant="ghost">{t('myBookings')}</Button>
               </Link>
-              <Link href={`/${locale}/agent`}>
+              <Link href={`/${locale}/agent` as Route}>
                 <Button size="sm" variant="outline">{t('agentPortal')}</Button>
               </Link>
               <UserButton />
