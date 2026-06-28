@@ -7,7 +7,7 @@ import { CheckCircle } from 'lucide-react'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
-import { getOrderById } from '@/lib/shopify/orders'
+import { getOrderById, getOrdersByEmail, type ConfirmationOrder } from '@/lib/shopify/orders'
 
 export async function generateMetadata({
   params,
@@ -46,19 +46,32 @@ export default async function OrderConfirmationPage({
   }
   const userEmail = user.emailAddresses[0]?.emailAddress ?? ''
 
-  if (!order_id) notFound()
+  let order: ConfirmationOrder | null = null
 
-  let order: Awaited<ReturnType<typeof getOrderById>>
   try {
-    order = await getOrderById(order_id)
+    if (order_id) {
+      // Shopify passed back an order ID in the URL
+      order = await getOrderById(order_id)
+      // Ownership check
+      if (order && order.email.toLowerCase() !== userEmail.toLowerCase()) {
+        order = null
+      }
+    } else {
+      // No order_id (e.g. user came back via "Continue Shopping" button).
+      // Show the most recent order placed with this email.
+      const recentOrders = await getOrdersByEmail(userEmail)
+      const latest = recentOrders[0]
+      if (latest) {
+        // getOrdersByEmail returns Order type; fetch full details via getOrderById
+        order = await getOrderById(latest.id)
+      }
+    }
   } catch {
+    // Admin API error → show 404 rather than 500
     notFound()
   }
-  if (!order) notFound()
 
-  if (order.email.toLowerCase() !== userEmail.toLowerCase()) {
-    notFound()
-  }
+  if (!order) notFound()
 
   const normalizedStatus = order.financialStatus.toUpperCase().replace(/ /g, '_')
   const statusLabels: Record<string, string> = {
