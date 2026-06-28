@@ -143,5 +143,25 @@
     "soldOut": "Sold Out",
     "noDateThisMonth": "No departures this month",
     "selectDatePrompt": "Please select a departure date from the calendar"
+  },
+  "orderConfirmation": {
+    "title": "Booking Confirmed!",
+    "orderNumber": "Order",
+    "itinerarySummary": "Trip Summary",
+    "departureDate": "Departure Date",
+    "partySize": "Party Size",
+    "pricePerPerson": "Price",
+    "subtotal": "Subtotal",
+    "total": "Total",
+    "emailSentTo": "Confirmation email sent to",
+    "orderStatus": "Order Status",
+    "continueBrowsing": "Browse Tours",
+    "myBookings": "My Bookings",
+    "status": {
+      "paid": "Paid",
+      "pending": "Pending",
+      "refunded": "Refunded",
+      "other": "Processing"
+    }
   }
 }
