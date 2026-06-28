@@ -30,8 +30,8 @@ export function Header({ locale }: { locale: string }) {
             <Link href={`/${locale}`} className="text-xl font-bold text-primary">
               GlobalTours
             </Link>
-            <span className="hidden md:flex flex-col leading-none text-[10px] text-muted-foreground/60 pt-0.5">
-              <span>v{version}</span>
+            <span className="hidden md:flex flex-col leading-none text-[10px] text-muted-foreground bg-muted px-1.5 py-1 rounded gap-0.5">
+              <span className="font-medium">v{version}</span>
               <span>{buildTime}</span>
             </span>
           </div>
