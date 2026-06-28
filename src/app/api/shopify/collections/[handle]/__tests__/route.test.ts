@@ -1,13 +1,7 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest'
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 import { NextRequest } from 'next/server'
+import { shopifyClient } from '../../../../../../lib/shopify/client'
 
-const mockRequest = vi.fn()
-
-vi.mock('@/lib/shopify/client', () => ({
-  shopifyClient: { request: mockRequest },
-}))
-
-// Import after mock is set up
 const { GET } = await import('../route')
 
 const makeParams = (handle: string) =>
@@ -15,7 +9,7 @@ const makeParams = (handle: string) =>
 
 const makeCollectionData = (handle: string) => ({
   collection: {
-    id: `gid://shopify/Collection/1`,
+    id: 'gid://shopify/Collection/1',
     handle,
     title: 'Hot Seasonal',
     products: {
@@ -35,13 +29,19 @@ const makeCollectionData = (handle: string) => ({
 })
 
 describe('GET /api/shopify/collections/[handle]', () => {
+  let requestSpy: ReturnType<typeof vi.spyOn<typeof shopifyClient, 'request'>>
+
   beforeEach(() => {
-    mockRequest.mockReset()
+    requestSpy = vi.spyOn(shopifyClient, 'request')
+  })
+
+  afterEach(() => {
+    vi.restoreAllMocks()
   })
 
   it('returns 200 with collection data for a valid handle', async () => {
     const data = makeCollectionData('hot-seasonal')
-    mockRequest.mockResolvedValueOnce({ data, errors: undefined })
+    requestSpy.mockResolvedValueOnce({ data, errors: undefined } as never)
 
     const req = new NextRequest('http://localhost/api/shopify/collections/hot-seasonal')
     const res = await GET(req, makeParams('hot-seasonal'))
@@ -53,7 +53,7 @@ describe('GET /api/shopify/collections/[handle]', () => {
   })
 
   it('returns 200 with null collection when handle does not exist', async () => {
-    mockRequest.mockResolvedValueOnce({ data: { collection: null }, errors: undefined })
+    requestSpy.mockResolvedValueOnce({ data: { collection: null }, errors: undefined } as never)
 
     const req = new NextRequest('http://localhost/api/shopify/collections/nonexistent')
     const res = await GET(req, makeParams('nonexistent'))
@@ -64,10 +64,7 @@ describe('GET /api/shopify/collections/[handle]', () => {
   })
 
   it('returns 500 when Shopify returns errors', async () => {
-    mockRequest.mockResolvedValueOnce({
-      data: undefined,
-      errors: [{ message: 'Unauthorized' }],
-    })
+    requestSpy.mockResolvedValueOnce({ data: undefined, errors: [{ message: 'Unauthorized' }] } as never)
 
     const req = new NextRequest('http://localhost/api/shopify/collections/hot-seasonal')
     const res = await GET(req, makeParams('hot-seasonal'))
@@ -76,7 +73,7 @@ describe('GET /api/shopify/collections/[handle]', () => {
   })
 
   it('returns 500 when shopifyClient.request throws', async () => {
-    mockRequest.mockRejectedValueOnce(new Error('Network error'))
+    requestSpy.mockRejectedValueOnce(new Error('Network error'))
 
     const req = new NextRequest('http://localhost/api/shopify/collections/hot-seasonal')
     const res = await GET(req, makeParams('hot-seasonal'))
@@ -88,7 +85,7 @@ describe('GET /api/shopify/collections/[handle]', () => {
 
   it('response products include id, title, handle, priceRange, and images', async () => {
     const data = makeCollectionData('hot-seasonal')
-    mockRequest.mockResolvedValueOnce({ data, errors: undefined })
+    requestSpy.mockResolvedValueOnce({ data, errors: undefined } as never)
 
     const req = new NextRequest('http://localhost/api/shopify/collections/hot-seasonal')
     const res = await GET(req, makeParams('hot-seasonal'))

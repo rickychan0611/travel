@@ -1,11 +1,6 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest'
+import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 import { NextRequest } from 'next/server'
-
-const mockRequest = vi.fn()
-
-vi.mock('@/lib/shopify/client', () => ({
-  shopifyClient: { request: mockRequest },
-}))
+import { shopifyClient } from '../../../../../lib/shopify/client'
 
 const { GET } = await import('../route')
 
@@ -37,8 +32,14 @@ const mockCollectionData = {
 }
 
 describe('GET /api/shopify/products', () => {
+  let requestSpy: ReturnType<typeof vi.spyOn<typeof shopifyClient, 'request'>>
+
   beforeEach(() => {
-    mockRequest.mockReset()
+    requestSpy = vi.spyOn(shopifyClient, 'request')
+  })
+
+  afterEach(() => {
+    vi.restoreAllMocks()
   })
 
   it('returns 400 when collection param is missing', async () => {
@@ -51,7 +52,7 @@ describe('GET /api/shopify/products', () => {
   })
 
   it('returns 200 with collection data for a valid collection param', async () => {
-    mockRequest.mockResolvedValueOnce({ data: mockCollectionData, errors: undefined })
+    requestSpy.mockResolvedValueOnce({ data: mockCollectionData, errors: undefined } as never)
 
     const req = new NextRequest(makeUrl({ collection: 'hot-seasonal' }))
     const res = await GET(req)
@@ -62,34 +63,31 @@ describe('GET /api/shopify/products', () => {
   })
 
   it('passes the first param as a number to shopifyClient', async () => {
-    mockRequest.mockResolvedValueOnce({ data: mockCollectionData, errors: undefined })
+    requestSpy.mockResolvedValueOnce({ data: mockCollectionData, errors: undefined } as never)
 
     const req = new NextRequest(makeUrl({ collection: 'hot-seasonal', first: '10' }))
     await GET(req)
 
-    expect(mockRequest).toHaveBeenCalledWith(
+    expect(requestSpy).toHaveBeenCalledWith(
       expect.any(String),
       expect.objectContaining({ variables: { handle: 'hot-seasonal', first: 10 } })
     )
   })
 
   it('defaults first to 20 when not provided', async () => {
-    mockRequest.mockResolvedValueOnce({ data: mockCollectionData, errors: undefined })
+    requestSpy.mockResolvedValueOnce({ data: mockCollectionData, errors: undefined } as never)
 
     const req = new NextRequest(makeUrl({ collection: 'hot-seasonal' }))
     await GET(req)
 
-    expect(mockRequest).toHaveBeenCalledWith(
+    expect(requestSpy).toHaveBeenCalledWith(
       expect.any(String),
       expect.objectContaining({ variables: { handle: 'hot-seasonal', first: 20 } })
     )
   })
 
   it('returns 500 when Shopify returns errors', async () => {
-    mockRequest.mockResolvedValueOnce({
-      data: undefined,
-      errors: [{ message: 'Unauthorized' }],
-    })
+    requestSpy.mockResolvedValueOnce({ data: undefined, errors: [{ message: 'Unauthorized' }] } as never)
 
     const req = new NextRequest(makeUrl({ collection: 'hot-seasonal' }))
     const res = await GET(req)
@@ -98,7 +96,7 @@ describe('GET /api/shopify/products', () => {
   })
 
   it('returns 500 when shopifyClient.request throws', async () => {
-    mockRequest.mockRejectedValueOnce(new Error('Network error'))
+    requestSpy.mockRejectedValueOnce(new Error('Network error'))
 
     const req = new NextRequest(makeUrl({ collection: 'hot-seasonal' }))
     const res = await GET(req)
