@@ -7,7 +7,8 @@ import { shopifyClient } from '@/lib/shopify/client'
 import { PRODUCT_QUERY } from '@/lib/shopify/queries/product'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
-import { TourBookingPanel } from '@/components/tour/TourBookingPanel'
+import { parseDepartureDates } from '@/lib/shopify/utils/parseVariants'
+import { TourDetailClient } from '@/components/tour/TourDetailClient'
 import type { TourProduct } from '@/lib/shopify/types'
 
 export async function generateMetadata({
@@ -51,6 +52,8 @@ export default async function TourDetailPage({
 
   const product = (data as { product: TourProduct | null })?.product
   if (!product) notFound()
+
+  const departureDates = parseDepartureDates(product.variants.nodes)
 
   const image = product.images.nodes[0]
   const displayTags = product.tags.filter(
@@ -112,11 +115,11 @@ export default async function TourDetailPage({
             </p>
           )}
 
-          {/* Booking panel */}
-          <TourBookingPanel
+          {/* Departure calendar + booking panel */}
+          <TourDetailClient
+            departureDates={departureDates}
             productHandle={product.handle}
             productTitle={product.title}
-            variants={product.variants.nodes}
             tags={product.tags}
           />
         </div>

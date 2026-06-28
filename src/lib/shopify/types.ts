@@ -34,6 +34,7 @@ export interface ProductVariant {
   id: string
   title: string
   availableForSale: boolean
+  quantityAvailable: number | null
   price: { amount: string; currencyCode: string }
   selectedOptions: Array<{ name: string; value: string }>
 }
