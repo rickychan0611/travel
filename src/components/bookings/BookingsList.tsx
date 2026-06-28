@@ -87,14 +87,7 @@ export async function BookingsList({
             ))}
           </ul>
 
-          <a
-            href={order.statusUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-xs font-medium text-primary underline-offset-2 hover:underline"
-          >
-            {t('viewOrder')} →
-          </a>
+          <span className="text-xs text-muted-foreground">{order.name}</span>
         </li>
       ))}
     </ul>

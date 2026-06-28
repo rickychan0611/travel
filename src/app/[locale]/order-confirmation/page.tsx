@@ -21,8 +21,12 @@ export async function generateMetadata({
 
 const STATUS_VARIANTS: Record<string, 'default' | 'secondary' | 'destructive' | 'outline'> = {
   PAID: 'default',
+  AUTHORIZED: 'secondary',
   PENDING: 'secondary',
+  PARTIALLY_PAID: 'secondary',
   REFUNDED: 'destructive',
+  PARTIALLY_REFUNDED: 'destructive',
+  VOIDED: 'outline',
 }
 
 export default async function OrderConfirmationPage({
@@ -56,12 +60,17 @@ export default async function OrderConfirmationPage({
     notFound()
   }
 
+  const normalizedStatus = order.financialStatus.toUpperCase().replace(/ /g, '_')
   const statusLabels: Record<string, string> = {
     PAID: t('status.paid'),
+    AUTHORIZED: t('status.pending'),
     PENDING: t('status.pending'),
+    PARTIALLY_PAID: t('status.pending'),
     REFUNDED: t('status.refunded'),
+    PARTIALLY_REFUNDED: t('status.refunded'),
+    VOIDED: t('status.other'),
   }
-  const statusLabel = statusLabels[order.financialStatus] ?? t('status.other')
+  const statusLabel = statusLabels[normalizedStatus] ?? t('status.other')
 
   return (
     <div className="container mx-auto max-w-2xl px-4 py-12">
@@ -117,7 +126,7 @@ export default async function OrderConfirmationPage({
       <div className="rounded-xl border bg-card p-6 space-y-3 mb-8">
         <div className="flex justify-between items-center text-sm">
           <span className="text-muted-foreground">{t('orderStatus')}</span>
-          <Badge variant={STATUS_VARIANTS[order.financialStatus] ?? 'outline'}>
+          <Badge variant={STATUS_VARIANTS[normalizedStatus] ?? 'outline'}>
             {statusLabel}
           </Badge>
         </div>

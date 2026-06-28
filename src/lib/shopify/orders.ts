@@ -17,7 +17,6 @@ export interface Order {
   total: ShopifyMoney
   financialStatus: string
   fulfillmentStatus: string
-  statusUrl: string
   lineItems: OrderLineItem[]
 }
 
@@ -30,9 +29,8 @@ const ORDERS_BY_EMAIL_QUERY = `
           name
           createdAt
           totalPriceSet { shopMoney { amount currencyCode } }
-          financialStatus
-          fulfillmentStatus
-          statusUrl
+          displayFinancialStatus
+          displayFulfillmentStatus
           lineItems(first: 10) {
             edges {
               node {
@@ -77,9 +75,8 @@ export async function getOrdersByEmail(email: string): Promise<Order[]> {
     name: string
     createdAt: string
     totalPriceSet: { shopMoney: ShopifyMoney }
-    financialStatus: string
-    fulfillmentStatus: string
-    statusUrl: string
+    displayFinancialStatus: string
+    displayFulfillmentStatus: string
     lineItems: { edges: Array<{ node: OrderLineItem }> }
   }
 
@@ -88,9 +85,8 @@ export async function getOrdersByEmail(email: string): Promise<Order[]> {
     name: e.node.name,
     createdAt: e.node.createdAt,
     total: e.node.totalPriceSet.shopMoney,
-    financialStatus: e.node.financialStatus,
-    fulfillmentStatus: e.node.fulfillmentStatus,
-    statusUrl: e.node.statusUrl,
+    financialStatus: e.node.displayFinancialStatus,
+    fulfillmentStatus: e.node.displayFulfillmentStatus,
     lineItems: e.node.lineItems.edges.map((le: { node: OrderLineItem }) => le.node),
   }))
 }
@@ -109,8 +105,8 @@ export interface ConfirmationOrder {
   id: string
   name: string          // e.g. "#1042" — Shopify's display name
   email: string
-  orderNumber: number
-  financialStatus: string  // "PAID" | "PENDING" | "REFUNDED" | etc.
+  orderNumber: number   // mapped from Admin API field "number"
+  financialStatus: string  // mapped from displayFinancialStatus
   total: ShopifyMoney
   lineItems: ConfirmationLineItem[]
 }
@@ -121,8 +117,8 @@ const ORDER_BY_ID_QUERY = `
       id
       name
       email
-      orderNumber
-      financialStatus
+      number
+      displayFinancialStatus
       totalPriceSet { shopMoney { amount currencyCode } }
       lineItems(first: 10) {
         nodes {
@@ -149,8 +145,8 @@ type RawConfirmationOrder = {
   id: string
   name: string
   email: string
-  orderNumber: number
-  financialStatus: string
+  number: number
+  displayFinancialStatus: string
   totalPriceSet: { shopMoney: ShopifyMoney }
   lineItems: { nodes: RawConfirmationLineItem[] }
 }
@@ -192,8 +188,8 @@ export async function getOrderById(id: string): Promise<ConfirmationOrder | null
     id: o.id,
     name: o.name,
     email: o.email,
-    orderNumber: o.orderNumber,
-    financialStatus: o.financialStatus,
+    orderNumber: o.number,
+    financialStatus: o.displayFinancialStatus,
     total: o.totalPriceSet.shopMoney,
     lineItems: o.lineItems.nodes.map((n) => ({
       title: n.title,
