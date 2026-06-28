@@ -1,6 +1,10 @@
 export const CART_CREATE_MUTATION = `#graphql
-  mutation CartCreate($lines: [CartLineInput!]!, $note: String) {
-    cartCreate(input: { lines: $lines, note: $note }) {
+  mutation CartCreate(
+    $lines: [CartLineInput!]!
+    $note: String
+    $buyerIdentity: CartBuyerIdentityInput
+  ) {
+    cartCreate(input: { lines: $lines, note: $note, buyerIdentity: $buyerIdentity }) {
       cart {
         id
         checkoutUrl

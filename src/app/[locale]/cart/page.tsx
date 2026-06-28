@@ -1,8 +1,9 @@
 'use client'
 import { useState } from 'react'
 import Link from 'next/link'
-import { useParams } from 'next/navigation'
+import { useParams, useRouter } from 'next/navigation'
 import { useTranslations } from 'next-intl'
+import { useUser } from '@clerk/nextjs'
 import { ShoppingCart, Trash2, Loader2 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
@@ -11,8 +12,10 @@ import { useCartStore } from '@/store/cart'
 export default function CartPage() {
   const params = useParams()
   const locale = params.locale as string
+  const router = useRouter()
   const t = useTranslations('booking')
   const tc = useTranslations('common')
+  const { isSignedIn, isLoaded } = useUser()
 
   const items = useCartStore((s) => s.items)
   const removeItem = useCartStore((s) => s.removeItem)
@@ -20,10 +23,10 @@ export default function CartPage() {
   const [checkoutLoading, setCheckoutLoading] = useState(false)
   const [checkoutError, setCheckoutError] = useState<string | null>(null)
 
-  // Variant price is the total for the chosen party size (e.g. "2 Person — CAD 816")
   const total = items.reduce((sum, item) => sum + item.pricePerPerson * item.partySize, 0)
 
   const handleCheckout = async () => {
+    if (!isSignedIn) return
     setCheckoutLoading(true)
     setCheckoutError(null)
     try {
@@ -114,25 +117,42 @@ export default function CartPage() {
           <p className="mb-4 text-sm text-destructive text-center">{checkoutError}</p>
         )}
 
-        {/* Checkout CTA */}
-        <Button
-          className="w-full"
-          size="lg"
-          disabled={checkoutLoading}
-          onClick={handleCheckout}
-        >
-          {checkoutLoading ? (
-            <>
-              <Loader2 className="mr-2 size-4 animate-spin" />
-              Processing…
-            </>
-          ) : (
-            'Proceed to Checkout'
-          )}
-        </Button>
-        <p className="mt-2 text-center text-xs text-muted-foreground">
-          You will be redirected to Shopify's secure checkout.
-        </p>
+        {/* Checkout CTA — shows login prompt when unauthenticated */}
+        {isLoaded && !isSignedIn ? (
+          <div className="space-y-3">
+            <p className="text-sm text-center text-muted-foreground">
+              请登录后继续结账
+            </p>
+            <Button
+              className="w-full"
+              size="lg"
+              onClick={() => router.push(`/${locale}/login` as never)}
+            >
+              登录 / 注册
+            </Button>
+          </div>
+        ) : (
+          <>
+            <Button
+              className="w-full"
+              size="lg"
+              disabled={checkoutLoading || !isLoaded}
+              onClick={handleCheckout}
+            >
+              {checkoutLoading ? (
+                <>
+                  <Loader2 className="mr-2 size-4 animate-spin" />
+                  Processing…
+                </>
+              ) : (
+                'Proceed to Checkout'
+              )}
+            </Button>
+            <p className="mt-2 text-center text-xs text-muted-foreground">
+              You will be redirected to Shopify&apos;s secure checkout.
+            </p>
+          </>
+        )}
       </div>
     </div>
   )
