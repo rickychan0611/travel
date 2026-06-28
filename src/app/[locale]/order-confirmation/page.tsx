@@ -48,31 +48,43 @@ export default async function OrderConfirmationPage({
   const userEmail = user.emailAddresses[0]?.emailAddress ?? ''
 
   let order: ConfirmationOrder | null = null
+  let apiError = false
 
   try {
     if (order_id) {
-      // Shopify passed back an order ID in the URL
       order = await getOrderById(order_id)
-      // Ownership check
       if (order && order.email.toLowerCase() !== userEmail.toLowerCase()) {
         order = null
       }
     } else {
-      // No order_id (e.g. user came back via "Continue Shopping" button).
-      // Show the most recent order placed with this email.
       const recentOrders = await getOrdersByEmail(userEmail)
       const latest = recentOrders[0]
       if (latest) {
-        // getOrdersByEmail returns Order type; fetch full details via getOrderById
         order = await getOrderById(latest.id)
       }
     }
-  } catch {
-    // Admin API error → show 404 rather than 500
-    notFound()
+  } catch (err) {
+    console.error('[order-confirmation] Admin API error:', err)
+    apiError = true
   }
 
-  if (!order) notFound()
+  if (apiError || !order) {
+    return (
+      <div className="container mx-auto max-w-2xl px-4 py-24 text-center">
+        <CartClearer />
+        <CheckCircle className="size-12 text-green-500 mx-auto mb-4" />
+        <h1 className="text-2xl font-bold mb-2">{t('title')}</h1>
+        <p className="text-muted-foreground mb-8">
+          {apiError
+            ? 'Your order was placed successfully. Order details will be available shortly.'
+            : 'Your order is being processed and will appear here soon.'}
+        </p>
+        <Link href={`/${locale}/bookings`}>
+          <Button>{t('myBookings')}</Button>
+        </Link>
+      </div>
+    )
+  }
 
   const normalizedStatus = order.financialStatus.toUpperCase().replace(/ /g, '_')
   const statusLabels: Record<string, string> = {
