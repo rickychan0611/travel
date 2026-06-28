@@ -15,7 +15,7 @@ export default function CartPage() {
   const router = useRouter()
   const t = useTranslations('booking')
   const tc = useTranslations('common')
-  const { isSignedIn, isLoaded } = useUser()
+  const { isSignedIn, isLoaded, user } = useUser()
 
   const items = useCartStore((s) => s.items)
   const removeItem = useCartStore((s) => s.removeItem)
@@ -30,10 +30,11 @@ export default function CartPage() {
     setCheckoutLoading(true)
     setCheckoutError(null)
     try {
+      const buyerEmail = user?.primaryEmailAddress?.emailAddress
       const res = await fetch('/api/shopify/cart', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ items }),
+        body: JSON.stringify({ items, buyerEmail }),
       })
       const data = await res.json()
       if (!res.ok) {

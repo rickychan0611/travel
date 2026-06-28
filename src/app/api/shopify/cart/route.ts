@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { currentUser } from '@clerk/nextjs/server'
 import { shopifyClient } from '@/lib/shopify/client'
 import { CART_CREATE_MUTATION } from '@/lib/shopify/queries/cart'
 import type { CartItem } from '@/store/cart'
@@ -12,16 +11,13 @@ interface CartCreateResult {
 }
 
 export async function POST(request: NextRequest) {
-  const user = await currentUser()
-  if (!user) {
-    return NextResponse.json({ error: 'Login required to checkout' }, { status: 401 })
-  }
-  const buyerEmail = user.emailAddresses[0]?.emailAddress
-
   let items: CartItem[]
+  let buyerEmail: string | undefined
+
   try {
     const body = await request.json()
     items = body.items
+    buyerEmail = body.buyerEmail
     if (!Array.isArray(items) || items.length === 0) {
       return NextResponse.json({ error: 'items array is required' }, { status: 400 })
     }
