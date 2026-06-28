@@ -8,6 +8,7 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
 import { getOrderById, getOrdersByEmail, type ConfirmationOrder } from '@/lib/shopify/orders'
+import { CartClearer } from './CartClearer'
 
 export async function generateMetadata({
   params,
@@ -87,6 +88,7 @@ export default async function OrderConfirmationPage({
 
   return (
     <div className="container mx-auto max-w-2xl px-4 py-12">
+      <CartClearer />
       {/* Success header */}
       <div className="flex flex-col items-center text-center mb-8">
         <CheckCircle className="size-12 text-green-500 mb-3" />

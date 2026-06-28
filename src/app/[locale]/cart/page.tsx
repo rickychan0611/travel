@@ -31,10 +31,11 @@ export default function CartPage() {
     setCheckoutError(null)
     try {
       const buyerEmail = user?.primaryEmailAddress?.emailAddress
+      const returnUrl = `${window.location.origin}/${locale}/order-confirmation`
       const res = await fetch('/api/shopify/cart', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ items, buyerEmail }),
+        body: JSON.stringify({ items, buyerEmail, returnUrl }),
       })
       const data = await res.json()
       if (!res.ok) {

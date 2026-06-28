@@ -13,11 +13,13 @@ interface CartCreateResult {
 export async function POST(request: NextRequest) {
   let items: CartItem[]
   let buyerEmail: string | undefined
+  let returnUrl: string | undefined
 
   try {
     const body = await request.json()
     items = body.items
     buyerEmail = body.buyerEmail
+    returnUrl = typeof body.returnUrl === 'string' ? body.returnUrl : undefined
     if (!Array.isArray(items) || items.length === 0) {
       return NextResponse.json({ error: 'items array is required' }, { status: 400 })
     }
@@ -58,9 +60,13 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: userErrors[0].message }, { status: 422 })
     }
 
-    const checkoutUrl = data?.cartCreate?.cart?.checkoutUrl
+    let checkoutUrl = data?.cartCreate?.cart?.checkoutUrl
     if (!checkoutUrl) {
       return NextResponse.json({ error: 'No checkout URL returned' }, { status: 502 })
+    }
+
+    if (returnUrl) {
+      checkoutUrl = `${checkoutUrl}?return_to=${encodeURIComponent(returnUrl)}`
     }
 
     return NextResponse.json({ checkoutUrl })
