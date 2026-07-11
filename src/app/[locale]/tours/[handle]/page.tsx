@@ -101,7 +101,7 @@ export default async function TourDetailPage({
           {displayTags.length > 0 && (
             <div className="flex flex-wrap gap-1.5">
               {displayTags.slice(0, 8).map((tag) => (
-                <Badge key={tag} variant="outline" className="text-xs">
+                <Badge key={tag} variant="outline" className="text-sm">
                   {tag.replace(/.*:/, '')}
                 </Badge>
               ))}

@@ -25,7 +25,9 @@ export function LocaleSwitcher() {
     <select
       value={locale}
       onChange={(e) => switchLocale(e.target.value)}
-      className="text-sm bg-transparent border border-border rounded px-2 py-1"
+      className="max-w-[4.5rem] cursor-pointer appearance-none bg-transparent text-sm text-[#666] outline-none hover:text-tff-orange"
+      aria-label="Language"
+      title={LOCALE_LABELS[locale]}
     >
       {routing.locales.map((l) => (
         <option key={l} value={l}>{LOCALE_LABELS[l]}</option>

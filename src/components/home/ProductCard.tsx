@@ -2,9 +2,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { useTranslations } from 'next-intl'
-import { Card, CardContent, CardFooter } from '@/components/ui/card'
-import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
 import type { Route } from 'next'
 import type { CollectionProduct } from '@/lib/shopify/types'
 
@@ -21,61 +18,50 @@ export function ProductCard({
   const { amount, currencyCode } = product.priceRange.minVariantPrice
   const price = parseFloat(amount).toFixed(0)
   const href = `/${locale}/tours/${product.handle}` as Route
+  const isMock = product.id.startsWith('mock-')
+  const resolvedHref = isMock ? (`/${locale}/tours` as Route) : href
 
   return (
-    <Card className="h-full flex flex-col">
-      {/* Image */}
-      <Link href={href} className="block shrink-0">
-        <div className="relative aspect-[4/3] bg-muted rounded-t-xl overflow-hidden">
-          {image ? (
-            <Image
-              src={image.url}
-              alt={image.altText ?? product.title}
-              fill
-              className="object-cover transition-transform hover:scale-105"
-              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-            />
-          ) : (
-            <div className="flex h-full items-center justify-center text-muted-foreground/40 text-sm select-none">
-              No image
-            </div>
-          )}
-          <Badge
-            variant={isInstant ? 'default' : 'secondary'}
-            className="absolute top-2 right-2 text-[10px]"
-          >
-            {isInstant ? t('instant') : t('manual')}
-          </Badge>
-        </div>
+    <article className="group flex h-full flex-col overflow-hidden rounded-md bg-white ring-1 ring-[#e8e8e8] transition hover:shadow-md">
+      <Link href={resolvedHref} className="relative block aspect-[4/3] shrink-0 bg-[#f5f5f5]">
+        {image ? (
+          <Image
+            src={image.url}
+            alt={image.altText ?? product.title}
+            fill
+            className="object-cover transition-transform group-hover:scale-105"
+            sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+          />
+        ) : (
+          <div className="flex h-full items-center justify-center text-sm text-[#c0c4cc]">No image</div>
+        )}
+        <span
+          className={`absolute left-2 top-2 rounded px-1.5 py-0.5 text-[10px] font-medium text-white ${
+            isInstant ? 'bg-tff-blue' : 'bg-[#909399]'
+          }`}
+        >
+          {isInstant ? t('instant') : t('manual')}
+        </span>
       </Link>
 
-      {/* Content */}
-      <CardContent className="flex-1 pt-3 pb-2">
-        <p className="text-xs text-muted-foreground mb-1 capitalize">
+      <div className="flex flex-1 flex-col p-3">
+        <p className="mb-1 text-[11px] capitalize text-[#909399]">
           {product.productType.replace(/-/g, ' ')}
         </p>
-        <Link href={href}>
-          <h3 className="font-medium text-sm leading-snug line-clamp-2 hover:text-primary transition-colors">
+        <Link href={resolvedHref}>
+          <h3 className="line-clamp-2 text-sm font-medium leading-snug text-[#303133] transition-colors group-hover:text-tff-blue">
             {product.title}
           </h3>
         </Link>
-      </CardContent>
-
-      {/* Footer */}
-      <CardFooter className="flex items-center justify-between gap-2">
-        <div className="min-w-0 leading-tight">
-          <span className="text-xs text-muted-foreground">{t('from')} </span>
-          <span className="text-base font-bold text-primary">
-            {currencyCode} {price}
+        <div className="mt-auto pt-3">
+          <span className="text-sm text-[#909399]">{t('from')} </span>
+          <span className="text-lg font-bold text-tff-orange">
+            {currencyCode === 'USD' ? '$' : `${currencyCode} `}
+            {price}
           </span>
-          <span className="text-xs text-muted-foreground">{t('perPerson')}</span>
+          <span className="text-sm text-[#909399]">{t('perPerson')}</span>
         </div>
-        <Link href={href} className="shrink-0">
-          <Button size="sm" variant="outline">
-            {t('bookNow')}
-          </Button>
-        </Link>
-      </CardFooter>
-    </Card>
+      </div>
+    </article>
   )
 }

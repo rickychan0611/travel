@@ -78,7 +78,7 @@ export function TourBookingPanel({
         <Badge variant={isInstant ? 'default' : 'secondary'}>
           {isInstant ? t('instant') : t('manual')}
         </Badge>
-        <span className="text-xs text-muted-foreground">{selectedDate}</span>
+        <span className="text-sm text-muted-foreground">{selectedDate}</span>
       </div>
 
       {/* Party size selector */}
@@ -106,12 +106,12 @@ export function TourBookingPanel({
       {/* Price display */}
       {selectedVariant && (
         <div className="flex items-baseline gap-1 pt-1">
-          <span className="text-xs text-muted-foreground">{t('from')}</span>
+          <span className="text-sm text-muted-foreground">{t('from')}</span>
           <span className="text-2xl font-bold text-primary">
             {selectedVariant.price.currencyCode}{' '}
             {parseFloat(selectedVariant.price.amount).toFixed(0)}
           </span>
-          <span className="text-xs text-muted-foreground">{t('perPerson')}</span>
+          <span className="text-sm text-muted-foreground">{t('perPerson')}</span>
         </div>
       )}
 

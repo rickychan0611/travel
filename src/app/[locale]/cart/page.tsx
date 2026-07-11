@@ -84,7 +84,7 @@ export default function CartPage() {
             >
               <div className="flex-1 min-w-0">
                 <p className="font-medium text-sm leading-snug">{item.productTitle}</p>
-                <div className="mt-1.5 flex flex-wrap gap-x-3 gap-y-1 text-xs text-muted-foreground">
+                <div className="mt-1.5 flex flex-wrap gap-x-3 gap-y-1 text-sm text-muted-foreground">
                   <span>{item.partySize} person{item.partySize > 1 ? 's' : ''}</span>
                   <span>·</span>
                   <span>{item.departureDate}</span>
@@ -150,7 +150,7 @@ export default function CartPage() {
                 'Proceed to Checkout'
               )}
             </Button>
-            <p className="mt-2 text-center text-xs text-muted-foreground">
+            <p className="mt-2 text-center text-sm text-muted-foreground">
               You will be redirected to Shopify&apos;s secure checkout.
             </p>
           </>

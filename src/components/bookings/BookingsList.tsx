@@ -52,7 +52,7 @@ export async function BookingsList({
           <div className="flex flex-wrap items-start justify-between gap-3 mb-3">
             <div>
               <p className="font-semibold text-sm">{order.name}</p>
-              <p className="text-xs text-muted-foreground">
+              <p className="text-sm text-muted-foreground">
                 {new Intl.DateTimeFormat(locale, {
                   year: 'numeric',
                   month: 'short',
@@ -68,7 +68,7 @@ export async function BookingsList({
                 }).format(parseFloat(order.total.amount))}
               </p>
               <span
-                className={`mt-0.5 inline-block rounded-full px-2 py-0.5 text-xs font-medium ${
+                className={`mt-0.5 inline-block rounded-full px-2 py-0.5 text-sm font-medium ${
                   FINANCIAL_STATUS_COLORS[order.financialStatus] ?? 'bg-gray-100 text-gray-600'
                 }`}
               >
@@ -87,7 +87,7 @@ export async function BookingsList({
             ))}
           </ul>
 
-          <span className="text-xs text-muted-foreground">{order.name}</span>
+          <span className="text-sm text-muted-foreground">{order.name}</span>
         </li>
       ))}
     </ul>

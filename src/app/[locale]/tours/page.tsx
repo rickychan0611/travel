@@ -22,10 +22,13 @@ export async function generateMetadata({
 
 export default async function ToursPage({
   params,
+  searchParams,
 }: {
   params: Promise<{ locale: string }>
+  searchParams: Promise<{ q?: string }>
 }) {
   const { locale } = await params
+  const { q } = await searchParams
   const t = await getTranslations('tours')
 
   let products: CollectionProduct[] = []
@@ -40,11 +43,11 @@ export default async function ToursPage({
   }
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div className="mx-auto max-w-[1200px] px-4 py-8">
       <div className="mb-8">
         <h1 className="text-2xl font-bold">{t('title')}</h1>
       </div>
-      <ToursFilter products={products} locale={locale} />
+      <ToursFilter products={products} locale={locale} initialQuery={q ?? ''} />
     </div>
   )
 }

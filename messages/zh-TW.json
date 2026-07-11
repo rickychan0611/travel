@@ -7,13 +7,38 @@
     "login": "登入",
     "register": "註冊",
     "myBookings": "我的訂單",
-    "agentPortal": "代理商入口"
+    "agentPortal": "代理商入口",
+    "americas": "美洲旅遊",
+    "europe": "歐洲旅遊",
+    "anz": "澳新旅遊",
+    "smallGroup": "省心小團",
+    "preferred": "途風優選",
+    "custom": "定制旅行",
+    "cruise": "全球郵輪",
+    "luxury": "高端度假"
   },
   "home": {
     "heroTitle": "探索世界，精彩每一天",
     "heroSubtitle": "專業旅遊服務，帶您暢遊全球",
     "searchPlaceholder": "搜尋目的地、產品或路線...",
-    "searchBtn": "搜尋"
+    "searchBtn": "搜尋",
+    "welcome": "途風（攜程旗下）歡迎您！",
+    "invite": "邀請有禮",
+    "hotRecommend": "熱門推薦：",
+    "more": "更多>",
+    "hotline": "7x24小時服務熱線",
+    "hotDestinations": "熱門目的地",
+    "seasonMustPlay": "當季必玩",
+    "usRecommend": "美國旅遊精選",
+    "seeMore": "查看更多 >",
+    "hotRank": "黃石公園｜5折起熱銷榜",
+    "reviews": "用戶熱評",
+    "whyBook": "為什麼選擇途風",
+    "partners": "合作夥伴",
+    "subscribe": "訂閱途風",
+    "subscribeHint": "獲取最新特惠與目的地資訊",
+    "discountSlogan": "旅行團優惠低至",
+    "discountValue": "75折"
   },
   "product": {
     "from": "起價",
@@ -56,11 +81,15 @@
     "cancelled": "已取消"
   },
   "footer": {
-    "tagline": "專業旅遊服務，帶您暢遊全球"
+    "tagline": "專業旅遊服務，帶您暢遊全球",
+    "about": "關於途風",
+    "service": "客戶服務",
+    "bookingNotes": "預訂須知",
+    "partner": "合作加盟"
   },
   "meta": {
-    "homeTitle": "首頁",
-    "homeDesc": "專業旅遊服務，帶您暢遊全球。發現精品旅遊線路，即時預訂，輕鬆出行。",
+    "homeTitle": "途風官網 - 全球旅遊度假預訂平台",
+    "homeDesc": "途風（攜程旗下）提供美歐澳亞非洲跟團遊、小團、定制與郵輪預訂，7x24中文客服。",
     "toursTitle": "全部旅遊產品",
     "toursDesc": "瀏覽所有旅遊線路，按類型篩選，找到最適合您的行程。",
     "aboutTitle": "關於我們",

@@ -18,16 +18,23 @@ const FILTERS: Array<{ key: FilterKey; labelKey: string }> = [
 export function ToursFilter({
   products,
   locale,
+  initialQuery = '',
 }: {
   products: CollectionProduct[]
   locale: string
+  initialQuery?: string
 }) {
   const t  = useTranslations('tours')
   const th = useTranslations('home')
 
   const [active, setActive]           = useState<FilterKey>('all')
-  const [inputValue, setInputValue]   = useState('')
-  const [searchQuery, setSearchQuery] = useState('')
+  const [inputValue, setInputValue]   = useState(initialQuery)
+  const [searchQuery, setSearchQuery] = useState(initialQuery.trim().toLowerCase())
+
+  useEffect(() => {
+    setInputValue(initialQuery)
+    setSearchQuery(initialQuery.trim().toLowerCase())
+  }, [initialQuery])
 
   // Debounce: update searchQuery 200 ms after the user stops typing
   useEffect(() => {

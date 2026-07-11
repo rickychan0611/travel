@@ -5,12 +5,12 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: {
-    template: '%s | GlobalTours',
-    default: 'GlobalTours',
+    template: '%s | 途风 ToursForFun',
+    default: '途风 ToursForFun',
   },
-  description: 'Professional tour services for global travelers',
+  description: '途风（携程旗下）全球旅游度假预订平台',
   openGraph: {
-    siteName: 'GlobalTours',
+    siteName: '途风 ToursForFun',
     type: 'website',
   },
 }

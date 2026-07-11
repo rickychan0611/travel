@@ -1,9 +1,11 @@
+import { StatusBar } from '@/components/layout/StatusBar'
+import { Header } from '@/components/layout/Header'
+import { Footer } from '@/components/layout/Footer'
+import { FloatingSidebar } from '@/components/layout/FloatingSidebar'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
-import { Header } from '@/components/layout/Header'
-import { Footer } from '@/components/layout/Footer'
 
 export default async function LocaleLayout({
   children,
@@ -19,9 +21,11 @@ export default async function LocaleLayout({
   const messages = await getMessages()
   return (
     <NextIntlClientProvider messages={messages}>
+      <StatusBar locale={locale} />
       <Header locale={locale} />
-      <main className="flex-1">{children}</main>
+      <main className="flex-1 bg-[#f7f8fa]">{children}</main>
       <Footer locale={locale} />
+      <FloatingSidebar />
     </NextIntlClientProvider>
   )
 }

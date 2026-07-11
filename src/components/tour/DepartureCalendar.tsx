@@ -152,7 +152,7 @@ export function DepartureCalendar({ departureDates, selectedDate, onDateSelect }
                       : 'hover:bg-muted cursor-pointer',
               )}
             >
-              <span className="font-medium text-xs leading-tight">{day}</span>
+              <span className="font-medium text-sm leading-tight">{day}</span>
               <span
                 className={cn(
                   'text-[10px] leading-tight',

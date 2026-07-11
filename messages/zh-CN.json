@@ -7,13 +7,39 @@
     "login": "登录",
     "register": "注册",
     "myBookings": "我的订单",
-    "agentPortal": "代理商入口"
+    "agentPortal": "代理商入口",
+    "americas": "美洲旅游",
+    "europe": "欧洲旅游",
+    "anz": "澳新旅游",
+    "smallGroup": "省心小团",
+    "preferred": "途风优选",
+    "custom": "定制旅行",
+    "cruise": "全球邮轮",
+    "luxury": "高端度假"
   },
   "home": {
     "heroTitle": "探索世界，精彩每一天",
     "heroSubtitle": "专业旅游服务，带您畅游全球",
-    "searchPlaceholder": "搜索目的地、产品或线路...",
-    "searchBtn": "搜索"
+    "searchPlaceholder": "目的地/景点/旅游/门票/签证等",
+    "searchBtn": "搜索",
+    "welcome": "途风 (携程旗下) 欢迎您!",
+    "invite": "邀请有礼",
+    "hotRecommend": "热门推荐：",
+    "more": "更多>",
+    "hotline": "7x24小时服务热线",
+    "addConsultant": "点我添加行程顾问",
+    "hotDestinations": "热门目的地",
+    "seasonMustPlay": "当季必玩",
+    "usRecommend": "美国旅游精选",
+    "seeMore": "查看更多 >",
+    "hotRank": "黄石公园｜5折起热销榜",
+    "reviews": "用户热评",
+    "whyBook": "为什么选择途风",
+    "partners": "合作伙伴",
+    "subscribe": "订阅途风",
+    "subscribeHint": "获取最新特惠与目的地资讯",
+    "discountSlogan": "旅行团优惠低至",
+    "discountValue": "75折"
   },
   "product": {
     "from": "起价",
@@ -56,11 +82,15 @@
     "cancelled": "已取消"
   },
   "footer": {
-    "tagline": "专业旅游服务，带您畅游全球"
+    "tagline": "专业旅游服务，带您畅游全球",
+    "about": "关于途风",
+    "service": "客户服务",
+    "bookingNotes": "预订须知",
+    "partner": "合作加盟"
   },
   "meta": {
-    "homeTitle": "首页",
-    "homeDesc": "专业旅游服务，带您畅游全球。发现精品旅游线路，即时预订，轻松出行。",
+    "homeTitle": "途风官网 - 全球旅游度假预订平台",
+    "homeDesc": "途风（携程旗下）提供美欧澳亚非洲跟团游、小团、定制与邮轮预订，7x24中文客服。",
     "toursTitle": "全部旅游产品",
     "toursDesc": "浏览所有旅游线路，按类型筛选，找到最适合您的行程。",
     "aboutTitle": "关于我们",

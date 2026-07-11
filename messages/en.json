@@ -7,13 +7,38 @@
     "login": "Login",
     "register": "Register",
     "myBookings": "My Bookings",
-    "agentPortal": "Agent Portal"
+    "agentPortal": "Agent Portal",
+    "americas": "Americas",
+    "europe": "Europe",
+    "anz": "Australia & NZ",
+    "smallGroup": "Small Groups",
+    "preferred": "TFF Picks",
+    "custom": "Custom Travel",
+    "cruise": "Cruises",
+    "luxury": "Luxury"
   },
   "home": {
     "heroTitle": "Explore the World, One Adventure at a Time",
     "heroSubtitle": "Professional tour services for travelers worldwide",
     "searchPlaceholder": "Search destinations, products or itineraries...",
-    "searchBtn": "Search"
+    "searchBtn": "Search",
+    "welcome": "Welcome to ToursForFun (a Ctrip brand)!",
+    "invite": "Invite & Earn",
+    "hotRecommend": "Hot picks:",
+    "more": "More>",
+    "hotline": "24/7 Service Hotline",
+    "hotDestinations": "Popular Destinations",
+    "seasonMustPlay": "Must-Do This Season",
+    "usRecommend": "USA Tour Picks",
+    "seeMore": "See more >",
+    "hotRank": "Yellowstone bestsellers",
+    "reviews": "Traveler Reviews",
+    "whyBook": "Why Book with ToursForFun",
+    "partners": "Partners",
+    "subscribe": "Subscribe",
+    "subscribeHint": "Get deals and destination tips",
+    "discountSlogan": "Group tours from",
+    "discountValue": "25% off"
   },
   "product": {
     "from": "From",
@@ -56,11 +81,15 @@
     "cancelled": "Cancelled"
   },
   "footer": {
-    "tagline": "Your world, your adventure."
+    "tagline": "Your world, your adventure.",
+    "about": "About TFF",
+    "service": "Customer Service",
+    "bookingNotes": "Booking Notes",
+    "partner": "Partnerships"
   },
   "meta": {
-    "homeTitle": "Home",
-    "homeDesc": "Professional tour services for global travelers. Discover curated tours, book instantly, travel with ease.",
+    "homeTitle": "ToursForFun - Global Tour Booking",
+    "homeDesc": "ToursForFun (Ctrip) offers group tours, small groups, custom trips and cruises across Americas, Europe, Asia and more.",
     "toursTitle": "All Tours",
     "toursDesc": "Browse all available tours, filter by type, and find the perfect itinerary for your next trip.",
     "aboutTitle": "About Us",

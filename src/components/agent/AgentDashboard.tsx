@@ -33,7 +33,7 @@ export async function AgentDashboard({
           {TIERS.map((n) => (
             <div key={n} className="rounded-xl border bg-card p-5 text-center">
               <p className="text-sm font-medium mb-1">{t(`tier${n}Label`)}</p>
-              <p className="text-xs text-muted-foreground mb-3">{t(`tier${n}Range`)}</p>
+              <p className="text-sm text-muted-foreground mb-3">{t(`tier${n}Range`)}</p>
               <p className="text-2xl font-bold text-primary">{t(`tier${n}Discount`)}</p>
             </div>
           ))}
@@ -66,7 +66,7 @@ export async function AgentDashboard({
             <p className="font-medium text-sm">{t('managerContact')}</p>
             <a
               href={`mailto:${t('managerEmail')}`}
-              className="text-xs text-primary underline-offset-2 hover:underline"
+              className="text-sm text-primary underline-offset-2 hover:underline"
             >
               {t('managerEmail')}
             </a>

@@ -1,11 +1,15 @@
 import type { Metadata } from 'next'
 import { getTranslations } from 'next-intl/server'
-import { shopifyClient } from '@/lib/shopify/client'
-import { COLLECTION_PRODUCTS_QUERY } from '@/lib/shopify/queries/product'
-import { CategoryTabs } from '@/components/home/CategoryTabs'
-import type { CollectionProduct } from '@/lib/shopify/types'
-
-const INITIAL_COLLECTION = 'hot-seasonal-west-us'
+import { HeroBanner } from '@/components/home/HeroBanner'
+import { HomeNavTiles } from '@/components/home/HomeNavTiles'
+import { SeasonMustPlay } from '@/components/home/SeasonMustPlay'
+import { UsaTravelSection } from '@/components/home/UsaTravelSection'
+import { CustomStories } from '@/components/home/CustomStories'
+import { CruiseSection } from '@/components/home/CruiseSection'
+import { KnowUs } from '@/components/home/KnowUs'
+import { WhyBook } from '@/components/home/WhyBook'
+import { TrustBadges } from '@/components/home/TrustBadges'
+import { PartnerBanner } from '@/components/home/PartnerBanner'
 
 export async function generateMetadata({
   params,
@@ -26,40 +30,22 @@ export default async function HomePage({
   params: Promise<{ locale: string }>
 }) {
   const { locale } = await params
-  const t = await getTranslations('home')
-
-  let initialProducts: CollectionProduct[] = []
-  try {
-    const { data } = await shopifyClient.request(COLLECTION_PRODUCTS_QUERY, {
-      variables: { handle: INITIAL_COLLECTION, first: 20 },
-    })
-    initialProducts = (data as any)?.collection?.products?.nodes ?? []
-  } catch {
-    initialProducts = []
-  }
 
   return (
     <>
-      {/* Hero */}
-      <section className="bg-gradient-to-br from-primary/10 via-background to-secondary/10 py-20 text-center">
-        <div className="container mx-auto px-4">
-          <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
-            {t('heroTitle')}
-          </h1>
-          <p className="mt-4 text-lg text-muted-foreground max-w-xl mx-auto">
-            {t('heroSubtitle')}
-          </p>
-        </div>
-      </section>
+      <HeroBanner locale={locale} />
 
-      {/* Category tabs + product grid */}
-      <section className="container mx-auto px-4 py-10">
-        <CategoryTabs
-          locale={locale}
-          initialData={initialProducts}
-          initialCollection={INITIAL_COLLECTION}
-        />
-      </section>
+      <div className="mx-auto max-w-[1200px] space-y-4 px-4 py-4 md:space-y-5 md:py-5">
+        <HomeNavTiles locale={locale} />
+        <SeasonMustPlay locale={locale} />
+        <UsaTravelSection locale={locale} />
+        <CustomStories locale={locale} />
+        <CruiseSection locale={locale} />
+        <KnowUs />
+        <WhyBook />
+        <TrustBadges />
+        <PartnerBanner />
+      </div>
     </>
   )
 }
