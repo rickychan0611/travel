@@ -5,7 +5,6 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
 import { useTranslations } from 'next-intl'
-import { Show, UserButton } from '@clerk/nextjs'
 import type { Route } from 'next'
 import { Search } from 'lucide-react'
 import { CartIcon } from './CartIcon'
@@ -134,18 +133,6 @@ export function Header({ locale }: { locale: string }) {
           <div className="flex items-center gap-2 md:hidden">
             <CartIcon locale={locale} />
             <MobileMenuButton />
-          </div>
-
-          {/* Signed-in controls (desktop) — keep app features without breaking old look */}
-          <div className="hidden items-center gap-2 md:flex xl:hidden">
-            <Show when="signed-in">
-              <UserButton />
-            </Show>
-          </div>
-          <div className="hidden items-center xl:flex">
-            <Show when="signed-in">
-              <UserButton />
-            </Show>
           </div>
         </div>
 

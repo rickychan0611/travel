@@ -5,33 +5,45 @@ import { CRUISE_ITEMS } from '@/data/home-mock'
 
 export function CruiseSection({ locale }: { locale: string }) {
   return (
-    <section className="rounded-md bg-white p-4 shadow-sm ring-1 ring-[#e8e8e8] md:p-5">
-      <div className="mb-4 flex items-center gap-3">
-        <Image src="/tff/cruise-title.png" alt="" width={120} height={28} className="h-7 w-auto" />
-        <h2 className="sr-only">全球邮轮</h2>
-        <Link href={`/${locale}/tours` as Route} className="ml-auto text-sm text-tff-blue hover:underline">
-          查看更多 &gt;
-        </Link>
+    <section className="bg-white px-0 pb-0 pt-[70px]">
+      <div className="text-center">
+        <Image
+          src="/tff/cruise-title.png"
+          alt="全球邮轮 GLOBAL CRUISE LINE"
+          width={382}
+          height={27}
+          className="mx-auto h-[27px] w-auto"
+        />
       </div>
-      <div className="grid grid-cols-1 gap-3 md:grid-cols-3">
+
+      <div className="grid grid-cols-1 justify-items-center gap-6 pt-10 sm:grid-cols-2 lg:grid-cols-4">
         {CRUISE_ITEMS.map((item) => (
           <Link
             key={item.title}
             href={`/${locale}/tours?q=${encodeURIComponent(item.title)}` as Route}
-            className="group overflow-hidden rounded-md ring-1 ring-[#eee]"
+            className="group block w-full max-w-[282px] overflow-hidden"
+            aria-label={item.title}
           >
-            <div className="relative aspect-[16/9]">
+            <div className="relative aspect-[141/200] w-full">
               <Image
                 src={item.image}
                 alt={item.title}
                 fill
-                className="object-cover transition group-hover:scale-105"
-                sizes="(max-width: 768px) 100vw, 33vw"
+                className="object-cover transition-transform duration-200 group-hover:scale-[1.03]"
+                sizes="(max-width: 640px) 282px, (max-width: 1024px) 50vw, 282px"
               />
             </div>
-            <p className="p-3 text-sm font-semibold text-[#303133] group-hover:text-tff-blue">{item.title}</p>
           </Link>
         ))}
+      </div>
+
+      <div className="flex justify-center pt-10">
+        <Link
+          href={`/${locale}/tours?q=${encodeURIComponent('邮轮')}` as Route}
+          className="h-10 w-[120px] rounded border border-[#0090f2] bg-white text-center text-[16px] leading-10 text-[#0090f2] transition-colors hover:bg-[#0090f2] hover:text-white"
+        >
+          查看更多&gt;
+        </Link>
       </div>
     </section>
   )

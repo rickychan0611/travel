@@ -36,7 +36,7 @@ export const MEGA_NAV: MegaNavItem[] = [
   {
     id: 'americas',
     label: '美洲旅游',
-    href: '/tours?q=美洲',
+    href: '/ustours',
     links: [
       { label: '北美洲', href: '/tours?q=北美洲' },
       { label: '南美洲', href: '/tours?q=南美洲' },
@@ -196,7 +196,14 @@ export type DestinationCategory = {
   }>
 }
 
-export const USA_TRAVEL = {
+export type DestinationSection = {
+  title: string
+  icon: string
+  moreHref: string
+  categories: DestinationCategory[]
+}
+
+export const USA_TRAVEL: DestinationSection = {
   title: '美国旅游',
   icon: '/tff/usa-title-icon.png',
   moreHref: '/tours?q=美国',
@@ -343,7 +350,159 @@ export const USA_TRAVEL = {
       hotRank: [],
       reviews: [],
     },
-  ] satisfies DestinationCategory[],
+  ],
+}
+
+const CANADA_REVIEWS: DestinationCategory['reviews'] = [
+  {
+    name: '陈女士',
+    avatar: '/tff/avatar.png',
+    rating: 5,
+    text: '班夫和露易丝湖都太美了，导游讲解细致，行程安排很舒服。',
+    date: '2026-06-28',
+    productTitle: '<4天>【全年最夯折扣】住班夫镇+哥伦比亚冰原+三大名湖',
+  },
+  {
+    name: 'TravelFan',
+    avatar: '/tff/avatar.png',
+    rating: 5,
+    text: '落基山的景色令人难忘，住宿和交通都安排得很周到。',
+    date: '2026-06-20',
+    productTitle: '<5天>【品质团】班夫、贾斯珀、幽鹤三大国家公园',
+  },
+]
+
+const EUROPE_REVIEWS: DestinationCategory['reviews'] = [
+  {
+    name: '王先生',
+    avatar: '/tff/avatar.png',
+    rating: 5,
+    text: '英国和爱尔兰一路风景很棒，领队专业又细心。',
+    date: '2026-06-26',
+    productTitle: '<14天>【西北偏北】英国+爱尔兰两国游',
+  },
+  {
+    name: 'Mia',
+    avatar: '/tff/avatar.png',
+    rating: 5,
+    text: '小团体验很好，酒店和景点安排都很有品质。',
+    date: '2026-06-18',
+    productTitle: '<7天>【9人团】土耳其遗迹浪漫之旅',
+  },
+]
+
+const WORLD_REVIEWS: DestinationCategory['reviews'] = [
+  {
+    name: 'Lily',
+    avatar: '/tff/avatar.png',
+    rating: 5,
+    text: '江南行程轻松丰富，酒店和餐食都很满意。',
+    date: '2026-06-25',
+    productTitle: '上海+苏州+杭州+乌镇5日4晚跟团游',
+  },
+  {
+    name: '周先生',
+    avatar: '/tff/avatar.png',
+    rating: 5,
+    text: '张家界山水壮观，导游服务热情，体验很好。',
+    date: '2026-06-16',
+    productTitle: '<6天>【20人纯玩团】湖南湘西深度游',
+  },
+]
+
+export const CANADA_LATAM_TRAVEL: DestinationSection = {
+  title: '加拿大&拉美',
+  icon: '/tff/20191101011005072753015.png',
+  moreHref: '/tours?q=加拿大',
+  categories: [
+    {
+      id: 'canada-west',
+      label: '加西｜夏季热卖',
+      href: '/tours?q=班夫',
+      products: [
+        { title: '<4天>【全年最夯折扣·买2送2/送1】住班夫镇+班夫国家公园+哥伦比亚冰原+三大名湖 | 落基山', image: '/tff/20260612100144316320617.jpg', price: 212.41, originalPrice: 237.66 },
+        { title: '<5天>【品质团·落基山经典入门】住3晚公园内，班夫+贾斯珀+幽鹤三大公园五大名湖', image: '/tff/2026061209513871966970.jpg', price: 629.92, originalPrice: 679.92 },
+        { title: '<5天>【24人团·入住冰原腹地木屋】三大国家公园+哥伦比亚冰原+七大名湖', image: '/tff/20250108030410693819286.jpg', price: 740.22, originalPrice: 799.92 },
+        { title: '<6天>【深度落基山】班夫、贾斯珀、优鹤公园+冰原雪车+天空步道', image: '/tff/20260618040452944389538.jpg', price: 885.16, originalPrice: 935.16 },
+        { title: '<4天>【温哥华出发】落基山经典线路，邂逅露易丝湖与梦莲湖', image: '/tff/0302w12000qghi8je71A4_C_750_420.jpg', price: 419.5 },
+      ],
+      hotRank: [
+        { rank: 1, title: '<4天>【全年最夯折扣】班夫+哥伦比亚冰原+三大名湖', image: '/tff/20260612100144316320617.jpg', price: 212.41 },
+        { rank: 2, title: '<5天>【品质团】三大公园五大名湖', image: '/tff/2026061209513871966970.jpg', price: 629.92 },
+        { rank: 3, title: '<5天>【入住冰原腹地木屋】落基山深度游', image: '/tff/20250108030410693819286.jpg', price: 740.22 },
+        { rank: 4, title: '<6天>【深度落基山】冰原雪车+天空步道', image: '/tff/20260618040452944389538.jpg', price: 885.16 },
+      ],
+      reviews: CANADA_REVIEWS,
+    },
+    { id: 'canada-east', label: '加东｜买2送1', href: '/tours?q=加拿大东部', products: [], hotRank: [], reviews: [] },
+    { id: 'mexico', label: '墨西哥&坎昆', href: '/tours?q=墨西哥', products: [], hotRank: [], reviews: [] },
+    { id: 'peru', label: '秘鲁', href: '/tours?q=秘鲁', products: [], hotRank: [], reviews: [] },
+  ],
+}
+
+export const EUROPE_TRAVEL: DestinationSection = {
+  title: '欧洲旅游',
+  icon: '/tff/20191101010357241569963.png',
+  moreHref: '/tours?q=欧洲',
+  categories: [
+    {
+      id: 'europe-seasonal',
+      label: '当季热卖',
+      href: '/tours?q=欧洲',
+      products: [
+        { title: '<14天>【西北偏北 英国+爱尔兰两国游】苏格兰高地+都柏林+牛津剑桥+尼斯湖游船', image: '/tff/20260618040452944389538.jpg', price: 3615.1 },
+        { title: '<7天>【9人团 土耳其遗迹浪漫】含三段内飞+世遗棉花堡+五钻酒店', image: '/tff/20260618054235569426158.jpg', price: 2256.25 },
+        { title: '<7天>【铁发 轻享之旅】雅典+圣托里尼，6-15人精致中文小团', image: '/tff/0304w12000lxow6zg3547_C_750_420.jpg', price: 1961.25 },
+        { title: '<12天>【纯净峡湾】北欧四国全景，纵览三大峡湾+弗洛姆小火车', image: '/tff/0303r12000qviyz1w35EB_C_750_420.jpg', price: 2169.89, originalPrice: 2284.09 },
+        { title: '<9天>【精品小团】法国瑞士意大利深度游，浪漫名城一次看遍', image: '/tff/0302f12000n51bggw53E1_C_750_420.jpg', price: 1799 },
+      ],
+      hotRank: [
+        { rank: 1, title: '<14天>【西北偏北】英国+爱尔兰两国游', image: '/tff/20260618040452944389538.jpg', price: 3615.1 },
+        { rank: 2, title: '<7天>【9人团】土耳其遗迹浪漫', image: '/tff/20260618054235569426158.jpg', price: 2256.25 },
+        { rank: 3, title: '<7天>【轻享之旅】希腊雅典+圣托里尼', image: '/tff/0304w12000lxow6zg3547_C_750_420.jpg', price: 1961.25 },
+        { rank: 4, title: '<12天>【纯净峡湾】北欧四国全景', image: '/tff/0303r12000qviyz1w35EB_C_750_420.jpg', price: 2169.89 },
+      ],
+      reviews: EUROPE_REVIEWS,
+    },
+    { id: 'europe-loop', label: '欧洲循环游', href: '/tours?q=欧洲循环游', products: [], hotRank: [], reviews: [] },
+    { id: 'fjords', label: '北欧｜峡湾&避暑', href: '/tours?q=北欧峡湾', products: [], hotRank: [], reviews: [] },
+    { id: 'aegean', label: '希腊&土耳其', href: '/tours?q=希腊土耳其', products: [], hotRank: [], reviews: [] },
+    { id: 'eastern-europe', label: '浪漫东欧', href: '/tours?q=东欧', products: [], hotRank: [], reviews: [] },
+    { id: 'europe-small', label: '精品小团', href: '/tours?q=欧洲精品小团', products: [], hotRank: [], reviews: [] },
+    { id: 'europe-private', label: '私家包团', href: '/tours?q=欧洲私家包团', products: [], hotRank: [], reviews: [] },
+  ],
+}
+
+export const WORLD_TRAVEL: DestinationSection = {
+  title: '花样世界',
+  icon: '/tff/20191101011005072753015.png',
+  moreHref: '/tours?q=中国入境',
+  categories: [
+    {
+      id: 'china-inbound',
+      label: '中国入境',
+      href: '/tours?q=中国入境',
+      products: [
+        { title: '上海+苏州+杭州+乌镇5日4晚跟团游·16人团，西栅内+摇橹船+汉服+景交', image: '/tff/20230720033049641788112.jpg', price: 273.52, originalPrice: 310.82 },
+        { title: '<6天>【20人纯玩团】湖南湘西·长沙+张家界玻璃桥+天门山+凤凰古城', image: '/tff/0305r12000lp47atq5BC0_C_750_420.jpg', price: 416.35, originalPrice: 462.61 },
+        { title: '九寨沟+黄龙+峨眉山+乐山大佛5日4晚，携程5钻酒店+熊猫景区', image: '/tff/0302f12000n51bggw53E1_C_750_420.jpg', price: 257.54, originalPrice: 321.92 },
+        { title: '西安4日3晚跟团游·暑假特惠，秦始皇兵马俑+陕西历史博物馆', image: '/tff/20260305070729701656868.jpg', price: 332.74 },
+        { title: '北京故宫、长城、颐和园5日深度游，中文导游全程陪同', image: '/tff/20260703021815892716696887.jpg', price: 388 },
+      ],
+      hotRank: [
+        { rank: 1, title: '上海+苏州+杭州+乌镇5日4晚跟团游', image: '/tff/20230720033049641788112.jpg', price: 273.52 },
+        { rank: 2, title: '<6天>【20人纯玩团】湖南湘西深度游', image: '/tff/0305r12000lp47atq5BC0_C_750_420.jpg', price: 416.35 },
+        { rank: 3, title: '九寨沟+黄龙+峨眉山+乐山大佛5日4晚', image: '/tff/0302f12000n51bggw53E1_C_750_420.jpg', price: 257.54 },
+        { rank: 4, title: '西安4日3晚深度游', image: '/tff/20260305070729701656868.jpg', price: 332.74 },
+      ],
+      reviews: WORLD_REVIEWS,
+    },
+    { id: 'new-zealand', label: '纯净新西兰', href: '/tours?q=新西兰', products: [], hotRank: [], reviews: [] },
+    { id: 'japan', label: '和风日本', href: '/tours?q=日本', products: [], hotRank: [], reviews: [] },
+    { id: 'australia', label: '多彩澳洲', href: '/tours?q=澳大利亚', products: [], hotRank: [], reviews: [] },
+    { id: 'sea', label: '风情东南亚', href: '/tours?q=东南亚', products: [], hotRank: [], reviews: [] },
+    { id: 'middle-east-africa', label: '中东非旅游', href: '/tours?q=中东非', products: [], hotRank: [], reviews: [] },
+  ],
 }
 
 export const HOT_RANK_ITEMS = USA_TRAVEL.categories[0].hotRank
@@ -359,22 +518,26 @@ export const REVIEW_ITEMS = USA_TRAVEL.categories[0].reviews.map((r) => ({
 export const CUSTOM_STORIES = [
   {
     title: '许自己一个纯净的新西兰假期',
-    image: '/tff/0303r12000qviyz1w35EB_C_750_420.jpg',
+    description: '一个不去一定会后悔，走了更会后悔的国家。南北双岛，送给自己的浪漫假期，体验100%纯净新西兰',
+    image: '/tff/custom-new-zealand.jpeg',
   },
   {
-    title: '西班牙 | 冬日里的光影醉梦',
-    image: '/tff/20260618040452944389538.jpg',
+    title: '西班牙｜冬日里的光影醉梦',
+    description: '初识·马德里的慵与梦 心动·巴塞罗那光和影',
+    image: '/tff/custom-spain.jpg',
   },
   {
-    title: '商务定制 | 专业不负信任',
-    image: '/tff/20260612100144316320617.jpg',
+    title: '商务定制｜专业不负信任',
+    description: '随时准备解决各种突发问题，途风的定制师约等于哆啦A梦',
+    image: '/tff/custom-business.jpg',
   },
 ]
 
 export const CRUISE_ITEMS = [
-  { title: '南北极邮轮', image: '/tff/20260622011449217558482.jpg' },
-  { title: '中文服务邮轮', image: '/tff/20260612071803989129395.jpg' },
-  { title: '欧洲内河游轮', image: '/tff/20260612074237256168449.jpg' },
+  { title: '南北极探险邮轮', image: '/tff/cruise-polar.jpg' },
+  { title: '暑期特价推荐', image: '/tff/cruise-summer-sale.jpg' },
+  { title: '精选2025全球邮轮', image: '/tff/cruise-global-chinese.jpg' },
+  { title: '畅游中国长江三峡', image: '/tff/cruise-yangtze.jpg' },
 ]
 
 export const KNOW_US_NEWS = [

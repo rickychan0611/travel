@@ -5,31 +5,55 @@ import { CUSTOM_STORIES } from '@/data/home-mock'
 
 export function CustomStories({ locale }: { locale: string }) {
   return (
-    <section className="rounded-md bg-white p-4 shadow-sm ring-1 ring-[#e8e8e8] md:p-5">
-      <div className="mb-4 flex items-center gap-3">
-        <Image src="/tff/custom-title.png" alt="" width={120} height={28} className="h-7 w-auto" />
-        <h2 className="sr-only">定制旅行</h2>
+    <section className="bg-white px-4 pb-10 pt-[70px]">
+      <div className="mx-auto text-center">
+        <Image
+          src="/tff/custom-title.png"
+          alt="定制旅程 CUSTOMIZATION"
+          width={338}
+          height={28}
+          className="mx-auto h-7 w-auto"
+        />
       </div>
-      <div className="grid grid-cols-1 gap-3 md:grid-cols-3">
-        {CUSTOM_STORIES.map((story) => (
+
+      <div className="mx-auto grid max-w-[1120px] grid-cols-1 justify-items-center gap-10 pt-8 md:grid-cols-3 md:gap-16 md:pt-0">
+        {CUSTOM_STORIES.map((story, index) => (
           <Link
             key={story.title}
             href={`/${locale}/about` as Route}
-            className="group relative aspect-[16/9] overflow-hidden rounded-md"
+            className="group flex w-[240px] flex-col items-center text-center text-[#252525] no-underline"
           >
-            <Image
-              src={story.image}
-              alt={story.title}
-              fill
-              className="object-cover transition group-hover:scale-105"
-              sizes="(max-width: 768px) 100vw, 33vw"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/65 to-transparent" />
-            <p className="absolute bottom-3 left-3 right-3 text-sm font-semibold text-white md:text-base">
+            <div
+              className={[
+                'mb-10 mt-4 h-[184px] w-[148px] rounded bg-white p-1 pb-10 shadow-[0_0_10px_rgba(0,0,0,0.5)] transition-transform duration-200 group-hover:rotate-[-15deg] md:mt-[50px]',
+                index === 1 ? 'rotate-[-18deg]' : 'rotate-[-20deg]',
+              ].join(' ')}
+            >
+              <div className="relative h-[140px] w-[140px] overflow-hidden">
+                <Image
+                  src={story.image}
+                  alt={story.title}
+                  fill
+                  className="object-cover"
+                  sizes="140px"
+                />
+              </div>
+            </div>
+            <h3 className="mb-5 text-[18px] font-normal leading-6 transition-[font-weight] group-hover:font-bold">
               {story.title}
-            </p>
+            </h3>
+            <p className="min-h-10 text-[14px] leading-5">{story.description}</p>
           </Link>
         ))}
+      </div>
+
+      <div className="flex justify-center pt-10">
+        <Link
+          href={`/${locale}/about` as Route}
+          className="h-10 w-[120px] rounded border border-[#0090f2] bg-white text-center text-[16px] leading-10 text-[#0090f2] transition-colors hover:bg-[#0090f2] hover:text-white"
+        >
+          查看更多&gt;
+        </Link>
       </div>
     </section>
   )

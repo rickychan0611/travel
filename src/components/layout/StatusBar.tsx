@@ -1,7 +1,6 @@
 'use client'
 
 import Link from 'next/link'
-import Image from 'next/image'
 import { useTranslations, useLocale } from 'next-intl'
 import { usePathname, useRouter } from 'next/navigation'
 import { Show } from '@clerk/nextjs'
@@ -57,14 +56,6 @@ export function StatusBar({ locale }: { locale: string }) {
         </div>
 
         <div className="flex items-center gap-4 text-[#666]">
-          <Link
-            href={`/${locale}/about` as Route}
-            className="inline-flex items-center gap-1 text-tff-orange hover:opacity-80"
-          >
-            <Image src="/tff/invite-orange.png" alt="" width={14} height={14} className="h-3.5 w-3.5" />
-            {th('invite')}
-          </Link>
-
           <label className="relative inline-flex cursor-pointer items-center gap-0.5 hover:text-tff-orange">
             <span>语言</span>
             <ChevronDown className="h-3 w-3" />

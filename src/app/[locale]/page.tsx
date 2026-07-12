@@ -4,11 +4,10 @@ import { HeroBanner } from '@/components/home/HeroBanner'
 import { HomeNavTiles } from '@/components/home/HomeNavTiles'
 import { SeasonMustPlay } from '@/components/home/SeasonMustPlay'
 import { UsaTravelSection } from '@/components/home/UsaTravelSection'
+import { CANADA_LATAM_TRAVEL, EUROPE_TRAVEL, WORLD_TRAVEL } from '@/data/home-mock'
 import { CustomStories } from '@/components/home/CustomStories'
 import { CruiseSection } from '@/components/home/CruiseSection'
 import { KnowUs } from '@/components/home/KnowUs'
-import { WhyBook } from '@/components/home/WhyBook'
-import { TrustBadges } from '@/components/home/TrustBadges'
 import { PartnerBanner } from '@/components/home/PartnerBanner'
 
 export async function generateMetadata({
@@ -39,11 +38,12 @@ export default async function HomePage({
         <HomeNavTiles locale={locale} />
         <SeasonMustPlay locale={locale} />
         <UsaTravelSection locale={locale} />
+        <UsaTravelSection locale={locale} section={CANADA_LATAM_TRAVEL} />
+        <UsaTravelSection locale={locale} section={EUROPE_TRAVEL} />
+        <UsaTravelSection locale={locale} section={WORLD_TRAVEL} />
         <CustomStories locale={locale} />
         <CruiseSection locale={locale} />
         <KnowUs />
-        <WhyBook />
-        <TrustBadges />
         <PartnerBanner />
       </div>
     </>

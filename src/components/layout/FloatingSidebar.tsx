@@ -17,10 +17,35 @@ const ITEMS = [
 
 export function FloatingSidebar() {
   const [active, setActive] = useState<string | null>(null)
+  const [hidden, setHidden] = useState(true)
+
+  if (hidden) {
+    return (
+      <button
+        type="button"
+        className="fixed right-0 top-1/2 z-[100] hidden h-16 w-6 -translate-y-1/2 items-center justify-center rounded-l-md bg-[#252525] text-sm font-bold text-white shadow-lg transition hover:bg-tff-blue lg:flex"
+        onClick={() => setHidden(false)}
+        aria-label="Show sidebar"
+      >
+        {'<'}
+      </button>
+    )
+  }
 
   return (
-    <aside className="fixed right-0 top-1/2 z-40 hidden -translate-y-1/2 lg:block">
+    <aside className="fixed right-0 top-1/2 z-[100] hidden -translate-y-1/2 lg:block">
       <div className="flex w-11 flex-col overflow-hidden rounded-l-md bg-[#252525] shadow-lg">
+        <button
+          type="button"
+          className="flex h-8 w-11 items-center justify-center border-b border-white/10 text-sm font-bold text-white hover:bg-tff-blue"
+          onClick={() => {
+            setActive(null)
+            setHidden(true)
+          }}
+          aria-label="Hide sidebar"
+        >
+          {'>'}
+        </button>
         {ITEMS.map((item) => (
           <button
             key={item.id}

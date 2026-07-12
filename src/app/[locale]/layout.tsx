@@ -23,7 +23,7 @@ export default async function LocaleLayout({
     <NextIntlClientProvider messages={messages}>
       <StatusBar locale={locale} />
       <Header locale={locale} />
-      <main className="flex-1 bg-[#f7f8fa]">{children}</main>
+      <main className="flex-1 bg-white">{children}</main>
       <Footer locale={locale} />
       <FloatingSidebar />
     </NextIntlClientProvider>

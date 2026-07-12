@@ -33,8 +33,16 @@ export async function POST(request: NextRequest) {
     attributes: [
       { key: 'Departure Date', value: item.departureDate },
       { key: 'Party Size',     value: String(item.partySize) },
+      ...(item.lineItemProperties
+        ? Object.entries(item.lineItemProperties)
+            .filter((entry): entry is [string, string] => Boolean(entry[1]))
+            .map(([key, value]) => ({ key, value: String(value) }))
+        : []),
       ...(item.pickupLocationId
         ? [{ key: 'Pickup Location', value: item.pickupLocationId }]
+        : []),
+      ...(item.addons.length > 0
+        ? [{ key: 'Add-ons', value: item.addons.map((addon) => addon.name).join(', ') }]
         : []),
     ],
   }))

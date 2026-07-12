@@ -14,7 +14,7 @@ export function MegaNav({ locale }: { locale: string }) {
       className="relative z-40 w-full bg-tff-blue"
       onMouseLeave={() => setOpenId(null)}
     >
-      <div className="mx-auto flex h-11 max-w-[1200px] items-stretch">
+      <div className="mx-auto flex h-11 max-w-full items-stretch overflow-x-auto overflow-y-visible xl:max-w-[1200px] xl:overflow-visible">
         {/* 热门目的地 — left trigger aligned with hero overlay */}
         <div className="relative hidden w-[230px] shrink-0 md:block">
           <div className="flex h-full w-full items-center justify-center gap-1.5 bg-[#1a6fb5] px-4 text-sm font-semibold text-white">
