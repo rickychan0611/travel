@@ -150,7 +150,7 @@ export function ImageSlider({
     >
       <div
         className={cn(
-          'relative aspect-[16/9] min-h-[230px] overflow-hidden rounded-sm bg-[#e5e5e5] lg:aspect-auto lg:h-[438px]',
+          'relative aspect-video min-h-[230px] overflow-hidden rounded-sm bg-[#e5e5e5] lg:aspect-auto lg:h-[438px]',
           mainClassName,
         )}
       >
@@ -221,7 +221,7 @@ export function ImageSlider({
                 type="button"
                 onClick={() => goTo(i)}
                 className={cn(
-                  'relative aspect-[4/3] box-border overflow-hidden border-2',
+                  'relative aspect-4/3 box-border overflow-hidden border-2',
                   i === index ? 'border-[#1683e9]' : 'border-transparent',
                 )}
                 style={{ width: `${100 / count}%` }}

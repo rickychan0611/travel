@@ -23,7 +23,7 @@ export function FloatingSidebar() {
     return (
       <button
         type="button"
-        className="fixed right-0 top-1/2 z-[100] hidden h-16 w-6 -translate-y-1/2 items-center justify-center rounded-l-md bg-[#252525] text-sm font-bold text-white shadow-lg transition hover:bg-tff-blue lg:flex"
+        className="fixed right-0 top-1/2 z-100 hidden h-16 w-6 -translate-y-1/2 items-center justify-center rounded-l-md bg-[#252525] text-sm font-bold text-white shadow-lg transition hover:bg-tff-blue lg:flex"
         onClick={() => setHidden(false)}
         aria-label="Show sidebar"
       >
@@ -33,7 +33,7 @@ export function FloatingSidebar() {
   }
 
   return (
-    <aside className="fixed right-0 top-1/2 z-[100] hidden -translate-y-1/2 lg:block">
+    <aside className="fixed right-0 top-1/2 z-100 hidden -translate-y-1/2 lg:block">
       <div className="flex w-11 flex-col overflow-hidden rounded-l-md bg-[#252525] shadow-lg">
         <button
           type="button"

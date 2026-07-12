@@ -25,7 +25,7 @@ export function SeasonMustPlay({ locale }: { locale: string }) {
               className="h-full w-full object-cover transition group-hover:scale-105"
               sizes="220px"
             />
-            <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/75 via-black/40 to-transparent px-3 pb-3 pt-10">
+            <div className="absolute inset-x-0 bottom-0 bg-linear-to-t from-black/75 via-black/40 to-transparent px-3 pb-3 pt-10">
               <p className="text-sm font-semibold text-white md:text-base">{card.title}</p>
               <p className="mt-0.5 line-clamp-1 text-sm text-white/85">{card.blurb}</p>
             </div>

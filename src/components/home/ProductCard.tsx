@@ -23,7 +23,7 @@ export function ProductCard({
 
   return (
     <article className="group flex h-full flex-col overflow-hidden rounded-md bg-white ring-1 ring-[#e8e8e8] transition hover:shadow-md">
-      <Link href={resolvedHref} className="relative block aspect-[4/3] shrink-0 bg-[#f5f5f5]">
+      <Link href={resolvedHref} className="relative block aspect-4/3 shrink-0 bg-[#f5f5f5]">
         {image ? (
           <Image
             src={image.url}

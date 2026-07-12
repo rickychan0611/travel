@@ -25,7 +25,7 @@ export function LocaleSwitcher() {
     <select
       value={locale}
       onChange={(e) => switchLocale(e.target.value)}
-      className="max-w-[4.5rem] cursor-pointer appearance-none bg-transparent text-sm text-[#666] outline-none hover:text-tff-orange"
+      className="max-w-18 cursor-pointer appearance-none bg-transparent text-sm text-[#666] outline-none hover:text-tff-orange"
       aria-label="Language"
       title={LOCALE_LABELS[locale]}
     >

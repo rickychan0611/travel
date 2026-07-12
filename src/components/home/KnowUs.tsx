@@ -53,7 +53,7 @@ export function KnowUs() {
               <strong className="text-[20px] font-normal text-[#252525]">了解途风</strong>
               <span className="text-[14px] text-[#777]">我们的优势&gt;</span>
             </div>
-            <div className="relative aspect-[392/220] overflow-hidden bg-[#111]">
+            <div className="relative aspect-392/220 overflow-hidden bg-[#111]">
               <Image
                 src="/tff/know-us-video-cover.jpg"
                 alt="了解途风"

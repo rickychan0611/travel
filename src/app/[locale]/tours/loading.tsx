@@ -22,7 +22,7 @@ export default function ToursLoading() {
         {Array.from({ length: 8 }).map((_, i) => (
           <div key={i} className="rounded-xl border bg-card overflow-hidden">
             {/* Image */}
-            <div className="aspect-[4/3] bg-muted animate-pulse" />
+            <div className="aspect-4/3 bg-muted animate-pulse" />
             {/* Content */}
             <div className="p-3 space-y-2">
               <div className="h-3 w-1/3 rounded bg-muted animate-pulse" />

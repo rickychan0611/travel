@@ -347,7 +347,7 @@ Completed: 2026-06-16
 ## loading.tsx must mirror the real page layout to avoid layout shift
   Skeleton dimensions should match the actual rendered content:
   - Same grid column counts (grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4)
-  - Same aspect ratios (aspect-[4/3] for card images)
+  - Same aspect ratios (aspect-4/3 for card images)
   - Same padding/spacing as the real page
   Mismatched skeletons cause jarring layout shifts when content loads.
   Use `animate-pulse` on bg-muted divs — no extra packages needed.

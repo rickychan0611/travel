@@ -24,7 +24,7 @@ export function CruiseSection({ locale }: { locale: string }) {
             className="group block w-full max-w-[282px] overflow-hidden"
             aria-label={item.title}
           >
-            <div className="relative aspect-[141/200] w-full">
+            <div className="relative aspect-141/200 w-full">
               <Image
                 src={item.image}
                 alt={item.title}

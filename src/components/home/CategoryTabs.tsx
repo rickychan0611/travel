@@ -89,7 +89,7 @@ export function CategoryTabs({
             <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 xl:grid-cols-3">
               {Array.from({ length: 6 }).map((_, i) => (
                 <div key={i} className="animate-pulse overflow-hidden rounded-md ring-1 ring-[#eee]">
-                  <div className="aspect-[4/3] bg-[#f0f0f0]" />
+                  <div className="aspect-4/3 bg-[#f0f0f0]" />
                   <div className="space-y-2 p-3">
                     <div className="h-3 w-3/4 rounded bg-[#f0f0f0]" />
                     <div className="h-3 w-1/2 rounded bg-[#f0f0f0]" />

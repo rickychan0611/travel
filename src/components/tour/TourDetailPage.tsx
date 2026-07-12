@@ -156,7 +156,7 @@ export function TourDetailPage({ locale, fallback }: Props) {
               paused={galleryModalOpen}
               overlay={
                 fallback.saleTag ? (
-                  <span className="absolute left-4 top-4 rounded-full bg-gradient-to-r from-[#ff6500] to-[#ff3045] px-4 py-2 text-[17px] font-bold text-white">
+                  <span className="absolute left-4 top-4 rounded-full bg-linear-to-r from-[#ff6500] to-[#ff3045] px-4 py-2 text-[17px] font-bold text-white">
                     % {fallback.saleTag}
                   </span>
                 ) : null
@@ -316,7 +316,7 @@ export function TourDetailPage({ locale, fallback }: Props) {
       </div>
 
       {galleryModalOpen ? (
-        <div className="fixed inset-0 z-[95] flex items-center justify-center bg-black/90 p-6" onClick={() => setGalleryModalOpen(false)}>
+        <div className="fixed inset-0 z-95 flex items-center justify-center bg-black/90 p-6" onClick={() => setGalleryModalOpen(false)}>
           <button type="button" onClick={() => setGalleryModalOpen(false)} className="absolute right-6 top-4 text-4xl text-white">×</button>
           <button type="button" onClick={(event) => { event.stopPropagation(); setActiveImage((activeImage + gallery.length - 1) % gallery.length) }} className="absolute left-6 top-1/2 text-6xl text-white/80">‹</button>
           <div className="relative h-[82vh] w-[92vw]" onClick={(event) => event.stopPropagation()}>
@@ -327,7 +327,7 @@ export function TourDetailPage({ locale, fallback }: Props) {
       ) : null}
 
       {modalImage ? (
-        <div className="fixed inset-0 z-[90] flex items-center justify-center bg-black/55 p-8" onClick={() => setModalImage(null)}>
+        <div className="fixed inset-0 z-90 flex items-center justify-center bg-black/55 p-8" onClick={() => setModalImage(null)}>
           <div className="max-h-[86vh] w-full max-w-[1200px] bg-white p-6" onClick={(event) => event.stopPropagation()}>
             <button type="button" onClick={() => setModalImage(null)} className="float-right text-2xl text-[#999]">×</button>
             <h3 className="text-xl font-bold">{modalImage.title} <span className="text-sm font-normal text-[#ff8a00]">★ 4.7</span></h3>

@@ -6,7 +6,7 @@ export default function TourDetailLoading() {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12">
         {/* Image skeleton */}
-        <div className="aspect-[4/3] rounded-xl bg-muted animate-pulse" />
+        <div className="aspect-4/3 rounded-xl bg-muted animate-pulse" />
 
         {/* Details skeleton */}
         <div className="space-y-6">

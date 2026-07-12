@@ -33,7 +33,7 @@ export function MegaNav({ locale }: { locale: string }) {
             return (
               <div
                 key={item.id}
-                className={`relative shrink-0 ${item.hot ? 'z-[60]' : 'z-10'}`}
+                className={`relative shrink-0 ${item.hot ? 'z-60' : 'z-10'}`}
                 onMouseEnter={() => setOpenId(hasMenu ? item.id : null)}
               >
                 <Link
@@ -44,7 +44,7 @@ export function MegaNav({ locale }: { locale: string }) {
                 >
                   {item.label}
                   {item.hot ? (
-                    <span className="pointer-events-none absolute -top-1.5 right-0 z-[60] rounded-sm bg-tff-orange px-1 py-px text-[9px] font-bold leading-none text-white shadow-sm">
+                    <span className="pointer-events-none absolute -top-1.5 right-0 z-60 rounded-sm bg-tff-orange px-1 py-px text-[9px] font-bold leading-none text-white shadow-sm">
                       HOT
                     </span>
                   ) : null}
