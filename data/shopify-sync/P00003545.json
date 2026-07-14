@@ -1,0 +1,375 @@
+{
+  "productCode": "P00003545",
+  "handle": "p00003545-dream-vacation-in-cancun-seek-for-romance-and-explore-the-fusion-of-mayan-4-day-adventurous-tour",
+  "shopifyProductId": "gid://shopify/Product/8880468262964",
+  "shopifyAddonProductId": "gid://shopify/Product/8880468328500",
+  "status": "ACTIVE",
+  "locales": [
+    "en",
+    "zh-CN",
+    "zh-TW"
+  ],
+  "syncedAt": "2026-07-14T04:46:08.174Z",
+  "variants": [],
+  "addons": [],
+  "images": [
+    {
+      "sourceUrl": "https://dimg04.c-ctrip.com/target/02S0c12000cpvchxi8ACC.png",
+      "shopifyMediaId": "gid://shopify/MediaImage/28780946489396",
+      "shopifyFileId": null,
+      "position": 1,
+      "role": "featured",
+      "alt": "Dream Vacation in Cancun | Seek for romance & Explore the fusion of Mayan | 4-Day Adventurous Tour 1"
+    }
+  ],
+  "metaobjects": {
+    "tour_content": [
+      {
+        "id": "gid://shopify/Metaobject/351851446324",
+        "handle": "p00003545-en-content"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853051956",
+        "handle": "p00003545-zh-cn-content"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351854690356",
+        "handle": "p00003545-zh-tw-content"
+      }
+    ],
+    "tour_highlight": [
+      {
+        "id": "gid://shopify/Metaobject/351851544628",
+        "handle": "p00003545-en-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351851577396",
+        "handle": "p00003545-en-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351851642932",
+        "handle": "p00003545-en-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351851708468",
+        "handle": "p00003545-en-highlight-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351851774004",
+        "handle": "p00003545-en-highlight-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351851839540",
+        "handle": "p00003545-en-highlight-6"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853084724",
+        "handle": "p00003545-zh-cn-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853117492",
+        "handle": "p00003545-zh-cn-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853150260",
+        "handle": "p00003545-zh-cn-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853183028",
+        "handle": "p00003545-zh-cn-highlight-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853215796",
+        "handle": "p00003545-zh-cn-highlight-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853248564",
+        "handle": "p00003545-zh-cn-highlight-6"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853281332",
+        "handle": "p00003545-zh-cn-highlight-7"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853314100",
+        "handle": "p00003545-zh-cn-highlight-8"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853346868",
+        "handle": "p00003545-zh-cn-highlight-9"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853379636",
+        "handle": "p00003545-zh-cn-highlight-10"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853412404",
+        "handle": "p00003545-zh-cn-highlight-11"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853445172",
+        "handle": "p00003545-zh-cn-highlight-12"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853477940",
+        "handle": "p00003545-zh-cn-highlight-13"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853510708",
+        "handle": "p00003545-zh-cn-highlight-14"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853543476",
+        "handle": "p00003545-zh-cn-highlight-15"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853576244",
+        "handle": "p00003545-zh-cn-highlight-16"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351854723124",
+        "handle": "p00003545-zh-tw-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351854755892",
+        "handle": "p00003545-zh-tw-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351854788660",
+        "handle": "p00003545-zh-tw-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351854821428",
+        "handle": "p00003545-zh-tw-highlight-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351854854196",
+        "handle": "p00003545-zh-tw-highlight-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351854886964",
+        "handle": "p00003545-zh-tw-highlight-6"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351854919732",
+        "handle": "p00003545-zh-tw-highlight-7"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351854952500",
+        "handle": "p00003545-zh-tw-highlight-8"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351854985268",
+        "handle": "p00003545-zh-tw-highlight-9"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351855018036",
+        "handle": "p00003545-zh-tw-highlight-10"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351855050804",
+        "handle": "p00003545-zh-tw-highlight-11"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351855083572",
+        "handle": "p00003545-zh-tw-highlight-12"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351855116340",
+        "handle": "p00003545-zh-tw-highlight-13"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351855149108",
+        "handle": "p00003545-zh-tw-highlight-14"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351855181876",
+        "handle": "p00003545-zh-tw-highlight-15"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351855214644",
+        "handle": "p00003545-zh-tw-highlight-16"
+      }
+    ],
+    "tour_itinerary_day": [
+      {
+        "id": "gid://shopify/Metaobject/351851905076",
+        "handle": "p00003545-en-day-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351851970612",
+        "handle": "p00003545-en-day-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351852036148",
+        "handle": "p00003545-en-day-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351852068916",
+        "handle": "p00003545-en-day-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853609012",
+        "handle": "p00003545-zh-cn-day-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853641780",
+        "handle": "p00003545-zh-cn-day-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853674548",
+        "handle": "p00003545-zh-cn-day-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853707316",
+        "handle": "p00003545-zh-cn-day-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351855247412",
+        "handle": "p00003545-zh-tw-day-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351855280180",
+        "handle": "p00003545-zh-tw-day-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351855312948",
+        "handle": "p00003545-zh-tw-day-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351855345716",
+        "handle": "p00003545-zh-tw-day-4"
+      }
+    ],
+    "tour_cost_section": [
+      {
+        "id": "gid://shopify/Metaobject/351852101684",
+        "handle": "p00003545-en-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351852134452",
+        "handle": "p00003545-en-cost-excludes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853740084",
+        "handle": "p00003545-zh-cn-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853772852",
+        "handle": "p00003545-zh-cn-cost-excludes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351855378484",
+        "handle": "p00003545-zh-tw-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351855411252",
+        "handle": "p00003545-zh-tw-cost-excludes"
+      }
+    ],
+    "tour_policy_notice": [
+      {
+        "id": "gid://shopify/Metaobject/351852167220",
+        "handle": "p00003545-en-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351852199988",
+        "handle": "p00003545-en-notice-2-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351852232756",
+        "handle": "p00003545-en-notice-1-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351852265524",
+        "handle": "p00003545-en-notice-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853805620",
+        "handle": "p00003545-zh-cn-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853838388",
+        "handle": "p00003545-zh-cn-notice-2-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853871156",
+        "handle": "p00003545-zh-cn-notice-1-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853903924",
+        "handle": "p00003545-zh-cn-notice-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351855444020",
+        "handle": "p00003545-zh-tw-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351855476788",
+        "handle": "p00003545-zh-tw-notice-2-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351855509556",
+        "handle": "p00003545-zh-tw-notice-1-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351855542324",
+        "handle": "p00003545-zh-tw-notice-4"
+      }
+    ],
+    "tour_pickup_dropoff": [
+      {
+        "id": "gid://shopify/Metaobject/351852298292",
+        "handle": "p00003545-en-pickup-anm00000215"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351852331060",
+        "handle": "p00003545-en-dropoff-anm00000216"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853936692",
+        "handle": "p00003545-zh-cn-pickup-anm00000215"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351853969460",
+        "handle": "p00003545-zh-cn-dropoff-anm00000216"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351855575092",
+        "handle": "p00003545-zh-tw-pickup-anm00000215"
+      },
+      {
+        "id": "gid://shopify/Metaobject/351855607860",
+        "handle": "p00003545-zh-tw-dropoff-anm00000216"
+      }
+    ]
+  },
+  "publication": {
+    "id": "gid://shopify/Publication/197740789812",
+    "name": "Travel Website Development"
+  },
+  "warnings": [
+    "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants.",
+    "Skipped optional add-ons because the product has no bookable departure-price variants."
+  ],
+  "metaobjectDefinitions": {
+    "tour_content": "gid://shopify/MetaobjectDefinition/18676711476",
+    "tour_highlight": "gid://shopify/MetaobjectDefinition/18675433524",
+    "tour_itinerary_day": "gid://shopify/MetaobjectDefinition/18675466292",
+    "tour_departure": "gid://shopify/MetaobjectDefinition/18675499060",
+    "tour_cost_section": "gid://shopify/MetaobjectDefinition/18675531828",
+    "tour_policy_notice": "gid://shopify/MetaobjectDefinition/18675564596",
+    "tour_pickup_dropoff": "gid://shopify/MetaobjectDefinition/18675597364",
+    "tour_addon": "gid://shopify/MetaobjectDefinition/18675630132"
+  },
+  "productReferenceMetafieldDefinitions": {
+    "content": "gid://shopify/MetafieldDefinition/217881935924",
+    "highlight": "gid://shopify/MetafieldDefinition/217872597044",
+    "itinerary_day": "gid://shopify/MetafieldDefinition/217872629812",
+    "departure": "gid://shopify/MetafieldDefinition/217872662580",
+    "cost_section": "gid://shopify/MetafieldDefinition/217872695348",
+    "policy_notice": "gid://shopify/MetafieldDefinition/217872728116",
+    "pickup_dropoff": "gid://shopify/MetafieldDefinition/217872760884",
+    "addon": "gid://shopify/MetafieldDefinition/217872793652"
+  }
+}

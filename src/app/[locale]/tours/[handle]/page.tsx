@@ -1,16 +1,18 @@
 import type { Metadata } from 'next'
+import { notFound } from 'next/navigation'
 import { TourDetailPage } from '@/components/tour/TourDetailPage'
-import { getTourFallback } from '@/data/tour-detail-fallback'
+import { getToursBmsProductByHandle } from '@/lib/toursbms/load-product'
 
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ handle: string }>
+  params: Promise<{ locale: string; handle: string }>
 }): Promise<Metadata> {
-  const { handle } = await params
-  const tour = getTourFallback(handle)
-  const image = tour.gallery[0]
+  const { locale, handle } = await params
+  const tour = await getToursBmsProductByHandle(handle, locale)
+  if (!tour) return { title: 'Tour not found' }
 
+  const image = tour.gallery[0]
   return {
     title: tour.title,
     description: tour.description,
@@ -28,7 +30,8 @@ export default async function TourDetailRoute({
   params: Promise<{ locale: string; handle: string }>
 }) {
   const { locale, handle } = await params
-  const fallback = getTourFallback(handle)
+  const tour = await getToursBmsProductByHandle(handle, locale)
+  if (!tour) notFound()
 
-  return <TourDetailPage locale={locale} fallback={fallback} />
+  return <TourDetailPage locale={locale} tour={tour} />
 }

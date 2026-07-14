@@ -1,0 +1,115 @@
+/** Slim view-model for tour detail UI (locale-agnostic keys; values come from locale JSON). */
+
+export type TourPrice = {
+  priceType: number
+  label: string
+  amount: number
+  shopifyVariantId?: string
+  sku?: string
+}
+
+export type TourAvailabilityDay = {
+  date: string
+  available: boolean
+  status: 'available' | 'limited' | 'sold-out'
+  remainingStock: number
+  currency: string
+  prices: TourPrice[]
+  lowestPrice: number
+}
+
+export type TourItineraryStop = {
+  type: 'place' | 'transfer' | string
+  label?: string
+  place?: string
+  vehicle?: string
+  vehicleCode?: string
+}
+
+export type TourItineraryImage = {
+  src: string
+  alt: string
+}
+
+export type TourItineraryDay = {
+  dayNumber: number
+  title: string
+  route: string
+  descriptionHtml: string
+  descriptionText: string
+  images: TourItineraryImage[]
+  stops: TourItineraryStop[]
+  hotel?: string
+  regionName?: string
+}
+
+export type TourNotice = {
+  noticeType: number
+  typeLabel: string
+  matterName: string
+  html: string
+  text: string
+}
+
+export type TourPickupPoint = {
+  code: string
+  name: string
+  address: string
+  description: string
+  isAirport: boolean
+}
+
+export type TourAddon = {
+  code: string
+  name: string
+  description: string
+  amount: number
+  currency: string
+  peopleTypeLabel: string
+  shopifyVariantId?: string
+  sku?: string
+}
+
+export type TourDetailData = {
+  productCode: string
+  handle: string
+  title: string
+  subtitle: string
+  description: string
+  categoryName: string
+  duration: { days: number; nights: number; label: string }
+  startName: string
+  endName: string
+  destinations: string[]
+  transfers: string[]
+  vehicles: string[]
+  gallery: Array<{ src: string; alt: string }>
+  highlights: string[]
+  highlightsHtml: string
+  departureNotes: string
+  advanceDay: number
+  advanceTime: string
+  currency: string
+  basePrices: TourPrice[]
+  fromPrice: number
+  availability: TourAvailabilityDay[]
+  itinerary: {
+    travelName: string
+    days: TourItineraryDay[]
+  }
+  cost: {
+    includesHtml: string
+    includesText: string
+    excludesHtml: string
+    excludesText: string
+  }
+  notices: TourNotice[]
+  pickup: TourPickupPoint[]
+  dropoff: TourPickupPoint[]
+  constraints: {
+    confirmTypeLabel: string
+    isChildAvailable: boolean
+    childNote: string
+  }
+  addons: TourAddon[]
+}

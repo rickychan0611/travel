@@ -140,6 +140,13 @@
   html {
     @apply font-sans;
   }
+  :where(a[href], button, label, summary, select, input[type="button"], input[type="checkbox"], input[type="radio"], input[type="submit"], input[type="reset"], [role="button"], [role="link"], [role="tab"], [role="menuitem"], [tabindex]:not([tabindex="-1"])) {
+    cursor: pointer !important;
+  }
+  :where(button, select, input, [role="button"], [role="tab"], [role="menuitem"]):disabled,
+  :where([aria-disabled="true"], .disabled) {
+    cursor: not-allowed !important;
+  }
 }
 
 .tour-detail-hero-grid {
@@ -153,4 +160,13 @@
     grid-template-columns: 660px minmax(0, 1fr);
     align-items: start;
   }
+}
+
+:where(a[href], button, label, summary, select, input[type="button"], input[type="checkbox"], input[type="radio"], input[type="submit"], input[type="reset"], [role="button"], [role="link"], [role="tab"], [role="menuitem"], [tabindex]:not([tabindex="-1"])) {
+  cursor: pointer !important;
+}
+
+:where(button, select, input, [role="button"], [role="tab"], [role="menuitem"]):disabled,
+:where([aria-disabled="true"], .disabled) {
+  cursor: not-allowed !important;
 }

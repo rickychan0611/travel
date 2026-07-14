@@ -155,6 +155,59 @@ describe('POST /api/shopify/cart', () => {
     expect(attrs.map((a: { key: string }) => a.key)).not.toContain('Pickup Location')
   })
 
+  it('attaches selected add-ons with quantities and request-only labels', async () => {
+    requestSpy.mockResolvedValueOnce(makeSuccess() as never)
+
+    await POST(makeRequest({
+      items: [
+        makeItem({
+          currencyCode: 'USD',
+          addons: [
+            { id: 'transport', name: '3-Day Transportation Surcharge', price: 15, quantity: 2 },
+            { id: 'airport', name: 'Airport Pick-up', price: 0, quantity: 1 },
+          ],
+        }),
+      ],
+    }))
+
+    const attrs = requestSpy.mock.calls[0][1]?.variables?.lines[0].attributes
+    expect(attrs).toContainEqual({
+      key: 'Add-ons',
+      value: '3-Day Transportation Surcharge x 2 (USD 30.00); Airport Pick-up (request only)',
+    })
+  })
+
+  it('adds chargeable add-ons with Shopify variant IDs as separate cart lines', async () => {
+    requestSpy.mockResolvedValueOnce(makeSuccess() as never)
+
+    await POST(makeRequest({
+      items: [
+        makeItem({
+          variantId: 'gid://shopify/ProductVariant/tour',
+          addons: [
+            {
+              id: 'transport',
+              name: '3-Day Transportation Surcharge',
+              price: 15,
+              quantity: 2,
+              variantId: 'gid://shopify/ProductVariant/addon',
+            },
+            { id: 'request', name: 'Hotel request', price: 0, quantity: 1 },
+          ],
+        }),
+      ],
+    }))
+
+    const lines = requestSpy.mock.calls[0][1]?.variables?.lines
+    expect(lines).toHaveLength(2)
+    expect(lines[0].merchandiseId).toBe('gid://shopify/ProductVariant/tour')
+    expect(lines[1]).toMatchObject({
+      merchandiseId: 'gid://shopify/ProductVariant/addon',
+      quantity: 2,
+    })
+    expect(lines[1].attributes).toContainEqual({ key: 'Add-on Code', value: 'transport' })
+  })
+
   it('creates one line per cart item for multiple items', async () => {
     requestSpy.mockResolvedValueOnce(makeSuccess() as never)
 

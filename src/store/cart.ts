@@ -11,8 +11,32 @@ export interface CartItem {
   currencyCode: string
   quantity: number
   pickupLocationId: string | null
-  addons: Array<{ id: string; name: string; price: number; quantity: number }>
+  addons: Array<{ id: string; name: string; price: number; quantity: number; variantId?: string }>
   lineItemProperties: Record<string, string>
+}
+
+export function getCartItemBaseTotal(
+  item: Pick<CartItem, 'partySize' | 'pricePerPerson'> & Partial<Pick<CartItem, 'lineItemProperties'>>,
+) {
+  const explicitBaseTotal = Number(item.lineItemProperties?.['Base Total'])
+  if (Number.isFinite(explicitBaseTotal) && explicitBaseTotal >= 0) return explicitBaseTotal
+  return item.pricePerPerson * item.partySize
+}
+
+export function getCartItemAddonsTotal(item: Pick<CartItem, 'addons'>) {
+  return item.addons.reduce((sum, addon) => sum + addon.price * addon.quantity, 0)
+}
+
+export function getCartItemTotal(
+  item: Pick<CartItem, 'addons' | 'partySize' | 'pricePerPerson'> & Partial<Pick<CartItem, 'lineItemProperties'>>,
+) {
+  return getCartItemBaseTotal(item) + getCartItemAddonsTotal(item)
+}
+
+export function getCartTotal(
+  items: Array<Pick<CartItem, 'addons' | 'partySize' | 'pricePerPerson'> & Partial<Pick<CartItem, 'lineItemProperties'>>>,
+) {
+  return items.reduce((sum, item) => sum + getCartItemTotal(item), 0)
 }
 
 interface CartStore {

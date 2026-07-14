@@ -7,7 +7,13 @@ import { useUser } from '@clerk/nextjs'
 import { ShoppingCart, Trash2, Loader2 } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Separator } from '@/components/ui/separator'
-import { useCartStore } from '@/store/cart'
+import {
+  getCartItemAddonsTotal,
+  getCartItemBaseTotal,
+  getCartItemTotal,
+  getCartTotal,
+  useCartStore,
+} from '@/store/cart'
 
 export default function CartPage() {
   const params = useParams()
@@ -23,7 +29,7 @@ export default function CartPage() {
   const [checkoutLoading, setCheckoutLoading] = useState(false)
   const [checkoutError, setCheckoutError] = useState<string | null>(null)
 
-  const total = items.reduce((sum, item) => sum + item.pricePerPerson * item.partySize, 0)
+  const total = getCartTotal(items)
 
   const handleCheckout = async () => {
     if (!isSignedIn) return
@@ -77,7 +83,12 @@ export default function CartPage() {
 
         {/* Cart items */}
         <div className="space-y-3">
-          {items.map((item) => (
+          {items.map((item) => {
+            const baseTotal = getCartItemBaseTotal(item)
+            const addonsTotal = getCartItemAddonsTotal(item)
+            const itemTotal = getCartItemTotal(item)
+
+            return (
             <div
               key={item.variantId}
               className="flex items-start gap-4 rounded-xl border bg-card p-4"
@@ -89,9 +100,39 @@ export default function CartPage() {
                   <span>·</span>
                   <span>{item.departureDate}</span>
                 </div>
-                <p className="mt-2 text-sm font-bold">
-                  {item.currencyCode} {(item.pricePerPerson * item.partySize).toFixed(0)}
-                </p>
+                <div className="mt-2 space-y-1 text-sm">
+                  <p className="font-medium">
+                    Base: {item.currencyCode} {baseTotal.toFixed(0)}
+                  </p>
+                  {item.addons.length > 0 ? (
+                    <div className="rounded-md bg-muted/50 p-2 text-muted-foreground">
+                      <p className="font-medium text-foreground">Selected add-ons</p>
+                      <ul className="mt-1 space-y-1">
+                        {item.addons.map((addon) => (
+                          <li key={addon.id} className="flex justify-between gap-3">
+                            <span>
+                              {addon.name}
+                              {addon.price > 0 ? ` x ${addon.quantity}` : ' (request only)'}
+                            </span>
+                            <span className="shrink-0">
+                              {addon.price > 0
+                                ? `${item.currencyCode} ${(addon.price * addon.quantity).toFixed(0)}`
+                                : '--'}
+                            </span>
+                          </li>
+                        ))}
+                      </ul>
+                      {addonsTotal > 0 ? (
+                        <p className="mt-1 text-right font-medium text-foreground">
+                          Add-ons: {item.currencyCode} {addonsTotal.toFixed(0)}
+                        </p>
+                      ) : null}
+                    </div>
+                  ) : null}
+                  <p className="font-bold">
+                    Item total: {item.currencyCode} {itemTotal.toFixed(0)}
+                  </p>
+                </div>
               </div>
               <Button
                 variant="ghost"
@@ -103,7 +144,8 @@ export default function CartPage() {
                 <Trash2 className="size-4" />
               </Button>
             </div>
-          ))}
+            )
+          })}
         </div>
 
         <Separator className="my-6" />

@@ -1,0 +1,4 @@
+interface:
+  display_name: "ToursBMS Product Extractor"
+  short_description: "Extract ToursBMS products for Shopify JSON"
+  default_prompt: "Use $extractor to extract a ToursBMS product by product code into Shopify-ready JSON."

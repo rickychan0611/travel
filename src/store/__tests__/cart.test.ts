@@ -1,5 +1,12 @@
 import { describe, it, expect, beforeEach } from 'vitest'
-import { useCartStore, type CartItem } from '../cart'
+import {
+  getCartItemAddonsTotal,
+  getCartItemBaseTotal,
+  getCartItemTotal,
+  getCartTotal,
+  useCartStore,
+  type CartItem,
+} from '../cart'
 
 const makeItem = (overrides: Partial<CartItem> = {}): CartItem => ({
   variantId: 'variant-1',
@@ -98,5 +105,50 @@ describe('cart total calculation', () => {
     const items = useCartStore.getState().items
     const total = items.reduce((acc, i) => acc + i.pricePerPerson * i.quantity, 0)
     expect(total).toBe(500)
+  })
+})
+
+describe('cart displayed total calculation', () => {
+  it('calculates base total from pricePerPerson and partySize', () => {
+    expect(getCartItemBaseTotal(makeItem({ pricePerPerson: 100, partySize: 3 }))).toBe(300)
+  })
+
+  it('prefers explicit Base Total for mixed adult and child pricing', () => {
+    expect(getCartItemBaseTotal(makeItem({
+      pricePerPerson: 100,
+      partySize: 3,
+      lineItemProperties: { 'Base Total': '250' },
+    }))).toBe(250)
+  })
+
+  it('adds selected chargeable add-ons and ignores request-only prices', () => {
+    const item = makeItem({
+      pricePerPerson: 100,
+      partySize: 2,
+      addons: [
+        { id: 'adult-addon', name: 'Adult Add-on', price: 50, quantity: 2 },
+        { id: 'request-addon', name: 'Airport Pickup Request', price: 0, quantity: 1 },
+      ],
+    })
+
+    expect(getCartItemAddonsTotal(item)).toBe(100)
+    expect(getCartItemTotal(item)).toBe(300)
+  })
+
+  it('sums base totals and add-ons across all items', () => {
+    useCartStore.getState().addItem(makeItem({
+      variantId: 'v-1',
+      pricePerPerson: 100,
+      partySize: 2,
+      addons: [{ id: 'transport', name: 'Transportation Surcharge', price: 15, quantity: 2 }],
+    }))
+    useCartStore.getState().addItem(makeItem({
+      variantId: 'v-2',
+      pricePerPerson: 200,
+      partySize: 1,
+      addons: [{ id: 'child-addon', name: 'Child Add-on', price: 25, quantity: 1 }],
+    }))
+
+    expect(getCartTotal(useCartStore.getState().items)).toBe(455)
   })
 })

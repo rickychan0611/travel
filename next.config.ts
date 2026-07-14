@@ -13,6 +13,7 @@ const nextConfig: NextConfig = {
       { protocol: 'https', hostname: '**.myshopify.com' },
       { protocol: 'https', hostname: 'cdn.shopify.com' },
       { protocol: 'https', hostname: '**.tripcdn.com' },
+      { protocol: 'https', hostname: '**.c-ctrip.com' },
       { protocol: 'https', hostname: 'img.clerk.com' },
     ],
   },
