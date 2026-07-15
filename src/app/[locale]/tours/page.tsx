@@ -1,11 +1,9 @@
 import type { Metadata } from 'next'
 import { getTranslations } from 'next-intl/server'
-import { shopifyClient } from '@/lib/shopify/client'
-import { ALL_PRODUCTS_QUERY } from '@/lib/shopify/queries/product'
 import { ToursFilter } from '@/components/tours/ToursFilter'
-import type { CollectionProduct } from '@/lib/shopify/types'
+import { fetchProductsByQuery, localizeCollectionProducts, textSearchQuery } from '@/lib/shopify/products'
 
-const TOUR_TYPES = new Set(['group-tour', 'day-trip', 'small-group'])
+export const revalidate = 1800
 
 export async function generateMetadata({
   params,
@@ -30,24 +28,22 @@ export default async function ToursPage({
   const { locale } = await params
   const { q } = await searchParams
   const t = await getTranslations('tours')
-
-  let products: CollectionProduct[] = []
-  try {
-    const { data } = await shopifyClient.request(ALL_PRODUCTS_QUERY, {
-      variables: { first: 50 },
-    })
-    const all = (data as { products: { nodes: CollectionProduct[] } } | null)?.products?.nodes ?? []
-    products = all.filter((p) => TOUR_TYPES.has(p.productType))
-  } catch {
-    products = []
-  }
+  const initialQuery = q ?? ''
+  const products = await localizeCollectionProducts(
+    await fetchProductsByQuery({
+      query: textSearchQuery(initialQuery),
+      first: 100,
+      max: 100,
+    }),
+    locale,
+  )
 
   return (
     <div className="mx-auto max-w-[1200px] px-4 py-8">
       <div className="mb-8">
         <h1 className="text-2xl font-bold">{t('title')}</h1>
       </div>
-      <ToursFilter products={products} locale={locale} initialQuery={q ?? ''} />
+      <ToursFilter key={initialQuery} products={products} locale={locale} initialQuery={initialQuery} />
     </div>
   )
 }

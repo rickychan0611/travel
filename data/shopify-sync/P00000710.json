@@ -1,0 +1,843 @@
+{
+  "productCode": "P00000710",
+  "handle": "p00000710-midnight-sun-2026-alaska-summer-season-naval-port-town-whittier-and-glacier-cruise-day-tour",
+  "shopifyProductId": "gid://shopify/Product/8881403527220",
+  "shopifyAddonProductId": "gid://shopify/Product/8881403592756",
+  "status": "ACTIVE",
+  "locales": [
+    "en",
+    "zh-CN",
+    "zh-TW"
+  ],
+  "syncedAt": "2026-07-15T04:38:28.659Z",
+  "variants": [
+    {
+      "date": "2026-07-15",
+      "priceType": 1,
+      "label": "Adult",
+      "optionValues": {
+        "Departure Date": "2026-07-15",
+        "Rate Type": "Adult"
+      },
+      "sku": "P00000710-2026-07-15-1-ADULT",
+      "price": "310.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035285663796"
+    },
+    {
+      "date": "2026-07-15",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-07-15",
+        "Rate Type": "Child"
+      },
+      "sku": "P00000710-2026-07-15-2-CHILD",
+      "price": "240.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035285696564"
+    },
+    {
+      "date": "2026-07-18",
+      "priceType": 1,
+      "label": "Adult",
+      "optionValues": {
+        "Departure Date": "2026-07-18",
+        "Rate Type": "Adult"
+      },
+      "sku": "P00000710-2026-07-18-1-ADULT",
+      "price": "310.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035285729332"
+    },
+    {
+      "date": "2026-07-18",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-07-18",
+        "Rate Type": "Child"
+      },
+      "sku": "P00000710-2026-07-18-2-CHILD",
+      "price": "240.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035285762100"
+    },
+    {
+      "date": "2026-07-22",
+      "priceType": 1,
+      "label": "Adult",
+      "optionValues": {
+        "Departure Date": "2026-07-22",
+        "Rate Type": "Adult"
+      },
+      "sku": "P00000710-2026-07-22-1-ADULT",
+      "price": "310.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035285794868"
+    },
+    {
+      "date": "2026-07-22",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-07-22",
+        "Rate Type": "Child"
+      },
+      "sku": "P00000710-2026-07-22-2-CHILD",
+      "price": "240.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035285827636"
+    },
+    {
+      "date": "2026-07-25",
+      "priceType": 1,
+      "label": "Adult",
+      "optionValues": {
+        "Departure Date": "2026-07-25",
+        "Rate Type": "Adult"
+      },
+      "sku": "P00000710-2026-07-25-1-ADULT",
+      "price": "310.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035285860404"
+    },
+    {
+      "date": "2026-07-25",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-07-25",
+        "Rate Type": "Child"
+      },
+      "sku": "P00000710-2026-07-25-2-CHILD",
+      "price": "240.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035285893172"
+    },
+    {
+      "date": "2026-07-29",
+      "priceType": 1,
+      "label": "Adult",
+      "optionValues": {
+        "Departure Date": "2026-07-29",
+        "Rate Type": "Adult"
+      },
+      "sku": "P00000710-2026-07-29-1-ADULT",
+      "price": "310.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035285925940"
+    },
+    {
+      "date": "2026-07-29",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-07-29",
+        "Rate Type": "Child"
+      },
+      "sku": "P00000710-2026-07-29-2-CHILD",
+      "price": "240.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035285958708"
+    },
+    {
+      "date": "2026-08-01",
+      "priceType": 1,
+      "label": "Adult",
+      "optionValues": {
+        "Departure Date": "2026-08-01",
+        "Rate Type": "Adult"
+      },
+      "sku": "P00000710-2026-08-01-1-ADULT",
+      "price": "310.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035285991476"
+    },
+    {
+      "date": "2026-08-01",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-08-01",
+        "Rate Type": "Child"
+      },
+      "sku": "P00000710-2026-08-01-2-CHILD",
+      "price": "240.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035286024244"
+    },
+    {
+      "date": "2026-08-05",
+      "priceType": 1,
+      "label": "Adult",
+      "optionValues": {
+        "Departure Date": "2026-08-05",
+        "Rate Type": "Adult"
+      },
+      "sku": "P00000710-2026-08-05-1-ADULT",
+      "price": "310.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035286057012"
+    },
+    {
+      "date": "2026-08-05",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-08-05",
+        "Rate Type": "Child"
+      },
+      "sku": "P00000710-2026-08-05-2-CHILD",
+      "price": "240.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035286089780"
+    },
+    {
+      "date": "2026-08-08",
+      "priceType": 1,
+      "label": "Adult",
+      "optionValues": {
+        "Departure Date": "2026-08-08",
+        "Rate Type": "Adult"
+      },
+      "sku": "P00000710-2026-08-08-1-ADULT",
+      "price": "310.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035286122548"
+    },
+    {
+      "date": "2026-08-08",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-08-08",
+        "Rate Type": "Child"
+      },
+      "sku": "P00000710-2026-08-08-2-CHILD",
+      "price": "240.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035286155316"
+    },
+    {
+      "date": "2026-08-12",
+      "priceType": 1,
+      "label": "Adult",
+      "optionValues": {
+        "Departure Date": "2026-08-12",
+        "Rate Type": "Adult"
+      },
+      "sku": "P00000710-2026-08-12-1-ADULT",
+      "price": "310.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035286188084"
+    },
+    {
+      "date": "2026-08-12",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-08-12",
+        "Rate Type": "Child"
+      },
+      "sku": "P00000710-2026-08-12-2-CHILD",
+      "price": "240.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035286220852"
+    },
+    {
+      "date": "2026-08-15",
+      "priceType": 1,
+      "label": "Adult",
+      "optionValues": {
+        "Departure Date": "2026-08-15",
+        "Rate Type": "Adult"
+      },
+      "sku": "P00000710-2026-08-15-1-ADULT",
+      "price": "310.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035286253620"
+    },
+    {
+      "date": "2026-08-15",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-08-15",
+        "Rate Type": "Child"
+      },
+      "sku": "P00000710-2026-08-15-2-CHILD",
+      "price": "240.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035286286388"
+    },
+    {
+      "date": "2026-08-19",
+      "priceType": 1,
+      "label": "Adult",
+      "optionValues": {
+        "Departure Date": "2026-08-19",
+        "Rate Type": "Adult"
+      },
+      "sku": "P00000710-2026-08-19-1-ADULT",
+      "price": "310.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035286319156"
+    },
+    {
+      "date": "2026-08-19",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-08-19",
+        "Rate Type": "Child"
+      },
+      "sku": "P00000710-2026-08-19-2-CHILD",
+      "price": "240.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035286351924"
+    },
+    {
+      "date": "2026-08-22",
+      "priceType": 1,
+      "label": "Adult",
+      "optionValues": {
+        "Departure Date": "2026-08-22",
+        "Rate Type": "Adult"
+      },
+      "sku": "P00000710-2026-08-22-1-ADULT",
+      "price": "310.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035286384692"
+    },
+    {
+      "date": "2026-08-22",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-08-22",
+        "Rate Type": "Child"
+      },
+      "sku": "P00000710-2026-08-22-2-CHILD",
+      "price": "240.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035286417460"
+    },
+    {
+      "date": "2026-08-26",
+      "priceType": 1,
+      "label": "Adult",
+      "optionValues": {
+        "Departure Date": "2026-08-26",
+        "Rate Type": "Adult"
+      },
+      "sku": "P00000710-2026-08-26-1-ADULT",
+      "price": "310.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035286450228"
+    },
+    {
+      "date": "2026-08-26",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-08-26",
+        "Rate Type": "Child"
+      },
+      "sku": "P00000710-2026-08-26-2-CHILD",
+      "price": "240.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035286482996"
+    },
+    {
+      "date": "2026-08-29",
+      "priceType": 1,
+      "label": "Adult",
+      "optionValues": {
+        "Departure Date": "2026-08-29",
+        "Rate Type": "Adult"
+      },
+      "sku": "P00000710-2026-08-29-1-ADULT",
+      "price": "310.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035286515764"
+    },
+    {
+      "date": "2026-08-29",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-08-29",
+        "Rate Type": "Child"
+      },
+      "sku": "P00000710-2026-08-29-2-CHILD",
+      "price": "240.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035286548532"
+    },
+    {
+      "date": "2026-09-02",
+      "priceType": 1,
+      "label": "Adult",
+      "optionValues": {
+        "Departure Date": "2026-09-02",
+        "Rate Type": "Adult"
+      },
+      "sku": "P00000710-2026-09-02-1-ADULT",
+      "price": "310.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035286581300"
+    },
+    {
+      "date": "2026-09-02",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-09-02",
+        "Rate Type": "Child"
+      },
+      "sku": "P00000710-2026-09-02-2-CHILD",
+      "price": "240.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035286614068"
+    },
+    {
+      "date": "2026-09-05",
+      "priceType": 1,
+      "label": "Adult",
+      "optionValues": {
+        "Departure Date": "2026-09-05",
+        "Rate Type": "Adult"
+      },
+      "sku": "P00000710-2026-09-05-1-ADULT",
+      "price": "310.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035286646836"
+    },
+    {
+      "date": "2026-09-05",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-09-05",
+        "Rate Type": "Child"
+      },
+      "sku": "P00000710-2026-09-05-2-CHILD",
+      "price": "240.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035286679604"
+    }
+  ],
+  "addons": [],
+  "images": [
+    {
+      "sourceUrl": "https://dimg04.c-ctrip.com/target/2S0r15000000xyituE0D5.png",
+      "shopifyMediaId": "gid://shopify/MediaImage/28796820684852",
+      "shopifyFileId": null,
+      "position": 1,
+      "role": "featured",
+      "alt": "“Midnight Sun”2026 Alaska Summer Season | Naval Port Town (Whittier) & Glacier Cruise Day Tour 1"
+    },
+    {
+      "sourceUrl": "https://dimg04.c-ctrip.com/target/02S5o120008jw018t3CAE.png",
+      "shopifyMediaId": "gid://shopify/MediaImage/28796820717620",
+      "shopifyFileId": null,
+      "position": 2,
+      "role": "gallery",
+      "alt": "“Midnight Sun”2026 Alaska Summer Season | Naval Port Town (Whittier) & Glacier Cruise Day Tour 2"
+    },
+    {
+      "sourceUrl": "https://dimg04.c-ctrip.com/target/02S4x120008jw042hC258.png",
+      "shopifyMediaId": "gid://shopify/MediaImage/28796820750388",
+      "shopifyFileId": null,
+      "position": 3,
+      "role": "gallery",
+      "alt": "“Midnight Sun”2026 Alaska Summer Season | Naval Port Town (Whittier) & Glacier Cruise Day Tour 3"
+    },
+    {
+      "sourceUrl": "https://dimg04.c-ctrip.com/target/02S3u120008jw0dyk8EF4.png",
+      "shopifyMediaId": "gid://shopify/MediaImage/28796820783156",
+      "shopifyFileId": null,
+      "position": 4,
+      "role": "gallery",
+      "alt": "“Midnight Sun”2026 Alaska Summer Season | Naval Port Town (Whittier) & Glacier Cruise Day Tour 4"
+    },
+    {
+      "sourceUrl": "https://dimg04.c-ctrip.com/target/02S1v120008jvzl4bA602.png",
+      "shopifyMediaId": "gid://shopify/MediaImage/28796820815924",
+      "shopifyFileId": null,
+      "position": 5,
+      "role": "gallery",
+      "alt": "“Midnight Sun”2026 Alaska Summer Season | Naval Port Town (Whittier) & Glacier Cruise Day Tour 5"
+    }
+  ],
+  "metaobjects": {
+    "tour_content": [
+      {
+        "id": "gid://shopify/Metaobject/352344506420",
+        "handle": "p00000710-en-content"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352344965172",
+        "handle": "p00000710-zh-cn-content"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345423924",
+        "handle": "p00000710-zh-tw-content"
+      }
+    ],
+    "tour_highlight": [
+      {
+        "id": "gid://shopify/Metaobject/352344539188",
+        "handle": "p00000710-en-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352344997940",
+        "handle": "p00000710-zh-cn-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345456692",
+        "handle": "p00000710-zh-tw-highlight-1"
+      }
+    ],
+    "tour_itinerary_day": [
+      {
+        "id": "gid://shopify/Metaobject/352344571956",
+        "handle": "p00000710-en-day-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345030708",
+        "handle": "p00000710-zh-cn-day-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345489460",
+        "handle": "p00000710-zh-tw-day-1"
+      }
+    ],
+    "tour_cost_section": [
+      {
+        "id": "gid://shopify/Metaobject/352344604724",
+        "handle": "p00000710-en-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352344637492",
+        "handle": "p00000710-en-cost-excludes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345063476",
+        "handle": "p00000710-zh-cn-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345096244",
+        "handle": "p00000710-zh-cn-cost-excludes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345522228",
+        "handle": "p00000710-zh-tw-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345554996",
+        "handle": "p00000710-zh-tw-cost-excludes"
+      }
+    ],
+    "tour_policy_notice": [
+      {
+        "id": "gid://shopify/Metaobject/352344670260",
+        "handle": "p00000710-en-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352344703028",
+        "handle": "p00000710-en-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352344735796",
+        "handle": "p00000710-en-notice-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345129012",
+        "handle": "p00000710-zh-cn-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345161780",
+        "handle": "p00000710-zh-cn-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345194548",
+        "handle": "p00000710-zh-cn-notice-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345587764",
+        "handle": "p00000710-zh-tw-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345620532",
+        "handle": "p00000710-zh-tw-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345653300",
+        "handle": "p00000710-zh-tw-notice-3"
+      }
+    ],
+    "tour_pickup_dropoff": [
+      {
+        "id": "gid://shopify/Metaobject/352344768564",
+        "handle": "p00000710-en-pickup-anm00001566"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352344801332",
+        "handle": "p00000710-en-pickup-anm00000276"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352344834100",
+        "handle": "p00000710-en-pickup-anm00001565"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352344866868",
+        "handle": "p00000710-en-dropoff-anm00001566"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352344899636",
+        "handle": "p00000710-en-dropoff-anm00000276"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352344932404",
+        "handle": "p00000710-en-dropoff-anm00001565"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345227316",
+        "handle": "p00000710-zh-cn-pickup-anm00001566"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345260084",
+        "handle": "p00000710-zh-cn-pickup-anm00000276"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345292852",
+        "handle": "p00000710-zh-cn-pickup-anm00001565"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345325620",
+        "handle": "p00000710-zh-cn-dropoff-anm00001566"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345358388",
+        "handle": "p00000710-zh-cn-dropoff-anm00000276"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345391156",
+        "handle": "p00000710-zh-cn-dropoff-anm00001565"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345686068",
+        "handle": "p00000710-zh-tw-pickup-anm00001566"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345718836",
+        "handle": "p00000710-zh-tw-pickup-anm00000276"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345751604",
+        "handle": "p00000710-zh-tw-pickup-anm00001565"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345784372",
+        "handle": "p00000710-zh-tw-dropoff-anm00001566"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345817140",
+        "handle": "p00000710-zh-tw-dropoff-anm00000276"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345849908",
+        "handle": "p00000710-zh-tw-dropoff-anm00001565"
+      }
+    ],
+    "tour_departure": [
+      {
+        "id": "gid://shopify/Metaobject/352345882676",
+        "handle": "p00000710-departure-2026-07-15"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345915444",
+        "handle": "p00000710-departure-2026-07-18"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345948212",
+        "handle": "p00000710-departure-2026-07-22"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352345980980",
+        "handle": "p00000710-departure-2026-07-25"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352346013748",
+        "handle": "p00000710-departure-2026-07-29"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352346046516",
+        "handle": "p00000710-departure-2026-08-01"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352346079284",
+        "handle": "p00000710-departure-2026-08-05"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352346112052",
+        "handle": "p00000710-departure-2026-08-08"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352346144820",
+        "handle": "p00000710-departure-2026-08-12"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352346177588",
+        "handle": "p00000710-departure-2026-08-15"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352346210356",
+        "handle": "p00000710-departure-2026-08-19"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352346243124",
+        "handle": "p00000710-departure-2026-08-22"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352346275892",
+        "handle": "p00000710-departure-2026-08-26"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352346308660",
+        "handle": "p00000710-departure-2026-08-29"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352346341428",
+        "handle": "p00000710-departure-2026-09-02"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352346374196",
+        "handle": "p00000710-departure-2026-09-05"
+      }
+    ]
+  },
+  "publication": {
+    "id": "gid://shopify/Publication/197740789812",
+    "name": "Travel Website Development"
+  },
+  "warnings": [],
+  "metaobjectDefinitions": {
+    "tour_content": "gid://shopify/MetaobjectDefinition/18676711476",
+    "tour_highlight": "gid://shopify/MetaobjectDefinition/18675433524",
+    "tour_itinerary_day": "gid://shopify/MetaobjectDefinition/18675466292",
+    "tour_departure": "gid://shopify/MetaobjectDefinition/18675499060",
+    "tour_cost_section": "gid://shopify/MetaobjectDefinition/18675531828",
+    "tour_policy_notice": "gid://shopify/MetaobjectDefinition/18675564596",
+    "tour_pickup_dropoff": "gid://shopify/MetaobjectDefinition/18675597364",
+    "tour_addon": "gid://shopify/MetaobjectDefinition/18675630132"
+  },
+  "productReferenceMetafieldDefinitions": {
+    "content": "gid://shopify/MetafieldDefinition/217881935924",
+    "highlight": "gid://shopify/MetafieldDefinition/217872597044",
+    "itinerary_day": "gid://shopify/MetafieldDefinition/217872629812",
+    "departure": "gid://shopify/MetafieldDefinition/217872662580",
+    "cost_section": "gid://shopify/MetafieldDefinition/217872695348",
+    "policy_notice": "gid://shopify/MetafieldDefinition/217872728116",
+    "pickup_dropoff": "gid://shopify/MetafieldDefinition/217872760884",
+    "addon": "gid://shopify/MetafieldDefinition/217872793652"
+  }
+}

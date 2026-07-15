@@ -1,0 +1,2388 @@
+{
+  "extractedAt": "2026-07-15T04:37:34.116Z",
+  "product": {
+    "productCode": "P00003037",
+    "productViewCode": "R0001919",
+    "groupNo": "SAA-HCPT",
+    "title": "“Midnight Sun”2026 Alaska Summer Season | Hatcher Pass Day Tour",
+    "subtitle": "",
+    "categoryCode": "PC00000026",
+    "categoryName": "Alaska",
+    "productClass": 1,
+    "productForm": 1,
+    "duration": {
+      "days": 1,
+      "nights": 0,
+      "label": "1 days / 0 nights"
+    },
+    "start": {
+      "regionCode": "A518",
+      "regionName": "Anchorage",
+      "resourceType": 0
+    },
+    "end": {
+      "regionCode": "A518",
+      "regionName": "Anchorage",
+      "resourceType": 0
+    },
+    "destinations": [
+      {
+        "country": "",
+        "province": "Anchorage",
+        "scenic": "",
+        "spotCode": "",
+        "spotName": "",
+        "raw": {
+          "countryCode": "",
+          "countryName": "",
+          "provinceCode": "A518",
+          "provinceName": "Anchorage",
+          "scenicCode": "",
+          "scenicName": "",
+          "scenicSpotCode": "",
+          "scenicSpotName": "",
+          "resourceType": 0
+        }
+      }
+    ],
+    "vehicleCodes": [
+      "1"
+    ],
+    "vehicles": [
+      "Vehicle"
+    ],
+    "transferCodes": [],
+    "transfers": [],
+    "status": 200,
+    "releaseTime": "2026-03-31 16:47:14",
+    "changeTime": "2026-03-31 16:47:14",
+    "dataVersion": 1774946834,
+    "raw": {
+      "mainLanguage": 2,
+      "productCode": "P00003037",
+      "productViewCode": "R0001919",
+      "groupNo": "SAA-HCPT",
+      "productClass": 1,
+      "carpointOff": 3,
+      "carpointOn": 3,
+      "productType": "PC00000026",
+      "productTypeName": "Alaska",
+      "tripDay": 1,
+      "nightDay": 0,
+      "productForm": 1,
+      "productRoom": 1,
+      "productVehicle": "1",
+      "productTransfer": "",
+      "productName": "“Midnight Sun”2026 Alaska Summer Season | Hatcher Pass Day Tour",
+      "subtitleName": "",
+      "productSpecial": "<p>Alaskan locals hide a nice summer resort, natural oxygen bar Hatcher Pass, visit the vintage gold mine heritage park, taste local fresh beer.</p>",
+      "salesNote": "",
+      "departureDate": "05/22/2026-09/07/2026: Monday, Friday",
+      "rewardCode": "RM00004107",
+      "createTime": "2022-03-29 16:36:19",
+      "datachangelasttime": "2026-03-31 16:47:14",
+      "dataVersion": 1774946834,
+      "productPriceAuto": 0,
+      "advanceDay": -1,
+      "advanceTime": "",
+      "productIsOutreach": null,
+      "upperProductCode": null,
+      "upperUpBranchCode": null,
+      "productAttribute": 1,
+      "productClassify": 0,
+      "schemeName": null,
+      "productStatus": 200,
+      "otherCurrencySupport": [],
+      "productRateInfoList": [],
+      "isLocalResidentOptional": 0
+    }
+  },
+  "media": {
+    "images": [
+      "https://dimg04.c-ctrip.com/target/02S5312000rxi19un6D21.png"
+    ],
+    "imageObjects": [
+      {
+        "imageUrl": "02S5312000rxi19un6D21.png",
+        "imageName": "海切尔山口"
+      }
+    ],
+    "rawProductImg": [
+      "02S5312000rxi19un6D21.png"
+    ]
+  },
+  "highlights": {
+    "html": "<p>Alaskan locals hide a nice summer resort, natural oxygen bar Hatcher Pass, visit the vintage gold mine heritage park, taste local fresh beer.</p>",
+    "text": "Alaskan locals hide a nice summer resort, natural oxygen bar Hatcher Pass, visit the vintage gold mine heritage park, taste local fresh beer.",
+    "salesNoteHtml": "",
+    "salesNoteText": ""
+  },
+  "departure": {
+    "html": "05/22/2026-09/07/2026: Monday, Friday",
+    "text": "05/22/2026-09/07/2026: Monday, Friday",
+    "advanceDay": -1,
+    "advanceTime": "",
+    "availabilityStart": "2026-07-14",
+    "availabilityEnd": "2027-12-31"
+  },
+  "pricing": {
+    "requestedCurrency": "USD",
+    "defaultCurrency": {
+      "currencyCode": "CI00000002",
+      "branchCode": "B00000003",
+      "currencyNum": "USD",
+      "currencyName": "美元",
+      "currencySymbol": "$",
+      "currencyAccuracy": 2,
+      "currencyRate": 1,
+      "currencyConversion": 1,
+      "currencyIsDefault": 1,
+      "currencyStatus": 200
+    },
+    "supportedCurrencies": [
+      {
+        "currencyCode": "CI00000111",
+        "branchCode": "B00000003",
+        "currencyNum": "CAD",
+        "currencyName": "CAD",
+        "currencySymbol": "C$",
+        "currencyAccuracy": 4,
+        "currencyRate": 1.423,
+        "currencyConversion": 1,
+        "currencyIsDefault": 0,
+        "currencyStatus": 200
+      },
+      {
+        "currencyCode": "CI00000002",
+        "branchCode": "B00000003",
+        "currencyNum": "USD",
+        "currencyName": "美元",
+        "currencySymbol": "$",
+        "currencyAccuracy": 2,
+        "currencyRate": 1,
+        "currencyConversion": 1,
+        "currencyIsDefault": 1,
+        "currencyStatus": 200
+      }
+    ],
+    "firstAvailableDate": "2026-07-17 00:00:00",
+    "basePrices": [
+      {
+        "priceType": 1,
+        "label": "Adult",
+        "amount": 200,
+        "rewardPrice": 0,
+        "markup": 0,
+        "raw": {
+          "priceType": 1,
+          "groupPrice": 200,
+          "rewardPrice": 0,
+          "rewardType": 0,
+          "rewardValue": 0,
+          "markup": 0
+        }
+      },
+      {
+        "priceType": 2,
+        "label": "Child",
+        "amount": 200,
+        "rewardPrice": 0,
+        "markup": 0,
+        "raw": {
+          "priceType": 2,
+          "groupPrice": 200,
+          "rewardPrice": 0,
+          "rewardType": 0,
+          "rewardValue": 0,
+          "markup": 0
+        }
+      }
+    ],
+    "availability": [
+      {
+        "date": "2026-07-17",
+        "groupDate": "2026-07-17 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-07-20",
+        "groupDate": "2026-07-20 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-07-24",
+        "groupDate": "2026-07-24 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-07-27",
+        "groupDate": "2026-07-27 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-07-31",
+        "groupDate": "2026-07-31 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-03",
+        "groupDate": "2026-08-03 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-07",
+        "groupDate": "2026-08-07 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-10",
+        "groupDate": "2026-08-10 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-14",
+        "groupDate": "2026-08-14 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-17",
+        "groupDate": "2026-08-17 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-21",
+        "groupDate": "2026-08-21 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-24",
+        "groupDate": "2026-08-24 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-28",
+        "groupDate": "2026-08-28 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-31",
+        "groupDate": "2026-08-31 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-09-04",
+        "groupDate": "2026-09-04 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-09-07",
+        "groupDate": "2026-09-07 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      }
+    ]
+  },
+  "itinerary": {
+    "productDay": 1,
+    "productNight": 0,
+    "travelName": "“午夜陽光”2025阿拉斯加夏季 | 海切爾山口 一日遊",
+    "days": [
+      {
+        "dayNumber": 1,
+        "section": "Anchorage|||1+++Hatcher Pass|||1+++Anchorage",
+        "sectionStops": [
+          {
+            "type": "place",
+            "label": "Anchorage"
+          },
+          {
+            "type": "transfer",
+            "vehicleCode": "1",
+            "vehicle": "Vehicle",
+            "place": "Hatcher Pass"
+          },
+          {
+            "type": "transfer",
+            "vehicleCode": "1",
+            "vehicle": "Vehicle",
+            "place": "Anchorage"
+          }
+        ],
+        "todayLocation": "",
+        "distributionFactor": 1,
+        "isFreeTravel": null,
+        "optionalProductList": [],
+        "content": [
+          {
+            "contentMode": 3,
+            "contentType": 100,
+            "sortNumber": 0,
+            "relatedId": 5406,
+            "relatedDay": 1,
+            "relatedName": "【SAA-HCPT】海切爾山口 一日遊",
+            "decodedJson": {
+              "travelId": 5406,
+              "productCategory": 1,
+              "name": "【SAA-HCPT】海切爾山口 一日遊",
+              "productType": "PC00000026",
+              "isAutoTeam": null,
+              "expandList": [
+                {
+                  "language": 3,
+                  "isSource": 0,
+                  "dayList": [
+                    {
+                      "section": "Anchorage|||1+++Hatcher Pass|||1+++Anchorage",
+                      "todayLocation": "",
+                      "dayNumber": 1,
+                      "content": [
+                        {
+                          "contentMode": 0,
+                          "productSortNum": null,
+                          "relatedId": -1,
+                          "relatedDay": -1,
+                          "relatedName": "",
+                          "contentType": 7,
+                          "sortNumber": 0,
+                          "jsonContent": "eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD48c3Ryb25nPkRldGFpbHM6Jm5ic3A7PC9zdHJvbmc+PC9wPlxuPHA+TGVhdmUgZnJvbSB0aGUgZGVzaWduYXRlZCBob3RlbCBpbiB0aGUgbW9ybmluZywgYW5kIHRyYXZlbCB0byB0aGUgc2NlbmljIDxzdHJvbmc+SGF0Y2hlciBQYXNzPC9zdHJvbmc+LCBiZXR3ZWVuIHRoZSB0b3ducyBvZiBXaWxsb3cgYW5kIFBhbG1lciwgdGhlIEhhdGNoZXIgUGFzcyBhcmVhIGlzIGV4dHJlbWVseSByaWNoIGluIHBsYW50IHJlc291cmNlcywgYW5kIGlzIGEgcGFyYWRpc2UgZm9yIGxvY2FscyBhbmQgc2VsZi1kcml2aW5nIGVudGh1c2lhc3RzLCB3aXRoIGFscGluZSBnbGFjaWFsIGxha2VzIGFuZCBiZWF1dGlmdWwgd2lsZGZsb3dlcnMgZG90dGVkIGJldHdlZW4gdGhlIG1vdW50YWlucywgd2l0aG91dCBsb3NpbmcgdGhlIGdyYW5kZXVyIG9mIEFsYXNrYS4gQWxvbmcgdGhlIHdheSwgaGVhZCB0byA8c3Ryb25nPkluZGVwZW5kZW5jZSBNaW5lIFN0YXRlIEhpc3RvcmljYWwgUGFyazwvc3Ryb25nPiwgdGhlIGFiYW5kb25lZCBnb2xkIG1pbmUgaXMgbm8gbG9uZ2VyIHRoZSBncmFuZCBldmVudCBvZiB0aGUgcGFzdCwgYW5kIG5vdyBpdCB3ZWxjb21lcyB0b3VyaXN0cyB3aXRoIGl0cyB1bmlxdWUgdmludGFnZSBzdHlsZS4gVGhlbiB3ZSdsbCB2aXNpdCBhIHNtYWxsIGxvY2FsIGJyZXdlcnksIGFuZCBpbiB0aGUgQW1lcmljYW4gYmVlciBpbmR1c3RyeSwgQWxhc2thIGlzIGEgcGxhY2UgdGhhdCBjYW4ndCBiZSBpZ25vcmVkLCB0aGUgbG9jYWwgYnJld2VyeSBicmFuZHMgaGF2ZSB0aGVpciBvd24gY2hhcmFjdGVyaXN0aWNzLiBOb3Qgb25seSBjYW4gd2UgbGVhcm4gYSBsaXR0bGUgYWJvdXQgQWxhc2thJ3MgbG9jYWwgYmVlciBtYWtpbmcsIGJ1dCB3ZSBjYW4gYWxzbyBzYW1wbGUgZnJlc2ggY3JhZnQgYmVlcnMgKHRhc3RpbmcgaXMgYXQgeW91ciBvd24gZXhwZW5zZSwgb25seSAyMSB5ZWFycyBvbGQgY2FuIGRyaW5rIGFsY29ob2wsIHBsZWFzZSBzaG93IElEIGF0IHRoYXQgdGltZSkuIEVzdGltYXRlZCByZXR1cm4gdG8gQW5jaG9yYWdlIGlzIGJldHdlZW4gMTc6MDAtMTc6MzAuPC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz5DbG90aGluZyBhZHZpY2U6PC9zdHJvbmc+IE91dGRvb3Igc25lYWtlcnMgYW5kIGEgbGlnaHR3ZWlnaHQgd2FybSBjb2F0LjwvcD4iLCJ0aW1lIjoiMSJ9",
+                          "decodedJson": {
+                            "distanc": "",
+                            "distancUnit": 1,
+                            "hours": "",
+                            "minutes": "",
+                            "stayHours": "",
+                            "stayMinutes": "",
+                            "listImage": [],
+                            "description": "<p><strong>Details:&nbsp;</strong></p>\n<p>Leave from the designated hotel in the morning, and travel to the scenic <strong>Hatcher Pass</strong>, between the towns of Willow and Palmer, the Hatcher Pass area is extremely rich in plant resources, and is a paradise for locals and self-driving enthusiasts, with alpine glacial lakes and beautiful wildflowers dotted between the mountains, without losing the grandeur of Alaska. Along the way, head to <strong>Independence Mine State Historical Park</strong>, the abandoned gold mine is no longer the grand event of the past, and now it welcomes tourists with its unique vintage style. Then we'll visit a small local brewery, and in the American beer industry, Alaska is a place that can't be ignored, the local brewery brands have their own characteristics. Not only can we learn a little about Alaska's local beer making, but we can also sample fresh craft beers (tasting is at your own expense, only 21 years old can drink alcohol, please show ID at that time). Estimated return to Anchorage is between 17:00-17:30.</p>\n<p>&nbsp;</p>\n<p><strong>Clothing advice:</strong> Outdoor sneakers and a lightweight warm coat.</p>",
+                            "time": "1"
+                          }
+                        }
+                      ],
+                      "distributionFactor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "rawJsonContent": "{\"travelId\":5406,\"productCategory\":1,\"name\":\"【SAA-HCPT】海切爾山口 一日遊\",\"productType\":\"PC00000026\",\"isAutoTeam\":null,\"expandList\":[{\"language\":3,\"isSource\":0,\"dayList\":[{\"section\":\"Anchorage|||1+++Hatcher Pass|||1+++Anchorage\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD48c3Ryb25nPkRldGFpbHM6Jm5ic3A7PC9zdHJvbmc+PC9wPlxuPHA+TGVhdmUgZnJvbSB0aGUgZGVzaWduYXRlZCBob3RlbCBpbiB0aGUgbW9ybmluZywgYW5kIHRyYXZlbCB0byB0aGUgc2NlbmljIDxzdHJvbmc+SGF0Y2hlciBQYXNzPC9zdHJvbmc+LCBiZXR3ZWVuIHRoZSB0b3ducyBvZiBXaWxsb3cgYW5kIFBhbG1lciwgdGhlIEhhdGNoZXIgUGFzcyBhcmVhIGlzIGV4dHJlbWVseSByaWNoIGluIHBsYW50IHJlc291cmNlcywgYW5kIGlzIGEgcGFyYWRpc2UgZm9yIGxvY2FscyBhbmQgc2VsZi1kcml2aW5nIGVudGh1c2lhc3RzLCB3aXRoIGFscGluZSBnbGFjaWFsIGxha2VzIGFuZCBiZWF1dGlmdWwgd2lsZGZsb3dlcnMgZG90dGVkIGJldHdlZW4gdGhlIG1vdW50YWlucywgd2l0aG91dCBsb3NpbmcgdGhlIGdyYW5kZXVyIG9mIEFsYXNrYS4gQWxvbmcgdGhlIHdheSwgaGVhZCB0byA8c3Ryb25nPkluZGVwZW5kZW5jZSBNaW5lIFN0YXRlIEhpc3RvcmljYWwgUGFyazwvc3Ryb25nPiwgdGhlIGFiYW5kb25lZCBnb2xkIG1pbmUgaXMgbm8gbG9uZ2VyIHRoZSBncmFuZCBldmVudCBvZiB0aGUgcGFzdCwgYW5kIG5vdyBpdCB3ZWxjb21lcyB0b3VyaXN0cyB3aXRoIGl0cyB1bmlxdWUgdmludGFnZSBzdHlsZS4gVGhlbiB3ZSdsbCB2aXNpdCBhIHNtYWxsIGxvY2FsIGJyZXdlcnksIGFuZCBpbiB0aGUgQW1lcmljYW4gYmVlciBpbmR1c3RyeSwgQWxhc2thIGlzIGEgcGxhY2UgdGhhdCBjYW4ndCBiZSBpZ25vcmVkLCB0aGUgbG9jYWwgYnJld2VyeSBicmFuZHMgaGF2ZSB0aGVpciBvd24gY2hhcmFjdGVyaXN0aWNzLiBOb3Qgb25seSBjYW4gd2UgbGVhcm4gYSBsaXR0bGUgYWJvdXQgQWxhc2thJ3MgbG9jYWwgYmVlciBtYWtpbmcsIGJ1dCB3ZSBjYW4gYWxzbyBzYW1wbGUgZnJlc2ggY3JhZnQgYmVlcnMgKHRhc3RpbmcgaXMgYXQgeW91ciBvd24gZXhwZW5zZSwgb25seSAyMSB5ZWFycyBvbGQgY2FuIGRyaW5rIGFsY29ob2wsIHBsZWFzZSBzaG93IElEIGF0IHRoYXQgdGltZSkuIEVzdGltYXRlZCByZXR1cm4gdG8gQW5jaG9yYWdlIGlzIGJldHdlZW4gMTc6MDAtMTc6MzAuPC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz5DbG90aGluZyBhZHZpY2U6PC9zdHJvbmc+IE91dGRvb3Igc25lYWtlcnMgYW5kIGEgbGlnaHR3ZWlnaHQgd2FybSBjb2F0LjwvcD4iLCJ0aW1lIjoiMSJ9\"}],\"distributionFactor\":null}]}]}",
+            "raw": {
+              "contentMode": 3,
+              "productSortNum": null,
+              "relatedId": 5406,
+              "relatedDay": 1,
+              "relatedName": "【SAA-HCPT】海切爾山口 一日遊",
+              "contentType": 100,
+              "sortNumber": 0,
+              "jsonContent": "{\"travelId\":5406,\"productCategory\":1,\"name\":\"【SAA-HCPT】海切爾山口 一日遊\",\"productType\":\"PC00000026\",\"isAutoTeam\":null,\"expandList\":[{\"language\":3,\"isSource\":0,\"dayList\":[{\"section\":\"Anchorage|||1+++Hatcher Pass|||1+++Anchorage\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD48c3Ryb25nPkRldGFpbHM6Jm5ic3A7PC9zdHJvbmc+PC9wPlxuPHA+TGVhdmUgZnJvbSB0aGUgZGVzaWduYXRlZCBob3RlbCBpbiB0aGUgbW9ybmluZywgYW5kIHRyYXZlbCB0byB0aGUgc2NlbmljIDxzdHJvbmc+SGF0Y2hlciBQYXNzPC9zdHJvbmc+LCBiZXR3ZWVuIHRoZSB0b3ducyBvZiBXaWxsb3cgYW5kIFBhbG1lciwgdGhlIEhhdGNoZXIgUGFzcyBhcmVhIGlzIGV4dHJlbWVseSByaWNoIGluIHBsYW50IHJlc291cmNlcywgYW5kIGlzIGEgcGFyYWRpc2UgZm9yIGxvY2FscyBhbmQgc2VsZi1kcml2aW5nIGVudGh1c2lhc3RzLCB3aXRoIGFscGluZSBnbGFjaWFsIGxha2VzIGFuZCBiZWF1dGlmdWwgd2lsZGZsb3dlcnMgZG90dGVkIGJldHdlZW4gdGhlIG1vdW50YWlucywgd2l0aG91dCBsb3NpbmcgdGhlIGdyYW5kZXVyIG9mIEFsYXNrYS4gQWxvbmcgdGhlIHdheSwgaGVhZCB0byA8c3Ryb25nPkluZGVwZW5kZW5jZSBNaW5lIFN0YXRlIEhpc3RvcmljYWwgUGFyazwvc3Ryb25nPiwgdGhlIGFiYW5kb25lZCBnb2xkIG1pbmUgaXMgbm8gbG9uZ2VyIHRoZSBncmFuZCBldmVudCBvZiB0aGUgcGFzdCwgYW5kIG5vdyBpdCB3ZWxjb21lcyB0b3VyaXN0cyB3aXRoIGl0cyB1bmlxdWUgdmludGFnZSBzdHlsZS4gVGhlbiB3ZSdsbCB2aXNpdCBhIHNtYWxsIGxvY2FsIGJyZXdlcnksIGFuZCBpbiB0aGUgQW1lcmljYW4gYmVlciBpbmR1c3RyeSwgQWxhc2thIGlzIGEgcGxhY2UgdGhhdCBjYW4ndCBiZSBpZ25vcmVkLCB0aGUgbG9jYWwgYnJld2VyeSBicmFuZHMgaGF2ZSB0aGVpciBvd24gY2hhcmFjdGVyaXN0aWNzLiBOb3Qgb25seSBjYW4gd2UgbGVhcm4gYSBsaXR0bGUgYWJvdXQgQWxhc2thJ3MgbG9jYWwgYmVlciBtYWtpbmcsIGJ1dCB3ZSBjYW4gYWxzbyBzYW1wbGUgZnJlc2ggY3JhZnQgYmVlcnMgKHRhc3RpbmcgaXMgYXQgeW91ciBvd24gZXhwZW5zZSwgb25seSAyMSB5ZWFycyBvbGQgY2FuIGRyaW5rIGFsY29ob2wsIHBsZWFzZSBzaG93IElEIGF0IHRoYXQgdGltZSkuIEVzdGltYXRlZCByZXR1cm4gdG8gQW5jaG9yYWdlIGlzIGJldHdlZW4gMTc6MDAtMTc6MzAuPC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz5DbG90aGluZyBhZHZpY2U6PC9zdHJvbmc+IE91dGRvb3Igc25lYWtlcnMgYW5kIGEgbGlnaHR3ZWlnaHQgd2FybSBjb2F0LjwvcD4iLCJ0aW1lIjoiMSJ9\"}],\"distributionFactor\":null}]}]}"
+            }
+          }
+        ],
+        "raw": {
+          "section": "Anchorage|||1+++Hatcher Pass|||1+++Anchorage",
+          "todayLocation": "",
+          "dayNumber": 1,
+          "content": [
+            {
+              "contentMode": 3,
+              "productSortNum": null,
+              "relatedId": 5406,
+              "relatedDay": 1,
+              "relatedName": "【SAA-HCPT】海切爾山口 一日遊",
+              "contentType": 100,
+              "sortNumber": 0,
+              "jsonContent": "{\"travelId\":5406,\"productCategory\":1,\"name\":\"【SAA-HCPT】海切爾山口 一日遊\",\"productType\":\"PC00000026\",\"isAutoTeam\":null,\"expandList\":[{\"language\":3,\"isSource\":0,\"dayList\":[{\"section\":\"Anchorage|||1+++Hatcher Pass|||1+++Anchorage\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD48c3Ryb25nPkRldGFpbHM6Jm5ic3A7PC9zdHJvbmc+PC9wPlxuPHA+TGVhdmUgZnJvbSB0aGUgZGVzaWduYXRlZCBob3RlbCBpbiB0aGUgbW9ybmluZywgYW5kIHRyYXZlbCB0byB0aGUgc2NlbmljIDxzdHJvbmc+SGF0Y2hlciBQYXNzPC9zdHJvbmc+LCBiZXR3ZWVuIHRoZSB0b3ducyBvZiBXaWxsb3cgYW5kIFBhbG1lciwgdGhlIEhhdGNoZXIgUGFzcyBhcmVhIGlzIGV4dHJlbWVseSByaWNoIGluIHBsYW50IHJlc291cmNlcywgYW5kIGlzIGEgcGFyYWRpc2UgZm9yIGxvY2FscyBhbmQgc2VsZi1kcml2aW5nIGVudGh1c2lhc3RzLCB3aXRoIGFscGluZSBnbGFjaWFsIGxha2VzIGFuZCBiZWF1dGlmdWwgd2lsZGZsb3dlcnMgZG90dGVkIGJldHdlZW4gdGhlIG1vdW50YWlucywgd2l0aG91dCBsb3NpbmcgdGhlIGdyYW5kZXVyIG9mIEFsYXNrYS4gQWxvbmcgdGhlIHdheSwgaGVhZCB0byA8c3Ryb25nPkluZGVwZW5kZW5jZSBNaW5lIFN0YXRlIEhpc3RvcmljYWwgUGFyazwvc3Ryb25nPiwgdGhlIGFiYW5kb25lZCBnb2xkIG1pbmUgaXMgbm8gbG9uZ2VyIHRoZSBncmFuZCBldmVudCBvZiB0aGUgcGFzdCwgYW5kIG5vdyBpdCB3ZWxjb21lcyB0b3VyaXN0cyB3aXRoIGl0cyB1bmlxdWUgdmludGFnZSBzdHlsZS4gVGhlbiB3ZSdsbCB2aXNpdCBhIHNtYWxsIGxvY2FsIGJyZXdlcnksIGFuZCBpbiB0aGUgQW1lcmljYW4gYmVlciBpbmR1c3RyeSwgQWxhc2thIGlzIGEgcGxhY2UgdGhhdCBjYW4ndCBiZSBpZ25vcmVkLCB0aGUgbG9jYWwgYnJld2VyeSBicmFuZHMgaGF2ZSB0aGVpciBvd24gY2hhcmFjdGVyaXN0aWNzLiBOb3Qgb25seSBjYW4gd2UgbGVhcm4gYSBsaXR0bGUgYWJvdXQgQWxhc2thJ3MgbG9jYWwgYmVlciBtYWtpbmcsIGJ1dCB3ZSBjYW4gYWxzbyBzYW1wbGUgZnJlc2ggY3JhZnQgYmVlcnMgKHRhc3RpbmcgaXMgYXQgeW91ciBvd24gZXhwZW5zZSwgb25seSAyMSB5ZWFycyBvbGQgY2FuIGRyaW5rIGFsY29ob2wsIHBsZWFzZSBzaG93IElEIGF0IHRoYXQgdGltZSkuIEVzdGltYXRlZCByZXR1cm4gdG8gQW5jaG9yYWdlIGlzIGJldHdlZW4gMTc6MDAtMTc6MzAuPC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz5DbG90aGluZyBhZHZpY2U6PC9zdHJvbmc+IE91dGRvb3Igc25lYWtlcnMgYW5kIGEgbGlnaHR3ZWlnaHQgd2FybSBjb2F0LjwvcD4iLCJ0aW1lIjoiMSJ9\"}],\"distributionFactor\":null}]}]}"
+            }
+          ],
+          "isFreeTravel": null,
+          "optionalProductList": null,
+          "distributionFactor": 1
+        }
+      }
+    ],
+    "raw": {
+      "productCode": "P00003037",
+      "dataVersion": 1774946834,
+      "productDay": 1,
+      "productNight": 0,
+      "travelId": 5408,
+      "productType": "PC00000026",
+      "productTypeName": "Alaska",
+      "travelName": "“午夜陽光”2025阿拉斯加夏季 | 海切爾山口 一日遊",
+      "productTravelInfoList": [
+        {
+          "isSource": 0,
+          "language": 3,
+          "dayList": [
+            {
+              "section": "Anchorage|||1+++Hatcher Pass|||1+++Anchorage",
+              "todayLocation": "",
+              "dayNumber": 1,
+              "content": [
+                {
+                  "contentMode": 3,
+                  "productSortNum": null,
+                  "relatedId": 5406,
+                  "relatedDay": 1,
+                  "relatedName": "【SAA-HCPT】海切爾山口 一日遊",
+                  "contentType": 100,
+                  "sortNumber": 0,
+                  "jsonContent": "{\"travelId\":5406,\"productCategory\":1,\"name\":\"【SAA-HCPT】海切爾山口 一日遊\",\"productType\":\"PC00000026\",\"isAutoTeam\":null,\"expandList\":[{\"language\":3,\"isSource\":0,\"dayList\":[{\"section\":\"Anchorage|||1+++Hatcher Pass|||1+++Anchorage\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD48c3Ryb25nPkRldGFpbHM6Jm5ic3A7PC9zdHJvbmc+PC9wPlxuPHA+TGVhdmUgZnJvbSB0aGUgZGVzaWduYXRlZCBob3RlbCBpbiB0aGUgbW9ybmluZywgYW5kIHRyYXZlbCB0byB0aGUgc2NlbmljIDxzdHJvbmc+SGF0Y2hlciBQYXNzPC9zdHJvbmc+LCBiZXR3ZWVuIHRoZSB0b3ducyBvZiBXaWxsb3cgYW5kIFBhbG1lciwgdGhlIEhhdGNoZXIgUGFzcyBhcmVhIGlzIGV4dHJlbWVseSByaWNoIGluIHBsYW50IHJlc291cmNlcywgYW5kIGlzIGEgcGFyYWRpc2UgZm9yIGxvY2FscyBhbmQgc2VsZi1kcml2aW5nIGVudGh1c2lhc3RzLCB3aXRoIGFscGluZSBnbGFjaWFsIGxha2VzIGFuZCBiZWF1dGlmdWwgd2lsZGZsb3dlcnMgZG90dGVkIGJldHdlZW4gdGhlIG1vdW50YWlucywgd2l0aG91dCBsb3NpbmcgdGhlIGdyYW5kZXVyIG9mIEFsYXNrYS4gQWxvbmcgdGhlIHdheSwgaGVhZCB0byA8c3Ryb25nPkluZGVwZW5kZW5jZSBNaW5lIFN0YXRlIEhpc3RvcmljYWwgUGFyazwvc3Ryb25nPiwgdGhlIGFiYW5kb25lZCBnb2xkIG1pbmUgaXMgbm8gbG9uZ2VyIHRoZSBncmFuZCBldmVudCBvZiB0aGUgcGFzdCwgYW5kIG5vdyBpdCB3ZWxjb21lcyB0b3VyaXN0cyB3aXRoIGl0cyB1bmlxdWUgdmludGFnZSBzdHlsZS4gVGhlbiB3ZSdsbCB2aXNpdCBhIHNtYWxsIGxvY2FsIGJyZXdlcnksIGFuZCBpbiB0aGUgQW1lcmljYW4gYmVlciBpbmR1c3RyeSwgQWxhc2thIGlzIGEgcGxhY2UgdGhhdCBjYW4ndCBiZSBpZ25vcmVkLCB0aGUgbG9jYWwgYnJld2VyeSBicmFuZHMgaGF2ZSB0aGVpciBvd24gY2hhcmFjdGVyaXN0aWNzLiBOb3Qgb25seSBjYW4gd2UgbGVhcm4gYSBsaXR0bGUgYWJvdXQgQWxhc2thJ3MgbG9jYWwgYmVlciBtYWtpbmcsIGJ1dCB3ZSBjYW4gYWxzbyBzYW1wbGUgZnJlc2ggY3JhZnQgYmVlcnMgKHRhc3RpbmcgaXMgYXQgeW91ciBvd24gZXhwZW5zZSwgb25seSAyMSB5ZWFycyBvbGQgY2FuIGRyaW5rIGFsY29ob2wsIHBsZWFzZSBzaG93IElEIGF0IHRoYXQgdGltZSkuIEVzdGltYXRlZCByZXR1cm4gdG8gQW5jaG9yYWdlIGlzIGJldHdlZW4gMTc6MDAtMTc6MzAuPC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz5DbG90aGluZyBhZHZpY2U6PC9zdHJvbmc+IE91dGRvb3Igc25lYWtlcnMgYW5kIGEgbGlnaHR3ZWlnaHQgd2FybSBjb2F0LjwvcD4iLCJ0aW1lIjoiMSJ9\"}],\"distributionFactor\":null}]}]}"
+                }
+              ],
+              "isFreeTravel": null,
+              "optionalProductList": null,
+              "distributionFactor": 1
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "cost": {
+    "includesHtml": "<p>1. Local driver and guide (or driver-guide)&nbsp; service.</p>\n<p>2. Tour bus service, with the specific vehicle type determined by the size of the group.</p>\n<p>3. Admission tickets of attracttions included in the itinerary.</p>",
+    "includesText": "1. Local driver and guide (or driver-guide)  service.\n\n2. Tour bus service, with the specific vehicle type determined by the size of the group.\n\n3. Admission tickets of attracttions included in the itinerary.",
+    "excludesHtml": "<p>1. Transportation to/from the designated pick-up location.</p>\n<p>2. Optional activities and entrance fees not included in the itinerary (Prices are subject to change without prior notice; Tickets should be purchased from the tour guide).&nbsp;</p>\n<p>3. Breakfast, lunch, dinner, and other meals noted in the itinerary as not included.&nbsp;</p>\n<p>4. In accordance with local standards, you may tip your guide based on the quality of their service. Tipping standard is $20/person/day. Please pay tips to your guide on the day of your tour, to express your respect and gratitude for their work.</p>\n<p>5. Other expenses not mentioned in the itinerary or agreement.</p>",
+    "excludesText": "1. Transportation to/from the designated pick-up location.\n\n2. Optional activities and entrance fees not included in the itinerary (Prices are subject to change without prior notice; Tickets should be purchased from the tour guide). \n\n3. Breakfast, lunch, dinner, and other meals noted in the itinerary as not included. \n\n4. In accordance with local standards, you may tip your guide based on the quality of their service. Tipping standard is $20/person/day. Please pay tips to your guide on the day of your tour, to express your respect and gratitude for their work.\n\n5. Other expenses not mentioned in the itinerary or agreement.",
+    "productCostIsDay": 0,
+    "costInfo": []
+  },
+  "policy_notice": {
+    "notices": [
+      {
+        "matterCode": "AT00000478",
+        "noticeType": 3,
+        "typeLabel": "Cancellation Policy",
+        "matterName": "【阿拉斯加】夏季",
+        "html": {
+          "primary": "<p><strong>Cancelation Policy:</strong></p>\n<p>1. For cancelations within 15 days of the tour date, no refund will be given.</p>\n<p>2. For cancelations between 16 to 25 days from the tour date, 50% of the fee will be refunded.</p>\n<p>3. For cancelations between 26 to 35 days from the tour date, 70% of the fee will be refunded.&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Change Policy:</strong></p>\n<p>If you are unable to participate in the tour due to transportation issues, a government shutdown, illness, accident, sudden changes in weather, or other unforeseen and unpreventable personal circumstances, it is suggested that you transfer the booked itinerary to someone else. Our company can change the name on the booking for free. If you decide to change or postpone your itinerary, we will do our best to minimize the loss to you, but there are some costs we are not able to recover. Thus, changes will be made in accordance with the following policy:&nbsp;</p>\n<p>1. For changes or postponements made more than 35 days ahead of the tour date, no fee will be charged.&nbsp;</p>\n<p>2. For changes or postponements made within 35 days of the tour date, after deducting the fees for activities that have already been booked, the remainder of your payment will be applied to the cost of your new itinerary.</p>",
+          "secondary": "【阿拉斯加】夏季"
+        },
+        "text": {
+          "primary": "Cancelation Policy:\n\n1. For cancelations within 15 days of the tour date, no refund will be given.\n\n2. For cancelations between 16 to 25 days from the tour date, 50% of the fee will be refunded.\n\n3. For cancelations between 26 to 35 days from the tour date, 70% of the fee will be refunded. \n\n \n\nChange Policy:\n\nIf you are unable to participate in the tour due to transportation issues, a government shutdown, illness, accident, sudden changes in weather, or other unforeseen and unpreventable personal circumstances, it is suggested that you transfer the booked itinerary to someone else. Our company can change the name on the booking for free. If you decide to change or postpone your itinerary, we will do our best to minimize the loss to you, but there are some costs we are not able to recover. Thus, changes will be made in accordance with the following policy: \n\n1. For changes or postponements made more than 35 days ahead of the tour date, no fee will be charged. \n\n2. For changes or postponements made within 35 days of the tour date, after deducting the fees for activities that have already been booked, the remainder of your payment will be applied to the cost of your new itinerary.",
+          "secondary": "【阿拉斯加】夏季"
+        },
+        "raw": {
+          "matterCode": "AT00000478",
+          "editType": 1,
+          "noticeType": 3,
+          "matterName": "【阿拉斯加】夏季",
+          "vluesTip1": "<p><strong>Cancelation Policy:</strong></p>\n<p>1. For cancelations within 15 days of the tour date, no refund will be given.</p>\n<p>2. For cancelations between 16 to 25 days from the tour date, 50% of the fee will be refunded.</p>\n<p>3. For cancelations between 26 to 35 days from the tour date, 70% of the fee will be refunded.&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Change Policy:</strong></p>\n<p>If you are unable to participate in the tour due to transportation issues, a government shutdown, illness, accident, sudden changes in weather, or other unforeseen and unpreventable personal circumstances, it is suggested that you transfer the booked itinerary to someone else. Our company can change the name on the booking for free. If you decide to change or postpone your itinerary, we will do our best to minimize the loss to you, but there are some costs we are not able to recover. Thus, changes will be made in accordance with the following policy:&nbsp;</p>\n<p>1. For changes or postponements made more than 35 days ahead of the tour date, no fee will be charged.&nbsp;</p>\n<p>2. For changes or postponements made within 35 days of the tour date, after deducting the fees for activities that have already been booked, the remainder of your payment will be applied to the cost of your new itinerary.</p>",
+          "vluesTip2": "【阿拉斯加】夏季"
+        }
+      },
+      {
+        "matterCode": "AT00001142",
+        "noticeType": 1,
+        "typeLabel": "Know Before You Book",
+        "matterName": "【預訂須知】阿拉斯加夏季單品（4人成團）",
+        "html": {
+          "primary": "<p><strong>Essential Information About Booking:</strong></p>\n<p>1. This tour is led by a professional Chinese-English guide (except where otherwise noted). <strong><span style=\"color: #ba372a;\">The minimum number of guest for each tour is 4,</span></strong>&nbsp;please check in advance about whether the minimum has been reached.</p>\n<p>2. Please provide us with your phone number at least 10 days ahead of your tour. Otherwise we will be unable to send you the final confirmation.&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Essential Information About the Tour:</strong></p>\n<p>1. This tour requires you to bring a photo ID, such as a foreign passport with an American visa, or an American driver&rsquo;s license.&nbsp;</p>\n<p>2. If there are discrepancies between any time stated in the itinerary and the time given by your guide, please meet at the time your guide has informed you of.</p>\n<p>3. Some places in Alaska can be relatively cold in summer. Please bring warm clothes, such as a wind and water-proof jacket, fleece jacket, hat, scarf, etc.</p>\n<p>4. Summer tours in Alaska primarily involve outdoor natural attractions. During your tour please follow the instructions of your guide in order to stay safe and protect the natural environment.&nbsp;</p>\n<p>5. Alaska has many scenic views that can be seen from the road. When stopping by the side of the road to take in the scenery, do not linger or take pictures in the middle of the road. Guests must take responsibility for any accidents caused by such behavior.&nbsp;</p>\n<p>6. Minors under age 18 must be accompanied by an adult or provide a wavier signed by a legal guardian. In consideration of the guest safety, pregnant women are only allowed to join the tour if pregnant for 24 weeks or less by the end of the trip.</p>\n<p>7. If you didn&rsquo;t book any optional activities available on the tour in advance, you can talk with your guide about booking these activities. In this case payment must be made in cash.</p>\n<p>8. Please be aware, if you are not able to meet your guide at the appointed time and place due to personal reasons (including but not limited to illness, accidents, running late, etc.), and thus miss the chance to board the bus and cannot participate in the tour, we are afraid we cannot refund your fee.</p>\n<p><span style=\"color: #ba372a;\">&nbsp; &nbsp; <strong>Please arrive at the pick-up location least 10 to 15 minutes early.</strong></span></p>\n<p>&nbsp; &nbsp; You may call us within 1 to 2 days of your tour to confirm the pick-up time and location.&nbsp;</p>\n<p>9. If, due to unpreventable circumstances (including but not limited to: natural disasters, political and social situations, accidents and malfunctions, road closures, etc.), adjustments must be made to the tour in order to protect the safety and welfare of all guests in the tour group, our company reserves the right to take measures including changing the time or content of the tour or even canceling some or all tour activities. The related tour fees cannot be refunded, and any additional costs incurred (i.e. extended hotel stay, transportation, meals, plane ticket changes) must be borne by the guests.</p>\n<p>&nbsp; &nbsp; Natural disasters: flood, earthquake, hail, snowstorm, tsunami, etc.&nbsp;</p>\n<p>&nbsp; &nbsp; Political &amp; social situations: war, shutdown, protest, regime change, policy change, terrorist attack, etc.&nbsp;</p>\n<p>&nbsp; &nbsp; Accidents and malfunctions: tour bus or other transportation equipment malfunction, sudden damage to recreational equipment, traffic accident or other blockage of roads, etc.</p>\n<p>&nbsp; &nbsp; Road closures: roads impassable due to weather conditions, traffic accidents, etc.&nbsp;</p>\n<p>10. Emergency contact number: (US Toll-Free) +1(866)585-8747.</p>",
+          "secondary": "【預訂須知】阿拉斯加夏季單品（4人成團）"
+        },
+        "text": {
+          "primary": "Essential Information About Booking:\n\n1. This tour is led by a professional Chinese-English guide (except where otherwise noted). The minimum number of guest for each tour is 4, please check in advance about whether the minimum has been reached.\n\n2. Please provide us with your phone number at least 10 days ahead of your tour. Otherwise we will be unable to send you the final confirmation. \n\n \n\nEssential Information About the Tour:\n\n1. This tour requires you to bring a photo ID, such as a foreign passport with an American visa, or an American driver&rsquo;s license. \n\n2. If there are discrepancies between any time stated in the itinerary and the time given by your guide, please meet at the time your guide has informed you of.\n\n3. Some places in Alaska can be relatively cold in summer. Please bring warm clothes, such as a wind and water-proof jacket, fleece jacket, hat, scarf, etc.\n\n4. Summer tours in Alaska primarily involve outdoor natural attractions. During your tour please follow the instructions of your guide in order to stay safe and protect the natural environment. \n\n5. Alaska has many scenic views that can be seen from the road. When stopping by the side of the road to take in the scenery, do not linger or take pictures in the middle of the road. Guests must take responsibility for any accidents caused by such behavior. \n\n6. Minors under age 18 must be accompanied by an adult or provide a wavier signed by a legal guardian. In consideration of the guest safety, pregnant women are only allowed to join the tour if pregnant for 24 weeks or less by the end of the trip.\n\n7. If you didn&rsquo;t book any optional activities available on the tour in advance, you can talk with your guide about booking these activities. In this case payment must be made in cash.\n\n8. Please be aware, if you are not able to meet your guide at the appointed time and place due to personal reasons (including but not limited to illness, accidents, running late, etc.), and thus miss the chance to board the bus and cannot participate in the tour, we are afraid we cannot refund your fee.\n\n    Please arrive at the pick-up location least 10 to 15 minutes early.\n\n    You may call us within 1 to 2 days of your tour to confirm the pick-up time and location. \n\n9. If, due to unpreventable circumstances (including but not limited to: natural disasters, political and social situations, accidents and malfunctions, road closures, etc.), adjustments must be made to the tour in order to protect the safety and welfare of all guests in the tour group, our company reserves the right to take measures including changing the time or content of the tour or even canceling some or all tour activities. The related tour fees cannot be refunded, and any additional costs incurred (i.e. extended hotel stay, transportation, meals, plane ticket changes) must be borne by the guests.\n\n    Natural disasters: flood, earthquake, hail, snowstorm, tsunami, etc. \n\n    Political & social situations: war, shutdown, protest, regime change, policy change, terrorist attack, etc. \n\n    Accidents and malfunctions: tour bus or other transportation equipment malfunction, sudden damage to recreational equipment, traffic accident or other blockage of roads, etc.\n\n    Road closures: roads impassable due to weather conditions, traffic accidents, etc. \n\n10. Emergency contact number: (US Toll-Free) +1(866)585-8747.",
+          "secondary": "【預訂須知】阿拉斯加夏季單品（4人成團）"
+        },
+        "raw": {
+          "matterCode": "AT00001142",
+          "editType": 1,
+          "noticeType": 1,
+          "matterName": "【預訂須知】阿拉斯加夏季單品（4人成團）",
+          "vluesTip1": "<p><strong>Essential Information About Booking:</strong></p>\n<p>1. This tour is led by a professional Chinese-English guide (except where otherwise noted). <strong><span style=\"color: #ba372a;\">The minimum number of guest for each tour is 4,</span></strong>&nbsp;please check in advance about whether the minimum has been reached.</p>\n<p>2. Please provide us with your phone number at least 10 days ahead of your tour. Otherwise we will be unable to send you the final confirmation.&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Essential Information About the Tour:</strong></p>\n<p>1. This tour requires you to bring a photo ID, such as a foreign passport with an American visa, or an American driver&rsquo;s license.&nbsp;</p>\n<p>2. If there are discrepancies between any time stated in the itinerary and the time given by your guide, please meet at the time your guide has informed you of.</p>\n<p>3. Some places in Alaska can be relatively cold in summer. Please bring warm clothes, such as a wind and water-proof jacket, fleece jacket, hat, scarf, etc.</p>\n<p>4. Summer tours in Alaska primarily involve outdoor natural attractions. During your tour please follow the instructions of your guide in order to stay safe and protect the natural environment.&nbsp;</p>\n<p>5. Alaska has many scenic views that can be seen from the road. When stopping by the side of the road to take in the scenery, do not linger or take pictures in the middle of the road. Guests must take responsibility for any accidents caused by such behavior.&nbsp;</p>\n<p>6. Minors under age 18 must be accompanied by an adult or provide a wavier signed by a legal guardian. In consideration of the guest safety, pregnant women are only allowed to join the tour if pregnant for 24 weeks or less by the end of the trip.</p>\n<p>7. If you didn&rsquo;t book any optional activities available on the tour in advance, you can talk with your guide about booking these activities. In this case payment must be made in cash.</p>\n<p>8. Please be aware, if you are not able to meet your guide at the appointed time and place due to personal reasons (including but not limited to illness, accidents, running late, etc.), and thus miss the chance to board the bus and cannot participate in the tour, we are afraid we cannot refund your fee.</p>\n<p><span style=\"color: #ba372a;\">&nbsp; &nbsp; <strong>Please arrive at the pick-up location least 10 to 15 minutes early.</strong></span></p>\n<p>&nbsp; &nbsp; You may call us within 1 to 2 days of your tour to confirm the pick-up time and location.&nbsp;</p>\n<p>9. If, due to unpreventable circumstances (including but not limited to: natural disasters, political and social situations, accidents and malfunctions, road closures, etc.), adjustments must be made to the tour in order to protect the safety and welfare of all guests in the tour group, our company reserves the right to take measures including changing the time or content of the tour or even canceling some or all tour activities. The related tour fees cannot be refunded, and any additional costs incurred (i.e. extended hotel stay, transportation, meals, plane ticket changes) must be borne by the guests.</p>\n<p>&nbsp; &nbsp; Natural disasters: flood, earthquake, hail, snowstorm, tsunami, etc.&nbsp;</p>\n<p>&nbsp; &nbsp; Political &amp; social situations: war, shutdown, protest, regime change, policy change, terrorist attack, etc.&nbsp;</p>\n<p>&nbsp; &nbsp; Accidents and malfunctions: tour bus or other transportation equipment malfunction, sudden damage to recreational equipment, traffic accident or other blockage of roads, etc.</p>\n<p>&nbsp; &nbsp; Road closures: roads impassable due to weather conditions, traffic accidents, etc.&nbsp;</p>\n<p>10. Emergency contact number: (US Toll-Free) +1(866)585-8747.</p>",
+          "vluesTip2": "【預訂須知】阿拉斯加夏季單品（4人成團）"
+        }
+      },
+      {
+        "matterCode": "CM00000499",
+        "noticeType": 0,
+        "typeLabel": "Cost description",
+        "matterName": "【阿拉斯加】夏季-一日遊",
+        "html": {
+          "primary": "<p>1. Local driver and guide (or driver-guide)&nbsp; service.</p>\n<p>2. Tour bus service, with the specific vehicle type determined by the size of the group.</p>\n<p>3. Admission tickets of attracttions included in the itinerary.</p>",
+          "secondary": "<p>1. Transportation to/from the designated pick-up location.</p>\n<p>2. Optional activities and entrance fees not included in the itinerary (Prices are subject to change without prior notice; Tickets should be purchased from the tour guide).&nbsp;</p>\n<p>3. Breakfast, lunch, dinner, and other meals noted in the itinerary as not included.&nbsp;</p>\n<p>4. In accordance with local standards, you may tip your guide based on the quality of their service. Tipping standard is $20/person/day. Please pay tips to your guide on the day of your tour, to express your respect and gratitude for their work.</p>\n<p>5. Other expenses not mentioned in the itinerary or agreement.</p>"
+        },
+        "text": {
+          "primary": "1. Local driver and guide (or driver-guide)  service.\n\n2. Tour bus service, with the specific vehicle type determined by the size of the group.\n\n3. Admission tickets of attracttions included in the itinerary.",
+          "secondary": "1. Transportation to/from the designated pick-up location.\n\n2. Optional activities and entrance fees not included in the itinerary (Prices are subject to change without prior notice; Tickets should be purchased from the tour guide). \n\n3. Breakfast, lunch, dinner, and other meals noted in the itinerary as not included. \n\n4. In accordance with local standards, you may tip your guide based on the quality of their service. Tipping standard is $20/person/day. Please pay tips to your guide on the day of your tour, to express your respect and gratitude for their work.\n\n5. Other expenses not mentioned in the itinerary or agreement."
+        },
+        "raw": {
+          "matterCode": "CM00000499",
+          "editType": 1,
+          "noticeType": 0,
+          "matterName": "【阿拉斯加】夏季-一日遊",
+          "vluesTip1": "<p>1. Local driver and guide (or driver-guide)&nbsp; service.</p>\n<p>2. Tour bus service, with the specific vehicle type determined by the size of the group.</p>\n<p>3. Admission tickets of attracttions included in the itinerary.</p>",
+          "vluesTip2": "<p>1. Transportation to/from the designated pick-up location.</p>\n<p>2. Optional activities and entrance fees not included in the itinerary (Prices are subject to change without prior notice; Tickets should be purchased from the tour guide).&nbsp;</p>\n<p>3. Breakfast, lunch, dinner, and other meals noted in the itinerary as not included.&nbsp;</p>\n<p>4. In accordance with local standards, you may tip your guide based on the quality of their service. Tipping standard is $20/person/day. Please pay tips to your guide on the day of your tour, to express your respect and gratitude for their work.</p>\n<p>5. Other expenses not mentioned in the itinerary or agreement.</p>"
+        }
+      }
+    ],
+    "damagesInfo": []
+  },
+  "pickup_dropoff": {
+    "pickup": [
+      {
+        "code": "ANM00000276",
+        "viewCode": "",
+        "name": "Alex Hotel & Suites Anchorage Airport",
+        "address": "4615 Spenard Rd, Anchorage, AK 99517",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00000276",
+          "carpointName": "Alex Hotel & Suites Anchorage Airport",
+          "aggregationAddr": "4615 Spenard Rd, Anchorage, AK 99517",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "ANT00003309",
+          "carpointTimeValue": "09:15",
+          "carpointViewCode": ""
+        }
+      },
+      {
+        "code": "ANM00001565",
+        "viewCode": "",
+        "name": "Fairfield Inn & Suites Anchorage Midtown",
+        "address": "5060 A St, Anchorage, AK 99503",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00001565",
+          "carpointName": "Fairfield Inn & Suites Anchorage Midtown",
+          "aggregationAddr": "5060 A St, Anchorage, AK 99503",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "ANT00003310",
+          "carpointTimeValue": "09:30",
+          "carpointViewCode": ""
+        }
+      },
+      {
+        "code": "ANM00001566",
+        "viewCode": "",
+        "name": "Four Points by Sheraton Downtown",
+        "address": "325 W 8th Ave, Anchorage, AK 99501",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00001566",
+          "carpointName": "Four Points by Sheraton Downtown",
+          "aggregationAddr": "325 W 8th Ave, Anchorage, AK 99501",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "ANT00003311",
+          "carpointTimeValue": "09:35",
+          "carpointViewCode": ""
+        }
+      }
+    ],
+    "dropoff": [
+      {
+        "code": "ANM00000276",
+        "viewCode": "",
+        "name": "Alex Hotel & Suites Anchorage Airport",
+        "address": "4615 Spenard Rd, Anchorage, AK 99517",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00000276",
+          "carpointName": "Alex Hotel & Suites Anchorage Airport",
+          "aggregationAddr": "4615 Spenard Rd, Anchorage, AK 99517",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "",
+          "carpointTimeValue": null,
+          "carpointViewCode": ""
+        }
+      },
+      {
+        "code": "ANM00001565",
+        "viewCode": "",
+        "name": "Fairfield Inn & Suites Anchorage Midtown",
+        "address": "5060 A St, Anchorage, AK 99503",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00001565",
+          "carpointName": "Fairfield Inn & Suites Anchorage Midtown",
+          "aggregationAddr": "5060 A St, Anchorage, AK 99503",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "",
+          "carpointTimeValue": null,
+          "carpointViewCode": ""
+        }
+      },
+      {
+        "code": "ANM00001566",
+        "viewCode": "",
+        "name": "Four Points by Sheraton Downtown",
+        "address": "325 W 8th Ave, Anchorage, AK 99501",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00001566",
+          "carpointName": "Four Points by Sheraton Downtown",
+          "aggregationAddr": "325 W 8th Ave, Anchorage, AK 99501",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "",
+          "carpointTimeValue": null,
+          "carpointViewCode": ""
+        }
+      }
+    ],
+    "teamPickup": [],
+    "teamDropoff": []
+  },
+  "constraints": {
+    "confirmType": 1,
+    "confirmTypeLabel": "Confirm manually",
+    "isAgeLimited": false,
+    "needsIdNumber": false,
+    "isChildAvailable": true,
+    "childAge": "",
+    "childHeight": "",
+    "childNote": "The same price for children and adults.",
+    "infantNote": "",
+    "seniorNote": "",
+    "raw": {
+      "confirmType": 1,
+      "isAge": 0,
+      "ageCode": "",
+      "ageName": null,
+      "isNumber": 0,
+      "isPrice": 1,
+      "isCarpoint": 1,
+      "isChild": 1,
+      "childAge": "",
+      "childHeight": "",
+      "childNote": "The same price for children and adults.",
+      "isRange": 0,
+      "isAutoTeam": 1,
+      "isInfant": 0,
+      "infantAgeUpper": "",
+      "infantNote": "",
+      "isSenior": 0,
+      "seniorAgeLower": "",
+      "seniorNote": ""
+    }
+  },
+  "addons": [],
+  "shopify_mapping": {
+    "title": "“Midnight Sun”2026 Alaska Summer Season | Hatcher Pass Day Tour",
+    "handle": "p00003037-midnight-sun-2026-alaska-summer-season-hatcher-pass-day-tour",
+    "vendor": "Jupiter Legend Corporation",
+    "productType": "Alaska",
+    "tags": [
+      "ToursBMS",
+      "Alaska",
+      "1 days"
+    ],
+    "status": "active_candidate",
+    "bodyHtml": "<h2>Highlights</h2>\n<p>Alaskan locals hide a nice summer resort, natural oxygen bar Hatcher Pass, visit the vintage gold mine heritage park, taste local fresh beer.</p>\n\n<h2>Departure Date</h2>\n<p>05/22/2026-09/07/2026: Monday, Friday</p>\n\n<h2>Cost Includes</h2>\n<p>1. Local driver and guide (or driver-guide)&nbsp; service.</p>\n<p>2. Tour bus service, with the specific vehicle type determined by the size of the group.</p>\n<p>3. Admission tickets of attracttions included in the itinerary.</p>\n<h2>Cost Excludes</h2>\n<p>1. Transportation to/from the designated pick-up location.</p>\n<p>2. Optional activities and entrance fees not included in the itinerary (Prices are subject to change without prior notice; Tickets should be purchased from the tour guide).&nbsp;</p>\n<p>3. Breakfast, lunch, dinner, and other meals noted in the itinerary as not included.&nbsp;</p>\n<p>4. In accordance with local standards, you may tip your guide based on the quality of their service. Tipping standard is $20/person/day. Please pay tips to your guide on the day of your tour, to express your respect and gratitude for their work.</p>\n<p>5. Other expenses not mentioned in the itinerary or agreement.</p>\n\n<h2>Cancellation Policy</h2>\n<p><strong>Cancelation Policy:</strong></p>\n<p>1. For cancelations within 15 days of the tour date, no refund will be given.</p>\n<p>2. For cancelations between 16 to 25 days from the tour date, 50% of the fee will be refunded.</p>\n<p>3. For cancelations between 26 to 35 days from the tour date, 70% of the fee will be refunded.&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Change Policy:</strong></p>\n<p>If you are unable to participate in the tour due to transportation issues, a government shutdown, illness, accident, sudden changes in weather, or other unforeseen and unpreventable personal circumstances, it is suggested that you transfer the booked itinerary to someone else. Our company can change the name on the booking for free. If you decide to change or postpone your itinerary, we will do our best to minimize the loss to you, but there are some costs we are not able to recover. Thus, changes will be made in accordance with the following policy:&nbsp;</p>\n<p>1. For changes or postponements made more than 35 days ahead of the tour date, no fee will be charged.&nbsp;</p>\n<p>2. For changes or postponements made within 35 days of the tour date, after deducting the fees for activities that have already been booked, the remainder of your payment will be applied to the cost of your new itinerary.</p>\n<h2>Know Before You Book</h2>\n<p><strong>Essential Information About Booking:</strong></p>\n<p>1. This tour is led by a professional Chinese-English guide (except where otherwise noted). <strong><span style=\"color: #ba372a;\">The minimum number of guest for each tour is 4,</span></strong>&nbsp;please check in advance about whether the minimum has been reached.</p>\n<p>2. Please provide us with your phone number at least 10 days ahead of your tour. Otherwise we will be unable to send you the final confirmation.&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Essential Information About the Tour:</strong></p>\n<p>1. This tour requires you to bring a photo ID, such as a foreign passport with an American visa, or an American driver&rsquo;s license.&nbsp;</p>\n<p>2. If there are discrepancies between any time stated in the itinerary and the time given by your guide, please meet at the time your guide has informed you of.</p>\n<p>3. Some places in Alaska can be relatively cold in summer. Please bring warm clothes, such as a wind and water-proof jacket, fleece jacket, hat, scarf, etc.</p>\n<p>4. Summer tours in Alaska primarily involve outdoor natural attractions. During your tour please follow the instructions of your guide in order to stay safe and protect the natural environment.&nbsp;</p>\n<p>5. Alaska has many scenic views that can be seen from the road. When stopping by the side of the road to take in the scenery, do not linger or take pictures in the middle of the road. Guests must take responsibility for any accidents caused by such behavior.&nbsp;</p>\n<p>6. Minors under age 18 must be accompanied by an adult or provide a wavier signed by a legal guardian. In consideration of the guest safety, pregnant women are only allowed to join the tour if pregnant for 24 weeks or less by the end of the trip.</p>\n<p>7. If you didn&rsquo;t book any optional activities available on the tour in advance, you can talk with your guide about booking these activities. In this case payment must be made in cash.</p>\n<p>8. Please be aware, if you are not able to meet your guide at the appointed time and place due to personal reasons (including but not limited to illness, accidents, running late, etc.), and thus miss the chance to board the bus and cannot participate in the tour, we are afraid we cannot refund your fee.</p>\n<p><span style=\"color: #ba372a;\">&nbsp; &nbsp; <strong>Please arrive at the pick-up location least 10 to 15 minutes early.</strong></span></p>\n<p>&nbsp; &nbsp; You may call us within 1 to 2 days of your tour to confirm the pick-up time and location.&nbsp;</p>\n<p>9. If, due to unpreventable circumstances (including but not limited to: natural disasters, political and social situations, accidents and malfunctions, road closures, etc.), adjustments must be made to the tour in order to protect the safety and welfare of all guests in the tour group, our company reserves the right to take measures including changing the time or content of the tour or even canceling some or all tour activities. The related tour fees cannot be refunded, and any additional costs incurred (i.e. extended hotel stay, transportation, meals, plane ticket changes) must be borne by the guests.</p>\n<p>&nbsp; &nbsp; Natural disasters: flood, earthquake, hail, snowstorm, tsunami, etc.&nbsp;</p>\n<p>&nbsp; &nbsp; Political &amp; social situations: war, shutdown, protest, regime change, policy change, terrorist attack, etc.&nbsp;</p>\n<p>&nbsp; &nbsp; Accidents and malfunctions: tour bus or other transportation equipment malfunction, sudden damage to recreational equipment, traffic accident or other blockage of roads, etc.</p>\n<p>&nbsp; &nbsp; Road closures: roads impassable due to weather conditions, traffic accidents, etc.&nbsp;</p>\n<p>10. Emergency contact number: (US Toll-Free) +1(866)585-8747.</p>",
+    "options": [
+      "Package price type"
+    ],
+    "variants": [
+      {
+        "option1": "Adult",
+        "sku": "P00003037-ADULT",
+        "price": "200.00",
+        "currency": "USD",
+        "inventoryPolicy": "continue"
+      },
+      {
+        "option1": "Child",
+        "sku": "P00003037-CHILD",
+        "price": "200.00",
+        "currency": "USD",
+        "inventoryPolicy": "continue"
+      }
+    ],
+    "metafields": {
+      "toursbms_product_code": "P00003037",
+      "toursbms_group_no": "SAA-HCPT",
+      "toursbms_view_code": "R0001919",
+      "duration_days": 1,
+      "duration_nights": null
+    }
+  },
+  "source": {
+    "productPageUrl": "https://uvbookings.toursbms.com/en/product/detail?productCode=P00003037",
+    "branchCode": "B00000003",
+    "branchName": "纵横集团",
+    "language": 3,
+    "languagePackage": {
+      "CON000252": "Product category",
+      "CON000314": "Airplane",
+      "CON000315": "Train",
+      "CON000316": "Vehicle",
+      "CON000317": "Cruise",
+      "CON000318": "Others",
+      "CON000321": "Flight",
+      "CON000322": "Transportation",
+      "CON000323": "Attractions",
+      "CON000324": "Meals",
+      "CON000325": "Shopping",
+      "CON000326": "Free time",
+      "CON000329": "To be determined",
+      "CON000330": "Direct flight",
+      "CON000331": "Transit",
+      "CON000332": "Travel distance",
+      "CON000333": "Travel time",
+      "CON000334": "Hour",
+      "CON000335": "Minute",
+      "CON000338": "Breakfast",
+      "CON000339": "Lunch",
+      "CON000340": "Dinner",
+      "CON000341": "Dining menu",
+      "CON000342": "Activity time",
+      "CON000343": "Dining time",
+      "CON000344": "Extra expense",
+      "CON000358": "Cost includes",
+      "CON000359": "Cost excludes",
+      "CON000363": "Know Before You Book",
+      "CON000364": "Travel tips",
+      "CON000365": "Cancellation Policy",
+      "CON000366": "Visa instructions",
+      "CON000370": "Shopping point name",
+      "CON000375": "Price description",
+      "CON000377": "Price",
+      "CON000380": "Tour No.",
+      "CON000383": "Product type",
+      "CON000384": "Package tour",
+      "CON000385": "DIY tour",
+      "CON000386": "Private group",
+      "CON000389": "Transportation",
+      "CON000390": "Boarding location",
+      "CON000392": "Drop-off location",
+      "CON000394": "Highlights",
+      "CON000395": "Promotional information",
+      "CON000397": "Product information",
+      "CON000400": "Confirm method",
+      "CON000401": "Confirm manually",
+      "CON000402": "Confirm systematically",
+      "CON000403": "Age limit",
+      "CON000404": "No limit",
+      "CON000405": "Limit",
+      "CON000406": "Need ID number for reservation or not",
+      "CON000407": "Not needed",
+      "CON000408": "Need",
+      "CON000413": "Definition of children",
+      "CON000414": "Age less than or equal to",
+      "CON000415": "Height less than or equal to",
+      "CON000439": "Day",
+      "CON000440": "Night",
+      "CON000450": "Cost Description",
+      "CON000451": "Extra expense",
+      "CON000454": "Days",
+      "CON000458": "Shopping recommendation",
+      "CON000484": "Value-added services",
+      "CON000485": "Room type upgrade",
+      "CON000486": "Other fees",
+      "CON000487": "Name",
+      "CON000489": "People included",
+      "CON000491": "View more",
+      "CON000512": "Hotel",
+      "CON000533": "All day",
+      "CON000534": "Morning",
+      "CON000535": "Afternoon",
+      "CON000536": "Night",
+      "CON000539": "Or",
+      "CON000540": "And",
+      "CON000557": "Shopping description",
+      "CON000581": "Sun",
+      "CON000582": "Mon",
+      "CON000583": "Tue",
+      "CON000584": "Wed",
+      "CON000585": "Thu",
+      "CON000586": "Fri",
+      "CON000587": "Sat",
+      "CON000651": "Adult",
+      "CON000652": "Child",
+      "CON000653": "Type",
+      "CON000654": "Rooms",
+      "CON000676": "None",
+      "CON000691": "Search",
+      "CON000692": "Price range",
+      "CON000693": "Multiple",
+      "CON000694": "Unlimited",
+      "CON000696": "Sorry, no related products found.",
+      "CON000699": "Default sorting",
+      "CON000700": "Price from low to high",
+      "CON000701": "Price from high to low",
+      "CON000702": "Recent schedule",
+      "CON000703": "Check schedule",
+      "CON000704": "Earliest departure",
+      "CON000705": "Latest departure",
+      "CON000707": "More",
+      "CON000708": "Market area",
+      "CON000709": "View all",
+      "CON000710": "Join / leave point",
+      "CON000711": "Itinerary in traditional Chinese",
+      "CON000712": "Itinerary in simplified Chinese",
+      "CON000713": "Itinerary in English",
+      "CON000714": "Select period",
+      "CON000715": "Adequate",
+      "CON000716": "Tight",
+      "CON000717": "Sold out",
+      "CON000718": "Current currency",
+      "CON000720": "Export",
+      "CON000721": "Print",
+      "CON000722": "Send",
+      "CON000723": "More prices",
+      "CON000724": "Tour introduction",
+      "CON000725": "Policy",
+      "CON000726": "Notice",
+      "CON000727": "All conditions",
+      "CON000728": "Clear all",
+      "CON000729": "Hide schedule",
+      "CON000730": "Price to be determined",
+      "CON000731": "Starting days can't be larger than ending days.",
+      "CON000732": "Minimum price can't be larger than maximum price.",
+      "CON000733": "Earliest departure can't be later than latest departure.",
+      "CON000734": "Please enter product name, subtitle, group number, departure city, destination.",
+      "CON000735": "Product details",
+      "CON000736": "Tour inventory",
+      "CON000737": "Basic price",
+      "CON000738": "Send mail",
+      "CON000739": "Inbox",
+      "CON000740": "Highlights",
+      "CON000741": "Expense description",
+      "CON000742": "Itinerary",
+      "CON000743": "Shopping store",
+      "CON000744": "Item name",
+      "CON000745": "Booking limit",
+      "CON000746": "Whether available to children",
+      "CON000747": "Shopping list",
+      "CON000748": "At your own expense",
+      "CON000749": "Language version",
+      "CON000751": "Product price",
+      "CON000752": "Boarding location",
+      "CON000753": "Drop-off location",
+      "CON000754": "Departure",
+      "CON000755": "Address",
+      "CON000756": "Attachments",
+      "CON000757": "Type of sent file",
+      "CON000758": "Refer to attachments",
+      "CON000759": "Policy",
+      "CON001251": "Description",
+      "CON001325": "Tour guide arranges according itinerary",
+      "CON001326": "or",
+      "CON001327": "current language",
+      "CON001494": "Homepage hasn't been enabled, please contact the administrator.",
+      "CON001495": "Homepage maintenance, please wait..",
+      "CON001501": "Enter config page",
+      "CON001504": "Please input destination, theme or keywords.",
+      "CON001505": "Reload",
+      "CON001517": "Product information expired.",
+      "CON001770": "Flight duration",
+      "CON001771": "Flight distance",
+      "CON002014": "Simple Word",
+      "CON002015": "Simple PDF",
+      "CON002052": "Departure date",
+      "CON002054": "Airport pick-up",
+      "CON002055": "Airport drop-off",
+      "CON002056": "Airport pick-up/drop-off",
+      "CON002135": "All language itineraries",
+      "CON002192": "Total 【#Number#】 boarding locations",
+      "CON002193": "Sold out",
+      "CON002316": "Totally 【#Number#】 drop-off locations",
+      "CON002331": "Mandatory cost item",
+      "CON002332": "Mandatory cost item when the quantity is \"odd\"",
+      "CON002333": "【#priceitems#】Mandatory cost item，the quantity is [number of rooms] corresponding to the price item",
+      "CON002334": "【#priceitems#】Mandatory cost item: the quantity is referring to the number of guests which corresponds to the price item.",
+      "CON002335": "【#priceitems#】When the quantity is \"add\".the mandatory cost item is \"1\"",
+      "CON002552": "Today's location",
+      "CON002570": "Average expense",
+      "CON002574": "Economy",
+      "CON002575": "Premium Economy",
+      "CON002576": "Business",
+      "CON002577": "First",
+      "CON002675": "Please input product title and sub-title",
+      "CON002676": "Book ahead of [#advanceDay#]days",
+      "CON002677": "Invalid date in scope",
+      "CON002678": "Please select use date",
+      "CON002679": "Sub-total",
+      "CON002688": "Know Before[#html#]You Book",
+      "CON002760": "Check in city"
+    },
+    "endpoints": {
+      "productBasic": "https://online.ctrip.com/restapi/soa2/17626/getProductBasic.json",
+      "productTravelDetail": "https://online.ctrip.com/restapi/soa2/17626/getProductTravelDetail.json",
+      "productGroup": "https://online.ctrip.com/restapi/soa2/17626/getProductGroup.json",
+      "productPromote": "https://online.ctrip.com/restapi/soa2/17626/getProductPromote.json",
+      "currencies": "https://online.ctrip.com/restapi/soa2/18554/getListWebSiteCurrency.json"
+    },
+    "raw": {
+      "branchInfo": {
+        "branchCode": "B00000003",
+        "branchName": "纵横集团",
+        "branchFullName": "纵横集团 Jupiter Legend Corporation",
+        "branchLogo": "02S5n12000t1twue4730B.png",
+        "logoImageUrl": "https://dimg04.c-ctrip.com/target/02S5n12000t1twue4730B.png",
+        "defaultLanguage": 2,
+        "supportLanguage": [
+          2,
+          1,
+          3
+        ],
+        "branchIsWeb": 1,
+        "showPOILink": 0,
+        "timeZoneModel": {
+          "isSummer": 1,
+          "timeZoneCode": "TZ0009",
+          "timeZoneName": "UTC-5:00",
+          "timeZoneDesc": "波哥大、利马、基多、里奥布朗库、东部时间（美国和加拿大）、哈瓦那、海地、切图马尔、印地安那州（东部）",
+          "timeZoneDiff": -780
+        },
+        "webSiteInfo": [
+          {
+            "websiteCode": "W000010",
+            "languageType": 3,
+            "websiteIsDefault": 1
+          },
+          {
+            "websiteCode": "W000008",
+            "languageType": 1,
+            "websiteIsDefault": 0
+          },
+          {
+            "websiteCode": "W000003",
+            "languageType": 2,
+            "websiteIsDefault": 0
+          }
+        ],
+        "currencyInfo": {
+          "currencyCode": "CI00000002",
+          "currencyNum": "USD",
+          "currencyName": "美元",
+          "currencySymbol": "$"
+        },
+        "tokenCode": "WEBSITEMjAyNi0wNy0xMyZCMDAwMDAwMDMmMjAyNi0wNy0xOA==",
+        "openStockRule": 1,
+        "stockRuleList": [
+          {
+            "showRule": 1,
+            "content": 0,
+            "minStock": 6,
+            "maxStock": 0,
+            "isInfinite": 1
+          },
+          {
+            "showRule": 1,
+            "content": 1,
+            "minStock": 1,
+            "maxStock": 5,
+            "isInfinite": 0
+          },
+          {
+            "showRule": 1,
+            "content": 2,
+            "minStock": 0,
+            "maxStock": 0,
+            "isInfinite": 0
+          }
+        ]
+      },
+      "basic": {
+        "createTime": "2022-03-29 16:36:19",
+        "releaseTime": "2026-03-31 16:47:14",
+        "changeTime": "2026-03-31 16:47:14",
+        "productStatus": 200,
+        "supLanguages": "3,2,1",
+        "productMain": {
+          "mainLanguage": 2,
+          "productCode": "P00003037",
+          "productViewCode": "R0001919",
+          "groupNo": "SAA-HCPT",
+          "productClass": 1,
+          "carpointOff": 3,
+          "carpointOn": 3,
+          "productType": "PC00000026",
+          "productTypeName": "Alaska",
+          "tripDay": 1,
+          "nightDay": 0,
+          "productForm": 1,
+          "productRoom": 1,
+          "productVehicle": "1",
+          "productTransfer": "",
+          "productName": "“Midnight Sun”2026 Alaska Summer Season | Hatcher Pass Day Tour",
+          "subtitleName": "",
+          "productSpecial": "<p>Alaskan locals hide a nice summer resort, natural oxygen bar Hatcher Pass, visit the vintage gold mine heritage park, taste local fresh beer.</p>",
+          "salesNote": "",
+          "departureDate": "05/22/2026-09/07/2026: Monday, Friday",
+          "rewardCode": "RM00004107",
+          "createTime": "2022-03-29 16:36:19",
+          "datachangelasttime": "2026-03-31 16:47:14",
+          "dataVersion": 1774946834,
+          "productPriceAuto": 0,
+          "advanceDay": -1,
+          "advanceTime": "",
+          "productIsOutreach": null,
+          "upperProductCode": null,
+          "upperUpBranchCode": null,
+          "productAttribute": 1,
+          "productClassify": 0,
+          "schemeName": null,
+          "productStatus": 200,
+          "otherCurrencySupport": [],
+          "productRateInfoList": [],
+          "isLocalResidentOptional": 0
+        },
+        "productImg": [
+          "02S5312000rxi19un6D21.png"
+        ],
+        "productPointStart": {
+          "regionCode": "A518",
+          "regionName": "Anchorage",
+          "resourceType": 0
+        },
+        "productPointEnd": {
+          "regionCode": "A518",
+          "regionName": "Anchorage",
+          "resourceType": 0
+        },
+        "productDestination": [
+          {
+            "countryCode": "",
+            "countryName": "",
+            "provinceCode": "A518",
+            "provinceName": "Anchorage",
+            "scenicCode": "",
+            "scenicName": "",
+            "scenicSpotCode": "",
+            "scenicSpotName": "",
+            "resourceType": 0
+          }
+        ],
+        "productCarpointUpper": [
+          {
+            "carpointCode": "ANM00000276",
+            "carpointName": "Alex Hotel & Suites Anchorage Airport",
+            "aggregationAddr": "4615 Spenard Rd, Anchorage, AK 99517",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "ANT00003309",
+            "carpointTimeValue": "09:15",
+            "carpointViewCode": ""
+          },
+          {
+            "carpointCode": "ANM00001565",
+            "carpointName": "Fairfield Inn & Suites Anchorage Midtown",
+            "aggregationAddr": "5060 A St, Anchorage, AK 99503",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "ANT00003310",
+            "carpointTimeValue": "09:30",
+            "carpointViewCode": ""
+          },
+          {
+            "carpointCode": "ANM00001566",
+            "carpointName": "Four Points by Sheraton Downtown",
+            "aggregationAddr": "325 W 8th Ave, Anchorage, AK 99501",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "ANT00003311",
+            "carpointTimeValue": "09:35",
+            "carpointViewCode": ""
+          }
+        ],
+        "productCarpointDown": [
+          {
+            "carpointCode": "ANM00000276",
+            "carpointName": "Alex Hotel & Suites Anchorage Airport",
+            "aggregationAddr": "4615 Spenard Rd, Anchorage, AK 99517",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "",
+            "carpointTimeValue": null,
+            "carpointViewCode": ""
+          },
+          {
+            "carpointCode": "ANM00001565",
+            "carpointName": "Fairfield Inn & Suites Anchorage Midtown",
+            "aggregationAddr": "5060 A St, Anchorage, AK 99503",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "",
+            "carpointTimeValue": null,
+            "carpointViewCode": ""
+          },
+          {
+            "carpointCode": "ANM00001566",
+            "carpointName": "Four Points by Sheraton Downtown",
+            "aggregationAddr": "325 W 8th Ave, Anchorage, AK 99501",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "",
+            "carpointTimeValue": null,
+            "carpointViewCode": ""
+          }
+        ],
+        "productConstraint": {
+          "confirmType": 1,
+          "isAge": 0,
+          "ageCode": "",
+          "ageName": null,
+          "isNumber": 0,
+          "isPrice": 1,
+          "isCarpoint": 1,
+          "isChild": 1,
+          "childAge": "",
+          "childHeight": "",
+          "childNote": "The same price for children and adults.",
+          "isRange": 0,
+          "isAutoTeam": 1,
+          "isInfant": 0,
+          "infantAgeUpper": "",
+          "infantNote": "",
+          "isSenior": 0,
+          "seniorAgeLower": "",
+          "seniorNote": ""
+        },
+        "productRange": [],
+        "productRecommendList": [],
+        "otherSchemes": null,
+        "productImageUrl": [
+          "https://dimg04.c-ctrip.com/target/02S5312000rxi19un6D21.png"
+        ],
+        "tagList": null,
+        "teamCarpointUpper": [],
+        "teamCarpointDown": [],
+        "productImageList": [
+          {
+            "imageUrl": "02S5312000rxi19un6D21.png",
+            "imageName": "海切尔山口"
+          }
+        ]
+      },
+      "travelDetail": {
+        "productTravel": {
+          "productCode": "P00003037",
+          "dataVersion": 1774946834,
+          "productDay": 1,
+          "productNight": 0,
+          "travelId": 5408,
+          "productType": "PC00000026",
+          "productTypeName": "Alaska",
+          "travelName": "“午夜陽光”2025阿拉斯加夏季 | 海切爾山口 一日遊",
+          "productTravelInfoList": [
+            {
+              "isSource": 0,
+              "language": 3,
+              "dayList": [
+                {
+                  "section": "Anchorage|||1+++Hatcher Pass|||1+++Anchorage",
+                  "todayLocation": "",
+                  "dayNumber": 1,
+                  "content": [
+                    {
+                      "contentMode": 3,
+                      "productSortNum": null,
+                      "relatedId": 5406,
+                      "relatedDay": 1,
+                      "relatedName": "【SAA-HCPT】海切爾山口 一日遊",
+                      "contentType": 100,
+                      "sortNumber": 0,
+                      "jsonContent": "{\"travelId\":5406,\"productCategory\":1,\"name\":\"【SAA-HCPT】海切爾山口 一日遊\",\"productType\":\"PC00000026\",\"isAutoTeam\":null,\"expandList\":[{\"language\":3,\"isSource\":0,\"dayList\":[{\"section\":\"Anchorage|||1+++Hatcher Pass|||1+++Anchorage\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD48c3Ryb25nPkRldGFpbHM6Jm5ic3A7PC9zdHJvbmc+PC9wPlxuPHA+TGVhdmUgZnJvbSB0aGUgZGVzaWduYXRlZCBob3RlbCBpbiB0aGUgbW9ybmluZywgYW5kIHRyYXZlbCB0byB0aGUgc2NlbmljIDxzdHJvbmc+SGF0Y2hlciBQYXNzPC9zdHJvbmc+LCBiZXR3ZWVuIHRoZSB0b3ducyBvZiBXaWxsb3cgYW5kIFBhbG1lciwgdGhlIEhhdGNoZXIgUGFzcyBhcmVhIGlzIGV4dHJlbWVseSByaWNoIGluIHBsYW50IHJlc291cmNlcywgYW5kIGlzIGEgcGFyYWRpc2UgZm9yIGxvY2FscyBhbmQgc2VsZi1kcml2aW5nIGVudGh1c2lhc3RzLCB3aXRoIGFscGluZSBnbGFjaWFsIGxha2VzIGFuZCBiZWF1dGlmdWwgd2lsZGZsb3dlcnMgZG90dGVkIGJldHdlZW4gdGhlIG1vdW50YWlucywgd2l0aG91dCBsb3NpbmcgdGhlIGdyYW5kZXVyIG9mIEFsYXNrYS4gQWxvbmcgdGhlIHdheSwgaGVhZCB0byA8c3Ryb25nPkluZGVwZW5kZW5jZSBNaW5lIFN0YXRlIEhpc3RvcmljYWwgUGFyazwvc3Ryb25nPiwgdGhlIGFiYW5kb25lZCBnb2xkIG1pbmUgaXMgbm8gbG9uZ2VyIHRoZSBncmFuZCBldmVudCBvZiB0aGUgcGFzdCwgYW5kIG5vdyBpdCB3ZWxjb21lcyB0b3VyaXN0cyB3aXRoIGl0cyB1bmlxdWUgdmludGFnZSBzdHlsZS4gVGhlbiB3ZSdsbCB2aXNpdCBhIHNtYWxsIGxvY2FsIGJyZXdlcnksIGFuZCBpbiB0aGUgQW1lcmljYW4gYmVlciBpbmR1c3RyeSwgQWxhc2thIGlzIGEgcGxhY2UgdGhhdCBjYW4ndCBiZSBpZ25vcmVkLCB0aGUgbG9jYWwgYnJld2VyeSBicmFuZHMgaGF2ZSB0aGVpciBvd24gY2hhcmFjdGVyaXN0aWNzLiBOb3Qgb25seSBjYW4gd2UgbGVhcm4gYSBsaXR0bGUgYWJvdXQgQWxhc2thJ3MgbG9jYWwgYmVlciBtYWtpbmcsIGJ1dCB3ZSBjYW4gYWxzbyBzYW1wbGUgZnJlc2ggY3JhZnQgYmVlcnMgKHRhc3RpbmcgaXMgYXQgeW91ciBvd24gZXhwZW5zZSwgb25seSAyMSB5ZWFycyBvbGQgY2FuIGRyaW5rIGFsY29ob2wsIHBsZWFzZSBzaG93IElEIGF0IHRoYXQgdGltZSkuIEVzdGltYXRlZCByZXR1cm4gdG8gQW5jaG9yYWdlIGlzIGJldHdlZW4gMTc6MDAtMTc6MzAuPC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz5DbG90aGluZyBhZHZpY2U6PC9zdHJvbmc+IE91dGRvb3Igc25lYWtlcnMgYW5kIGEgbGlnaHR3ZWlnaHQgd2FybSBjb2F0LjwvcD4iLCJ0aW1lIjoiMSJ9\"}],\"distributionFactor\":null}]}]}"
+                    }
+                  ],
+                  "isFreeTravel": null,
+                  "optionalProductList": null,
+                  "distributionFactor": 1
+                }
+              ]
+            }
+          ]
+        },
+        "productNotice": {
+          "mainLanguage": 3,
+          "productCode": "P00003037",
+          "noticeInfo": [
+            {
+              "matterCode": "AT00000478",
+              "editType": 1,
+              "noticeType": 3,
+              "matterName": "【阿拉斯加】夏季",
+              "vluesTip1": "<p><strong>Cancelation Policy:</strong></p>\n<p>1. For cancelations within 15 days of the tour date, no refund will be given.</p>\n<p>2. For cancelations between 16 to 25 days from the tour date, 50% of the fee will be refunded.</p>\n<p>3. For cancelations between 26 to 35 days from the tour date, 70% of the fee will be refunded.&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Change Policy:</strong></p>\n<p>If you are unable to participate in the tour due to transportation issues, a government shutdown, illness, accident, sudden changes in weather, or other unforeseen and unpreventable personal circumstances, it is suggested that you transfer the booked itinerary to someone else. Our company can change the name on the booking for free. If you decide to change or postpone your itinerary, we will do our best to minimize the loss to you, but there are some costs we are not able to recover. Thus, changes will be made in accordance with the following policy:&nbsp;</p>\n<p>1. For changes or postponements made more than 35 days ahead of the tour date, no fee will be charged.&nbsp;</p>\n<p>2. For changes or postponements made within 35 days of the tour date, after deducting the fees for activities that have already been booked, the remainder of your payment will be applied to the cost of your new itinerary.</p>",
+              "vluesTip2": "【阿拉斯加】夏季"
+            },
+            {
+              "matterCode": "AT00001142",
+              "editType": 1,
+              "noticeType": 1,
+              "matterName": "【預訂須知】阿拉斯加夏季單品（4人成團）",
+              "vluesTip1": "<p><strong>Essential Information About Booking:</strong></p>\n<p>1. This tour is led by a professional Chinese-English guide (except where otherwise noted). <strong><span style=\"color: #ba372a;\">The minimum number of guest for each tour is 4,</span></strong>&nbsp;please check in advance about whether the minimum has been reached.</p>\n<p>2. Please provide us with your phone number at least 10 days ahead of your tour. Otherwise we will be unable to send you the final confirmation.&nbsp;</p>\n<p>&nbsp;</p>\n<p><strong>Essential Information About the Tour:</strong></p>\n<p>1. This tour requires you to bring a photo ID, such as a foreign passport with an American visa, or an American driver&rsquo;s license.&nbsp;</p>\n<p>2. If there are discrepancies between any time stated in the itinerary and the time given by your guide, please meet at the time your guide has informed you of.</p>\n<p>3. Some places in Alaska can be relatively cold in summer. Please bring warm clothes, such as a wind and water-proof jacket, fleece jacket, hat, scarf, etc.</p>\n<p>4. Summer tours in Alaska primarily involve outdoor natural attractions. During your tour please follow the instructions of your guide in order to stay safe and protect the natural environment.&nbsp;</p>\n<p>5. Alaska has many scenic views that can be seen from the road. When stopping by the side of the road to take in the scenery, do not linger or take pictures in the middle of the road. Guests must take responsibility for any accidents caused by such behavior.&nbsp;</p>\n<p>6. Minors under age 18 must be accompanied by an adult or provide a wavier signed by a legal guardian. In consideration of the guest safety, pregnant women are only allowed to join the tour if pregnant for 24 weeks or less by the end of the trip.</p>\n<p>7. If you didn&rsquo;t book any optional activities available on the tour in advance, you can talk with your guide about booking these activities. In this case payment must be made in cash.</p>\n<p>8. Please be aware, if you are not able to meet your guide at the appointed time and place due to personal reasons (including but not limited to illness, accidents, running late, etc.), and thus miss the chance to board the bus and cannot participate in the tour, we are afraid we cannot refund your fee.</p>\n<p><span style=\"color: #ba372a;\">&nbsp; &nbsp; <strong>Please arrive at the pick-up location least 10 to 15 minutes early.</strong></span></p>\n<p>&nbsp; &nbsp; You may call us within 1 to 2 days of your tour to confirm the pick-up time and location.&nbsp;</p>\n<p>9. If, due to unpreventable circumstances (including but not limited to: natural disasters, political and social situations, accidents and malfunctions, road closures, etc.), adjustments must be made to the tour in order to protect the safety and welfare of all guests in the tour group, our company reserves the right to take measures including changing the time or content of the tour or even canceling some or all tour activities. The related tour fees cannot be refunded, and any additional costs incurred (i.e. extended hotel stay, transportation, meals, plane ticket changes) must be borne by the guests.</p>\n<p>&nbsp; &nbsp; Natural disasters: flood, earthquake, hail, snowstorm, tsunami, etc.&nbsp;</p>\n<p>&nbsp; &nbsp; Political &amp; social situations: war, shutdown, protest, regime change, policy change, terrorist attack, etc.&nbsp;</p>\n<p>&nbsp; &nbsp; Accidents and malfunctions: tour bus or other transportation equipment malfunction, sudden damage to recreational equipment, traffic accident or other blockage of roads, etc.</p>\n<p>&nbsp; &nbsp; Road closures: roads impassable due to weather conditions, traffic accidents, etc.&nbsp;</p>\n<p>10. Emergency contact number: (US Toll-Free) +1(866)585-8747.</p>",
+              "vluesTip2": "【預訂須知】阿拉斯加夏季單品（4人成團）"
+            },
+            {
+              "matterCode": "CM00000499",
+              "editType": 1,
+              "noticeType": 0,
+              "matterName": "【阿拉斯加】夏季-一日遊",
+              "vluesTip1": "<p>1. Local driver and guide (or driver-guide)&nbsp; service.</p>\n<p>2. Tour bus service, with the specific vehicle type determined by the size of the group.</p>\n<p>3. Admission tickets of attracttions included in the itinerary.</p>",
+              "vluesTip2": "<p>1. Transportation to/from the designated pick-up location.</p>\n<p>2. Optional activities and entrance fees not included in the itinerary (Prices are subject to change without prior notice; Tickets should be purchased from the tour guide).&nbsp;</p>\n<p>3. Breakfast, lunch, dinner, and other meals noted in the itinerary as not included.&nbsp;</p>\n<p>4. In accordance with local standards, you may tip your guide based on the quality of their service. Tipping standard is $20/person/day. Please pay tips to your guide on the day of your tour, to express your respect and gratitude for their work.</p>\n<p>5. Other expenses not mentioned in the itinerary or agreement.</p>"
+            }
+          ],
+          "damagesInfo": [],
+          "advanceDay": -1,
+          "advanceTime": ""
+        },
+        "productCost": {
+          "list": null,
+          "pager": null,
+          "productCostIsDay": 0
+        },
+        "productShop": {
+          "list": null,
+          "pager": null,
+          "productShopIsDay": 0
+        }
+      },
+      "groups": [
+        {
+          "groupDate": "2026-07-17 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-07-20 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-07-24 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-07-27 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-07-31 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-03 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-07 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-10 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-14 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-17 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-21 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-24 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-28 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-31 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-09-04 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-09-07 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        }
+      ],
+      "addons": []
+    }
+  }
+}

@@ -1,5 +1,10 @@
 type GraphQlOptions = {
   variables?: Record<string, unknown>
+  cache?: RequestCache
+  next?: {
+    revalidate?: number | false
+    tags?: string[]
+  }
 }
 
 export type ShopifyAdminGraphQlResponse<T> = {
@@ -27,7 +32,8 @@ export const shopifyAdminClient = {
         query,
         variables: options.variables ?? {},
       }),
-      cache: 'no-store',
+      cache: options.cache ?? 'no-store',
+      next: options.next,
     })
 
     if (!res.ok) throw new Error(`Shopify Admin API ${res.status}`)

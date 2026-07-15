@@ -41,8 +41,8 @@ export const PRODUCT_QUERY = `#graphql
 `
 
 export const ALL_PRODUCTS_QUERY = `#graphql
-  query GetAllProducts($first: Int!) {
-    products(first: $first) {
+  query GetAllProducts($first: Int!, $after: String, $query: String) {
+    products(first: $first, after: $after, query: $query) {
       nodes {
         id
         handle
@@ -61,6 +61,10 @@ export const ALL_PRODUCTS_QUERY = `#graphql
             altText
           }
         }
+      }
+      pageInfo {
+        hasNextPage
+        endCursor
       }
     }
   }

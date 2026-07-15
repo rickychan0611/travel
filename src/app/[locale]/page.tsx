@@ -4,11 +4,13 @@ import { HeroBanner } from '@/components/home/HeroBanner'
 import { HomeNavTiles } from '@/components/home/HomeNavTiles'
 import { SeasonMustPlay } from '@/components/home/SeasonMustPlay'
 import { UsaTravelSection } from '@/components/home/UsaTravelSection'
-import { CANADA_LATAM_TRAVEL, EUROPE_TRAVEL, WORLD_TRAVEL } from '@/data/home-mock'
 import { CustomStories } from '@/components/home/CustomStories'
-import { CruiseSection } from '@/components/home/CruiseSection'
 import { KnowUs } from '@/components/home/KnowUs'
 import { PartnerBanner } from '@/components/home/PartnerBanner'
+import { HOMEPAGE_TOUR_SECTIONS } from '@/data/tour-categories'
+import { fetchProductsByQueries, localizeCollectionProducts } from '@/lib/shopify/products'
+
+export const revalidate = 1800
 
 export async function generateMetadata({
   params,
@@ -29,6 +31,20 @@ export default async function HomePage({
   params: Promise<{ locale: string }>
 }) {
   const { locale } = await params
+  const tourSections = await Promise.all(
+    HOMEPAGE_TOUR_SECTIONS.map(async (section) => ({
+      ...section,
+      tabs: await Promise.all(
+        section.tabs.map(async (tab) => ({
+          ...tab,
+          products: await localizeCollectionProducts(
+            await fetchProductsByQueries(tab.queries, 6, 6),
+            locale,
+          ),
+        })),
+      ),
+    })),
+  )
 
   return (
     <>
@@ -37,12 +53,10 @@ export default async function HomePage({
       <div className="mx-auto max-w-[1200px] space-y-4 px-4 py-4 md:space-y-5 md:py-5">
         <HomeNavTiles locale={locale} />
         <SeasonMustPlay locale={locale} />
-        <UsaTravelSection locale={locale} />
-        <UsaTravelSection locale={locale} section={CANADA_LATAM_TRAVEL} />
-        <UsaTravelSection locale={locale} section={EUROPE_TRAVEL} />
-        <UsaTravelSection locale={locale} section={WORLD_TRAVEL} />
+        {tourSections.map((section) => (
+          <UsaTravelSection key={section.id} locale={locale} section={section} />
+        ))}
         <CustomStories locale={locale} />
-        <CruiseSection locale={locale} />
         <KnowUs />
         <PartnerBanner />
       </div>

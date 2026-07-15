@@ -5,10 +5,9 @@ import { Search } from 'lucide-react'
 import { ProductCard } from '@/components/home/ProductCard'
 import { Button } from '@/components/ui/button'
 import type { CollectionProduct } from '@/lib/shopify/types'
+import { filterTourProducts, type TourFilterKey } from '@/lib/tours/filter-products'
 
-type FilterKey = 'all' | 'group-tour' | 'day-trip' | 'small-group'
-
-const FILTERS: Array<{ key: FilterKey; labelKey: string }> = [
+const FILTERS: Array<{ key: TourFilterKey; labelKey: string }> = [
   { key: 'all',         labelKey: 'filterAll' },
   { key: 'group-tour',  labelKey: 'filterGroupTour' },
   { key: 'day-trip',    labelKey: 'filterDayTrip' },
@@ -27,14 +26,9 @@ export function ToursFilter({
   const t  = useTranslations('tours')
   const th = useTranslations('home')
 
-  const [active, setActive]           = useState<FilterKey>('all')
+  const [active, setActive]           = useState<TourFilterKey>('all')
   const [inputValue, setInputValue]   = useState(initialQuery)
   const [searchQuery, setSearchQuery] = useState(initialQuery.trim().toLowerCase())
-
-  useEffect(() => {
-    setInputValue(initialQuery)
-    setSearchQuery(initialQuery.trim().toLowerCase())
-  }, [initialQuery])
 
   // Debounce: update searchQuery 200 ms after the user stops typing
   useEffect(() => {
@@ -42,11 +36,7 @@ export function ToursFilter({
     return () => clearTimeout(id)
   }, [inputValue])
 
-  const filtered = products.filter((p) => {
-    const matchesType  = active === 'all' || p.productType === active
-    const matchesQuery = searchQuery === '' || p.title.toLowerCase().includes(searchQuery)
-    return matchesType && matchesQuery
-  })
+  const filtered = filterTourProducts(products, active, searchQuery)
 
   return (
     <div>

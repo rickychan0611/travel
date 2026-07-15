@@ -16,7 +16,7 @@ export function HomeNavTiles({ locale }: { locale: string }) {
         <Link
           key={tile.id}
           href={`/${locale}${tile.href}` as Route}
-          className="relative block h-[96px] overflow-hidden rounded-lg transition hover:brightness-[0.98]"
+          className="relative block h-[96px] cursor-pointer overflow-hidden rounded-lg transition hover:brightness-[0.98]"
         >
           <div
             className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"

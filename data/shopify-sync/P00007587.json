@@ -1,0 +1,3262 @@
+{
+  "productCode": "P00007587",
+  "handle": "p00007587-red-7-day-6-nights-tour-through-paris-versailles-reims-luxembourg-trier-frankfurt-bonn-cologne-amsterdam-and-b",
+  "shopifyProductId": "gid://shopify/Product/8881384816692",
+  "shopifyAddonProductId": "gid://shopify/Product/8881384914996",
+  "status": "ACTIVE",
+  "locales": [
+    "en",
+    "zh-CN",
+    "zh-TW"
+  ],
+  "syncedAt": "2026-07-15T04:27:49.856Z",
+  "variants": [
+    {
+      "date": "2026-07-16",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-07-16",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-07-16-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 49,
+      "remainingStock": 49,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035208331316"
+    },
+    {
+      "date": "2026-07-16",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-07-16",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-07-16-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 49,
+      "remainingStock": 49,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035208364084"
+    },
+    {
+      "date": "2026-07-16",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-07-16",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-07-16-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 49,
+      "remainingStock": 49,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035208396852"
+    },
+    {
+      "date": "2026-07-16",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-07-16",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-07-16-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 49,
+      "remainingStock": 49,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035208429620"
+    },
+    {
+      "date": "2026-07-18",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-07-18",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-07-18-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 49,
+      "remainingStock": 49,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035208462388"
+    },
+    {
+      "date": "2026-07-18",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-07-18",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-07-18-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 49,
+      "remainingStock": 49,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035208495156"
+    },
+    {
+      "date": "2026-07-18",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-07-18",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-07-18-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 49,
+      "remainingStock": 49,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035208527924"
+    },
+    {
+      "date": "2026-07-18",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-07-18",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-07-18-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 49,
+      "remainingStock": 49,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035208560692"
+    },
+    {
+      "date": "2026-07-23",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-07-23",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-07-23-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 48,
+      "remainingStock": 48,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035208593460"
+    },
+    {
+      "date": "2026-07-23",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-07-23",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-07-23-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 48,
+      "remainingStock": 48,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035208626228"
+    },
+    {
+      "date": "2026-07-23",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-07-23",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-07-23-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 48,
+      "remainingStock": 48,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035208658996"
+    },
+    {
+      "date": "2026-07-23",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-07-23",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-07-23-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 48,
+      "remainingStock": 48,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035208691764"
+    },
+    {
+      "date": "2026-07-25",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-07-25",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-07-25-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 46,
+      "remainingStock": 46,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035208724532"
+    },
+    {
+      "date": "2026-07-25",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-07-25",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-07-25-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 46,
+      "remainingStock": 46,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035208757300"
+    },
+    {
+      "date": "2026-07-25",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-07-25",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-07-25-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 46,
+      "remainingStock": 46,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035208790068"
+    },
+    {
+      "date": "2026-07-25",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-07-25",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-07-25-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 46,
+      "remainingStock": 46,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035208822836"
+    },
+    {
+      "date": "2026-07-30",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-07-30",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-07-30-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 51,
+      "remainingStock": 51,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035208855604"
+    },
+    {
+      "date": "2026-07-30",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-07-30",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-07-30-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 51,
+      "remainingStock": 51,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035208888372"
+    },
+    {
+      "date": "2026-07-30",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-07-30",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-07-30-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 51,
+      "remainingStock": 51,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035208921140"
+    },
+    {
+      "date": "2026-07-30",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-07-30",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-07-30-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 51,
+      "remainingStock": 51,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035208953908"
+    },
+    {
+      "date": "2026-08-01",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-08-01",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-08-01-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 51,
+      "remainingStock": 51,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035208986676"
+    },
+    {
+      "date": "2026-08-01",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-08-01",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-08-01-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 51,
+      "remainingStock": 51,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209019444"
+    },
+    {
+      "date": "2026-08-01",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-08-01",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-08-01-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 51,
+      "remainingStock": 51,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209052212"
+    },
+    {
+      "date": "2026-08-01",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-08-01",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-08-01-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 51,
+      "remainingStock": 51,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209084980"
+    },
+    {
+      "date": "2026-08-06",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-08-06",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-08-06-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 41,
+      "remainingStock": 41,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209117748"
+    },
+    {
+      "date": "2026-08-06",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-08-06",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-08-06-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 41,
+      "remainingStock": 41,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209150516"
+    },
+    {
+      "date": "2026-08-06",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-08-06",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-08-06-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 41,
+      "remainingStock": 41,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209183284"
+    },
+    {
+      "date": "2026-08-06",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-08-06",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-08-06-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 41,
+      "remainingStock": 41,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209216052"
+    },
+    {
+      "date": "2026-08-08",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-08-08",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-08-08-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 44,
+      "remainingStock": 44,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209248820"
+    },
+    {
+      "date": "2026-08-08",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-08-08",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-08-08-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 44,
+      "remainingStock": 44,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209281588"
+    },
+    {
+      "date": "2026-08-08",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-08-08",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-08-08-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 44,
+      "remainingStock": 44,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209314356"
+    },
+    {
+      "date": "2026-08-08",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-08-08",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-08-08-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 44,
+      "remainingStock": 44,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209347124"
+    },
+    {
+      "date": "2026-08-13",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-08-13",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-08-13-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 37,
+      "remainingStock": 37,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209379892"
+    },
+    {
+      "date": "2026-08-13",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-08-13",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-08-13-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 37,
+      "remainingStock": 37,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209412660"
+    },
+    {
+      "date": "2026-08-13",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-08-13",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-08-13-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 37,
+      "remainingStock": 37,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209445428"
+    },
+    {
+      "date": "2026-08-13",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-08-13",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-08-13-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 37,
+      "remainingStock": 37,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209478196"
+    },
+    {
+      "date": "2026-08-15",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-08-15",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-08-15-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 52,
+      "remainingStock": 52,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209510964"
+    },
+    {
+      "date": "2026-08-15",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-08-15",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-08-15-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 52,
+      "remainingStock": 52,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209543732"
+    },
+    {
+      "date": "2026-08-15",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-08-15",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-08-15-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 52,
+      "remainingStock": 52,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209576500"
+    },
+    {
+      "date": "2026-08-15",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-08-15",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-08-15-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 52,
+      "remainingStock": 52,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209609268"
+    },
+    {
+      "date": "2026-08-20",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-08-20",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-08-20-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 24,
+      "remainingStock": 24,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209642036"
+    },
+    {
+      "date": "2026-08-20",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-08-20",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-08-20-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 24,
+      "remainingStock": 24,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209674804"
+    },
+    {
+      "date": "2026-08-20",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-08-20",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-08-20-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 24,
+      "remainingStock": 24,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209707572"
+    },
+    {
+      "date": "2026-08-20",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-08-20",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-08-20-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 24,
+      "remainingStock": 24,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209740340"
+    },
+    {
+      "date": "2026-08-22",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-08-22",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-08-22-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 45,
+      "remainingStock": 45,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209773108"
+    },
+    {
+      "date": "2026-08-22",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-08-22",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-08-22-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 45,
+      "remainingStock": 45,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209805876"
+    },
+    {
+      "date": "2026-08-22",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-08-22",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-08-22-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 45,
+      "remainingStock": 45,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209838644"
+    },
+    {
+      "date": "2026-08-22",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-08-22",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-08-22-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 45,
+      "remainingStock": 45,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209871412"
+    },
+    {
+      "date": "2026-08-27",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-08-27",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-08-27-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 45,
+      "remainingStock": 45,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209904180"
+    },
+    {
+      "date": "2026-08-27",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-08-27",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-08-27-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 45,
+      "remainingStock": 45,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209936948"
+    },
+    {
+      "date": "2026-08-27",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-08-27",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-08-27-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 45,
+      "remainingStock": 45,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035209969716"
+    },
+    {
+      "date": "2026-08-27",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-08-27",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-08-27-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 45,
+      "remainingStock": 45,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210002484"
+    },
+    {
+      "date": "2026-08-29",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-08-29",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-08-29-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 52,
+      "remainingStock": 52,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210035252"
+    },
+    {
+      "date": "2026-08-29",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-08-29",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-08-29-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 52,
+      "remainingStock": 52,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210068020"
+    },
+    {
+      "date": "2026-08-29",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-08-29",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-08-29-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 52,
+      "remainingStock": 52,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210100788"
+    },
+    {
+      "date": "2026-08-29",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-08-29",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-08-29-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 52,
+      "remainingStock": 52,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210133556"
+    },
+    {
+      "date": "2026-09-03",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-09-03",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-09-03-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 47,
+      "remainingStock": 47,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210166324"
+    },
+    {
+      "date": "2026-09-03",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-09-03",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-09-03-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 47,
+      "remainingStock": 47,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210199092"
+    },
+    {
+      "date": "2026-09-03",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-09-03",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-09-03-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 47,
+      "remainingStock": 47,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210231860"
+    },
+    {
+      "date": "2026-09-03",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-09-03",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-09-03-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 47,
+      "remainingStock": 47,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210264628"
+    },
+    {
+      "date": "2026-09-05",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-09-05",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-09-05-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210297396"
+    },
+    {
+      "date": "2026-09-05",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-09-05",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-09-05-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210330164"
+    },
+    {
+      "date": "2026-09-05",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-09-05",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-09-05-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210362932"
+    },
+    {
+      "date": "2026-09-05",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-09-05",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-09-05-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210395700"
+    },
+    {
+      "date": "2026-09-10",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-09-10",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-09-10-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 51,
+      "remainingStock": 51,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210428468"
+    },
+    {
+      "date": "2026-09-10",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-09-10",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-09-10-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 51,
+      "remainingStock": 51,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210461236"
+    },
+    {
+      "date": "2026-09-10",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-09-10",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-09-10-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 51,
+      "remainingStock": 51,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210494004"
+    },
+    {
+      "date": "2026-09-10",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-09-10",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-09-10-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 51,
+      "remainingStock": 51,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210526772"
+    },
+    {
+      "date": "2026-09-12",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-09-12",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-09-12-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 45,
+      "remainingStock": 45,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210559540"
+    },
+    {
+      "date": "2026-09-12",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-09-12",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-09-12-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 45,
+      "remainingStock": 45,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210592308"
+    },
+    {
+      "date": "2026-09-12",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-09-12",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-09-12-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 45,
+      "remainingStock": 45,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210625076"
+    },
+    {
+      "date": "2026-09-12",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-09-12",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-09-12-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 45,
+      "remainingStock": 45,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210657844"
+    },
+    {
+      "date": "2026-09-17",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-09-17",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-09-17-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 39,
+      "remainingStock": 39,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210690612"
+    },
+    {
+      "date": "2026-09-17",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-09-17",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-09-17-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 39,
+      "remainingStock": 39,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210723380"
+    },
+    {
+      "date": "2026-09-17",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-09-17",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-09-17-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 39,
+      "remainingStock": 39,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210756148"
+    },
+    {
+      "date": "2026-09-17",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-09-17",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-09-17-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 39,
+      "remainingStock": 39,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210788916"
+    },
+    {
+      "date": "2026-09-19",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-09-19",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-09-19-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 43,
+      "remainingStock": 43,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210821684"
+    },
+    {
+      "date": "2026-09-19",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-09-19",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-09-19-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 43,
+      "remainingStock": 43,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210854452"
+    },
+    {
+      "date": "2026-09-19",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-09-19",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-09-19-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 43,
+      "remainingStock": 43,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210887220"
+    },
+    {
+      "date": "2026-09-19",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-09-19",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-09-19-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 43,
+      "remainingStock": 43,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210919988"
+    },
+    {
+      "date": "2026-09-24",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-09-24",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-09-24-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210952756"
+    },
+    {
+      "date": "2026-09-24",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-09-24",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-09-24-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035210985524"
+    },
+    {
+      "date": "2026-09-24",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-09-24",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-09-24-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211018292"
+    },
+    {
+      "date": "2026-09-24",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-09-24",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-09-24-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211051060"
+    },
+    {
+      "date": "2026-09-26",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-09-26",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-09-26-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 49,
+      "remainingStock": 49,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211083828"
+    },
+    {
+      "date": "2026-09-26",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-09-26",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-09-26-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 49,
+      "remainingStock": 49,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211116596"
+    },
+    {
+      "date": "2026-09-26",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-09-26",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-09-26-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 49,
+      "remainingStock": 49,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211149364"
+    },
+    {
+      "date": "2026-09-26",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-09-26",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-09-26-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 49,
+      "remainingStock": 49,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211182132"
+    },
+    {
+      "date": "2026-10-01",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-10-01",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-10-01-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 52,
+      "remainingStock": 52,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211214900"
+    },
+    {
+      "date": "2026-10-01",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-10-01",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-10-01-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 52,
+      "remainingStock": 52,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211247668"
+    },
+    {
+      "date": "2026-10-01",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-10-01",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-10-01-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 52,
+      "remainingStock": 52,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211280436"
+    },
+    {
+      "date": "2026-10-01",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-10-01",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-10-01-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 52,
+      "remainingStock": 52,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211313204"
+    },
+    {
+      "date": "2026-10-03",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-10-03",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-10-03-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211345972"
+    },
+    {
+      "date": "2026-10-03",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-10-03",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-10-03-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211378740"
+    },
+    {
+      "date": "2026-10-03",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-10-03",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-10-03-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211411508"
+    },
+    {
+      "date": "2026-10-03",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-10-03",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-10-03-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211444276"
+    },
+    {
+      "date": "2026-10-08",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-10-08",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-10-08-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211477044"
+    },
+    {
+      "date": "2026-10-08",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-10-08",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-10-08-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211509812"
+    },
+    {
+      "date": "2026-10-08",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-10-08",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-10-08-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211542580"
+    },
+    {
+      "date": "2026-10-08",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-10-08",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-10-08-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211575348"
+    },
+    {
+      "date": "2026-10-10",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-10-10",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-10-10-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 51,
+      "remainingStock": 51,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211608116"
+    },
+    {
+      "date": "2026-10-10",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-10-10",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-10-10-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 51,
+      "remainingStock": 51,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211640884"
+    },
+    {
+      "date": "2026-10-10",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-10-10",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-10-10-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 51,
+      "remainingStock": 51,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211673652"
+    },
+    {
+      "date": "2026-10-10",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-10-10",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-10-10-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 51,
+      "remainingStock": 51,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211706420"
+    },
+    {
+      "date": "2026-10-15",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-10-15",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-10-15-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 34,
+      "remainingStock": 34,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211739188"
+    },
+    {
+      "date": "2026-10-15",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-10-15",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-10-15-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 34,
+      "remainingStock": 34,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211771956"
+    },
+    {
+      "date": "2026-10-15",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-10-15",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-10-15-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 34,
+      "remainingStock": 34,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211804724"
+    },
+    {
+      "date": "2026-10-15",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-10-15",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-10-15-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 34,
+      "remainingStock": 34,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211837492"
+    },
+    {
+      "date": "2026-10-17",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-10-17",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-10-17-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211870260"
+    },
+    {
+      "date": "2026-10-17",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-10-17",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-10-17-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211903028"
+    },
+    {
+      "date": "2026-10-17",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-10-17",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-10-17-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211935796"
+    },
+    {
+      "date": "2026-10-17",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-10-17",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-10-17-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035211968564"
+    },
+    {
+      "date": "2026-10-22",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-10-22",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-10-22-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 47,
+      "remainingStock": 47,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212001332"
+    },
+    {
+      "date": "2026-10-22",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-10-22",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-10-22-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 47,
+      "remainingStock": 47,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212034100"
+    },
+    {
+      "date": "2026-10-22",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-10-22",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-10-22-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 47,
+      "remainingStock": 47,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212066868"
+    },
+    {
+      "date": "2026-10-22",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-10-22",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-10-22-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 47,
+      "remainingStock": 47,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212099636"
+    },
+    {
+      "date": "2026-10-24",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-10-24",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-10-24-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 45,
+      "remainingStock": 45,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212132404"
+    },
+    {
+      "date": "2026-10-24",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-10-24",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-10-24-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 45,
+      "remainingStock": 45,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212165172"
+    },
+    {
+      "date": "2026-10-24",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-10-24",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-10-24-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 45,
+      "remainingStock": 45,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212197940"
+    },
+    {
+      "date": "2026-10-24",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-10-24",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-10-24-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 45,
+      "remainingStock": 45,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212230708"
+    },
+    {
+      "date": "2026-10-31",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-10-31",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-10-31-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212263476"
+    },
+    {
+      "date": "2026-10-31",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-10-31",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-10-31-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212296244"
+    },
+    {
+      "date": "2026-10-31",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-10-31",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-10-31-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212329012"
+    },
+    {
+      "date": "2026-10-31",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-10-31",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-10-31-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212361780"
+    },
+    {
+      "date": "2026-11-07",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-11-07",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-11-07-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212394548"
+    },
+    {
+      "date": "2026-11-07",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-11-07",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-11-07-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212427316"
+    },
+    {
+      "date": "2026-11-07",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-11-07",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-11-07-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212460084"
+    },
+    {
+      "date": "2026-11-07",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-11-07",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-11-07-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212492852"
+    },
+    {
+      "date": "2026-11-14",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-11-14",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-11-14-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212525620"
+    },
+    {
+      "date": "2026-11-14",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-11-14",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-11-14-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212558388"
+    },
+    {
+      "date": "2026-11-14",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-11-14",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-11-14-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212591156"
+    },
+    {
+      "date": "2026-11-14",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-11-14",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-11-14-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212623924"
+    },
+    {
+      "date": "2026-11-21",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-11-21",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-11-21-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212656692"
+    },
+    {
+      "date": "2026-11-21",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-11-21",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-11-21-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212689460"
+    },
+    {
+      "date": "2026-11-21",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-11-21",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-11-21-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212722228"
+    },
+    {
+      "date": "2026-11-21",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-11-21",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-11-21-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212754996"
+    },
+    {
+      "date": "2026-11-28",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-11-28",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-11-28-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212787764"
+    },
+    {
+      "date": "2026-11-28",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-11-28",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-11-28-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212820532"
+    },
+    {
+      "date": "2026-11-28",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-11-28",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-11-28-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212853300"
+    },
+    {
+      "date": "2026-11-28",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-11-28",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-11-28-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212886068"
+    },
+    {
+      "date": "2026-12-05",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-12-05",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-12-05-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212918836"
+    },
+    {
+      "date": "2026-12-05",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-12-05",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-12-05-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212951604"
+    },
+    {
+      "date": "2026-12-05",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-12-05",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-12-05-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035212984372"
+    },
+    {
+      "date": "2026-12-05",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-12-05",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-12-05-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035213017140"
+    },
+    {
+      "date": "2026-12-12",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-12-12",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-12-12-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035213049908"
+    },
+    {
+      "date": "2026-12-12",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-12-12",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-12-12-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035213082676"
+    },
+    {
+      "date": "2026-12-12",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-12-12",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-12-12-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035213115444"
+    },
+    {
+      "date": "2026-12-12",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-12-12",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-12-12-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035213148212"
+    },
+    {
+      "date": "2026-12-19",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-12-19",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-12-19-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035213180980"
+    },
+    {
+      "date": "2026-12-19",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-12-19",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-12-19-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035213213748"
+    },
+    {
+      "date": "2026-12-19",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-12-19",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-12-19-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035213246516"
+    },
+    {
+      "date": "2026-12-19",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-12-19",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-12-19-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 53,
+      "remainingStock": 53,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035213279284"
+    },
+    {
+      "date": "2026-12-26",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-12-26",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00007587-2026-12-26-3-SINGLE-ROOM",
+      "price": "1211.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035213312052"
+    },
+    {
+      "date": "2026-12-26",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-12-26",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00007587-2026-12-26-4-DOUBLE-ROOM",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035213344820"
+    },
+    {
+      "date": "2026-12-26",
+      "priceType": 7,
+      "label": "Senior",
+      "optionValues": {
+        "Departure Date": "2026-12-26",
+        "Rate Type": "Senior"
+      },
+      "sku": "P00007587-2026-12-26-7-SENIOR",
+      "price": "791.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035213377588"
+    },
+    {
+      "date": "2026-12-26",
+      "priceType": 2,
+      "label": "Child",
+      "optionValues": {
+        "Departure Date": "2026-12-26",
+        "Rate Type": "Child"
+      },
+      "sku": "P00007587-2026-12-26-2-CHILD",
+      "price": "665.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035213410356"
+    }
+  ],
+  "addons": [
+    {
+      "code": "S00008496",
+      "name": "Paid Chinese Nighttime Airport Drop-off (within 7 days before departure)",
+      "description": "Paid Chinese nighttime drop-off  time: 21:01-05:59, price is USD$115/ People/trip. A minimum order of 2 people is required. If only 1 person signs up, the price for 2 people will be charged. Please choose double when placing the order.",
+      "amount": 115,
+      "price": "115.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00007587-ADDON-S00008496",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035213508660"
+    },
+    {
+      "code": "S00008495",
+      "name": "Paid Chinese Daytime Airport Drop-off (within 7 days before departure)",
+      "description": "Paid Chinese daytime drop-off  time: 06:00-21:00, price is USD$85/ People/trip. A minimum order of 2 people is required. If only 1 person signs up, the price for 2 people will be charged. Please choose double when placing the order.",
+      "amount": 85,
+      "price": "85.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00007587-ADDON-S00008495",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035213541428"
+    },
+    {
+      "code": "S00008494",
+      "name": "Paid Chinese Nighttime Airport Pickup Service (within 7 days before departure)",
+      "description": "Paid Chinese nighttime pick-up time: 22:01-07:59, price is USD$115/ People/trip. A minimum order of 2 people is required. If only 1 person signs up, the price for 2 people will be charged. Please choose double when placing the order.",
+      "amount": 115,
+      "price": "115.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00007587-ADDON-S00008494",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035213574196"
+    },
+    {
+      "code": "S00008493",
+      "name": "Paid Chinese Daytime Airport Pickup Service (within 7 days before departure)",
+      "description": "Paid Chinese daytime pick-up time: 08:00-22:00, price is USD$85/ People/trip. A minimum order of 2 people is required. If only 1 person signs up, the price for 2 people will be charged. Please choose double when placing the order.",
+      "amount": 85,
+      "price": "85.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00007587-ADDON-S00008493",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035213606964"
+    },
+    {
+      "code": "S00007971",
+      "name": "Additional Paris Charles de Gaulle Airport (CDG) Paid Chinese airport transfer service",
+      "description": "Paid airport pick-up time: We provide airport pick-up services between 08:00-22:00 based on the actual arrival time of the guest's flight (guests who need to wait at the airport for nearby arrivals). A minimum order of 2 people is required. If only 1 person signs up, the price for 2 people will be charged. Please choose double when placing the order.",
+      "amount": 65,
+      "price": "65.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00007587-ADDON-S00007971",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035213639732"
+    },
+    {
+      "code": "S00008003",
+      "name": "Additional Paris Charles de Gaulle Airport (CDG) Paid Chinese airport Drop-Off service",
+      "description": "Paid drop off time: Between 06:00-21:00, a free Chinese drop off service will be provided based on the actual departure flight time of the guest. The price is per person, and a minimum of 2 people are required to book. If only 1 person signs up, 2 people will need to pay the price. Please choose double when placing your order.",
+      "amount": 65,
+      "price": "65.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00007587-ADDON-S00008003",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035213672500"
+    },
+    {
+      "code": "S00008005",
+      "name": "Add booking for paid Chinese driver and guide pick-up service at Paris Charles de Gaulle Airport (CDG)",
+      "description": "Paid Chinese pick-up time: 22:01-07:59, price is USD$85/ People/trip. A minimum order of 2 people is required. If only 1 person signs up, the price for 2 people will be charged. Please choose double when placing the order.",
+      "amount": 85,
+      "price": "85.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00007587-ADDON-S00008005",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035213705268"
+    },
+    {
+      "code": "S00008007",
+      "name": "Paris Charles de Gaulle Airport (CDG) paid Chinese language driver and airport guide service",
+      "description": "Paid Chinese delivery time: 21:01-05:59, price is USD$85/ People/trip. A minimum order of 2 people is required. If only 1 person signs up, the price for 2 people will be charged. Please choose double when placing the order.",
+      "amount": 85,
+      "price": "85.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00007587-ADDON-S00008007",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035213738036"
+    },
+    {
+      "code": "S00007967",
+      "name": "Art and Palace Tour - Louvre+Chateau de Versailles Ticket (excluding explanations)",
+      "description": "",
+      "amount": 100,
+      "price": "100.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00007587-ADDON-S00007967",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035213770804"
+    },
+    {
+      "code": "S00007934",
+      "name": "Additional Hotel in Europe",
+      "description": "priced at 1 room per night",
+      "amount": 0,
+      "price": "0.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": false,
+      "sku": "P00007587-ADDON-S00007934",
+      "shopifyVariantId": null
+    },
+    {
+      "code": "S00007897",
+      "name": "Additional Hotel in Europe",
+      "description": "priced at 1 room per night",
+      "amount": 0,
+      "price": "0.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": false,
+      "sku": "P00007587-ADDON-S00007897",
+      "shopifyVariantId": null
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://dimg04.c-ctrip.com/target/02S0t12000r2lhx2cC21F.jpg",
+      "shopifyMediaId": "gid://shopify/MediaImage/28796647637044",
+      "shopifyFileId": null,
+      "position": 1,
+      "role": "featured",
+      "alt": "[Red]  7 Day 6 Nights Tour Through Paris, Versailles, Reims, Luxembourg, Trier,  Frankfurt, Bonn, Cologne, Amsterdam, and Brussels 1"
+    }
+  ],
+  "metaobjects": {
+    "tour_content": [
+      {
+        "id": "gid://shopify/Metaobject/352290504756",
+        "handle": "p00007587-en-content"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291651636",
+        "handle": "p00007587-zh-cn-content"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292765748",
+        "handle": "p00007587-zh-tw-content"
+      }
+    ],
+    "tour_highlight": [
+      {
+        "id": "gid://shopify/Metaobject/352290537524",
+        "handle": "p00007587-en-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352290570292",
+        "handle": "p00007587-en-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352290603060",
+        "handle": "p00007587-en-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352290635828",
+        "handle": "p00007587-en-highlight-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352290668596",
+        "handle": "p00007587-en-highlight-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352290701364",
+        "handle": "p00007587-en-highlight-6"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352290734132",
+        "handle": "p00007587-en-highlight-7"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291684404",
+        "handle": "p00007587-zh-cn-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291717172",
+        "handle": "p00007587-zh-cn-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291749940",
+        "handle": "p00007587-zh-cn-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291782708",
+        "handle": "p00007587-zh-cn-highlight-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291815476",
+        "handle": "p00007587-zh-cn-highlight-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291848244",
+        "handle": "p00007587-zh-cn-highlight-6"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291881012",
+        "handle": "p00007587-zh-cn-highlight-7"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292798516",
+        "handle": "p00007587-zh-tw-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292831284",
+        "handle": "p00007587-zh-tw-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292864052",
+        "handle": "p00007587-zh-tw-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292896820",
+        "handle": "p00007587-zh-tw-highlight-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292929588",
+        "handle": "p00007587-zh-tw-highlight-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292962356",
+        "handle": "p00007587-zh-tw-highlight-6"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292995124",
+        "handle": "p00007587-zh-tw-highlight-7"
+      }
+    ],
+    "tour_itinerary_day": [
+      {
+        "id": "gid://shopify/Metaobject/352290766900",
+        "handle": "p00007587-en-day-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352290799668",
+        "handle": "p00007587-en-day-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352290832436",
+        "handle": "p00007587-en-day-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352290865204",
+        "handle": "p00007587-en-day-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352290897972",
+        "handle": "p00007587-en-day-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352290930740",
+        "handle": "p00007587-en-day-6"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352290963508",
+        "handle": "p00007587-en-day-7"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291913780",
+        "handle": "p00007587-zh-cn-day-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291946548",
+        "handle": "p00007587-zh-cn-day-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291979316",
+        "handle": "p00007587-zh-cn-day-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292012084",
+        "handle": "p00007587-zh-cn-day-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292044852",
+        "handle": "p00007587-zh-cn-day-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292077620",
+        "handle": "p00007587-zh-cn-day-6"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292110388",
+        "handle": "p00007587-zh-cn-day-7"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293027892",
+        "handle": "p00007587-zh-tw-day-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293060660",
+        "handle": "p00007587-zh-tw-day-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293093428",
+        "handle": "p00007587-zh-tw-day-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293126196",
+        "handle": "p00007587-zh-tw-day-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293158964",
+        "handle": "p00007587-zh-tw-day-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293191732",
+        "handle": "p00007587-zh-tw-day-6"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293224500",
+        "handle": "p00007587-zh-tw-day-7"
+      }
+    ],
+    "tour_cost_section": [
+      {
+        "id": "gid://shopify/Metaobject/352290996276",
+        "handle": "p00007587-en-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291029044",
+        "handle": "p00007587-en-cost-excludes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292143156",
+        "handle": "p00007587-zh-cn-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292175924",
+        "handle": "p00007587-zh-cn-cost-excludes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293257268",
+        "handle": "p00007587-zh-tw-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293290036",
+        "handle": "p00007587-zh-tw-cost-excludes"
+      }
+    ],
+    "tour_policy_notice": [
+      {
+        "id": "gid://shopify/Metaobject/352291061812",
+        "handle": "p00007587-en-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291094580",
+        "handle": "p00007587-en-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291127348",
+        "handle": "p00007587-en-notice-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292208692",
+        "handle": "p00007587-zh-cn-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292241460",
+        "handle": "p00007587-zh-cn-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292274228",
+        "handle": "p00007587-zh-cn-notice-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293322804",
+        "handle": "p00007587-zh-tw-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293355572",
+        "handle": "p00007587-zh-tw-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293388340",
+        "handle": "p00007587-zh-tw-notice-3"
+      }
+    ],
+    "tour_pickup_dropoff": [
+      {
+        "id": "gid://shopify/Metaobject/352291160116",
+        "handle": "p00007587-en-pickup-anm00000364"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291192884",
+        "handle": "p00007587-en-dropoff-anm00001750"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291225652",
+        "handle": "p00007587-en-dropoff-anm00001829"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292306996",
+        "handle": "p00007587-zh-cn-pickup-anm00000364"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292339764",
+        "handle": "p00007587-zh-cn-dropoff-anm00001750"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292372532",
+        "handle": "p00007587-zh-cn-dropoff-anm00001829"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293421108",
+        "handle": "p00007587-zh-tw-pickup-anm00000364"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293453876",
+        "handle": "p00007587-zh-tw-dropoff-anm00001750"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293486644",
+        "handle": "p00007587-zh-tw-dropoff-anm00001829"
+      }
+    ],
+    "tour_addon": [
+      {
+        "id": "gid://shopify/Metaobject/352291291188",
+        "handle": "p00007587-en-addon-s00008496"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291323956",
+        "handle": "p00007587-en-addon-s00008495"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291356724",
+        "handle": "p00007587-en-addon-s00008494"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291389492",
+        "handle": "p00007587-en-addon-s00008493"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291422260",
+        "handle": "p00007587-en-addon-s00007971"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291455028",
+        "handle": "p00007587-en-addon-s00008003"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291487796",
+        "handle": "p00007587-en-addon-s00008005"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291520564",
+        "handle": "p00007587-en-addon-s00008007"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291553332",
+        "handle": "p00007587-en-addon-s00007967"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291586100",
+        "handle": "p00007587-en-addon-s00007934"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352291618868",
+        "handle": "p00007587-en-addon-s00007897"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292405300",
+        "handle": "p00007587-zh-cn-addon-s00008496"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292438068",
+        "handle": "p00007587-zh-cn-addon-s00008495"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292470836",
+        "handle": "p00007587-zh-cn-addon-s00008494"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292503604",
+        "handle": "p00007587-zh-cn-addon-s00008493"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292536372",
+        "handle": "p00007587-zh-cn-addon-s00007971"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292569140",
+        "handle": "p00007587-zh-cn-addon-s00008003"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292601908",
+        "handle": "p00007587-zh-cn-addon-s00008005"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292634676",
+        "handle": "p00007587-zh-cn-addon-s00008007"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292667444",
+        "handle": "p00007587-zh-cn-addon-s00007967"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292700212",
+        "handle": "p00007587-zh-cn-addon-s00007934"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352292732980",
+        "handle": "p00007587-zh-cn-addon-s00007897"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293519412",
+        "handle": "p00007587-zh-tw-addon-s00008496"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293552180",
+        "handle": "p00007587-zh-tw-addon-s00008495"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293584948",
+        "handle": "p00007587-zh-tw-addon-s00008494"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293617716",
+        "handle": "p00007587-zh-tw-addon-s00008493"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293650484",
+        "handle": "p00007587-zh-tw-addon-s00007971"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293683252",
+        "handle": "p00007587-zh-tw-addon-s00008003"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293716020",
+        "handle": "p00007587-zh-tw-addon-s00008005"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293748788",
+        "handle": "p00007587-zh-tw-addon-s00008007"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293781556",
+        "handle": "p00007587-zh-tw-addon-s00007967"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293814324",
+        "handle": "p00007587-zh-tw-addon-s00007934"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293847092",
+        "handle": "p00007587-zh-tw-addon-s00007897"
+      }
+    ],
+    "tour_departure": [
+      {
+        "id": "gid://shopify/Metaobject/352293879860",
+        "handle": "p00007587-departure-2026-07-16"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293912628",
+        "handle": "p00007587-departure-2026-07-18"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293945396",
+        "handle": "p00007587-departure-2026-07-23"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352293978164",
+        "handle": "p00007587-departure-2026-07-25"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294010932",
+        "handle": "p00007587-departure-2026-07-30"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294043700",
+        "handle": "p00007587-departure-2026-08-01"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294076468",
+        "handle": "p00007587-departure-2026-08-06"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294109236",
+        "handle": "p00007587-departure-2026-08-08"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294142004",
+        "handle": "p00007587-departure-2026-08-13"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294174772",
+        "handle": "p00007587-departure-2026-08-15"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294207540",
+        "handle": "p00007587-departure-2026-08-20"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294240308",
+        "handle": "p00007587-departure-2026-08-22"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294273076",
+        "handle": "p00007587-departure-2026-08-27"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294305844",
+        "handle": "p00007587-departure-2026-08-29"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294338612",
+        "handle": "p00007587-departure-2026-09-03"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294371380",
+        "handle": "p00007587-departure-2026-09-05"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294404148",
+        "handle": "p00007587-departure-2026-09-10"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294436916",
+        "handle": "p00007587-departure-2026-09-12"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294469684",
+        "handle": "p00007587-departure-2026-09-17"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294502452",
+        "handle": "p00007587-departure-2026-09-19"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294535220",
+        "handle": "p00007587-departure-2026-09-24"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294567988",
+        "handle": "p00007587-departure-2026-09-26"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294600756",
+        "handle": "p00007587-departure-2026-10-01"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294633524",
+        "handle": "p00007587-departure-2026-10-03"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294666292",
+        "handle": "p00007587-departure-2026-10-08"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294699060",
+        "handle": "p00007587-departure-2026-10-10"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294731828",
+        "handle": "p00007587-departure-2026-10-15"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294764596",
+        "handle": "p00007587-departure-2026-10-17"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294797364",
+        "handle": "p00007587-departure-2026-10-22"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294830132",
+        "handle": "p00007587-departure-2026-10-24"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294862900",
+        "handle": "p00007587-departure-2026-10-31"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294895668",
+        "handle": "p00007587-departure-2026-11-07"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294928436",
+        "handle": "p00007587-departure-2026-11-14"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294961204",
+        "handle": "p00007587-departure-2026-11-21"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352294993972",
+        "handle": "p00007587-departure-2026-11-28"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295026740",
+        "handle": "p00007587-departure-2026-12-05"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295059508",
+        "handle": "p00007587-departure-2026-12-12"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295092276",
+        "handle": "p00007587-departure-2026-12-19"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295125044",
+        "handle": "p00007587-departure-2026-12-26"
+      }
+    ]
+  },
+  "publication": {
+    "id": "gid://shopify/Publication/197740789812",
+    "name": "Travel Website Development"
+  },
+  "warnings": [],
+  "metaobjectDefinitions": {
+    "tour_content": "gid://shopify/MetaobjectDefinition/18676711476",
+    "tour_highlight": "gid://shopify/MetaobjectDefinition/18675433524",
+    "tour_itinerary_day": "gid://shopify/MetaobjectDefinition/18675466292",
+    "tour_departure": "gid://shopify/MetaobjectDefinition/18675499060",
+    "tour_cost_section": "gid://shopify/MetaobjectDefinition/18675531828",
+    "tour_policy_notice": "gid://shopify/MetaobjectDefinition/18675564596",
+    "tour_pickup_dropoff": "gid://shopify/MetaobjectDefinition/18675597364",
+    "tour_addon": "gid://shopify/MetaobjectDefinition/18675630132"
+  },
+  "productReferenceMetafieldDefinitions": {
+    "content": "gid://shopify/MetafieldDefinition/217881935924",
+    "highlight": "gid://shopify/MetafieldDefinition/217872597044",
+    "itinerary_day": "gid://shopify/MetafieldDefinition/217872629812",
+    "departure": "gid://shopify/MetafieldDefinition/217872662580",
+    "cost_section": "gid://shopify/MetafieldDefinition/217872695348",
+    "policy_notice": "gid://shopify/MetafieldDefinition/217872728116",
+    "pickup_dropoff": "gid://shopify/MetafieldDefinition/217872760884",
+    "addon": "gid://shopify/MetafieldDefinition/217872793652"
+  }
+}

@@ -42,6 +42,8 @@ Options:
   --publish <handle>      Publish to publication whose name/handle includes this value, e.g. headless.
   --list-publications     Print available Shopify publication names/IDs and exit.
   --status <status>       Shopify product status. Defaults to DRAFT, or ACTIVE when publishing.
+  --overwrite-from-toursbms
+                         Replace editable Shopify product/content fields from ToursBMS. Defaults to preserving them on reruns.
   --help                  Show this help.
 `)
 }
@@ -61,6 +63,7 @@ function parseArgs(argv) {
     publish: null,
     listPublications: false,
     status: null,
+    overwriteFromToursbms: false,
   }
 
   for (let i = 0; i < argv.length; i += 1) {
@@ -83,6 +86,7 @@ function parseArgs(argv) {
     } else if (arg === '--publish') args.publish = argv[++i]
     else if (arg === '--list-publications') args.listPublications = true
     else if (arg === '--status') args.status = String(argv[++i] || '').toUpperCase()
+    else if (arg === '--overwrite-from-toursbms') args.overwriteFromToursbms = true
     else if (!arg.startsWith('--')) args.ids.push(...parseIds(arg))
     else throw new Error(`Unknown option: ${arg}`)
   }
@@ -289,6 +293,20 @@ query ProductVariants($id: ID!, $after: String) {
   }
 }`
 
+const EXISTING_PRODUCT_QUERY = `#graphql
+query ExistingProduct($id: ID!) {
+  product(id: $id) {
+    id
+    title
+    handle
+    descriptionHtml
+    vendor
+    productType
+    tags
+    status
+  }
+}`
+
 const METAFIELDS_SET_MUTATION = `#graphql
 mutation MetafieldsSet($metafields: [MetafieldsSetInput!]!) {
   metafieldsSet(metafields: $metafields) {
@@ -429,6 +447,16 @@ function toAddonProductSetInput(payload) {
   const variants = payload.variants.length > 0
     ? payload.variants
     : [{ name: 'No chargeable add-ons', price: '0.00', sku: `${payload.handle}-NONE`.toUpperCase(), code: 'NONE' }]
+  const nameCounts = variants.reduce((counts, addon) => {
+    const name = addon.name || addon.code
+    counts.set(name, (counts.get(name) || 0) + 1)
+    return counts
+  }, new Map())
+  const variantsWithOptionNames = variants.map((addon) => {
+    const name = addon.name || addon.code
+    const optionName = nameCounts.get(name) > 1 ? `${name} (${addon.code})` : name
+    return { ...addon, optionName }
+  })
   return {
     title: payload.title,
     handle: payload.handle,
@@ -438,13 +466,13 @@ function toAddonProductSetInput(payload) {
     tags: payload.tags,
     status: payload.status,
     productOptions: [
-      { name: 'Add-on', position: 1, values: variants.map((addon) => ({ name: addon.name })) },
+      { name: 'Add-on', position: 1, values: variantsWithOptionNames.map((addon) => ({ name: addon.optionName })) },
     ],
-    variants: variants.map((addon) => ({
+    variants: variantsWithOptionNames.map((addon) => ({
       sku: addon.sku,
       price: moneyValue(addon.price),
       inventoryPolicy: 'CONTINUE',
-      optionValues: [{ optionName: 'Add-on', name: addon.name }],
+      optionValues: [{ optionName: 'Add-on', name: addon.optionName }],
       metafields: [
         { namespace: 'toursbms', key: 'addon_code', type: 'single_line_text_field', value: addon.code },
       ],
@@ -483,6 +511,28 @@ async function fetchAllProductVariants(client, productId) {
   } while (after)
 
   return variants
+}
+
+async function fetchExistingProduct(client, productId) {
+  if (!productId) return null
+  const data = await client.request(EXISTING_PRODUCT_QUERY, { id: productId })
+  return data.product || null
+}
+
+function preserveEditableProductFields(payload, existingProduct, status) {
+  if (!existingProduct?.id) return payload
+  return {
+    ...payload,
+    title: existingProduct.title || payload.title,
+    handle: existingProduct.handle || payload.handle,
+    descriptionHtml: existingProduct.descriptionHtml || payload.descriptionHtml,
+    vendor: existingProduct.vendor || payload.vendor,
+    productType: existingProduct.productType || payload.productType,
+    tags: Array.isArray(existingProduct.tags) && existingProduct.tags.length > 0
+      ? [...new Set([...existingProduct.tags, ...payload.tags.filter((tag) => tag.startsWith('code:') || tag.startsWith('group:') || tag === 'tour' || tag === 'toursbms')])]
+      : payload.tags,
+    status,
+  }
 }
 
 async function ensureMetaobjectDefinitions(client) {
@@ -675,13 +725,20 @@ function mergeAddonVariantIds(manifest, addonVariants) {
 
 async function syncOneProduct(client, jsonByLocale, existingManifest, args) {
   const baseJson = jsonByLocale.en || Object.values(jsonByLocale)[0]
-  const productPayload = buildProductPayload(baseJson, args.status)
+  let productPayload = buildProductPayload(baseJson, args.status)
   const variants = buildTourVariants(baseJson)
   if (variants.length > SHOPIFY_VARIANT_LIMIT) {
     throw new Error(`${getProductCode(baseJson)} has ${variants.length} date/rate variants, above Shopify limit ${SHOPIFY_VARIANT_LIMIT}`)
   }
 
   const manifest = buildManifestSkeleton({ jsonByLocale, existingManifest, status: args.status })
+  const preservingManualEdits = !args.overwriteFromToursbms && Boolean(existingManifest?.shopifyProductId)
+  if (preservingManualEdits) {
+    const existingProduct = await fetchExistingProduct(client, existingManifest.shopifyProductId)
+    productPayload = preserveEditableProductFields(productPayload, existingProduct, args.status)
+    manifest.warnings ||= []
+    manifest.warnings.push('Preserved existing Shopify editable product/content fields. Use --overwrite-from-toursbms to replace them from ToursBMS.')
+  }
   const definitionIds = await ensureMetaobjectDefinitions(client)
   const productReferenceDefinitionIds = await ensureProductReferenceMetafieldDefinitions(client, definitionIds)
   const product = await productSet(client, toProductSetInput(productPayload, variants), `Sync product ${productPayload.handle}`)
@@ -698,12 +755,18 @@ async function syncOneProduct(client, jsonByLocale, existingManifest, args) {
   const images = buildProductImages(baseJson, manifest.images || [])
   manifest.images = await attachProductMedia(client, product.id, images)
 
-  const entries = buildMetaobjectEntries(jsonByLocale, manifest)
-  const metaobjects = await upsertMetaobjects(client, entries)
-  manifest.metaobjects = metaobjects
-  manifest.metaobjectDefinitions = definitionIds
-  manifest.productReferenceMetafieldDefinitions = productReferenceDefinitionIds
-  await setProductReferences(client, product.id, metaobjects)
+  if (preservingManualEdits && existingManifest?.metaobjects) {
+    manifest.metaobjects = existingManifest.metaobjects
+    manifest.metaobjectDefinitions = definitionIds
+    manifest.productReferenceMetafieldDefinitions = productReferenceDefinitionIds
+  } else {
+    const entries = buildMetaobjectEntries(jsonByLocale, manifest)
+    const metaobjects = await upsertMetaobjects(client, entries)
+    manifest.metaobjects = metaobjects
+    manifest.metaobjectDefinitions = definitionIds
+    manifest.productReferenceMetafieldDefinitions = productReferenceDefinitionIds
+    await setProductReferences(client, product.id, metaobjects)
+  }
 
   const publication = await publishProduct(client, product.id, args.publish)
   manifest.publication = publication ? { id: publication.id, name: publication.name } : null

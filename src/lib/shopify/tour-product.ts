@@ -8,6 +8,7 @@ import type {
   TourPickupPoint,
   TourPrice,
 } from '@/lib/toursbms/types'
+import { SHOPIFY_CACHE_REVALIDATE_SECONDS, SHOPIFY_CACHE_TAGS } from './cache'
 
 const TOUR_PRODUCT_QUERY = `#graphql
   query TourProduct($id: ID!, $variantsAfter: String) {
@@ -162,7 +163,14 @@ type MetaobjectNode = {
 }
 
 type ShopifyClientLike = {
-  request<T>(query: string, options?: { variables?: Record<string, unknown> }): Promise<{ data?: T; errors?: unknown }>
+  request<T>(
+    query: string,
+    options?: {
+      variables?: Record<string, unknown>
+      cache?: RequestCache
+      next?: { revalidate?: number | false; tags?: string[] }
+    },
+  ): Promise<{ data?: T; errors?: unknown }>
 }
 
 type SyncManifest = {
@@ -397,11 +405,10 @@ function durationLabel(days: number, nights: number) {
 export async function getShopifyTourProductByHandle(
   client: ShopifyClientLike,
   manifest: SyncManifest,
-  requestedHandle: string,
+  _requestedHandle: string,
   locale: string,
 ): Promise<TourDetailData | null> {
   if (!manifest.shopifyProductId) return null
-  const handle = manifest.handle || requestedHandle
   let after: string | null = null
   let product: ShopifyTourProduct | null = null
   const variants: ShopifyVariant[] = []
@@ -409,6 +416,14 @@ export async function getShopifyTourProductByHandle(
   do {
     const response: { data?: ShopifyTourProductResponse; errors?: unknown } = await client.request<ShopifyTourProductResponse>(TOUR_PRODUCT_QUERY, {
       variables: { id: manifest.shopifyProductId, variantsAfter: after },
+      cache: 'force-cache',
+      next: {
+        revalidate: SHOPIFY_CACHE_REVALIDATE_SECONDS,
+        tags: [
+          SHOPIFY_CACHE_TAGS.tourProducts,
+          `${SHOPIFY_CACHE_TAGS.tourProducts}:${manifest.shopifyProductId}`,
+        ],
+      },
     })
     const pageProduct = response.data?.product
     if (response.errors || !pageProduct) return null

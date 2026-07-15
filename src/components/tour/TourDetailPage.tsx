@@ -1031,17 +1031,27 @@ function ItineraryDay({ day }: { day: TourItineraryDay }) {
         ) : null}
         {day.images.length > 0 ? (
           <div className="mt-4 grid gap-3 sm:grid-cols-2">
-            {day.images.map((image) => (
-              <div key={image.src} className="relative aspect-[16/9] overflow-hidden rounded">
-                <Image
-                  src={image.src}
-                  alt={image.alt || day.title}
-                  fill
-                  sizes="(min-width: 768px) 360px, 92vw"
-                  className="object-cover"
-                />
-              </div>
-            ))}
+            {day.images.map((image) => {
+              const caption = image.caption || image.alt
+              return (
+                <figure key={image.src} className="overflow-hidden rounded bg-white shadow-sm">
+                  <div className="relative aspect-[16/9]">
+                    <Image
+                      src={image.src}
+                      alt={image.alt || image.caption || day.title}
+                      fill
+                      sizes="(min-width: 768px) 360px, 92vw"
+                      className="object-cover"
+                    />
+                  </div>
+                  {caption ? (
+                    <figcaption className="px-3 py-2 text-[13px] leading-5 text-[#666]">
+                      {caption}
+                    </figcaption>
+                  ) : null}
+                </figure>
+              )
+            })}
           </div>
         ) : null}
         {day.hotel ? (

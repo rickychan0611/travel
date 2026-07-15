@@ -1,0 +1,211 @@
+{
+  "productCode": "P00003810",
+  "handle": "p00003810-gold-washington-d-c-cherry-blossom-2-day-tour-from-boston",
+  "shopifyProductId": "gid://shopify/Product/8881385930804",
+  "shopifyAddonProductId": "gid://shopify/Product/8881385996340",
+  "status": "ACTIVE",
+  "locales": [
+    "en",
+    "zh-CN",
+    "zh-TW"
+  ],
+  "syncedAt": "2026-07-15T04:28:12.534Z",
+  "variants": [],
+  "addons": [],
+  "images": [
+    {
+      "sourceUrl": "https://dimg04.c-ctrip.com/target/02S4s12000jcghde7FDA7.jpg",
+      "shopifyMediaId": "gid://shopify/MediaImage/28796658188340",
+      "shopifyFileId": null,
+      "position": 1,
+      "role": "featured",
+      "alt": "[Gold] Washington D.C. Cherry Blossom 2-Day Tour from Boston 1"
+    }
+  ],
+  "metaobjects": {
+    "tour_content": [
+      {
+        "id": "gid://shopify/Metaobject/352295157812",
+        "handle": "p00003810-en-content"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295551028",
+        "handle": "p00003810-zh-cn-content"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295944244",
+        "handle": "p00003810-zh-tw-content"
+      }
+    ],
+    "tour_highlight": [
+      {
+        "id": "gid://shopify/Metaobject/352295190580",
+        "handle": "p00003810-en-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295223348",
+        "handle": "p00003810-en-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295583796",
+        "handle": "p00003810-zh-cn-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295616564",
+        "handle": "p00003810-zh-cn-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295977012",
+        "handle": "p00003810-zh-tw-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352296009780",
+        "handle": "p00003810-zh-tw-highlight-2"
+      }
+    ],
+    "tour_itinerary_day": [
+      {
+        "id": "gid://shopify/Metaobject/352295256116",
+        "handle": "p00003810-en-day-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295288884",
+        "handle": "p00003810-en-day-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295649332",
+        "handle": "p00003810-zh-cn-day-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295682100",
+        "handle": "p00003810-zh-cn-day-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352296042548",
+        "handle": "p00003810-zh-tw-day-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352296075316",
+        "handle": "p00003810-zh-tw-day-2"
+      }
+    ],
+    "tour_cost_section": [
+      {
+        "id": "gid://shopify/Metaobject/352295321652",
+        "handle": "p00003810-en-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295354420",
+        "handle": "p00003810-en-cost-excludes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295714868",
+        "handle": "p00003810-zh-cn-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295747636",
+        "handle": "p00003810-zh-cn-cost-excludes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352296108084",
+        "handle": "p00003810-zh-tw-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352296140852",
+        "handle": "p00003810-zh-tw-cost-excludes"
+      }
+    ],
+    "tour_policy_notice": [
+      {
+        "id": "gid://shopify/Metaobject/352295387188",
+        "handle": "p00003810-en-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295419956",
+        "handle": "p00003810-en-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295452724",
+        "handle": "p00003810-en-notice-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295780404",
+        "handle": "p00003810-zh-cn-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295813172",
+        "handle": "p00003810-zh-cn-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295845940",
+        "handle": "p00003810-zh-cn-notice-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352296173620",
+        "handle": "p00003810-zh-tw-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352296206388",
+        "handle": "p00003810-zh-tw-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352296239156",
+        "handle": "p00003810-zh-tw-notice-3"
+      }
+    ],
+    "tour_pickup_dropoff": [
+      {
+        "id": "gid://shopify/Metaobject/352295485492",
+        "handle": "p00003810-en-pickup-anm00001256"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295518260",
+        "handle": "p00003810-en-dropoff-anm00001673"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295878708",
+        "handle": "p00003810-zh-cn-pickup-anm00001256"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352295911476",
+        "handle": "p00003810-zh-cn-dropoff-anm00001673"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352296271924",
+        "handle": "p00003810-zh-tw-pickup-anm00001256"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352296304692",
+        "handle": "p00003810-zh-tw-dropoff-anm00001673"
+      }
+    ]
+  },
+  "publication": {
+    "id": "gid://shopify/Publication/197740789812",
+    "name": "Travel Website Development"
+  },
+  "warnings": [
+    "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants.",
+    "Skipped optional add-ons because the product has no bookable departure-price variants."
+  ],
+  "metaobjectDefinitions": {
+    "tour_content": "gid://shopify/MetaobjectDefinition/18676711476",
+    "tour_highlight": "gid://shopify/MetaobjectDefinition/18675433524",
+    "tour_itinerary_day": "gid://shopify/MetaobjectDefinition/18675466292",
+    "tour_departure": "gid://shopify/MetaobjectDefinition/18675499060",
+    "tour_cost_section": "gid://shopify/MetaobjectDefinition/18675531828",
+    "tour_policy_notice": "gid://shopify/MetaobjectDefinition/18675564596",
+    "tour_pickup_dropoff": "gid://shopify/MetaobjectDefinition/18675597364",
+    "tour_addon": "gid://shopify/MetaobjectDefinition/18675630132"
+  },
+  "productReferenceMetafieldDefinitions": {
+    "content": "gid://shopify/MetafieldDefinition/217881935924",
+    "highlight": "gid://shopify/MetafieldDefinition/217872597044",
+    "itinerary_day": "gid://shopify/MetafieldDefinition/217872629812",
+    "departure": "gid://shopify/MetafieldDefinition/217872662580",
+    "cost_section": "gid://shopify/MetafieldDefinition/217872695348",
+    "policy_notice": "gid://shopify/MetafieldDefinition/217872728116",
+    "pickup_dropoff": "gid://shopify/MetafieldDefinition/217872760884",
+    "addon": "gid://shopify/MetafieldDefinition/217872793652"
+  }
+}

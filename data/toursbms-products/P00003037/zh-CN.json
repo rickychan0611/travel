@@ -1,0 +1,2388 @@
+{
+  "extractedAt": "2026-07-15T04:37:35.919Z",
+  "product": {
+    "productCode": "P00003037",
+    "productViewCode": "R0001919",
+    "groupNo": "SAA-HCPT",
+    "title": "“午夜阳光”2026阿拉斯加夏季 | 海切尔山口 一日游",
+    "subtitle": "",
+    "categoryCode": "PC00000026",
+    "categoryName": "Alaska",
+    "productClass": 1,
+    "productForm": 1,
+    "duration": {
+      "days": 1,
+      "nights": 0,
+      "label": "1 days / 0 nights"
+    },
+    "start": {
+      "regionCode": "A518",
+      "regionName": "安克雷奇 Anchorage",
+      "resourceType": 0
+    },
+    "end": {
+      "regionCode": "A518",
+      "regionName": "安克雷奇 Anchorage",
+      "resourceType": 0
+    },
+    "destinations": [
+      {
+        "country": "",
+        "province": "安克雷奇 Anchorage",
+        "scenic": "",
+        "spotCode": "",
+        "spotName": "",
+        "raw": {
+          "countryCode": "",
+          "countryName": "",
+          "provinceCode": "A518",
+          "provinceName": "安克雷奇 Anchorage",
+          "scenicCode": "",
+          "scenicName": "",
+          "scenicSpotCode": "",
+          "scenicSpotName": "",
+          "resourceType": 0
+        }
+      }
+    ],
+    "vehicleCodes": [
+      "1"
+    ],
+    "vehicles": [
+      "Vehicle"
+    ],
+    "transferCodes": [],
+    "transfers": [],
+    "status": 200,
+    "releaseTime": "2026-03-31 16:47:14",
+    "changeTime": "2026-03-31 16:47:14",
+    "dataVersion": 1774946834,
+    "raw": {
+      "mainLanguage": 2,
+      "productCode": "P00003037",
+      "productViewCode": "R0001919",
+      "groupNo": "SAA-HCPT",
+      "productClass": 1,
+      "carpointOff": 3,
+      "carpointOn": 3,
+      "productType": "PC00000026",
+      "productTypeName": "Alaska",
+      "tripDay": 1,
+      "nightDay": 0,
+      "productForm": 1,
+      "productRoom": 1,
+      "productVehicle": "1",
+      "productTransfer": "",
+      "productName": "“午夜阳光”2026阿拉斯加夏季 | 海切尔山口 一日游",
+      "subtitleName": "",
+      "productSpecial": "<p>阿拉斯加最受当地人喜爱的天然氧吧海切尔山口，探访复古金矿遗址，品尝当地佳酿鲜啤</p>",
+      "salesNote": "",
+      "departureDate": "05/22/2026-09/07/2026：周一、周五\n*价格已含阿拉斯加当地税费",
+      "rewardCode": "RM00004107",
+      "createTime": "2022-03-29 16:36:19",
+      "datachangelasttime": "2026-03-31 16:47:14",
+      "dataVersion": 1774946834,
+      "productPriceAuto": 0,
+      "advanceDay": -1,
+      "advanceTime": "",
+      "productIsOutreach": null,
+      "upperProductCode": null,
+      "upperUpBranchCode": null,
+      "productAttribute": 1,
+      "productClassify": 0,
+      "schemeName": null,
+      "productStatus": 200,
+      "otherCurrencySupport": [],
+      "productRateInfoList": [],
+      "isLocalResidentOptional": 0
+    }
+  },
+  "media": {
+    "images": [
+      "https://dimg04.c-ctrip.com/target/02S5312000rxi19un6D21.png"
+    ],
+    "imageObjects": [
+      {
+        "imageUrl": "02S5312000rxi19un6D21.png",
+        "imageName": "海切尔山口"
+      }
+    ],
+    "rawProductImg": [
+      "02S5312000rxi19un6D21.png"
+    ]
+  },
+  "highlights": {
+    "html": "<p>阿拉斯加最受当地人喜爱的天然氧吧海切尔山口，探访复古金矿遗址，品尝当地佳酿鲜啤</p>",
+    "text": "阿拉斯加最受当地人喜爱的天然氧吧海切尔山口，探访复古金矿遗址，品尝当地佳酿鲜啤",
+    "salesNoteHtml": "",
+    "salesNoteText": ""
+  },
+  "departure": {
+    "html": "05/22/2026-09/07/2026：周一、周五<br>*价格已含阿拉斯加当地税费",
+    "text": "05/22/2026-09/07/2026：周一、周五\n*价格已含阿拉斯加当地税费",
+    "advanceDay": -1,
+    "advanceTime": "",
+    "availabilityStart": "2026-07-14",
+    "availabilityEnd": "2027-12-31"
+  },
+  "pricing": {
+    "requestedCurrency": "USD",
+    "defaultCurrency": {
+      "currencyCode": "CI00000002",
+      "branchCode": "B00000003",
+      "currencyNum": "USD",
+      "currencyName": "美元",
+      "currencySymbol": "$",
+      "currencyAccuracy": 2,
+      "currencyRate": 1,
+      "currencyConversion": 1,
+      "currencyIsDefault": 1,
+      "currencyStatus": 200
+    },
+    "supportedCurrencies": [
+      {
+        "currencyCode": "CI00000111",
+        "branchCode": "B00000003",
+        "currencyNum": "CAD",
+        "currencyName": "CAD",
+        "currencySymbol": "C$",
+        "currencyAccuracy": 4,
+        "currencyRate": 1.423,
+        "currencyConversion": 1,
+        "currencyIsDefault": 0,
+        "currencyStatus": 200
+      },
+      {
+        "currencyCode": "CI00000002",
+        "branchCode": "B00000003",
+        "currencyNum": "USD",
+        "currencyName": "美元",
+        "currencySymbol": "$",
+        "currencyAccuracy": 2,
+        "currencyRate": 1,
+        "currencyConversion": 1,
+        "currencyIsDefault": 1,
+        "currencyStatus": 200
+      }
+    ],
+    "firstAvailableDate": "2026-07-17 00:00:00",
+    "basePrices": [
+      {
+        "priceType": 1,
+        "label": "Adult",
+        "amount": 200,
+        "rewardPrice": 0,
+        "markup": 0,
+        "raw": {
+          "priceType": 1,
+          "groupPrice": 200,
+          "rewardPrice": 0,
+          "rewardType": 0,
+          "rewardValue": 0,
+          "markup": 0
+        }
+      },
+      {
+        "priceType": 2,
+        "label": "Child",
+        "amount": 200,
+        "rewardPrice": 0,
+        "markup": 0,
+        "raw": {
+          "priceType": 2,
+          "groupPrice": 200,
+          "rewardPrice": 0,
+          "rewardType": 0,
+          "rewardValue": 0,
+          "markup": 0
+        }
+      }
+    ],
+    "availability": [
+      {
+        "date": "2026-07-17",
+        "groupDate": "2026-07-17 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-07-20",
+        "groupDate": "2026-07-20 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-07-24",
+        "groupDate": "2026-07-24 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-07-27",
+        "groupDate": "2026-07-27 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-07-31",
+        "groupDate": "2026-07-31 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-03",
+        "groupDate": "2026-08-03 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-07",
+        "groupDate": "2026-08-07 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-10",
+        "groupDate": "2026-08-10 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-14",
+        "groupDate": "2026-08-14 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-17",
+        "groupDate": "2026-08-17 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-21",
+        "groupDate": "2026-08-21 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-24",
+        "groupDate": "2026-08-24 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-28",
+        "groupDate": "2026-08-28 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-31",
+        "groupDate": "2026-08-31 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-09-04",
+        "groupDate": "2026-09-04 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-09-07",
+        "groupDate": "2026-09-07 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 55,
+        "groupSaleStock": 0,
+        "remainingStock": 55,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 200,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      }
+    ]
+  },
+  "itinerary": {
+    "productDay": 1,
+    "productNight": 0,
+    "travelName": "“午夜陽光”2025阿拉斯加夏季 | 海切爾山口 一日遊",
+    "days": [
+      {
+        "dayNumber": 1,
+        "section": "安克雷奇|||1+++海切尔山口|||1+++安克雷奇",
+        "sectionStops": [
+          {
+            "type": "place",
+            "label": "安克雷奇"
+          },
+          {
+            "type": "transfer",
+            "vehicleCode": "1",
+            "vehicle": "Vehicle",
+            "place": "海切尔山口"
+          },
+          {
+            "type": "transfer",
+            "vehicleCode": "1",
+            "vehicle": "Vehicle",
+            "place": "安克雷奇"
+          }
+        ],
+        "todayLocation": "",
+        "distributionFactor": 1,
+        "isFreeTravel": null,
+        "optionalProductList": [],
+        "content": [
+          {
+            "contentMode": 3,
+            "contentType": 100,
+            "sortNumber": 0,
+            "relatedId": 5406,
+            "relatedDay": 1,
+            "relatedName": "【SAA-HCPT】海切爾山口 一日遊",
+            "decodedJson": {
+              "travelId": 5406,
+              "productCategory": 1,
+              "name": "【SAA-HCPT】海切爾山口 一日遊",
+              "productType": "PC00000026",
+              "isAutoTeam": null,
+              "expandList": [
+                {
+                  "language": 1,
+                  "isSource": 0,
+                  "dayList": [
+                    {
+                      "section": "安克雷奇|||1+++海切尔山口|||1+++安克雷奇",
+                      "todayLocation": "",
+                      "dayNumber": 1,
+                      "content": [
+                        {
+                          "contentMode": 0,
+                          "productSortNum": null,
+                          "relatedId": -1,
+                          "relatedDay": -1,
+                          "relatedName": "",
+                          "contentType": 7,
+                          "sortNumber": 0,
+                          "jsonContent": "eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD48c3Ryb25nPuihjOeoi+WGheWuue+8miA8L3N0cm9uZz48L3A+XG48cD7orqHliJLkuIrljYjmjIflrprphZLlupflh7rlj5HvvIzkuZjovabliY3lvoDpo47mma/np4DkuL3nmoQ8c3Ryb25nPua1t+WIh+WwlOWxseWPo0hhdGNoZXIgUGFzczwvc3Ryb25nPu+8jOS9jeS6juW4leWwlOm7mOS4juWogea0m+mVh+S5i+mXtOeahOa1t+WIh+WwlOWxseWPo+WcsOWMuuaLpeacieaegeS4uuS4sOWvjOeahOakjeeJqei1hOa6kO+8jOaYr+W9k+WcsOS6uuS8kemXsui4j+mdkuWSjOiHqumpvueIseWlveiAheeahOWkqeWggu+8jOWxseWzpui/ree/oOS5i+mXtOaXouaciemrmOWxseWGsOW3nea5luWSjOS/j+S4vemHjuiKseeCuee8gOWFtumXtO+8jOWPiOS4jeWksemYv+aLieaWr+WKoOeahOWjrue+juawlOWKv++8jOWHhuWkh+WlveebuOacuu+8jOmaj+aJi+S+v+WPr+aLjeWIsOmjjuaZr+Wkp+eJh+OAguayv+mAlOWJjeW+gDxzdHJvbmc+54us56uL55+/5Zy65bee56uL5Y6G5Y+y5YWs5ZutSW5kZXBlbmRlbmNlIE1pbmUgU3RhdGUgSGlzdG9yaWNhbCBQYXJrPC9zdHJvbmc+77yM5bqf5byD55qE5reY6YeR55+/5Zy65bey5LiN5aSN5b2T5bm055qE55ub5Ya177yM546w5LuK6L+Z6YeM5Lul5YW254us5pyJ55qE5aSN5Y+k6aOO5oOF77yM6L+O5o6l552A5ri45a6i5Lus55qE5ouc6K6/44CC6ICM5ZCO5oiR5Lus5bCG5omT5Y2h5LiA5a625b2T5Zyw54m56Imy55qE5bCP5ZWk6YWS5Y6C77yM5Zyo576O5Zu955qE5ZWk6YWS5Lqn5Lia5Lit77yM6Zi/5ouJ5pav5Yqg5piv5LiN5Y+v5b+955Wl55qE5omA5Zyo77yM5b2T5Zyw5ZWk6YWS5Y6C54mM5ZCE5YW354m56Imy44CC5oiR5Lus5LiN5LuF5Y+v5Lul5a+56Zi/5ouJ5pav5Yqg5b2T5Zyw55qE5ZWk6YWS5Yi25L2c56iN5L2c5LqG6Kej77yM6L+Y5Y+v5Lul5ZOB5bCd5paw6bKc55qE57K+6YW/5ZWk6YWS77yI5ZOB6YWS6LS555So6Ieq55CG77yMMjHlsoHku6XkuIrmlrnlj6/ppa7phZLvvIzlsYrml7bor7flh7rnpLpJRO+8ieOAgumihOiuoTE3OjAwLTE3OjMw5Zue5Yiw5a6J5YWL6Zu35aWH44CCPC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz7ooaPnnYDlu7rorq7vvJo8L3N0cm9uZz4g5oi35aSW6L+Q5Yqo6Z6L5ZKM6L275L6/55qE5L+d5pqW5aSW5aWXPC9wPiIsInRpbWUiOiIxIn0=",
+                          "decodedJson": {
+                            "distanc": "",
+                            "distancUnit": 1,
+                            "hours": "",
+                            "minutes": "",
+                            "stayHours": "",
+                            "stayMinutes": "",
+                            "listImage": [],
+                            "description": "<p><strong>行程内容： </strong></p>\n<p>计划上午指定酒店出发，乘车前往风景秀丽的<strong>海切尔山口Hatcher Pass</strong>，位于帕尔默与威洛镇之间的海切尔山口地区拥有极为丰富的植物资源，是当地人休闲踏青和自驾爱好者的天堂，山峦迭翠之间既有高山冰川湖和俏丽野花点缀其间，又不失阿拉斯加的壮美气势，准备好相机，随手便可拍到风景大片。沿途前往<strong>独立矿场州立历史公园Independence Mine State Historical Park</strong>，废弃的淘金矿场已不复当年的盛况，现今这里以其独有的复古风情，迎接着游客们的拜访。而后我们将打卡一家当地特色的小啤酒厂，在美国的啤酒产业中，阿拉斯加是不可忽略的所在，当地啤酒厂牌各具特色。我们不仅可以对阿拉斯加当地的啤酒制作稍作了解，还可以品尝新鲜的精酿啤酒（品酒费用自理，21岁以上方可饮酒，届时请出示ID）。预计17:00-17:30回到安克雷奇。</p>\n<p>&nbsp;</p>\n<p><strong>衣着建议：</strong> 户外运动鞋和轻便的保暖外套</p>",
+                            "time": "1"
+                          }
+                        }
+                      ],
+                      "distributionFactor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "rawJsonContent": "{\"travelId\":5406,\"productCategory\":1,\"name\":\"【SAA-HCPT】海切爾山口 一日遊\",\"productType\":\"PC00000026\",\"isAutoTeam\":null,\"expandList\":[{\"language\":1,\"isSource\":0,\"dayList\":[{\"section\":\"安克雷奇|||1+++海切尔山口|||1+++安克雷奇\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD48c3Ryb25nPuihjOeoi+WGheWuue+8miA8L3N0cm9uZz48L3A+XG48cD7orqHliJLkuIrljYjmjIflrprphZLlupflh7rlj5HvvIzkuZjovabliY3lvoDpo47mma/np4DkuL3nmoQ8c3Ryb25nPua1t+WIh+WwlOWxseWPo0hhdGNoZXIgUGFzczwvc3Ryb25nPu+8jOS9jeS6juW4leWwlOm7mOS4juWogea0m+mVh+S5i+mXtOeahOa1t+WIh+WwlOWxseWPo+WcsOWMuuaLpeacieaegeS4uuS4sOWvjOeahOakjeeJqei1hOa6kO+8jOaYr+W9k+WcsOS6uuS8kemXsui4j+mdkuWSjOiHqumpvueIseWlveiAheeahOWkqeWggu+8jOWxseWzpui/ree/oOS5i+mXtOaXouaciemrmOWxseWGsOW3nea5luWSjOS/j+S4vemHjuiKseeCuee8gOWFtumXtO+8jOWPiOS4jeWksemYv+aLieaWr+WKoOeahOWjrue+juawlOWKv++8jOWHhuWkh+WlveebuOacuu+8jOmaj+aJi+S+v+WPr+aLjeWIsOmjjuaZr+Wkp+eJh+OAguayv+mAlOWJjeW+gDxzdHJvbmc+54us56uL55+/5Zy65bee56uL5Y6G5Y+y5YWs5ZutSW5kZXBlbmRlbmNlIE1pbmUgU3RhdGUgSGlzdG9yaWNhbCBQYXJrPC9zdHJvbmc+77yM5bqf5byD55qE5reY6YeR55+/5Zy65bey5LiN5aSN5b2T5bm055qE55ub5Ya177yM546w5LuK6L+Z6YeM5Lul5YW254us5pyJ55qE5aSN5Y+k6aOO5oOF77yM6L+O5o6l552A5ri45a6i5Lus55qE5ouc6K6/44CC6ICM5ZCO5oiR5Lus5bCG5omT5Y2h5LiA5a625b2T5Zyw54m56Imy55qE5bCP5ZWk6YWS5Y6C77yM5Zyo576O5Zu955qE5ZWk6YWS5Lqn5Lia5Lit77yM6Zi/5ouJ5pav5Yqg5piv5LiN5Y+v5b+955Wl55qE5omA5Zyo77yM5b2T5Zyw5ZWk6YWS5Y6C54mM5ZCE5YW354m56Imy44CC5oiR5Lus5LiN5LuF5Y+v5Lul5a+56Zi/5ouJ5pav5Yqg5b2T5Zyw55qE5ZWk6YWS5Yi25L2c56iN5L2c5LqG6Kej77yM6L+Y5Y+v5Lul5ZOB5bCd5paw6bKc55qE57K+6YW/5ZWk6YWS77yI5ZOB6YWS6LS555So6Ieq55CG77yMMjHlsoHku6XkuIrmlrnlj6/ppa7phZLvvIzlsYrml7bor7flh7rnpLpJRO+8ieOAgumihOiuoTE3OjAwLTE3OjMw5Zue5Yiw5a6J5YWL6Zu35aWH44CCPC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz7ooaPnnYDlu7rorq7vvJo8L3N0cm9uZz4g5oi35aSW6L+Q5Yqo6Z6L5ZKM6L275L6/55qE5L+d5pqW5aSW5aWXPC9wPiIsInRpbWUiOiIxIn0=\"}],\"distributionFactor\":null}]}]}",
+            "raw": {
+              "contentMode": 3,
+              "productSortNum": null,
+              "relatedId": 5406,
+              "relatedDay": 1,
+              "relatedName": "【SAA-HCPT】海切爾山口 一日遊",
+              "contentType": 100,
+              "sortNumber": 0,
+              "jsonContent": "{\"travelId\":5406,\"productCategory\":1,\"name\":\"【SAA-HCPT】海切爾山口 一日遊\",\"productType\":\"PC00000026\",\"isAutoTeam\":null,\"expandList\":[{\"language\":1,\"isSource\":0,\"dayList\":[{\"section\":\"安克雷奇|||1+++海切尔山口|||1+++安克雷奇\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD48c3Ryb25nPuihjOeoi+WGheWuue+8miA8L3N0cm9uZz48L3A+XG48cD7orqHliJLkuIrljYjmjIflrprphZLlupflh7rlj5HvvIzkuZjovabliY3lvoDpo47mma/np4DkuL3nmoQ8c3Ryb25nPua1t+WIh+WwlOWxseWPo0hhdGNoZXIgUGFzczwvc3Ryb25nPu+8jOS9jeS6juW4leWwlOm7mOS4juWogea0m+mVh+S5i+mXtOeahOa1t+WIh+WwlOWxseWPo+WcsOWMuuaLpeacieaegeS4uuS4sOWvjOeahOakjeeJqei1hOa6kO+8jOaYr+W9k+WcsOS6uuS8kemXsui4j+mdkuWSjOiHqumpvueIseWlveiAheeahOWkqeWggu+8jOWxseWzpui/ree/oOS5i+mXtOaXouaciemrmOWxseWGsOW3nea5luWSjOS/j+S4vemHjuiKseeCuee8gOWFtumXtO+8jOWPiOS4jeWksemYv+aLieaWr+WKoOeahOWjrue+juawlOWKv++8jOWHhuWkh+WlveebuOacuu+8jOmaj+aJi+S+v+WPr+aLjeWIsOmjjuaZr+Wkp+eJh+OAguayv+mAlOWJjeW+gDxzdHJvbmc+54us56uL55+/5Zy65bee56uL5Y6G5Y+y5YWs5ZutSW5kZXBlbmRlbmNlIE1pbmUgU3RhdGUgSGlzdG9yaWNhbCBQYXJrPC9zdHJvbmc+77yM5bqf5byD55qE5reY6YeR55+/5Zy65bey5LiN5aSN5b2T5bm055qE55ub5Ya177yM546w5LuK6L+Z6YeM5Lul5YW254us5pyJ55qE5aSN5Y+k6aOO5oOF77yM6L+O5o6l552A5ri45a6i5Lus55qE5ouc6K6/44CC6ICM5ZCO5oiR5Lus5bCG5omT5Y2h5LiA5a625b2T5Zyw54m56Imy55qE5bCP5ZWk6YWS5Y6C77yM5Zyo576O5Zu955qE5ZWk6YWS5Lqn5Lia5Lit77yM6Zi/5ouJ5pav5Yqg5piv5LiN5Y+v5b+955Wl55qE5omA5Zyo77yM5b2T5Zyw5ZWk6YWS5Y6C54mM5ZCE5YW354m56Imy44CC5oiR5Lus5LiN5LuF5Y+v5Lul5a+56Zi/5ouJ5pav5Yqg5b2T5Zyw55qE5ZWk6YWS5Yi25L2c56iN5L2c5LqG6Kej77yM6L+Y5Y+v5Lul5ZOB5bCd5paw6bKc55qE57K+6YW/5ZWk6YWS77yI5ZOB6YWS6LS555So6Ieq55CG77yMMjHlsoHku6XkuIrmlrnlj6/ppa7phZLvvIzlsYrml7bor7flh7rnpLpJRO+8ieOAgumihOiuoTE3OjAwLTE3OjMw5Zue5Yiw5a6J5YWL6Zu35aWH44CCPC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz7ooaPnnYDlu7rorq7vvJo8L3N0cm9uZz4g5oi35aSW6L+Q5Yqo6Z6L5ZKM6L275L6/55qE5L+d5pqW5aSW5aWXPC9wPiIsInRpbWUiOiIxIn0=\"}],\"distributionFactor\":null}]}]}"
+            }
+          }
+        ],
+        "raw": {
+          "section": "安克雷奇|||1+++海切尔山口|||1+++安克雷奇",
+          "todayLocation": "",
+          "dayNumber": 1,
+          "content": [
+            {
+              "contentMode": 3,
+              "productSortNum": null,
+              "relatedId": 5406,
+              "relatedDay": 1,
+              "relatedName": "【SAA-HCPT】海切爾山口 一日遊",
+              "contentType": 100,
+              "sortNumber": 0,
+              "jsonContent": "{\"travelId\":5406,\"productCategory\":1,\"name\":\"【SAA-HCPT】海切爾山口 一日遊\",\"productType\":\"PC00000026\",\"isAutoTeam\":null,\"expandList\":[{\"language\":1,\"isSource\":0,\"dayList\":[{\"section\":\"安克雷奇|||1+++海切尔山口|||1+++安克雷奇\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD48c3Ryb25nPuihjOeoi+WGheWuue+8miA8L3N0cm9uZz48L3A+XG48cD7orqHliJLkuIrljYjmjIflrprphZLlupflh7rlj5HvvIzkuZjovabliY3lvoDpo47mma/np4DkuL3nmoQ8c3Ryb25nPua1t+WIh+WwlOWxseWPo0hhdGNoZXIgUGFzczwvc3Ryb25nPu+8jOS9jeS6juW4leWwlOm7mOS4juWogea0m+mVh+S5i+mXtOeahOa1t+WIh+WwlOWxseWPo+WcsOWMuuaLpeacieaegeS4uuS4sOWvjOeahOakjeeJqei1hOa6kO+8jOaYr+W9k+WcsOS6uuS8kemXsui4j+mdkuWSjOiHqumpvueIseWlveiAheeahOWkqeWggu+8jOWxseWzpui/ree/oOS5i+mXtOaXouaciemrmOWxseWGsOW3nea5luWSjOS/j+S4vemHjuiKseeCuee8gOWFtumXtO+8jOWPiOS4jeWksemYv+aLieaWr+WKoOeahOWjrue+juawlOWKv++8jOWHhuWkh+WlveebuOacuu+8jOmaj+aJi+S+v+WPr+aLjeWIsOmjjuaZr+Wkp+eJh+OAguayv+mAlOWJjeW+gDxzdHJvbmc+54us56uL55+/5Zy65bee56uL5Y6G5Y+y5YWs5ZutSW5kZXBlbmRlbmNlIE1pbmUgU3RhdGUgSGlzdG9yaWNhbCBQYXJrPC9zdHJvbmc+77yM5bqf5byD55qE5reY6YeR55+/5Zy65bey5LiN5aSN5b2T5bm055qE55ub5Ya177yM546w5LuK6L+Z6YeM5Lul5YW254us5pyJ55qE5aSN5Y+k6aOO5oOF77yM6L+O5o6l552A5ri45a6i5Lus55qE5ouc6K6/44CC6ICM5ZCO5oiR5Lus5bCG5omT5Y2h5LiA5a625b2T5Zyw54m56Imy55qE5bCP5ZWk6YWS5Y6C77yM5Zyo576O5Zu955qE5ZWk6YWS5Lqn5Lia5Lit77yM6Zi/5ouJ5pav5Yqg5piv5LiN5Y+v5b+955Wl55qE5omA5Zyo77yM5b2T5Zyw5ZWk6YWS5Y6C54mM5ZCE5YW354m56Imy44CC5oiR5Lus5LiN5LuF5Y+v5Lul5a+56Zi/5ouJ5pav5Yqg5b2T5Zyw55qE5ZWk6YWS5Yi25L2c56iN5L2c5LqG6Kej77yM6L+Y5Y+v5Lul5ZOB5bCd5paw6bKc55qE57K+6YW/5ZWk6YWS77yI5ZOB6YWS6LS555So6Ieq55CG77yMMjHlsoHku6XkuIrmlrnlj6/ppa7phZLvvIzlsYrml7bor7flh7rnpLpJRO+8ieOAgumihOiuoTE3OjAwLTE3OjMw5Zue5Yiw5a6J5YWL6Zu35aWH44CCPC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz7ooaPnnYDlu7rorq7vvJo8L3N0cm9uZz4g5oi35aSW6L+Q5Yqo6Z6L5ZKM6L275L6/55qE5L+d5pqW5aSW5aWXPC9wPiIsInRpbWUiOiIxIn0=\"}],\"distributionFactor\":null}]}]}"
+            }
+          ],
+          "isFreeTravel": null,
+          "optionalProductList": null,
+          "distributionFactor": 1
+        }
+      }
+    ],
+    "raw": {
+      "productCode": "P00003037",
+      "dataVersion": 1774946834,
+      "productDay": 1,
+      "productNight": 0,
+      "travelId": 5408,
+      "productType": "PC00000026",
+      "productTypeName": "Alaska",
+      "travelName": "“午夜陽光”2025阿拉斯加夏季 | 海切爾山口 一日遊",
+      "productTravelInfoList": [
+        {
+          "isSource": 1,
+          "language": 2,
+          "dayList": [
+            {
+              "section": "安克雷奇|||1+++海切尔山口|||1+++安克雷奇",
+              "todayLocation": "",
+              "dayNumber": 1,
+              "content": [
+                {
+                  "contentMode": 3,
+                  "productSortNum": null,
+                  "relatedId": 5406,
+                  "relatedDay": 1,
+                  "relatedName": "【SAA-HCPT】海切爾山口 一日遊",
+                  "contentType": 100,
+                  "sortNumber": 0,
+                  "jsonContent": "{\"travelId\":5406,\"productCategory\":1,\"name\":\"【SAA-HCPT】海切爾山口 一日遊\",\"productType\":\"PC00000026\",\"isAutoTeam\":null,\"expandList\":[{\"language\":1,\"isSource\":0,\"dayList\":[{\"section\":\"安克雷奇|||1+++海切尔山口|||1+++安克雷奇\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD48c3Ryb25nPuihjOeoi+WGheWuue+8miA8L3N0cm9uZz48L3A+XG48cD7orqHliJLkuIrljYjmjIflrprphZLlupflh7rlj5HvvIzkuZjovabliY3lvoDpo47mma/np4DkuL3nmoQ8c3Ryb25nPua1t+WIh+WwlOWxseWPo0hhdGNoZXIgUGFzczwvc3Ryb25nPu+8jOS9jeS6juW4leWwlOm7mOS4juWogea0m+mVh+S5i+mXtOeahOa1t+WIh+WwlOWxseWPo+WcsOWMuuaLpeacieaegeS4uuS4sOWvjOeahOakjeeJqei1hOa6kO+8jOaYr+W9k+WcsOS6uuS8kemXsui4j+mdkuWSjOiHqumpvueIseWlveiAheeahOWkqeWggu+8jOWxseWzpui/ree/oOS5i+mXtOaXouaciemrmOWxseWGsOW3nea5luWSjOS/j+S4vemHjuiKseeCuee8gOWFtumXtO+8jOWPiOS4jeWksemYv+aLieaWr+WKoOeahOWjrue+juawlOWKv++8jOWHhuWkh+WlveebuOacuu+8jOmaj+aJi+S+v+WPr+aLjeWIsOmjjuaZr+Wkp+eJh+OAguayv+mAlOWJjeW+gDxzdHJvbmc+54us56uL55+/5Zy65bee56uL5Y6G5Y+y5YWs5ZutSW5kZXBlbmRlbmNlIE1pbmUgU3RhdGUgSGlzdG9yaWNhbCBQYXJrPC9zdHJvbmc+77yM5bqf5byD55qE5reY6YeR55+/5Zy65bey5LiN5aSN5b2T5bm055qE55ub5Ya177yM546w5LuK6L+Z6YeM5Lul5YW254us5pyJ55qE5aSN5Y+k6aOO5oOF77yM6L+O5o6l552A5ri45a6i5Lus55qE5ouc6K6/44CC6ICM5ZCO5oiR5Lus5bCG5omT5Y2h5LiA5a625b2T5Zyw54m56Imy55qE5bCP5ZWk6YWS5Y6C77yM5Zyo576O5Zu955qE5ZWk6YWS5Lqn5Lia5Lit77yM6Zi/5ouJ5pav5Yqg5piv5LiN5Y+v5b+955Wl55qE5omA5Zyo77yM5b2T5Zyw5ZWk6YWS5Y6C54mM5ZCE5YW354m56Imy44CC5oiR5Lus5LiN5LuF5Y+v5Lul5a+56Zi/5ouJ5pav5Yqg5b2T5Zyw55qE5ZWk6YWS5Yi25L2c56iN5L2c5LqG6Kej77yM6L+Y5Y+v5Lul5ZOB5bCd5paw6bKc55qE57K+6YW/5ZWk6YWS77yI5ZOB6YWS6LS555So6Ieq55CG77yMMjHlsoHku6XkuIrmlrnlj6/ppa7phZLvvIzlsYrml7bor7flh7rnpLpJRO+8ieOAgumihOiuoTE3OjAwLTE3OjMw5Zue5Yiw5a6J5YWL6Zu35aWH44CCPC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz7ooaPnnYDlu7rorq7vvJo8L3N0cm9uZz4g5oi35aSW6L+Q5Yqo6Z6L5ZKM6L275L6/55qE5L+d5pqW5aSW5aWXPC9wPiIsInRpbWUiOiIxIn0=\"}],\"distributionFactor\":null}]}]}"
+                }
+              ],
+              "isFreeTravel": null,
+              "optionalProductList": null,
+              "distributionFactor": 1
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "cost": {
+    "includesHtml": "<p>1. 当地专业导游（兼司机）服务；</p>\n<p>2. 行程中的旅游巴士交通服务，车型将根据行程人数相应安排。</p>\n<p>3. 行程中注明已包含的游览景点及门票。</p>",
+    "includesText": "1. 当地专业导游（兼司机）服务；\n\n2. 行程中的旅游巴士交通服务，车型将根据行程人数相应安排。\n\n3. 行程中注明已包含的游览景点及门票。",
+    "excludesHtml": "<p>1. 行程当日往返集合地点的交通；</p>\n<p>2. 自费项目及行程中未包含的游览和门票；</p>\n<p>3. 餐食；</p>\n<p>4. 基于阿拉斯加当地小费标准，您可视导游的服务质量支付小费，小费标准：20美元/人/天。请于行程当日将小费支付给您的导游，以示对导游工作的认可与鼓励；</p>\n<p>5. 行程中或约定中未提及已包含的所有其他费用。</p>",
+    "excludesText": "1. 行程当日往返集合地点的交通；\n\n2. 自费项目及行程中未包含的游览和门票；\n\n3. 餐食；\n\n4. 基于阿拉斯加当地小费标准，您可视导游的服务质量支付小费，小费标准：20美元/人/天。请于行程当日将小费支付给您的导游，以示对导游工作的认可与鼓励；\n\n5. 行程中或约定中未提及已包含的所有其他费用。",
+    "productCostIsDay": 0,
+    "costInfo": []
+  },
+  "policy_notice": {
+    "notices": [
+      {
+        "matterCode": "AT00000478",
+        "noticeType": 3,
+        "typeLabel": "Cancellation Policy",
+        "matterName": "【阿拉斯加】夏季",
+        "html": {
+          "primary": "<p><strong>取消政策：</strong></p><p>1.\t出发前15天内取消行程，收取全部团费；</p><p>2.\t出发前16-25天内取消行程，收取团费的50%；</p><p>3.\t出发前26-35天取消行程，收取团费的30%</p><p><br/></p><p><strong>改签政策：</strong></p><p>由于交通工具、设备故障、政府罢工、客人疾病、突发意外、天气变化等不可抗力或其他个人原因导致客人无法准时参团，建议您可将此行程转给他人使用，我司也可免费为您提供变更客人预订的服务，如您确实需要将行程变更或延迟，我们将尽力协助您减少损失，但无法为您承担此部分费用，具体规则如下： &nbsp;</p><p>1.\t出团日35天以前：</p><p>延期或更改行程：不收取任何罚金</p><p>2.\t出团日35天（含）之内：&nbsp;</p><p>延期或更改行程，需扣除第一晚酒店费用及已预订的项目费用后，剩余团款转至变更后的订单中</p><p><br/></p>",
+          "secondary": "【阿拉斯加】夏季"
+        },
+        "text": {
+          "primary": "取消政策：\n1.\t出发前15天内取消行程，收取全部团费；\n2.\t出发前16-25天内取消行程，收取团费的50%；\n3.\t出发前26-35天取消行程，收取团费的30%\n\n改签政策：\n由于交通工具、设备故障、政府罢工、客人疾病、突发意外、天气变化等不可抗力或其他个人原因导致客人无法准时参团，建议您可将此行程转给他人使用，我司也可免费为您提供变更客人预订的服务，如您确实需要将行程变更或延迟，我们将尽力协助您减少损失，但无法为您承担此部分费用，具体规则如下：  \n1.\t出团日35天以前：\n延期或更改行程：不收取任何罚金\n2.\t出团日35天（含）之内： \n延期或更改行程，需扣除第一晚酒店费用及已预订的项目费用后，剩余团款转至变更后的订单中",
+          "secondary": "【阿拉斯加】夏季"
+        },
+        "raw": {
+          "matterCode": "AT00000478",
+          "editType": 1,
+          "noticeType": 3,
+          "matterName": "【阿拉斯加】夏季",
+          "vluesTip1": "<p><strong>取消政策：</strong></p><p>1.\t出发前15天内取消行程，收取全部团费；</p><p>2.\t出发前16-25天内取消行程，收取团费的50%；</p><p>3.\t出发前26-35天取消行程，收取团费的30%</p><p><br/></p><p><strong>改签政策：</strong></p><p>由于交通工具、设备故障、政府罢工、客人疾病、突发意外、天气变化等不可抗力或其他个人原因导致客人无法准时参团，建议您可将此行程转给他人使用，我司也可免费为您提供变更客人预订的服务，如您确实需要将行程变更或延迟，我们将尽力协助您减少损失，但无法为您承担此部分费用，具体规则如下： &nbsp;</p><p>1.\t出团日35天以前：</p><p>延期或更改行程：不收取任何罚金</p><p>2.\t出团日35天（含）之内：&nbsp;</p><p>延期或更改行程，需扣除第一晚酒店费用及已预订的项目费用后，剩余团款转至变更后的订单中</p><p><br/></p>",
+          "vluesTip2": "【阿拉斯加】夏季"
+        }
+      },
+      {
+        "matterCode": "AT00001142",
+        "noticeType": 1,
+        "typeLabel": "Know Before You Book",
+        "matterName": "【預訂須知】阿拉斯加夏季單品（4人成團）",
+        "html": {
+          "primary": "<p><strong>报名须知：</strong></p>\n<p>1. 此行程由当地专业中英文导游接待（已注明项目除外），<strong><span style=\"color: #ba372a;\">最低参团人数为4人起</span></strong>，请您提前确认成团情况；</p>\n<p>2. 出发日期前1天截止报名；</p>\n<p>3. 请您至少于出团日期前10天提供客人电话号码，否则无法发送最终出团通知。</p>\n<p>&nbsp;</p>\n<p><strong>参团须知：</strong></p>\n<p>1. 此行程需要您持有带有本人照片的有效证件，如：带有美国签证的本国护照，美国居民身份证，美国驾照等；</p>\n<p>2. 如行程内标注时间与导游现场通知时间有出入，请以导游通知时间为准；</p>\n<p>3. 阿拉斯加夏季部分地区温度较低，请您按自身状况准备保暖衣物，如：冲锋衣、抓绒衣、帽子、围巾等；</p>\n<p>4. 阿拉斯加夏季游览项目多以户外自然景观为主，游览过程中请您务必听从导游或向导指挥，与大自然和谐相处；</p>\n<p>5. 阿拉斯加路边观景点较多，下车游览时严禁游客在道路中间停留或拍照，由此造成任何安全事故，游客需自行承担；</p>\n<p>6. 18岁以下未成年人参团，需要至少一名成年人全程陪同，或提交由监护人签字的免责声明；出于对孕妇安全的考虑，孕妇参团需在行程结束时怀孕不超过24周；</p>\n<p>7. 如您未及时预订行程中相关的自费项目，团上可与导游联系预订，此费用将以现金形式收取；</p>\n<p>8. 客人如因个人原因（包括且不限于疾病、意外事故、迟到等）未能按照约定的集合时间和地点与导游汇合，而错失上车机会导致行程项目无法参加的，当日参团费用无法退还，温馨提示：</p>\n<p>&nbsp; &nbsp;<span style=\"color: #ba372a;\"> <strong>请您至少提前10-15分钟到达集合地点</strong></span></p>\n<p>&nbsp; &nbsp; 您可以在出发前1-2天拨打紧急联系电话，再次确认集合时间和地点</p>\n<p>9. 如受不可抗力因素（包括且不限于：自然灾害、政府或社会行为、意外事故或故障、道路阻断等）影响，以维护整个旅游团客人的安全与权益为第一前提的条件下，根据现场实际情况，我方有权利采取相应措施，并进行适当的调整，如临时更改行程的时间或内容甚至取消部分或全部游览景点等，并保留最终解释权。相关旅游费用无法退还，由此产生的额外费用（如：酒店延住，车导服务，用餐，机票改签等）需客人自行承担；</p>\n<p>&nbsp; &nbsp; 自然灾害：洪水、地震、冰雹、暴风雪、海啸等</p>\n<p>&nbsp; &nbsp; 政府或社会行为：战争、罢工、游行、政权交替、政策变化、恐怖分子威胁等</p>\n<p>&nbsp; &nbsp; 意外事故或故障：交通工具如游览车等突发故障、游玩设备突然损坏、交通事故等阻断道路通行等</p>\n<p>&nbsp; &nbsp; 道路阻断：天气、交通事故等客观原因导致的公路封路</p>\n<p>10. 紧急联系电话：（美国免费电话）+1(866)585-8747。</p>",
+          "secondary": "【預訂須知】阿拉斯加夏季單品（4人成團）"
+        },
+        "text": {
+          "primary": "报名须知：\n\n1. 此行程由当地专业中英文导游接待（已注明项目除外），最低参团人数为4人起，请您提前确认成团情况；\n\n2. 出发日期前1天截止报名；\n\n3. 请您至少于出团日期前10天提供客人电话号码，否则无法发送最终出团通知。\n\n \n\n参团须知：\n\n1. 此行程需要您持有带有本人照片的有效证件，如：带有美国签证的本国护照，美国居民身份证，美国驾照等；\n\n2. 如行程内标注时间与导游现场通知时间有出入，请以导游通知时间为准；\n\n3. 阿拉斯加夏季部分地区温度较低，请您按自身状况准备保暖衣物，如：冲锋衣、抓绒衣、帽子、围巾等；\n\n4. 阿拉斯加夏季游览项目多以户外自然景观为主，游览过程中请您务必听从导游或向导指挥，与大自然和谐相处；\n\n5. 阿拉斯加路边观景点较多，下车游览时严禁游客在道路中间停留或拍照，由此造成任何安全事故，游客需自行承担；\n\n6. 18岁以下未成年人参团，需要至少一名成年人全程陪同，或提交由监护人签字的免责声明；出于对孕妇安全的考虑，孕妇参团需在行程结束时怀孕不超过24周；\n\n7. 如您未及时预订行程中相关的自费项目，团上可与导游联系预订，此费用将以现金形式收取；\n\n8. 客人如因个人原因（包括且不限于疾病、意外事故、迟到等）未能按照约定的集合时间和地点与导游汇合，而错失上车机会导致行程项目无法参加的，当日参团费用无法退还，温馨提示：\n\n    请您至少提前10-15分钟到达集合地点\n\n    您可以在出发前1-2天拨打紧急联系电话，再次确认集合时间和地点\n\n9. 如受不可抗力因素（包括且不限于：自然灾害、政府或社会行为、意外事故或故障、道路阻断等）影响，以维护整个旅游团客人的安全与权益为第一前提的条件下，根据现场实际情况，我方有权利采取相应措施，并进行适当的调整，如临时更改行程的时间或内容甚至取消部分或全部游览景点等，并保留最终解释权。相关旅游费用无法退还，由此产生的额外费用（如：酒店延住，车导服务，用餐，机票改签等）需客人自行承担；\n\n    自然灾害：洪水、地震、冰雹、暴风雪、海啸等\n\n    政府或社会行为：战争、罢工、游行、政权交替、政策变化、恐怖分子威胁等\n\n    意外事故或故障：交通工具如游览车等突发故障、游玩设备突然损坏、交通事故等阻断道路通行等\n\n    道路阻断：天气、交通事故等客观原因导致的公路封路\n\n10. 紧急联系电话：（美国免费电话）+1(866)585-8747。",
+          "secondary": "【預訂須知】阿拉斯加夏季單品（4人成團）"
+        },
+        "raw": {
+          "matterCode": "AT00001142",
+          "editType": 1,
+          "noticeType": 1,
+          "matterName": "【預訂須知】阿拉斯加夏季單品（4人成團）",
+          "vluesTip1": "<p><strong>报名须知：</strong></p>\n<p>1. 此行程由当地专业中英文导游接待（已注明项目除外），<strong><span style=\"color: #ba372a;\">最低参团人数为4人起</span></strong>，请您提前确认成团情况；</p>\n<p>2. 出发日期前1天截止报名；</p>\n<p>3. 请您至少于出团日期前10天提供客人电话号码，否则无法发送最终出团通知。</p>\n<p>&nbsp;</p>\n<p><strong>参团须知：</strong></p>\n<p>1. 此行程需要您持有带有本人照片的有效证件，如：带有美国签证的本国护照，美国居民身份证，美国驾照等；</p>\n<p>2. 如行程内标注时间与导游现场通知时间有出入，请以导游通知时间为准；</p>\n<p>3. 阿拉斯加夏季部分地区温度较低，请您按自身状况准备保暖衣物，如：冲锋衣、抓绒衣、帽子、围巾等；</p>\n<p>4. 阿拉斯加夏季游览项目多以户外自然景观为主，游览过程中请您务必听从导游或向导指挥，与大自然和谐相处；</p>\n<p>5. 阿拉斯加路边观景点较多，下车游览时严禁游客在道路中间停留或拍照，由此造成任何安全事故，游客需自行承担；</p>\n<p>6. 18岁以下未成年人参团，需要至少一名成年人全程陪同，或提交由监护人签字的免责声明；出于对孕妇安全的考虑，孕妇参团需在行程结束时怀孕不超过24周；</p>\n<p>7. 如您未及时预订行程中相关的自费项目，团上可与导游联系预订，此费用将以现金形式收取；</p>\n<p>8. 客人如因个人原因（包括且不限于疾病、意外事故、迟到等）未能按照约定的集合时间和地点与导游汇合，而错失上车机会导致行程项目无法参加的，当日参团费用无法退还，温馨提示：</p>\n<p>&nbsp; &nbsp;<span style=\"color: #ba372a;\"> <strong>请您至少提前10-15分钟到达集合地点</strong></span></p>\n<p>&nbsp; &nbsp; 您可以在出发前1-2天拨打紧急联系电话，再次确认集合时间和地点</p>\n<p>9. 如受不可抗力因素（包括且不限于：自然灾害、政府或社会行为、意外事故或故障、道路阻断等）影响，以维护整个旅游团客人的安全与权益为第一前提的条件下，根据现场实际情况，我方有权利采取相应措施，并进行适当的调整，如临时更改行程的时间或内容甚至取消部分或全部游览景点等，并保留最终解释权。相关旅游费用无法退还，由此产生的额外费用（如：酒店延住，车导服务，用餐，机票改签等）需客人自行承担；</p>\n<p>&nbsp; &nbsp; 自然灾害：洪水、地震、冰雹、暴风雪、海啸等</p>\n<p>&nbsp; &nbsp; 政府或社会行为：战争、罢工、游行、政权交替、政策变化、恐怖分子威胁等</p>\n<p>&nbsp; &nbsp; 意外事故或故障：交通工具如游览车等突发故障、游玩设备突然损坏、交通事故等阻断道路通行等</p>\n<p>&nbsp; &nbsp; 道路阻断：天气、交通事故等客观原因导致的公路封路</p>\n<p>10. 紧急联系电话：（美国免费电话）+1(866)585-8747。</p>",
+          "vluesTip2": "【預訂須知】阿拉斯加夏季單品（4人成團）"
+        }
+      },
+      {
+        "matterCode": "CM00000499",
+        "noticeType": 0,
+        "typeLabel": "Cost description",
+        "matterName": "【阿拉斯加】夏季-一日遊",
+        "html": {
+          "primary": "<p>1. 当地专业导游（兼司机）服务；</p>\n<p>2. 行程中的旅游巴士交通服务，车型将根据行程人数相应安排。</p>\n<p>3. 行程中注明已包含的游览景点及门票。</p>",
+          "secondary": "<p>1. 行程当日往返集合地点的交通；</p>\n<p>2. 自费项目及行程中未包含的游览和门票；</p>\n<p>3. 餐食；</p>\n<p>4. 基于阿拉斯加当地小费标准，您可视导游的服务质量支付小费，小费标准：20美元/人/天。请于行程当日将小费支付给您的导游，以示对导游工作的认可与鼓励；</p>\n<p>5. 行程中或约定中未提及已包含的所有其他费用。</p>"
+        },
+        "text": {
+          "primary": "1. 当地专业导游（兼司机）服务；\n\n2. 行程中的旅游巴士交通服务，车型将根据行程人数相应安排。\n\n3. 行程中注明已包含的游览景点及门票。",
+          "secondary": "1. 行程当日往返集合地点的交通；\n\n2. 自费项目及行程中未包含的游览和门票；\n\n3. 餐食；\n\n4. 基于阿拉斯加当地小费标准，您可视导游的服务质量支付小费，小费标准：20美元/人/天。请于行程当日将小费支付给您的导游，以示对导游工作的认可与鼓励；\n\n5. 行程中或约定中未提及已包含的所有其他费用。"
+        },
+        "raw": {
+          "matterCode": "CM00000499",
+          "editType": 1,
+          "noticeType": 0,
+          "matterName": "【阿拉斯加】夏季-一日遊",
+          "vluesTip1": "<p>1. 当地专业导游（兼司机）服务；</p>\n<p>2. 行程中的旅游巴士交通服务，车型将根据行程人数相应安排。</p>\n<p>3. 行程中注明已包含的游览景点及门票。</p>",
+          "vluesTip2": "<p>1. 行程当日往返集合地点的交通；</p>\n<p>2. 自费项目及行程中未包含的游览和门票；</p>\n<p>3. 餐食；</p>\n<p>4. 基于阿拉斯加当地小费标准，您可视导游的服务质量支付小费，小费标准：20美元/人/天。请于行程当日将小费支付给您的导游，以示对导游工作的认可与鼓励；</p>\n<p>5. 行程中或约定中未提及已包含的所有其他费用。</p>"
+        }
+      }
+    ],
+    "damagesInfo": []
+  },
+  "pickup_dropoff": {
+    "pickup": [
+      {
+        "code": "ANM00000276",
+        "viewCode": "",
+        "name": "Alex Hotel & Suites Anchorage Airport",
+        "address": "4615 Spenard Rd, Anchorage, AK 99517",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00000276",
+          "carpointName": "Alex Hotel & Suites Anchorage Airport",
+          "aggregationAddr": "4615 Spenard Rd, Anchorage, AK 99517",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "ANT00003309",
+          "carpointTimeValue": "09:15",
+          "carpointViewCode": ""
+        }
+      },
+      {
+        "code": "ANM00001565",
+        "viewCode": "",
+        "name": "Fairfield Inn & Suites Anchorage Midtown",
+        "address": "5060 A St, Anchorage, AK 99503",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00001565",
+          "carpointName": "Fairfield Inn & Suites Anchorage Midtown",
+          "aggregationAddr": "5060 A St, Anchorage, AK 99503",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "ANT00003310",
+          "carpointTimeValue": "09:30",
+          "carpointViewCode": ""
+        }
+      },
+      {
+        "code": "ANM00001566",
+        "viewCode": "",
+        "name": "Four Points by Sheraton Downtown",
+        "address": "325 W 8th Ave, Anchorage, AK 99501",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00001566",
+          "carpointName": "Four Points by Sheraton Downtown",
+          "aggregationAddr": "325 W 8th Ave, Anchorage, AK 99501",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "ANT00003311",
+          "carpointTimeValue": "09:35",
+          "carpointViewCode": ""
+        }
+      }
+    ],
+    "dropoff": [
+      {
+        "code": "ANM00000276",
+        "viewCode": "",
+        "name": "Alex Hotel & Suites Anchorage Airport",
+        "address": "4615 Spenard Rd, Anchorage, AK 99517",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00000276",
+          "carpointName": "Alex Hotel & Suites Anchorage Airport",
+          "aggregationAddr": "4615 Spenard Rd, Anchorage, AK 99517",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "",
+          "carpointTimeValue": null,
+          "carpointViewCode": ""
+        }
+      },
+      {
+        "code": "ANM00001565",
+        "viewCode": "",
+        "name": "Fairfield Inn & Suites Anchorage Midtown",
+        "address": "5060 A St, Anchorage, AK 99503",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00001565",
+          "carpointName": "Fairfield Inn & Suites Anchorage Midtown",
+          "aggregationAddr": "5060 A St, Anchorage, AK 99503",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "",
+          "carpointTimeValue": null,
+          "carpointViewCode": ""
+        }
+      },
+      {
+        "code": "ANM00001566",
+        "viewCode": "",
+        "name": "Four Points by Sheraton Downtown",
+        "address": "325 W 8th Ave, Anchorage, AK 99501",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00001566",
+          "carpointName": "Four Points by Sheraton Downtown",
+          "aggregationAddr": "325 W 8th Ave, Anchorage, AK 99501",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "",
+          "carpointTimeValue": null,
+          "carpointViewCode": ""
+        }
+      }
+    ],
+    "teamPickup": [],
+    "teamDropoff": []
+  },
+  "constraints": {
+    "confirmType": 1,
+    "confirmTypeLabel": "Confirm manually",
+    "isAgeLimited": false,
+    "needsIdNumber": false,
+    "isChildAvailable": true,
+    "childAge": "",
+    "childHeight": "",
+    "childNote": "儿童与成人同价。",
+    "infantNote": "",
+    "seniorNote": "",
+    "raw": {
+      "confirmType": 1,
+      "isAge": 0,
+      "ageCode": "",
+      "ageName": null,
+      "isNumber": 0,
+      "isPrice": 1,
+      "isCarpoint": 1,
+      "isChild": 1,
+      "childAge": "",
+      "childHeight": "",
+      "childNote": "儿童与成人同价。",
+      "isRange": 0,
+      "isAutoTeam": 1,
+      "isInfant": 0,
+      "infantAgeUpper": "",
+      "infantNote": "",
+      "isSenior": 0,
+      "seniorAgeLower": "",
+      "seniorNote": ""
+    }
+  },
+  "addons": [],
+  "shopify_mapping": {
+    "title": "“午夜阳光”2026阿拉斯加夏季 | 海切尔山口 一日游",
+    "handle": "p00003037-2026",
+    "vendor": "Jupiter Legend Corporation",
+    "productType": "Alaska",
+    "tags": [
+      "ToursBMS",
+      "Alaska",
+      "1 days"
+    ],
+    "status": "active_candidate",
+    "bodyHtml": "<h2>Highlights</h2>\n<p>阿拉斯加最受当地人喜爱的天然氧吧海切尔山口，探访复古金矿遗址，品尝当地佳酿鲜啤</p>\n\n<h2>Departure Date</h2>\n<p>05/22/2026-09/07/2026：周一、周五<br>*价格已含阿拉斯加当地税费</p>\n\n<h2>Cost Includes</h2>\n<p>1. 当地专业导游（兼司机）服务；</p>\n<p>2. 行程中的旅游巴士交通服务，车型将根据行程人数相应安排。</p>\n<p>3. 行程中注明已包含的游览景点及门票。</p>\n<h2>Cost Excludes</h2>\n<p>1. 行程当日往返集合地点的交通；</p>\n<p>2. 自费项目及行程中未包含的游览和门票；</p>\n<p>3. 餐食；</p>\n<p>4. 基于阿拉斯加当地小费标准，您可视导游的服务质量支付小费，小费标准：20美元/人/天。请于行程当日将小费支付给您的导游，以示对导游工作的认可与鼓励；</p>\n<p>5. 行程中或约定中未提及已包含的所有其他费用。</p>\n\n<h2>Cancellation Policy</h2>\n<p><strong>取消政策：</strong></p><p>1.\t出发前15天内取消行程，收取全部团费；</p><p>2.\t出发前16-25天内取消行程，收取团费的50%；</p><p>3.\t出发前26-35天取消行程，收取团费的30%</p><p><br/></p><p><strong>改签政策：</strong></p><p>由于交通工具、设备故障、政府罢工、客人疾病、突发意外、天气变化等不可抗力或其他个人原因导致客人无法准时参团，建议您可将此行程转给他人使用，我司也可免费为您提供变更客人预订的服务，如您确实需要将行程变更或延迟，我们将尽力协助您减少损失，但无法为您承担此部分费用，具体规则如下： &nbsp;</p><p>1.\t出团日35天以前：</p><p>延期或更改行程：不收取任何罚金</p><p>2.\t出团日35天（含）之内：&nbsp;</p><p>延期或更改行程，需扣除第一晚酒店费用及已预订的项目费用后，剩余团款转至变更后的订单中</p><p><br/></p>\n<h2>Know Before You Book</h2>\n<p><strong>报名须知：</strong></p>\n<p>1. 此行程由当地专业中英文导游接待（已注明项目除外），<strong><span style=\"color: #ba372a;\">最低参团人数为4人起</span></strong>，请您提前确认成团情况；</p>\n<p>2. 出发日期前1天截止报名；</p>\n<p>3. 请您至少于出团日期前10天提供客人电话号码，否则无法发送最终出团通知。</p>\n<p>&nbsp;</p>\n<p><strong>参团须知：</strong></p>\n<p>1. 此行程需要您持有带有本人照片的有效证件，如：带有美国签证的本国护照，美国居民身份证，美国驾照等；</p>\n<p>2. 如行程内标注时间与导游现场通知时间有出入，请以导游通知时间为准；</p>\n<p>3. 阿拉斯加夏季部分地区温度较低，请您按自身状况准备保暖衣物，如：冲锋衣、抓绒衣、帽子、围巾等；</p>\n<p>4. 阿拉斯加夏季游览项目多以户外自然景观为主，游览过程中请您务必听从导游或向导指挥，与大自然和谐相处；</p>\n<p>5. 阿拉斯加路边观景点较多，下车游览时严禁游客在道路中间停留或拍照，由此造成任何安全事故，游客需自行承担；</p>\n<p>6. 18岁以下未成年人参团，需要至少一名成年人全程陪同，或提交由监护人签字的免责声明；出于对孕妇安全的考虑，孕妇参团需在行程结束时怀孕不超过24周；</p>\n<p>7. 如您未及时预订行程中相关的自费项目，团上可与导游联系预订，此费用将以现金形式收取；</p>\n<p>8. 客人如因个人原因（包括且不限于疾病、意外事故、迟到等）未能按照约定的集合时间和地点与导游汇合，而错失上车机会导致行程项目无法参加的，当日参团费用无法退还，温馨提示：</p>\n<p>&nbsp; &nbsp;<span style=\"color: #ba372a;\"> <strong>请您至少提前10-15分钟到达集合地点</strong></span></p>\n<p>&nbsp; &nbsp; 您可以在出发前1-2天拨打紧急联系电话，再次确认集合时间和地点</p>\n<p>9. 如受不可抗力因素（包括且不限于：自然灾害、政府或社会行为、意外事故或故障、道路阻断等）影响，以维护整个旅游团客人的安全与权益为第一前提的条件下，根据现场实际情况，我方有权利采取相应措施，并进行适当的调整，如临时更改行程的时间或内容甚至取消部分或全部游览景点等，并保留最终解释权。相关旅游费用无法退还，由此产生的额外费用（如：酒店延住，车导服务，用餐，机票改签等）需客人自行承担；</p>\n<p>&nbsp; &nbsp; 自然灾害：洪水、地震、冰雹、暴风雪、海啸等</p>\n<p>&nbsp; &nbsp; 政府或社会行为：战争、罢工、游行、政权交替、政策变化、恐怖分子威胁等</p>\n<p>&nbsp; &nbsp; 意外事故或故障：交通工具如游览车等突发故障、游玩设备突然损坏、交通事故等阻断道路通行等</p>\n<p>&nbsp; &nbsp; 道路阻断：天气、交通事故等客观原因导致的公路封路</p>\n<p>10. 紧急联系电话：（美国免费电话）+1(866)585-8747。</p>",
+    "options": [
+      "Package price type"
+    ],
+    "variants": [
+      {
+        "option1": "Adult",
+        "sku": "P00003037-ADULT",
+        "price": "200.00",
+        "currency": "USD",
+        "inventoryPolicy": "continue"
+      },
+      {
+        "option1": "Child",
+        "sku": "P00003037-CHILD",
+        "price": "200.00",
+        "currency": "USD",
+        "inventoryPolicy": "continue"
+      }
+    ],
+    "metafields": {
+      "toursbms_product_code": "P00003037",
+      "toursbms_group_no": "SAA-HCPT",
+      "toursbms_view_code": "R0001919",
+      "duration_days": 1,
+      "duration_nights": null
+    }
+  },
+  "source": {
+    "productPageUrl": "https://uvbookings.toursbms.com/cn/product/detail?productCode=P00003037",
+    "branchCode": "B00000003",
+    "branchName": "纵横集团",
+    "language": 1,
+    "languagePackage": {
+      "CON000252": "产品大类",
+      "CON000314": "飞机",
+      "CON000315": "火车",
+      "CON000316": "汽车",
+      "CON000317": "邮轮",
+      "CON000318": "其他",
+      "CON000321": "航班",
+      "CON000322": "交通",
+      "CON000323": "景点",
+      "CON000324": "用餐",
+      "CON000325": "购物",
+      "CON000326": "自由活动",
+      "CON000329": "待定",
+      "CON000330": "直飞",
+      "CON000331": "中转",
+      "CON000332": "行驶距离",
+      "CON000333": "行驶时间",
+      "CON000334": "小时",
+      "CON000335": "分钟",
+      "CON000338": "早餐",
+      "CON000339": "午餐",
+      "CON000340": "晚餐",
+      "CON000341": "用餐内容",
+      "CON000342": "活动时间",
+      "CON000343": "用餐时间",
+      "CON000344": "自理",
+      "CON000358": "费用包含",
+      "CON000359": "费用不含",
+      "CON000363": "预订须知",
+      "CON000364": "出行提示",
+      "CON000365": "退改说明",
+      "CON000366": "签证说明",
+      "CON000370": "购物点名称",
+      "CON000375": "价格说明",
+      "CON000377": "价格",
+      "CON000380": "团号",
+      "CON000383": "产品形态",
+      "CON000384": "跟团游",
+      "CON000385": "半自助",
+      "CON000386": "私家团",
+      "CON000389": "交通工具",
+      "CON000390": "参团地点",
+      "CON000392": "离团地点",
+      "CON000394": "产品特色",
+      "CON000395": "促销信息",
+      "CON000397": "产品信息",
+      "CON000400": "确认方式",
+      "CON000401": "人工确认",
+      "CON000402": "系统确认",
+      "CON000403": "年龄限制",
+      "CON000404": "不限制",
+      "CON000405": "限制",
+      "CON000406": "是否需要证件号码预订",
+      "CON000407": "不需要",
+      "CON000408": "需要",
+      "CON000413": "儿童标准",
+      "CON000414": "年龄小于等于",
+      "CON000415": "身高小于等于",
+      "CON000439": "天",
+      "CON000440": "晚",
+      "CON000450": "费用说明",
+      "CON000451": "自费项目",
+      "CON000454": "包含天数",
+      "CON000458": "购物推荐",
+      "CON000484": "增值服务",
+      "CON000485": "房型升级",
+      "CON000486": "其他费用",
+      "CON000487": "名称",
+      "CON000489": "包含人群",
+      "CON000491": "查看更多",
+      "CON000512": "酒店",
+      "CON000533": "全天",
+      "CON000534": "上午",
+      "CON000535": "下午",
+      "CON000536": "晚上",
+      "CON000539": "或",
+      "CON000540": "与",
+      "CON000557": "购物描述",
+      "CON000581": "周日",
+      "CON000582": "周一",
+      "CON000583": "周二",
+      "CON000584": "周三",
+      "CON000585": "周四",
+      "CON000586": "周五",
+      "CON000587": "周六",
+      "CON000651": "成人",
+      "CON000652": "儿童",
+      "CON000653": "类型",
+      "CON000654": "间",
+      "CON000676": "无",
+      "CON000691": "搜索",
+      "CON000692": "价格区间",
+      "CON000693": "多选",
+      "CON000694": "不限",
+      "CON000696": "很抱歉，没有找到符合条件的相关产品。",
+      "CON000699": "综合",
+      "CON000700": "价格从低到高",
+      "CON000701": "价格从高到底",
+      "CON000702": "最近班期",
+      "CON000703": "查看班期",
+      "CON000704": "最早出发",
+      "CON000705": "最晚出发",
+      "CON000707": "更多",
+      "CON000708": "销售范围",
+      "CON000709": "查看全部",
+      "CON000710": "参/离团地点",
+      "CON000711": "繁体中文行程",
+      "CON000712": "简体中文行程",
+      "CON000713": "英文行程",
+      "CON000714": "选择团期",
+      "CON000715": "充足",
+      "CON000716": "少量",
+      "CON000717": "客满",
+      "CON000718": "当前币种",
+      "CON000720": "导出",
+      "CON000721": "打印",
+      "CON000722": "发送",
+      "CON000723": "更多价格",
+      "CON000724": "行程介绍",
+      "CON000725": "协议",
+      "CON000726": "须知",
+      "CON000727": "全部条件",
+      "CON000728": "全部清除",
+      "CON000729": "收起班期",
+      "CON000730": "价格待定",
+      "CON000731": "起始天数不能大于结束天数",
+      "CON000732": "最小价格不能大于最大价格",
+      "CON000733": "最早出发不能晚于最晚出发",
+      "CON000734": "请输入产品名称、副标题、团号、出发城市、目的地",
+      "CON000735": "产品详情",
+      "CON000736": "团期库存",
+      "CON000737": "基础价格",
+      "CON000738": "邮件发送",
+      "CON000739": "收件箱",
+      "CON000740": "产品 特色",
+      "CON000741": "费用 说明",
+      "CON000742": "行程 介绍",
+      "CON000743": "购物 推荐",
+      "CON000744": "项目名称",
+      "CON000745": "预定限制",
+      "CON000746": "儿童是否可订",
+      "CON000747": "购物点列表",
+      "CON000748": "费用自理",
+      "CON000749": "语言版本",
+      "CON000751": "产品价格",
+      "CON000752": "参团地点",
+      "CON000753": "离团地点",
+      "CON000754": "出发",
+      "CON000755": "详细地址",
+      "CON000756": "附件",
+      "CON000757": "发送文件类型",
+      "CON000758": "参考附件",
+      "CON000759": "协议 须知",
+      "CON001251": "说明",
+      "CON001325": "导游根据行程安排",
+      "CON001326": "或者",
+      "CON001327": "当前语言",
+      "CON001494": "暂未开通网站，请联系管理员！",
+      "CON001495": "网站正在维护中，敬请期待！",
+      "CON001501": "进入后台",
+      "CON001504": "请输入目的地、主题或者关键字",
+      "CON001505": "重新加载",
+      "CON001517": "产品信息已失效",
+      "CON001770": "飞行时间",
+      "CON001771": "飞行距离",
+      "CON002014": "导出简版Word",
+      "CON002015": "导出简版PDF",
+      "CON002052": "出发班期",
+      "CON002054": "接机",
+      "CON002055": "送机",
+      "CON002056": "接/送机",
+      "CON002135": "所有语言行程",
+      "CON002192": "共【#Number#】个参团地点",
+      "CON002193": "已售磬",
+      "CON002316": "共【#Number#】个离团地点",
+      "CON002331": "必选",
+      "CON002332": "奇数必选",
+      "CON002333": "【#priceitems#】必选的费用项，数量为对应价格项的【房间数】",
+      "CON002334": "【#priceitems#】必选的费用项，数量为对应价格项的【游客数】",
+      "CON002335": "【#priceitems#】数量为”奇数“时，必选的费用项，数量为”1“",
+      "CON002552": "今日地点",
+      "CON002570": "人均参考消费",
+      "CON002574": "经济舱",
+      "CON002575": "超级经济舱",
+      "CON002576": "商务舱",
+      "CON002577": "头等舱",
+      "CON002675": "请输入产品名称、副标题",
+      "CON002676": "提前【#advanceDay#】天之前预订",
+      "CON002677": "使用日期范围内存在无效团期",
+      "CON002678": "请选择使用日期",
+      "CON002679": "数量小计",
+      "CON002688": "预订【#html#】须知",
+      "CON002760": "入住城市"
+    },
+    "endpoints": {
+      "productBasic": "https://online.ctrip.com/restapi/soa2/17626/getProductBasic.json",
+      "productTravelDetail": "https://online.ctrip.com/restapi/soa2/17626/getProductTravelDetail.json",
+      "productGroup": "https://online.ctrip.com/restapi/soa2/17626/getProductGroup.json",
+      "productPromote": "https://online.ctrip.com/restapi/soa2/17626/getProductPromote.json",
+      "currencies": "https://online.ctrip.com/restapi/soa2/18554/getListWebSiteCurrency.json"
+    },
+    "raw": {
+      "branchInfo": {
+        "branchCode": "B00000003",
+        "branchName": "纵横集团",
+        "branchFullName": "纵横集团 Jupiter Legend Corporation",
+        "branchLogo": "02S5n12000t1twue4730B.png",
+        "logoImageUrl": "https://dimg04.c-ctrip.com/target/02S5n12000t1twue4730B.png",
+        "defaultLanguage": 2,
+        "supportLanguage": [
+          2,
+          1,
+          3
+        ],
+        "branchIsWeb": 1,
+        "showPOILink": 0,
+        "timeZoneModel": {
+          "isSummer": 1,
+          "timeZoneCode": "TZ0009",
+          "timeZoneName": "UTC-5:00",
+          "timeZoneDesc": "波哥大、利马、基多、里奥布朗库、东部时间（美国和加拿大）、哈瓦那、海地、切图马尔、印地安那州（东部）",
+          "timeZoneDiff": -780
+        },
+        "webSiteInfo": [
+          {
+            "websiteCode": "W000010",
+            "languageType": 3,
+            "websiteIsDefault": 1
+          },
+          {
+            "websiteCode": "W000008",
+            "languageType": 1,
+            "websiteIsDefault": 0
+          },
+          {
+            "websiteCode": "W000003",
+            "languageType": 2,
+            "websiteIsDefault": 0
+          }
+        ],
+        "currencyInfo": {
+          "currencyCode": "CI00000002",
+          "currencyNum": "USD",
+          "currencyName": "美元",
+          "currencySymbol": "$"
+        },
+        "tokenCode": "WEBSITEMjAyNi0wNy0xMyZCMDAwMDAwMDMmMjAyNi0wNy0xOA==",
+        "openStockRule": 1,
+        "stockRuleList": [
+          {
+            "showRule": 1,
+            "content": 0,
+            "minStock": 6,
+            "maxStock": 0,
+            "isInfinite": 1
+          },
+          {
+            "showRule": 1,
+            "content": 1,
+            "minStock": 1,
+            "maxStock": 5,
+            "isInfinite": 0
+          },
+          {
+            "showRule": 1,
+            "content": 2,
+            "minStock": 0,
+            "maxStock": 0,
+            "isInfinite": 0
+          }
+        ]
+      },
+      "basic": {
+        "createTime": "2022-03-29 16:36:19",
+        "releaseTime": "2026-03-31 16:47:14",
+        "changeTime": "2026-03-31 16:47:14",
+        "productStatus": 200,
+        "supLanguages": "3,2,1",
+        "productMain": {
+          "mainLanguage": 2,
+          "productCode": "P00003037",
+          "productViewCode": "R0001919",
+          "groupNo": "SAA-HCPT",
+          "productClass": 1,
+          "carpointOff": 3,
+          "carpointOn": 3,
+          "productType": "PC00000026",
+          "productTypeName": "Alaska",
+          "tripDay": 1,
+          "nightDay": 0,
+          "productForm": 1,
+          "productRoom": 1,
+          "productVehicle": "1",
+          "productTransfer": "",
+          "productName": "“午夜阳光”2026阿拉斯加夏季 | 海切尔山口 一日游",
+          "subtitleName": "",
+          "productSpecial": "<p>阿拉斯加最受当地人喜爱的天然氧吧海切尔山口，探访复古金矿遗址，品尝当地佳酿鲜啤</p>",
+          "salesNote": "",
+          "departureDate": "05/22/2026-09/07/2026：周一、周五\n*价格已含阿拉斯加当地税费",
+          "rewardCode": "RM00004107",
+          "createTime": "2022-03-29 16:36:19",
+          "datachangelasttime": "2026-03-31 16:47:14",
+          "dataVersion": 1774946834,
+          "productPriceAuto": 0,
+          "advanceDay": -1,
+          "advanceTime": "",
+          "productIsOutreach": null,
+          "upperProductCode": null,
+          "upperUpBranchCode": null,
+          "productAttribute": 1,
+          "productClassify": 0,
+          "schemeName": null,
+          "productStatus": 200,
+          "otherCurrencySupport": [],
+          "productRateInfoList": [],
+          "isLocalResidentOptional": 0
+        },
+        "productImg": [
+          "02S5312000rxi19un6D21.png"
+        ],
+        "productPointStart": {
+          "regionCode": "A518",
+          "regionName": "安克雷奇 Anchorage",
+          "resourceType": 0
+        },
+        "productPointEnd": {
+          "regionCode": "A518",
+          "regionName": "安克雷奇 Anchorage",
+          "resourceType": 0
+        },
+        "productDestination": [
+          {
+            "countryCode": "",
+            "countryName": "",
+            "provinceCode": "A518",
+            "provinceName": "安克雷奇 Anchorage",
+            "scenicCode": "",
+            "scenicName": "",
+            "scenicSpotCode": "",
+            "scenicSpotName": "",
+            "resourceType": 0
+          }
+        ],
+        "productCarpointUpper": [
+          {
+            "carpointCode": "ANM00000276",
+            "carpointName": "Alex Hotel & Suites Anchorage Airport",
+            "aggregationAddr": "4615 Spenard Rd, Anchorage, AK 99517",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "ANT00003309",
+            "carpointTimeValue": "09:15",
+            "carpointViewCode": ""
+          },
+          {
+            "carpointCode": "ANM00001565",
+            "carpointName": "Fairfield Inn & Suites Anchorage Midtown",
+            "aggregationAddr": "5060 A St, Anchorage, AK 99503",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "ANT00003310",
+            "carpointTimeValue": "09:30",
+            "carpointViewCode": ""
+          },
+          {
+            "carpointCode": "ANM00001566",
+            "carpointName": "Four Points by Sheraton Downtown",
+            "aggregationAddr": "325 W 8th Ave, Anchorage, AK 99501",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "ANT00003311",
+            "carpointTimeValue": "09:35",
+            "carpointViewCode": ""
+          }
+        ],
+        "productCarpointDown": [
+          {
+            "carpointCode": "ANM00000276",
+            "carpointName": "Alex Hotel & Suites Anchorage Airport",
+            "aggregationAddr": "4615 Spenard Rd, Anchorage, AK 99517",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "",
+            "carpointTimeValue": null,
+            "carpointViewCode": ""
+          },
+          {
+            "carpointCode": "ANM00001565",
+            "carpointName": "Fairfield Inn & Suites Anchorage Midtown",
+            "aggregationAddr": "5060 A St, Anchorage, AK 99503",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "",
+            "carpointTimeValue": null,
+            "carpointViewCode": ""
+          },
+          {
+            "carpointCode": "ANM00001566",
+            "carpointName": "Four Points by Sheraton Downtown",
+            "aggregationAddr": "325 W 8th Ave, Anchorage, AK 99501",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "",
+            "carpointTimeValue": null,
+            "carpointViewCode": ""
+          }
+        ],
+        "productConstraint": {
+          "confirmType": 1,
+          "isAge": 0,
+          "ageCode": "",
+          "ageName": null,
+          "isNumber": 0,
+          "isPrice": 1,
+          "isCarpoint": 1,
+          "isChild": 1,
+          "childAge": "",
+          "childHeight": "",
+          "childNote": "儿童与成人同价。",
+          "isRange": 0,
+          "isAutoTeam": 1,
+          "isInfant": 0,
+          "infantAgeUpper": "",
+          "infantNote": "",
+          "isSenior": 0,
+          "seniorAgeLower": "",
+          "seniorNote": ""
+        },
+        "productRange": [],
+        "productRecommendList": [],
+        "otherSchemes": null,
+        "productImageUrl": [
+          "https://dimg04.c-ctrip.com/target/02S5312000rxi19un6D21.png"
+        ],
+        "tagList": null,
+        "teamCarpointUpper": [],
+        "teamCarpointDown": [],
+        "productImageList": [
+          {
+            "imageUrl": "02S5312000rxi19un6D21.png",
+            "imageName": "海切尔山口"
+          }
+        ]
+      },
+      "travelDetail": {
+        "productTravel": {
+          "productCode": "P00003037",
+          "dataVersion": 1774946834,
+          "productDay": 1,
+          "productNight": 0,
+          "travelId": 5408,
+          "productType": "PC00000026",
+          "productTypeName": "Alaska",
+          "travelName": "“午夜陽光”2025阿拉斯加夏季 | 海切爾山口 一日遊",
+          "productTravelInfoList": [
+            {
+              "isSource": 1,
+              "language": 2,
+              "dayList": [
+                {
+                  "section": "安克雷奇|||1+++海切尔山口|||1+++安克雷奇",
+                  "todayLocation": "",
+                  "dayNumber": 1,
+                  "content": [
+                    {
+                      "contentMode": 3,
+                      "productSortNum": null,
+                      "relatedId": 5406,
+                      "relatedDay": 1,
+                      "relatedName": "【SAA-HCPT】海切爾山口 一日遊",
+                      "contentType": 100,
+                      "sortNumber": 0,
+                      "jsonContent": "{\"travelId\":5406,\"productCategory\":1,\"name\":\"【SAA-HCPT】海切爾山口 一日遊\",\"productType\":\"PC00000026\",\"isAutoTeam\":null,\"expandList\":[{\"language\":1,\"isSource\":0,\"dayList\":[{\"section\":\"安克雷奇|||1+++海切尔山口|||1+++安克雷奇\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD48c3Ryb25nPuihjOeoi+WGheWuue+8miA8L3N0cm9uZz48L3A+XG48cD7orqHliJLkuIrljYjmjIflrprphZLlupflh7rlj5HvvIzkuZjovabliY3lvoDpo47mma/np4DkuL3nmoQ8c3Ryb25nPua1t+WIh+WwlOWxseWPo0hhdGNoZXIgUGFzczwvc3Ryb25nPu+8jOS9jeS6juW4leWwlOm7mOS4juWogea0m+mVh+S5i+mXtOeahOa1t+WIh+WwlOWxseWPo+WcsOWMuuaLpeacieaegeS4uuS4sOWvjOeahOakjeeJqei1hOa6kO+8jOaYr+W9k+WcsOS6uuS8kemXsui4j+mdkuWSjOiHqumpvueIseWlveiAheeahOWkqeWggu+8jOWxseWzpui/ree/oOS5i+mXtOaXouaciemrmOWxseWGsOW3nea5luWSjOS/j+S4vemHjuiKseeCuee8gOWFtumXtO+8jOWPiOS4jeWksemYv+aLieaWr+WKoOeahOWjrue+juawlOWKv++8jOWHhuWkh+WlveebuOacuu+8jOmaj+aJi+S+v+WPr+aLjeWIsOmjjuaZr+Wkp+eJh+OAguayv+mAlOWJjeW+gDxzdHJvbmc+54us56uL55+/5Zy65bee56uL5Y6G5Y+y5YWs5ZutSW5kZXBlbmRlbmNlIE1pbmUgU3RhdGUgSGlzdG9yaWNhbCBQYXJrPC9zdHJvbmc+77yM5bqf5byD55qE5reY6YeR55+/5Zy65bey5LiN5aSN5b2T5bm055qE55ub5Ya177yM546w5LuK6L+Z6YeM5Lul5YW254us5pyJ55qE5aSN5Y+k6aOO5oOF77yM6L+O5o6l552A5ri45a6i5Lus55qE5ouc6K6/44CC6ICM5ZCO5oiR5Lus5bCG5omT5Y2h5LiA5a625b2T5Zyw54m56Imy55qE5bCP5ZWk6YWS5Y6C77yM5Zyo576O5Zu955qE5ZWk6YWS5Lqn5Lia5Lit77yM6Zi/5ouJ5pav5Yqg5piv5LiN5Y+v5b+955Wl55qE5omA5Zyo77yM5b2T5Zyw5ZWk6YWS5Y6C54mM5ZCE5YW354m56Imy44CC5oiR5Lus5LiN5LuF5Y+v5Lul5a+56Zi/5ouJ5pav5Yqg5b2T5Zyw55qE5ZWk6YWS5Yi25L2c56iN5L2c5LqG6Kej77yM6L+Y5Y+v5Lul5ZOB5bCd5paw6bKc55qE57K+6YW/5ZWk6YWS77yI5ZOB6YWS6LS555So6Ieq55CG77yMMjHlsoHku6XkuIrmlrnlj6/ppa7phZLvvIzlsYrml7bor7flh7rnpLpJRO+8ieOAgumihOiuoTE3OjAwLTE3OjMw5Zue5Yiw5a6J5YWL6Zu35aWH44CCPC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz7ooaPnnYDlu7rorq7vvJo8L3N0cm9uZz4g5oi35aSW6L+Q5Yqo6Z6L5ZKM6L275L6/55qE5L+d5pqW5aSW5aWXPC9wPiIsInRpbWUiOiIxIn0=\"}],\"distributionFactor\":null}]}]}"
+                    }
+                  ],
+                  "isFreeTravel": null,
+                  "optionalProductList": null,
+                  "distributionFactor": 1
+                }
+              ]
+            }
+          ]
+        },
+        "productNotice": {
+          "mainLanguage": 1,
+          "productCode": "P00003037",
+          "noticeInfo": [
+            {
+              "matterCode": "AT00000478",
+              "editType": 1,
+              "noticeType": 3,
+              "matterName": "【阿拉斯加】夏季",
+              "vluesTip1": "<p><strong>取消政策：</strong></p><p>1.\t出发前15天内取消行程，收取全部团费；</p><p>2.\t出发前16-25天内取消行程，收取团费的50%；</p><p>3.\t出发前26-35天取消行程，收取团费的30%</p><p><br/></p><p><strong>改签政策：</strong></p><p>由于交通工具、设备故障、政府罢工、客人疾病、突发意外、天气变化等不可抗力或其他个人原因导致客人无法准时参团，建议您可将此行程转给他人使用，我司也可免费为您提供变更客人预订的服务，如您确实需要将行程变更或延迟，我们将尽力协助您减少损失，但无法为您承担此部分费用，具体规则如下： &nbsp;</p><p>1.\t出团日35天以前：</p><p>延期或更改行程：不收取任何罚金</p><p>2.\t出团日35天（含）之内：&nbsp;</p><p>延期或更改行程，需扣除第一晚酒店费用及已预订的项目费用后，剩余团款转至变更后的订单中</p><p><br/></p>",
+              "vluesTip2": "【阿拉斯加】夏季"
+            },
+            {
+              "matterCode": "AT00001142",
+              "editType": 1,
+              "noticeType": 1,
+              "matterName": "【預訂須知】阿拉斯加夏季單品（4人成團）",
+              "vluesTip1": "<p><strong>报名须知：</strong></p>\n<p>1. 此行程由当地专业中英文导游接待（已注明项目除外），<strong><span style=\"color: #ba372a;\">最低参团人数为4人起</span></strong>，请您提前确认成团情况；</p>\n<p>2. 出发日期前1天截止报名；</p>\n<p>3. 请您至少于出团日期前10天提供客人电话号码，否则无法发送最终出团通知。</p>\n<p>&nbsp;</p>\n<p><strong>参团须知：</strong></p>\n<p>1. 此行程需要您持有带有本人照片的有效证件，如：带有美国签证的本国护照，美国居民身份证，美国驾照等；</p>\n<p>2. 如行程内标注时间与导游现场通知时间有出入，请以导游通知时间为准；</p>\n<p>3. 阿拉斯加夏季部分地区温度较低，请您按自身状况准备保暖衣物，如：冲锋衣、抓绒衣、帽子、围巾等；</p>\n<p>4. 阿拉斯加夏季游览项目多以户外自然景观为主，游览过程中请您务必听从导游或向导指挥，与大自然和谐相处；</p>\n<p>5. 阿拉斯加路边观景点较多，下车游览时严禁游客在道路中间停留或拍照，由此造成任何安全事故，游客需自行承担；</p>\n<p>6. 18岁以下未成年人参团，需要至少一名成年人全程陪同，或提交由监护人签字的免责声明；出于对孕妇安全的考虑，孕妇参团需在行程结束时怀孕不超过24周；</p>\n<p>7. 如您未及时预订行程中相关的自费项目，团上可与导游联系预订，此费用将以现金形式收取；</p>\n<p>8. 客人如因个人原因（包括且不限于疾病、意外事故、迟到等）未能按照约定的集合时间和地点与导游汇合，而错失上车机会导致行程项目无法参加的，当日参团费用无法退还，温馨提示：</p>\n<p>&nbsp; &nbsp;<span style=\"color: #ba372a;\"> <strong>请您至少提前10-15分钟到达集合地点</strong></span></p>\n<p>&nbsp; &nbsp; 您可以在出发前1-2天拨打紧急联系电话，再次确认集合时间和地点</p>\n<p>9. 如受不可抗力因素（包括且不限于：自然灾害、政府或社会行为、意外事故或故障、道路阻断等）影响，以维护整个旅游团客人的安全与权益为第一前提的条件下，根据现场实际情况，我方有权利采取相应措施，并进行适当的调整，如临时更改行程的时间或内容甚至取消部分或全部游览景点等，并保留最终解释权。相关旅游费用无法退还，由此产生的额外费用（如：酒店延住，车导服务，用餐，机票改签等）需客人自行承担；</p>\n<p>&nbsp; &nbsp; 自然灾害：洪水、地震、冰雹、暴风雪、海啸等</p>\n<p>&nbsp; &nbsp; 政府或社会行为：战争、罢工、游行、政权交替、政策变化、恐怖分子威胁等</p>\n<p>&nbsp; &nbsp; 意外事故或故障：交通工具如游览车等突发故障、游玩设备突然损坏、交通事故等阻断道路通行等</p>\n<p>&nbsp; &nbsp; 道路阻断：天气、交通事故等客观原因导致的公路封路</p>\n<p>10. 紧急联系电话：（美国免费电话）+1(866)585-8747。</p>",
+              "vluesTip2": "【預訂須知】阿拉斯加夏季單品（4人成團）"
+            },
+            {
+              "matterCode": "CM00000499",
+              "editType": 1,
+              "noticeType": 0,
+              "matterName": "【阿拉斯加】夏季-一日遊",
+              "vluesTip1": "<p>1. 当地专业导游（兼司机）服务；</p>\n<p>2. 行程中的旅游巴士交通服务，车型将根据行程人数相应安排。</p>\n<p>3. 行程中注明已包含的游览景点及门票。</p>",
+              "vluesTip2": "<p>1. 行程当日往返集合地点的交通；</p>\n<p>2. 自费项目及行程中未包含的游览和门票；</p>\n<p>3. 餐食；</p>\n<p>4. 基于阿拉斯加当地小费标准，您可视导游的服务质量支付小费，小费标准：20美元/人/天。请于行程当日将小费支付给您的导游，以示对导游工作的认可与鼓励；</p>\n<p>5. 行程中或约定中未提及已包含的所有其他费用。</p>"
+            }
+          ],
+          "damagesInfo": [],
+          "advanceDay": -1,
+          "advanceTime": ""
+        },
+        "productCost": {
+          "list": null,
+          "pager": null,
+          "productCostIsDay": 0
+        },
+        "productShop": {
+          "list": null,
+          "pager": null,
+          "productShopIsDay": 0
+        }
+      },
+      "groups": [
+        {
+          "groupDate": "2026-07-17 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-07-20 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-07-24 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-07-27 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-07-31 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-03 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-07 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-10 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-14 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-17 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-21 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-24 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-28 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-31 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-09-04 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-09-07 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 55,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00004107",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 200,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        }
+      ],
+      "addons": []
+    }
+  }
+}

@@ -39,7 +39,7 @@ export function MobileMenu({ locale }: { locale: string }) {
         aria-hidden={!open}
       >
         <div className="flex flex-col gap-1 p-5 flex-1 overflow-y-auto">
-          <Link href={`/${locale}` as Route} className="mb-3 block">
+          <Link href={`/${locale}` as Route} className="mb-3 block cursor-pointer">
             <Image src="/tff/header-logo.png" alt="途风" width={110} height={28} className="h-7 w-auto" />
           </Link>
 
@@ -52,7 +52,7 @@ export function MobileMenu({ locale }: { locale: string }) {
                 <Link
                   key={item.id}
                   href={href}
-                  className="flex items-center gap-2 rounded-md px-3 py-2 text-sm font-medium text-[#303133] hover:bg-[#f5f5f5] hover:text-tff-blue"
+                  className="flex cursor-pointer items-center gap-2 rounded-md px-3 py-2 text-sm font-medium text-[#303133] hover:bg-[#f5f5f5] hover:text-tff-blue"
                 >
                   {item.label}
                   {item.hot ? (

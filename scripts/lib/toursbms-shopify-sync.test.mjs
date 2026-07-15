@@ -2,6 +2,8 @@ import { describe, expect, it } from 'vitest'
 import {
   buildDryRunPayload,
   buildProductImages,
+  buildProductMetafields,
+  buildProductPayload,
   buildTourVariants,
   isRequestOnlyAddon,
 } from './toursbms-shopify-sync.mjs'
@@ -118,5 +120,19 @@ describe('ToursBMS Shopify sync builders', () => {
     expect(payload.addonProduct.variants).toHaveLength(0)
     expect(payload.metaobjects.some((entry) => entry.type === 'tour_addon')).toBe(false)
     expect(payload.metaobjects.some((entry) => entry.type === 'tour_content')).toBe(true)
+  })
+
+  it('adds Shopify filter facts and discovery tags for admin/category pages', () => {
+    const metafields = Object.fromEntries(buildProductMetafields(fixture).map((field) => [field.key, field.value]))
+    const payload = buildProductPayload(fixture, 'ACTIVE')
+
+    expect(metafields.country).toBe('Mexico')
+    expect(metafields.city).toBe('Cancun')
+    expect(metafields.bookable).toBe('true')
+    expect(metafields.min_price).toBe('709.00')
+    expect(metafields.max_price).toBe('1999.00')
+    expect(metafields.earliest_departure).toBe('2026-07-13')
+    expect(metafields.latest_departure).toBe('2026-07-14')
+    expect(payload.tags).toEqual(expect.arrayContaining(['country-mexico', 'city-cancun', 'bookable']))
   })
 })

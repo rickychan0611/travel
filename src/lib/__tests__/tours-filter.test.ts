@@ -4,19 +4,14 @@
  */
 import { describe, it, expect } from 'vitest'
 import type { CollectionProduct } from '@/lib/shopify/types'
-
-type FilterKey = 'all' | 'group-tour' | 'day-trip' | 'small-group'
+import { filterTourProducts, type TourFilterKey } from '../tours/filter-products'
 
 function filterProducts(
   products: CollectionProduct[],
-  active: FilterKey,
+  active: TourFilterKey,
   searchQuery: string
 ): CollectionProduct[] {
-  return products.filter((p) => {
-    const matchesType  = active === 'all' || p.productType === active
-    const matchesQuery = searchQuery === '' || p.title.toLowerCase().includes(searchQuery.toLowerCase())
-    return matchesType && matchesQuery
-  })
+  return filterTourProducts(products, active, searchQuery)
 }
 
 const makeProduct = (overrides: Partial<CollectionProduct> = {}): CollectionProduct => ({
@@ -31,10 +26,10 @@ const makeProduct = (overrides: Partial<CollectionProduct> = {}): CollectionProd
 })
 
 const PRODUCTS: CollectionProduct[] = [
-  makeProduct({ id: '1', title: 'Victoria Day Tour',    productType: 'day-trip' }),
-  makeProduct({ id: '2', title: 'Banff Group Tour',     productType: 'group-tour' }),
-  makeProduct({ id: '3', title: 'Whistler Small Group', productType: 'small-group' }),
-  makeProduct({ id: '4', title: 'Vancouver Day Trip',   productType: 'day-trip' }),
+  makeProduct({ id: '1', handle: 'victoria-day-tour', title: 'Victoria Day Tour',    productType: 'day-trip' }),
+  makeProduct({ id: '2', handle: 'banff-group-tour', title: 'Banff Group Tour',     productType: 'group-tour' }),
+  makeProduct({ id: '3', handle: 'whistler-small-group', title: 'Whistler Small Group', productType: 'small-group' }),
+  makeProduct({ id: '4', handle: 'vancouver-day-trip', title: 'Vancouver Day Trip',   productType: 'day-trip' }),
 ]
 
 describe('tours filter — type filter', () => {
@@ -84,6 +79,25 @@ describe('tours filter — search query', () => {
     const result = filterProducts(PRODUCTS, 'all', 'ban')
     expect(result).toHaveLength(1)
     expect(result[0].title).toBe('Banff Group Tour')
+  })
+
+  it('matches handle and tags', () => {
+    const result = filterProducts([
+      makeProduct({ id: '1', title: 'Premium Escape', handle: 'p0001', tags: ['dest-cancun'] }),
+    ], 'all', 'cancun')
+    expect(result).toHaveLength(1)
+  })
+
+  it('matches localized card title and place', () => {
+    const result = filterProducts([
+      makeProduct({
+        id: '1',
+        title: 'Dream Vacation',
+        localizedTitle: '【白金尊享】带您享受浪漫',
+        localizedPlace: '坎昆',
+      }),
+    ], 'all', '坎昆')
+    expect(result).toHaveLength(1)
   })
 })
 

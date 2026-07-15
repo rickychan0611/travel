@@ -1,0 +1,16 @@
+﻿[
+    {
+        "Id":  "P00007704",
+        "Status":  "OK",
+        "ExitCode":  0,
+        "Seconds":  57,
+        "LastOutput":  "Extracting P00007704 zh-TW -\u003e G:\\travelnew\\data\\toursbms-products\\P00007704\\zh-TW.json\nWrote G:\\travelnew\\data\\toursbms-products\\P00007704\\zh-TW.json\nProduct: 歐洲十國：法國+盧森堡+德國+捷克+奧地利+匈牙利+斯洛伐克+瑞士+意大利+列支敦士登 13天12晚遊\nBase prices: Single room 2309, Double room 1469, Senior 1469, Child 1235\n\nP00007704 (p00007704-13-days-12-nights-tour-through-10-european-countries)\n  Variants: 148\n  Chargeable add-on variants: 10\n  Gallery images: 1\n  Metaobject entries: 151\n  Synced Shopify product: gid://shopify/Product/8881391501364\n  Wrote manifest: G:\\travelnew\\data\\shopify-sync\\P00007704.json"
+    },
+    {
+        "Id":  "P00002476",
+        "Status":  "OK",
+        "ExitCode":  0,
+        "Seconds":  73,
+        "LastOutput":  "Extracting P00002476 zh-TW -\u003e G:\\travelnew\\data\\toursbms-products\\P00002476\\zh-TW.json\nWrote G:\\travelnew\\data\\toursbms-products\\P00002476\\zh-TW.json\nProduct: 【銀榜惠享】威士拿 1日遊（週二、週四、週日出發，5-9月加开週五）\nBase prices: Adult 68, Child 68\n\nP00002476 (p00002476-silver-whistler-1-day-tour-departures-on-tuesdays-thursdays-and-sundays-with-additional-fridays-from-may-to-se)\n  Variants: 278\n  Chargeable add-on variants: 6\n  Gallery images: 1\n  Metaobject entries: 215\n  Synced Shopify product: gid://shopify/Product/8881399431220\n  Wrote manifest: G:\\travelnew\\data\\shopify-sync\\P00002476.json"
+    }
+]

@@ -9,13 +9,13 @@
     "zh-CN",
     "zh-TW"
   ],
-  "syncedAt": "2026-07-14T04:46:08.174Z",
+  "syncedAt": "2026-07-15T04:11:51.736Z",
   "variants": [],
   "addons": [],
   "images": [
     {
       "sourceUrl": "https://dimg04.c-ctrip.com/target/02S0c12000cpvchxi8ACC.png",
-      "shopifyMediaId": "gid://shopify/MediaImage/28780946489396",
+      "shopifyMediaId": "gid://shopify/MediaImage/28796390408244",
       "shopifyFileId": null,
       "position": 1,
       "role": "featured",
@@ -349,6 +349,8 @@
     "name": "Travel Website Development"
   },
   "warnings": [
+    "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants.",
+    "Skipped optional add-ons because the product has no bookable departure-price variants.",
     "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants.",
     "Skipped optional add-ons because the product has no bookable departure-price variants."
   ],

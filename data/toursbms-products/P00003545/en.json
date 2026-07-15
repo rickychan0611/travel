@@ -1,5 +1,5 @@
 {
-  "extractedAt": "2026-07-14T04:45:43.218Z",
+  "extractedAt": "2026-07-15T04:11:23.669Z",
   "product": {
     "productCode": "P00003545",
     "productViewCode": "R0002348",
@@ -218,7 +218,7 @@
     "text": "Groups with English and Spanish tour guide: Minimum 2 people. Daily Departure.\nGroups with a Chinese tour guide:\nTuesday: Minimum 2 people.\nMonday, Wednesday, Thursday, Friday, Saturday, Sunday: Minimum 4 people.\nNo tours  on the following dates: 03/31/2025-12/01/2025\nDuring the period 02/01/2025-04/20/2025 (hotel check-in date), the hotel will charge an additional $60 per person per night, and an additional $120 per person per night for a single room.\nDuring the period 12/18/2025-01/03/2026 (hotel check-in date), the hotel will charge an additional peak season surcharge of $150/person/night, and an additional $300/person for a single room.",
     "advanceDay": 7,
     "advanceTime": "12:00",
-    "availabilityStart": "2026-07-13",
+    "availabilityStart": "2026-07-14",
     "availabilityEnd": "2027-12-31"
   },
   "pricing": {
@@ -2065,7 +2065,7 @@
       ],
       "group": [
         {
-          "groupDate": "2026-07-13 00:00:00",
+          "groupDate": "2026-07-14 00:00:00",
           "groupStock": 55,
           "groupSaleStock": 0,
           "isExceedStock": 0,
@@ -2109,7 +2109,7 @@
         "listPromoteClause": [],
         "promoteGroup": [
           {
-            "groupDate": "2026-07-13 00:00:00",
+            "groupDate": "2026-07-14 00:00:00",
             "groupStock": 55,
             "groupSaleStock": 0,
             "isExceedStock": 0,
@@ -2169,7 +2169,7 @@
       ],
       "group": [
         {
-          "groupDate": "2026-07-13 00:00:00",
+          "groupDate": "2026-07-14 00:00:00",
           "groupStock": 55,
           "groupSaleStock": 0,
           "isExceedStock": 0,
@@ -2213,7 +2213,7 @@
         "listPromoteClause": [],
         "promoteGroup": [
           {
-            "groupDate": "2026-07-13 00:00:00",
+            "groupDate": "2026-07-14 00:00:00",
             "groupStock": 55,
             "groupSaleStock": 0,
             "isExceedStock": 0,
@@ -2273,7 +2273,7 @@
       ],
       "group": [
         {
-          "groupDate": "2026-07-13 00:00:00",
+          "groupDate": "2026-07-14 00:00:00",
           "groupStock": 55,
           "groupSaleStock": 0,
           "isExceedStock": 0,
@@ -2317,7 +2317,7 @@
         "listPromoteClause": [],
         "promoteGroup": [
           {
-            "groupDate": "2026-07-13 00:00:00",
+            "groupDate": "2026-07-14 00:00:00",
             "groupStock": 55,
             "groupSaleStock": 0,
             "isExceedStock": 0,
@@ -2377,7 +2377,7 @@
       ],
       "group": [
         {
-          "groupDate": "2026-07-13 00:00:00",
+          "groupDate": "2026-07-14 00:00:00",
           "groupStock": 55,
           "groupSaleStock": 0,
           "isExceedStock": 0,
@@ -2421,7 +2421,7 @@
         "listPromoteClause": [],
         "promoteGroup": [
           {
-            "groupDate": "2026-07-13 00:00:00",
+            "groupDate": "2026-07-14 00:00:00",
             "groupStock": 55,
             "groupSaleStock": 0,
             "isExceedStock": 0,
@@ -3832,7 +3832,7 @@
           "currencyName": "美元",
           "currencySymbol": "$"
         },
-        "tokenCode": "WEBSITEMjAyNi0wNy0xMiZCMDAwMDAwMDMmMjAyNi0wNy0xNw==",
+        "tokenCode": "WEBSITEMjAyNi0wNy0xMyZCMDAwMDAwMDMmMjAyNi0wNy0xOA==",
         "openStockRule": 1,
         "stockRuleList": [
           {
@@ -4585,7 +4585,7 @@
           "listPromoteClause": [],
           "promoteGroup": [
             {
-              "groupDate": "2026-07-13 00:00:00",
+              "groupDate": "2026-07-14 00:00:00",
               "groupStock": 55,
               "groupSaleStock": 0,
               "isExceedStock": 0,
@@ -4633,7 +4633,7 @@
           "listPromoteClause": [],
           "promoteGroup": [
             {
-              "groupDate": "2026-07-13 00:00:00",
+              "groupDate": "2026-07-14 00:00:00",
               "groupStock": 55,
               "groupSaleStock": 0,
               "isExceedStock": 0,
@@ -4681,7 +4681,7 @@
           "listPromoteClause": [],
           "promoteGroup": [
             {
-              "groupDate": "2026-07-13 00:00:00",
+              "groupDate": "2026-07-14 00:00:00",
               "groupStock": 55,
               "groupSaleStock": 0,
               "isExceedStock": 0,
@@ -4729,7 +4729,7 @@
           "listPromoteClause": [],
           "promoteGroup": [
             {
-              "groupDate": "2026-07-13 00:00:00",
+              "groupDate": "2026-07-14 00:00:00",
               "groupStock": 55,
               "groupSaleStock": 0,
               "isExceedStock": 0,

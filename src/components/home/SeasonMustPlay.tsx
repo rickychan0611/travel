@@ -14,8 +14,8 @@ export function SeasonMustPlay({ locale }: { locale: string }) {
         {SEASON_MUST_PLAY.map((card) => (
           <Link
             key={card.title}
-            href={`/${locale}/tours?q=${encodeURIComponent(card.title)}` as Route}
-            className="group relative h-[200px] w-[220px] overflow-hidden rounded-md"
+            href={`/${locale}${card.href}` as Route}
+            className="group relative h-[200px] w-[220px] cursor-pointer overflow-hidden rounded-md"
           >
             <Image
               src={card.image}

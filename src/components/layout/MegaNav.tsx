@@ -38,7 +38,7 @@ export function MegaNav({ locale }: { locale: string }) {
               >
                 <Link
                   href={href}
-                  className={`relative flex h-11 items-center px-3 text-sm font-medium text-white/95 transition-colors hover:bg-white/10 ${
+                  className={`relative flex h-11 cursor-pointer items-center px-3 text-sm font-medium text-white/95 transition-colors hover:bg-white/10 ${
                     openId === item.id ? 'bg-white/10' : ''
                   }`}
                 >
@@ -57,7 +57,7 @@ export function MegaNav({ locale }: { locale: string }) {
                         <li key={link.label}>
                           <Link
                             href={`/${locale}${link.href}` as Route}
-                            className="whitespace-nowrap text-sm text-[#606266] hover:text-tff-blue"
+                            className="cursor-pointer whitespace-nowrap text-sm text-[#606266] hover:text-tff-blue"
                           >
                             {link.label}
                           </Link>

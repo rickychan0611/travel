@@ -1,0 +1,227 @@
+{
+  "productCode": "P00007231",
+  "handle": "p00007231-silver-jasper-national-park-columbia-glacier-town-of-banff-yoho-national-park-banff-national-park-4-day-tour-p",
+  "shopifyProductId": "gid://shopify/Product/8881419255860",
+  "shopifyAddonProductId": "gid://shopify/Product/8881419321396",
+  "status": "ACTIVE",
+  "locales": [
+    "en",
+    "zh-CN",
+    "zh-TW"
+  ],
+  "syncedAt": "2026-07-15T04:47:14.772Z",
+  "variants": [],
+  "addons": [],
+  "images": [
+    {
+      "sourceUrl": "https://dimg04.c-ctrip.com/target/02S3912000engdm2pED02.jpg",
+      "shopifyMediaId": "gid://shopify/MediaImage/28796974497844",
+      "shopifyFileId": null,
+      "position": 1,
+      "role": "featured",
+      "alt": "[Silver] Jasper National Park+ Columbia Glacier+ Town of Banff+ Yoho National Park+ Banff National Park 4-Day Tour (Packpage) 1"
+    },
+    {
+      "sourceUrl": "https://dimg04.c-ctrip.com/target/02S0912000enge6jnAA0D.jpg",
+      "shopifyMediaId": "gid://shopify/MediaImage/28796974530612",
+      "shopifyFileId": null,
+      "position": 2,
+      "role": "gallery",
+      "alt": "[Silver] Jasper National Park+ Columbia Glacier+ Town of Banff+ Yoho National Park+ Banff National Park 4-Day Tour (Packpage) 2"
+    },
+    {
+      "sourceUrl": "https://dimg04.c-ctrip.com/target/02S2n12000engekx94371.jpg",
+      "shopifyMediaId": "gid://shopify/MediaImage/28796974563380",
+      "shopifyFileId": null,
+      "position": 3,
+      "role": "gallery",
+      "alt": "[Silver] Jasper National Park+ Columbia Glacier+ Town of Banff+ Yoho National Park+ Banff National Park 4-Day Tour (Packpage) 3"
+    },
+    {
+      "sourceUrl": "https://dimg04.c-ctrip.com/target/02S4c12000eney7lc21AA.jpg",
+      "shopifyMediaId": "gid://shopify/MediaImage/28796974596148",
+      "shopifyFileId": null,
+      "position": 4,
+      "role": "gallery",
+      "alt": "[Silver] Jasper National Park+ Columbia Glacier+ Town of Banff+ Yoho National Park+ Banff National Park 4-Day Tour (Packpage) 4"
+    }
+  ],
+  "metaobjects": {
+    "tour_content": [
+      {
+        "id": "gid://shopify/Metaobject/352380059700",
+        "handle": "p00007231-en-content"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380420148",
+        "handle": "p00007231-zh-cn-content"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380813364",
+        "handle": "p00007231-zh-tw-content"
+      }
+    ],
+    "tour_highlight": [
+      {
+        "id": "gid://shopify/Metaobject/352380092468",
+        "handle": "p00007231-en-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380125236",
+        "handle": "p00007231-en-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380158004",
+        "handle": "p00007231-en-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380190772",
+        "handle": "p00007231-en-highlight-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380223540",
+        "handle": "p00007231-en-highlight-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380452916",
+        "handle": "p00007231-zh-cn-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380485684",
+        "handle": "p00007231-zh-cn-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380518452",
+        "handle": "p00007231-zh-cn-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380551220",
+        "handle": "p00007231-zh-cn-highlight-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380583988",
+        "handle": "p00007231-zh-cn-highlight-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380616756",
+        "handle": "p00007231-zh-cn-highlight-6"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380846132",
+        "handle": "p00007231-zh-tw-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380878900",
+        "handle": "p00007231-zh-tw-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380911668",
+        "handle": "p00007231-zh-tw-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380944436",
+        "handle": "p00007231-zh-tw-highlight-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380977204",
+        "handle": "p00007231-zh-tw-highlight-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352381009972",
+        "handle": "p00007231-zh-tw-highlight-6"
+      }
+    ],
+    "tour_cost_section": [
+      {
+        "id": "gid://shopify/Metaobject/352380256308",
+        "handle": "p00007231-en-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380289076",
+        "handle": "p00007231-en-cost-excludes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380649524",
+        "handle": "p00007231-zh-cn-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380682292",
+        "handle": "p00007231-zh-cn-cost-excludes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352381042740",
+        "handle": "p00007231-zh-tw-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352381075508",
+        "handle": "p00007231-zh-tw-cost-excludes"
+      }
+    ],
+    "tour_policy_notice": [
+      {
+        "id": "gid://shopify/Metaobject/352380321844",
+        "handle": "p00007231-en-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380354612",
+        "handle": "p00007231-en-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380387380",
+        "handle": "p00007231-en-notice-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380715060",
+        "handle": "p00007231-zh-cn-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380747828",
+        "handle": "p00007231-zh-cn-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352380780596",
+        "handle": "p00007231-zh-cn-notice-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352381108276",
+        "handle": "p00007231-zh-tw-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352381141044",
+        "handle": "p00007231-zh-tw-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352381173812",
+        "handle": "p00007231-zh-tw-notice-3"
+      }
+    ]
+  },
+  "publication": {
+    "id": "gid://shopify/Publication/197740789812",
+    "name": "Travel Website Development"
+  },
+  "warnings": [
+    "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants.",
+    "Skipped optional add-ons because the product has no bookable departure-price variants."
+  ],
+  "metaobjectDefinitions": {
+    "tour_content": "gid://shopify/MetaobjectDefinition/18676711476",
+    "tour_highlight": "gid://shopify/MetaobjectDefinition/18675433524",
+    "tour_itinerary_day": "gid://shopify/MetaobjectDefinition/18675466292",
+    "tour_departure": "gid://shopify/MetaobjectDefinition/18675499060",
+    "tour_cost_section": "gid://shopify/MetaobjectDefinition/18675531828",
+    "tour_policy_notice": "gid://shopify/MetaobjectDefinition/18675564596",
+    "tour_pickup_dropoff": "gid://shopify/MetaobjectDefinition/18675597364",
+    "tour_addon": "gid://shopify/MetaobjectDefinition/18675630132"
+  },
+  "productReferenceMetafieldDefinitions": {
+    "content": "gid://shopify/MetafieldDefinition/217881935924",
+    "highlight": "gid://shopify/MetafieldDefinition/217872597044",
+    "itinerary_day": "gid://shopify/MetafieldDefinition/217872629812",
+    "departure": "gid://shopify/MetafieldDefinition/217872662580",
+    "cost_section": "gid://shopify/MetafieldDefinition/217872695348",
+    "policy_notice": "gid://shopify/MetafieldDefinition/217872728116",
+    "pickup_dropoff": "gid://shopify/MetafieldDefinition/217872760884",
+    "addon": "gid://shopify/MetafieldDefinition/217872793652"
+  }
+}

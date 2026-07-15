@@ -15,6 +15,8 @@ export function ProductCard({
   const t = useTranslations('product')
   const image = product.images.nodes[0]
   const isInstant = product.tags.includes('booking:instant')
+  const title = product.localizedTitle ?? product.title
+  const place = product.localizedPlace ?? product.productType.replace(/-/g, ' ')
   const { amount, currencyCode } = product.priceRange.minVariantPrice
   const price = parseFloat(amount).toFixed(0)
   const href = `/${locale}/tours/${product.handle}` as Route
@@ -23,11 +25,11 @@ export function ProductCard({
 
   return (
     <article className="group flex h-full flex-col overflow-hidden rounded-md bg-white ring-1 ring-[#e8e8e8] transition hover:shadow-md">
-      <Link href={resolvedHref} className="relative block aspect-4/3 shrink-0 bg-[#f5f5f5]">
+      <Link href={resolvedHref} className="relative block aspect-4/3 shrink-0 cursor-pointer bg-[#f5f5f5]">
         {image ? (
           <Image
             src={image.url}
-            alt={image.altText ?? product.title}
+            alt={image.altText ?? title}
             fill
             className="object-cover transition-transform group-hover:scale-105"
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
@@ -46,11 +48,11 @@ export function ProductCard({
 
       <div className="flex flex-1 flex-col p-3">
         <p className="mb-1 text-[11px] capitalize text-[#909399]">
-          {product.productType.replace(/-/g, ' ')}
+          {place}
         </p>
-        <Link href={resolvedHref}>
+        <Link href={resolvedHref} className="cursor-pointer">
           <h3 className="line-clamp-2 text-sm font-medium leading-snug text-[#303133] transition-colors group-hover:text-tff-blue">
-            {product.title}
+            {title}
           </h3>
         </Link>
         <div className="mt-auto pt-3">

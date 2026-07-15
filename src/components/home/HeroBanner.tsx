@@ -7,6 +7,42 @@ import type { Route } from 'next'
 import { HOME_BANNERS, HOT_DESTINATIONS } from '@/data/home-mock'
 import { ChevronRight } from 'lucide-react'
 
+const REGION_HREF: Record<string, string> = {
+  us: '/new-york',
+  canada: '/calgary-rockies',
+  europe: '/europe',
+  asia: '/china',
+}
+
+const DESTINATION_HREF: Record<string, string> = {
+  洛杉矶: '/yellowstone',
+  美西国家公园: '/yellowstone',
+  纽约: '/new-york',
+  羚羊谷: '/yellowstone',
+  拉斯维加斯: '/yellowstone',
+  旧金山: '/yellowstone',
+  阿拉斯加: '/alaska',
+  黄石: '/yellowstone',
+  卡尔加里: '/calgary-rockies',
+  温哥华: '/calgary-rockies',
+  多伦多: '/new-york',
+  秘鲁: '/peru',
+  墨西哥: '/cancun',
+  尼亚加拉: '/new-york',
+  北欧峡湾: '/europe',
+  英国: '/europe',
+  冰岛: '/europe',
+  法瑞意: '/europe',
+  土耳其希腊: '/europe',
+  西葡: '/europe',
+  中国: '/china',
+  日本: '/china',
+  新西兰: '/china',
+  澳大利亚: '/china',
+  埃及: '/china',
+  东南亚: '/china',
+}
+
 export function HeroBanner({ locale }: { locale: string }) {
   const [index, setIndex] = useState(0)
   const [activeRegion, setActiveRegion] = useState(HOT_DESTINATIONS[0].id)
@@ -63,8 +99,8 @@ export function HeroBanner({ locale }: { locale: string }) {
                           {region.links.slice(0, 6).map((link) => (
                             <Link
                               key={link}
-                              href={`/${locale}/tours?q=${encodeURIComponent(link)}` as Route}
-                              className="text-sm text-tff-blue hover:underline"
+                              href={`/${locale}${DESTINATION_HREF[link] ?? '/tours'}` as Route}
+                              className="cursor-pointer text-sm text-tff-blue hover:underline"
                             >
                               {link}
                             </Link>
@@ -103,8 +139,8 @@ export function HeroBanner({ locale }: { locale: string }) {
         {HOT_DESTINATIONS.map((region) => (
           <Link
             key={region.id}
-            href={`/${locale}/tours?q=${encodeURIComponent(region.title)}` as Route}
-            className="shrink-0 rounded-full bg-[#f0f7fc] px-3 py-1 text-sm text-tff-blue"
+            href={`/${locale}${REGION_HREF[region.id] ?? '/tours'}` as Route}
+            className="shrink-0 cursor-pointer rounded-full bg-[#f0f7fc] px-3 py-1 text-sm text-tff-blue"
           >
             {region.title}
           </Link>

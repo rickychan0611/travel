@@ -1,0 +1,187 @@
+{
+  "productCode": "P00008126",
+  "handle": "p00008126-silver-niagara-falls-2-day-tour-from-new-york-new-jersey",
+  "shopifyProductId": "gid://shopify/Product/8881423155252",
+  "shopifyAddonProductId": "gid://shopify/Product/8881423220788",
+  "status": "ACTIVE",
+  "locales": [
+    "en",
+    "zh-CN",
+    "zh-TW"
+  ],
+  "syncedAt": "2026-07-15T04:49:31.289Z",
+  "variants": [],
+  "addons": [],
+  "images": [
+    {
+      "sourceUrl": "https://dimg04.c-ctrip.com/target/02S5612000auy8zcp34BE.png",
+      "shopifyMediaId": "gid://shopify/MediaImage/28797011132468",
+      "shopifyFileId": null,
+      "position": 1,
+      "role": "featured",
+      "alt": "[Silver] Niagara Falls 2-Day Tour from New York/ New Jersey 1"
+    }
+  ],
+  "metaobjects": {
+    "tour_content": [
+      {
+        "id": "gid://shopify/Metaobject/352388612148",
+        "handle": "p00008126-en-content"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352388972596",
+        "handle": "p00008126-zh-cn-content"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352389300276",
+        "handle": "p00008126-zh-tw-content"
+      }
+    ],
+    "tour_highlight": [
+      {
+        "id": "gid://shopify/Metaobject/352388644916",
+        "handle": "p00008126-en-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352388677684",
+        "handle": "p00008126-en-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352388710452",
+        "handle": "p00008126-en-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352388743220",
+        "handle": "p00008126-en-highlight-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352388775988",
+        "handle": "p00008126-en-highlight-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352389005364",
+        "handle": "p00008126-zh-cn-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352389038132",
+        "handle": "p00008126-zh-cn-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352389070900",
+        "handle": "p00008126-zh-cn-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352389103668",
+        "handle": "p00008126-zh-cn-highlight-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352389333044",
+        "handle": "p00008126-zh-tw-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352389365812",
+        "handle": "p00008126-zh-tw-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352389398580",
+        "handle": "p00008126-zh-tw-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352389431348",
+        "handle": "p00008126-zh-tw-highlight-4"
+      }
+    ],
+    "tour_cost_section": [
+      {
+        "id": "gid://shopify/Metaobject/352388808756",
+        "handle": "p00008126-en-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352388841524",
+        "handle": "p00008126-en-cost-excludes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352389136436",
+        "handle": "p00008126-zh-cn-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352389169204",
+        "handle": "p00008126-zh-cn-cost-excludes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352389464116",
+        "handle": "p00008126-zh-tw-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352389496884",
+        "handle": "p00008126-zh-tw-cost-excludes"
+      }
+    ],
+    "tour_policy_notice": [
+      {
+        "id": "gid://shopify/Metaobject/352388874292",
+        "handle": "p00008126-en-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352388907060",
+        "handle": "p00008126-en-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352388939828",
+        "handle": "p00008126-en-notice-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352389201972",
+        "handle": "p00008126-zh-cn-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352389234740",
+        "handle": "p00008126-zh-cn-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352389267508",
+        "handle": "p00008126-zh-cn-notice-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352389529652",
+        "handle": "p00008126-zh-tw-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352389562420",
+        "handle": "p00008126-zh-tw-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352389595188",
+        "handle": "p00008126-zh-tw-notice-3"
+      }
+    ]
+  },
+  "publication": {
+    "id": "gid://shopify/Publication/197740789812",
+    "name": "Travel Website Development"
+  },
+  "warnings": [
+    "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants.",
+    "Skipped optional add-ons because the product has no bookable departure-price variants."
+  ],
+  "metaobjectDefinitions": {
+    "tour_content": "gid://shopify/MetaobjectDefinition/18676711476",
+    "tour_highlight": "gid://shopify/MetaobjectDefinition/18675433524",
+    "tour_itinerary_day": "gid://shopify/MetaobjectDefinition/18675466292",
+    "tour_departure": "gid://shopify/MetaobjectDefinition/18675499060",
+    "tour_cost_section": "gid://shopify/MetaobjectDefinition/18675531828",
+    "tour_policy_notice": "gid://shopify/MetaobjectDefinition/18675564596",
+    "tour_pickup_dropoff": "gid://shopify/MetaobjectDefinition/18675597364",
+    "tour_addon": "gid://shopify/MetaobjectDefinition/18675630132"
+  },
+  "productReferenceMetafieldDefinitions": {
+    "content": "gid://shopify/MetafieldDefinition/217881935924",
+    "highlight": "gid://shopify/MetafieldDefinition/217872597044",
+    "itinerary_day": "gid://shopify/MetafieldDefinition/217872629812",
+    "departure": "gid://shopify/MetafieldDefinition/217872662580",
+    "cost_section": "gid://shopify/MetafieldDefinition/217872695348",
+    "policy_notice": "gid://shopify/MetafieldDefinition/217872728116",
+    "pickup_dropoff": "gid://shopify/MetafieldDefinition/217872760884",
+    "addon": "gid://shopify/MetafieldDefinition/217872793652"
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "productCode": "P00008484",
+  "handle": "p00008484-silver-4-day-aurora-viewing-tour-in-yellowknife-canada",
+  "shopifyProductId": "gid://shopify/Product/8881425809460",
+  "shopifyAddonProductId": "gid://shopify/Product/8881425907764",
+  "status": "ACTIVE",
+  "locales": [
+    "en",
+    "zh-CN",
+    "zh-TW"
+  ],
+  "syncedAt": "2026-07-15T04:51:08.037Z",
+  "variants": [],
+  "addons": [],
+  "images": [
+    {
+      "sourceUrl": "https://dimg04.c-ctrip.com/target/02S1o12000r35ef3z22F6.jpg",
+      "shopifyMediaId": "gid://shopify/MediaImage/28797036036148",
+      "shopifyFileId": null,
+      "position": 1,
+      "role": "featured",
+      "alt": "[Silver] 4-Day Aurora Viewing Tour in Yellowknife, Canada 1"
+    }
+  ],
+  "metaobjects": {
+    "tour_content": [
+      {
+        "id": "gid://shopify/Metaobject/352393789492",
+        "handle": "p00008484-en-content"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352394149940",
+        "handle": "p00008484-zh-cn-content"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352394477620",
+        "handle": "p00008484-zh-tw-content"
+      }
+    ],
+    "tour_highlight": [
+      {
+        "id": "gid://shopify/Metaobject/352393822260",
+        "handle": "p00008484-en-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352393855028",
+        "handle": "p00008484-en-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352393887796",
+        "handle": "p00008484-en-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352393920564",
+        "handle": "p00008484-en-highlight-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352393953332",
+        "handle": "p00008484-en-highlight-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352394182708",
+        "handle": "p00008484-zh-cn-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352394215476",
+        "handle": "p00008484-zh-cn-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352394248244",
+        "handle": "p00008484-zh-cn-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352394281012",
+        "handle": "p00008484-zh-cn-highlight-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352394510388",
+        "handle": "p00008484-zh-tw-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352394543156",
+        "handle": "p00008484-zh-tw-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352394575924",
+        "handle": "p00008484-zh-tw-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352394608692",
+        "handle": "p00008484-zh-tw-highlight-4"
+      }
+    ],
+    "tour_cost_section": [
+      {
+        "id": "gid://shopify/Metaobject/352393986100",
+        "handle": "p00008484-en-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352394018868",
+        "handle": "p00008484-en-cost-excludes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352394313780",
+        "handle": "p00008484-zh-cn-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352394346548",
+        "handle": "p00008484-zh-cn-cost-excludes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352394641460",
+        "handle": "p00008484-zh-tw-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352394674228",
+        "handle": "p00008484-zh-tw-cost-excludes"
+      }
+    ],
+    "tour_policy_notice": [
+      {
+        "id": "gid://shopify/Metaobject/352394051636",
+        "handle": "p00008484-en-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352394084404",
+        "handle": "p00008484-en-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352394117172",
+        "handle": "p00008484-en-notice-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352394379316",
+        "handle": "p00008484-zh-cn-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352394412084",
+        "handle": "p00008484-zh-cn-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352394444852",
+        "handle": "p00008484-zh-cn-notice-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352394706996",
+        "handle": "p00008484-zh-tw-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352394739764",
+        "handle": "p00008484-zh-tw-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352394772532",
+        "handle": "p00008484-zh-tw-notice-3"
+      }
+    ]
+  },
+  "publication": {
+    "id": "gid://shopify/Publication/197740789812",
+    "name": "Travel Website Development"
+  },
+  "warnings": [
+    "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants.",
+    "Skipped optional add-ons because the product has no bookable departure-price variants."
+  ],
+  "metaobjectDefinitions": {
+    "tour_content": "gid://shopify/MetaobjectDefinition/18676711476",
+    "tour_highlight": "gid://shopify/MetaobjectDefinition/18675433524",
+    "tour_itinerary_day": "gid://shopify/MetaobjectDefinition/18675466292",
+    "tour_departure": "gid://shopify/MetaobjectDefinition/18675499060",
+    "tour_cost_section": "gid://shopify/MetaobjectDefinition/18675531828",
+    "tour_policy_notice": "gid://shopify/MetaobjectDefinition/18675564596",
+    "tour_pickup_dropoff": "gid://shopify/MetaobjectDefinition/18675597364",
+    "tour_addon": "gid://shopify/MetaobjectDefinition/18675630132"
+  },
+  "productReferenceMetafieldDefinitions": {
+    "content": "gid://shopify/MetafieldDefinition/217881935924",
+    "highlight": "gid://shopify/MetafieldDefinition/217872597044",
+    "itinerary_day": "gid://shopify/MetafieldDefinition/217872629812",
+    "departure": "gid://shopify/MetafieldDefinition/217872662580",
+    "cost_section": "gid://shopify/MetafieldDefinition/217872695348",
+    "policy_notice": "gid://shopify/MetafieldDefinition/217872728116",
+    "pickup_dropoff": "gid://shopify/MetafieldDefinition/217872760884",
+    "addon": "gid://shopify/MetafieldDefinition/217872793652"
+  }
+}

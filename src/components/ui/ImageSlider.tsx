@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useEffectEvent, useRef, useState, type ReactNode } from 'react'
+import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react'
 import Image from 'next/image'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 import { cn } from '@/lib/utils'
@@ -64,11 +64,11 @@ export function ImageSlider({
   const slides = count > 1 ? [images[count - 1], ...images, images[0]] : images
   const [trackPos, setTrackPos] = useState(count > 1 ? activeIndex + 1 : 0)
 
-  const setIndex = (next: number) => {
+  const setIndex = useCallback((next: number) => {
     skipExternalSync.current = true
     setIndexState(next)
     onIndexChange?.(next)
-  }
+  }, [onIndexChange])
 
   useEffect(() => {
     if (skipExternalSync.current) {
@@ -76,12 +76,15 @@ export function ImageSlider({
       return
     }
     if (activeIndex === index || count <= 1) return
-    setAnimating(true)
-    setTrackPos(activeIndex + 1)
-    setIndexState(activeIndex)
+    const id = window.setTimeout(() => {
+      setAnimating(true)
+      setTrackPos(activeIndex + 1)
+      setIndexState(activeIndex)
+    }, 0)
+    return () => window.clearTimeout(id)
   }, [activeIndex, count, index])
 
-  const goTo = useEffectEvent((next: number, dir?: 'next' | 'prev') => {
+  const goTo = useCallback((next: number, dir?: 'next' | 'prev') => {
     if (count <= 1) return
     const normalized = ((next % count) + count) % count
 
@@ -101,7 +104,7 @@ export function ImageSlider({
     setAnimating(true)
     setTrackPos(normalized + 1)
     setIndex(normalized)
-  })
+  }, [count, index, setIndex])
 
   const next = () => goTo(index + 1, 'next')
   const prev = () => goTo(index - 1, 'prev')
@@ -111,7 +114,7 @@ export function ImageSlider({
     if (paused || count <= 1) return
     const timer = window.setInterval(() => goTo(index + 1, 'next'), autoplayMs)
     return () => window.clearInterval(timer)
-  }, [paused, count, index, autoplayMs])
+  }, [paused, count, index, autoplayMs, goTo])
 
   useEffect(() => {
     const node = trackRef.current

@@ -1,0 +1,3915 @@
+{
+  "extractedAt": "2026-07-15T04:33:11.221Z",
+  "product": {
+    "productCode": "P00008026",
+    "productViewCode": "R0005097",
+    "groupNo": "DCNY1",
+    "title": "【銀榜惠享】美東跨城輕鬆達系列 | 華盛頓特區 - 紐約",
+    "subtitle": "",
+    "categoryCode": "PC00000018",
+    "categoryName": "Washington D.C.",
+    "productClass": 1,
+    "productForm": 1,
+    "duration": {
+      "days": 1,
+      "nights": 0,
+      "label": "1 days / 0 nights"
+    },
+    "start": {
+      "regionCode": "A353",
+      "regionName": "華盛頓特區 Washington D.C.",
+      "resourceType": 0
+    },
+    "end": {
+      "regionCode": "A320",
+      "regionName": "紐約市 New York",
+      "resourceType": 0
+    },
+    "destinations": [
+      {
+        "country": "",
+        "province": "華盛頓特區 Washington, D.C.",
+        "scenic": "",
+        "spotCode": "",
+        "spotName": "",
+        "raw": {
+          "countryCode": "",
+          "countryName": "",
+          "provinceCode": "A312",
+          "provinceName": "華盛頓特區 Washington, D.C.",
+          "scenicCode": "",
+          "scenicName": "",
+          "scenicSpotCode": "",
+          "scenicSpotName": "",
+          "resourceType": 0
+        }
+      }
+    ],
+    "vehicleCodes": [
+      "1"
+    ],
+    "vehicles": [
+      "Vehicle"
+    ],
+    "transferCodes": [],
+    "transfers": [],
+    "status": 200,
+    "releaseTime": "2025-09-04 17:22:16",
+    "changeTime": "2026-05-23 13:57:00",
+    "dataVersion": 1767496475,
+    "raw": {
+      "mainLanguage": 2,
+      "productCode": "P00008026",
+      "productViewCode": "R0005097",
+      "groupNo": "DCNY1",
+      "productClass": 1,
+      "carpointOff": 3,
+      "carpointOn": 3,
+      "productType": "PC00000018",
+      "productTypeName": "Washington D.C.",
+      "tripDay": 1,
+      "nightDay": 0,
+      "productForm": 1,
+      "productRoom": 1,
+      "productVehicle": "1",
+      "productTransfer": "",
+      "productName": "【銀榜惠享】美東跨城輕鬆達系列 | 華盛頓特區 - 紐約",
+      "subtitleName": "",
+      "productSpecial": "<p>【跨城輕鬆達】點到點單程車票，精準解決大交通煩惱，助您跨城旅行便捷無憂。<br />【省時又省力】對比自駕，無需租車駕駛，省去繁雜流程，為旅程節省時間與精力。<br />【超高性價比】相較機票，保證準時發車，杜絕延誤困擾，出行費用更具性價比。<br />【便捷有導遊】優於一般跨城巴士，參離團點覆蓋廣泛，全程配備華人導遊。<br />【安心又舒適】身處華人遊客專屬氛圍，消除陌生感，讓跨城旅程更安心舒適。<br />【靈活享風景】沿途經停精選特色景點，可隨時下車舒展，享受自由活動時光。</p>",
+      "salesNote": "",
+      "departureDate": "週六\n兩人成團，保證出發。",
+      "rewardCode": "RM00007284",
+      "createTime": "2025-08-30 14:08:08",
+      "datachangelasttime": "2026-05-23 13:57:00",
+      "dataVersion": 1767496475,
+      "productPriceAuto": 2,
+      "advanceDay": -1,
+      "advanceTime": "",
+      "productIsOutreach": null,
+      "upperProductCode": null,
+      "upperUpBranchCode": null,
+      "productAttribute": 1,
+      "productClassify": 0,
+      "schemeName": null,
+      "productStatus": 200,
+      "otherCurrencySupport": [],
+      "productRateInfoList": [],
+      "isLocalResidentOptional": 0
+    }
+  },
+  "media": {
+    "images": [
+      "https://dimg04.c-ctrip.com/target/02S0j12000eopejduA851.png"
+    ],
+    "imageObjects": [
+      {
+        "imageUrl": "02S0j12000eopejduA851.png",
+        "imageName": "国家独立历史公园"
+      }
+    ],
+    "rawProductImg": [
+      "02S0j12000eopejduA851.png"
+    ]
+  },
+  "highlights": {
+    "html": "<p>【跨城輕鬆達】點到點單程車票，精準解決大交通煩惱，助您跨城旅行便捷無憂。<br />【省時又省力】對比自駕，無需租車駕駛，省去繁雜流程，為旅程節省時間與精力。<br />【超高性價比】相較機票，保證準時發車，杜絕延誤困擾，出行費用更具性價比。<br />【便捷有導遊】優於一般跨城巴士，參離團點覆蓋廣泛，全程配備華人導遊。<br />【安心又舒適】身處華人遊客專屬氛圍，消除陌生感，讓跨城旅程更安心舒適。<br />【靈活享風景】沿途經停精選特色景點，可隨時下車舒展，享受自由活動時光。</p>",
+    "text": "【跨城輕鬆達】點到點單程車票，精準解決大交通煩惱，助您跨城旅行便捷無憂。\n【省時又省力】對比自駕，無需租車駕駛，省去繁雜流程，為旅程節省時間與精力。\n【超高性價比】相較機票，保證準時發車，杜絕延誤困擾，出行費用更具性價比。\n【便捷有導遊】優於一般跨城巴士，參離團點覆蓋廣泛，全程配備華人導遊。\n【安心又舒適】身處華人遊客專屬氛圍，消除陌生感，讓跨城旅程更安心舒適。\n【靈活享風景】沿途經停精選特色景點，可隨時下車舒展，享受自由活動時光。",
+    "salesNoteHtml": "",
+    "salesNoteText": ""
+  },
+  "departure": {
+    "html": "週六<br>兩人成團，保證出發。",
+    "text": "週六\n兩人成團，保證出發。",
+    "advanceDay": -1,
+    "advanceTime": "",
+    "availabilityStart": "2026-07-14",
+    "availabilityEnd": "2027-12-31"
+  },
+  "pricing": {
+    "requestedCurrency": "USD",
+    "defaultCurrency": {
+      "currencyCode": "CI00000002",
+      "branchCode": "B00000003",
+      "currencyNum": "USD",
+      "currencyName": "美元",
+      "currencySymbol": "$",
+      "currencyAccuracy": 2,
+      "currencyRate": 1,
+      "currencyConversion": 1,
+      "currencyIsDefault": 1,
+      "currencyStatus": 200
+    },
+    "supportedCurrencies": [
+      {
+        "currencyCode": "CI00000111",
+        "branchCode": "B00000003",
+        "currencyNum": "CAD",
+        "currencyName": "CAD",
+        "currencySymbol": "C$",
+        "currencyAccuracy": 4,
+        "currencyRate": 1.423,
+        "currencyConversion": 1,
+        "currencyIsDefault": 0,
+        "currencyStatus": 200
+      },
+      {
+        "currencyCode": "CI00000002",
+        "branchCode": "B00000003",
+        "currencyNum": "USD",
+        "currencyName": "美元",
+        "currencySymbol": "$",
+        "currencyAccuracy": 2,
+        "currencyRate": 1,
+        "currencyConversion": 1,
+        "currencyIsDefault": 1,
+        "currencyStatus": 200
+      }
+    ],
+    "firstAvailableDate": "2026-07-18 00:00:00",
+    "basePrices": [
+      {
+        "priceType": 1,
+        "label": "Adult",
+        "amount": 69,
+        "rewardPrice": 0,
+        "markup": 0,
+        "raw": {
+          "priceType": 1,
+          "groupPrice": 69,
+          "rewardPrice": 0,
+          "rewardType": 0,
+          "rewardValue": 0,
+          "markup": 0
+        }
+      },
+      {
+        "priceType": 2,
+        "label": "Child",
+        "amount": 69,
+        "rewardPrice": 0,
+        "markup": 0,
+        "raw": {
+          "priceType": 2,
+          "groupPrice": 69,
+          "rewardPrice": 0,
+          "rewardType": 0,
+          "rewardValue": 0,
+          "markup": 0
+        }
+      }
+    ],
+    "availability": [
+      {
+        "date": "2026-07-18",
+        "groupDate": "2026-07-18 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 0,
+        "groupSaleStock": 0,
+        "remainingStock": 0,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-07-25",
+        "groupDate": "2026-07-25 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 13,
+        "groupSaleStock": 0,
+        "remainingStock": 13,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-01",
+        "groupDate": "2026-08-01 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 11,
+        "groupSaleStock": 2,
+        "remainingStock": 9,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-08",
+        "groupDate": "2026-08-08 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 13,
+        "groupSaleStock": 0,
+        "remainingStock": 13,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-15",
+        "groupDate": "2026-08-15 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 13,
+        "groupSaleStock": 0,
+        "remainingStock": 13,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-22",
+        "groupDate": "2026-08-22 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 13,
+        "groupSaleStock": 0,
+        "remainingStock": 13,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-29",
+        "groupDate": "2026-08-29 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 13,
+        "groupSaleStock": 0,
+        "remainingStock": 13,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-09-05",
+        "groupDate": "2026-09-05 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 13,
+        "groupSaleStock": 0,
+        "remainingStock": 13,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-09-12",
+        "groupDate": "2026-09-12 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 13,
+        "groupSaleStock": 0,
+        "remainingStock": 13,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-09-19",
+        "groupDate": "2026-09-19 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 13,
+        "groupSaleStock": 0,
+        "remainingStock": 13,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-09-26",
+        "groupDate": "2026-09-26 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 13,
+        "groupSaleStock": 0,
+        "remainingStock": 13,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-10-03",
+        "groupDate": "2026-10-03 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 13,
+        "groupSaleStock": 0,
+        "remainingStock": 13,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-10-10",
+        "groupDate": "2026-10-10 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 13,
+        "groupSaleStock": 0,
+        "remainingStock": 13,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-10-17",
+        "groupDate": "2026-10-17 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 13,
+        "groupSaleStock": 0,
+        "remainingStock": 13,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-10-24",
+        "groupDate": "2026-10-24 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 13,
+        "groupSaleStock": 0,
+        "remainingStock": 13,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-10-31",
+        "groupDate": "2026-10-31 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 13,
+        "groupSaleStock": 0,
+        "remainingStock": 13,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-11-07",
+        "groupDate": "2026-11-07 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 13,
+        "groupSaleStock": 0,
+        "remainingStock": 13,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-11-14",
+        "groupDate": "2026-11-14 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 13,
+        "groupSaleStock": 0,
+        "remainingStock": 13,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-11-21",
+        "groupDate": "2026-11-21 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 13,
+        "groupSaleStock": 0,
+        "remainingStock": 13,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-11-28",
+        "groupDate": "2026-11-28 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 13,
+        "groupSaleStock": 0,
+        "remainingStock": 13,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-12-05",
+        "groupDate": "2026-12-05 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 13,
+        "groupSaleStock": 0,
+        "remainingStock": 13,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-12-12",
+        "groupDate": "2026-12-12 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 13,
+        "groupSaleStock": 0,
+        "remainingStock": 13,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-12-19",
+        "groupDate": "2026-12-19 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 13,
+        "groupSaleStock": 0,
+        "remainingStock": 13,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-12-26",
+        "groupDate": "2026-12-26 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 13,
+        "groupSaleStock": 0,
+        "remainingStock": 13,
+        "isGroupRoom": false,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 1,
+            "label": "Adult",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 2,
+            "label": "Child",
+            "amount": 69,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      }
+    ]
+  },
+  "itinerary": {
+    "productDay": 1,
+    "productNight": 0,
+    "travelName": "【銀榜惠享】美東隨上隨下系列 | 華盛頓特區 - 紐約",
+    "days": [
+      {
+        "dayNumber": 1,
+        "section": "華盛頓特區|||1+++費城|||1+++紐約",
+        "sectionStops": [
+          {
+            "type": "place",
+            "label": "華盛頓特區"
+          },
+          {
+            "type": "transfer",
+            "vehicleCode": "1",
+            "vehicle": "Vehicle",
+            "place": "費城"
+          },
+          {
+            "type": "transfer",
+            "vehicleCode": "1",
+            "vehicle": "Vehicle",
+            "place": "紐約"
+          }
+        ],
+        "todayLocation": "",
+        "distributionFactor": 0,
+        "isFreeTravel": null,
+        "optionalProductList": [],
+        "content": [
+          {
+            "contentMode": 3,
+            "contentType": 100,
+            "sortNumber": 0,
+            "relatedId": 31291,
+            "relatedDay": 1,
+            "relatedName": "【DC-NY】華盛頓特區 - 費城 - 紐約",
+            "decodedJson": {
+              "travelId": 31291,
+              "productCategory": 1,
+              "name": "【DC-NY】華盛頓特區 - 費城 - 紐約",
+              "productType": "PC00000018",
+              "isAutoTeam": null,
+              "expandList": [
+                {
+                  "language": 2,
+                  "isSource": 1,
+                  "dayList": [
+                    {
+                      "section": "華盛頓特區|||1+++費城|||1+++紐約",
+                      "todayLocation": "",
+                      "dayNumber": 1,
+                      "content": [
+                        {
+                          "contentMode": 0,
+                          "productSortNum": null,
+                          "relatedId": -1,
+                          "relatedDay": -1,
+                          "relatedName": "",
+                          "contentType": 7,
+                          "sortNumber": 0,
+                          "jsonContent": "eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD7ku4rlpKnmiJHlgJHlsIflvp7oj6/nm5vpoJPnibnljYDlh7rnmbzvvIzpqYXou4rliY3lvoDooqvnqLHngrombGRxdW875Y+L5oSb5LmL5Z+OJnJkcXVvO+eahOiyu+Wfju+8jOWPg+ingOWci+WutueNqOeri+att+WPsuWFrOWckuWFp+ixoeW+geiHqueUseeNqOeri+eahOeNqOeri+WuruWSjOiHqueUsemQmOOAguWNiOmkkOW+jO+8jOe5vOe6jOWMl+S4iu+8jOWJjeW+gOS4lueVjOesrOS4gOWkp+mDveW4gue0kOe0hOOAguWcqOe0kOe0hOaIkeWAkeWwh+WPg+WKoOmHkeiejeiyoeWvjOS5i+aXhe+8jOa3seWFpeaEn+WPl+mHkeiejeeVjOWcsOaomeaAp+W7uuevieeahOeEoemZkOmtheWKm++8geWIsOS6huWknOaZmu+8jOaIkeWAkeeahOe0kOe0hOWknOaZr+mBiuS4gOWumuiDvee1puaCqOW4tuS+huWFqOaWsOeahOS4jeS4gOaoo+eahOmrlOmpl++8jOWknOiJsuexoOe9qeS4i+eahOe0kOe0hOato+WcqOeEoemZkOi/uOeZvOa9rua1geiIh+a/gOaDhe+8geetieW+heiRl+aCqOeahOaOoue0ouWSjOeZvOePvuOAgjwvcD5cbjxwPiZuYnNwOzwvcD5cbjxwPjxzdHJvbmc+6KGM56iL5a6J5o6S77yaPC9zdHJvbmc+PC9wPlxuPHA+PHN0cm9uZz7oj6/nm5vpoJPnibnljYAgJnJhcnI7IOiyu+WfjiAmcmFycjsg5ZyL5a62542o56uL5q235Y+y5YWs5ZySPC9zdHJvbmc+77yINDDliIbpkJjvvIkmcmFycjsgPHN0cm9uZz7ntJDntITph5Hono3osqHlr4zkuYvml4Ur57SQ57SE5aSc5pmv6YGKPC9zdHJvbmc+77yI6Ieq6LK777yMMjQw5YiG6ZCY77yJPC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz7lhajnqIvmmYLplbfvvJrntIQxMuWwj+aZgjwvc3Ryb25nPjwvcD5cbjxwPiZuYnNwOzwvcD5cbjxwPjxzdHJvbmc+57SQ57SE6YeR6J6N6LKh5a+M5LmL5peF77yaPC9zdHJvbmc+PGJyIC8+56ys5LiA56uZ77ya6Iux6ZuE5bO96LC3ICZyYXJyOyDkvI3niL7msoPmlq/lpKfmqJMgJnJhcnI7IOafj+i3r+Wkp+aok++8iDE4OTktMTkwMeW5tOmWk+S4lueVjOacgOmrmOeahOaRqeWkqeWkp+aok++8iSAmcmFycjsg5rOi54m55aSn5qiTICZyYXJyOyDogZbkv53nvoXmlZnloIIgJnJhcnI7IOmbu+WgseWkp+aokzxiciAvPuesrOS6jOerme+8muWFrOW5s+Wkp+aokyAmcmFycjsg5LiJ5LiA5pWZ5pyDICZyYXJyOyDoga/pgqblhLLok4TpioDooYwgJnJhcnI7IOiBr+mCpuWkp+W7syAmcmFycjsg57SQ57SE6K2J5Yi45Lqk5piT5omAICZyYXJyOyDlt53mma7lpKfmqJMgJnJhcnI7IOW+t+aEj+W/l+mKgOihjOiIiuWdgO+8iOWkp+mAmumKgOihjOiIiuWdgO+8iSZyYXJyOyDoj6/niL7ooZfpioXniZsgJnJhcnI7IOa1t+mXnOWkp+aokyAmcmFycjsg5qiZ5rqW55+z5rK55aSn5qiTICZyYXJyOyDmqJnmupbmma7niL7lpKflu4g8YnIgLz7nrKzkuInnq5nvvJrmtJvlhYvmlpDli5LkuK3lv4PvvIjpgJTntpPntJDntITpkb3nn7PljYDjgIHlnIvpmpvlr7bnn7PlpKfmqJPvvIk8YnIgLz7nrKzlm5vnq5nvvJrmma7nq4vojLLlmbTms4kgJnJhcnI7IOWkp+i7jeWcmOW7o+WgtCAmcmFycjsg5buj5aC06aOv5bqXICZyYXJyOyDmmYLku6Plu6PloLQgJnJhcnI7IOe0jeaWr+mBlOWFizwvcD5cbjxwPjxzdHJvbmc+54m55Yil6Kqq5piO77yaPC9zdHJvbmc+PGJyIC8+MS4g57SQ57SE6YeR6J6N6LKh5a+M5LmL5peF5pmv6bue6YGK6Ka95pa55byP54K66LuK6YGKK+i8leW+kuatpe+8jOmrlOWKm+imgeaxgumBqeS4reOAgjxiciAvPjIuIOS7peS4iuaZr+m7nuWdh+eCuuWkluingOOAgjwvcD5cbjxwPjxiciAvPjxzdHJvbmc+5aSc5pmv6KGM56iL5a6J5o6S77yaPC9zdHJvbmc+PC9wPlxuPHA+5rSb5YWL5paQ5YuS5Lit5b+DJmFtcDvogZbluJXnibnoo6HlhYvmlZnloIImYW1wO+esrOS6lOWkp+mBkyAmcmFycjsg5pmC5Luj5buj5aC0ICZyYXJyOyDmlrDmvqTopb/op4Dmma/lj7A8L3A+IiwidGltZSI6IjEifQ==",
+                          "decodedJson": {
+                            "distanc": "",
+                            "distancUnit": 1,
+                            "hours": "",
+                            "minutes": "",
+                            "stayHours": "",
+                            "stayMinutes": "",
+                            "listImage": [],
+                            "description": "<p>今天我們將從華盛頓特區出發，驅車前往被稱為&ldquo;友愛之城&rdquo;的費城，參觀國家獨立歷史公園內象征自由獨立的獨立宮和自由鐘。午餐後，繼續北上，前往世界第一大都市紐約。在紐約我們將參加金融財富之旅，深入感受金融界地標性建築的無限魅力！到了夜晚，我們的紐約夜景遊一定能給您帶來全新的不一樣的體驗，夜色籠罩下的紐約正在無限迸發潮流與激情！等待著您的探索和發現。</p>\n<p>&nbsp;</p>\n<p><strong>行程安排：</strong></p>\n<p><strong>華盛頓特區 &rarr; 費城 &rarr; 國家獨立歷史公園</strong>（40分鐘）&rarr; <strong>紐約金融財富之旅+紐約夜景遊</strong>（自費，240分鐘）</p>\n<p>&nbsp;</p>\n<p><strong>全程時長：約12小時</strong></p>\n<p>&nbsp;</p>\n<p><strong>紐約金融財富之旅：</strong><br />第一站：英雄峽谷 &rarr; 伍爾沃斯大樓 &rarr; 柏路大樓（1899-1901年間世界最高的摩天大樓） &rarr; 波特大樓 &rarr; 聖保羅教堂 &rarr; 電報大樓<br />第二站：公平大樓 &rarr; 三一教會 &rarr; 聯邦儲蓄銀行 &rarr; 聯邦大廳 &rarr; 紐約證券交易所 &rarr; 川普大樓 &rarr; 德意志銀行舊址（大通銀行舊址）&rarr; 華爾街銅牛 &rarr; 海關大樓 &rarr; 標準石油大樓 &rarr; 標準普爾大廈<br />第三站：洛克斐勒中心（途經紐約鑽石區、國際寶石大樓）<br />第四站：普立茲噴泉 &rarr; 大軍團廣場 &rarr; 廣場飯店 &rarr; 時代廣場 &rarr; 納斯達克</p>\n<p><strong>特別說明：</strong><br />1. 紐約金融財富之旅景點遊覽方式為車遊+輕徒步，體力要求適中。<br />2. 以上景點均為外觀。</p>\n<p><br /><strong>夜景行程安排：</strong></p>\n<p>洛克斐勒中心&amp;聖帕特裡克教堂&amp;第五大道 &rarr; 時代廣場 &rarr; 新澤西觀景台</p>",
+                            "time": "1"
+                          }
+                        },
+                        {
+                          "contentMode": 0,
+                          "productSortNum": null,
+                          "relatedId": -1,
+                          "relatedDay": -1,
+                          "relatedName": "",
+                          "contentType": 2,
+                          "sortNumber": 1,
+                          "jsonContent": "eyJpbmZvcm1hdGlvbiI6IuS5mOi7iuW+nuiPr+ebm+mgk+eJueWNgOWJjeW+gOiyu+WfjiIsImRpc3RhbmMiOiIxNDUiLCJkaXN0YW5jVW5pdCI6MywiaG91cnMiOiIyIiwibWludXRlcyI6IjIwIiwidGltZSI6IjIifQ==",
+                          "decodedJson": {
+                            "information": "乘車從華盛頓特區前往費城",
+                            "distanc": "145",
+                            "distancUnit": 3,
+                            "hours": "2",
+                            "minutes": "20",
+                            "time": "2"
+                          }
+                        },
+                        {
+                          "contentMode": 0,
+                          "productSortNum": null,
+                          "relatedId": -1,
+                          "relatedDay": -1,
+                          "relatedName": "",
+                          "contentType": 3,
+                          "sortNumber": 2,
+                          "jsonContent": "eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJ0eXBlIjowLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMDA1MyIsInNjZW5pY05hbWUiOiLlnIvlrrbnjajnq4vmrbflj7LlhazlnJIgSW5kZXBlbmRlbmNlIE5hdGlvbmFsIEhpc3RvcmljYWwgUGFyayIsInNjZW5pY0V4cGxhaW4iOiIiLCJpc0FwcGVhcmFuY2UiOjAsImxvYWRlZCI6dHJ1ZSwic2NlbmljZURlc2MiOiI8cD7osrvln47pgJnniYflnJ/lnLDvvIzopovorYnkuobnvo7lnIvnmoTnjajnq4vlkozoqpXnlJ/jgILmoLnmk5rnvo7lnIvnjajnq4vmiLDniK3nmoTnsr7npZ7lu7rpgKDnmoTlnIvlrrbnjajnq4vmrbflj7LlhazlnJLoo6HljIXlkKvkuobkuIDkupvoiIfnvo7lnIvpnanlkb3lkozlu7rlnIvmrbflj7LmnInpl5znmoTmrbflj7Llu7rnr4nvvIzooqvnqLHngrombGRxdW87576O5ZyL5pyA5YW35pyJ5q235Y+y5oSP576p55qE5LiA5bmz5pa56Iux6YeMJmxkcXVvO+OAguWcqOWFrOWckuijoe+8jOWPr+S7peeci+WIsOe2oOaoueeSsOaKseeahOeNqOeri+W7o+WgtO+8jOmrmOmrmOiBs+eri+eahOS5s+eZveiJsumQmOWhlO+8jOmChOacieiRl+ermeeri+WcqOiNieWdquS4iumWi+Wci+e+pOiLseeahOmKheWDj++8jOmAmeijoeeahOaVtOmrlOawm+WcjeS9v+S6uuaEn+WIsOiOiuWatOiCheephuOAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfV0sImRpc3RhbmMiOiIiLCJkaXN0YW5jVW5pdCI6MSwiaG91cnMiOiIiLCJtaW51dGVzIjoiIiwic3RheUhvdXJzIjoiIiwic3RheU1pbnV0ZXMiOiIiLCJ0aW1lIjoiMiJ9",
+                          "decodedJson": {
+                            "content": [
+                              {
+                                "activityNo": 1,
+                                "type": 0,
+                                "sourceType": 2,
+                                "scenicCode": "SM00000053",
+                                "scenicName": "國家獨立歷史公園 Independence National Historical Park",
+                                "scenicExplain": "",
+                                "isAppearance": 0,
+                                "loaded": true,
+                                "sceniceDesc": "<p>費城這片土地，見證了美國的獨立和誕生。根據美國獨立戰爭的精神建造的國家獨立歷史公園裡包含了一些與美國革命和建國歷史有關的歷史建築，被稱為&ldquo;美國最具有歷史意義的一平方英里&ldquo;。在公園裡，可以看到綠樹環抱的獨立廣場，高高聳立的乳白色鐘塔，還有著站立在草坪上開國群英的銅像，這裡的整體氛圍使人感到莊嚴肅穆。</p>",
+                                "scenicImages": []
+                              }
+                            ],
+                            "distanc": "",
+                            "distancUnit": 1,
+                            "hours": "",
+                            "minutes": "",
+                            "stayHours": "",
+                            "stayMinutes": "",
+                            "time": "2"
+                          }
+                        },
+                        {
+                          "contentMode": 0,
+                          "productSortNum": null,
+                          "relatedId": -1,
+                          "relatedDay": -1,
+                          "relatedName": "",
+                          "contentType": 2,
+                          "sortNumber": 3,
+                          "jsonContent": "eyJpbmZvcm1hdGlvbiI6IuS5mOi7iuW+nuiyu+WfjuWJjeW+gOe0kOe0hCIsImRpc3RhbmMiOiIxMDAiLCJkaXN0YW5jVW5pdCI6MywiaG91cnMiOiIxIiwibWludXRlcyI6IjQwIiwidGltZSI6IjMifQ==",
+                          "decodedJson": {
+                            "information": "乘車從費城前往紐約",
+                            "distanc": "100",
+                            "distancUnit": 3,
+                            "hours": "1",
+                            "minutes": "40",
+                            "time": "3"
+                          }
+                        },
+                        {
+                          "contentMode": 0,
+                          "productSortNum": null,
+                          "relatedId": -1,
+                          "relatedDay": -1,
+                          "relatedName": "",
+                          "contentType": 3,
+                          "sortNumber": 4,
+                          "jsonContent": "eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJ0eXBlIjowLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMzMyOSIsInNjZW5pY05hbWUiOiLntJDntITph5Hono3osqHlr4zkuYvml4UgTmV3IFlvcmsgQ2l0eSBGb3J0dW5lIFRvdXIiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+5pu85ZOI6aCT55qE6YeR6J6N5aSi77yM5Zyo57SQ57SE57a75pS+77yM6YCZ6KOh5bm+5LmO6IGa6ZuG5LqG5LiW55WM5pyA6aCC5bCW55qE6YeR6J6N5qmf5qeL44CC5LuK5aSp5oiR5YCR5bCH5Zyo5LiW55WM6YeR6J6N5Lit5b+D57SQ57SE5Y+D6KeA5LiA5Lqb57aT5YW45Zyw5qiZ5bu656+J77yM6Iux6ZuE5bO96LC344CB5p+P6Lev5aSn5qiT44CB5LiJ5LiA5pWZ5aCC44CB57SQ57SE6K2J5Yi45Lqk5piT5omA44CB5rSb5YWL5paQ5YuS5Lit5b+D562J562J77yM5oSf5Y+X5r+D6YOB55qE6YeR6J6N5ZWG5qWt5rCj5oGv44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119LHsiYWN0aXZpdHlObyI6MiwidHlwZSI6Miwic291cmNlVHlwZSI6Miwic2NlbmljQ29kZSI6IlNNMDAwMDEyNDgiLCJzY2VuaWNOYW1lIjoi57SQ57SE5aSc5pmv6YGKIE5ldyBZb3JrIE5pZ2h0IFRvdXIiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+6aaW5YWI5oiR5YCR5bCH5aSW6KeA5rSb5YWL6I+y5YuS5Lit5b+D44CB6IGW5biV54m56KOP5YWL5aSn5pWZ5aCC44CB5p6X6IKv6Jed6KGT5Lit5b+D44CC5rSb5YWL6I+y5YuS5Lit5b+D5piv5YWo5LiW55WM5pyA5aSn55qE56eB5Lq65pOB5pyJ55qE5bu656+J576k77yM5Lmf5piv5qiZ6KqM6JGX6KOd6aO+6Jed6KGT6aKo5qC85bu656+J55qE5Zyw5qiZ54mp77yM5YW25oSP576p55qE6YeN5aSn77yM5pep5bCx6LaF6YGO5bu656+J5pys6Lqr5LqG44CC5YWo55CD5pyA5aSn55qE6Jed6KGT5pyD5aC0Jm1kYXNoO+ael+iCr+iXneihk+S4reW/g+aYr+aJgOacieiXneihk+WutuaGp+aGrOeahOiInuiHuu+8jOmAmeijoeW9membhuS6huWKh+mZouatjOWKh+mZouOAgemfs+aoguW7s+OAgeWupOWklumfs+aoguW7s++8jOS5n+aYr+e0kOe0hOeahOaWh+WMluS4reW/g+OAguacgOW+jOWJjeW+gERVTUJP5rW35r+x5YWs5ZyS77yM5qyj6LOe5pu85ZOI6aCT5aSn5qmL5ZKM5biD6a2v5YWL5p6X5aSn5qmL6ZuZ5qmL5rWq5ryr5aSc5pmv44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119XSwiZGlzdGFuYyI6IiIsImRpc3RhbmNVbml0IjoxLCJob3VycyI6IiIsIm1pbnV0ZXMiOiIiLCJzdGF5SG91cnMiOiIiLCJzdGF5TWludXRlcyI6IiIsInRpbWUiOiIzIn0=",
+                          "decodedJson": {
+                            "content": [
+                              {
+                                "activityNo": 1,
+                                "type": 0,
+                                "sourceType": 2,
+                                "scenicCode": "SM00003329",
+                                "scenicName": "紐約金融財富之旅 New York City Fortune Tour",
+                                "scenicExplain": "",
+                                "isAppearance": 0,
+                                "loaded": true,
+                                "sceniceDesc": "<p>曼哈頓的金融夢，在紐約綻放，這裡幾乎聚集了世界最頂尖的金融機構。今天我們將在世界金融中心紐約參觀一些經典地標建築，英雄峽谷、柏路大樓、三一教堂、紐約證券交易所、洛克斐勒中心等等，感受濃郁的金融商業氣息。</p>",
+                                "scenicImages": []
+                              },
+                              {
+                                "activityNo": 2,
+                                "type": 2,
+                                "sourceType": 2,
+                                "scenicCode": "SM00001248",
+                                "scenicName": "紐約夜景遊 New York Night Tour",
+                                "scenicExplain": "",
+                                "isAppearance": 0,
+                                "loaded": true,
+                                "sceniceDesc": "<p>首先我們將外觀洛克菲勒中心、聖帕特裏克大教堂、林肯藝術中心。洛克菲勒中心是全世界最大的私人擁有的建築群，也是標誌著裝飾藝術風格建築的地標物，其意義的重大，早就超過建築本身了。全球最大的藝術會場&mdash;林肯藝術中心是所有藝術家憧憬的舞臺，這裡彙集了劇院歌劇院、音樂廳、室外音樂廳，也是紐約的文化中心。最後前往DUMBO海濱公園，欣賞曼哈頓大橋和布魯克林大橋雙橋浪漫夜景。</p>",
+                                "scenicImages": []
+                              }
+                            ],
+                            "distanc": "",
+                            "distancUnit": 1,
+                            "hours": "",
+                            "minutes": "",
+                            "stayHours": "",
+                            "stayMinutes": "",
+                            "time": "3"
+                          }
+                        }
+                      ],
+                      "distributionFactor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "rawJsonContent": "{\"travelId\":31291,\"productCategory\":1,\"name\":\"【DC-NY】華盛頓特區 - 費城 - 紐約\",\"productType\":\"PC00000018\",\"isAutoTeam\":null,\"expandList\":[{\"language\":2,\"isSource\":1,\"dayList\":[{\"section\":\"華盛頓特區|||1+++費城|||1+++紐約\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD7ku4rlpKnmiJHlgJHlsIflvp7oj6/nm5vpoJPnibnljYDlh7rnmbzvvIzpqYXou4rliY3lvoDooqvnqLHngrombGRxdW875Y+L5oSb5LmL5Z+OJnJkcXVvO+eahOiyu+Wfju+8jOWPg+ingOWci+WutueNqOeri+att+WPsuWFrOWckuWFp+ixoeW+geiHqueUseeNqOeri+eahOeNqOeri+WuruWSjOiHqueUsemQmOOAguWNiOmkkOW+jO+8jOe5vOe6jOWMl+S4iu+8jOWJjeW+gOS4lueVjOesrOS4gOWkp+mDveW4gue0kOe0hOOAguWcqOe0kOe0hOaIkeWAkeWwh+WPg+WKoOmHkeiejeiyoeWvjOS5i+aXhe+8jOa3seWFpeaEn+WPl+mHkeiejeeVjOWcsOaomeaAp+W7uuevieeahOeEoemZkOmtheWKm++8geWIsOS6huWknOaZmu+8jOaIkeWAkeeahOe0kOe0hOWknOaZr+mBiuS4gOWumuiDvee1puaCqOW4tuS+huWFqOaWsOeahOS4jeS4gOaoo+eahOmrlOmpl++8jOWknOiJsuexoOe9qeS4i+eahOe0kOe0hOato+WcqOeEoemZkOi/uOeZvOa9rua1geiIh+a/gOaDhe+8geetieW+heiRl+aCqOeahOaOoue0ouWSjOeZvOePvuOAgjwvcD5cbjxwPiZuYnNwOzwvcD5cbjxwPjxzdHJvbmc+6KGM56iL5a6J5o6S77yaPC9zdHJvbmc+PC9wPlxuPHA+PHN0cm9uZz7oj6/nm5vpoJPnibnljYAgJnJhcnI7IOiyu+WfjiAmcmFycjsg5ZyL5a62542o56uL5q235Y+y5YWs5ZySPC9zdHJvbmc+77yINDDliIbpkJjvvIkmcmFycjsgPHN0cm9uZz7ntJDntITph5Hono3osqHlr4zkuYvml4Ur57SQ57SE5aSc5pmv6YGKPC9zdHJvbmc+77yI6Ieq6LK777yMMjQw5YiG6ZCY77yJPC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz7lhajnqIvmmYLplbfvvJrntIQxMuWwj+aZgjwvc3Ryb25nPjwvcD5cbjxwPiZuYnNwOzwvcD5cbjxwPjxzdHJvbmc+57SQ57SE6YeR6J6N6LKh5a+M5LmL5peF77yaPC9zdHJvbmc+PGJyIC8+56ys5LiA56uZ77ya6Iux6ZuE5bO96LC3ICZyYXJyOyDkvI3niL7msoPmlq/lpKfmqJMgJnJhcnI7IOafj+i3r+Wkp+aok++8iDE4OTktMTkwMeW5tOmWk+S4lueVjOacgOmrmOeahOaRqeWkqeWkp+aok++8iSAmcmFycjsg5rOi54m55aSn5qiTICZyYXJyOyDogZbkv53nvoXmlZnloIIgJnJhcnI7IOmbu+WgseWkp+aokzxiciAvPuesrOS6jOerme+8muWFrOW5s+Wkp+aokyAmcmFycjsg5LiJ5LiA5pWZ5pyDICZyYXJyOyDoga/pgqblhLLok4TpioDooYwgJnJhcnI7IOiBr+mCpuWkp+W7syAmcmFycjsg57SQ57SE6K2J5Yi45Lqk5piT5omAICZyYXJyOyDlt53mma7lpKfmqJMgJnJhcnI7IOW+t+aEj+W/l+mKgOihjOiIiuWdgO+8iOWkp+mAmumKgOihjOiIiuWdgO+8iSZyYXJyOyDoj6/niL7ooZfpioXniZsgJnJhcnI7IOa1t+mXnOWkp+aokyAmcmFycjsg5qiZ5rqW55+z5rK55aSn5qiTICZyYXJyOyDmqJnmupbmma7niL7lpKflu4g8YnIgLz7nrKzkuInnq5nvvJrmtJvlhYvmlpDli5LkuK3lv4PvvIjpgJTntpPntJDntITpkb3nn7PljYDjgIHlnIvpmpvlr7bnn7PlpKfmqJPvvIk8YnIgLz7nrKzlm5vnq5nvvJrmma7nq4vojLLlmbTms4kgJnJhcnI7IOWkp+i7jeWcmOW7o+WgtCAmcmFycjsg5buj5aC06aOv5bqXICZyYXJyOyDmmYLku6Plu6PloLQgJnJhcnI7IOe0jeaWr+mBlOWFizwvcD5cbjxwPjxzdHJvbmc+54m55Yil6Kqq5piO77yaPC9zdHJvbmc+PGJyIC8+MS4g57SQ57SE6YeR6J6N6LKh5a+M5LmL5peF5pmv6bue6YGK6Ka95pa55byP54K66LuK6YGKK+i8leW+kuatpe+8jOmrlOWKm+imgeaxgumBqeS4reOAgjxiciAvPjIuIOS7peS4iuaZr+m7nuWdh+eCuuWkluingOOAgjwvcD5cbjxwPjxiciAvPjxzdHJvbmc+5aSc5pmv6KGM56iL5a6J5o6S77yaPC9zdHJvbmc+PC9wPlxuPHA+5rSb5YWL5paQ5YuS5Lit5b+DJmFtcDvogZbluJXnibnoo6HlhYvmlZnloIImYW1wO+esrOS6lOWkp+mBkyAmcmFycjsg5pmC5Luj5buj5aC0ICZyYXJyOyDmlrDmvqTopb/op4Dmma/lj7A8L3A+IiwidGltZSI6IjEifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":2,\"sortNumber\":1,\"jsonContent\":\"eyJpbmZvcm1hdGlvbiI6IuS5mOi7iuW+nuiPr+ebm+mgk+eJueWNgOWJjeW+gOiyu+WfjiIsImRpc3RhbmMiOiIxNDUiLCJkaXN0YW5jVW5pdCI6MywiaG91cnMiOiIyIiwibWludXRlcyI6IjIwIiwidGltZSI6IjIifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":2,\"jsonContent\":\"eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJ0eXBlIjowLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMDA1MyIsInNjZW5pY05hbWUiOiLlnIvlrrbnjajnq4vmrbflj7LlhazlnJIgSW5kZXBlbmRlbmNlIE5hdGlvbmFsIEhpc3RvcmljYWwgUGFyayIsInNjZW5pY0V4cGxhaW4iOiIiLCJpc0FwcGVhcmFuY2UiOjAsImxvYWRlZCI6dHJ1ZSwic2NlbmljZURlc2MiOiI8cD7osrvln47pgJnniYflnJ/lnLDvvIzopovorYnkuobnvo7lnIvnmoTnjajnq4vlkozoqpXnlJ/jgILmoLnmk5rnvo7lnIvnjajnq4vmiLDniK3nmoTnsr7npZ7lu7rpgKDnmoTlnIvlrrbnjajnq4vmrbflj7LlhazlnJLoo6HljIXlkKvkuobkuIDkupvoiIfnvo7lnIvpnanlkb3lkozlu7rlnIvmrbflj7LmnInpl5znmoTmrbflj7Llu7rnr4nvvIzooqvnqLHngrombGRxdW87576O5ZyL5pyA5YW35pyJ5q235Y+y5oSP576p55qE5LiA5bmz5pa56Iux6YeMJmxkcXVvO+OAguWcqOWFrOWckuijoe+8jOWPr+S7peeci+WIsOe2oOaoueeSsOaKseeahOeNqOeri+W7o+WgtO+8jOmrmOmrmOiBs+eri+eahOS5s+eZveiJsumQmOWhlO+8jOmChOacieiRl+ermeeri+WcqOiNieWdquS4iumWi+Wci+e+pOiLseeahOmKheWDj++8jOmAmeijoeeahOaVtOmrlOawm+WcjeS9v+S6uuaEn+WIsOiOiuWatOiCheephuOAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfV0sImRpc3RhbmMiOiIiLCJkaXN0YW5jVW5pdCI6MSwiaG91cnMiOiIiLCJtaW51dGVzIjoiIiwic3RheUhvdXJzIjoiIiwic3RheU1pbnV0ZXMiOiIiLCJ0aW1lIjoiMiJ9\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":2,\"sortNumber\":3,\"jsonContent\":\"eyJpbmZvcm1hdGlvbiI6IuS5mOi7iuW+nuiyu+WfjuWJjeW+gOe0kOe0hCIsImRpc3RhbmMiOiIxMDAiLCJkaXN0YW5jVW5pdCI6MywiaG91cnMiOiIxIiwibWludXRlcyI6IjQwIiwidGltZSI6IjMifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":4,\"jsonContent\":\"eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJ0eXBlIjowLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMzMyOSIsInNjZW5pY05hbWUiOiLntJDntITph5Hono3osqHlr4zkuYvml4UgTmV3IFlvcmsgQ2l0eSBGb3J0dW5lIFRvdXIiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+5pu85ZOI6aCT55qE6YeR6J6N5aSi77yM5Zyo57SQ57SE57a75pS+77yM6YCZ6KOh5bm+5LmO6IGa6ZuG5LqG5LiW55WM5pyA6aCC5bCW55qE6YeR6J6N5qmf5qeL44CC5LuK5aSp5oiR5YCR5bCH5Zyo5LiW55WM6YeR6J6N5Lit5b+D57SQ57SE5Y+D6KeA5LiA5Lqb57aT5YW45Zyw5qiZ5bu656+J77yM6Iux6ZuE5bO96LC344CB5p+P6Lev5aSn5qiT44CB5LiJ5LiA5pWZ5aCC44CB57SQ57SE6K2J5Yi45Lqk5piT5omA44CB5rSb5YWL5paQ5YuS5Lit5b+D562J562J77yM5oSf5Y+X5r+D6YOB55qE6YeR6J6N5ZWG5qWt5rCj5oGv44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119LHsiYWN0aXZpdHlObyI6MiwidHlwZSI6Miwic291cmNlVHlwZSI6Miwic2NlbmljQ29kZSI6IlNNMDAwMDEyNDgiLCJzY2VuaWNOYW1lIjoi57SQ57SE5aSc5pmv6YGKIE5ldyBZb3JrIE5pZ2h0IFRvdXIiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+6aaW5YWI5oiR5YCR5bCH5aSW6KeA5rSb5YWL6I+y5YuS5Lit5b+D44CB6IGW5biV54m56KOP5YWL5aSn5pWZ5aCC44CB5p6X6IKv6Jed6KGT5Lit5b+D44CC5rSb5YWL6I+y5YuS5Lit5b+D5piv5YWo5LiW55WM5pyA5aSn55qE56eB5Lq65pOB5pyJ55qE5bu656+J576k77yM5Lmf5piv5qiZ6KqM6JGX6KOd6aO+6Jed6KGT6aKo5qC85bu656+J55qE5Zyw5qiZ54mp77yM5YW25oSP576p55qE6YeN5aSn77yM5pep5bCx6LaF6YGO5bu656+J5pys6Lqr5LqG44CC5YWo55CD5pyA5aSn55qE6Jed6KGT5pyD5aC0Jm1kYXNoO+ael+iCr+iXneihk+S4reW/g+aYr+aJgOacieiXneihk+WutuaGp+aGrOeahOiInuiHuu+8jOmAmeijoeW9membhuS6huWKh+mZouatjOWKh+mZouOAgemfs+aoguW7s+OAgeWupOWklumfs+aoguW7s++8jOS5n+aYr+e0kOe0hOeahOaWh+WMluS4reW/g+OAguacgOW+jOWJjeW+gERVTUJP5rW35r+x5YWs5ZyS77yM5qyj6LOe5pu85ZOI6aCT5aSn5qmL5ZKM5biD6a2v5YWL5p6X5aSn5qmL6ZuZ5qmL5rWq5ryr5aSc5pmv44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119XSwiZGlzdGFuYyI6IiIsImRpc3RhbmNVbml0IjoxLCJob3VycyI6IiIsIm1pbnV0ZXMiOiIiLCJzdGF5SG91cnMiOiIiLCJzdGF5TWludXRlcyI6IiIsInRpbWUiOiIzIn0=\"}],\"distributionFactor\":null}]}]}",
+            "raw": {
+              "contentMode": 3,
+              "productSortNum": null,
+              "relatedId": 31291,
+              "relatedDay": 1,
+              "relatedName": "【DC-NY】華盛頓特區 - 費城 - 紐約",
+              "contentType": 100,
+              "sortNumber": 0,
+              "jsonContent": "{\"travelId\":31291,\"productCategory\":1,\"name\":\"【DC-NY】華盛頓特區 - 費城 - 紐約\",\"productType\":\"PC00000018\",\"isAutoTeam\":null,\"expandList\":[{\"language\":2,\"isSource\":1,\"dayList\":[{\"section\":\"華盛頓特區|||1+++費城|||1+++紐約\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD7ku4rlpKnmiJHlgJHlsIflvp7oj6/nm5vpoJPnibnljYDlh7rnmbzvvIzpqYXou4rliY3lvoDooqvnqLHngrombGRxdW875Y+L5oSb5LmL5Z+OJnJkcXVvO+eahOiyu+Wfju+8jOWPg+ingOWci+WutueNqOeri+att+WPsuWFrOWckuWFp+ixoeW+geiHqueUseeNqOeri+eahOeNqOeri+WuruWSjOiHqueUsemQmOOAguWNiOmkkOW+jO+8jOe5vOe6jOWMl+S4iu+8jOWJjeW+gOS4lueVjOesrOS4gOWkp+mDveW4gue0kOe0hOOAguWcqOe0kOe0hOaIkeWAkeWwh+WPg+WKoOmHkeiejeiyoeWvjOS5i+aXhe+8jOa3seWFpeaEn+WPl+mHkeiejeeVjOWcsOaomeaAp+W7uuevieeahOeEoemZkOmtheWKm++8geWIsOS6huWknOaZmu+8jOaIkeWAkeeahOe0kOe0hOWknOaZr+mBiuS4gOWumuiDvee1puaCqOW4tuS+huWFqOaWsOeahOS4jeS4gOaoo+eahOmrlOmpl++8jOWknOiJsuexoOe9qeS4i+eahOe0kOe0hOato+WcqOeEoemZkOi/uOeZvOa9rua1geiIh+a/gOaDhe+8geetieW+heiRl+aCqOeahOaOoue0ouWSjOeZvOePvuOAgjwvcD5cbjxwPiZuYnNwOzwvcD5cbjxwPjxzdHJvbmc+6KGM56iL5a6J5o6S77yaPC9zdHJvbmc+PC9wPlxuPHA+PHN0cm9uZz7oj6/nm5vpoJPnibnljYAgJnJhcnI7IOiyu+WfjiAmcmFycjsg5ZyL5a62542o56uL5q235Y+y5YWs5ZySPC9zdHJvbmc+77yINDDliIbpkJjvvIkmcmFycjsgPHN0cm9uZz7ntJDntITph5Hono3osqHlr4zkuYvml4Ur57SQ57SE5aSc5pmv6YGKPC9zdHJvbmc+77yI6Ieq6LK777yMMjQw5YiG6ZCY77yJPC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz7lhajnqIvmmYLplbfvvJrntIQxMuWwj+aZgjwvc3Ryb25nPjwvcD5cbjxwPiZuYnNwOzwvcD5cbjxwPjxzdHJvbmc+57SQ57SE6YeR6J6N6LKh5a+M5LmL5peF77yaPC9zdHJvbmc+PGJyIC8+56ys5LiA56uZ77ya6Iux6ZuE5bO96LC3ICZyYXJyOyDkvI3niL7msoPmlq/lpKfmqJMgJnJhcnI7IOafj+i3r+Wkp+aok++8iDE4OTktMTkwMeW5tOmWk+S4lueVjOacgOmrmOeahOaRqeWkqeWkp+aok++8iSAmcmFycjsg5rOi54m55aSn5qiTICZyYXJyOyDogZbkv53nvoXmlZnloIIgJnJhcnI7IOmbu+WgseWkp+aokzxiciAvPuesrOS6jOerme+8muWFrOW5s+Wkp+aokyAmcmFycjsg5LiJ5LiA5pWZ5pyDICZyYXJyOyDoga/pgqblhLLok4TpioDooYwgJnJhcnI7IOiBr+mCpuWkp+W7syAmcmFycjsg57SQ57SE6K2J5Yi45Lqk5piT5omAICZyYXJyOyDlt53mma7lpKfmqJMgJnJhcnI7IOW+t+aEj+W/l+mKgOihjOiIiuWdgO+8iOWkp+mAmumKgOihjOiIiuWdgO+8iSZyYXJyOyDoj6/niL7ooZfpioXniZsgJnJhcnI7IOa1t+mXnOWkp+aokyAmcmFycjsg5qiZ5rqW55+z5rK55aSn5qiTICZyYXJyOyDmqJnmupbmma7niL7lpKflu4g8YnIgLz7nrKzkuInnq5nvvJrmtJvlhYvmlpDli5LkuK3lv4PvvIjpgJTntpPntJDntITpkb3nn7PljYDjgIHlnIvpmpvlr7bnn7PlpKfmqJPvvIk8YnIgLz7nrKzlm5vnq5nvvJrmma7nq4vojLLlmbTms4kgJnJhcnI7IOWkp+i7jeWcmOW7o+WgtCAmcmFycjsg5buj5aC06aOv5bqXICZyYXJyOyDmmYLku6Plu6PloLQgJnJhcnI7IOe0jeaWr+mBlOWFizwvcD5cbjxwPjxzdHJvbmc+54m55Yil6Kqq5piO77yaPC9zdHJvbmc+PGJyIC8+MS4g57SQ57SE6YeR6J6N6LKh5a+M5LmL5peF5pmv6bue6YGK6Ka95pa55byP54K66LuK6YGKK+i8leW+kuatpe+8jOmrlOWKm+imgeaxgumBqeS4reOAgjxiciAvPjIuIOS7peS4iuaZr+m7nuWdh+eCuuWkluingOOAgjwvcD5cbjxwPjxiciAvPjxzdHJvbmc+5aSc5pmv6KGM56iL5a6J5o6S77yaPC9zdHJvbmc+PC9wPlxuPHA+5rSb5YWL5paQ5YuS5Lit5b+DJmFtcDvogZbluJXnibnoo6HlhYvmlZnloIImYW1wO+esrOS6lOWkp+mBkyAmcmFycjsg5pmC5Luj5buj5aC0ICZyYXJyOyDmlrDmvqTopb/op4Dmma/lj7A8L3A+IiwidGltZSI6IjEifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":2,\"sortNumber\":1,\"jsonContent\":\"eyJpbmZvcm1hdGlvbiI6IuS5mOi7iuW+nuiPr+ebm+mgk+eJueWNgOWJjeW+gOiyu+WfjiIsImRpc3RhbmMiOiIxNDUiLCJkaXN0YW5jVW5pdCI6MywiaG91cnMiOiIyIiwibWludXRlcyI6IjIwIiwidGltZSI6IjIifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":2,\"jsonContent\":\"eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJ0eXBlIjowLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMDA1MyIsInNjZW5pY05hbWUiOiLlnIvlrrbnjajnq4vmrbflj7LlhazlnJIgSW5kZXBlbmRlbmNlIE5hdGlvbmFsIEhpc3RvcmljYWwgUGFyayIsInNjZW5pY0V4cGxhaW4iOiIiLCJpc0FwcGVhcmFuY2UiOjAsImxvYWRlZCI6dHJ1ZSwic2NlbmljZURlc2MiOiI8cD7osrvln47pgJnniYflnJ/lnLDvvIzopovorYnkuobnvo7lnIvnmoTnjajnq4vlkozoqpXnlJ/jgILmoLnmk5rnvo7lnIvnjajnq4vmiLDniK3nmoTnsr7npZ7lu7rpgKDnmoTlnIvlrrbnjajnq4vmrbflj7LlhazlnJLoo6HljIXlkKvkuobkuIDkupvoiIfnvo7lnIvpnanlkb3lkozlu7rlnIvmrbflj7LmnInpl5znmoTmrbflj7Llu7rnr4nvvIzooqvnqLHngrombGRxdW87576O5ZyL5pyA5YW35pyJ5q235Y+y5oSP576p55qE5LiA5bmz5pa56Iux6YeMJmxkcXVvO+OAguWcqOWFrOWckuijoe+8jOWPr+S7peeci+WIsOe2oOaoueeSsOaKseeahOeNqOeri+W7o+WgtO+8jOmrmOmrmOiBs+eri+eahOS5s+eZveiJsumQmOWhlO+8jOmChOacieiRl+ermeeri+WcqOiNieWdquS4iumWi+Wci+e+pOiLseeahOmKheWDj++8jOmAmeijoeeahOaVtOmrlOawm+WcjeS9v+S6uuaEn+WIsOiOiuWatOiCheephuOAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfV0sImRpc3RhbmMiOiIiLCJkaXN0YW5jVW5pdCI6MSwiaG91cnMiOiIiLCJtaW51dGVzIjoiIiwic3RheUhvdXJzIjoiIiwic3RheU1pbnV0ZXMiOiIiLCJ0aW1lIjoiMiJ9\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":2,\"sortNumber\":3,\"jsonContent\":\"eyJpbmZvcm1hdGlvbiI6IuS5mOi7iuW+nuiyu+WfjuWJjeW+gOe0kOe0hCIsImRpc3RhbmMiOiIxMDAiLCJkaXN0YW5jVW5pdCI6MywiaG91cnMiOiIxIiwibWludXRlcyI6IjQwIiwidGltZSI6IjMifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":4,\"jsonContent\":\"eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJ0eXBlIjowLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMzMyOSIsInNjZW5pY05hbWUiOiLntJDntITph5Hono3osqHlr4zkuYvml4UgTmV3IFlvcmsgQ2l0eSBGb3J0dW5lIFRvdXIiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+5pu85ZOI6aCT55qE6YeR6J6N5aSi77yM5Zyo57SQ57SE57a75pS+77yM6YCZ6KOh5bm+5LmO6IGa6ZuG5LqG5LiW55WM5pyA6aCC5bCW55qE6YeR6J6N5qmf5qeL44CC5LuK5aSp5oiR5YCR5bCH5Zyo5LiW55WM6YeR6J6N5Lit5b+D57SQ57SE5Y+D6KeA5LiA5Lqb57aT5YW45Zyw5qiZ5bu656+J77yM6Iux6ZuE5bO96LC344CB5p+P6Lev5aSn5qiT44CB5LiJ5LiA5pWZ5aCC44CB57SQ57SE6K2J5Yi45Lqk5piT5omA44CB5rSb5YWL5paQ5YuS5Lit5b+D562J562J77yM5oSf5Y+X5r+D6YOB55qE6YeR6J6N5ZWG5qWt5rCj5oGv44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119LHsiYWN0aXZpdHlObyI6MiwidHlwZSI6Miwic291cmNlVHlwZSI6Miwic2NlbmljQ29kZSI6IlNNMDAwMDEyNDgiLCJzY2VuaWNOYW1lIjoi57SQ57SE5aSc5pmv6YGKIE5ldyBZb3JrIE5pZ2h0IFRvdXIiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+6aaW5YWI5oiR5YCR5bCH5aSW6KeA5rSb5YWL6I+y5YuS5Lit5b+D44CB6IGW5biV54m56KOP5YWL5aSn5pWZ5aCC44CB5p6X6IKv6Jed6KGT5Lit5b+D44CC5rSb5YWL6I+y5YuS5Lit5b+D5piv5YWo5LiW55WM5pyA5aSn55qE56eB5Lq65pOB5pyJ55qE5bu656+J576k77yM5Lmf5piv5qiZ6KqM6JGX6KOd6aO+6Jed6KGT6aKo5qC85bu656+J55qE5Zyw5qiZ54mp77yM5YW25oSP576p55qE6YeN5aSn77yM5pep5bCx6LaF6YGO5bu656+J5pys6Lqr5LqG44CC5YWo55CD5pyA5aSn55qE6Jed6KGT5pyD5aC0Jm1kYXNoO+ael+iCr+iXneihk+S4reW/g+aYr+aJgOacieiXneihk+WutuaGp+aGrOeahOiInuiHuu+8jOmAmeijoeW9membhuS6huWKh+mZouatjOWKh+mZouOAgemfs+aoguW7s+OAgeWupOWklumfs+aoguW7s++8jOS5n+aYr+e0kOe0hOeahOaWh+WMluS4reW/g+OAguacgOW+jOWJjeW+gERVTUJP5rW35r+x5YWs5ZyS77yM5qyj6LOe5pu85ZOI6aCT5aSn5qmL5ZKM5biD6a2v5YWL5p6X5aSn5qmL6ZuZ5qmL5rWq5ryr5aSc5pmv44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119XSwiZGlzdGFuYyI6IiIsImRpc3RhbmNVbml0IjoxLCJob3VycyI6IiIsIm1pbnV0ZXMiOiIiLCJzdGF5SG91cnMiOiIiLCJzdGF5TWludXRlcyI6IiIsInRpbWUiOiIzIn0=\"}],\"distributionFactor\":null}]}]}"
+            }
+          }
+        ],
+        "raw": {
+          "section": "華盛頓特區|||1+++費城|||1+++紐約",
+          "todayLocation": "",
+          "dayNumber": 1,
+          "content": [
+            {
+              "contentMode": 3,
+              "productSortNum": null,
+              "relatedId": 31291,
+              "relatedDay": 1,
+              "relatedName": "【DC-NY】華盛頓特區 - 費城 - 紐約",
+              "contentType": 100,
+              "sortNumber": 0,
+              "jsonContent": "{\"travelId\":31291,\"productCategory\":1,\"name\":\"【DC-NY】華盛頓特區 - 費城 - 紐約\",\"productType\":\"PC00000018\",\"isAutoTeam\":null,\"expandList\":[{\"language\":2,\"isSource\":1,\"dayList\":[{\"section\":\"華盛頓特區|||1+++費城|||1+++紐約\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD7ku4rlpKnmiJHlgJHlsIflvp7oj6/nm5vpoJPnibnljYDlh7rnmbzvvIzpqYXou4rliY3lvoDooqvnqLHngrombGRxdW875Y+L5oSb5LmL5Z+OJnJkcXVvO+eahOiyu+Wfju+8jOWPg+ingOWci+WutueNqOeri+att+WPsuWFrOWckuWFp+ixoeW+geiHqueUseeNqOeri+eahOeNqOeri+WuruWSjOiHqueUsemQmOOAguWNiOmkkOW+jO+8jOe5vOe6jOWMl+S4iu+8jOWJjeW+gOS4lueVjOesrOS4gOWkp+mDveW4gue0kOe0hOOAguWcqOe0kOe0hOaIkeWAkeWwh+WPg+WKoOmHkeiejeiyoeWvjOS5i+aXhe+8jOa3seWFpeaEn+WPl+mHkeiejeeVjOWcsOaomeaAp+W7uuevieeahOeEoemZkOmtheWKm++8geWIsOS6huWknOaZmu+8jOaIkeWAkeeahOe0kOe0hOWknOaZr+mBiuS4gOWumuiDvee1puaCqOW4tuS+huWFqOaWsOeahOS4jeS4gOaoo+eahOmrlOmpl++8jOWknOiJsuexoOe9qeS4i+eahOe0kOe0hOato+WcqOeEoemZkOi/uOeZvOa9rua1geiIh+a/gOaDhe+8geetieW+heiRl+aCqOeahOaOoue0ouWSjOeZvOePvuOAgjwvcD5cbjxwPiZuYnNwOzwvcD5cbjxwPjxzdHJvbmc+6KGM56iL5a6J5o6S77yaPC9zdHJvbmc+PC9wPlxuPHA+PHN0cm9uZz7oj6/nm5vpoJPnibnljYAgJnJhcnI7IOiyu+WfjiAmcmFycjsg5ZyL5a62542o56uL5q235Y+y5YWs5ZySPC9zdHJvbmc+77yINDDliIbpkJjvvIkmcmFycjsgPHN0cm9uZz7ntJDntITph5Hono3osqHlr4zkuYvml4Ur57SQ57SE5aSc5pmv6YGKPC9zdHJvbmc+77yI6Ieq6LK777yMMjQw5YiG6ZCY77yJPC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz7lhajnqIvmmYLplbfvvJrntIQxMuWwj+aZgjwvc3Ryb25nPjwvcD5cbjxwPiZuYnNwOzwvcD5cbjxwPjxzdHJvbmc+57SQ57SE6YeR6J6N6LKh5a+M5LmL5peF77yaPC9zdHJvbmc+PGJyIC8+56ys5LiA56uZ77ya6Iux6ZuE5bO96LC3ICZyYXJyOyDkvI3niL7msoPmlq/lpKfmqJMgJnJhcnI7IOafj+i3r+Wkp+aok++8iDE4OTktMTkwMeW5tOmWk+S4lueVjOacgOmrmOeahOaRqeWkqeWkp+aok++8iSAmcmFycjsg5rOi54m55aSn5qiTICZyYXJyOyDogZbkv53nvoXmlZnloIIgJnJhcnI7IOmbu+WgseWkp+aokzxiciAvPuesrOS6jOerme+8muWFrOW5s+Wkp+aokyAmcmFycjsg5LiJ5LiA5pWZ5pyDICZyYXJyOyDoga/pgqblhLLok4TpioDooYwgJnJhcnI7IOiBr+mCpuWkp+W7syAmcmFycjsg57SQ57SE6K2J5Yi45Lqk5piT5omAICZyYXJyOyDlt53mma7lpKfmqJMgJnJhcnI7IOW+t+aEj+W/l+mKgOihjOiIiuWdgO+8iOWkp+mAmumKgOihjOiIiuWdgO+8iSZyYXJyOyDoj6/niL7ooZfpioXniZsgJnJhcnI7IOa1t+mXnOWkp+aokyAmcmFycjsg5qiZ5rqW55+z5rK55aSn5qiTICZyYXJyOyDmqJnmupbmma7niL7lpKflu4g8YnIgLz7nrKzkuInnq5nvvJrmtJvlhYvmlpDli5LkuK3lv4PvvIjpgJTntpPntJDntITpkb3nn7PljYDjgIHlnIvpmpvlr7bnn7PlpKfmqJPvvIk8YnIgLz7nrKzlm5vnq5nvvJrmma7nq4vojLLlmbTms4kgJnJhcnI7IOWkp+i7jeWcmOW7o+WgtCAmcmFycjsg5buj5aC06aOv5bqXICZyYXJyOyDmmYLku6Plu6PloLQgJnJhcnI7IOe0jeaWr+mBlOWFizwvcD5cbjxwPjxzdHJvbmc+54m55Yil6Kqq5piO77yaPC9zdHJvbmc+PGJyIC8+MS4g57SQ57SE6YeR6J6N6LKh5a+M5LmL5peF5pmv6bue6YGK6Ka95pa55byP54K66LuK6YGKK+i8leW+kuatpe+8jOmrlOWKm+imgeaxgumBqeS4reOAgjxiciAvPjIuIOS7peS4iuaZr+m7nuWdh+eCuuWkluingOOAgjwvcD5cbjxwPjxiciAvPjxzdHJvbmc+5aSc5pmv6KGM56iL5a6J5o6S77yaPC9zdHJvbmc+PC9wPlxuPHA+5rSb5YWL5paQ5YuS5Lit5b+DJmFtcDvogZbluJXnibnoo6HlhYvmlZnloIImYW1wO+esrOS6lOWkp+mBkyAmcmFycjsg5pmC5Luj5buj5aC0ICZyYXJyOyDmlrDmvqTopb/op4Dmma/lj7A8L3A+IiwidGltZSI6IjEifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":2,\"sortNumber\":1,\"jsonContent\":\"eyJpbmZvcm1hdGlvbiI6IuS5mOi7iuW+nuiPr+ebm+mgk+eJueWNgOWJjeW+gOiyu+WfjiIsImRpc3RhbmMiOiIxNDUiLCJkaXN0YW5jVW5pdCI6MywiaG91cnMiOiIyIiwibWludXRlcyI6IjIwIiwidGltZSI6IjIifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":2,\"jsonContent\":\"eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJ0eXBlIjowLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMDA1MyIsInNjZW5pY05hbWUiOiLlnIvlrrbnjajnq4vmrbflj7LlhazlnJIgSW5kZXBlbmRlbmNlIE5hdGlvbmFsIEhpc3RvcmljYWwgUGFyayIsInNjZW5pY0V4cGxhaW4iOiIiLCJpc0FwcGVhcmFuY2UiOjAsImxvYWRlZCI6dHJ1ZSwic2NlbmljZURlc2MiOiI8cD7osrvln47pgJnniYflnJ/lnLDvvIzopovorYnkuobnvo7lnIvnmoTnjajnq4vlkozoqpXnlJ/jgILmoLnmk5rnvo7lnIvnjajnq4vmiLDniK3nmoTnsr7npZ7lu7rpgKDnmoTlnIvlrrbnjajnq4vmrbflj7LlhazlnJLoo6HljIXlkKvkuobkuIDkupvoiIfnvo7lnIvpnanlkb3lkozlu7rlnIvmrbflj7LmnInpl5znmoTmrbflj7Llu7rnr4nvvIzooqvnqLHngrombGRxdW87576O5ZyL5pyA5YW35pyJ5q235Y+y5oSP576p55qE5LiA5bmz5pa56Iux6YeMJmxkcXVvO+OAguWcqOWFrOWckuijoe+8jOWPr+S7peeci+WIsOe2oOaoueeSsOaKseeahOeNqOeri+W7o+WgtO+8jOmrmOmrmOiBs+eri+eahOS5s+eZveiJsumQmOWhlO+8jOmChOacieiRl+ermeeri+WcqOiNieWdquS4iumWi+Wci+e+pOiLseeahOmKheWDj++8jOmAmeijoeeahOaVtOmrlOawm+WcjeS9v+S6uuaEn+WIsOiOiuWatOiCheephuOAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfV0sImRpc3RhbmMiOiIiLCJkaXN0YW5jVW5pdCI6MSwiaG91cnMiOiIiLCJtaW51dGVzIjoiIiwic3RheUhvdXJzIjoiIiwic3RheU1pbnV0ZXMiOiIiLCJ0aW1lIjoiMiJ9\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":2,\"sortNumber\":3,\"jsonContent\":\"eyJpbmZvcm1hdGlvbiI6IuS5mOi7iuW+nuiyu+WfjuWJjeW+gOe0kOe0hCIsImRpc3RhbmMiOiIxMDAiLCJkaXN0YW5jVW5pdCI6MywiaG91cnMiOiIxIiwibWludXRlcyI6IjQwIiwidGltZSI6IjMifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":4,\"jsonContent\":\"eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJ0eXBlIjowLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMzMyOSIsInNjZW5pY05hbWUiOiLntJDntITph5Hono3osqHlr4zkuYvml4UgTmV3IFlvcmsgQ2l0eSBGb3J0dW5lIFRvdXIiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+5pu85ZOI6aCT55qE6YeR6J6N5aSi77yM5Zyo57SQ57SE57a75pS+77yM6YCZ6KOh5bm+5LmO6IGa6ZuG5LqG5LiW55WM5pyA6aCC5bCW55qE6YeR6J6N5qmf5qeL44CC5LuK5aSp5oiR5YCR5bCH5Zyo5LiW55WM6YeR6J6N5Lit5b+D57SQ57SE5Y+D6KeA5LiA5Lqb57aT5YW45Zyw5qiZ5bu656+J77yM6Iux6ZuE5bO96LC344CB5p+P6Lev5aSn5qiT44CB5LiJ5LiA5pWZ5aCC44CB57SQ57SE6K2J5Yi45Lqk5piT5omA44CB5rSb5YWL5paQ5YuS5Lit5b+D562J562J77yM5oSf5Y+X5r+D6YOB55qE6YeR6J6N5ZWG5qWt5rCj5oGv44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119LHsiYWN0aXZpdHlObyI6MiwidHlwZSI6Miwic291cmNlVHlwZSI6Miwic2NlbmljQ29kZSI6IlNNMDAwMDEyNDgiLCJzY2VuaWNOYW1lIjoi57SQ57SE5aSc5pmv6YGKIE5ldyBZb3JrIE5pZ2h0IFRvdXIiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+6aaW5YWI5oiR5YCR5bCH5aSW6KeA5rSb5YWL6I+y5YuS5Lit5b+D44CB6IGW5biV54m56KOP5YWL5aSn5pWZ5aCC44CB5p6X6IKv6Jed6KGT5Lit5b+D44CC5rSb5YWL6I+y5YuS5Lit5b+D5piv5YWo5LiW55WM5pyA5aSn55qE56eB5Lq65pOB5pyJ55qE5bu656+J576k77yM5Lmf5piv5qiZ6KqM6JGX6KOd6aO+6Jed6KGT6aKo5qC85bu656+J55qE5Zyw5qiZ54mp77yM5YW25oSP576p55qE6YeN5aSn77yM5pep5bCx6LaF6YGO5bu656+J5pys6Lqr5LqG44CC5YWo55CD5pyA5aSn55qE6Jed6KGT5pyD5aC0Jm1kYXNoO+ael+iCr+iXneihk+S4reW/g+aYr+aJgOacieiXneihk+WutuaGp+aGrOeahOiInuiHuu+8jOmAmeijoeW9membhuS6huWKh+mZouatjOWKh+mZouOAgemfs+aoguW7s+OAgeWupOWklumfs+aoguW7s++8jOS5n+aYr+e0kOe0hOeahOaWh+WMluS4reW/g+OAguacgOW+jOWJjeW+gERVTUJP5rW35r+x5YWs5ZyS77yM5qyj6LOe5pu85ZOI6aCT5aSn5qmL5ZKM5biD6a2v5YWL5p6X5aSn5qmL6ZuZ5qmL5rWq5ryr5aSc5pmv44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119XSwiZGlzdGFuYyI6IiIsImRpc3RhbmNVbml0IjoxLCJob3VycyI6IiIsIm1pbnV0ZXMiOiIiLCJzdGF5SG91cnMiOiIiLCJzdGF5TWludXRlcyI6IiIsInRpbWUiOiIzIn0=\"}],\"distributionFactor\":null}]}]}"
+            }
+          ],
+          "isFreeTravel": null,
+          "optionalProductList": null,
+          "distributionFactor": 0
+        }
+      }
+    ],
+    "raw": {
+      "productCode": "P00008026",
+      "dataVersion": 1767496475,
+      "productDay": 1,
+      "productNight": 0,
+      "travelId": 31375,
+      "productType": "PC00000018",
+      "productTypeName": "Washington D.C.",
+      "travelName": "【銀榜惠享】美東隨上隨下系列 | 華盛頓特區 - 紐約",
+      "productTravelInfoList": [
+        {
+          "isSource": 1,
+          "language": 2,
+          "dayList": [
+            {
+              "section": "華盛頓特區|||1+++費城|||1+++紐約",
+              "todayLocation": "",
+              "dayNumber": 1,
+              "content": [
+                {
+                  "contentMode": 3,
+                  "productSortNum": null,
+                  "relatedId": 31291,
+                  "relatedDay": 1,
+                  "relatedName": "【DC-NY】華盛頓特區 - 費城 - 紐約",
+                  "contentType": 100,
+                  "sortNumber": 0,
+                  "jsonContent": "{\"travelId\":31291,\"productCategory\":1,\"name\":\"【DC-NY】華盛頓特區 - 費城 - 紐約\",\"productType\":\"PC00000018\",\"isAutoTeam\":null,\"expandList\":[{\"language\":2,\"isSource\":1,\"dayList\":[{\"section\":\"華盛頓特區|||1+++費城|||1+++紐約\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD7ku4rlpKnmiJHlgJHlsIflvp7oj6/nm5vpoJPnibnljYDlh7rnmbzvvIzpqYXou4rliY3lvoDooqvnqLHngrombGRxdW875Y+L5oSb5LmL5Z+OJnJkcXVvO+eahOiyu+Wfju+8jOWPg+ingOWci+WutueNqOeri+att+WPsuWFrOWckuWFp+ixoeW+geiHqueUseeNqOeri+eahOeNqOeri+WuruWSjOiHqueUsemQmOOAguWNiOmkkOW+jO+8jOe5vOe6jOWMl+S4iu+8jOWJjeW+gOS4lueVjOesrOS4gOWkp+mDveW4gue0kOe0hOOAguWcqOe0kOe0hOaIkeWAkeWwh+WPg+WKoOmHkeiejeiyoeWvjOS5i+aXhe+8jOa3seWFpeaEn+WPl+mHkeiejeeVjOWcsOaomeaAp+W7uuevieeahOeEoemZkOmtheWKm++8geWIsOS6huWknOaZmu+8jOaIkeWAkeeahOe0kOe0hOWknOaZr+mBiuS4gOWumuiDvee1puaCqOW4tuS+huWFqOaWsOeahOS4jeS4gOaoo+eahOmrlOmpl++8jOWknOiJsuexoOe9qeS4i+eahOe0kOe0hOato+WcqOeEoemZkOi/uOeZvOa9rua1geiIh+a/gOaDhe+8geetieW+heiRl+aCqOeahOaOoue0ouWSjOeZvOePvuOAgjwvcD5cbjxwPiZuYnNwOzwvcD5cbjxwPjxzdHJvbmc+6KGM56iL5a6J5o6S77yaPC9zdHJvbmc+PC9wPlxuPHA+PHN0cm9uZz7oj6/nm5vpoJPnibnljYAgJnJhcnI7IOiyu+WfjiAmcmFycjsg5ZyL5a62542o56uL5q235Y+y5YWs5ZySPC9zdHJvbmc+77yINDDliIbpkJjvvIkmcmFycjsgPHN0cm9uZz7ntJDntITph5Hono3osqHlr4zkuYvml4Ur57SQ57SE5aSc5pmv6YGKPC9zdHJvbmc+77yI6Ieq6LK777yMMjQw5YiG6ZCY77yJPC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz7lhajnqIvmmYLplbfvvJrntIQxMuWwj+aZgjwvc3Ryb25nPjwvcD5cbjxwPiZuYnNwOzwvcD5cbjxwPjxzdHJvbmc+57SQ57SE6YeR6J6N6LKh5a+M5LmL5peF77yaPC9zdHJvbmc+PGJyIC8+56ys5LiA56uZ77ya6Iux6ZuE5bO96LC3ICZyYXJyOyDkvI3niL7msoPmlq/lpKfmqJMgJnJhcnI7IOafj+i3r+Wkp+aok++8iDE4OTktMTkwMeW5tOmWk+S4lueVjOacgOmrmOeahOaRqeWkqeWkp+aok++8iSAmcmFycjsg5rOi54m55aSn5qiTICZyYXJyOyDogZbkv53nvoXmlZnloIIgJnJhcnI7IOmbu+WgseWkp+aokzxiciAvPuesrOS6jOerme+8muWFrOW5s+Wkp+aokyAmcmFycjsg5LiJ5LiA5pWZ5pyDICZyYXJyOyDoga/pgqblhLLok4TpioDooYwgJnJhcnI7IOiBr+mCpuWkp+W7syAmcmFycjsg57SQ57SE6K2J5Yi45Lqk5piT5omAICZyYXJyOyDlt53mma7lpKfmqJMgJnJhcnI7IOW+t+aEj+W/l+mKgOihjOiIiuWdgO+8iOWkp+mAmumKgOihjOiIiuWdgO+8iSZyYXJyOyDoj6/niL7ooZfpioXniZsgJnJhcnI7IOa1t+mXnOWkp+aokyAmcmFycjsg5qiZ5rqW55+z5rK55aSn5qiTICZyYXJyOyDmqJnmupbmma7niL7lpKflu4g8YnIgLz7nrKzkuInnq5nvvJrmtJvlhYvmlpDli5LkuK3lv4PvvIjpgJTntpPntJDntITpkb3nn7PljYDjgIHlnIvpmpvlr7bnn7PlpKfmqJPvvIk8YnIgLz7nrKzlm5vnq5nvvJrmma7nq4vojLLlmbTms4kgJnJhcnI7IOWkp+i7jeWcmOW7o+WgtCAmcmFycjsg5buj5aC06aOv5bqXICZyYXJyOyDmmYLku6Plu6PloLQgJnJhcnI7IOe0jeaWr+mBlOWFizwvcD5cbjxwPjxzdHJvbmc+54m55Yil6Kqq5piO77yaPC9zdHJvbmc+PGJyIC8+MS4g57SQ57SE6YeR6J6N6LKh5a+M5LmL5peF5pmv6bue6YGK6Ka95pa55byP54K66LuK6YGKK+i8leW+kuatpe+8jOmrlOWKm+imgeaxgumBqeS4reOAgjxiciAvPjIuIOS7peS4iuaZr+m7nuWdh+eCuuWkluingOOAgjwvcD5cbjxwPjxiciAvPjxzdHJvbmc+5aSc5pmv6KGM56iL5a6J5o6S77yaPC9zdHJvbmc+PC9wPlxuPHA+5rSb5YWL5paQ5YuS5Lit5b+DJmFtcDvogZbluJXnibnoo6HlhYvmlZnloIImYW1wO+esrOS6lOWkp+mBkyAmcmFycjsg5pmC5Luj5buj5aC0ICZyYXJyOyDmlrDmvqTopb/op4Dmma/lj7A8L3A+IiwidGltZSI6IjEifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":2,\"sortNumber\":1,\"jsonContent\":\"eyJpbmZvcm1hdGlvbiI6IuS5mOi7iuW+nuiPr+ebm+mgk+eJueWNgOWJjeW+gOiyu+WfjiIsImRpc3RhbmMiOiIxNDUiLCJkaXN0YW5jVW5pdCI6MywiaG91cnMiOiIyIiwibWludXRlcyI6IjIwIiwidGltZSI6IjIifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":2,\"jsonContent\":\"eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJ0eXBlIjowLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMDA1MyIsInNjZW5pY05hbWUiOiLlnIvlrrbnjajnq4vmrbflj7LlhazlnJIgSW5kZXBlbmRlbmNlIE5hdGlvbmFsIEhpc3RvcmljYWwgUGFyayIsInNjZW5pY0V4cGxhaW4iOiIiLCJpc0FwcGVhcmFuY2UiOjAsImxvYWRlZCI6dHJ1ZSwic2NlbmljZURlc2MiOiI8cD7osrvln47pgJnniYflnJ/lnLDvvIzopovorYnkuobnvo7lnIvnmoTnjajnq4vlkozoqpXnlJ/jgILmoLnmk5rnvo7lnIvnjajnq4vmiLDniK3nmoTnsr7npZ7lu7rpgKDnmoTlnIvlrrbnjajnq4vmrbflj7LlhazlnJLoo6HljIXlkKvkuobkuIDkupvoiIfnvo7lnIvpnanlkb3lkozlu7rlnIvmrbflj7LmnInpl5znmoTmrbflj7Llu7rnr4nvvIzooqvnqLHngrombGRxdW87576O5ZyL5pyA5YW35pyJ5q235Y+y5oSP576p55qE5LiA5bmz5pa56Iux6YeMJmxkcXVvO+OAguWcqOWFrOWckuijoe+8jOWPr+S7peeci+WIsOe2oOaoueeSsOaKseeahOeNqOeri+W7o+WgtO+8jOmrmOmrmOiBs+eri+eahOS5s+eZveiJsumQmOWhlO+8jOmChOacieiRl+ermeeri+WcqOiNieWdquS4iumWi+Wci+e+pOiLseeahOmKheWDj++8jOmAmeijoeeahOaVtOmrlOawm+WcjeS9v+S6uuaEn+WIsOiOiuWatOiCheephuOAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfV0sImRpc3RhbmMiOiIiLCJkaXN0YW5jVW5pdCI6MSwiaG91cnMiOiIiLCJtaW51dGVzIjoiIiwic3RheUhvdXJzIjoiIiwic3RheU1pbnV0ZXMiOiIiLCJ0aW1lIjoiMiJ9\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":2,\"sortNumber\":3,\"jsonContent\":\"eyJpbmZvcm1hdGlvbiI6IuS5mOi7iuW+nuiyu+WfjuWJjeW+gOe0kOe0hCIsImRpc3RhbmMiOiIxMDAiLCJkaXN0YW5jVW5pdCI6MywiaG91cnMiOiIxIiwibWludXRlcyI6IjQwIiwidGltZSI6IjMifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":4,\"jsonContent\":\"eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJ0eXBlIjowLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMzMyOSIsInNjZW5pY05hbWUiOiLntJDntITph5Hono3osqHlr4zkuYvml4UgTmV3IFlvcmsgQ2l0eSBGb3J0dW5lIFRvdXIiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+5pu85ZOI6aCT55qE6YeR6J6N5aSi77yM5Zyo57SQ57SE57a75pS+77yM6YCZ6KOh5bm+5LmO6IGa6ZuG5LqG5LiW55WM5pyA6aCC5bCW55qE6YeR6J6N5qmf5qeL44CC5LuK5aSp5oiR5YCR5bCH5Zyo5LiW55WM6YeR6J6N5Lit5b+D57SQ57SE5Y+D6KeA5LiA5Lqb57aT5YW45Zyw5qiZ5bu656+J77yM6Iux6ZuE5bO96LC344CB5p+P6Lev5aSn5qiT44CB5LiJ5LiA5pWZ5aCC44CB57SQ57SE6K2J5Yi45Lqk5piT5omA44CB5rSb5YWL5paQ5YuS5Lit5b+D562J562J77yM5oSf5Y+X5r+D6YOB55qE6YeR6J6N5ZWG5qWt5rCj5oGv44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119LHsiYWN0aXZpdHlObyI6MiwidHlwZSI6Miwic291cmNlVHlwZSI6Miwic2NlbmljQ29kZSI6IlNNMDAwMDEyNDgiLCJzY2VuaWNOYW1lIjoi57SQ57SE5aSc5pmv6YGKIE5ldyBZb3JrIE5pZ2h0IFRvdXIiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+6aaW5YWI5oiR5YCR5bCH5aSW6KeA5rSb5YWL6I+y5YuS5Lit5b+D44CB6IGW5biV54m56KOP5YWL5aSn5pWZ5aCC44CB5p6X6IKv6Jed6KGT5Lit5b+D44CC5rSb5YWL6I+y5YuS5Lit5b+D5piv5YWo5LiW55WM5pyA5aSn55qE56eB5Lq65pOB5pyJ55qE5bu656+J576k77yM5Lmf5piv5qiZ6KqM6JGX6KOd6aO+6Jed6KGT6aKo5qC85bu656+J55qE5Zyw5qiZ54mp77yM5YW25oSP576p55qE6YeN5aSn77yM5pep5bCx6LaF6YGO5bu656+J5pys6Lqr5LqG44CC5YWo55CD5pyA5aSn55qE6Jed6KGT5pyD5aC0Jm1kYXNoO+ael+iCr+iXneihk+S4reW/g+aYr+aJgOacieiXneihk+WutuaGp+aGrOeahOiInuiHuu+8jOmAmeijoeW9membhuS6huWKh+mZouatjOWKh+mZouOAgemfs+aoguW7s+OAgeWupOWklumfs+aoguW7s++8jOS5n+aYr+e0kOe0hOeahOaWh+WMluS4reW/g+OAguacgOW+jOWJjeW+gERVTUJP5rW35r+x5YWs5ZyS77yM5qyj6LOe5pu85ZOI6aCT5aSn5qmL5ZKM5biD6a2v5YWL5p6X5aSn5qmL6ZuZ5qmL5rWq5ryr5aSc5pmv44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119XSwiZGlzdGFuYyI6IiIsImRpc3RhbmNVbml0IjoxLCJob3VycyI6IiIsIm1pbnV0ZXMiOiIiLCJzdGF5SG91cnMiOiIiLCJzdGF5TWludXRlcyI6IiIsInRpbWUiOiIzIn0=\"}],\"distributionFactor\":null}]}]}"
+                }
+              ],
+              "isFreeTravel": null,
+              "optionalProductList": null,
+              "distributionFactor": 0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "cost": {
+    "includesHtml": "<p>1. 交通費用（使用車輛類型根據當日具體參團人數決定）；</p>\n<p>2. 中英文服務人員（司機+導遊/司兼導）；</p>\n<p>3. 服務費。</p>",
+    "includesText": "1. 交通費用（使用車輛類型根據當日具體參團人數決定）；\n\n2. 中英文服務人員（司機+導遊/司兼導）；\n\n3. 服務費。",
+    "excludesHtml": "<p>1. 餐飲；</p>\n<p>2. 景點門票費用（門票價格時常波動，不再另行通知。門票需在導遊處統一購買）；</p>\n<p>3. 一切除費用包含外的私人性質費用。</p>",
+    "excludesText": "1. 餐飲；\n\n2. 景點門票費用（門票價格時常波動，不再另行通知。門票需在導遊處統一購買）；\n\n3. 一切除費用包含外的私人性質費用。",
+    "productCostIsDay": 0,
+    "costInfo": [
+      {
+        "id": 82321,
+        "editType": 1,
+        "expenseCode": "EM00002286",
+        "costDay": "",
+        "expIExpandName": "紐約金融財富之旅+夜景遊 New York City Fortune Tour+Night view tour",
+        "expIExpandDesc": "",
+        "resourceType": 0,
+        "sortNo": 1,
+        "priceInfo": [
+          {
+            "expPriceName": "成人",
+            "expPriceMoney": "$80.00",
+            "sortNo": 1
+          },
+          {
+            "expPriceName": "兒童（3-12歲）",
+            "expPriceMoney": "$70.00",
+            "sortNo": 2
+          }
+        ]
+      }
+    ]
+  },
+  "policy_notice": {
+    "notices": [
+      {
+        "matterCode": "AT00000094",
+        "noticeType": 3,
+        "typeLabel": "Cancellation Policy",
+        "matterName": "【退改說明】集團通用",
+        "html": {
+          "primary": "<p>1. 如遇天氣、戰爭、罷工等人力不可抗拒因素無法遊覽，本公司將有權更改行程，景點門票費用退還（贈送的自費項目除外），報名團費不退還；&nbsp;</p>\n<p>2. 取消條款如下：</p>\n<p>&nbsp; &nbsp;a. &nbsp;如果團組在出發前15日 (含) ，要求取消或改期，團費不扣，其他加定酒店、機票或服務需參照酒店或航司規定而確定是否能退款。</p>\n<p>&nbsp; &nbsp;b. &nbsp;在出發前8日 (含) 至 14日 (含) ，要求取消或改期，需扣50%團費，其他加定酒店或服務需參照酒店規定而確定是否能退款。</p>\n<p>&nbsp; &nbsp;c. &nbsp;如果團組在出發前7日 (含) 至出發當天要求取消或出發當日未能準時參加者，作自動放棄論，已付團費概不退還。</p>\n<p>&nbsp; &nbsp;d.&nbsp; 如貴司或客人因個人原因 (無旅行證件、遲到、生病、意外等因素) 於旅途中退出或未能參加行程內任何行程，已付團費概不退還，也不會以其他服務賠償。</p>",
+          "secondary": "【退改說明】集團通用"
+        },
+        "text": {
+          "primary": "1. 如遇天氣、戰爭、罷工等人力不可抗拒因素無法遊覽，本公司將有權更改行程，景點門票費用退還（贈送的自費項目除外），報名團費不退還； \n\n2. 取消條款如下：\n\n   a.  如果團組在出發前15日 (含) ，要求取消或改期，團費不扣，其他加定酒店、機票或服務需參照酒店或航司規定而確定是否能退款。\n\n   b.  在出發前8日 (含) 至 14日 (含) ，要求取消或改期，需扣50%團費，其他加定酒店或服務需參照酒店規定而確定是否能退款。\n\n   c.  如果團組在出發前7日 (含) 至出發當天要求取消或出發當日未能準時參加者，作自動放棄論，已付團費概不退還。\n\n   d.  如貴司或客人因個人原因 (無旅行證件、遲到、生病、意外等因素) 於旅途中退出或未能參加行程內任何行程，已付團費概不退還，也不會以其他服務賠償。",
+          "secondary": "【退改說明】集團通用"
+        },
+        "raw": {
+          "matterCode": "AT00000094",
+          "editType": 1,
+          "noticeType": 3,
+          "matterName": "【退改說明】集團通用",
+          "vluesTip1": "<p>1. 如遇天氣、戰爭、罷工等人力不可抗拒因素無法遊覽，本公司將有權更改行程，景點門票費用退還（贈送的自費項目除外），報名團費不退還；&nbsp;</p>\n<p>2. 取消條款如下：</p>\n<p>&nbsp; &nbsp;a. &nbsp;如果團組在出發前15日 (含) ，要求取消或改期，團費不扣，其他加定酒店、機票或服務需參照酒店或航司規定而確定是否能退款。</p>\n<p>&nbsp; &nbsp;b. &nbsp;在出發前8日 (含) 至 14日 (含) ，要求取消或改期，需扣50%團費，其他加定酒店或服務需參照酒店規定而確定是否能退款。</p>\n<p>&nbsp; &nbsp;c. &nbsp;如果團組在出發前7日 (含) 至出發當天要求取消或出發當日未能準時參加者，作自動放棄論，已付團費概不退還。</p>\n<p>&nbsp; &nbsp;d.&nbsp; 如貴司或客人因個人原因 (無旅行證件、遲到、生病、意外等因素) 於旅途中退出或未能參加行程內任何行程，已付團費概不退還，也不會以其他服務賠償。</p>",
+          "vluesTip2": "【退改說明】集團通用"
+        }
+      },
+      {
+        "matterCode": "AT00000302",
+        "noticeType": 1,
+        "typeLabel": "Know Before You Book",
+        "matterName": "【預定須知】集團一日遊（不涉及跨境）",
+        "html": {
+          "primary": "<p><strong>預定須知：</strong></p>\n<p>1. 18歲以下未成年人或兒童必須由成人陪伴參團，單獨旅行的未成年人或兒童不能參加縱橫海鷗的旅遊團。出於對孕婦安全的考慮，孕婦參團需在行程結束時懷孕不超過24周。</p>\n<p>2. 請在預定時務必提供準確、完整的資訊，包括姓名、性別、有效的聯繫方式（最好是手機，如有問題，方便通知）、準確的參團地點等，以免產生預定錯誤，影響出行。如因您提供錯誤資訊而造成損失，由您自行承擔。</p>\n<p>3. 參團客人需跟團上導遊購買門票，不可自行帶票或使用City Pass。景點的門票費和團上餐費可能會根據景點官方的臨時通知而變動，以當日景點公佈的價格為准。</p>\n<p>4. 實際出行過程中，導遊或司機有權根據天氣、交通等情況，適當調整景點的遊覽順序、停留時間或集合時間以確保行程順利進行。</p>\n<p>5. 如遇景點臨時關閉或節假日（感恩節、聖誕節、新年等）關閉 等，導致無法參觀，導遊會根據實際情況調整為外觀或以其他景點代替以確保行程的豐富性。各景點及國家公園的開放時間及流量控制會因疫情不時變化，如影響行程屬不可抗力因素，敬請諒解。</p>\n<p>6. 八歲以下兒童參團需乘坐安全座椅，縱橫海鷗提供租借服務，租金$10.00/人/天，請務必在預定行程時提前備註告知，以便我們提前準備，如因客人未提前告知所造成的違規和罰金由客人自行承擔，敬請理解。出行當日安排大巴出行無需安全座椅，費用可退還客人。</p>\n<p>7. 行程中眾多旅遊景點需要參團人具備基本的健康條件。殘疾人士和行動不便者報名參團前請提前聯繫縱橫海鷗獲取相關政策資訊。若沒有及時通知，我司不能保證為客人提供輪椅升降巴士或安排合適的座位。</p>\n<p>8. 縱橫海鷗巴士團分為了四個等級：銀榜惠享、金榜怡享、白金尊享、鑽石臻享，詳情請查看<a href=\"https://uvbookings.info/upload/BMS/ProductLevel.pdf\" target=\"_blank\" rel=\"noopener\">產品分級</a>（點擊藍色字體查看）。</p>\n<p>9. 縱橫集團可能會多次修改參團條款和條件，並會在代理網站上及時公佈最新版本。請遊客在報名參團前務必仔細閱讀<a title=\"《參團條例》\" href=\"http://uvbookings.info/upload/terms/s.pdf\" target=\"_blank\" rel=\"noopener\">《參團條例》</a>（點擊藍色字體查看）。我司僅在這些條款和條件下履行義務，除非在此條例中或在法律中有特別規定，否則如果產生任何間接性，補償性，偶然性或懲罰性損害都不做出賠償。</p>\n<p><span style=\"color: #ba372a;\">10. 面對持續上漲的燃油成本，車輛運營成本大大增加，2026年5月18日（出發班期）起，縱橫海鷗的巴士團産品需加收交通附加費$5/人/天，導游將在行程中統一收取。</span></p>\n<p>&nbsp;</p>\n<p><strong>出行須知：</strong></p>\n<p>1. 為保障行程順利完整，遊客有責任嚴格遵守導遊給出的集合時間。如果距離集合時間超過十分鐘，車子將離開不予等待。縱橫海鷗竭誠提供準時准點服務，但如遇到天氣、交通、機械故障、罷工、政府停擺以及戰爭和恐怖襲擊等不可控因素，我司無法保證按時按點到達接送地點。由此原因導致的行程延誤進而給客人帶來任何的不便或產生相關航班、火車或大巴費用以及其他旅遊費用等額外費用的，我司概不負責。</p>\n<p>2. 縱橫海鷗有權在方便出團操作的情況下，在途中將遊客從原車換到另一輛車並指派不同導遊和司機提供服務。</p>\n<p>3. 以下建議會幫助您更快更好的登記報到：需攜帶有效身份證件( 內附照片)；請出示紙質版或電子版行程單。</p>\n<p>4. 該產品是團體活動，如您選擇中途離團，請提前告知並征得導遊同意，需簽署離團協議書，未完成部分將被視為您自行放棄，團費不予退還。</p>\n<p>5. 行程中的贈送項目，如因交通、天氣等不可抗力因素導致不能贈送的、或因您個人原因不能參觀的，費用不退，敬請諒解。</p>\n<p>6. 根據美國聯邦法律，參團期間車上禁止吸煙，若有吸煙需要，請到專門的吸煙區。</p>\n<p>7. 縱橫海鷗的所有行程一律不允許帶寵物和動物參團。</p>\n<p>8. 緊急聯繫電話：（美國免費電話）+1(866)585-8747。</p>",
+          "secondary": "【預定須知】集團一日遊（不涉及跨境）"
+        },
+        "text": {
+          "primary": "預定須知：\n\n1. 18歲以下未成年人或兒童必須由成人陪伴參團，單獨旅行的未成年人或兒童不能參加縱橫海鷗的旅遊團。出於對孕婦安全的考慮，孕婦參團需在行程結束時懷孕不超過24周。\n\n2. 請在預定時務必提供準確、完整的資訊，包括姓名、性別、有效的聯繫方式（最好是手機，如有問題，方便通知）、準確的參團地點等，以免產生預定錯誤，影響出行。如因您提供錯誤資訊而造成損失，由您自行承擔。\n\n3. 參團客人需跟團上導遊購買門票，不可自行帶票或使用City Pass。景點的門票費和團上餐費可能會根據景點官方的臨時通知而變動，以當日景點公佈的價格為准。\n\n4. 實際出行過程中，導遊或司機有權根據天氣、交通等情況，適當調整景點的遊覽順序、停留時間或集合時間以確保行程順利進行。\n\n5. 如遇景點臨時關閉或節假日（感恩節、聖誕節、新年等）關閉 等，導致無法參觀，導遊會根據實際情況調整為外觀或以其他景點代替以確保行程的豐富性。各景點及國家公園的開放時間及流量控制會因疫情不時變化，如影響行程屬不可抗力因素，敬請諒解。\n\n6. 八歲以下兒童參團需乘坐安全座椅，縱橫海鷗提供租借服務，租金$10.00/人/天，請務必在預定行程時提前備註告知，以便我們提前準備，如因客人未提前告知所造成的違規和罰金由客人自行承擔，敬請理解。出行當日安排大巴出行無需安全座椅，費用可退還客人。\n\n7. 行程中眾多旅遊景點需要參團人具備基本的健康條件。殘疾人士和行動不便者報名參團前請提前聯繫縱橫海鷗獲取相關政策資訊。若沒有及時通知，我司不能保證為客人提供輪椅升降巴士或安排合適的座位。\n\n8. 縱橫海鷗巴士團分為了四個等級：銀榜惠享、金榜怡享、白金尊享、鑽石臻享，詳情請查看產品分級（點擊藍色字體查看）。\n\n9. 縱橫集團可能會多次修改參團條款和條件，並會在代理網站上及時公佈最新版本。請遊客在報名參團前務必仔細閱讀《參團條例》（點擊藍色字體查看）。我司僅在這些條款和條件下履行義務，除非在此條例中或在法律中有特別規定，否則如果產生任何間接性，補償性，偶然性或懲罰性損害都不做出賠償。\n\n10. 面對持續上漲的燃油成本，車輛運營成本大大增加，2026年5月18日（出發班期）起，縱橫海鷗的巴士團産品需加收交通附加費$5/人/天，導游將在行程中統一收取。\n\n \n\n出行須知：\n\n1. 為保障行程順利完整，遊客有責任嚴格遵守導遊給出的集合時間。如果距離集合時間超過十分鐘，車子將離開不予等待。縱橫海鷗竭誠提供準時准點服務，但如遇到天氣、交通、機械故障、罷工、政府停擺以及戰爭和恐怖襲擊等不可控因素，我司無法保證按時按點到達接送地點。由此原因導致的行程延誤進而給客人帶來任何的不便或產生相關航班、火車或大巴費用以及其他旅遊費用等額外費用的，我司概不負責。\n\n2. 縱橫海鷗有權在方便出團操作的情況下，在途中將遊客從原車換到另一輛車並指派不同導遊和司機提供服務。\n\n3. 以下建議會幫助您更快更好的登記報到：需攜帶有效身份證件( 內附照片)；請出示紙質版或電子版行程單。\n\n4. 該產品是團體活動，如您選擇中途離團，請提前告知並征得導遊同意，需簽署離團協議書，未完成部分將被視為您自行放棄，團費不予退還。\n\n5. 行程中的贈送項目，如因交通、天氣等不可抗力因素導致不能贈送的、或因您個人原因不能參觀的，費用不退，敬請諒解。\n\n6. 根據美國聯邦法律，參團期間車上禁止吸煙，若有吸煙需要，請到專門的吸煙區。\n\n7. 縱橫海鷗的所有行程一律不允許帶寵物和動物參團。\n\n8. 緊急聯繫電話：（美國免費電話）+1(866)585-8747。",
+          "secondary": "【預定須知】集團一日遊（不涉及跨境）"
+        },
+        "raw": {
+          "matterCode": "AT00000302",
+          "editType": 1,
+          "noticeType": 1,
+          "matterName": "【預定須知】集團一日遊（不涉及跨境）",
+          "vluesTip1": "<p><strong>預定須知：</strong></p>\n<p>1. 18歲以下未成年人或兒童必須由成人陪伴參團，單獨旅行的未成年人或兒童不能參加縱橫海鷗的旅遊團。出於對孕婦安全的考慮，孕婦參團需在行程結束時懷孕不超過24周。</p>\n<p>2. 請在預定時務必提供準確、完整的資訊，包括姓名、性別、有效的聯繫方式（最好是手機，如有問題，方便通知）、準確的參團地點等，以免產生預定錯誤，影響出行。如因您提供錯誤資訊而造成損失，由您自行承擔。</p>\n<p>3. 參團客人需跟團上導遊購買門票，不可自行帶票或使用City Pass。景點的門票費和團上餐費可能會根據景點官方的臨時通知而變動，以當日景點公佈的價格為准。</p>\n<p>4. 實際出行過程中，導遊或司機有權根據天氣、交通等情況，適當調整景點的遊覽順序、停留時間或集合時間以確保行程順利進行。</p>\n<p>5. 如遇景點臨時關閉或節假日（感恩節、聖誕節、新年等）關閉 等，導致無法參觀，導遊會根據實際情況調整為外觀或以其他景點代替以確保行程的豐富性。各景點及國家公園的開放時間及流量控制會因疫情不時變化，如影響行程屬不可抗力因素，敬請諒解。</p>\n<p>6. 八歲以下兒童參團需乘坐安全座椅，縱橫海鷗提供租借服務，租金$10.00/人/天，請務必在預定行程時提前備註告知，以便我們提前準備，如因客人未提前告知所造成的違規和罰金由客人自行承擔，敬請理解。出行當日安排大巴出行無需安全座椅，費用可退還客人。</p>\n<p>7. 行程中眾多旅遊景點需要參團人具備基本的健康條件。殘疾人士和行動不便者報名參團前請提前聯繫縱橫海鷗獲取相關政策資訊。若沒有及時通知，我司不能保證為客人提供輪椅升降巴士或安排合適的座位。</p>\n<p>8. 縱橫海鷗巴士團分為了四個等級：銀榜惠享、金榜怡享、白金尊享、鑽石臻享，詳情請查看<a href=\"https://uvbookings.info/upload/BMS/ProductLevel.pdf\" target=\"_blank\" rel=\"noopener\">產品分級</a>（點擊藍色字體查看）。</p>\n<p>9. 縱橫集團可能會多次修改參團條款和條件，並會在代理網站上及時公佈最新版本。請遊客在報名參團前務必仔細閱讀<a title=\"《參團條例》\" href=\"http://uvbookings.info/upload/terms/s.pdf\" target=\"_blank\" rel=\"noopener\">《參團條例》</a>（點擊藍色字體查看）。我司僅在這些條款和條件下履行義務，除非在此條例中或在法律中有特別規定，否則如果產生任何間接性，補償性，偶然性或懲罰性損害都不做出賠償。</p>\n<p><span style=\"color: #ba372a;\">10. 面對持續上漲的燃油成本，車輛運營成本大大增加，2026年5月18日（出發班期）起，縱橫海鷗的巴士團産品需加收交通附加費$5/人/天，導游將在行程中統一收取。</span></p>\n<p>&nbsp;</p>\n<p><strong>出行須知：</strong></p>\n<p>1. 為保障行程順利完整，遊客有責任嚴格遵守導遊給出的集合時間。如果距離集合時間超過十分鐘，車子將離開不予等待。縱橫海鷗竭誠提供準時准點服務，但如遇到天氣、交通、機械故障、罷工、政府停擺以及戰爭和恐怖襲擊等不可控因素，我司無法保證按時按點到達接送地點。由此原因導致的行程延誤進而給客人帶來任何的不便或產生相關航班、火車或大巴費用以及其他旅遊費用等額外費用的，我司概不負責。</p>\n<p>2. 縱橫海鷗有權在方便出團操作的情況下，在途中將遊客從原車換到另一輛車並指派不同導遊和司機提供服務。</p>\n<p>3. 以下建議會幫助您更快更好的登記報到：需攜帶有效身份證件( 內附照片)；請出示紙質版或電子版行程單。</p>\n<p>4. 該產品是團體活動，如您選擇中途離團，請提前告知並征得導遊同意，需簽署離團協議書，未完成部分將被視為您自行放棄，團費不予退還。</p>\n<p>5. 行程中的贈送項目，如因交通、天氣等不可抗力因素導致不能贈送的、或因您個人原因不能參觀的，費用不退，敬請諒解。</p>\n<p>6. 根據美國聯邦法律，參團期間車上禁止吸煙，若有吸煙需要，請到專門的吸煙區。</p>\n<p>7. 縱橫海鷗的所有行程一律不允許帶寵物和動物參團。</p>\n<p>8. 緊急聯繫電話：（美國免費電話）+1(866)585-8747。</p>",
+          "vluesTip2": "【預定須知】集團一日遊（不涉及跨境）"
+        }
+      },
+      {
+        "matterCode": "CM00002311",
+        "noticeType": 0,
+        "typeLabel": "Cost description",
+        "matterName": "【美東隨上隨下】一日遊（不含景點門票）",
+        "html": {
+          "primary": "<p>1. 交通費用（使用車輛類型根據當日具體參團人數決定）；</p>\n<p>2. 中英文服務人員（司機+導遊/司兼導）；</p>\n<p>3. 服務費。</p>",
+          "secondary": "<p>1. 餐飲；</p>\n<p>2. 景點門票費用（門票價格時常波動，不再另行通知。門票需在導遊處統一購買）；</p>\n<p>3. 一切除費用包含外的私人性質費用。</p>"
+        },
+        "text": {
+          "primary": "1. 交通費用（使用車輛類型根據當日具體參團人數決定）；\n\n2. 中英文服務人員（司機+導遊/司兼導）；\n\n3. 服務費。",
+          "secondary": "1. 餐飲；\n\n2. 景點門票費用（門票價格時常波動，不再另行通知。門票需在導遊處統一購買）；\n\n3. 一切除費用包含外的私人性質費用。"
+        },
+        "raw": {
+          "matterCode": "CM00002311",
+          "editType": 1,
+          "noticeType": 0,
+          "matterName": "【美東隨上隨下】一日遊（不含景點門票）",
+          "vluesTip1": "<p>1. 交通費用（使用車輛類型根據當日具體參團人數決定）；</p>\n<p>2. 中英文服務人員（司機+導遊/司兼導）；</p>\n<p>3. 服務費。</p>",
+          "vluesTip2": "<p>1. 餐飲；</p>\n<p>2. 景點門票費用（門票價格時常波動，不再另行通知。門票需在導遊處統一購買）；</p>\n<p>3. 一切除費用包含外的私人性質費用。</p>"
+        }
+      }
+    ],
+    "damagesInfo": []
+  },
+  "pickup_dropoff": {
+    "pickup": [
+      {
+        "code": "ANM00000406",
+        "viewCode": "",
+        "name": "弗吉尼亞州：Dental Office",
+        "address": "7787 Leesburg Pike, Falls Church, VA 22043",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00000406",
+          "carpointName": "弗吉尼亞州：Dental Office",
+          "aggregationAddr": "7787 Leesburg Pike, Falls Church, VA 22043",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "ANT00001128",
+          "carpointTimeValue": "07:30",
+          "carpointViewCode": ""
+        }
+      },
+      {
+        "code": "ANM00000447",
+        "viewCode": "",
+        "name": "華盛頓特區：莎士比亞劇院門口",
+        "address": "610 F Street NW, Washington D.C.",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00000447",
+          "carpointName": "華盛頓特區：莎士比亞劇院門口",
+          "aggregationAddr": "610 F Street NW, Washington D.C.",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "ANT00001129",
+          "carpointTimeValue": "08:00",
+          "carpointViewCode": ""
+        }
+      },
+      {
+        "code": "ANM00001640",
+        "viewCode": "",
+        "name": "Spring Hill Suites Gaithersburg ",
+        "address": "9715  Washington Blvd, Gaithersburg, MD 20878",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00001640",
+          "carpointName": "Spring Hill Suites Gaithersburg ",
+          "aggregationAddr": "9715  Washington Blvd, Gaithersburg, MD 20878",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "ANT00003133",
+          "carpointTimeValue": "08:45",
+          "carpointViewCode": ""
+        }
+      }
+    ],
+    "dropoff": [
+      {
+        "code": "ANM00001048",
+        "viewCode": "RED（5 Times Sq）",
+        "name": "曼哈頓：時代廣場 Red Lobster 餐廳",
+        "address": "5 Times Sq #5, New York, NY 10036",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00001048",
+          "carpointName": "曼哈頓：時代廣場 Red Lobster 餐廳",
+          "aggregationAddr": "5 Times Sq #5, New York, NY 10036",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "",
+          "carpointTimeValue": null,
+          "carpointViewCode": "RED（5 Times Sq）"
+        }
+      },
+      {
+        "code": "ANM00000030",
+        "viewCode": "FLU",
+        "name": "法拉盛：敦城酒家",
+        "address": "133-30 39th Ave, Flushing, NY 11354",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00000030",
+          "carpointName": "法拉盛：敦城酒家",
+          "aggregationAddr": "133-30 39th Ave, Flushing, NY 11354",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "",
+          "carpointTimeValue": null,
+          "carpointViewCode": "FLU"
+        }
+      },
+      {
+        "code": "ANM00001049",
+        "viewCode": "ADR",
+        "name": "紐約 Andrews NYC Diner",
+        "address": "463 7th Ave, New York, NY 10018",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00001049",
+          "carpointName": "紐約 Andrews NYC Diner",
+          "aggregationAddr": "463 7th Ave, New York, NY 10018",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "",
+          "carpointTimeValue": null,
+          "carpointViewCode": "ADR"
+        }
+      },
+      {
+        "code": "ANM00001050",
+        "viewCode": "UN",
+        "name": "紐約聯合廣場 Capital One Bank",
+        "address": "853 Broadway, New York, NY 10003",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00001050",
+          "carpointName": "紐約聯合廣場 Capital One Bank",
+          "aggregationAddr": "853 Broadway, New York, NY 10003",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "",
+          "carpointTimeValue": null,
+          "carpointViewCode": "UN"
+        }
+      },
+      {
+        "code": "ANM00000034",
+        "viewCode": "CTT",
+        "name": "曼哈頓：唐人街 75 Chrystie St",
+        "address": "75 Chrystie St, New York, NY 10002",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00000034",
+          "carpointName": "曼哈頓：唐人街 75 Chrystie St",
+          "aggregationAddr": "75 Chrystie St, New York, NY 10002",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "",
+          "carpointTimeValue": null,
+          "carpointViewCode": "CTT"
+        }
+      },
+      {
+        "code": "ANM00000036",
+        "viewCode": "JCC",
+        "name": "澤西市：Newport Plaza 於18街的出口，ACME超市邊上",
+        "address": "125 Eighteenth St, Jersey City, NJ 07310",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00000036",
+          "carpointName": "澤西市：Newport Plaza 於18街的出口，ACME超市邊上",
+          "aggregationAddr": "125 Eighteenth St, Jersey City, NJ 07310",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "",
+          "carpointTimeValue": null,
+          "carpointViewCode": "JCC"
+        }
+      },
+      {
+        "code": "ANM00001624",
+        "viewCode": "",
+        "name": "Grover Cleveland Service Area",
+        "address": "Milepost 92.9 North, NJ Tpke, Woodbridge Township, NJ 07077",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00001624",
+          "carpointName": "Grover Cleveland Service Area",
+          "aggregationAddr": "Milepost 92.9 North, NJ Tpke, Woodbridge Township, NJ 07077",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "",
+          "carpointTimeValue": null,
+          "carpointViewCode": ""
+        }
+      }
+    ],
+    "teamPickup": [
+      {
+        "code": "ANM00000406",
+        "viewCode": "",
+        "name": "弗吉尼亞州：Dental Office",
+        "address": "7787 Leesburg Pike, Falls Church, VA 22043",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00000406",
+          "carpointName": "弗吉尼亞州：Dental Office",
+          "aggregationAddr": "7787 Leesburg Pike, Falls Church, VA 22043",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "ANT00001128",
+          "carpointTimeValue": "07:30",
+          "carpointViewCode": ""
+        }
+      },
+      {
+        "code": "ANM00000447",
+        "viewCode": "",
+        "name": "華盛頓特區：莎士比亞劇院門口",
+        "address": "610 F Street NW, Washington D.C.",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00000447",
+          "carpointName": "華盛頓特區：莎士比亞劇院門口",
+          "aggregationAddr": "610 F Street NW, Washington D.C.",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "ANT00001129",
+          "carpointTimeValue": "08:00",
+          "carpointViewCode": ""
+        }
+      },
+      {
+        "code": "ANM00001640",
+        "viewCode": "",
+        "name": "Spring Hill Suites Gaithersburg ",
+        "address": "9715  Washington Blvd, Gaithersburg, MD 20878",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00001640",
+          "carpointName": "Spring Hill Suites Gaithersburg ",
+          "aggregationAddr": "9715  Washington Blvd, Gaithersburg, MD 20878",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "ANT00003133",
+          "carpointTimeValue": "08:45",
+          "carpointViewCode": ""
+        }
+      }
+    ],
+    "teamDropoff": [
+      {
+        "code": "ANM00001048",
+        "viewCode": "RED（5 Times Sq）",
+        "name": "曼哈頓：時代廣場 Red Lobster 餐廳",
+        "address": "5 Times Sq #5, New York, NY 10036",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00001048",
+          "carpointName": "曼哈頓：時代廣場 Red Lobster 餐廳",
+          "aggregationAddr": "5 Times Sq #5, New York, NY 10036",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "",
+          "carpointTimeValue": null,
+          "carpointViewCode": "RED（5 Times Sq）"
+        }
+      },
+      {
+        "code": "ANM00000030",
+        "viewCode": "FLU",
+        "name": "法拉盛：敦城酒家",
+        "address": "133-30 39th Ave, Flushing, NY 11354",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00000030",
+          "carpointName": "法拉盛：敦城酒家",
+          "aggregationAddr": "133-30 39th Ave, Flushing, NY 11354",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "",
+          "carpointTimeValue": null,
+          "carpointViewCode": "FLU"
+        }
+      },
+      {
+        "code": "ANM00001049",
+        "viewCode": "ADR",
+        "name": "紐約 Andrews NYC Diner",
+        "address": "463 7th Ave, New York, NY 10018",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00001049",
+          "carpointName": "紐約 Andrews NYC Diner",
+          "aggregationAddr": "463 7th Ave, New York, NY 10018",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "",
+          "carpointTimeValue": null,
+          "carpointViewCode": "ADR"
+        }
+      },
+      {
+        "code": "ANM00001050",
+        "viewCode": "UN",
+        "name": "紐約聯合廣場 Capital One Bank",
+        "address": "853 Broadway, New York, NY 10003",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00001050",
+          "carpointName": "紐約聯合廣場 Capital One Bank",
+          "aggregationAddr": "853 Broadway, New York, NY 10003",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "",
+          "carpointTimeValue": null,
+          "carpointViewCode": "UN"
+        }
+      },
+      {
+        "code": "ANM00000034",
+        "viewCode": "CTT",
+        "name": "曼哈頓：唐人街 75 Chrystie St",
+        "address": "75 Chrystie St, New York, NY 10002",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00000034",
+          "carpointName": "曼哈頓：唐人街 75 Chrystie St",
+          "aggregationAddr": "75 Chrystie St, New York, NY 10002",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "",
+          "carpointTimeValue": null,
+          "carpointViewCode": "CTT"
+        }
+      },
+      {
+        "code": "ANM00000036",
+        "viewCode": "JCC",
+        "name": "澤西市：Newport Plaza 於18街的出口，ACME超市邊上",
+        "address": "125 Eighteenth St, Jersey City, NJ 07310",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00000036",
+          "carpointName": "澤西市：Newport Plaza 於18街的出口，ACME超市邊上",
+          "aggregationAddr": "125 Eighteenth St, Jersey City, NJ 07310",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "",
+          "carpointTimeValue": null,
+          "carpointViewCode": "JCC"
+        }
+      },
+      {
+        "code": "ANM00001624",
+        "viewCode": "",
+        "name": "Grover Cleveland Service Area",
+        "address": "Milepost 92.9 North, NJ Tpke, Woodbridge Township, NJ 07077",
+        "description": "",
+        "descriptionText": "",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00001624",
+          "carpointName": "Grover Cleveland Service Area",
+          "aggregationAddr": "Milepost 92.9 North, NJ Tpke, Woodbridge Township, NJ 07077",
+          "aggregationDesc": "",
+          "isAirport": 0,
+          "carpointTimeCode": "",
+          "carpointTimeValue": null,
+          "carpointViewCode": ""
+        }
+      }
+    ]
+  },
+  "constraints": {
+    "confirmType": 1,
+    "confirmTypeLabel": "Confirm manually",
+    "isAgeLimited": false,
+    "needsIdNumber": false,
+    "isChildAvailable": true,
+    "childAge": "",
+    "childHeight": "",
+    "childNote": "兒童與成人同價",
+    "infantNote": "",
+    "seniorNote": "",
+    "raw": {
+      "confirmType": 1,
+      "isAge": 0,
+      "ageCode": "",
+      "ageName": null,
+      "isNumber": 0,
+      "isPrice": 1,
+      "isCarpoint": 1,
+      "isChild": 1,
+      "childAge": "",
+      "childHeight": "",
+      "childNote": "兒童與成人同價",
+      "isRange": 0,
+      "isAutoTeam": 1,
+      "isInfant": 0,
+      "infantAgeUpper": "",
+      "infantNote": "",
+      "isSenior": 0,
+      "seniorAgeLower": "",
+      "seniorNote": ""
+    }
+  },
+  "addons": [
+    {
+      "code": "S00008712",
+      "rewardCode": "RC00008725",
+      "name": "1天交通附加費",
+      "description": "USD$5/人/天",
+      "descriptionText": "USD$5/人/天",
+      "promoteType": 2,
+      "pricingType": 1,
+      "peopleType": 0,
+      "peopleTypeLabel": "All",
+      "amount": 5,
+      "currency": "USD",
+      "prices": [
+        {
+          "priceType": 1,
+          "label": "Adult",
+          "amount": 5,
+          "rewardPrice": 0,
+          "markup": 0,
+          "raw": {
+            "priceType": 1,
+            "groupPrice": 5,
+            "rewardPrice": 0,
+            "rewardType": 0,
+            "rewardValue": 0,
+            "currencyNum": null,
+            "exchangePrice": null
+          }
+        }
+      ],
+      "group": [
+        {
+          "groupDate": "0001-01-01 00:00:00",
+          "groupStock": 0,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "groupStatus": 200,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 5,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "currencyNum": null,
+              "exchangePrice": null
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": [],
+          "promoteCode": "S00008712",
+          "promoteGroupPattern": 1
+        }
+      ],
+      "clauses": [],
+      "raw": {
+        "mainLanguage": 2,
+        "productCode": "P00008026",
+        "promoteCode": "S00008712",
+        "rewardCode": "RC00008725",
+        "promotePattern": 1,
+        "promoteType": 2,
+        "bindType": 0,
+        "promoteDay": "",
+        "peopleType": 0,
+        "promoteName": "1天交通附加費",
+        "promoteDesc": "USD$5/人/天",
+        "promoteIsOutreach": null,
+        "outreachPromoteCode": "",
+        "promoteStatus": 200,
+        "promoteMoney": 5,
+        "promoteRewardMoney": 0,
+        "createTime": "2026-05-21 15:05:39.0",
+        "listPromoteClause": [],
+        "promoteGroup": [
+          {
+            "groupDate": "0001-01-01 00:00:00",
+            "groupStock": 0,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "groupStatus": 200,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 5,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "currencyNum": null,
+                "exchangePrice": null
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": [],
+            "promoteCode": "S00008712",
+            "promoteGroupPattern": 1
+          }
+        ],
+        "optionProductCode": null,
+        "productGroupDate": null,
+        "guideSaleType": 0,
+        "pricingType": 1
+      }
+    },
+    {
+      "code": "S00008164",
+      "rewardCode": "RC00008129",
+      "name": "紐約金融財富之旅+夜景遊",
+      "description": "",
+      "descriptionText": "",
+      "promoteType": 2,
+      "pricingType": 2,
+      "peopleType": 0,
+      "peopleTypeLabel": "All",
+      "amount": 80,
+      "currency": "USD",
+      "prices": [
+        {
+          "priceType": 2,
+          "label": "Child",
+          "amount": 70,
+          "rewardPrice": 0,
+          "markup": 0,
+          "raw": {
+            "priceType": 2,
+            "groupPrice": 70,
+            "rewardPrice": 0,
+            "rewardType": 0,
+            "rewardValue": 0,
+            "currencyNum": null,
+            "exchangePrice": null
+          }
+        },
+        {
+          "priceType": 1,
+          "label": "Adult",
+          "amount": 80,
+          "rewardPrice": 0,
+          "markup": 0,
+          "raw": {
+            "priceType": 1,
+            "groupPrice": 80,
+            "rewardPrice": 0,
+            "rewardType": 0,
+            "rewardValue": 0,
+            "currencyNum": null,
+            "exchangePrice": null
+          }
+        }
+      ],
+      "group": [
+        {
+          "groupDate": "0001-01-01 00:00:00",
+          "groupStock": 0,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "groupStatus": 200,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 2,
+              "groupPrice": 70,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "currencyNum": null,
+              "exchangePrice": null
+            },
+            {
+              "priceType": 1,
+              "groupPrice": 80,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "currencyNum": null,
+              "exchangePrice": null
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": [],
+          "promoteCode": "S00008164",
+          "promoteGroupPattern": 1
+        }
+      ],
+      "clauses": [],
+      "raw": {
+        "mainLanguage": 2,
+        "productCode": "P00008026",
+        "promoteCode": "S00008164",
+        "rewardCode": "RC00008129",
+        "promotePattern": 1,
+        "promoteType": 2,
+        "bindType": 0,
+        "promoteDay": "",
+        "peopleType": 0,
+        "promoteName": "紐約金融財富之旅+夜景遊",
+        "promoteDesc": "",
+        "promoteIsOutreach": null,
+        "outreachPromoteCode": "",
+        "promoteStatus": 200,
+        "promoteMoney": 80,
+        "promoteRewardMoney": 0,
+        "createTime": "2025-09-02 13:45:22.0",
+        "listPromoteClause": [],
+        "promoteGroup": [
+          {
+            "groupDate": "0001-01-01 00:00:00",
+            "groupStock": 0,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "groupStatus": 200,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 2,
+                "groupPrice": 70,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "currencyNum": null,
+                "exchangePrice": null
+              },
+              {
+                "priceType": 1,
+                "groupPrice": 80,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "currencyNum": null,
+                "exchangePrice": null
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": [],
+            "promoteCode": "S00008164",
+            "promoteGroupPattern": 1
+          }
+        ],
+        "optionProductCode": null,
+        "productGroupDate": null,
+        "guideSaleType": 0,
+        "pricingType": 2
+      }
+    }
+  ],
+  "shopify_mapping": {
+    "title": "【銀榜惠享】美東跨城輕鬆達系列 | 華盛頓特區 - 紐約",
+    "handle": "p00008026",
+    "vendor": "Jupiter Legend Corporation",
+    "productType": "Washington D.C.",
+    "tags": [
+      "ToursBMS",
+      "Washington D.C.",
+      "1 days"
+    ],
+    "status": "active_candidate",
+    "bodyHtml": "<h2>Highlights</h2>\n<p>【跨城輕鬆達】點到點單程車票，精準解決大交通煩惱，助您跨城旅行便捷無憂。<br />【省時又省力】對比自駕，無需租車駕駛，省去繁雜流程，為旅程節省時間與精力。<br />【超高性價比】相較機票，保證準時發車，杜絕延誤困擾，出行費用更具性價比。<br />【便捷有導遊】優於一般跨城巴士，參離團點覆蓋廣泛，全程配備華人導遊。<br />【安心又舒適】身處華人遊客專屬氛圍，消除陌生感，讓跨城旅程更安心舒適。<br />【靈活享風景】沿途經停精選特色景點，可隨時下車舒展，享受自由活動時光。</p>\n\n<h2>Departure Date</h2>\n<p>週六<br>兩人成團，保證出發。</p>\n\n<h2>Cost Includes</h2>\n<p>1. 交通費用（使用車輛類型根據當日具體參團人數決定）；</p>\n<p>2. 中英文服務人員（司機+導遊/司兼導）；</p>\n<p>3. 服務費。</p>\n<h2>Cost Excludes</h2>\n<p>1. 餐飲；</p>\n<p>2. 景點門票費用（門票價格時常波動，不再另行通知。門票需在導遊處統一購買）；</p>\n<p>3. 一切除費用包含外的私人性質費用。</p>\n\n<h2>Cancellation Policy</h2>\n<p>1. 如遇天氣、戰爭、罷工等人力不可抗拒因素無法遊覽，本公司將有權更改行程，景點門票費用退還（贈送的自費項目除外），報名團費不退還；&nbsp;</p>\n<p>2. 取消條款如下：</p>\n<p>&nbsp; &nbsp;a. &nbsp;如果團組在出發前15日 (含) ，要求取消或改期，團費不扣，其他加定酒店、機票或服務需參照酒店或航司規定而確定是否能退款。</p>\n<p>&nbsp; &nbsp;b. &nbsp;在出發前8日 (含) 至 14日 (含) ，要求取消或改期，需扣50%團費，其他加定酒店或服務需參照酒店規定而確定是否能退款。</p>\n<p>&nbsp; &nbsp;c. &nbsp;如果團組在出發前7日 (含) 至出發當天要求取消或出發當日未能準時參加者，作自動放棄論，已付團費概不退還。</p>\n<p>&nbsp; &nbsp;d.&nbsp; 如貴司或客人因個人原因 (無旅行證件、遲到、生病、意外等因素) 於旅途中退出或未能參加行程內任何行程，已付團費概不退還，也不會以其他服務賠償。</p>\n<h2>Know Before You Book</h2>\n<p><strong>預定須知：</strong></p>\n<p>1. 18歲以下未成年人或兒童必須由成人陪伴參團，單獨旅行的未成年人或兒童不能參加縱橫海鷗的旅遊團。出於對孕婦安全的考慮，孕婦參團需在行程結束時懷孕不超過24周。</p>\n<p>2. 請在預定時務必提供準確、完整的資訊，包括姓名、性別、有效的聯繫方式（最好是手機，如有問題，方便通知）、準確的參團地點等，以免產生預定錯誤，影響出行。如因您提供錯誤資訊而造成損失，由您自行承擔。</p>\n<p>3. 參團客人需跟團上導遊購買門票，不可自行帶票或使用City Pass。景點的門票費和團上餐費可能會根據景點官方的臨時通知而變動，以當日景點公佈的價格為准。</p>\n<p>4. 實際出行過程中，導遊或司機有權根據天氣、交通等情況，適當調整景點的遊覽順序、停留時間或集合時間以確保行程順利進行。</p>\n<p>5. 如遇景點臨時關閉或節假日（感恩節、聖誕節、新年等）關閉 等，導致無法參觀，導遊會根據實際情況調整為外觀或以其他景點代替以確保行程的豐富性。各景點及國家公園的開放時間及流量控制會因疫情不時變化，如影響行程屬不可抗力因素，敬請諒解。</p>\n<p>6. 八歲以下兒童參團需乘坐安全座椅，縱橫海鷗提供租借服務，租金$10.00/人/天，請務必在預定行程時提前備註告知，以便我們提前準備，如因客人未提前告知所造成的違規和罰金由客人自行承擔，敬請理解。出行當日安排大巴出行無需安全座椅，費用可退還客人。</p>\n<p>7. 行程中眾多旅遊景點需要參團人具備基本的健康條件。殘疾人士和行動不便者報名參團前請提前聯繫縱橫海鷗獲取相關政策資訊。若沒有及時通知，我司不能保證為客人提供輪椅升降巴士或安排合適的座位。</p>\n<p>8. 縱橫海鷗巴士團分為了四個等級：銀榜惠享、金榜怡享、白金尊享、鑽石臻享，詳情請查看<a href=\"https://uvbookings.info/upload/BMS/ProductLevel.pdf\" target=\"_blank\" rel=\"noopener\">產品分級</a>（點擊藍色字體查看）。</p>\n<p>9. 縱橫集團可能會多次修改參團條款和條件，並會在代理網站上及時公佈最新版本。請遊客在報名參團前務必仔細閱讀<a title=\"《參團條例》\" href=\"http://uvbookings.info/upload/terms/s.pdf\" target=\"_blank\" rel=\"noopener\">《參團條例》</a>（點擊藍色字體查看）。我司僅在這些條款和條件下履行義務，除非在此條例中或在法律中有特別規定，否則如果產生任何間接性，補償性，偶然性或懲罰性損害都不做出賠償。</p>\n<p><span style=\"color: #ba372a;\">10. 面對持續上漲的燃油成本，車輛運營成本大大增加，2026年5月18日（出發班期）起，縱橫海鷗的巴士團産品需加收交通附加費$5/人/天，導游將在行程中統一收取。</span></p>\n<p>&nbsp;</p>\n<p><strong>出行須知：</strong></p>\n<p>1. 為保障行程順利完整，遊客有責任嚴格遵守導遊給出的集合時間。如果距離集合時間超過十分鐘，車子將離開不予等待。縱橫海鷗竭誠提供準時准點服務，但如遇到天氣、交通、機械故障、罷工、政府停擺以及戰爭和恐怖襲擊等不可控因素，我司無法保證按時按點到達接送地點。由此原因導致的行程延誤進而給客人帶來任何的不便或產生相關航班、火車或大巴費用以及其他旅遊費用等額外費用的，我司概不負責。</p>\n<p>2. 縱橫海鷗有權在方便出團操作的情況下，在途中將遊客從原車換到另一輛車並指派不同導遊和司機提供服務。</p>\n<p>3. 以下建議會幫助您更快更好的登記報到：需攜帶有效身份證件( 內附照片)；請出示紙質版或電子版行程單。</p>\n<p>4. 該產品是團體活動，如您選擇中途離團，請提前告知並征得導遊同意，需簽署離團協議書，未完成部分將被視為您自行放棄，團費不予退還。</p>\n<p>5. 行程中的贈送項目，如因交通、天氣等不可抗力因素導致不能贈送的、或因您個人原因不能參觀的，費用不退，敬請諒解。</p>\n<p>6. 根據美國聯邦法律，參團期間車上禁止吸煙，若有吸煙需要，請到專門的吸煙區。</p>\n<p>7. 縱橫海鷗的所有行程一律不允許帶寵物和動物參團。</p>\n<p>8. 緊急聯繫電話：（美國免費電話）+1(866)585-8747。</p>",
+    "options": [
+      "Package price type"
+    ],
+    "variants": [
+      {
+        "option1": "Adult",
+        "sku": "P00008026-ADULT",
+        "price": "69.00",
+        "currency": "USD",
+        "inventoryPolicy": "continue"
+      },
+      {
+        "option1": "Child",
+        "sku": "P00008026-CHILD",
+        "price": "69.00",
+        "currency": "USD",
+        "inventoryPolicy": "continue"
+      }
+    ],
+    "metafields": {
+      "toursbms_product_code": "P00008026",
+      "toursbms_group_no": "DCNY1",
+      "toursbms_view_code": "R0005097",
+      "duration_days": 1,
+      "duration_nights": null
+    }
+  },
+  "source": {
+    "productPageUrl": "https://uvbookings.toursbms.com/zh/product/detail?productCode=P00008026",
+    "branchCode": "B00000003",
+    "branchName": "纵横集团",
+    "language": 2,
+    "languagePackage": {
+      "CON000252": "產品大類",
+      "CON000314": "飛機",
+      "CON000315": "火車",
+      "CON000316": "汽車",
+      "CON000317": "郵輪",
+      "CON000318": "其他",
+      "CON000321": "航班",
+      "CON000322": "交通",
+      "CON000323": "景點",
+      "CON000324": "用餐",
+      "CON000325": "購物",
+      "CON000326": "自由活動",
+      "CON000329": "待定",
+      "CON000330": "直飛",
+      "CON000331": "中轉",
+      "CON000332": "行駛距離",
+      "CON000333": "行駛時間",
+      "CON000334": "小時",
+      "CON000335": "分鐘",
+      "CON000338": "早餐",
+      "CON000339": "午餐",
+      "CON000340": "晚餐",
+      "CON000341": "用餐內容",
+      "CON000342": "活動時間",
+      "CON000343": "用餐時間",
+      "CON000344": "自理",
+      "CON000358": "費用包含",
+      "CON000359": "費用不含",
+      "CON000363": "預訂須知",
+      "CON000364": "出行提示",
+      "CON000365": "退改說明",
+      "CON000366": "簽證說明",
+      "CON000370": "購物點名稱",
+      "CON000375": "價格說明",
+      "CON000377": "價格",
+      "CON000380": "團號",
+      "CON000383": "產品形態",
+      "CON000384": "跟團遊",
+      "CON000385": "半自助",
+      "CON000386": "私家團",
+      "CON000389": "交通工具",
+      "CON000390": "參團地點",
+      "CON000392": "離團地點",
+      "CON000394": "產品特色",
+      "CON000395": "促銷資訊",
+      "CON000397": "產品資訊",
+      "CON000400": "確認方式",
+      "CON000401": "人工確認",
+      "CON000402": "系統確認",
+      "CON000403": "年齡限制",
+      "CON000404": "不限制",
+      "CON000405": "限制",
+      "CON000406": "是否需要證件號碼預訂",
+      "CON000407": "不需要",
+      "CON000408": "需要",
+      "CON000413": "兒童標準",
+      "CON000414": "年齡小於等於",
+      "CON000415": "身高小於等於",
+      "CON000439": "天",
+      "CON000440": "晚",
+      "CON000450": "費用說明",
+      "CON000451": "自費專案",
+      "CON000454": "包含天數",
+      "CON000458": "購物推薦",
+      "CON000484": "增值服務",
+      "CON000485": "房型升級",
+      "CON000486": "其他費用",
+      "CON000487": "名稱",
+      "CON000489": "包含人群",
+      "CON000491": "查看更多",
+      "CON000512": "酒店",
+      "CON000533": "全天",
+      "CON000534": "上午",
+      "CON000535": "下午",
+      "CON000536": "晚上",
+      "CON000539": "或",
+      "CON000540": "與",
+      "CON000557": "購物描述",
+      "CON000581": "周日",
+      "CON000582": "週一",
+      "CON000583": "週二",
+      "CON000584": "週三",
+      "CON000585": "週四",
+      "CON000586": "週五",
+      "CON000587": "週六",
+      "CON000651": "成人",
+      "CON000652": "兒童",
+      "CON000653": "類型",
+      "CON000654": "間",
+      "CON000676": "無",
+      "CON000691": "搜索",
+      "CON000692": "價格區間",
+      "CON000693": "多選",
+      "CON000694": "不限",
+      "CON000696": "很抱歉，沒有找到符合條件的相關產品。",
+      "CON000699": "綜合",
+      "CON000700": "價格從低到高",
+      "CON000701": "價格從高到底",
+      "CON000702": "最近班期",
+      "CON000703": "查看班期",
+      "CON000704": "最早出發",
+      "CON000705": "最晚出發",
+      "CON000707": "更多",
+      "CON000708": "銷售範圍",
+      "CON000709": "查看全部",
+      "CON000710": "參/離團地點",
+      "CON000711": "繁體中文行程",
+      "CON000712": "簡體中文行程",
+      "CON000713": "英文行程",
+      "CON000714": "選擇團期",
+      "CON000715": "充足",
+      "CON000716": "少量",
+      "CON000717": "客滿",
+      "CON000718": "當前幣種",
+      "CON000720": "匯出",
+      "CON000721": "列印",
+      "CON000722": "發送",
+      "CON000723": "更多價格",
+      "CON000724": "行程介紹",
+      "CON000725": "協議",
+      "CON000726": "須知",
+      "CON000727": "全部條件",
+      "CON000728": "全部清除",
+      "CON000729": "收起班期",
+      "CON000730": "價格待定",
+      "CON000731": "起始天數不能大於結束天數",
+      "CON000732": "最小價格不能大於最大價格",
+      "CON000733": "最早出發不能晚於最晚出發",
+      "CON000734": "請輸入產品名稱、副標題、團號、出發城市、目的地",
+      "CON000735": "產品詳情",
+      "CON000736": "團期庫存",
+      "CON000737": "基礎價格",
+      "CON000738": "郵件發送",
+      "CON000739": "收件箱",
+      "CON000740": "產品 特色",
+      "CON000741": "費用 說明",
+      "CON000742": "行程 介紹",
+      "CON000743": "購物 推薦",
+      "CON000744": "項目名稱",
+      "CON000745": "預定限制",
+      "CON000746": "兒童是否可訂",
+      "CON000747": "購物點列表",
+      "CON000748": "費用自理",
+      "CON000749": "語言版本",
+      "CON000751": "產品價格",
+      "CON000752": "參團地點",
+      "CON000753": "離團地點",
+      "CON000754": "出發",
+      "CON000755": "詳細地址",
+      "CON000756": "附件",
+      "CON000757": "發送檔案類型",
+      "CON000758": "參考附件",
+      "CON000759": "協議 須知",
+      "CON001251": "說明",
+      "CON001325": "導遊根據行程安排",
+      "CON001326": "或者",
+      "CON001327": "當前語言",
+      "CON001494": "暫未開通網站，請聯繫管理員！",
+      "CON001495": "網站正在維護中，敬請期待！",
+      "CON001501": "進入後臺",
+      "CON001504": "請輸入目的地、主題或者關鍵字",
+      "CON001505": "重新載入",
+      "CON001517": "產品資訊已失效",
+      "CON001770": "飛行時間",
+      "CON001771": "飛行距離",
+      "CON002014": "匯出簡版Word",
+      "CON002015": "匯出簡版PDF",
+      "CON002052": "出發班期",
+      "CON002054": "接機",
+      "CON002055": "送機",
+      "CON002056": "接/送機",
+      "CON002135": "所有語言行程",
+      "CON002192": "共【#Number#】个参团地点",
+      "CON002193": "已售磬",
+      "CON002316": "共【#Number#】个离团地点",
+      "CON002331": "必選",
+      "CON002332": "奇數必選",
+      "CON002333": "【#priceitems#】必選的費用項，數量為對應價格項的【房間數】",
+      "CON002334": "【#priceitems#】必選的費用項，數量為對應價格項的【遊客數】",
+      "CON002335": "【#priceitems#】數量為”奇數“時，必選的費用項，數量為”1“",
+      "CON002552": "今日地點",
+      "CON002570": "人均參考消費",
+      "CON002574": "經濟艙",
+      "CON002575": "超級經濟艙",
+      "CON002576": "商務艙",
+      "CON002577": "頭等艙",
+      "CON002675": "請輸入產品名稱、副標題",
+      "CON002676": "提前【#advanceDay#】天之前預訂",
+      "CON002677": "使用日期範圍記憶體在無效團期",
+      "CON002678": "請選擇使用日期",
+      "CON002679": "數量小計",
+      "CON002688": "預訂【#html#】須知",
+      "CON002760": "入住城市"
+    },
+    "endpoints": {
+      "productBasic": "https://online.ctrip.com/restapi/soa2/17626/getProductBasic.json",
+      "productTravelDetail": "https://online.ctrip.com/restapi/soa2/17626/getProductTravelDetail.json",
+      "productGroup": "https://online.ctrip.com/restapi/soa2/17626/getProductGroup.json",
+      "productPromote": "https://online.ctrip.com/restapi/soa2/17626/getProductPromote.json",
+      "currencies": "https://online.ctrip.com/restapi/soa2/18554/getListWebSiteCurrency.json"
+    },
+    "raw": {
+      "branchInfo": {
+        "branchCode": "B00000003",
+        "branchName": "纵横集团",
+        "branchFullName": "纵横集团 Jupiter Legend Corporation",
+        "branchLogo": "02S5n12000t1twue4730B.png",
+        "logoImageUrl": "https://dimg04.c-ctrip.com/target/02S5n12000t1twue4730B.png",
+        "defaultLanguage": 2,
+        "supportLanguage": [
+          2,
+          1,
+          3
+        ],
+        "branchIsWeb": 1,
+        "showPOILink": 0,
+        "timeZoneModel": {
+          "isSummer": 1,
+          "timeZoneCode": "TZ0009",
+          "timeZoneName": "UTC-5:00",
+          "timeZoneDesc": "波哥大、利马、基多、里奥布朗库、东部时间（美国和加拿大）、哈瓦那、海地、切图马尔、印地安那州（东部）",
+          "timeZoneDiff": -780
+        },
+        "webSiteInfo": [
+          {
+            "websiteCode": "W000010",
+            "languageType": 3,
+            "websiteIsDefault": 1
+          },
+          {
+            "websiteCode": "W000008",
+            "languageType": 1,
+            "websiteIsDefault": 0
+          },
+          {
+            "websiteCode": "W000003",
+            "languageType": 2,
+            "websiteIsDefault": 0
+          }
+        ],
+        "currencyInfo": {
+          "currencyCode": "CI00000002",
+          "currencyNum": "USD",
+          "currencyName": "美元",
+          "currencySymbol": "$"
+        },
+        "tokenCode": "WEBSITEMjAyNi0wNy0xMyZCMDAwMDAwMDMmMjAyNi0wNy0xOA==",
+        "openStockRule": 1,
+        "stockRuleList": [
+          {
+            "showRule": 1,
+            "content": 0,
+            "minStock": 6,
+            "maxStock": 0,
+            "isInfinite": 1
+          },
+          {
+            "showRule": 1,
+            "content": 1,
+            "minStock": 1,
+            "maxStock": 5,
+            "isInfinite": 0
+          },
+          {
+            "showRule": 1,
+            "content": 2,
+            "minStock": 0,
+            "maxStock": 0,
+            "isInfinite": 0
+          }
+        ]
+      },
+      "basic": {
+        "createTime": "2025-08-30 14:08:08",
+        "releaseTime": "2025-09-04 17:22:16",
+        "changeTime": "2026-05-23 13:57:00",
+        "productStatus": 200,
+        "supLanguages": "3,2,1",
+        "productMain": {
+          "mainLanguage": 2,
+          "productCode": "P00008026",
+          "productViewCode": "R0005097",
+          "groupNo": "DCNY1",
+          "productClass": 1,
+          "carpointOff": 3,
+          "carpointOn": 3,
+          "productType": "PC00000018",
+          "productTypeName": "Washington D.C.",
+          "tripDay": 1,
+          "nightDay": 0,
+          "productForm": 1,
+          "productRoom": 1,
+          "productVehicle": "1",
+          "productTransfer": "",
+          "productName": "【銀榜惠享】美東跨城輕鬆達系列 | 華盛頓特區 - 紐約",
+          "subtitleName": "",
+          "productSpecial": "<p>【跨城輕鬆達】點到點單程車票，精準解決大交通煩惱，助您跨城旅行便捷無憂。<br />【省時又省力】對比自駕，無需租車駕駛，省去繁雜流程，為旅程節省時間與精力。<br />【超高性價比】相較機票，保證準時發車，杜絕延誤困擾，出行費用更具性價比。<br />【便捷有導遊】優於一般跨城巴士，參離團點覆蓋廣泛，全程配備華人導遊。<br />【安心又舒適】身處華人遊客專屬氛圍，消除陌生感，讓跨城旅程更安心舒適。<br />【靈活享風景】沿途經停精選特色景點，可隨時下車舒展，享受自由活動時光。</p>",
+          "salesNote": "",
+          "departureDate": "週六\n兩人成團，保證出發。",
+          "rewardCode": "RM00007284",
+          "createTime": "2025-08-30 14:08:08",
+          "datachangelasttime": "2026-05-23 13:57:00",
+          "dataVersion": 1767496475,
+          "productPriceAuto": 2,
+          "advanceDay": -1,
+          "advanceTime": "",
+          "productIsOutreach": null,
+          "upperProductCode": null,
+          "upperUpBranchCode": null,
+          "productAttribute": 1,
+          "productClassify": 0,
+          "schemeName": null,
+          "productStatus": 200,
+          "otherCurrencySupport": [],
+          "productRateInfoList": [],
+          "isLocalResidentOptional": 0
+        },
+        "productImg": [
+          "02S0j12000eopejduA851.png"
+        ],
+        "productPointStart": {
+          "regionCode": "A353",
+          "regionName": "華盛頓特區 Washington D.C.",
+          "resourceType": 0
+        },
+        "productPointEnd": {
+          "regionCode": "A320",
+          "regionName": "紐約市 New York",
+          "resourceType": 0
+        },
+        "productDestination": [
+          {
+            "countryCode": "",
+            "countryName": "",
+            "provinceCode": "A312",
+            "provinceName": "華盛頓特區 Washington, D.C.",
+            "scenicCode": "",
+            "scenicName": "",
+            "scenicSpotCode": "",
+            "scenicSpotName": "",
+            "resourceType": 0
+          }
+        ],
+        "productCarpointUpper": [
+          {
+            "carpointCode": "ANM00000406",
+            "carpointName": "弗吉尼亞州：Dental Office",
+            "aggregationAddr": "7787 Leesburg Pike, Falls Church, VA 22043",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "ANT00001128",
+            "carpointTimeValue": "07:30",
+            "carpointViewCode": ""
+          },
+          {
+            "carpointCode": "ANM00000447",
+            "carpointName": "華盛頓特區：莎士比亞劇院門口",
+            "aggregationAddr": "610 F Street NW, Washington D.C.",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "ANT00001129",
+            "carpointTimeValue": "08:00",
+            "carpointViewCode": ""
+          },
+          {
+            "carpointCode": "ANM00001640",
+            "carpointName": "Spring Hill Suites Gaithersburg ",
+            "aggregationAddr": "9715  Washington Blvd, Gaithersburg, MD 20878",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "ANT00003133",
+            "carpointTimeValue": "08:45",
+            "carpointViewCode": ""
+          }
+        ],
+        "productCarpointDown": [
+          {
+            "carpointCode": "ANM00001048",
+            "carpointName": "曼哈頓：時代廣場 Red Lobster 餐廳",
+            "aggregationAddr": "5 Times Sq #5, New York, NY 10036",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "",
+            "carpointTimeValue": null,
+            "carpointViewCode": "RED（5 Times Sq）"
+          },
+          {
+            "carpointCode": "ANM00000030",
+            "carpointName": "法拉盛：敦城酒家",
+            "aggregationAddr": "133-30 39th Ave, Flushing, NY 11354",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "",
+            "carpointTimeValue": null,
+            "carpointViewCode": "FLU"
+          },
+          {
+            "carpointCode": "ANM00001049",
+            "carpointName": "紐約 Andrews NYC Diner",
+            "aggregationAddr": "463 7th Ave, New York, NY 10018",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "",
+            "carpointTimeValue": null,
+            "carpointViewCode": "ADR"
+          },
+          {
+            "carpointCode": "ANM00001050",
+            "carpointName": "紐約聯合廣場 Capital One Bank",
+            "aggregationAddr": "853 Broadway, New York, NY 10003",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "",
+            "carpointTimeValue": null,
+            "carpointViewCode": "UN"
+          },
+          {
+            "carpointCode": "ANM00000034",
+            "carpointName": "曼哈頓：唐人街 75 Chrystie St",
+            "aggregationAddr": "75 Chrystie St, New York, NY 10002",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "",
+            "carpointTimeValue": null,
+            "carpointViewCode": "CTT"
+          },
+          {
+            "carpointCode": "ANM00000036",
+            "carpointName": "澤西市：Newport Plaza 於18街的出口，ACME超市邊上",
+            "aggregationAddr": "125 Eighteenth St, Jersey City, NJ 07310",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "",
+            "carpointTimeValue": null,
+            "carpointViewCode": "JCC"
+          },
+          {
+            "carpointCode": "ANM00001624",
+            "carpointName": "Grover Cleveland Service Area",
+            "aggregationAddr": "Milepost 92.9 North, NJ Tpke, Woodbridge Township, NJ 07077",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "",
+            "carpointTimeValue": null,
+            "carpointViewCode": ""
+          }
+        ],
+        "productConstraint": {
+          "confirmType": 1,
+          "isAge": 0,
+          "ageCode": "",
+          "ageName": null,
+          "isNumber": 0,
+          "isPrice": 1,
+          "isCarpoint": 1,
+          "isChild": 1,
+          "childAge": "",
+          "childHeight": "",
+          "childNote": "兒童與成人同價",
+          "isRange": 0,
+          "isAutoTeam": 1,
+          "isInfant": 0,
+          "infantAgeUpper": "",
+          "infantNote": "",
+          "isSenior": 0,
+          "seniorAgeLower": "",
+          "seniorNote": ""
+        },
+        "productRange": [],
+        "productRecommendList": [],
+        "otherSchemes": null,
+        "productImageUrl": [
+          "https://dimg04.c-ctrip.com/target/02S0j12000eopejduA851.png"
+        ],
+        "tagList": null,
+        "teamCarpointUpper": [
+          {
+            "carpointCode": "ANM00000406",
+            "carpointName": "弗吉尼亞州：Dental Office",
+            "aggregationAddr": "7787 Leesburg Pike, Falls Church, VA 22043",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "ANT00001128",
+            "carpointTimeValue": "07:30",
+            "carpointViewCode": ""
+          },
+          {
+            "carpointCode": "ANM00000447",
+            "carpointName": "華盛頓特區：莎士比亞劇院門口",
+            "aggregationAddr": "610 F Street NW, Washington D.C.",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "ANT00001129",
+            "carpointTimeValue": "08:00",
+            "carpointViewCode": ""
+          },
+          {
+            "carpointCode": "ANM00001640",
+            "carpointName": "Spring Hill Suites Gaithersburg ",
+            "aggregationAddr": "9715  Washington Blvd, Gaithersburg, MD 20878",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "ANT00003133",
+            "carpointTimeValue": "08:45",
+            "carpointViewCode": ""
+          }
+        ],
+        "teamCarpointDown": [
+          {
+            "carpointCode": "ANM00001048",
+            "carpointName": "曼哈頓：時代廣場 Red Lobster 餐廳",
+            "aggregationAddr": "5 Times Sq #5, New York, NY 10036",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "",
+            "carpointTimeValue": null,
+            "carpointViewCode": "RED（5 Times Sq）"
+          },
+          {
+            "carpointCode": "ANM00000030",
+            "carpointName": "法拉盛：敦城酒家",
+            "aggregationAddr": "133-30 39th Ave, Flushing, NY 11354",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "",
+            "carpointTimeValue": null,
+            "carpointViewCode": "FLU"
+          },
+          {
+            "carpointCode": "ANM00001049",
+            "carpointName": "紐約 Andrews NYC Diner",
+            "aggregationAddr": "463 7th Ave, New York, NY 10018",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "",
+            "carpointTimeValue": null,
+            "carpointViewCode": "ADR"
+          },
+          {
+            "carpointCode": "ANM00001050",
+            "carpointName": "紐約聯合廣場 Capital One Bank",
+            "aggregationAddr": "853 Broadway, New York, NY 10003",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "",
+            "carpointTimeValue": null,
+            "carpointViewCode": "UN"
+          },
+          {
+            "carpointCode": "ANM00000034",
+            "carpointName": "曼哈頓：唐人街 75 Chrystie St",
+            "aggregationAddr": "75 Chrystie St, New York, NY 10002",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "",
+            "carpointTimeValue": null,
+            "carpointViewCode": "CTT"
+          },
+          {
+            "carpointCode": "ANM00000036",
+            "carpointName": "澤西市：Newport Plaza 於18街的出口，ACME超市邊上",
+            "aggregationAddr": "125 Eighteenth St, Jersey City, NJ 07310",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "",
+            "carpointTimeValue": null,
+            "carpointViewCode": "JCC"
+          },
+          {
+            "carpointCode": "ANM00001624",
+            "carpointName": "Grover Cleveland Service Area",
+            "aggregationAddr": "Milepost 92.9 North, NJ Tpke, Woodbridge Township, NJ 07077",
+            "aggregationDesc": "",
+            "isAirport": 0,
+            "carpointTimeCode": "",
+            "carpointTimeValue": null,
+            "carpointViewCode": ""
+          }
+        ],
+        "productImageList": [
+          {
+            "imageUrl": "02S0j12000eopejduA851.png",
+            "imageName": "国家独立历史公园"
+          }
+        ]
+      },
+      "travelDetail": {
+        "productTravel": {
+          "productCode": "P00008026",
+          "dataVersion": 1767496475,
+          "productDay": 1,
+          "productNight": 0,
+          "travelId": 31375,
+          "productType": "PC00000018",
+          "productTypeName": "Washington D.C.",
+          "travelName": "【銀榜惠享】美東隨上隨下系列 | 華盛頓特區 - 紐約",
+          "productTravelInfoList": [
+            {
+              "isSource": 1,
+              "language": 2,
+              "dayList": [
+                {
+                  "section": "華盛頓特區|||1+++費城|||1+++紐約",
+                  "todayLocation": "",
+                  "dayNumber": 1,
+                  "content": [
+                    {
+                      "contentMode": 3,
+                      "productSortNum": null,
+                      "relatedId": 31291,
+                      "relatedDay": 1,
+                      "relatedName": "【DC-NY】華盛頓特區 - 費城 - 紐約",
+                      "contentType": 100,
+                      "sortNumber": 0,
+                      "jsonContent": "{\"travelId\":31291,\"productCategory\":1,\"name\":\"【DC-NY】華盛頓特區 - 費城 - 紐約\",\"productType\":\"PC00000018\",\"isAutoTeam\":null,\"expandList\":[{\"language\":2,\"isSource\":1,\"dayList\":[{\"section\":\"華盛頓特區|||1+++費城|||1+++紐約\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD7ku4rlpKnmiJHlgJHlsIflvp7oj6/nm5vpoJPnibnljYDlh7rnmbzvvIzpqYXou4rliY3lvoDooqvnqLHngrombGRxdW875Y+L5oSb5LmL5Z+OJnJkcXVvO+eahOiyu+Wfju+8jOWPg+ingOWci+WutueNqOeri+att+WPsuWFrOWckuWFp+ixoeW+geiHqueUseeNqOeri+eahOeNqOeri+WuruWSjOiHqueUsemQmOOAguWNiOmkkOW+jO+8jOe5vOe6jOWMl+S4iu+8jOWJjeW+gOS4lueVjOesrOS4gOWkp+mDveW4gue0kOe0hOOAguWcqOe0kOe0hOaIkeWAkeWwh+WPg+WKoOmHkeiejeiyoeWvjOS5i+aXhe+8jOa3seWFpeaEn+WPl+mHkeiejeeVjOWcsOaomeaAp+W7uuevieeahOeEoemZkOmtheWKm++8geWIsOS6huWknOaZmu+8jOaIkeWAkeeahOe0kOe0hOWknOaZr+mBiuS4gOWumuiDvee1puaCqOW4tuS+huWFqOaWsOeahOS4jeS4gOaoo+eahOmrlOmpl++8jOWknOiJsuexoOe9qeS4i+eahOe0kOe0hOato+WcqOeEoemZkOi/uOeZvOa9rua1geiIh+a/gOaDhe+8geetieW+heiRl+aCqOeahOaOoue0ouWSjOeZvOePvuOAgjwvcD5cbjxwPiZuYnNwOzwvcD5cbjxwPjxzdHJvbmc+6KGM56iL5a6J5o6S77yaPC9zdHJvbmc+PC9wPlxuPHA+PHN0cm9uZz7oj6/nm5vpoJPnibnljYAgJnJhcnI7IOiyu+WfjiAmcmFycjsg5ZyL5a62542o56uL5q235Y+y5YWs5ZySPC9zdHJvbmc+77yINDDliIbpkJjvvIkmcmFycjsgPHN0cm9uZz7ntJDntITph5Hono3osqHlr4zkuYvml4Ur57SQ57SE5aSc5pmv6YGKPC9zdHJvbmc+77yI6Ieq6LK777yMMjQw5YiG6ZCY77yJPC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz7lhajnqIvmmYLplbfvvJrntIQxMuWwj+aZgjwvc3Ryb25nPjwvcD5cbjxwPiZuYnNwOzwvcD5cbjxwPjxzdHJvbmc+57SQ57SE6YeR6J6N6LKh5a+M5LmL5peF77yaPC9zdHJvbmc+PGJyIC8+56ys5LiA56uZ77ya6Iux6ZuE5bO96LC3ICZyYXJyOyDkvI3niL7msoPmlq/lpKfmqJMgJnJhcnI7IOafj+i3r+Wkp+aok++8iDE4OTktMTkwMeW5tOmWk+S4lueVjOacgOmrmOeahOaRqeWkqeWkp+aok++8iSAmcmFycjsg5rOi54m55aSn5qiTICZyYXJyOyDogZbkv53nvoXmlZnloIIgJnJhcnI7IOmbu+WgseWkp+aokzxiciAvPuesrOS6jOerme+8muWFrOW5s+Wkp+aokyAmcmFycjsg5LiJ5LiA5pWZ5pyDICZyYXJyOyDoga/pgqblhLLok4TpioDooYwgJnJhcnI7IOiBr+mCpuWkp+W7syAmcmFycjsg57SQ57SE6K2J5Yi45Lqk5piT5omAICZyYXJyOyDlt53mma7lpKfmqJMgJnJhcnI7IOW+t+aEj+W/l+mKgOihjOiIiuWdgO+8iOWkp+mAmumKgOihjOiIiuWdgO+8iSZyYXJyOyDoj6/niL7ooZfpioXniZsgJnJhcnI7IOa1t+mXnOWkp+aokyAmcmFycjsg5qiZ5rqW55+z5rK55aSn5qiTICZyYXJyOyDmqJnmupbmma7niL7lpKflu4g8YnIgLz7nrKzkuInnq5nvvJrmtJvlhYvmlpDli5LkuK3lv4PvvIjpgJTntpPntJDntITpkb3nn7PljYDjgIHlnIvpmpvlr7bnn7PlpKfmqJPvvIk8YnIgLz7nrKzlm5vnq5nvvJrmma7nq4vojLLlmbTms4kgJnJhcnI7IOWkp+i7jeWcmOW7o+WgtCAmcmFycjsg5buj5aC06aOv5bqXICZyYXJyOyDmmYLku6Plu6PloLQgJnJhcnI7IOe0jeaWr+mBlOWFizwvcD5cbjxwPjxzdHJvbmc+54m55Yil6Kqq5piO77yaPC9zdHJvbmc+PGJyIC8+MS4g57SQ57SE6YeR6J6N6LKh5a+M5LmL5peF5pmv6bue6YGK6Ka95pa55byP54K66LuK6YGKK+i8leW+kuatpe+8jOmrlOWKm+imgeaxgumBqeS4reOAgjxiciAvPjIuIOS7peS4iuaZr+m7nuWdh+eCuuWkluingOOAgjwvcD5cbjxwPjxiciAvPjxzdHJvbmc+5aSc5pmv6KGM56iL5a6J5o6S77yaPC9zdHJvbmc+PC9wPlxuPHA+5rSb5YWL5paQ5YuS5Lit5b+DJmFtcDvogZbluJXnibnoo6HlhYvmlZnloIImYW1wO+esrOS6lOWkp+mBkyAmcmFycjsg5pmC5Luj5buj5aC0ICZyYXJyOyDmlrDmvqTopb/op4Dmma/lj7A8L3A+IiwidGltZSI6IjEifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":2,\"sortNumber\":1,\"jsonContent\":\"eyJpbmZvcm1hdGlvbiI6IuS5mOi7iuW+nuiPr+ebm+mgk+eJueWNgOWJjeW+gOiyu+WfjiIsImRpc3RhbmMiOiIxNDUiLCJkaXN0YW5jVW5pdCI6MywiaG91cnMiOiIyIiwibWludXRlcyI6IjIwIiwidGltZSI6IjIifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":2,\"jsonContent\":\"eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJ0eXBlIjowLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMDA1MyIsInNjZW5pY05hbWUiOiLlnIvlrrbnjajnq4vmrbflj7LlhazlnJIgSW5kZXBlbmRlbmNlIE5hdGlvbmFsIEhpc3RvcmljYWwgUGFyayIsInNjZW5pY0V4cGxhaW4iOiIiLCJpc0FwcGVhcmFuY2UiOjAsImxvYWRlZCI6dHJ1ZSwic2NlbmljZURlc2MiOiI8cD7osrvln47pgJnniYflnJ/lnLDvvIzopovorYnkuobnvo7lnIvnmoTnjajnq4vlkozoqpXnlJ/jgILmoLnmk5rnvo7lnIvnjajnq4vmiLDniK3nmoTnsr7npZ7lu7rpgKDnmoTlnIvlrrbnjajnq4vmrbflj7LlhazlnJLoo6HljIXlkKvkuobkuIDkupvoiIfnvo7lnIvpnanlkb3lkozlu7rlnIvmrbflj7LmnInpl5znmoTmrbflj7Llu7rnr4nvvIzooqvnqLHngrombGRxdW87576O5ZyL5pyA5YW35pyJ5q235Y+y5oSP576p55qE5LiA5bmz5pa56Iux6YeMJmxkcXVvO+OAguWcqOWFrOWckuijoe+8jOWPr+S7peeci+WIsOe2oOaoueeSsOaKseeahOeNqOeri+W7o+WgtO+8jOmrmOmrmOiBs+eri+eahOS5s+eZveiJsumQmOWhlO+8jOmChOacieiRl+ermeeri+WcqOiNieWdquS4iumWi+Wci+e+pOiLseeahOmKheWDj++8jOmAmeijoeeahOaVtOmrlOawm+WcjeS9v+S6uuaEn+WIsOiOiuWatOiCheephuOAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfV0sImRpc3RhbmMiOiIiLCJkaXN0YW5jVW5pdCI6MSwiaG91cnMiOiIiLCJtaW51dGVzIjoiIiwic3RheUhvdXJzIjoiIiwic3RheU1pbnV0ZXMiOiIiLCJ0aW1lIjoiMiJ9\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":2,\"sortNumber\":3,\"jsonContent\":\"eyJpbmZvcm1hdGlvbiI6IuS5mOi7iuW+nuiyu+WfjuWJjeW+gOe0kOe0hCIsImRpc3RhbmMiOiIxMDAiLCJkaXN0YW5jVW5pdCI6MywiaG91cnMiOiIxIiwibWludXRlcyI6IjQwIiwidGltZSI6IjMifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":4,\"jsonContent\":\"eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJ0eXBlIjowLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMzMyOSIsInNjZW5pY05hbWUiOiLntJDntITph5Hono3osqHlr4zkuYvml4UgTmV3IFlvcmsgQ2l0eSBGb3J0dW5lIFRvdXIiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+5pu85ZOI6aCT55qE6YeR6J6N5aSi77yM5Zyo57SQ57SE57a75pS+77yM6YCZ6KOh5bm+5LmO6IGa6ZuG5LqG5LiW55WM5pyA6aCC5bCW55qE6YeR6J6N5qmf5qeL44CC5LuK5aSp5oiR5YCR5bCH5Zyo5LiW55WM6YeR6J6N5Lit5b+D57SQ57SE5Y+D6KeA5LiA5Lqb57aT5YW45Zyw5qiZ5bu656+J77yM6Iux6ZuE5bO96LC344CB5p+P6Lev5aSn5qiT44CB5LiJ5LiA5pWZ5aCC44CB57SQ57SE6K2J5Yi45Lqk5piT5omA44CB5rSb5YWL5paQ5YuS5Lit5b+D562J562J77yM5oSf5Y+X5r+D6YOB55qE6YeR6J6N5ZWG5qWt5rCj5oGv44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119LHsiYWN0aXZpdHlObyI6MiwidHlwZSI6Miwic291cmNlVHlwZSI6Miwic2NlbmljQ29kZSI6IlNNMDAwMDEyNDgiLCJzY2VuaWNOYW1lIjoi57SQ57SE5aSc5pmv6YGKIE5ldyBZb3JrIE5pZ2h0IFRvdXIiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+6aaW5YWI5oiR5YCR5bCH5aSW6KeA5rSb5YWL6I+y5YuS5Lit5b+D44CB6IGW5biV54m56KOP5YWL5aSn5pWZ5aCC44CB5p6X6IKv6Jed6KGT5Lit5b+D44CC5rSb5YWL6I+y5YuS5Lit5b+D5piv5YWo5LiW55WM5pyA5aSn55qE56eB5Lq65pOB5pyJ55qE5bu656+J576k77yM5Lmf5piv5qiZ6KqM6JGX6KOd6aO+6Jed6KGT6aKo5qC85bu656+J55qE5Zyw5qiZ54mp77yM5YW25oSP576p55qE6YeN5aSn77yM5pep5bCx6LaF6YGO5bu656+J5pys6Lqr5LqG44CC5YWo55CD5pyA5aSn55qE6Jed6KGT5pyD5aC0Jm1kYXNoO+ael+iCr+iXneihk+S4reW/g+aYr+aJgOacieiXneihk+WutuaGp+aGrOeahOiInuiHuu+8jOmAmeijoeW9membhuS6huWKh+mZouatjOWKh+mZouOAgemfs+aoguW7s+OAgeWupOWklumfs+aoguW7s++8jOS5n+aYr+e0kOe0hOeahOaWh+WMluS4reW/g+OAguacgOW+jOWJjeW+gERVTUJP5rW35r+x5YWs5ZyS77yM5qyj6LOe5pu85ZOI6aCT5aSn5qmL5ZKM5biD6a2v5YWL5p6X5aSn5qmL6ZuZ5qmL5rWq5ryr5aSc5pmv44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119XSwiZGlzdGFuYyI6IiIsImRpc3RhbmNVbml0IjoxLCJob3VycyI6IiIsIm1pbnV0ZXMiOiIiLCJzdGF5SG91cnMiOiIiLCJzdGF5TWludXRlcyI6IiIsInRpbWUiOiIzIn0=\"}],\"distributionFactor\":null}]}]}"
+                    }
+                  ],
+                  "isFreeTravel": null,
+                  "optionalProductList": null,
+                  "distributionFactor": 0
+                }
+              ]
+            }
+          ]
+        },
+        "productNotice": {
+          "mainLanguage": 2,
+          "productCode": "P00008026",
+          "noticeInfo": [
+            {
+              "matterCode": "AT00000094",
+              "editType": 1,
+              "noticeType": 3,
+              "matterName": "【退改說明】集團通用",
+              "vluesTip1": "<p>1. 如遇天氣、戰爭、罷工等人力不可抗拒因素無法遊覽，本公司將有權更改行程，景點門票費用退還（贈送的自費項目除外），報名團費不退還；&nbsp;</p>\n<p>2. 取消條款如下：</p>\n<p>&nbsp; &nbsp;a. &nbsp;如果團組在出發前15日 (含) ，要求取消或改期，團費不扣，其他加定酒店、機票或服務需參照酒店或航司規定而確定是否能退款。</p>\n<p>&nbsp; &nbsp;b. &nbsp;在出發前8日 (含) 至 14日 (含) ，要求取消或改期，需扣50%團費，其他加定酒店或服務需參照酒店規定而確定是否能退款。</p>\n<p>&nbsp; &nbsp;c. &nbsp;如果團組在出發前7日 (含) 至出發當天要求取消或出發當日未能準時參加者，作自動放棄論，已付團費概不退還。</p>\n<p>&nbsp; &nbsp;d.&nbsp; 如貴司或客人因個人原因 (無旅行證件、遲到、生病、意外等因素) 於旅途中退出或未能參加行程內任何行程，已付團費概不退還，也不會以其他服務賠償。</p>",
+              "vluesTip2": "【退改說明】集團通用"
+            },
+            {
+              "matterCode": "AT00000302",
+              "editType": 1,
+              "noticeType": 1,
+              "matterName": "【預定須知】集團一日遊（不涉及跨境）",
+              "vluesTip1": "<p><strong>預定須知：</strong></p>\n<p>1. 18歲以下未成年人或兒童必須由成人陪伴參團，單獨旅行的未成年人或兒童不能參加縱橫海鷗的旅遊團。出於對孕婦安全的考慮，孕婦參團需在行程結束時懷孕不超過24周。</p>\n<p>2. 請在預定時務必提供準確、完整的資訊，包括姓名、性別、有效的聯繫方式（最好是手機，如有問題，方便通知）、準確的參團地點等，以免產生預定錯誤，影響出行。如因您提供錯誤資訊而造成損失，由您自行承擔。</p>\n<p>3. 參團客人需跟團上導遊購買門票，不可自行帶票或使用City Pass。景點的門票費和團上餐費可能會根據景點官方的臨時通知而變動，以當日景點公佈的價格為准。</p>\n<p>4. 實際出行過程中，導遊或司機有權根據天氣、交通等情況，適當調整景點的遊覽順序、停留時間或集合時間以確保行程順利進行。</p>\n<p>5. 如遇景點臨時關閉或節假日（感恩節、聖誕節、新年等）關閉 等，導致無法參觀，導遊會根據實際情況調整為外觀或以其他景點代替以確保行程的豐富性。各景點及國家公園的開放時間及流量控制會因疫情不時變化，如影響行程屬不可抗力因素，敬請諒解。</p>\n<p>6. 八歲以下兒童參團需乘坐安全座椅，縱橫海鷗提供租借服務，租金$10.00/人/天，請務必在預定行程時提前備註告知，以便我們提前準備，如因客人未提前告知所造成的違規和罰金由客人自行承擔，敬請理解。出行當日安排大巴出行無需安全座椅，費用可退還客人。</p>\n<p>7. 行程中眾多旅遊景點需要參團人具備基本的健康條件。殘疾人士和行動不便者報名參團前請提前聯繫縱橫海鷗獲取相關政策資訊。若沒有及時通知，我司不能保證為客人提供輪椅升降巴士或安排合適的座位。</p>\n<p>8. 縱橫海鷗巴士團分為了四個等級：銀榜惠享、金榜怡享、白金尊享、鑽石臻享，詳情請查看<a href=\"https://uvbookings.info/upload/BMS/ProductLevel.pdf\" target=\"_blank\" rel=\"noopener\">產品分級</a>（點擊藍色字體查看）。</p>\n<p>9. 縱橫集團可能會多次修改參團條款和條件，並會在代理網站上及時公佈最新版本。請遊客在報名參團前務必仔細閱讀<a title=\"《參團條例》\" href=\"http://uvbookings.info/upload/terms/s.pdf\" target=\"_blank\" rel=\"noopener\">《參團條例》</a>（點擊藍色字體查看）。我司僅在這些條款和條件下履行義務，除非在此條例中或在法律中有特別規定，否則如果產生任何間接性，補償性，偶然性或懲罰性損害都不做出賠償。</p>\n<p><span style=\"color: #ba372a;\">10. 面對持續上漲的燃油成本，車輛運營成本大大增加，2026年5月18日（出發班期）起，縱橫海鷗的巴士團産品需加收交通附加費$5/人/天，導游將在行程中統一收取。</span></p>\n<p>&nbsp;</p>\n<p><strong>出行須知：</strong></p>\n<p>1. 為保障行程順利完整，遊客有責任嚴格遵守導遊給出的集合時間。如果距離集合時間超過十分鐘，車子將離開不予等待。縱橫海鷗竭誠提供準時准點服務，但如遇到天氣、交通、機械故障、罷工、政府停擺以及戰爭和恐怖襲擊等不可控因素，我司無法保證按時按點到達接送地點。由此原因導致的行程延誤進而給客人帶來任何的不便或產生相關航班、火車或大巴費用以及其他旅遊費用等額外費用的，我司概不負責。</p>\n<p>2. 縱橫海鷗有權在方便出團操作的情況下，在途中將遊客從原車換到另一輛車並指派不同導遊和司機提供服務。</p>\n<p>3. 以下建議會幫助您更快更好的登記報到：需攜帶有效身份證件( 內附照片)；請出示紙質版或電子版行程單。</p>\n<p>4. 該產品是團體活動，如您選擇中途離團，請提前告知並征得導遊同意，需簽署離團協議書，未完成部分將被視為您自行放棄，團費不予退還。</p>\n<p>5. 行程中的贈送項目，如因交通、天氣等不可抗力因素導致不能贈送的、或因您個人原因不能參觀的，費用不退，敬請諒解。</p>\n<p>6. 根據美國聯邦法律，參團期間車上禁止吸煙，若有吸煙需要，請到專門的吸煙區。</p>\n<p>7. 縱橫海鷗的所有行程一律不允許帶寵物和動物參團。</p>\n<p>8. 緊急聯繫電話：（美國免費電話）+1(866)585-8747。</p>",
+              "vluesTip2": "【預定須知】集團一日遊（不涉及跨境）"
+            },
+            {
+              "matterCode": "CM00002311",
+              "editType": 1,
+              "noticeType": 0,
+              "matterName": "【美東隨上隨下】一日遊（不含景點門票）",
+              "vluesTip1": "<p>1. 交通費用（使用車輛類型根據當日具體參團人數決定）；</p>\n<p>2. 中英文服務人員（司機+導遊/司兼導）；</p>\n<p>3. 服務費。</p>",
+              "vluesTip2": "<p>1. 餐飲；</p>\n<p>2. 景點門票費用（門票價格時常波動，不再另行通知。門票需在導遊處統一購買）；</p>\n<p>3. 一切除費用包含外的私人性質費用。</p>"
+            }
+          ],
+          "damagesInfo": [],
+          "advanceDay": -1,
+          "advanceTime": ""
+        },
+        "productCost": {
+          "list": [
+            {
+              "id": 82321,
+              "editType": 1,
+              "expenseCode": "EM00002286",
+              "costDay": "",
+              "expIExpandName": "紐約金融財富之旅+夜景遊 New York City Fortune Tour+Night view tour",
+              "expIExpandDesc": "",
+              "resourceType": 0,
+              "sortNo": 1,
+              "priceInfo": [
+                {
+                  "expPriceName": "成人",
+                  "expPriceMoney": "$80.00",
+                  "sortNo": 1
+                },
+                {
+                  "expPriceName": "兒童（3-12歲）",
+                  "expPriceMoney": "$70.00",
+                  "sortNo": 2
+                }
+              ]
+            }
+          ],
+          "pager": null,
+          "productCostIsDay": 0
+        },
+        "productShop": {
+          "list": null,
+          "pager": null,
+          "productShopIsDay": 0
+        }
+      },
+      "groups": [
+        {
+          "groupDate": "2026-07-18 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 0,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-07-25 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 13,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-01 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 11,
+          "groupSaleStock": 2,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-08 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 13,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-15 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 13,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-22 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 13,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-29 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 13,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-09-05 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 13,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-09-12 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 13,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-09-19 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 13,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-09-26 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 13,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-10-03 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 13,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-10-10 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 13,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-10-17 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 13,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-10-24 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 13,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-10-31 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 13,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-11-07 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 13,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-11-14 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 13,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-11-21 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 13,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-11-28 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 13,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-12-05 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 13,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-12-12 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 13,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-12-19 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 13,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-12-26 00:00:00",
+          "isGroupRoom": 0,
+          "stockType": 2,
+          "groupStock": 13,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00007284",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 2,
+              "groupPrice": 69,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        }
+      ],
+      "addons": [
+        {
+          "mainLanguage": 2,
+          "productCode": "P00008026",
+          "promoteCode": "S00008712",
+          "rewardCode": "RC00008725",
+          "promotePattern": 1,
+          "promoteType": 2,
+          "bindType": 0,
+          "promoteDay": "",
+          "peopleType": 0,
+          "promoteName": "1天交通附加費",
+          "promoteDesc": "USD$5/人/天",
+          "promoteIsOutreach": null,
+          "outreachPromoteCode": "",
+          "promoteStatus": 200,
+          "promoteMoney": 5,
+          "promoteRewardMoney": 0,
+          "createTime": "2026-05-21 15:05:39.0",
+          "listPromoteClause": [],
+          "promoteGroup": [
+            {
+              "groupDate": "0001-01-01 00:00:00",
+              "groupStock": 0,
+              "groupSaleStock": 0,
+              "isExceedStock": 0,
+              "groupStatus": 200,
+              "currencyNum": "USD",
+              "groupPrice": [
+                {
+                  "priceType": 1,
+                  "groupPrice": 5,
+                  "rewardPrice": 0,
+                  "rewardType": 0,
+                  "rewardValue": 0,
+                  "currencyNum": null,
+                  "exchangePrice": null
+                }
+              ],
+              "otherCurrencyGroupPriceInfo": [],
+              "promoteCode": "S00008712",
+              "promoteGroupPattern": 1
+            }
+          ],
+          "optionProductCode": null,
+          "productGroupDate": null,
+          "guideSaleType": 0,
+          "pricingType": 1
+        },
+        {
+          "mainLanguage": 2,
+          "productCode": "P00008026",
+          "promoteCode": "S00008164",
+          "rewardCode": "RC00008129",
+          "promotePattern": 1,
+          "promoteType": 2,
+          "bindType": 0,
+          "promoteDay": "",
+          "peopleType": 0,
+          "promoteName": "紐約金融財富之旅+夜景遊",
+          "promoteDesc": "",
+          "promoteIsOutreach": null,
+          "outreachPromoteCode": "",
+          "promoteStatus": 200,
+          "promoteMoney": 80,
+          "promoteRewardMoney": 0,
+          "createTime": "2025-09-02 13:45:22.0",
+          "listPromoteClause": [],
+          "promoteGroup": [
+            {
+              "groupDate": "0001-01-01 00:00:00",
+              "groupStock": 0,
+              "groupSaleStock": 0,
+              "isExceedStock": 0,
+              "groupStatus": 200,
+              "currencyNum": "USD",
+              "groupPrice": [
+                {
+                  "priceType": 2,
+                  "groupPrice": 70,
+                  "rewardPrice": 0,
+                  "rewardType": 0,
+                  "rewardValue": 0,
+                  "currencyNum": null,
+                  "exchangePrice": null
+                },
+                {
+                  "priceType": 1,
+                  "groupPrice": 80,
+                  "rewardPrice": 0,
+                  "rewardType": 0,
+                  "rewardValue": 0,
+                  "currencyNum": null,
+                  "exchangePrice": null
+                }
+              ],
+              "otherCurrencyGroupPriceInfo": [],
+              "promoteCode": "S00008164",
+              "promoteGroupPattern": 1
+            }
+          ],
+          "optionProductCode": null,
+          "productGroupDate": null,
+          "guideSaleType": 0,
+          "pricingType": 2
+        }
+      ]
+    }
+  }
+}

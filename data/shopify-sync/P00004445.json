@@ -1,0 +1,1725 @@
+{
+  "productCode": "P00004445",
+  "handle": "p00004445-kissimmee-vacation-house-5-days-4-nights",
+  "shopifyProductId": "gid://shopify/Product/8881368629300",
+  "shopifyAddonProductId": "gid://shopify/Product/8881368662068",
+  "status": "ACTIVE",
+  "locales": [
+    "en",
+    "zh-CN",
+    "zh-TW"
+  ],
+  "syncedAt": "2026-07-15T04:18:43.120Z",
+  "variants": [],
+  "addons": [],
+  "images": [
+    {
+      "sourceUrl": "https://dimg04.c-ctrip.com/target/02S5j12000r4tos7s4291.png",
+      "shopifyMediaId": "gid://shopify/MediaImage/28796491759668",
+      "shopifyFileId": null,
+      "position": 1,
+      "role": "featured",
+      "alt": "Kissimmee Vacation House 5 days 4 nights 1"
+    }
+  ],
+  "metaobjects": {
+    "tour_content": [
+      {
+        "id": "gid://shopify/Metaobject/352228048948",
+        "handle": "p00004445-en-content"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230735924",
+        "handle": "p00004445-zh-cn-content"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233291828",
+        "handle": "p00004445-zh-tw-content"
+      }
+    ],
+    "tour_highlight": [
+      {
+        "id": "gid://shopify/Metaobject/352228081716",
+        "handle": "p00004445-en-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228114484",
+        "handle": "p00004445-en-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228147252",
+        "handle": "p00004445-en-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228180020",
+        "handle": "p00004445-en-highlight-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228212788",
+        "handle": "p00004445-en-highlight-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228245556",
+        "handle": "p00004445-en-highlight-6"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228278324",
+        "handle": "p00004445-en-highlight-7"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228311092",
+        "handle": "p00004445-en-highlight-8"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228343860",
+        "handle": "p00004445-en-highlight-9"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228376628",
+        "handle": "p00004445-en-highlight-10"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228409396",
+        "handle": "p00004445-en-highlight-11"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228442164",
+        "handle": "p00004445-en-highlight-12"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228474932",
+        "handle": "p00004445-en-highlight-13"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228507700",
+        "handle": "p00004445-en-highlight-14"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228540468",
+        "handle": "p00004445-en-highlight-15"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228573236",
+        "handle": "p00004445-en-highlight-16"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228606004",
+        "handle": "p00004445-en-highlight-17"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228638772",
+        "handle": "p00004445-en-highlight-18"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228671540",
+        "handle": "p00004445-en-highlight-19"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228704308",
+        "handle": "p00004445-en-highlight-20"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228737076",
+        "handle": "p00004445-en-highlight-21"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228769844",
+        "handle": "p00004445-en-highlight-22"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228802612",
+        "handle": "p00004445-en-highlight-23"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228835380",
+        "handle": "p00004445-en-highlight-24"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228868148",
+        "handle": "p00004445-en-highlight-25"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228900916",
+        "handle": "p00004445-en-highlight-26"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228933684",
+        "handle": "p00004445-en-highlight-27"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228966452",
+        "handle": "p00004445-en-highlight-28"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352228999220",
+        "handle": "p00004445-en-highlight-29"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229031988",
+        "handle": "p00004445-en-highlight-30"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229064756",
+        "handle": "p00004445-en-highlight-31"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229097524",
+        "handle": "p00004445-en-highlight-32"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229130292",
+        "handle": "p00004445-en-highlight-33"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229163060",
+        "handle": "p00004445-en-highlight-34"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229195828",
+        "handle": "p00004445-en-highlight-35"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229228596",
+        "handle": "p00004445-en-highlight-36"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229261364",
+        "handle": "p00004445-en-highlight-37"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229294132",
+        "handle": "p00004445-en-highlight-38"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229326900",
+        "handle": "p00004445-en-highlight-39"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229392436",
+        "handle": "p00004445-en-highlight-40"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229425204",
+        "handle": "p00004445-en-highlight-41"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229490740",
+        "handle": "p00004445-en-highlight-42"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229523508",
+        "handle": "p00004445-en-highlight-43"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229556276",
+        "handle": "p00004445-en-highlight-44"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229589044",
+        "handle": "p00004445-en-highlight-45"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229621812",
+        "handle": "p00004445-en-highlight-46"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229654580",
+        "handle": "p00004445-en-highlight-47"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229687348",
+        "handle": "p00004445-en-highlight-48"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229720116",
+        "handle": "p00004445-en-highlight-49"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229752884",
+        "handle": "p00004445-en-highlight-50"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229785652",
+        "handle": "p00004445-en-highlight-51"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229818420",
+        "handle": "p00004445-en-highlight-52"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229851188",
+        "handle": "p00004445-en-highlight-53"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229883956",
+        "handle": "p00004445-en-highlight-54"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229916724",
+        "handle": "p00004445-en-highlight-55"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229949492",
+        "handle": "p00004445-en-highlight-56"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352229982260",
+        "handle": "p00004445-en-highlight-57"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230015028",
+        "handle": "p00004445-en-highlight-58"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230047796",
+        "handle": "p00004445-en-highlight-59"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230080564",
+        "handle": "p00004445-en-highlight-60"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230113332",
+        "handle": "p00004445-en-highlight-61"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230146100",
+        "handle": "p00004445-en-highlight-62"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230178868",
+        "handle": "p00004445-en-highlight-63"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230211636",
+        "handle": "p00004445-en-highlight-64"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230244404",
+        "handle": "p00004445-en-highlight-65"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230277172",
+        "handle": "p00004445-en-highlight-66"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230309940",
+        "handle": "p00004445-en-highlight-67"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230768692",
+        "handle": "p00004445-zh-cn-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230801460",
+        "handle": "p00004445-zh-cn-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230834228",
+        "handle": "p00004445-zh-cn-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230866996",
+        "handle": "p00004445-zh-cn-highlight-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230899764",
+        "handle": "p00004445-zh-cn-highlight-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230932532",
+        "handle": "p00004445-zh-cn-highlight-6"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230965300",
+        "handle": "p00004445-zh-cn-highlight-7"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230998068",
+        "handle": "p00004445-zh-cn-highlight-8"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231030836",
+        "handle": "p00004445-zh-cn-highlight-9"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231063604",
+        "handle": "p00004445-zh-cn-highlight-10"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231096372",
+        "handle": "p00004445-zh-cn-highlight-11"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231129140",
+        "handle": "p00004445-zh-cn-highlight-12"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231161908",
+        "handle": "p00004445-zh-cn-highlight-13"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231194676",
+        "handle": "p00004445-zh-cn-highlight-14"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231227444",
+        "handle": "p00004445-zh-cn-highlight-15"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231260212",
+        "handle": "p00004445-zh-cn-highlight-16"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231292980",
+        "handle": "p00004445-zh-cn-highlight-17"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231325748",
+        "handle": "p00004445-zh-cn-highlight-18"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231358516",
+        "handle": "p00004445-zh-cn-highlight-19"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231391284",
+        "handle": "p00004445-zh-cn-highlight-20"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231424052",
+        "handle": "p00004445-zh-cn-highlight-21"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231456820",
+        "handle": "p00004445-zh-cn-highlight-22"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231489588",
+        "handle": "p00004445-zh-cn-highlight-23"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231522356",
+        "handle": "p00004445-zh-cn-highlight-24"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231555124",
+        "handle": "p00004445-zh-cn-highlight-25"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231587892",
+        "handle": "p00004445-zh-cn-highlight-26"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231620660",
+        "handle": "p00004445-zh-cn-highlight-27"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231653428",
+        "handle": "p00004445-zh-cn-highlight-28"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231686196",
+        "handle": "p00004445-zh-cn-highlight-29"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231718964",
+        "handle": "p00004445-zh-cn-highlight-30"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231751732",
+        "handle": "p00004445-zh-cn-highlight-31"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231784500",
+        "handle": "p00004445-zh-cn-highlight-32"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231817268",
+        "handle": "p00004445-zh-cn-highlight-33"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231850036",
+        "handle": "p00004445-zh-cn-highlight-34"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231882804",
+        "handle": "p00004445-zh-cn-highlight-35"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231915572",
+        "handle": "p00004445-zh-cn-highlight-36"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231948340",
+        "handle": "p00004445-zh-cn-highlight-37"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352231981108",
+        "handle": "p00004445-zh-cn-highlight-38"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232013876",
+        "handle": "p00004445-zh-cn-highlight-39"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232046644",
+        "handle": "p00004445-zh-cn-highlight-40"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232079412",
+        "handle": "p00004445-zh-cn-highlight-41"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232112180",
+        "handle": "p00004445-zh-cn-highlight-42"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232144948",
+        "handle": "p00004445-zh-cn-highlight-43"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232177716",
+        "handle": "p00004445-zh-cn-highlight-44"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232210484",
+        "handle": "p00004445-zh-cn-highlight-45"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232243252",
+        "handle": "p00004445-zh-cn-highlight-46"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232276020",
+        "handle": "p00004445-zh-cn-highlight-47"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232308788",
+        "handle": "p00004445-zh-cn-highlight-48"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232341556",
+        "handle": "p00004445-zh-cn-highlight-49"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232374324",
+        "handle": "p00004445-zh-cn-highlight-50"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232407092",
+        "handle": "p00004445-zh-cn-highlight-51"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232439860",
+        "handle": "p00004445-zh-cn-highlight-52"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232472628",
+        "handle": "p00004445-zh-cn-highlight-53"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232505396",
+        "handle": "p00004445-zh-cn-highlight-54"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232538164",
+        "handle": "p00004445-zh-cn-highlight-55"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232570932",
+        "handle": "p00004445-zh-cn-highlight-56"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232603700",
+        "handle": "p00004445-zh-cn-highlight-57"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232636468",
+        "handle": "p00004445-zh-cn-highlight-58"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232669236",
+        "handle": "p00004445-zh-cn-highlight-59"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232702004",
+        "handle": "p00004445-zh-cn-highlight-60"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232734772",
+        "handle": "p00004445-zh-cn-highlight-61"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232767540",
+        "handle": "p00004445-zh-cn-highlight-62"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232800308",
+        "handle": "p00004445-zh-cn-highlight-63"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232833076",
+        "handle": "p00004445-zh-cn-highlight-64"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232865844",
+        "handle": "p00004445-zh-cn-highlight-65"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233324596",
+        "handle": "p00004445-zh-tw-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233357364",
+        "handle": "p00004445-zh-tw-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233390132",
+        "handle": "p00004445-zh-tw-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233422900",
+        "handle": "p00004445-zh-tw-highlight-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233455668",
+        "handle": "p00004445-zh-tw-highlight-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233488436",
+        "handle": "p00004445-zh-tw-highlight-6"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233553972",
+        "handle": "p00004445-zh-tw-highlight-7"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233619508",
+        "handle": "p00004445-zh-tw-highlight-8"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233652276",
+        "handle": "p00004445-zh-tw-highlight-9"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233685044",
+        "handle": "p00004445-zh-tw-highlight-10"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233717812",
+        "handle": "p00004445-zh-tw-highlight-11"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233750580",
+        "handle": "p00004445-zh-tw-highlight-12"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233783348",
+        "handle": "p00004445-zh-tw-highlight-13"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233816116",
+        "handle": "p00004445-zh-tw-highlight-14"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233848884",
+        "handle": "p00004445-zh-tw-highlight-15"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233881652",
+        "handle": "p00004445-zh-tw-highlight-16"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233914420",
+        "handle": "p00004445-zh-tw-highlight-17"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233947188",
+        "handle": "p00004445-zh-tw-highlight-18"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233979956",
+        "handle": "p00004445-zh-tw-highlight-19"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234012724",
+        "handle": "p00004445-zh-tw-highlight-20"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234045492",
+        "handle": "p00004445-zh-tw-highlight-21"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234078260",
+        "handle": "p00004445-zh-tw-highlight-22"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234111028",
+        "handle": "p00004445-zh-tw-highlight-23"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234143796",
+        "handle": "p00004445-zh-tw-highlight-24"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234176564",
+        "handle": "p00004445-zh-tw-highlight-25"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234209332",
+        "handle": "p00004445-zh-tw-highlight-26"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234242100",
+        "handle": "p00004445-zh-tw-highlight-27"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234274868",
+        "handle": "p00004445-zh-tw-highlight-28"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234307636",
+        "handle": "p00004445-zh-tw-highlight-29"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234340404",
+        "handle": "p00004445-zh-tw-highlight-30"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234373172",
+        "handle": "p00004445-zh-tw-highlight-31"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234405940",
+        "handle": "p00004445-zh-tw-highlight-32"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234438708",
+        "handle": "p00004445-zh-tw-highlight-33"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234471476",
+        "handle": "p00004445-zh-tw-highlight-34"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234504244",
+        "handle": "p00004445-zh-tw-highlight-35"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234537012",
+        "handle": "p00004445-zh-tw-highlight-36"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234569780",
+        "handle": "p00004445-zh-tw-highlight-37"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234602548",
+        "handle": "p00004445-zh-tw-highlight-38"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234635316",
+        "handle": "p00004445-zh-tw-highlight-39"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234668084",
+        "handle": "p00004445-zh-tw-highlight-40"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234700852",
+        "handle": "p00004445-zh-tw-highlight-41"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234733620",
+        "handle": "p00004445-zh-tw-highlight-42"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234766388",
+        "handle": "p00004445-zh-tw-highlight-43"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234799156",
+        "handle": "p00004445-zh-tw-highlight-44"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234831924",
+        "handle": "p00004445-zh-tw-highlight-45"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234864692",
+        "handle": "p00004445-zh-tw-highlight-46"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234897460",
+        "handle": "p00004445-zh-tw-highlight-47"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234930228",
+        "handle": "p00004445-zh-tw-highlight-48"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234962996",
+        "handle": "p00004445-zh-tw-highlight-49"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352234995764",
+        "handle": "p00004445-zh-tw-highlight-50"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235028532",
+        "handle": "p00004445-zh-tw-highlight-51"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235061300",
+        "handle": "p00004445-zh-tw-highlight-52"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235094068",
+        "handle": "p00004445-zh-tw-highlight-53"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235126836",
+        "handle": "p00004445-zh-tw-highlight-54"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235159604",
+        "handle": "p00004445-zh-tw-highlight-55"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235192372",
+        "handle": "p00004445-zh-tw-highlight-56"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235225140",
+        "handle": "p00004445-zh-tw-highlight-57"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235257908",
+        "handle": "p00004445-zh-tw-highlight-58"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235290676",
+        "handle": "p00004445-zh-tw-highlight-59"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235323444",
+        "handle": "p00004445-zh-tw-highlight-60"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235356212",
+        "handle": "p00004445-zh-tw-highlight-61"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235388980",
+        "handle": "p00004445-zh-tw-highlight-62"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235421748",
+        "handle": "p00004445-zh-tw-highlight-63"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235454516",
+        "handle": "p00004445-zh-tw-highlight-64"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235487284",
+        "handle": "p00004445-zh-tw-highlight-65"
+      }
+    ],
+    "tour_itinerary_day": [
+      {
+        "id": "gid://shopify/Metaobject/352230342708",
+        "handle": "p00004445-en-day-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230375476",
+        "handle": "p00004445-en-day-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230408244",
+        "handle": "p00004445-en-day-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230441012",
+        "handle": "p00004445-en-day-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230473780",
+        "handle": "p00004445-en-day-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232898612",
+        "handle": "p00004445-zh-cn-day-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232931380",
+        "handle": "p00004445-zh-cn-day-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232964148",
+        "handle": "p00004445-zh-cn-day-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352232996916",
+        "handle": "p00004445-zh-cn-day-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233029684",
+        "handle": "p00004445-zh-cn-day-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235520052",
+        "handle": "p00004445-zh-tw-day-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235552820",
+        "handle": "p00004445-zh-tw-day-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235585588",
+        "handle": "p00004445-zh-tw-day-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235618356",
+        "handle": "p00004445-zh-tw-day-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235651124",
+        "handle": "p00004445-zh-tw-day-5"
+      }
+    ],
+    "tour_cost_section": [
+      {
+        "id": "gid://shopify/Metaobject/352230506548",
+        "handle": "p00004445-en-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230539316",
+        "handle": "p00004445-en-cost-excludes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233062452",
+        "handle": "p00004445-zh-cn-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233095220",
+        "handle": "p00004445-zh-cn-cost-excludes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235683892",
+        "handle": "p00004445-zh-tw-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235716660",
+        "handle": "p00004445-zh-tw-cost-excludes"
+      }
+    ],
+    "tour_policy_notice": [
+      {
+        "id": "gid://shopify/Metaobject/352230572084",
+        "handle": "p00004445-en-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230604852",
+        "handle": "p00004445-en-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230637620",
+        "handle": "p00004445-en-notice-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233127988",
+        "handle": "p00004445-zh-cn-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233160756",
+        "handle": "p00004445-zh-cn-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233193524",
+        "handle": "p00004445-zh-cn-notice-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235749428",
+        "handle": "p00004445-zh-tw-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235782196",
+        "handle": "p00004445-zh-tw-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235814964",
+        "handle": "p00004445-zh-tw-notice-3"
+      }
+    ],
+    "tour_pickup_dropoff": [
+      {
+        "id": "gid://shopify/Metaobject/352230670388",
+        "handle": "p00004445-en-pickup-anm00001381"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352230703156",
+        "handle": "p00004445-en-dropoff-anm00001382"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233226292",
+        "handle": "p00004445-zh-cn-pickup-anm00001381"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352233259060",
+        "handle": "p00004445-zh-cn-dropoff-anm00001382"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235847732",
+        "handle": "p00004445-zh-tw-pickup-anm00001381"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235880500",
+        "handle": "p00004445-zh-tw-dropoff-anm00001382"
+      }
+    ],
+    "tour_departure": [
+      {
+        "id": "gid://shopify/Metaobject/352235913268",
+        "handle": "p00004445-departure-2026-07-14"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235946036",
+        "handle": "p00004445-departure-2026-07-15"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352235978804",
+        "handle": "p00004445-departure-2026-07-16"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236011572",
+        "handle": "p00004445-departure-2026-07-17"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236044340",
+        "handle": "p00004445-departure-2026-07-18"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236077108",
+        "handle": "p00004445-departure-2026-07-19"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236109876",
+        "handle": "p00004445-departure-2026-07-20"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236142644",
+        "handle": "p00004445-departure-2026-07-21"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236175412",
+        "handle": "p00004445-departure-2026-07-22"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236208180",
+        "handle": "p00004445-departure-2026-07-23"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236240948",
+        "handle": "p00004445-departure-2026-07-24"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236273716",
+        "handle": "p00004445-departure-2026-07-25"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236306484",
+        "handle": "p00004445-departure-2026-07-26"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236339252",
+        "handle": "p00004445-departure-2026-07-27"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236372020",
+        "handle": "p00004445-departure-2026-07-28"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236404788",
+        "handle": "p00004445-departure-2026-07-29"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236437556",
+        "handle": "p00004445-departure-2026-07-30"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236470324",
+        "handle": "p00004445-departure-2026-07-31"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236503092",
+        "handle": "p00004445-departure-2026-08-01"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236535860",
+        "handle": "p00004445-departure-2026-08-02"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236568628",
+        "handle": "p00004445-departure-2026-08-03"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236601396",
+        "handle": "p00004445-departure-2026-08-04"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236634164",
+        "handle": "p00004445-departure-2026-08-05"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236666932",
+        "handle": "p00004445-departure-2026-08-06"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236732468",
+        "handle": "p00004445-departure-2026-08-07"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236765236",
+        "handle": "p00004445-departure-2026-08-08"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236798004",
+        "handle": "p00004445-departure-2026-08-09"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236830772",
+        "handle": "p00004445-departure-2026-08-10"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236863540",
+        "handle": "p00004445-departure-2026-08-11"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236896308",
+        "handle": "p00004445-departure-2026-08-12"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236929076",
+        "handle": "p00004445-departure-2026-08-13"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236961844",
+        "handle": "p00004445-departure-2026-08-14"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352236994612",
+        "handle": "p00004445-departure-2026-08-15"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237027380",
+        "handle": "p00004445-departure-2026-08-16"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237060148",
+        "handle": "p00004445-departure-2026-08-17"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237092916",
+        "handle": "p00004445-departure-2026-08-18"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237125684",
+        "handle": "p00004445-departure-2026-08-19"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237158452",
+        "handle": "p00004445-departure-2026-08-20"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237191220",
+        "handle": "p00004445-departure-2026-08-21"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237223988",
+        "handle": "p00004445-departure-2026-08-22"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237256756",
+        "handle": "p00004445-departure-2026-08-23"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237289524",
+        "handle": "p00004445-departure-2026-08-24"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237322292",
+        "handle": "p00004445-departure-2026-08-25"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237355060",
+        "handle": "p00004445-departure-2026-08-26"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237387828",
+        "handle": "p00004445-departure-2026-08-27"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237420596",
+        "handle": "p00004445-departure-2026-08-28"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237453364",
+        "handle": "p00004445-departure-2026-08-29"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237486132",
+        "handle": "p00004445-departure-2026-08-30"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237518900",
+        "handle": "p00004445-departure-2026-08-31"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237551668",
+        "handle": "p00004445-departure-2026-09-01"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237584436",
+        "handle": "p00004445-departure-2026-09-02"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237617204",
+        "handle": "p00004445-departure-2026-09-03"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237649972",
+        "handle": "p00004445-departure-2026-09-04"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237682740",
+        "handle": "p00004445-departure-2026-09-05"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237715508",
+        "handle": "p00004445-departure-2026-09-06"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237748276",
+        "handle": "p00004445-departure-2026-09-07"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237781044",
+        "handle": "p00004445-departure-2026-09-08"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237813812",
+        "handle": "p00004445-departure-2026-09-09"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237846580",
+        "handle": "p00004445-departure-2026-09-10"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237879348",
+        "handle": "p00004445-departure-2026-09-11"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237912116",
+        "handle": "p00004445-departure-2026-09-12"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237944884",
+        "handle": "p00004445-departure-2026-09-13"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352237977652",
+        "handle": "p00004445-departure-2026-09-14"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238010420",
+        "handle": "p00004445-departure-2026-09-15"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238043188",
+        "handle": "p00004445-departure-2026-09-16"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238075956",
+        "handle": "p00004445-departure-2026-09-17"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238108724",
+        "handle": "p00004445-departure-2026-09-18"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238141492",
+        "handle": "p00004445-departure-2026-09-19"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238174260",
+        "handle": "p00004445-departure-2026-09-20"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238207028",
+        "handle": "p00004445-departure-2026-09-21"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238239796",
+        "handle": "p00004445-departure-2026-09-22"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238272564",
+        "handle": "p00004445-departure-2026-09-23"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238305332",
+        "handle": "p00004445-departure-2026-09-24"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238338100",
+        "handle": "p00004445-departure-2026-09-25"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238370868",
+        "handle": "p00004445-departure-2026-09-26"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238403636",
+        "handle": "p00004445-departure-2026-09-27"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238436404",
+        "handle": "p00004445-departure-2026-09-28"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238469172",
+        "handle": "p00004445-departure-2026-09-29"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238501940",
+        "handle": "p00004445-departure-2026-09-30"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238534708",
+        "handle": "p00004445-departure-2026-10-01"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238567476",
+        "handle": "p00004445-departure-2026-10-02"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238600244",
+        "handle": "p00004445-departure-2026-10-03"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238633012",
+        "handle": "p00004445-departure-2026-10-04"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238665780",
+        "handle": "p00004445-departure-2026-10-05"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238698548",
+        "handle": "p00004445-departure-2026-10-06"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238731316",
+        "handle": "p00004445-departure-2026-10-07"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238764084",
+        "handle": "p00004445-departure-2026-10-08"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238796852",
+        "handle": "p00004445-departure-2026-10-09"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238829620",
+        "handle": "p00004445-departure-2026-10-10"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238862388",
+        "handle": "p00004445-departure-2026-10-11"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238895156",
+        "handle": "p00004445-departure-2026-10-12"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238927924",
+        "handle": "p00004445-departure-2026-10-13"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238960692",
+        "handle": "p00004445-departure-2026-10-14"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352238993460",
+        "handle": "p00004445-departure-2026-10-15"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239026228",
+        "handle": "p00004445-departure-2026-10-16"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239058996",
+        "handle": "p00004445-departure-2026-10-17"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239091764",
+        "handle": "p00004445-departure-2026-10-18"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239124532",
+        "handle": "p00004445-departure-2026-10-19"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239157300",
+        "handle": "p00004445-departure-2026-10-20"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239190068",
+        "handle": "p00004445-departure-2026-10-21"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239222836",
+        "handle": "p00004445-departure-2026-10-22"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239255604",
+        "handle": "p00004445-departure-2026-10-23"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239288372",
+        "handle": "p00004445-departure-2026-10-24"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239321140",
+        "handle": "p00004445-departure-2026-10-25"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239353908",
+        "handle": "p00004445-departure-2026-10-26"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239386676",
+        "handle": "p00004445-departure-2026-10-27"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239419444",
+        "handle": "p00004445-departure-2026-10-28"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239452212",
+        "handle": "p00004445-departure-2026-10-29"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239484980",
+        "handle": "p00004445-departure-2026-10-30"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239517748",
+        "handle": "p00004445-departure-2026-10-31"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239550516",
+        "handle": "p00004445-departure-2026-11-01"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239583284",
+        "handle": "p00004445-departure-2026-11-02"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239616052",
+        "handle": "p00004445-departure-2026-11-03"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239648820",
+        "handle": "p00004445-departure-2026-11-04"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239681588",
+        "handle": "p00004445-departure-2026-11-05"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239714356",
+        "handle": "p00004445-departure-2026-11-06"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239747124",
+        "handle": "p00004445-departure-2026-11-07"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239779892",
+        "handle": "p00004445-departure-2026-11-08"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239812660",
+        "handle": "p00004445-departure-2026-11-09"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239845428",
+        "handle": "p00004445-departure-2026-11-10"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239878196",
+        "handle": "p00004445-departure-2026-11-11"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239910964",
+        "handle": "p00004445-departure-2026-11-12"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239943732",
+        "handle": "p00004445-departure-2026-11-13"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352239976500",
+        "handle": "p00004445-departure-2026-11-14"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240009268",
+        "handle": "p00004445-departure-2026-11-15"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240042036",
+        "handle": "p00004445-departure-2026-11-16"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240074804",
+        "handle": "p00004445-departure-2026-11-17"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240107572",
+        "handle": "p00004445-departure-2026-11-18"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240140340",
+        "handle": "p00004445-departure-2026-11-19"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240173108",
+        "handle": "p00004445-departure-2026-11-20"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240205876",
+        "handle": "p00004445-departure-2026-11-21"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240238644",
+        "handle": "p00004445-departure-2026-11-22"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240271412",
+        "handle": "p00004445-departure-2026-11-23"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240304180",
+        "handle": "p00004445-departure-2026-11-24"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240336948",
+        "handle": "p00004445-departure-2026-11-25"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240369716",
+        "handle": "p00004445-departure-2026-11-26"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240402484",
+        "handle": "p00004445-departure-2026-11-27"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240435252",
+        "handle": "p00004445-departure-2026-11-28"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240468020",
+        "handle": "p00004445-departure-2026-11-29"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240500788",
+        "handle": "p00004445-departure-2026-11-30"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240533556",
+        "handle": "p00004445-departure-2026-12-01"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240566324",
+        "handle": "p00004445-departure-2026-12-02"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240599092",
+        "handle": "p00004445-departure-2026-12-03"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240631860",
+        "handle": "p00004445-departure-2026-12-04"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240664628",
+        "handle": "p00004445-departure-2026-12-05"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240697396",
+        "handle": "p00004445-departure-2026-12-06"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240730164",
+        "handle": "p00004445-departure-2026-12-07"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240762932",
+        "handle": "p00004445-departure-2026-12-08"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240795700",
+        "handle": "p00004445-departure-2026-12-09"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240828468",
+        "handle": "p00004445-departure-2026-12-10"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240861236",
+        "handle": "p00004445-departure-2026-12-11"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240894004",
+        "handle": "p00004445-departure-2026-12-12"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240926772",
+        "handle": "p00004445-departure-2026-12-13"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240959540",
+        "handle": "p00004445-departure-2026-12-14"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352240992308",
+        "handle": "p00004445-departure-2026-12-15"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352241025076",
+        "handle": "p00004445-departure-2026-12-16"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352241057844",
+        "handle": "p00004445-departure-2026-12-17"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352241090612",
+        "handle": "p00004445-departure-2026-12-18"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352241123380",
+        "handle": "p00004445-departure-2026-12-19"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352241156148",
+        "handle": "p00004445-departure-2026-12-20"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352241188916",
+        "handle": "p00004445-departure-2026-12-21"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352241221684",
+        "handle": "p00004445-departure-2026-12-22"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352241254452",
+        "handle": "p00004445-departure-2026-12-23"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352241287220",
+        "handle": "p00004445-departure-2026-12-24"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352241319988",
+        "handle": "p00004445-departure-2026-12-25"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352241352756",
+        "handle": "p00004445-departure-2026-12-26"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352241385524",
+        "handle": "p00004445-departure-2026-12-27"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352241418292",
+        "handle": "p00004445-departure-2026-12-28"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352241451060",
+        "handle": "p00004445-departure-2026-12-29"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352241483828",
+        "handle": "p00004445-departure-2026-12-30"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352241516596",
+        "handle": "p00004445-departure-2026-12-31"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352241549364",
+        "handle": "p00004445-departure-2027-01-01"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352241582132",
+        "handle": "p00004445-departure-2027-01-02"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352241614900",
+        "handle": "p00004445-departure-2027-01-03"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352241647668",
+        "handle": "p00004445-departure-2027-01-04"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352241680436",
+        "handle": "p00004445-departure-2027-01-05"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352241713204",
+        "handle": "p00004445-departure-2027-01-06"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352241745972",
+        "handle": "p00004445-departure-2027-01-07"
+      }
+    ]
+  },
+  "publication": {
+    "id": "gid://shopify/Publication/197740789812",
+    "name": "Travel Website Development"
+  },
+  "warnings": [
+    "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants.",
+    "Skipped optional add-ons because the product has no bookable departure-price variants."
+  ],
+  "metaobjectDefinitions": {
+    "tour_content": "gid://shopify/MetaobjectDefinition/18676711476",
+    "tour_highlight": "gid://shopify/MetaobjectDefinition/18675433524",
+    "tour_itinerary_day": "gid://shopify/MetaobjectDefinition/18675466292",
+    "tour_departure": "gid://shopify/MetaobjectDefinition/18675499060",
+    "tour_cost_section": "gid://shopify/MetaobjectDefinition/18675531828",
+    "tour_policy_notice": "gid://shopify/MetaobjectDefinition/18675564596",
+    "tour_pickup_dropoff": "gid://shopify/MetaobjectDefinition/18675597364",
+    "tour_addon": "gid://shopify/MetaobjectDefinition/18675630132"
+  },
+  "productReferenceMetafieldDefinitions": {
+    "content": "gid://shopify/MetafieldDefinition/217881935924",
+    "highlight": "gid://shopify/MetafieldDefinition/217872597044",
+    "itinerary_day": "gid://shopify/MetafieldDefinition/217872629812",
+    "departure": "gid://shopify/MetafieldDefinition/217872662580",
+    "cost_section": "gid://shopify/MetafieldDefinition/217872695348",
+    "policy_notice": "gid://shopify/MetafieldDefinition/217872728116",
+    "pickup_dropoff": "gid://shopify/MetafieldDefinition/217872760884",
+    "addon": "gid://shopify/MetafieldDefinition/217872793652"
+  }
+}

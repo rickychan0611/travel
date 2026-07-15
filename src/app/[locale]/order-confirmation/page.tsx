@@ -1,5 +1,5 @@
 import { currentUser } from '@clerk/nextjs/server'
-import { notFound, redirect } from 'next/navigation'
+import { redirect } from 'next/navigation'
 import { getTranslations } from 'next-intl/server'
 import type { Metadata } from 'next'
 import Link from 'next/link'

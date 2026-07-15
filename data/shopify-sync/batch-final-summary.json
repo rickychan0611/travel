@@ -1,0 +1,452 @@
+﻿[
+    {
+        "Id":  "P00008311",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881416044596",
+        "Variants":  0,
+        "Addons":  0,
+        "Publication":  "Travel Website Development",
+        "Warnings":  "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants. | Skipped optional add-ons because the product has no bookable departure-price variants."
+    },
+    {
+        "Id":  "P00008308",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881352933428",
+        "Variants":  36,
+        "Addons":  8,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00008307",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881352998964",
+        "Variants":  40,
+        "Addons":  8,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00002478",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881353130036",
+        "Variants":  368,
+        "Addons":  6,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00006875",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881416896564",
+        "Variants":  0,
+        "Addons":  0,
+        "Publication":  "Travel Website Development",
+        "Warnings":  "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants. | Skipped optional add-ons because the product has no bookable departure-price variants."
+    },
+    {
+        "Id":  "P00007968",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881417650228",
+        "Variants":  0,
+        "Addons":  0,
+        "Publication":  "Travel Website Development",
+        "Warnings":  "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants. | Skipped optional add-ons because the product has no bookable departure-price variants."
+    },
+    {
+        "Id":  "P00007156",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881353228340",
+        "Variants":  36,
+        "Addons":  10,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00002885",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881353752628",
+        "Variants":  356,
+        "Addons":  13,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00008003",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881418338356",
+        "Variants":  0,
+        "Addons":  0,
+        "Publication":  "Travel Website Development",
+        "Warnings":  "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants. | Skipped optional add-ons because the product has no bookable departure-price variants."
+    },
+    {
+        "Id":  "P00007231",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881419255860",
+        "Variants":  0,
+        "Addons":  0,
+        "Publication":  "Travel Website Development",
+        "Warnings":  "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants. | Skipped optional add-ons because the product has no bookable departure-price variants."
+    },
+    {
+        "Id":  "P00007236",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881420042292",
+        "Variants":  0,
+        "Addons":  0,
+        "Publication":  "Travel Website Development",
+        "Warnings":  "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants. | Skipped optional add-ons because the product has no bookable departure-price variants."
+    },
+    {
+        "Id":  "P00007066",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881355587636",
+        "Variants":  105,
+        "Addons":  4,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00003545",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8880468262964",
+        "Variants":  0,
+        "Addons":  0,
+        "Publication":  "Travel Website Development",
+        "Warnings":  "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants. | Skipped optional add-ons because the product has no bookable departure-price variants. | No ToursBMS departure-price variants were extracted; synced product content without date/rate variants. | Skipped optional add-ons because the product has no bookable departure-price variants."
+    },
+    {
+        "Id":  "P00000847",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881357783092",
+        "Variants":  342,
+        "Addons":  4,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00000928",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881360830516",
+        "Variants":  342,
+        "Addons":  4,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00002637",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881427382324",
+        "Variants":  775,
+        "Addons":  22,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00008660",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881420664884",
+        "Variants":  0,
+        "Addons":  0,
+        "Publication":  "Travel Website Development",
+        "Warnings":  "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants. | Skipped optional add-ons because the product has no bookable departure-price variants."
+    },
+    {
+        "Id":  "P00004439",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881364893748",
+        "Variants":  0,
+        "Addons":  0,
+        "Publication":  "Travel Website Development",
+        "Warnings":  "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants. | Skipped optional add-ons because the product has no bookable departure-price variants."
+    },
+    {
+        "Id":  "P00004445",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881368629300",
+        "Variants":  0,
+        "Addons":  0,
+        "Publication":  "Travel Website Development",
+        "Warnings":  "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants. | Skipped optional add-ons because the product has no bookable departure-price variants."
+    },
+    {
+        "Id":  "P00004446",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881372069940",
+        "Variants":  0,
+        "Addons":  0,
+        "Publication":  "Travel Website Development",
+        "Warnings":  "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants. | Skipped optional add-ons because the product has no bookable departure-price variants."
+    },
+    {
+        "Id":  "P00004447",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881375608884",
+        "Variants":  0,
+        "Addons":  0,
+        "Publication":  "Travel Website Development",
+        "Warnings":  "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants. | Skipped optional add-ons because the product has no bookable departure-price variants."
+    },
+    {
+        "Id":  "P00004590",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881421385780",
+        "Variants":  0,
+        "Addons":  0,
+        "Publication":  "Travel Website Development",
+        "Warnings":  "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants. | Skipped optional add-ons because the product has no bookable departure-price variants."
+    },
+    {
+        "Id":  "P00004540",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881379049524",
+        "Variants":  260,
+        "Addons":  8,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00006962",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881380524084",
+        "Variants":  92,
+        "Addons":  15,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00002462",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881382162484",
+        "Variants":  416,
+        "Addons":  10,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00003494",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881383833652",
+        "Variants":  92,
+        "Addons":  12,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00007587",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881384816692",
+        "Variants":  156,
+        "Addons":  11,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00003810",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881385930804",
+        "Variants":  0,
+        "Addons":  0,
+        "Publication":  "Travel Website Development",
+        "Warnings":  "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants. | Skipped optional add-ons because the product has no bookable departure-price variants."
+    },
+    {
+        "Id":  "P00008122",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881386618932",
+        "Variants":  304,
+        "Addons":  2,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00008434",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881388453940",
+        "Variants":  96,
+        "Addons":  14,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00008686",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881390551092",
+        "Variants":  8,
+        "Addons":  1,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00007704",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881391501364",
+        "Variants":  148,
+        "Addons":  12,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00002876",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881391992884",
+        "Variants":  52,
+        "Addons":  8,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00007922",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881422204980",
+        "Variants":  0,
+        "Addons":  0,
+        "Publication":  "Travel Website Development",
+        "Warnings":  "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants. | Skipped optional add-ons because the product has no bookable departure-price variants."
+    },
+    {
+        "Id":  "P00004406",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881393401908",
+        "Variants":  64,
+        "Addons":  24,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00008026",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881394876468",
+        "Variants":  48,
+        "Addons":  2,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00002990",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881395957812",
+        "Variants":  100,
+        "Addons":  16,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00008126",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881423155252",
+        "Variants":  0,
+        "Addons":  0,
+        "Publication":  "Travel Website Development",
+        "Warnings":  "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants. | Skipped optional add-ons because the product has no bookable departure-price variants."
+    },
+    {
+        "Id":  "P00004098",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881397432372",
+        "Variants":  16,
+        "Addons":  24,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00002476",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881399431220",
+        "Variants":  278,
+        "Addons":  6,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00002483",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881399791668",
+        "Variants":  174,
+        "Addons":  2,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00007578",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881423843380",
+        "Variants":  0,
+        "Addons":  0,
+        "Publication":  "Travel Website Development",
+        "Warnings":  "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants. | Skipped optional add-ons because the product has no bookable departure-price variants."
+    },
+    {
+        "Id":  "P00007570",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881424564276",
+        "Variants":  0,
+        "Addons":  0,
+        "Publication":  "Travel Website Development",
+        "Warnings":  "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants. | Skipped optional add-ons because the product has no bookable departure-price variants."
+    },
+    {
+        "Id":  "P00003040",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881401692212",
+        "Variants":  158,
+        "Addons":  2,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00003037",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881402740788",
+        "Variants":  32,
+        "Addons":  0,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00000710",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881403527220",
+        "Variants":  32,
+        "Addons":  0,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00004444",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881404280884",
+        "Variants":  135,
+        "Addons":  2,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00003694",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881405919284",
+        "Variants":  480,
+        "Addons":  2,
+        "Publication":  "Travel Website Development",
+        "Warnings":  ""
+    },
+    {
+        "Id":  "P00008483",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881425186868",
+        "Variants":  0,
+        "Addons":  0,
+        "Publication":  "Travel Website Development",
+        "Warnings":  "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants. | Skipped optional add-ons because the product has no bookable departure-price variants."
+    },
+    {
+        "Id":  "P00008484",
+        "Manifest":  "yes",
+        "ShopifyProductId":  "gid://shopify/Product/8881425809460",
+        "Variants":  0,
+        "Addons":  0,
+        "Publication":  "Travel Website Development",
+        "Warnings":  "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants. | Skipped optional add-ons because the product has no bookable departure-price variants."
+    }
+]

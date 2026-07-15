@@ -1,0 +1,426 @@
+{
+  "productCode": "P00008686",
+  "handle": "p00008686-silver-los-angeles-world-cruise-center-berth-93-pick-up-los-angeles-city-1-day-tour",
+  "shopifyProductId": "gid://shopify/Product/8881390551092",
+  "shopifyAddonProductId": "gid://shopify/Product/8881390616628",
+  "status": "ACTIVE",
+  "locales": [
+    "en",
+    "zh-CN",
+    "zh-TW"
+  ],
+  "syncedAt": "2026-07-15T04:31:10.556Z",
+  "variants": [
+    {
+      "date": "2026-09-14",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-09-14",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00008686-2026-09-14-3-SINGLE-ROOM",
+      "price": "260.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 34,
+      "remainingStock": 34,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035233333300"
+    },
+    {
+      "date": "2026-09-14",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-09-14",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00008686-2026-09-14-4-DOUBLE-ROOM",
+      "price": "190.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 34,
+      "remainingStock": 34,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035233366068"
+    },
+    {
+      "date": "2026-09-14",
+      "priceType": 5,
+      "label": "Triple room",
+      "optionValues": {
+        "Departure Date": "2026-09-14",
+        "Rate Type": "Triple room"
+      },
+      "sku": "P00008686-2026-09-14-5-TRIPLE-ROOM",
+      "price": "170.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 34,
+      "remainingStock": 34,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035233398836"
+    },
+    {
+      "date": "2026-09-14",
+      "priceType": 6,
+      "label": "Quad room",
+      "optionValues": {
+        "Departure Date": "2026-09-14",
+        "Rate Type": "Quad room"
+      },
+      "sku": "P00008686-2026-09-14-6-QUAD-ROOM",
+      "price": "150.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 34,
+      "remainingStock": 34,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035233431604"
+    },
+    {
+      "date": "2026-09-20",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-09-20",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00008686-2026-09-20-3-SINGLE-ROOM",
+      "price": "260.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 50,
+      "remainingStock": 50,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035233464372"
+    },
+    {
+      "date": "2026-09-20",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-09-20",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00008686-2026-09-20-4-DOUBLE-ROOM",
+      "price": "190.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 50,
+      "remainingStock": 50,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035233497140"
+    },
+    {
+      "date": "2026-09-20",
+      "priceType": 5,
+      "label": "Triple room",
+      "optionValues": {
+        "Departure Date": "2026-09-20",
+        "Rate Type": "Triple room"
+      },
+      "sku": "P00008686-2026-09-20-5-TRIPLE-ROOM",
+      "price": "170.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 50,
+      "remainingStock": 50,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035233529908"
+    },
+    {
+      "date": "2026-09-20",
+      "priceType": 6,
+      "label": "Quad room",
+      "optionValues": {
+        "Departure Date": "2026-09-20",
+        "Rate Type": "Quad room"
+      },
+      "sku": "P00008686-2026-09-20-6-QUAD-ROOM",
+      "price": "150.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 50,
+      "remainingStock": 50,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035233562676"
+    }
+  ],
+  "addons": [
+    {
+      "code": "S00005124",
+      "name": "1-Day Service Fee",
+      "description": "US$15 per person per day",
+      "amount": 15,
+      "price": "15.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00008686-ADDON-S00005124",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035233628212"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://dimg04.c-ctrip.com/target/02S3t12000ensy0puCE7D.jpg",
+      "shopifyMediaId": "gid://shopify/MediaImage/28796703080500",
+      "shopifyFileId": null,
+      "position": 1,
+      "role": "featured",
+      "alt": "[Silver] Los Angeles World Cruise Center, Berth 93 pick-up + Los Angeles City 1-Day Tour 1"
+    }
+  ],
+  "metaobjects": {
+    "tour_content": [
+      {
+        "id": "gid://shopify/Metaobject/352310624308",
+        "handle": "p00008686-en-content"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311279668",
+        "handle": "p00008686-zh-cn-content"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311803956",
+        "handle": "p00008686-zh-tw-content"
+      }
+    ],
+    "tour_highlight": [
+      {
+        "id": "gid://shopify/Metaobject/352310657076",
+        "handle": "p00008686-en-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352310689844",
+        "handle": "p00008686-en-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352310722612",
+        "handle": "p00008686-en-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352310755380",
+        "handle": "p00008686-en-highlight-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352310788148",
+        "handle": "p00008686-en-highlight-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311312436",
+        "handle": "p00008686-zh-cn-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311836724",
+        "handle": "p00008686-zh-tw-highlight-1"
+      }
+    ],
+    "tour_itinerary_day": [
+      {
+        "id": "gid://shopify/Metaobject/352310820916",
+        "handle": "p00008686-en-day-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311345204",
+        "handle": "p00008686-zh-cn-day-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311869492",
+        "handle": "p00008686-zh-tw-day-1"
+      }
+    ],
+    "tour_cost_section": [
+      {
+        "id": "gid://shopify/Metaobject/352310853684",
+        "handle": "p00008686-en-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352310886452",
+        "handle": "p00008686-en-cost-excludes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311377972",
+        "handle": "p00008686-zh-cn-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311410740",
+        "handle": "p00008686-zh-cn-cost-excludes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311902260",
+        "handle": "p00008686-zh-tw-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311935028",
+        "handle": "p00008686-zh-tw-cost-excludes"
+      }
+    ],
+    "tour_policy_notice": [
+      {
+        "id": "gid://shopify/Metaobject/352310919220",
+        "handle": "p00008686-en-notice-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352310951988",
+        "handle": "p00008686-en-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352310984756",
+        "handle": "p00008686-en-notice-3-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311443508",
+        "handle": "p00008686-zh-cn-notice-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311476276",
+        "handle": "p00008686-zh-cn-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311509044",
+        "handle": "p00008686-zh-cn-notice-3-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311967796",
+        "handle": "p00008686-zh-tw-notice-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352312000564",
+        "handle": "p00008686-zh-tw-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352312033332",
+        "handle": "p00008686-zh-tw-notice-3-3"
+      }
+    ],
+    "tour_pickup_dropoff": [
+      {
+        "id": "gid://shopify/Metaobject/352311017524",
+        "handle": "p00008686-en-pickup-anm00002040"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311050292",
+        "handle": "p00008686-en-pickup-anm00002041"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311083060",
+        "handle": "p00008686-en-dropoff-anm00000466"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311115828",
+        "handle": "p00008686-en-dropoff-anm00000462"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311148596",
+        "handle": "p00008686-en-dropoff-anm00000456"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311181364",
+        "handle": "p00008686-en-dropoff-anm00001644"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311214132",
+        "handle": "p00008686-en-dropoff-anm00000910"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311541812",
+        "handle": "p00008686-zh-cn-pickup-anm00002040"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311574580",
+        "handle": "p00008686-zh-cn-pickup-anm00002041"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311607348",
+        "handle": "p00008686-zh-cn-dropoff-anm00000466"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311640116",
+        "handle": "p00008686-zh-cn-dropoff-anm00000462"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311672884",
+        "handle": "p00008686-zh-cn-dropoff-anm00000456"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311705652",
+        "handle": "p00008686-zh-cn-dropoff-anm00001644"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311738420",
+        "handle": "p00008686-zh-cn-dropoff-anm00000910"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352312066100",
+        "handle": "p00008686-zh-tw-pickup-anm00002040"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352312098868",
+        "handle": "p00008686-zh-tw-pickup-anm00002041"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352312131636",
+        "handle": "p00008686-zh-tw-dropoff-anm00000466"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352312164404",
+        "handle": "p00008686-zh-tw-dropoff-anm00000462"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352312197172",
+        "handle": "p00008686-zh-tw-dropoff-anm00000456"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352312229940",
+        "handle": "p00008686-zh-tw-dropoff-anm00001644"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352312262708",
+        "handle": "p00008686-zh-tw-dropoff-anm00000910"
+      }
+    ],
+    "tour_addon": [
+      {
+        "id": "gid://shopify/Metaobject/352311246900",
+        "handle": "p00008686-en-addon-s00005124"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352311771188",
+        "handle": "p00008686-zh-cn-addon-s00005124"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352312295476",
+        "handle": "p00008686-zh-tw-addon-s00005124"
+      }
+    ],
+    "tour_departure": [
+      {
+        "id": "gid://shopify/Metaobject/352312328244",
+        "handle": "p00008686-departure-2026-09-14"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352312361012",
+        "handle": "p00008686-departure-2026-09-20"
+      }
+    ]
+  },
+  "publication": {
+    "id": "gid://shopify/Publication/197740789812",
+    "name": "Travel Website Development"
+  },
+  "warnings": [],
+  "metaobjectDefinitions": {
+    "tour_content": "gid://shopify/MetaobjectDefinition/18676711476",
+    "tour_highlight": "gid://shopify/MetaobjectDefinition/18675433524",
+    "tour_itinerary_day": "gid://shopify/MetaobjectDefinition/18675466292",
+    "tour_departure": "gid://shopify/MetaobjectDefinition/18675499060",
+    "tour_cost_section": "gid://shopify/MetaobjectDefinition/18675531828",
+    "tour_policy_notice": "gid://shopify/MetaobjectDefinition/18675564596",
+    "tour_pickup_dropoff": "gid://shopify/MetaobjectDefinition/18675597364",
+    "tour_addon": "gid://shopify/MetaobjectDefinition/18675630132"
+  },
+  "productReferenceMetafieldDefinitions": {
+    "content": "gid://shopify/MetafieldDefinition/217881935924",
+    "highlight": "gid://shopify/MetafieldDefinition/217872597044",
+    "itinerary_day": "gid://shopify/MetafieldDefinition/217872629812",
+    "departure": "gid://shopify/MetafieldDefinition/217872662580",
+    "cost_section": "gid://shopify/MetafieldDefinition/217872695348",
+    "policy_notice": "gid://shopify/MetafieldDefinition/217872728116",
+    "pickup_dropoff": "gid://shopify/MetafieldDefinition/217872760884",
+    "addon": "gid://shopify/MetafieldDefinition/217872793652"
+  }
+}

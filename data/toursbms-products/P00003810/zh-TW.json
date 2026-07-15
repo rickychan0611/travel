@@ -1,0 +1,1656 @@
+{
+  "extractedAt": "2026-07-15T04:27:56.407Z",
+  "product": {
+    "productCode": "P00003810",
+    "productViewCode": "R0002594",
+    "groupNo": "BDCT2",
+    "title": "【金榜怡享】美國 波士頓火車往返 | 華盛頓特區賞櫻 2日遊",
+    "subtitle": "",
+    "categoryCode": "PC00000021",
+    "categoryName": "Boston",
+    "productClass": 1,
+    "productForm": 1,
+    "duration": {
+      "days": 2,
+      "nights": 1,
+      "label": "2 days / 1 nights"
+    },
+    "start": {
+      "regionCode": "A330",
+      "regionName": "波士頓 Boston",
+      "resourceType": 0
+    },
+    "end": {
+      "regionCode": "A330",
+      "regionName": "波士頓 Boston",
+      "resourceType": 0
+    },
+    "destinations": [
+      {
+        "country": "",
+        "province": "華盛頓特區 Washington D.C.",
+        "scenic": "",
+        "spotCode": "",
+        "spotName": "",
+        "raw": {
+          "countryCode": "",
+          "countryName": "",
+          "provinceCode": "A353",
+          "provinceName": "華盛頓特區 Washington D.C.",
+          "scenicCode": "",
+          "scenicName": "",
+          "scenicSpotCode": "",
+          "scenicSpotName": "",
+          "resourceType": 0
+        }
+      }
+    ],
+    "vehicleCodes": [
+      "2"
+    ],
+    "vehicles": [
+      "Train"
+    ],
+    "transferCodes": [],
+    "transfers": [],
+    "status": 200,
+    "releaseTime": "2025-12-05 10:31:57",
+    "changeTime": "2026-05-21 15:58:37",
+    "dataVersion": 1772076398,
+    "raw": {
+      "mainLanguage": 2,
+      "productCode": "P00003810",
+      "productViewCode": "R0002594",
+      "groupNo": "BDCT2",
+      "productClass": 1,
+      "carpointOff": 3,
+      "carpointOn": 3,
+      "productType": "PC00000021",
+      "productTypeName": "Boston",
+      "tripDay": 2,
+      "nightDay": 1,
+      "productForm": 1,
+      "productRoom": 2,
+      "productVehicle": "2",
+      "productTransfer": "",
+      "productName": "【金榜怡享】美國 波士頓火車往返 | 華盛頓特區賞櫻 2日遊",
+      "subtitleName": "",
+      "productSpecial": "<p>【粉色天堂】又是一年櫻花季，數千棵櫻花樹同時綻放，收穫浪漫櫻花美景！</p>\n<p>【暢遊首都】遊覽美國政治中心華盛頓，打卡傑斐遜紀念堂、華盛頓聯合市場等地標景點。</p>",
+      "salesNote": "",
+      "departureDate": "03/21/2026-04/11/2026：週六\n兩人成團，保證出發。",
+      "rewardCode": "RM00001255",
+      "createTime": "2023-02-06 14:02:16",
+      "datachangelasttime": "2026-05-21 15:58:37",
+      "dataVersion": 1772076398,
+      "productPriceAuto": 0,
+      "advanceDay": -1,
+      "advanceTime": "",
+      "productIsOutreach": null,
+      "upperProductCode": null,
+      "upperUpBranchCode": null,
+      "productAttribute": 1,
+      "productClassify": 0,
+      "schemeName": null,
+      "productStatus": 200,
+      "otherCurrencySupport": [],
+      "productRateInfoList": [],
+      "isLocalResidentOptional": 0
+    }
+  },
+  "media": {
+    "images": [
+      "https://dimg04.c-ctrip.com/target/02S4s12000jcghde7FDA7.jpg"
+    ],
+    "imageObjects": [
+      {
+        "imageUrl": "02S4s12000jcghde7FDA7.jpg",
+        "imageName": ""
+      }
+    ],
+    "rawProductImg": [
+      "02S4s12000jcghde7FDA7.jpg"
+    ]
+  },
+  "highlights": {
+    "html": "<p>【粉色天堂】又是一年櫻花季，數千棵櫻花樹同時綻放，收穫浪漫櫻花美景！</p>\n<p>【暢遊首都】遊覽美國政治中心華盛頓，打卡傑斐遜紀念堂、華盛頓聯合市場等地標景點。</p>",
+    "text": "【粉色天堂】又是一年櫻花季，數千棵櫻花樹同時綻放，收穫浪漫櫻花美景！\n\n【暢遊首都】遊覽美國政治中心華盛頓，打卡傑斐遜紀念堂、華盛頓聯合市場等地標景點。",
+    "salesNoteHtml": "",
+    "salesNoteText": ""
+  },
+  "departure": {
+    "html": "03/21/2026-04/11/2026：週六<br>兩人成團，保證出發。",
+    "text": "03/21/2026-04/11/2026：週六\n兩人成團，保證出發。",
+    "advanceDay": -1,
+    "advanceTime": "",
+    "availabilityStart": "2026-07-14",
+    "availabilityEnd": "2027-12-31"
+  },
+  "pricing": {
+    "requestedCurrency": "USD",
+    "defaultCurrency": {
+      "currencyCode": "CI00000002",
+      "branchCode": "B00000003",
+      "currencyNum": "USD",
+      "currencyName": "美元",
+      "currencySymbol": "$",
+      "currencyAccuracy": 2,
+      "currencyRate": 1,
+      "currencyConversion": 1,
+      "currencyIsDefault": 1,
+      "currencyStatus": 200
+    },
+    "supportedCurrencies": [
+      {
+        "currencyCode": "CI00000111",
+        "branchCode": "B00000003",
+        "currencyNum": "CAD",
+        "currencyName": "CAD",
+        "currencySymbol": "C$",
+        "currencyAccuracy": 4,
+        "currencyRate": 1.423,
+        "currencyConversion": 1,
+        "currencyIsDefault": 0,
+        "currencyStatus": 200
+      },
+      {
+        "currencyCode": "CI00000002",
+        "branchCode": "B00000003",
+        "currencyNum": "USD",
+        "currencyName": "美元",
+        "currencySymbol": "$",
+        "currencyAccuracy": 2,
+        "currencyRate": 1,
+        "currencyConversion": 1,
+        "currencyIsDefault": 1,
+        "currencyStatus": 200
+      }
+    ],
+    "firstAvailableDate": null,
+    "basePrices": [],
+    "availability": []
+  },
+  "itinerary": {
+    "productDay": 2,
+    "productNight": 1,
+    "travelName": "【金榜怡享】美國 波士頓火車往返 | 華盛頓特區賞櫻 2日遊",
+    "days": [
+      {
+        "dayNumber": 1,
+        "section": "波士頓|||2+++華盛頓特區",
+        "sectionStops": [
+          {
+            "type": "place",
+            "label": "波士頓"
+          },
+          {
+            "type": "transfer",
+            "vehicleCode": "2",
+            "vehicle": "Train",
+            "place": "華盛頓特區"
+          }
+        ],
+        "todayLocation": "",
+        "distributionFactor": 1,
+        "isFreeTravel": null,
+        "optionalProductList": [],
+        "content": [
+          {
+            "contentMode": 3,
+            "contentType": 100,
+            "sortNumber": 0,
+            "relatedId": 7135,
+            "relatedDay": 1,
+            "relatedName": "【BDCT2-1】波士頓 - 華盛頓特區",
+            "decodedJson": {
+              "travelId": 7135,
+              "productCategory": 1,
+              "name": "【BDCT2-1】波士頓 - 華盛頓特區",
+              "productType": "PC00000021",
+              "isAutoTeam": null,
+              "expandList": [
+                {
+                  "language": 2,
+                  "isSource": 1,
+                  "dayList": [
+                    {
+                      "section": "波士頓|||2+++華盛頓特區",
+                      "todayLocation": "",
+                      "dayNumber": 1,
+                      "content": [
+                        {
+                          "contentMode": 0,
+                          "productSortNum": null,
+                          "relatedId": -1,
+                          "relatedDay": -1,
+                          "relatedName": "",
+                          "contentType": 7,
+                          "sortNumber": 0,
+                          "jsonContent": "eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD7ku4rlpKnmgqjlsIflvp7ms6Llo6vpoJPlh7rnmbzvvIzoh6rooYzkuZjlnZDngavou4rliY3lvoDoj6/nm5vpoJPnibnljYDvvIzkuIDotbfplovllZ/os57mq7vkuYvml4XvvIHmq7voirHmmK/nvo7lnIvpppbpg73oj6/nm5vpoJPmnIDploPkuq7nmoTln47luILlkI3niYfkuYvkuIDvvIzlnKjlsIjmpa3lsI7pgYrnmoTluLbpoJjkuIvmiJHlgJHlsIfpppblhYjliY3lvoDogq/kvI3lvrfnpL7ljYDos57mq7vjgILpmqjlvozmiJHlgJHlsIfkuZjou4rliY3lvoDkup7mrbflsbHlpKfogIHln47jgILoiIfoj6/nm5vpoJPnibnljYDojorlmrTogoXnqYbnmoTmsKPmsJvov6XnhLbkuI3lkIzvvIzlnKjogIHln47vvIzmgqjlj6/ku6Xnm6Hmg4Xkuqvlj5fpmb3lhYnjgIHoibLlvanjgIHooZfpoK3pn7PmqILlkozlkITlnIvnvo7po5/vvIzmhJ/lj5fogIHln47mgqDplpLnmoTnlJ/mtLvjgII8L3A+XG48cD4mbmJzcDs8L3A+XG48cD48c3Ryb25nPuihjOeoi+WuieaOku+8mjwvc3Ryb25nPjwvcD5cbjxwPjxzdHJvbmc+5rOi5aOr6aCT5LmY5Z2Q54Gr6LuK5YmN5b6A6I+v55ub6aCT54m55Y2A77yIPHNwYW4gc3R5bGU9XCJjb2xvcjogI2JhMzcyYTtcIj7ngavou4rkuIrnhKHlsI7pgYrpmarlkIzvvIzoiZnkvY3llq7nqIvnpajlg7notoXpgY4kMTAw55qE6YOo5YiG77yM5a6i5Lq66ZyA6Ieq6KGM6KOc6Laz5beu5YO577yM5oiW6ICF6Ieq6LK75Y2H57Sa6YG45pOH5YW25LuW6ImZ5L2NPC9zcGFuPu+8iSZyYXJyOyDogq/kvI3lvrfnpL7ljYDos57mq7s8L3N0cm9uZz7vvIg5MOWIhumQmO+8iTxzdHJvbmc+JnJhcnI7IOS6nuatt+WxseWkp+iAgeWfjjwvc3Ryb25nPu+8iDgw5YiG6ZCY77yM5ZCr5pma6aSQ5pmC6ZaT77yJPHN0cm9uZz4mcmFycjsg6YWS5bqXPC9zdHJvbmc+PC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz7lgpnoqLvvvJo8L3N0cm9uZz48L3A+XG48cD4xLiDngavou4rpppbpgbjnj63mrKHos4foqIrvvJpBbXRyYWsgLSAxOTUgTm9ydGhlYXN0IFJlZ2lvbmFsPC9wPlxuPHA+RGVwYXJ0cyBCb3N0b24sIE1BIC0gU291dGggU3RhdGlvbihCT1MpIC0gNjozMGE8L3A+XG48cD5BcnJpdmVzIFdhc2hpbmd0b24sIERDIC0gVW5pb24gU3RhdGlvbiAoV0FTKSAtIDI6MjVwPC9wPlxuPHA+PHNwYW4gc3R5bGU9XCJjb2xvcjogI2JhMzcyYTtcIj4q5YiX6LuK54+t5qyh5YOF5L6b5Y+D6ICD77yM6KuL5Lul5a+m6Zqb6aCQ6KiC54+t5qyh54K65rqW44CCPC9zcGFuPjwvcD5cbjxwPjxzcGFuIHN0eWxlPVwiY29sb3I6ICNiYTM3MmE7XCI+Mi4g54Gr6LuK56Wo6LOH5rqQ57eK5by177yM5by354OI5bu66K2w5oKo5YSY5pep6aCQ6KiC77yM6YG/5YWN5Ye654++6LuK56Wo5Zug5ZSu572E54Sh5rOV6aCQ6KiC55qE5oOF5rOB44CC6ImZ5L2N5Zau56iL56Wo5YO56LaF6YGOJDEwMOeahOmDqOWIhu+8jOWuouS6uumcgOiHquihjOijnOi2s+W3ruWDue+8jOaIluiAheiHquiyu+WNh+e0mumBuOaTh+WFtuS7luiJmeS9je+8jOS4i+WWruWJjeiri+iBr+e5q+WuouacjeS6jOasoeeiuuiqjeOAgjwvc3Bhbj48L3A+XG48cD48c3BhbiBzdHlsZT1cImNvbG9yOiAjYmEzNzJhO1wiPjMuIOeBq+i7iuS4iueEoeWwjumBiumZquWQjOOAgjwvc3Bhbj48L3A+IiwidGltZSI6IjEifQ==",
+                          "decodedJson": {
+                            "distanc": "",
+                            "distancUnit": 1,
+                            "hours": "",
+                            "minutes": "",
+                            "stayHours": "",
+                            "stayMinutes": "",
+                            "listImage": [],
+                            "description": "<p>今天您將從波士頓出發，自行乘坐火車前往華盛頓特區，一起開啟賞櫻之旅！櫻花是美國首都華盛頓最閃亮的城市名片之一，在專業導遊的帶領下我們將首先前往肯伍德社區賞櫻。隨後我們將乘車前往亞歷山大老城。與華盛頓特區莊嚴肅穆的氣氛迥然不同，在老城，您可以盡情享受陽光、色彩、街頭音樂和各國美食，感受老城悠閒的生活。</p>\n<p>&nbsp;</p>\n<p><strong>行程安排：</strong></p>\n<p><strong>波士頓乘坐火車前往華盛頓特區（<span style=\"color: #ba372a;\">火車上無導遊陪同，艙位單程票價超過$100的部分，客人需自行補足差價，或者自費升級選擇其他艙位</span>）&rarr; 肯伍德社區賞櫻</strong>（90分鐘）<strong>&rarr; 亞歷山大老城</strong>（80分鐘，含晚餐時間）<strong>&rarr; 酒店</strong></p>\n<p>&nbsp;</p>\n<p><strong>備註：</strong></p>\n<p>1. 火車首選班次資訊：Amtrak - 195 Northeast Regional</p>\n<p>Departs Boston, MA - South Station(BOS) - 6:30a</p>\n<p>Arrives Washington, DC - Union Station (WAS) - 2:25p</p>\n<p><span style=\"color: #ba372a;\">*列車班次僅供參考，請以實際預訂班次為準。</span></p>\n<p><span style=\"color: #ba372a;\">2. 火車票資源緊張，強烈建議您儘早預訂，避免出現車票因售罄無法預訂的情況。艙位單程票價超過$100的部分，客人需自行補足差價，或者自費升級選擇其他艙位，下單前請聯繫客服二次確認。</span></p>\n<p><span style=\"color: #ba372a;\">3. 火車上無導遊陪同。</span></p>",
+                            "time": "1"
+                          }
+                        },
+                        {
+                          "contentMode": 0,
+                          "productSortNum": null,
+                          "relatedId": -1,
+                          "relatedDay": -1,
+                          "relatedName": "",
+                          "contentType": 3,
+                          "sortNumber": 1,
+                          "jsonContent": "eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJ0eXBlIjowLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMjAxOCIsInNjZW5pY05hbWUiOiLogq/kvI3lvrfnpL7ljYDos57mq7sgS2Vud29vZCBDb21tdW5pdHkgQ2hlcnJ5IEJsb3Nzb20iLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+5q+P5bm05pil5aSp6YO95pyD5pyJMTIwMOajteWQiemHjuaru+ahg+aoueWcqOmAmeWAi+Wwj+iCr+S8jeW+t+ekvuWNgOebm+mWi+WHuueyieiJsuWSjOeZveiJsueahOiKseacte+8jOi2hee0mua1qua8q+OAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfSx7ImFjdGl2aXR5Tm8iOjIsInR5cGUiOjIsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAxMDg5Iiwic2NlbmljTmFtZSI6IuS6nuatt+WxseWkp+iAgeWfjiBPbGQgVG93biBBbGV4YW5kcmlhIiwic2NlbmljRXhwbGFpbiI6IiIsImlzQXBwZWFyYW5jZSI6MCwibG9hZGVkIjp0cnVlLCJzY2VuaWNlRGVzYyI6IjxwPuS6nuatt+WxseWkp+iAgeWfjuaYr+e+juWci+WFuOWei+eahOatt+WPsuihl+WNgO+8jOW7uuaWvCAxNzQ5IOW5tO+8jOS9nOeCuuatt+WPsuS4iumHjeimgeaIsOeVpeWcsOWNgO+8jOmAmeijoeS/neeVmeS6huecvuWkmuauluawkeaZguacn+eahOWPpOiAgeW7uuevie+8jOmChOaTgeacieiRlzIwMOWkmuWutueNqOeri+mkkOW7s+WSjOeyvuWTgeW6l++8jOS7peWPiuengeWvhueahOatt+WPsuWNmueJqemkqOWSjOa1t+a/seaZr+m7nu+8jOaYr+iPr+ebm+mgk0RD6ZmE6L+R5LiN5Y+v5aSa5b6X55qE6YGK546p5Yud5Zyw44CC6ZaS6YCb5Zyo6ZuF6Ie055qE5Y+k5Z+O5YWn77yM5aSn5a625Y+v5Lul5oSf5Y+X5Yiw576O5ZyL55qE5Lq65paH5q235Y+y5ZKM5pys5Zyf54m56Imy6aKo5oOF44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119XSwiZGlzdGFuYyI6IiIsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwidGltZSI6IjMiLCJkaXN0YW5jVW5pdCI6MX0=",
+                          "decodedJson": {
+                            "content": [
+                              {
+                                "activityNo": 1,
+                                "type": 0,
+                                "sourceType": 2,
+                                "scenicCode": "SM00002018",
+                                "scenicName": "肯伍德社區賞櫻 Kenwood Community Cherry Blossom",
+                                "scenicExplain": "",
+                                "isAppearance": 0,
+                                "loaded": true,
+                                "sceniceDesc": "<p>每年春天都會有1200棵吉野櫻桃樹在這個小肯伍德社區盛開出粉色和白色的花朵，超級浪漫。</p>",
+                                "scenicImages": []
+                              },
+                              {
+                                "activityNo": 2,
+                                "type": 2,
+                                "sourceType": 2,
+                                "scenicCode": "SM00001089",
+                                "scenicName": "亞歷山大老城 Old Town Alexandria",
+                                "scenicExplain": "",
+                                "isAppearance": 0,
+                                "loaded": true,
+                                "sceniceDesc": "<p>亞歷山大老城是美國典型的歷史街區，建於 1749 年，作為歷史上重要戰略地區，這裡保留了眾多殖民時期的古老建築，還擁有著200多家獨立餐廳和精品店，以及私密的歷史博物館和海濱景點，是華盛頓DC附近不可多得的遊玩勝地。閒逛在雅致的古城內，大家可以感受到美國的人文歷史和本土特色風情。</p>",
+                                "scenicImages": []
+                              }
+                            ],
+                            "distanc": "",
+                            "hours": "",
+                            "minutes": "",
+                            "stayHours": "",
+                            "stayMinutes": "",
+                            "time": "3",
+                            "distancUnit": 1
+                          }
+                        },
+                        {
+                          "contentMode": 0,
+                          "productSortNum": null,
+                          "relatedId": -1,
+                          "relatedDay": -1,
+                          "relatedName": "",
+                          "contentType": 8,
+                          "sortNumber": 2,
+                          "jsonContent": "eyJ0aW1lIjoiNCIsImRpc3RhbmMiOm51bGwsImhvdXJzIjpudWxsLCJtaW51dGVzIjpudWxsLCJzdGF5SG91cnMiOm51bGwsInN0YXlNaW51dGVzIjpudWxsLCJyZWdpb25Db2RlIjoiQTUyMiIsInJlZ2lvbk5hbWUiOiLok4vnkZ/mlq/loKEgR2FpdGhlcnNidXJnIiwicmVnaW9uVHlwZSI6MiwiY29udGVudCI6W3sic291cmNlVHlwZSI6MiwiaG90ZWxDb2RlIjoiSE0wMDAwMDUyMyIsImhvdGVsTmFtZSI6IlNwcmluZ2hpbGwgU3VpdGVzIEdhaXRoZXJzYnVyZyAiLCJob3RlbEFkZHIiOm51bGwsImhvdGVsRW1haWwiOm51bGwsImhvdGVsTGlua01hbiI6bnVsbCwiaG90ZWxMaW5rV2F5IjpudWxsfSx7InNvdXJjZVR5cGUiOjIsImhvdGVsQ29kZSI6IkhNMDAwMDAwNTAiLCJob3RlbE5hbWUiOiJDb21mb3J0IElubiBTaGFkeSBHcm92ZSAtIEdhaXRoZXJzYnVyZyAtIFJvY2t2aWxsZSIsImhvdGVsQWRkciI6bnVsbCwiaG90ZWxFbWFpbCI6bnVsbCwiaG90ZWxMaW5rTWFuIjpudWxsLCJob3RlbExpbmtXYXkiOm51bGx9LHsic291cmNlVHlwZSI6MiwiaG90ZWxDb2RlIjoiSE0wMDAwMDAzOSIsImhvdGVsTmFtZSI6IkhvbGlkYXkgSW5uIEdhaXRoZXJzYnVyZyBieSBJSEciLCJob3RlbEFkZHIiOm51bGwsImhvdGVsRW1haWwiOm51bGwsImhvdGVsTGlua01hbiI6bnVsbCwiaG90ZWxMaW5rV2F5IjpudWxsfSx7InNvdXJjZVR5cGUiOjIsImhvdGVsQ29kZSI6IkhNMDAwMDIzODYiLCJob3RlbE5hbWUiOiJTcGFyayBieSBIaWx0b24gR2VybWFudG93biIsImhvdGVsQWRkciI6bnVsbCwiaG90ZWxFbWFpbCI6bnVsbCwiaG90ZWxMaW5rTWFuIjpudWxsLCJob3RlbExpbmtXYXkiOm51bGx9LHsic291cmNlVHlwZSI6MiwiaG90ZWxDb2RlIjoiSE0wMDAwMzgyOSIsImhvdGVsTmFtZSI6IkJlc3QgV2VzdGVybiBIaXN0b3JpYyBGcmVkZXJpY2siLCJob3RlbEFkZHIiOm51bGwsImhvdGVsRW1haWwiOm51bGwsImhvdGVsTGlua01hbiI6bnVsbCwiaG90ZWxMaW5rV2F5IjpudWxsfSx7InNvdXJjZVR5cGUiOjIsImhvdGVsQ29kZSI6IkhNMDAwMDI2NzMiLCJob3RlbE5hbWUiOiJTb25lc3RhIFNlbGVjdCBHcmVlbmJlbHQgQ29sbGVnZSBQYXJrIiwiaG90ZWxBZGRyIjpudWxsLCJob3RlbEVtYWlsIjpudWxsLCJob3RlbExpbmtNYW4iOm51bGwsImhvdGVsTGlua1dheSI6bnVsbH0seyJzb3VyY2VUeXBlIjoyLCJob3RlbENvZGUiOiJITTAwMDAwMTA3IiwiaG90ZWxOYW1lIjoiQ29tZm9ydCBJbm4gQ29sbGVnZSBQYXJrIiwiaG90ZWxBZGRyIjpudWxsLCJob3RlbEVtYWlsIjpudWxsLCJob3RlbExpbmtNYW4iOm51bGwsImhvdGVsTGlua1dheSI6bnVsbH0seyJzb3VyY2VUeXBlIjoyLCJob3RlbENvZGUiOiJITTAwMDAwNDkyIiwiaG90ZWxOYW1lIjoi5ZCM57SaIiwiaG90ZWxBZGRyIjpudWxsLCJob3RlbEVtYWlsIjpudWxsLCJob3RlbExpbmtNYW4iOm51bGwsImhvdGVsTGlua1dheSI6bnVsbH1dLCJ0eXBlIjpudWxsLCJkZXNjcmlwdGlvbiI6bnVsbCwiYXZlUHJpY2UiOm51bGx9",
+                          "decodedJson": {
+                            "time": "4",
+                            "distanc": null,
+                            "hours": null,
+                            "minutes": null,
+                            "stayHours": null,
+                            "stayMinutes": null,
+                            "regionCode": "A522",
+                            "regionName": "蓋瑟斯堡 Gaithersburg",
+                            "regionType": 2,
+                            "content": [
+                              {
+                                "sourceType": 2,
+                                "hotelCode": "HM00000523",
+                                "hotelName": "Springhill Suites Gaithersburg ",
+                                "hotelAddr": null,
+                                "hotelEmail": null,
+                                "hotelLinkMan": null,
+                                "hotelLinkWay": null
+                              },
+                              {
+                                "sourceType": 2,
+                                "hotelCode": "HM00000050",
+                                "hotelName": "Comfort Inn Shady Grove - Gaithersburg - Rockville",
+                                "hotelAddr": null,
+                                "hotelEmail": null,
+                                "hotelLinkMan": null,
+                                "hotelLinkWay": null
+                              },
+                              {
+                                "sourceType": 2,
+                                "hotelCode": "HM00000039",
+                                "hotelName": "Holiday Inn Gaithersburg by IHG",
+                                "hotelAddr": null,
+                                "hotelEmail": null,
+                                "hotelLinkMan": null,
+                                "hotelLinkWay": null
+                              },
+                              {
+                                "sourceType": 2,
+                                "hotelCode": "HM00002386",
+                                "hotelName": "Spark by Hilton Germantown",
+                                "hotelAddr": null,
+                                "hotelEmail": null,
+                                "hotelLinkMan": null,
+                                "hotelLinkWay": null
+                              },
+                              {
+                                "sourceType": 2,
+                                "hotelCode": "HM00003829",
+                                "hotelName": "Best Western Historic Frederick",
+                                "hotelAddr": null,
+                                "hotelEmail": null,
+                                "hotelLinkMan": null,
+                                "hotelLinkWay": null
+                              },
+                              {
+                                "sourceType": 2,
+                                "hotelCode": "HM00002673",
+                                "hotelName": "Sonesta Select Greenbelt College Park",
+                                "hotelAddr": null,
+                                "hotelEmail": null,
+                                "hotelLinkMan": null,
+                                "hotelLinkWay": null
+                              },
+                              {
+                                "sourceType": 2,
+                                "hotelCode": "HM00000107",
+                                "hotelName": "Comfort Inn College Park",
+                                "hotelAddr": null,
+                                "hotelEmail": null,
+                                "hotelLinkMan": null,
+                                "hotelLinkWay": null
+                              },
+                              {
+                                "sourceType": 2,
+                                "hotelCode": "HM00000492",
+                                "hotelName": "同級",
+                                "hotelAddr": null,
+                                "hotelEmail": null,
+                                "hotelLinkMan": null,
+                                "hotelLinkWay": null
+                              }
+                            ],
+                            "type": null,
+                            "description": null,
+                            "avePrice": null
+                          }
+                        }
+                      ],
+                      "distributionFactor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "rawJsonContent": "{\"travelId\":7135,\"productCategory\":1,\"name\":\"【BDCT2-1】波士頓 - 華盛頓特區\",\"productType\":\"PC00000021\",\"isAutoTeam\":null,\"expandList\":[{\"language\":2,\"isSource\":1,\"dayList\":[{\"section\":\"波士頓|||2+++華盛頓特區\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD7ku4rlpKnmgqjlsIflvp7ms6Llo6vpoJPlh7rnmbzvvIzoh6rooYzkuZjlnZDngavou4rliY3lvoDoj6/nm5vpoJPnibnljYDvvIzkuIDotbfplovllZ/os57mq7vkuYvml4XvvIHmq7voirHmmK/nvo7lnIvpppbpg73oj6/nm5vpoJPmnIDploPkuq7nmoTln47luILlkI3niYfkuYvkuIDvvIzlnKjlsIjmpa3lsI7pgYrnmoTluLbpoJjkuIvmiJHlgJHlsIfpppblhYjliY3lvoDogq/kvI3lvrfnpL7ljYDos57mq7vjgILpmqjlvozmiJHlgJHlsIfkuZjou4rliY3lvoDkup7mrbflsbHlpKfogIHln47jgILoiIfoj6/nm5vpoJPnibnljYDojorlmrTogoXnqYbnmoTmsKPmsJvov6XnhLbkuI3lkIzvvIzlnKjogIHln47vvIzmgqjlj6/ku6Xnm6Hmg4Xkuqvlj5fpmb3lhYnjgIHoibLlvanjgIHooZfpoK3pn7PmqILlkozlkITlnIvnvo7po5/vvIzmhJ/lj5fogIHln47mgqDplpLnmoTnlJ/mtLvjgII8L3A+XG48cD4mbmJzcDs8L3A+XG48cD48c3Ryb25nPuihjOeoi+WuieaOku+8mjwvc3Ryb25nPjwvcD5cbjxwPjxzdHJvbmc+5rOi5aOr6aCT5LmY5Z2Q54Gr6LuK5YmN5b6A6I+v55ub6aCT54m55Y2A77yIPHNwYW4gc3R5bGU9XCJjb2xvcjogI2JhMzcyYTtcIj7ngavou4rkuIrnhKHlsI7pgYrpmarlkIzvvIzoiZnkvY3llq7nqIvnpajlg7notoXpgY4kMTAw55qE6YOo5YiG77yM5a6i5Lq66ZyA6Ieq6KGM6KOc6Laz5beu5YO577yM5oiW6ICF6Ieq6LK75Y2H57Sa6YG45pOH5YW25LuW6ImZ5L2NPC9zcGFuPu+8iSZyYXJyOyDogq/kvI3lvrfnpL7ljYDos57mq7s8L3N0cm9uZz7vvIg5MOWIhumQmO+8iTxzdHJvbmc+JnJhcnI7IOS6nuatt+WxseWkp+iAgeWfjjwvc3Ryb25nPu+8iDgw5YiG6ZCY77yM5ZCr5pma6aSQ5pmC6ZaT77yJPHN0cm9uZz4mcmFycjsg6YWS5bqXPC9zdHJvbmc+PC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz7lgpnoqLvvvJo8L3N0cm9uZz48L3A+XG48cD4xLiDngavou4rpppbpgbjnj63mrKHos4foqIrvvJpBbXRyYWsgLSAxOTUgTm9ydGhlYXN0IFJlZ2lvbmFsPC9wPlxuPHA+RGVwYXJ0cyBCb3N0b24sIE1BIC0gU291dGggU3RhdGlvbihCT1MpIC0gNjozMGE8L3A+XG48cD5BcnJpdmVzIFdhc2hpbmd0b24sIERDIC0gVW5pb24gU3RhdGlvbiAoV0FTKSAtIDI6MjVwPC9wPlxuPHA+PHNwYW4gc3R5bGU9XCJjb2xvcjogI2JhMzcyYTtcIj4q5YiX6LuK54+t5qyh5YOF5L6b5Y+D6ICD77yM6KuL5Lul5a+m6Zqb6aCQ6KiC54+t5qyh54K65rqW44CCPC9zcGFuPjwvcD5cbjxwPjxzcGFuIHN0eWxlPVwiY29sb3I6ICNiYTM3MmE7XCI+Mi4g54Gr6LuK56Wo6LOH5rqQ57eK5by177yM5by354OI5bu66K2w5oKo5YSY5pep6aCQ6KiC77yM6YG/5YWN5Ye654++6LuK56Wo5Zug5ZSu572E54Sh5rOV6aCQ6KiC55qE5oOF5rOB44CC6ImZ5L2N5Zau56iL56Wo5YO56LaF6YGOJDEwMOeahOmDqOWIhu+8jOWuouS6uumcgOiHquihjOijnOi2s+W3ruWDue+8jOaIluiAheiHquiyu+WNh+e0mumBuOaTh+WFtuS7luiJmeS9je+8jOS4i+WWruWJjeiri+iBr+e5q+WuouacjeS6jOasoeeiuuiqjeOAgjwvc3Bhbj48L3A+XG48cD48c3BhbiBzdHlsZT1cImNvbG9yOiAjYmEzNzJhO1wiPjMuIOeBq+i7iuS4iueEoeWwjumBiumZquWQjOOAgjwvc3Bhbj48L3A+IiwidGltZSI6IjEifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":1,\"jsonContent\":\"eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJ0eXBlIjowLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMjAxOCIsInNjZW5pY05hbWUiOiLogq/kvI3lvrfnpL7ljYDos57mq7sgS2Vud29vZCBDb21tdW5pdHkgQ2hlcnJ5IEJsb3Nzb20iLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+5q+P5bm05pil5aSp6YO95pyD5pyJMTIwMOajteWQiemHjuaru+ahg+aoueWcqOmAmeWAi+Wwj+iCr+S8jeW+t+ekvuWNgOebm+mWi+WHuueyieiJsuWSjOeZveiJsueahOiKseacte+8jOi2hee0mua1qua8q+OAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfSx7ImFjdGl2aXR5Tm8iOjIsInR5cGUiOjIsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAxMDg5Iiwic2NlbmljTmFtZSI6IuS6nuatt+WxseWkp+iAgeWfjiBPbGQgVG93biBBbGV4YW5kcmlhIiwic2NlbmljRXhwbGFpbiI6IiIsImlzQXBwZWFyYW5jZSI6MCwibG9hZGVkIjp0cnVlLCJzY2VuaWNlRGVzYyI6IjxwPuS6nuatt+WxseWkp+iAgeWfjuaYr+e+juWci+WFuOWei+eahOatt+WPsuihl+WNgO+8jOW7uuaWvCAxNzQ5IOW5tO+8jOS9nOeCuuatt+WPsuS4iumHjeimgeaIsOeVpeWcsOWNgO+8jOmAmeijoeS/neeVmeS6huecvuWkmuauluawkeaZguacn+eahOWPpOiAgeW7uuevie+8jOmChOaTgeacieiRlzIwMOWkmuWutueNqOeri+mkkOW7s+WSjOeyvuWTgeW6l++8jOS7peWPiuengeWvhueahOatt+WPsuWNmueJqemkqOWSjOa1t+a/seaZr+m7nu+8jOaYr+iPr+ebm+mgk0RD6ZmE6L+R5LiN5Y+v5aSa5b6X55qE6YGK546p5Yud5Zyw44CC6ZaS6YCb5Zyo6ZuF6Ie055qE5Y+k5Z+O5YWn77yM5aSn5a625Y+v5Lul5oSf5Y+X5Yiw576O5ZyL55qE5Lq65paH5q235Y+y5ZKM5pys5Zyf54m56Imy6aKo5oOF44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119XSwiZGlzdGFuYyI6IiIsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwidGltZSI6IjMiLCJkaXN0YW5jVW5pdCI6MX0=\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":8,\"sortNumber\":2,\"jsonContent\":\"eyJ0aW1lIjoiNCIsImRpc3RhbmMiOm51bGwsImhvdXJzIjpudWxsLCJtaW51dGVzIjpudWxsLCJzdGF5SG91cnMiOm51bGwsInN0YXlNaW51dGVzIjpudWxsLCJyZWdpb25Db2RlIjoiQTUyMiIsInJlZ2lvbk5hbWUiOiLok4vnkZ/mlq/loKEgR2FpdGhlcnNidXJnIiwicmVnaW9uVHlwZSI6MiwiY29udGVudCI6W3sic291cmNlVHlwZSI6MiwiaG90ZWxDb2RlIjoiSE0wMDAwMDUyMyIsImhvdGVsTmFtZSI6IlNwcmluZ2hpbGwgU3VpdGVzIEdhaXRoZXJzYnVyZyAiLCJob3RlbEFkZHIiOm51bGwsImhvdGVsRW1haWwiOm51bGwsImhvdGVsTGlua01hbiI6bnVsbCwiaG90ZWxMaW5rV2F5IjpudWxsfSx7InNvdXJjZVR5cGUiOjIsImhvdGVsQ29kZSI6IkhNMDAwMDAwNTAiLCJob3RlbE5hbWUiOiJDb21mb3J0IElubiBTaGFkeSBHcm92ZSAtIEdhaXRoZXJzYnVyZyAtIFJvY2t2aWxsZSIsImhvdGVsQWRkciI6bnVsbCwiaG90ZWxFbWFpbCI6bnVsbCwiaG90ZWxMaW5rTWFuIjpudWxsLCJob3RlbExpbmtXYXkiOm51bGx9LHsic291cmNlVHlwZSI6MiwiaG90ZWxDb2RlIjoiSE0wMDAwMDAzOSIsImhvdGVsTmFtZSI6IkhvbGlkYXkgSW5uIEdhaXRoZXJzYnVyZyBieSBJSEciLCJob3RlbEFkZHIiOm51bGwsImhvdGVsRW1haWwiOm51bGwsImhvdGVsTGlua01hbiI6bnVsbCwiaG90ZWxMaW5rV2F5IjpudWxsfSx7InNvdXJjZVR5cGUiOjIsImhvdGVsQ29kZSI6IkhNMDAwMDIzODYiLCJob3RlbE5hbWUiOiJTcGFyayBieSBIaWx0b24gR2VybWFudG93biIsImhvdGVsQWRkciI6bnVsbCwiaG90ZWxFbWFpbCI6bnVsbCwiaG90ZWxMaW5rTWFuIjpudWxsLCJob3RlbExpbmtXYXkiOm51bGx9LHsic291cmNlVHlwZSI6MiwiaG90ZWxDb2RlIjoiSE0wMDAwMzgyOSIsImhvdGVsTmFtZSI6IkJlc3QgV2VzdGVybiBIaXN0b3JpYyBGcmVkZXJpY2siLCJob3RlbEFkZHIiOm51bGwsImhvdGVsRW1haWwiOm51bGwsImhvdGVsTGlua01hbiI6bnVsbCwiaG90ZWxMaW5rV2F5IjpudWxsfSx7InNvdXJjZVR5cGUiOjIsImhvdGVsQ29kZSI6IkhNMDAwMDI2NzMiLCJob3RlbE5hbWUiOiJTb25lc3RhIFNlbGVjdCBHcmVlbmJlbHQgQ29sbGVnZSBQYXJrIiwiaG90ZWxBZGRyIjpudWxsLCJob3RlbEVtYWlsIjpudWxsLCJob3RlbExpbmtNYW4iOm51bGwsImhvdGVsTGlua1dheSI6bnVsbH0seyJzb3VyY2VUeXBlIjoyLCJob3RlbENvZGUiOiJITTAwMDAwMTA3IiwiaG90ZWxOYW1lIjoiQ29tZm9ydCBJbm4gQ29sbGVnZSBQYXJrIiwiaG90ZWxBZGRyIjpudWxsLCJob3RlbEVtYWlsIjpudWxsLCJob3RlbExpbmtNYW4iOm51bGwsImhvdGVsTGlua1dheSI6bnVsbH0seyJzb3VyY2VUeXBlIjoyLCJob3RlbENvZGUiOiJITTAwMDAwNDkyIiwiaG90ZWxOYW1lIjoi5ZCM57SaIiwiaG90ZWxBZGRyIjpudWxsLCJob3RlbEVtYWlsIjpudWxsLCJob3RlbExpbmtNYW4iOm51bGwsImhvdGVsTGlua1dheSI6bnVsbH1dLCJ0eXBlIjpudWxsLCJkZXNjcmlwdGlvbiI6bnVsbCwiYXZlUHJpY2UiOm51bGx9\"}],\"distributionFactor\":null}]}]}",
+            "raw": {
+              "contentMode": 3,
+              "productSortNum": null,
+              "relatedId": 7135,
+              "relatedDay": 1,
+              "relatedName": "【BDCT2-1】波士頓 - 華盛頓特區",
+              "contentType": 100,
+              "sortNumber": 0,
+              "jsonContent": "{\"travelId\":7135,\"productCategory\":1,\"name\":\"【BDCT2-1】波士頓 - 華盛頓特區\",\"productType\":\"PC00000021\",\"isAutoTeam\":null,\"expandList\":[{\"language\":2,\"isSource\":1,\"dayList\":[{\"section\":\"波士頓|||2+++華盛頓特區\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD7ku4rlpKnmgqjlsIflvp7ms6Llo6vpoJPlh7rnmbzvvIzoh6rooYzkuZjlnZDngavou4rliY3lvoDoj6/nm5vpoJPnibnljYDvvIzkuIDotbfplovllZ/os57mq7vkuYvml4XvvIHmq7voirHmmK/nvo7lnIvpppbpg73oj6/nm5vpoJPmnIDploPkuq7nmoTln47luILlkI3niYfkuYvkuIDvvIzlnKjlsIjmpa3lsI7pgYrnmoTluLbpoJjkuIvmiJHlgJHlsIfpppblhYjliY3lvoDogq/kvI3lvrfnpL7ljYDos57mq7vjgILpmqjlvozmiJHlgJHlsIfkuZjou4rliY3lvoDkup7mrbflsbHlpKfogIHln47jgILoiIfoj6/nm5vpoJPnibnljYDojorlmrTogoXnqYbnmoTmsKPmsJvov6XnhLbkuI3lkIzvvIzlnKjogIHln47vvIzmgqjlj6/ku6Xnm6Hmg4Xkuqvlj5fpmb3lhYnjgIHoibLlvanjgIHooZfpoK3pn7PmqILlkozlkITlnIvnvo7po5/vvIzmhJ/lj5fogIHln47mgqDplpLnmoTnlJ/mtLvjgII8L3A+XG48cD4mbmJzcDs8L3A+XG48cD48c3Ryb25nPuihjOeoi+WuieaOku+8mjwvc3Ryb25nPjwvcD5cbjxwPjxzdHJvbmc+5rOi5aOr6aCT5LmY5Z2Q54Gr6LuK5YmN5b6A6I+v55ub6aCT54m55Y2A77yIPHNwYW4gc3R5bGU9XCJjb2xvcjogI2JhMzcyYTtcIj7ngavou4rkuIrnhKHlsI7pgYrpmarlkIzvvIzoiZnkvY3llq7nqIvnpajlg7notoXpgY4kMTAw55qE6YOo5YiG77yM5a6i5Lq66ZyA6Ieq6KGM6KOc6Laz5beu5YO577yM5oiW6ICF6Ieq6LK75Y2H57Sa6YG45pOH5YW25LuW6ImZ5L2NPC9zcGFuPu+8iSZyYXJyOyDogq/kvI3lvrfnpL7ljYDos57mq7s8L3N0cm9uZz7vvIg5MOWIhumQmO+8iTxzdHJvbmc+JnJhcnI7IOS6nuatt+WxseWkp+iAgeWfjjwvc3Ryb25nPu+8iDgw5YiG6ZCY77yM5ZCr5pma6aSQ5pmC6ZaT77yJPHN0cm9uZz4mcmFycjsg6YWS5bqXPC9zdHJvbmc+PC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz7lgpnoqLvvvJo8L3N0cm9uZz48L3A+XG48cD4xLiDngavou4rpppbpgbjnj63mrKHos4foqIrvvJpBbXRyYWsgLSAxOTUgTm9ydGhlYXN0IFJlZ2lvbmFsPC9wPlxuPHA+RGVwYXJ0cyBCb3N0b24sIE1BIC0gU291dGggU3RhdGlvbihCT1MpIC0gNjozMGE8L3A+XG48cD5BcnJpdmVzIFdhc2hpbmd0b24sIERDIC0gVW5pb24gU3RhdGlvbiAoV0FTKSAtIDI6MjVwPC9wPlxuPHA+PHNwYW4gc3R5bGU9XCJjb2xvcjogI2JhMzcyYTtcIj4q5YiX6LuK54+t5qyh5YOF5L6b5Y+D6ICD77yM6KuL5Lul5a+m6Zqb6aCQ6KiC54+t5qyh54K65rqW44CCPC9zcGFuPjwvcD5cbjxwPjxzcGFuIHN0eWxlPVwiY29sb3I6ICNiYTM3MmE7XCI+Mi4g54Gr6LuK56Wo6LOH5rqQ57eK5by177yM5by354OI5bu66K2w5oKo5YSY5pep6aCQ6KiC77yM6YG/5YWN5Ye654++6LuK56Wo5Zug5ZSu572E54Sh5rOV6aCQ6KiC55qE5oOF5rOB44CC6ImZ5L2N5Zau56iL56Wo5YO56LaF6YGOJDEwMOeahOmDqOWIhu+8jOWuouS6uumcgOiHquihjOijnOi2s+W3ruWDue+8jOaIluiAheiHquiyu+WNh+e0mumBuOaTh+WFtuS7luiJmeS9je+8jOS4i+WWruWJjeiri+iBr+e5q+WuouacjeS6jOasoeeiuuiqjeOAgjwvc3Bhbj48L3A+XG48cD48c3BhbiBzdHlsZT1cImNvbG9yOiAjYmEzNzJhO1wiPjMuIOeBq+i7iuS4iueEoeWwjumBiumZquWQjOOAgjwvc3Bhbj48L3A+IiwidGltZSI6IjEifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":1,\"jsonContent\":\"eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJ0eXBlIjowLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMjAxOCIsInNjZW5pY05hbWUiOiLogq/kvI3lvrfnpL7ljYDos57mq7sgS2Vud29vZCBDb21tdW5pdHkgQ2hlcnJ5IEJsb3Nzb20iLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+5q+P5bm05pil5aSp6YO95pyD5pyJMTIwMOajteWQiemHjuaru+ahg+aoueWcqOmAmeWAi+Wwj+iCr+S8jeW+t+ekvuWNgOebm+mWi+WHuueyieiJsuWSjOeZveiJsueahOiKseacte+8jOi2hee0mua1qua8q+OAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfSx7ImFjdGl2aXR5Tm8iOjIsInR5cGUiOjIsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAxMDg5Iiwic2NlbmljTmFtZSI6IuS6nuatt+WxseWkp+iAgeWfjiBPbGQgVG93biBBbGV4YW5kcmlhIiwic2NlbmljRXhwbGFpbiI6IiIsImlzQXBwZWFyYW5jZSI6MCwibG9hZGVkIjp0cnVlLCJzY2VuaWNlRGVzYyI6IjxwPuS6nuatt+WxseWkp+iAgeWfjuaYr+e+juWci+WFuOWei+eahOatt+WPsuihl+WNgO+8jOW7uuaWvCAxNzQ5IOW5tO+8jOS9nOeCuuatt+WPsuS4iumHjeimgeaIsOeVpeWcsOWNgO+8jOmAmeijoeS/neeVmeS6huecvuWkmuauluawkeaZguacn+eahOWPpOiAgeW7uuevie+8jOmChOaTgeacieiRlzIwMOWkmuWutueNqOeri+mkkOW7s+WSjOeyvuWTgeW6l++8jOS7peWPiuengeWvhueahOatt+WPsuWNmueJqemkqOWSjOa1t+a/seaZr+m7nu+8jOaYr+iPr+ebm+mgk0RD6ZmE6L+R5LiN5Y+v5aSa5b6X55qE6YGK546p5Yud5Zyw44CC6ZaS6YCb5Zyo6ZuF6Ie055qE5Y+k5Z+O5YWn77yM5aSn5a625Y+v5Lul5oSf5Y+X5Yiw576O5ZyL55qE5Lq65paH5q235Y+y5ZKM5pys5Zyf54m56Imy6aKo5oOF44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119XSwiZGlzdGFuYyI6IiIsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwidGltZSI6IjMiLCJkaXN0YW5jVW5pdCI6MX0=\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":8,\"sortNumber\":2,\"jsonContent\":\"eyJ0aW1lIjoiNCIsImRpc3RhbmMiOm51bGwsImhvdXJzIjpudWxsLCJtaW51dGVzIjpudWxsLCJzdGF5SG91cnMiOm51bGwsInN0YXlNaW51dGVzIjpudWxsLCJyZWdpb25Db2RlIjoiQTUyMiIsInJlZ2lvbk5hbWUiOiLok4vnkZ/mlq/loKEgR2FpdGhlcnNidXJnIiwicmVnaW9uVHlwZSI6MiwiY29udGVudCI6W3sic291cmNlVHlwZSI6MiwiaG90ZWxDb2RlIjoiSE0wMDAwMDUyMyIsImhvdGVsTmFtZSI6IlNwcmluZ2hpbGwgU3VpdGVzIEdhaXRoZXJzYnVyZyAiLCJob3RlbEFkZHIiOm51bGwsImhvdGVsRW1haWwiOm51bGwsImhvdGVsTGlua01hbiI6bnVsbCwiaG90ZWxMaW5rV2F5IjpudWxsfSx7InNvdXJjZVR5cGUiOjIsImhvdGVsQ29kZSI6IkhNMDAwMDAwNTAiLCJob3RlbE5hbWUiOiJDb21mb3J0IElubiBTaGFkeSBHcm92ZSAtIEdhaXRoZXJzYnVyZyAtIFJvY2t2aWxsZSIsImhvdGVsQWRkciI6bnVsbCwiaG90ZWxFbWFpbCI6bnVsbCwiaG90ZWxMaW5rTWFuIjpudWxsLCJob3RlbExpbmtXYXkiOm51bGx9LHsic291cmNlVHlwZSI6MiwiaG90ZWxDb2RlIjoiSE0wMDAwMDAzOSIsImhvdGVsTmFtZSI6IkhvbGlkYXkgSW5uIEdhaXRoZXJzYnVyZyBieSBJSEciLCJob3RlbEFkZHIiOm51bGwsImhvdGVsRW1haWwiOm51bGwsImhvdGVsTGlua01hbiI6bnVsbCwiaG90ZWxMaW5rV2F5IjpudWxsfSx7InNvdXJjZVR5cGUiOjIsImhvdGVsQ29kZSI6IkhNMDAwMDIzODYiLCJob3RlbE5hbWUiOiJTcGFyayBieSBIaWx0b24gR2VybWFudG93biIsImhvdGVsQWRkciI6bnVsbCwiaG90ZWxFbWFpbCI6bnVsbCwiaG90ZWxMaW5rTWFuIjpudWxsLCJob3RlbExpbmtXYXkiOm51bGx9LHsic291cmNlVHlwZSI6MiwiaG90ZWxDb2RlIjoiSE0wMDAwMzgyOSIsImhvdGVsTmFtZSI6IkJlc3QgV2VzdGVybiBIaXN0b3JpYyBGcmVkZXJpY2siLCJob3RlbEFkZHIiOm51bGwsImhvdGVsRW1haWwiOm51bGwsImhvdGVsTGlua01hbiI6bnVsbCwiaG90ZWxMaW5rV2F5IjpudWxsfSx7InNvdXJjZVR5cGUiOjIsImhvdGVsQ29kZSI6IkhNMDAwMDI2NzMiLCJob3RlbE5hbWUiOiJTb25lc3RhIFNlbGVjdCBHcmVlbmJlbHQgQ29sbGVnZSBQYXJrIiwiaG90ZWxBZGRyIjpudWxsLCJob3RlbEVtYWlsIjpudWxsLCJob3RlbExpbmtNYW4iOm51bGwsImhvdGVsTGlua1dheSI6bnVsbH0seyJzb3VyY2VUeXBlIjoyLCJob3RlbENvZGUiOiJITTAwMDAwMTA3IiwiaG90ZWxOYW1lIjoiQ29tZm9ydCBJbm4gQ29sbGVnZSBQYXJrIiwiaG90ZWxBZGRyIjpudWxsLCJob3RlbEVtYWlsIjpudWxsLCJob3RlbExpbmtNYW4iOm51bGwsImhvdGVsTGlua1dheSI6bnVsbH0seyJzb3VyY2VUeXBlIjoyLCJob3RlbENvZGUiOiJITTAwMDAwNDkyIiwiaG90ZWxOYW1lIjoi5ZCM57SaIiwiaG90ZWxBZGRyIjpudWxsLCJob3RlbEVtYWlsIjpudWxsLCJob3RlbExpbmtNYW4iOm51bGwsImhvdGVsTGlua1dheSI6bnVsbH1dLCJ0eXBlIjpudWxsLCJkZXNjcmlwdGlvbiI6bnVsbCwiYXZlUHJpY2UiOm51bGx9\"}],\"distributionFactor\":null}]}]}"
+            }
+          }
+        ],
+        "raw": {
+          "section": "波士頓|||2+++華盛頓特區",
+          "todayLocation": "",
+          "dayNumber": 1,
+          "content": [
+            {
+              "contentMode": 3,
+              "productSortNum": null,
+              "relatedId": 7135,
+              "relatedDay": 1,
+              "relatedName": "【BDCT2-1】波士頓 - 華盛頓特區",
+              "contentType": 100,
+              "sortNumber": 0,
+              "jsonContent": "{\"travelId\":7135,\"productCategory\":1,\"name\":\"【BDCT2-1】波士頓 - 華盛頓特區\",\"productType\":\"PC00000021\",\"isAutoTeam\":null,\"expandList\":[{\"language\":2,\"isSource\":1,\"dayList\":[{\"section\":\"波士頓|||2+++華盛頓特區\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD7ku4rlpKnmgqjlsIflvp7ms6Llo6vpoJPlh7rnmbzvvIzoh6rooYzkuZjlnZDngavou4rliY3lvoDoj6/nm5vpoJPnibnljYDvvIzkuIDotbfplovllZ/os57mq7vkuYvml4XvvIHmq7voirHmmK/nvo7lnIvpppbpg73oj6/nm5vpoJPmnIDploPkuq7nmoTln47luILlkI3niYfkuYvkuIDvvIzlnKjlsIjmpa3lsI7pgYrnmoTluLbpoJjkuIvmiJHlgJHlsIfpppblhYjliY3lvoDogq/kvI3lvrfnpL7ljYDos57mq7vjgILpmqjlvozmiJHlgJHlsIfkuZjou4rliY3lvoDkup7mrbflsbHlpKfogIHln47jgILoiIfoj6/nm5vpoJPnibnljYDojorlmrTogoXnqYbnmoTmsKPmsJvov6XnhLbkuI3lkIzvvIzlnKjogIHln47vvIzmgqjlj6/ku6Xnm6Hmg4Xkuqvlj5fpmb3lhYnjgIHoibLlvanjgIHooZfpoK3pn7PmqILlkozlkITlnIvnvo7po5/vvIzmhJ/lj5fogIHln47mgqDplpLnmoTnlJ/mtLvjgII8L3A+XG48cD4mbmJzcDs8L3A+XG48cD48c3Ryb25nPuihjOeoi+WuieaOku+8mjwvc3Ryb25nPjwvcD5cbjxwPjxzdHJvbmc+5rOi5aOr6aCT5LmY5Z2Q54Gr6LuK5YmN5b6A6I+v55ub6aCT54m55Y2A77yIPHNwYW4gc3R5bGU9XCJjb2xvcjogI2JhMzcyYTtcIj7ngavou4rkuIrnhKHlsI7pgYrpmarlkIzvvIzoiZnkvY3llq7nqIvnpajlg7notoXpgY4kMTAw55qE6YOo5YiG77yM5a6i5Lq66ZyA6Ieq6KGM6KOc6Laz5beu5YO577yM5oiW6ICF6Ieq6LK75Y2H57Sa6YG45pOH5YW25LuW6ImZ5L2NPC9zcGFuPu+8iSZyYXJyOyDogq/kvI3lvrfnpL7ljYDos57mq7s8L3N0cm9uZz7vvIg5MOWIhumQmO+8iTxzdHJvbmc+JnJhcnI7IOS6nuatt+WxseWkp+iAgeWfjjwvc3Ryb25nPu+8iDgw5YiG6ZCY77yM5ZCr5pma6aSQ5pmC6ZaT77yJPHN0cm9uZz4mcmFycjsg6YWS5bqXPC9zdHJvbmc+PC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz7lgpnoqLvvvJo8L3N0cm9uZz48L3A+XG48cD4xLiDngavou4rpppbpgbjnj63mrKHos4foqIrvvJpBbXRyYWsgLSAxOTUgTm9ydGhlYXN0IFJlZ2lvbmFsPC9wPlxuPHA+RGVwYXJ0cyBCb3N0b24sIE1BIC0gU291dGggU3RhdGlvbihCT1MpIC0gNjozMGE8L3A+XG48cD5BcnJpdmVzIFdhc2hpbmd0b24sIERDIC0gVW5pb24gU3RhdGlvbiAoV0FTKSAtIDI6MjVwPC9wPlxuPHA+PHNwYW4gc3R5bGU9XCJjb2xvcjogI2JhMzcyYTtcIj4q5YiX6LuK54+t5qyh5YOF5L6b5Y+D6ICD77yM6KuL5Lul5a+m6Zqb6aCQ6KiC54+t5qyh54K65rqW44CCPC9zcGFuPjwvcD5cbjxwPjxzcGFuIHN0eWxlPVwiY29sb3I6ICNiYTM3MmE7XCI+Mi4g54Gr6LuK56Wo6LOH5rqQ57eK5by177yM5by354OI5bu66K2w5oKo5YSY5pep6aCQ6KiC77yM6YG/5YWN5Ye654++6LuK56Wo5Zug5ZSu572E54Sh5rOV6aCQ6KiC55qE5oOF5rOB44CC6ImZ5L2N5Zau56iL56Wo5YO56LaF6YGOJDEwMOeahOmDqOWIhu+8jOWuouS6uumcgOiHquihjOijnOi2s+W3ruWDue+8jOaIluiAheiHquiyu+WNh+e0mumBuOaTh+WFtuS7luiJmeS9je+8jOS4i+WWruWJjeiri+iBr+e5q+WuouacjeS6jOasoeeiuuiqjeOAgjwvc3Bhbj48L3A+XG48cD48c3BhbiBzdHlsZT1cImNvbG9yOiAjYmEzNzJhO1wiPjMuIOeBq+i7iuS4iueEoeWwjumBiumZquWQjOOAgjwvc3Bhbj48L3A+IiwidGltZSI6IjEifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":1,\"jsonContent\":\"eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJ0eXBlIjowLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMjAxOCIsInNjZW5pY05hbWUiOiLogq/kvI3lvrfnpL7ljYDos57mq7sgS2Vud29vZCBDb21tdW5pdHkgQ2hlcnJ5IEJsb3Nzb20iLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+5q+P5bm05pil5aSp6YO95pyD5pyJMTIwMOajteWQiemHjuaru+ahg+aoueWcqOmAmeWAi+Wwj+iCr+S8jeW+t+ekvuWNgOebm+mWi+WHuueyieiJsuWSjOeZveiJsueahOiKseacte+8jOi2hee0mua1qua8q+OAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfSx7ImFjdGl2aXR5Tm8iOjIsInR5cGUiOjIsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAxMDg5Iiwic2NlbmljTmFtZSI6IuS6nuatt+WxseWkp+iAgeWfjiBPbGQgVG93biBBbGV4YW5kcmlhIiwic2NlbmljRXhwbGFpbiI6IiIsImlzQXBwZWFyYW5jZSI6MCwibG9hZGVkIjp0cnVlLCJzY2VuaWNlRGVzYyI6IjxwPuS6nuatt+WxseWkp+iAgeWfjuaYr+e+juWci+WFuOWei+eahOatt+WPsuihl+WNgO+8jOW7uuaWvCAxNzQ5IOW5tO+8jOS9nOeCuuatt+WPsuS4iumHjeimgeaIsOeVpeWcsOWNgO+8jOmAmeijoeS/neeVmeS6huecvuWkmuauluawkeaZguacn+eahOWPpOiAgeW7uuevie+8jOmChOaTgeacieiRlzIwMOWkmuWutueNqOeri+mkkOW7s+WSjOeyvuWTgeW6l++8jOS7peWPiuengeWvhueahOatt+WPsuWNmueJqemkqOWSjOa1t+a/seaZr+m7nu+8jOaYr+iPr+ebm+mgk0RD6ZmE6L+R5LiN5Y+v5aSa5b6X55qE6YGK546p5Yud5Zyw44CC6ZaS6YCb5Zyo6ZuF6Ie055qE5Y+k5Z+O5YWn77yM5aSn5a625Y+v5Lul5oSf5Y+X5Yiw576O5ZyL55qE5Lq65paH5q235Y+y5ZKM5pys5Zyf54m56Imy6aKo5oOF44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119XSwiZGlzdGFuYyI6IiIsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwidGltZSI6IjMiLCJkaXN0YW5jVW5pdCI6MX0=\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":8,\"sortNumber\":2,\"jsonContent\":\"eyJ0aW1lIjoiNCIsImRpc3RhbmMiOm51bGwsImhvdXJzIjpudWxsLCJtaW51dGVzIjpudWxsLCJzdGF5SG91cnMiOm51bGwsInN0YXlNaW51dGVzIjpudWxsLCJyZWdpb25Db2RlIjoiQTUyMiIsInJlZ2lvbk5hbWUiOiLok4vnkZ/mlq/loKEgR2FpdGhlcnNidXJnIiwicmVnaW9uVHlwZSI6MiwiY29udGVudCI6W3sic291cmNlVHlwZSI6MiwiaG90ZWxDb2RlIjoiSE0wMDAwMDUyMyIsImhvdGVsTmFtZSI6IlNwcmluZ2hpbGwgU3VpdGVzIEdhaXRoZXJzYnVyZyAiLCJob3RlbEFkZHIiOm51bGwsImhvdGVsRW1haWwiOm51bGwsImhvdGVsTGlua01hbiI6bnVsbCwiaG90ZWxMaW5rV2F5IjpudWxsfSx7InNvdXJjZVR5cGUiOjIsImhvdGVsQ29kZSI6IkhNMDAwMDAwNTAiLCJob3RlbE5hbWUiOiJDb21mb3J0IElubiBTaGFkeSBHcm92ZSAtIEdhaXRoZXJzYnVyZyAtIFJvY2t2aWxsZSIsImhvdGVsQWRkciI6bnVsbCwiaG90ZWxFbWFpbCI6bnVsbCwiaG90ZWxMaW5rTWFuIjpudWxsLCJob3RlbExpbmtXYXkiOm51bGx9LHsic291cmNlVHlwZSI6MiwiaG90ZWxDb2RlIjoiSE0wMDAwMDAzOSIsImhvdGVsTmFtZSI6IkhvbGlkYXkgSW5uIEdhaXRoZXJzYnVyZyBieSBJSEciLCJob3RlbEFkZHIiOm51bGwsImhvdGVsRW1haWwiOm51bGwsImhvdGVsTGlua01hbiI6bnVsbCwiaG90ZWxMaW5rV2F5IjpudWxsfSx7InNvdXJjZVR5cGUiOjIsImhvdGVsQ29kZSI6IkhNMDAwMDIzODYiLCJob3RlbE5hbWUiOiJTcGFyayBieSBIaWx0b24gR2VybWFudG93biIsImhvdGVsQWRkciI6bnVsbCwiaG90ZWxFbWFpbCI6bnVsbCwiaG90ZWxMaW5rTWFuIjpudWxsLCJob3RlbExpbmtXYXkiOm51bGx9LHsic291cmNlVHlwZSI6MiwiaG90ZWxDb2RlIjoiSE0wMDAwMzgyOSIsImhvdGVsTmFtZSI6IkJlc3QgV2VzdGVybiBIaXN0b3JpYyBGcmVkZXJpY2siLCJob3RlbEFkZHIiOm51bGwsImhvdGVsRW1haWwiOm51bGwsImhvdGVsTGlua01hbiI6bnVsbCwiaG90ZWxMaW5rV2F5IjpudWxsfSx7InNvdXJjZVR5cGUiOjIsImhvdGVsQ29kZSI6IkhNMDAwMDI2NzMiLCJob3RlbE5hbWUiOiJTb25lc3RhIFNlbGVjdCBHcmVlbmJlbHQgQ29sbGVnZSBQYXJrIiwiaG90ZWxBZGRyIjpudWxsLCJob3RlbEVtYWlsIjpudWxsLCJob3RlbExpbmtNYW4iOm51bGwsImhvdGVsTGlua1dheSI6bnVsbH0seyJzb3VyY2VUeXBlIjoyLCJob3RlbENvZGUiOiJITTAwMDAwMTA3IiwiaG90ZWxOYW1lIjoiQ29tZm9ydCBJbm4gQ29sbGVnZSBQYXJrIiwiaG90ZWxBZGRyIjpudWxsLCJob3RlbEVtYWlsIjpudWxsLCJob3RlbExpbmtNYW4iOm51bGwsImhvdGVsTGlua1dheSI6bnVsbH0seyJzb3VyY2VUeXBlIjoyLCJob3RlbENvZGUiOiJITTAwMDAwNDkyIiwiaG90ZWxOYW1lIjoi5ZCM57SaIiwiaG90ZWxBZGRyIjpudWxsLCJob3RlbEVtYWlsIjpudWxsLCJob3RlbExpbmtNYW4iOm51bGwsImhvdGVsTGlua1dheSI6bnVsbH1dLCJ0eXBlIjpudWxsLCJkZXNjcmlwdGlvbiI6bnVsbCwiYXZlUHJpY2UiOm51bGx9\"}],\"distributionFactor\":null}]}]}"
+            }
+          ],
+          "isFreeTravel": null,
+          "optionalProductList": null,
+          "distributionFactor": 1
+        }
+      },
+      {
+        "dayNumber": 2,
+        "section": "華盛頓特區|||2+++波士頓",
+        "sectionStops": [
+          {
+            "type": "place",
+            "label": "華盛頓特區"
+          },
+          {
+            "type": "transfer",
+            "vehicleCode": "2",
+            "vehicle": "Train",
+            "place": "波士頓"
+          }
+        ],
+        "todayLocation": "",
+        "distributionFactor": 1,
+        "isFreeTravel": null,
+        "optionalProductList": [],
+        "content": [
+          {
+            "contentMode": 3,
+            "contentType": 100,
+            "sortNumber": 0,
+            "relatedId": 7136,
+            "relatedDay": 1,
+            "relatedName": "【BDCT2-2】華盛頓特區 - 波士頓",
+            "decodedJson": {
+              "travelId": 7136,
+              "productCategory": 1,
+              "name": "【BDCT2-2】華盛頓特區 - 波士頓",
+              "productType": "PC00000021",
+              "isAutoTeam": null,
+              "expandList": [
+                {
+                  "language": 2,
+                  "isSource": 1,
+                  "dayList": [
+                    {
+                      "section": "華盛頓特區|||2+++波士頓",
+                      "todayLocation": "",
+                      "dayNumber": 1,
+                      "content": [
+                        {
+                          "contentMode": 0,
+                          "productSortNum": null,
+                          "relatedId": -1,
+                          "relatedDay": -1,
+                          "relatedName": "",
+                          "contentType": 7,
+                          "sortNumber": 0,
+                          "jsonContent": "eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD7ku4rlpKnmiJHlgJHlsIfpppblhYjliY3lvoDlgpHkvZvpgZzntIDlv7XloILlj4Pop4DjgILmraPlgLzmq7voirHnm5vplovlraPvvIzpgJrpq5TmvZTnmb3nmoTntIDlv7XloILmjqnmmKDlhbbkuK3vvIznvo7kuI3li53mlLbjgILkuYvlvozliY3lvoDmnbHms6LlpJrppqzlhYvlhazlnJLvvIznubznuozos57mq7vkuYvml4XjgILmsr/okZfmtbfmganmlq/op5LnkrDls7blsI/ot6/mrKPos57nh6boi6Xpm7LpnJ7nmoTmq7voirHnvo7mma/vvIzmsr/pgJTpgoTlj6/nnIvopovppqzkuIHot6/lvrfph5HntIDlv7XnopHlkoznvoXmlq/npo/ntIDlv7XlhazlnJLnrYnokZflkI3lu7rnr4njgILpmqjlvozliY3lvoDmlrDoiIjnmoTlsI/nnL7mma/pu57oj6/nm5vpoJPoga/lkIjluILluILloLTvvIzmiZPljaHotoXntJrphbfngqvnmoTmhJvlv4PloZfptInlorvvvIzlnKjlpb3lkIPlpb3pgJvnmoTpm4bluILoo6HmgqDlk4nmgqDlk4njgILntZDmnZ/oj6/nm5vpoJPnmoTos57mq7vooYznqIvlvozvvIzmgqjlsIfoh6rooYzkuZjlnZDngavou4rov5Tlm57ms6Llo6vpoJPvvIzntZDmnZ/lhanlpKnnmoTmhInlv6vml4XooYzjgII8L3A+XG48cD4mbmJzcDs8L3A+XG48cD48c3Ryb25nPuihjOeoi+WuieaOku+8mjwvc3Ryb25nPjwvcD5cbjxwPjxzdHJvbmc+6YWS5bqXICZyYXJyOyDlgpHmlpDpgZzntIDlv7XloIIr5r2u5rGQ5rmW6LOe5qu7PC9zdHJvbmc+77yIMTIw5YiG6ZCY77yJPHN0cm9uZz4mcmFycjsg5p2x5rOi5aSa6aas5YWL5YWs5ZyS6LOe5qu7PC9zdHJvbmc+77yINjDliIbpkJjvvIk8c3Ryb25nPiZyYXJyOyDoj6/nm5vpoJPoga/lkIjluILloLQ8L3N0cm9uZz7vvIg2MOWIhumQmO+8iTxzdHJvbmc+JnJhcnI7IOiPr+ebm+mgk+eJueWNgOS5mOWdkOeBq+i7iui/lOWbnuazouWjq+mgk++8iDxzcGFuIHN0eWxlPVwiY29sb3I6ICNiYTM3MmE7XCI+54Gr6LuK5LiK54Sh5bCO6YGK6Zmq5ZCM77yM6ImZ5L2N5Zau56iL56Wo5YO56LaF6YGOJDEwMOeahOmDqOWIhu+8jOWuouS6uumcgOiHquihjOijnOi2s+W3ruWDue+8jOaIluiAheiHquiyu+WNh+e0mumBuOaTh+WFtuS7luiJmeS9jTwvc3Bhbj7vvIk8L3N0cm9uZz48L3A+XG48cD4mbmJzcDs8L3A+XG48cD48c3Ryb25nPuWCmeiou++8mjwvc3Ryb25nPjwvcD5cbjxwPjEuIOeBq+i7iummlumBuOePreasoeizh+ioiu+8mkFtdHJhayAmbmRhc2g7IDk2IE5vcnRoZWFzdCBSZWdpb25hbDwvcD5cbjxwPkRlcGFydHMgV2FzaGluZ3RvbiwgREMgLSBVbmlvbiBTdGF0aW9uIChXQVMpJm5kYXNoOyAxOjIwcDwvcD5cbjxwPkFycml2ZXMgQm9zdG9uLCBNQSAtIFNvdXRoIFN0YXRpb24oQk9TKSAmbmRhc2g7IDk6MjBwPC9wPlxuPHA+PHNwYW4gc3R5bGU9XCJjb2xvcjogI2JhMzcyYTtcIj4q5YiX6LuK54+t5qyh5YOF5L6b5Y+D6ICD77yM6KuL5Lul5a+m6Zqb6aCQ6KiC54+t5qyh54iy5YeG44CCPC9zcGFuPjwvcD5cbjxwPjxzcGFuIHN0eWxlPVwiY29sb3I6ICNiYTM3MmE7XCI+Mi4g54Gr6LuK56Wo6LOH5rqQ57eK5by177yM5by354OI5bu66K2w5oKo5YSY5pep6aCQ6KiC77yM6YG/5YWN5Ye654++6LuK56Wo5Zug5ZSu572E54Sh5rOV6aCQ6KiC55qE5oOF5rOB44CC6ImZ5L2N5Zau56iL56Wo5YO56LaF6YGOJDEwMOeahOmDqOWIhu+8jOWuouS6uumcgOiHquihjOijnOi2s+W3ruWDue+8jOaIluiAheiHquiyu+WNh+e0mumBuOaTh+WFtuS7luiJmeS9je+8jOS4i+WWruWJjeiri+iBr+e5q+WuouacjeS6jOasoeeiuuiqjeOAgjwvc3Bhbj48L3A+XG48cD48c3BhbiBzdHlsZT1cImNvbG9yOiAjYmEzNzJhO1wiPjMuIOeBq+i7iuS4iueEoeWwjumBiumZquWQjOOAgjwvc3Bhbj48L3A+IiwidGltZSI6IjEifQ==",
+                          "decodedJson": {
+                            "distanc": "",
+                            "distancUnit": 1,
+                            "hours": "",
+                            "minutes": "",
+                            "stayHours": "",
+                            "stayMinutes": "",
+                            "listImage": [],
+                            "description": "<p>今天我們將首先前往傑佛遜紀念堂參觀。正值櫻花盛開季，通體潔白的紀念堂掩映其中，美不勝收。之後前往東波多馬克公園，繼續賞櫻之旅。沿著海恩斯角環島小路欣賞燦若雲霞的櫻花美景，沿途還可看見馬丁路德金紀念碑和羅斯福紀念公園等著名建築。隨後前往新興的小眾景點華盛頓聯合市市場，打卡超級酷炫的愛心塗鴉墻，在好吃好逛的集市裡悠哉悠哉。結束華盛頓的賞櫻行程後，您將自行乘坐火車返回波士頓，結束兩天的愉快旅行。</p>\n<p>&nbsp;</p>\n<p><strong>行程安排：</strong></p>\n<p><strong>酒店 &rarr; 傑斐遜紀念堂+潮汐湖賞櫻</strong>（120分鐘）<strong>&rarr; 東波多馬克公園賞櫻</strong>（60分鐘）<strong>&rarr; 華盛頓聯合市場</strong>（60分鐘）<strong>&rarr; 華盛頓特區乘坐火車返回波士頓（<span style=\"color: #ba372a;\">火車上無導遊陪同，艙位單程票價超過$100的部分，客人需自行補足差價，或者自費升級選擇其他艙位</span>）</strong></p>\n<p>&nbsp;</p>\n<p><strong>備註：</strong></p>\n<p>1. 火車首選班次資訊：Amtrak &ndash; 96 Northeast Regional</p>\n<p>Departs Washington, DC - Union Station (WAS)&ndash; 1:20p</p>\n<p>Arrives Boston, MA - South Station(BOS) &ndash; 9:20p</p>\n<p><span style=\"color: #ba372a;\">*列車班次僅供參考，請以實際預訂班次爲准。</span></p>\n<p><span style=\"color: #ba372a;\">2. 火車票資源緊張，強烈建議您儘早預訂，避免出現車票因售罄無法預訂的情況。艙位單程票價超過$100的部分，客人需自行補足差價，或者自費升級選擇其他艙位，下單前請聯繫客服二次確認。</span></p>\n<p><span style=\"color: #ba372a;\">3. 火車上無導遊陪同。</span></p>",
+                            "time": "1"
+                          }
+                        },
+                        {
+                          "contentMode": 0,
+                          "productSortNum": null,
+                          "relatedId": -1,
+                          "relatedDay": -1,
+                          "relatedName": "",
+                          "contentType": 3,
+                          "sortNumber": 1,
+                          "jsonContent": "eyJ0aW1lIjoiMSIsImRpc3RhbmMiOiIiLCJob3VycyI6IiIsIm1pbnV0ZXMiOiIiLCJzdGF5SG91cnMiOiIiLCJzdGF5TWludXRlcyI6IiIsInJlZ2lvbkNvZGUiOm51bGwsInJlZ2lvbk5hbWUiOm51bGwsInJlZ2lvblR5cGUiOm51bGwsImNvbnRlbnQiOlt7InR5cGUiOjAsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAwMDY3Iiwic2NlbmljTmFtZSI6IuWCkeaWkOmBnOe0gOW/teWggiBUaG9tYXMgSmVmZmVyc29uIE1lbW9yaWFsIiwic2NlbmljRXhwbGFpbiI6IiIsImlzQXBwZWFyYW5jZSI6MCwibG9hZGVkIjp0cnVlLCJzY2VuaWNlRGVzYyI6IjxwPuWCkeaWkOmBnOe0gOW/teWgguS9jeaWvOiPr+ebm+mgk+a9ruaxkOa5lumCiu+8jOaYr+eCuuS6hue0gOW/tee+juWci+esrOS4ieS7u+e4vee1seaJmOmmrOaWryZtaWRkb3Q75YKR5paQ6YGc6ICM5bu655qE77yM5Lim5oyJ54Wn5YKR5paQ6YGc5pyA5Zac5oSb55qE5Y+k576F6aas56We5q6/5byP5ZyT6aCC5bu656+J6aKo5qC86Kit6KiI77yM6IiH6I+v55ub6aCT57SA5b+156KR6ZqU5rmW55u45pyb44CC5q+P5bm0NOaciO+8jOa5lueVlOeahOaru+iKseebm+mWi++8jOeSsOe5numAmumrlOa9lOeZveeahOe0gOW/teWggu+8jOe+juS4jeWLneaUtuOAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfSx7InR5cGUiOjIsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAxMTA3Iiwic2NlbmljTmFtZSI6IuadseazouWkmummrOWFi+WFrOWckiAgRWFzdCBQb3RvbWFjIFBhcmsiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+6YCZ5piv5LiA5YCL54u56ZW355qE5Y2K5bO277yM5rKz5rC055Kw57me44CC5rOi5aSa6aas5YWL5YWs5ZyS55qE5qi55pyo5LiN5L2G5oiQ6KGM77yM6ICM5LiU5oiQ54mH44CB5oiQ5p6X77yM5qi55pyo56iu6aGe57mB5aSa77yM5YC85b6X5LiA5o+Q55qE5piv5YWs5ZyS5YWn6Zqo6JmV5Y+v6KaL55qE5qu76Iqx44CC5q+P5bm0M+aciOS4i+aXrOWIsDTmnIjkuIrml6ws6I+v55ub6aCT6YO96KaB5qC55pOa6aCQ5ris55qE55W25bm05qu76Iqx55ub5pS+5pmC6ZaT77yM5pOH5pel6IiJ6KGM5qu76Iqx56+A44CC5bGG5pmC5pil5ZKM5pel6bqX77yM6Iqx5ZyY6Yym57CH77yM57KJ55m95Lqk57mU77yM6YCj57a/5LiN57WV77yM5Yqg5LiK6YGK5Lq656m/5qKt77yM5rmW6Z2i5YCS5b2x77yM576O5LiN5Yud5pS244CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119LHsidHlwZSI6Miwic291cmNlVHlwZSI6Miwic2NlbmljQ29kZSI6IlNNMDAwMDI3NTIiLCJzY2VuaWNOYW1lIjoi6I+v55ub6aCT6IGv5ZCI5biC5aC0ICBVbmlvbiBNYXJrZXQiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+6IGv5ZCI5biC5aC05YmN6Lqr5piv5LiA5YCL5bui5qOE55qE5bel5bug77yM54++5Zyo6YCZ6KOh5Yyv6ZuG5LqG6Kix5aSa57ay57SF5aGX6bSJ5aK75ZKM6Jed6KGT5bel5L2c5a6k77yM57WV5bCN5piv5bCP55y+5oSb5aW96ICF55qE5omT5Y2h5Zyw6aaW6YG477yB5aaC5p6c5L2g5oSb5aW9576O6aOf77yM5Lmf5LiA5a6a6KaB5L6G6IGv5ZCI5biC5aC06YCb6YCb77yM5ZCE5ZyL576O6aOf6K6T5Lq65Z6C5raO5LiJ5bC677yM576O5ZGz55qE5ZCM5pmC5YO55qC85Lmf6Z2e5bi46Imv5b+D44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119XSwidHlwZSI6bnVsbCwiZGVzY3JpcHRpb24iOm51bGwsImF2ZVByaWNlIjpudWxsLCJkaXN0YW5jVW5pdCI6MX0=",
+                          "decodedJson": {
+                            "time": "1",
+                            "distanc": "",
+                            "hours": "",
+                            "minutes": "",
+                            "stayHours": "",
+                            "stayMinutes": "",
+                            "regionCode": null,
+                            "regionName": null,
+                            "regionType": null,
+                            "content": [
+                              {
+                                "type": 0,
+                                "sourceType": 2,
+                                "scenicCode": "SM00000067",
+                                "scenicName": "傑斐遜紀念堂 Thomas Jefferson Memorial",
+                                "scenicExplain": "",
+                                "isAppearance": 0,
+                                "loaded": true,
+                                "sceniceDesc": "<p>傑斐遜紀念堂位於華盛頓潮汐湖邊，是為了紀念美國第三任總統托馬斯&middot;傑斐遜而建的，並按照傑斐遜最喜愛的古羅馬神殿式圓頂建築風格設計，與華盛頓紀念碑隔湖相望。每年4月，湖畔的櫻花盛開，環繞通體潔白的紀念堂，美不勝收。</p>",
+                                "scenicImages": []
+                              },
+                              {
+                                "type": 2,
+                                "sourceType": 2,
+                                "scenicCode": "SM00001107",
+                                "scenicName": "東波多馬克公園  East Potomac Park",
+                                "scenicExplain": "",
+                                "isAppearance": 0,
+                                "loaded": true,
+                                "sceniceDesc": "<p>這是一個狹長的半島，河水環繞。波多馬克公園的樹木不但成行，而且成片、成林，樹木種類繁多，值得一提的是公園內隨處可見的櫻花。每年3月下旬到4月上旬,華盛頓都要根據預測的當年櫻花盛放時間，擇日舉行櫻花節。屆時春和日麗，花團錦簇，粉白交織，連綿不絕，加上遊人穿梭，湖面倒影，美不勝收。</p>",
+                                "scenicImages": []
+                              },
+                              {
+                                "type": 2,
+                                "sourceType": 2,
+                                "scenicCode": "SM00002752",
+                                "scenicName": "華盛頓聯合市場  Union Market",
+                                "scenicExplain": "",
+                                "isAppearance": 0,
+                                "loaded": true,
+                                "sceniceDesc": "<p>聯合市場前身是一個廢棄的工廠，現在這裡匯集了許多網紅塗鴉墻和藝術工作室，絕對是小眾愛好者的打卡地首選！如果你愛好美食，也一定要來聯合市場逛逛，各國美食讓人垂涎三尺，美味的同時價格也非常良心。</p>",
+                                "scenicImages": []
+                              }
+                            ],
+                            "type": null,
+                            "description": null,
+                            "avePrice": null,
+                            "distancUnit": 1
+                          }
+                        }
+                      ],
+                      "distributionFactor": null
+                    }
+                  ]
+                }
+              ]
+            },
+            "rawJsonContent": "{\"travelId\":7136,\"productCategory\":1,\"name\":\"【BDCT2-2】華盛頓特區 - 波士頓\",\"productType\":\"PC00000021\",\"isAutoTeam\":null,\"expandList\":[{\"language\":2,\"isSource\":1,\"dayList\":[{\"section\":\"華盛頓特區|||2+++波士頓\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD7ku4rlpKnmiJHlgJHlsIfpppblhYjliY3lvoDlgpHkvZvpgZzntIDlv7XloILlj4Pop4DjgILmraPlgLzmq7voirHnm5vplovlraPvvIzpgJrpq5TmvZTnmb3nmoTntIDlv7XloILmjqnmmKDlhbbkuK3vvIznvo7kuI3li53mlLbjgILkuYvlvozliY3lvoDmnbHms6LlpJrppqzlhYvlhazlnJLvvIznubznuozos57mq7vkuYvml4XjgILmsr/okZfmtbfmganmlq/op5LnkrDls7blsI/ot6/mrKPos57nh6boi6Xpm7LpnJ7nmoTmq7voirHnvo7mma/vvIzmsr/pgJTpgoTlj6/nnIvopovppqzkuIHot6/lvrfph5HntIDlv7XnopHlkoznvoXmlq/npo/ntIDlv7XlhazlnJLnrYnokZflkI3lu7rnr4njgILpmqjlvozliY3lvoDmlrDoiIjnmoTlsI/nnL7mma/pu57oj6/nm5vpoJPoga/lkIjluILluILloLTvvIzmiZPljaHotoXntJrphbfngqvnmoTmhJvlv4PloZfptInlorvvvIzlnKjlpb3lkIPlpb3pgJvnmoTpm4bluILoo6HmgqDlk4nmgqDlk4njgILntZDmnZ/oj6/nm5vpoJPnmoTos57mq7vooYznqIvlvozvvIzmgqjlsIfoh6rooYzkuZjlnZDngavou4rov5Tlm57ms6Llo6vpoJPvvIzntZDmnZ/lhanlpKnnmoTmhInlv6vml4XooYzjgII8L3A+XG48cD4mbmJzcDs8L3A+XG48cD48c3Ryb25nPuihjOeoi+WuieaOku+8mjwvc3Ryb25nPjwvcD5cbjxwPjxzdHJvbmc+6YWS5bqXICZyYXJyOyDlgpHmlpDpgZzntIDlv7XloIIr5r2u5rGQ5rmW6LOe5qu7PC9zdHJvbmc+77yIMTIw5YiG6ZCY77yJPHN0cm9uZz4mcmFycjsg5p2x5rOi5aSa6aas5YWL5YWs5ZyS6LOe5qu7PC9zdHJvbmc+77yINjDliIbpkJjvvIk8c3Ryb25nPiZyYXJyOyDoj6/nm5vpoJPoga/lkIjluILloLQ8L3N0cm9uZz7vvIg2MOWIhumQmO+8iTxzdHJvbmc+JnJhcnI7IOiPr+ebm+mgk+eJueWNgOS5mOWdkOeBq+i7iui/lOWbnuazouWjq+mgk++8iDxzcGFuIHN0eWxlPVwiY29sb3I6ICNiYTM3MmE7XCI+54Gr6LuK5LiK54Sh5bCO6YGK6Zmq5ZCM77yM6ImZ5L2N5Zau56iL56Wo5YO56LaF6YGOJDEwMOeahOmDqOWIhu+8jOWuouS6uumcgOiHquihjOijnOi2s+W3ruWDue+8jOaIluiAheiHquiyu+WNh+e0mumBuOaTh+WFtuS7luiJmeS9jTwvc3Bhbj7vvIk8L3N0cm9uZz48L3A+XG48cD4mbmJzcDs8L3A+XG48cD48c3Ryb25nPuWCmeiou++8mjwvc3Ryb25nPjwvcD5cbjxwPjEuIOeBq+i7iummlumBuOePreasoeizh+ioiu+8mkFtdHJhayAmbmRhc2g7IDk2IE5vcnRoZWFzdCBSZWdpb25hbDwvcD5cbjxwPkRlcGFydHMgV2FzaGluZ3RvbiwgREMgLSBVbmlvbiBTdGF0aW9uIChXQVMpJm5kYXNoOyAxOjIwcDwvcD5cbjxwPkFycml2ZXMgQm9zdG9uLCBNQSAtIFNvdXRoIFN0YXRpb24oQk9TKSAmbmRhc2g7IDk6MjBwPC9wPlxuPHA+PHNwYW4gc3R5bGU9XCJjb2xvcjogI2JhMzcyYTtcIj4q5YiX6LuK54+t5qyh5YOF5L6b5Y+D6ICD77yM6KuL5Lul5a+m6Zqb6aCQ6KiC54+t5qyh54iy5YeG44CCPC9zcGFuPjwvcD5cbjxwPjxzcGFuIHN0eWxlPVwiY29sb3I6ICNiYTM3MmE7XCI+Mi4g54Gr6LuK56Wo6LOH5rqQ57eK5by177yM5by354OI5bu66K2w5oKo5YSY5pep6aCQ6KiC77yM6YG/5YWN5Ye654++6LuK56Wo5Zug5ZSu572E54Sh5rOV6aCQ6KiC55qE5oOF5rOB44CC6ImZ5L2N5Zau56iL56Wo5YO56LaF6YGOJDEwMOeahOmDqOWIhu+8jOWuouS6uumcgOiHquihjOijnOi2s+W3ruWDue+8jOaIluiAheiHquiyu+WNh+e0mumBuOaTh+WFtuS7luiJmeS9je+8jOS4i+WWruWJjeiri+iBr+e5q+WuouacjeS6jOasoeeiuuiqjeOAgjwvc3Bhbj48L3A+XG48cD48c3BhbiBzdHlsZT1cImNvbG9yOiAjYmEzNzJhO1wiPjMuIOeBq+i7iuS4iueEoeWwjumBiumZquWQjOOAgjwvc3Bhbj48L3A+IiwidGltZSI6IjEifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":1,\"jsonContent\":\"eyJ0aW1lIjoiMSIsImRpc3RhbmMiOiIiLCJob3VycyI6IiIsIm1pbnV0ZXMiOiIiLCJzdGF5SG91cnMiOiIiLCJzdGF5TWludXRlcyI6IiIsInJlZ2lvbkNvZGUiOm51bGwsInJlZ2lvbk5hbWUiOm51bGwsInJlZ2lvblR5cGUiOm51bGwsImNvbnRlbnQiOlt7InR5cGUiOjAsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAwMDY3Iiwic2NlbmljTmFtZSI6IuWCkeaWkOmBnOe0gOW/teWggiBUaG9tYXMgSmVmZmVyc29uIE1lbW9yaWFsIiwic2NlbmljRXhwbGFpbiI6IiIsImlzQXBwZWFyYW5jZSI6MCwibG9hZGVkIjp0cnVlLCJzY2VuaWNlRGVzYyI6IjxwPuWCkeaWkOmBnOe0gOW/teWgguS9jeaWvOiPr+ebm+mgk+a9ruaxkOa5lumCiu+8jOaYr+eCuuS6hue0gOW/tee+juWci+esrOS4ieS7u+e4vee1seaJmOmmrOaWryZtaWRkb3Q75YKR5paQ6YGc6ICM5bu655qE77yM5Lim5oyJ54Wn5YKR5paQ6YGc5pyA5Zac5oSb55qE5Y+k576F6aas56We5q6/5byP5ZyT6aCC5bu656+J6aKo5qC86Kit6KiI77yM6IiH6I+v55ub6aCT57SA5b+156KR6ZqU5rmW55u45pyb44CC5q+P5bm0NOaciO+8jOa5lueVlOeahOaru+iKseebm+mWi++8jOeSsOe5numAmumrlOa9lOeZveeahOe0gOW/teWggu+8jOe+juS4jeWLneaUtuOAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfSx7InR5cGUiOjIsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAxMTA3Iiwic2NlbmljTmFtZSI6IuadseazouWkmummrOWFi+WFrOWckiAgRWFzdCBQb3RvbWFjIFBhcmsiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+6YCZ5piv5LiA5YCL54u56ZW355qE5Y2K5bO277yM5rKz5rC055Kw57me44CC5rOi5aSa6aas5YWL5YWs5ZyS55qE5qi55pyo5LiN5L2G5oiQ6KGM77yM6ICM5LiU5oiQ54mH44CB5oiQ5p6X77yM5qi55pyo56iu6aGe57mB5aSa77yM5YC85b6X5LiA5o+Q55qE5piv5YWs5ZyS5YWn6Zqo6JmV5Y+v6KaL55qE5qu76Iqx44CC5q+P5bm0M+aciOS4i+aXrOWIsDTmnIjkuIrml6ws6I+v55ub6aCT6YO96KaB5qC55pOa6aCQ5ris55qE55W25bm05qu76Iqx55ub5pS+5pmC6ZaT77yM5pOH5pel6IiJ6KGM5qu76Iqx56+A44CC5bGG5pmC5pil5ZKM5pel6bqX77yM6Iqx5ZyY6Yym57CH77yM57KJ55m95Lqk57mU77yM6YCj57a/5LiN57WV77yM5Yqg5LiK6YGK5Lq656m/5qKt77yM5rmW6Z2i5YCS5b2x77yM576O5LiN5Yud5pS244CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119LHsidHlwZSI6Miwic291cmNlVHlwZSI6Miwic2NlbmljQ29kZSI6IlNNMDAwMDI3NTIiLCJzY2VuaWNOYW1lIjoi6I+v55ub6aCT6IGv5ZCI5biC5aC0ICBVbmlvbiBNYXJrZXQiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+6IGv5ZCI5biC5aC05YmN6Lqr5piv5LiA5YCL5bui5qOE55qE5bel5bug77yM54++5Zyo6YCZ6KOh5Yyv6ZuG5LqG6Kix5aSa57ay57SF5aGX6bSJ5aK75ZKM6Jed6KGT5bel5L2c5a6k77yM57WV5bCN5piv5bCP55y+5oSb5aW96ICF55qE5omT5Y2h5Zyw6aaW6YG477yB5aaC5p6c5L2g5oSb5aW9576O6aOf77yM5Lmf5LiA5a6a6KaB5L6G6IGv5ZCI5biC5aC06YCb6YCb77yM5ZCE5ZyL576O6aOf6K6T5Lq65Z6C5raO5LiJ5bC677yM576O5ZGz55qE5ZCM5pmC5YO55qC85Lmf6Z2e5bi46Imv5b+D44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119XSwidHlwZSI6bnVsbCwiZGVzY3JpcHRpb24iOm51bGwsImF2ZVByaWNlIjpudWxsLCJkaXN0YW5jVW5pdCI6MX0=\"}],\"distributionFactor\":null}]}]}",
+            "raw": {
+              "contentMode": 3,
+              "productSortNum": null,
+              "relatedId": 7136,
+              "relatedDay": 1,
+              "relatedName": "【BDCT2-2】華盛頓特區 - 波士頓",
+              "contentType": 100,
+              "sortNumber": 0,
+              "jsonContent": "{\"travelId\":7136,\"productCategory\":1,\"name\":\"【BDCT2-2】華盛頓特區 - 波士頓\",\"productType\":\"PC00000021\",\"isAutoTeam\":null,\"expandList\":[{\"language\":2,\"isSource\":1,\"dayList\":[{\"section\":\"華盛頓特區|||2+++波士頓\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD7ku4rlpKnmiJHlgJHlsIfpppblhYjliY3lvoDlgpHkvZvpgZzntIDlv7XloILlj4Pop4DjgILmraPlgLzmq7voirHnm5vplovlraPvvIzpgJrpq5TmvZTnmb3nmoTntIDlv7XloILmjqnmmKDlhbbkuK3vvIznvo7kuI3li53mlLbjgILkuYvlvozliY3lvoDmnbHms6LlpJrppqzlhYvlhazlnJLvvIznubznuozos57mq7vkuYvml4XjgILmsr/okZfmtbfmganmlq/op5LnkrDls7blsI/ot6/mrKPos57nh6boi6Xpm7LpnJ7nmoTmq7voirHnvo7mma/vvIzmsr/pgJTpgoTlj6/nnIvopovppqzkuIHot6/lvrfph5HntIDlv7XnopHlkoznvoXmlq/npo/ntIDlv7XlhazlnJLnrYnokZflkI3lu7rnr4njgILpmqjlvozliY3lvoDmlrDoiIjnmoTlsI/nnL7mma/pu57oj6/nm5vpoJPoga/lkIjluILluILloLTvvIzmiZPljaHotoXntJrphbfngqvnmoTmhJvlv4PloZfptInlorvvvIzlnKjlpb3lkIPlpb3pgJvnmoTpm4bluILoo6HmgqDlk4nmgqDlk4njgILntZDmnZ/oj6/nm5vpoJPnmoTos57mq7vooYznqIvlvozvvIzmgqjlsIfoh6rooYzkuZjlnZDngavou4rov5Tlm57ms6Llo6vpoJPvvIzntZDmnZ/lhanlpKnnmoTmhInlv6vml4XooYzjgII8L3A+XG48cD4mbmJzcDs8L3A+XG48cD48c3Ryb25nPuihjOeoi+WuieaOku+8mjwvc3Ryb25nPjwvcD5cbjxwPjxzdHJvbmc+6YWS5bqXICZyYXJyOyDlgpHmlpDpgZzntIDlv7XloIIr5r2u5rGQ5rmW6LOe5qu7PC9zdHJvbmc+77yIMTIw5YiG6ZCY77yJPHN0cm9uZz4mcmFycjsg5p2x5rOi5aSa6aas5YWL5YWs5ZyS6LOe5qu7PC9zdHJvbmc+77yINjDliIbpkJjvvIk8c3Ryb25nPiZyYXJyOyDoj6/nm5vpoJPoga/lkIjluILloLQ8L3N0cm9uZz7vvIg2MOWIhumQmO+8iTxzdHJvbmc+JnJhcnI7IOiPr+ebm+mgk+eJueWNgOS5mOWdkOeBq+i7iui/lOWbnuazouWjq+mgk++8iDxzcGFuIHN0eWxlPVwiY29sb3I6ICNiYTM3MmE7XCI+54Gr6LuK5LiK54Sh5bCO6YGK6Zmq5ZCM77yM6ImZ5L2N5Zau56iL56Wo5YO56LaF6YGOJDEwMOeahOmDqOWIhu+8jOWuouS6uumcgOiHquihjOijnOi2s+W3ruWDue+8jOaIluiAheiHquiyu+WNh+e0mumBuOaTh+WFtuS7luiJmeS9jTwvc3Bhbj7vvIk8L3N0cm9uZz48L3A+XG48cD4mbmJzcDs8L3A+XG48cD48c3Ryb25nPuWCmeiou++8mjwvc3Ryb25nPjwvcD5cbjxwPjEuIOeBq+i7iummlumBuOePreasoeizh+ioiu+8mkFtdHJhayAmbmRhc2g7IDk2IE5vcnRoZWFzdCBSZWdpb25hbDwvcD5cbjxwPkRlcGFydHMgV2FzaGluZ3RvbiwgREMgLSBVbmlvbiBTdGF0aW9uIChXQVMpJm5kYXNoOyAxOjIwcDwvcD5cbjxwPkFycml2ZXMgQm9zdG9uLCBNQSAtIFNvdXRoIFN0YXRpb24oQk9TKSAmbmRhc2g7IDk6MjBwPC9wPlxuPHA+PHNwYW4gc3R5bGU9XCJjb2xvcjogI2JhMzcyYTtcIj4q5YiX6LuK54+t5qyh5YOF5L6b5Y+D6ICD77yM6KuL5Lul5a+m6Zqb6aCQ6KiC54+t5qyh54iy5YeG44CCPC9zcGFuPjwvcD5cbjxwPjxzcGFuIHN0eWxlPVwiY29sb3I6ICNiYTM3MmE7XCI+Mi4g54Gr6LuK56Wo6LOH5rqQ57eK5by177yM5by354OI5bu66K2w5oKo5YSY5pep6aCQ6KiC77yM6YG/5YWN5Ye654++6LuK56Wo5Zug5ZSu572E54Sh5rOV6aCQ6KiC55qE5oOF5rOB44CC6ImZ5L2N5Zau56iL56Wo5YO56LaF6YGOJDEwMOeahOmDqOWIhu+8jOWuouS6uumcgOiHquihjOijnOi2s+W3ruWDue+8jOaIluiAheiHquiyu+WNh+e0mumBuOaTh+WFtuS7luiJmeS9je+8jOS4i+WWruWJjeiri+iBr+e5q+WuouacjeS6jOasoeeiuuiqjeOAgjwvc3Bhbj48L3A+XG48cD48c3BhbiBzdHlsZT1cImNvbG9yOiAjYmEzNzJhO1wiPjMuIOeBq+i7iuS4iueEoeWwjumBiumZquWQjOOAgjwvc3Bhbj48L3A+IiwidGltZSI6IjEifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":1,\"jsonContent\":\"eyJ0aW1lIjoiMSIsImRpc3RhbmMiOiIiLCJob3VycyI6IiIsIm1pbnV0ZXMiOiIiLCJzdGF5SG91cnMiOiIiLCJzdGF5TWludXRlcyI6IiIsInJlZ2lvbkNvZGUiOm51bGwsInJlZ2lvbk5hbWUiOm51bGwsInJlZ2lvblR5cGUiOm51bGwsImNvbnRlbnQiOlt7InR5cGUiOjAsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAwMDY3Iiwic2NlbmljTmFtZSI6IuWCkeaWkOmBnOe0gOW/teWggiBUaG9tYXMgSmVmZmVyc29uIE1lbW9yaWFsIiwic2NlbmljRXhwbGFpbiI6IiIsImlzQXBwZWFyYW5jZSI6MCwibG9hZGVkIjp0cnVlLCJzY2VuaWNlRGVzYyI6IjxwPuWCkeaWkOmBnOe0gOW/teWgguS9jeaWvOiPr+ebm+mgk+a9ruaxkOa5lumCiu+8jOaYr+eCuuS6hue0gOW/tee+juWci+esrOS4ieS7u+e4vee1seaJmOmmrOaWryZtaWRkb3Q75YKR5paQ6YGc6ICM5bu655qE77yM5Lim5oyJ54Wn5YKR5paQ6YGc5pyA5Zac5oSb55qE5Y+k576F6aas56We5q6/5byP5ZyT6aCC5bu656+J6aKo5qC86Kit6KiI77yM6IiH6I+v55ub6aCT57SA5b+156KR6ZqU5rmW55u45pyb44CC5q+P5bm0NOaciO+8jOa5lueVlOeahOaru+iKseebm+mWi++8jOeSsOe5numAmumrlOa9lOeZveeahOe0gOW/teWggu+8jOe+juS4jeWLneaUtuOAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfSx7InR5cGUiOjIsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAxMTA3Iiwic2NlbmljTmFtZSI6IuadseazouWkmummrOWFi+WFrOWckiAgRWFzdCBQb3RvbWFjIFBhcmsiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+6YCZ5piv5LiA5YCL54u56ZW355qE5Y2K5bO277yM5rKz5rC055Kw57me44CC5rOi5aSa6aas5YWL5YWs5ZyS55qE5qi55pyo5LiN5L2G5oiQ6KGM77yM6ICM5LiU5oiQ54mH44CB5oiQ5p6X77yM5qi55pyo56iu6aGe57mB5aSa77yM5YC85b6X5LiA5o+Q55qE5piv5YWs5ZyS5YWn6Zqo6JmV5Y+v6KaL55qE5qu76Iqx44CC5q+P5bm0M+aciOS4i+aXrOWIsDTmnIjkuIrml6ws6I+v55ub6aCT6YO96KaB5qC55pOa6aCQ5ris55qE55W25bm05qu76Iqx55ub5pS+5pmC6ZaT77yM5pOH5pel6IiJ6KGM5qu76Iqx56+A44CC5bGG5pmC5pil5ZKM5pel6bqX77yM6Iqx5ZyY6Yym57CH77yM57KJ55m95Lqk57mU77yM6YCj57a/5LiN57WV77yM5Yqg5LiK6YGK5Lq656m/5qKt77yM5rmW6Z2i5YCS5b2x77yM576O5LiN5Yud5pS244CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119LHsidHlwZSI6Miwic291cmNlVHlwZSI6Miwic2NlbmljQ29kZSI6IlNNMDAwMDI3NTIiLCJzY2VuaWNOYW1lIjoi6I+v55ub6aCT6IGv5ZCI5biC5aC0ICBVbmlvbiBNYXJrZXQiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+6IGv5ZCI5biC5aC05YmN6Lqr5piv5LiA5YCL5bui5qOE55qE5bel5bug77yM54++5Zyo6YCZ6KOh5Yyv6ZuG5LqG6Kix5aSa57ay57SF5aGX6bSJ5aK75ZKM6Jed6KGT5bel5L2c5a6k77yM57WV5bCN5piv5bCP55y+5oSb5aW96ICF55qE5omT5Y2h5Zyw6aaW6YG477yB5aaC5p6c5L2g5oSb5aW9576O6aOf77yM5Lmf5LiA5a6a6KaB5L6G6IGv5ZCI5biC5aC06YCb6YCb77yM5ZCE5ZyL576O6aOf6K6T5Lq65Z6C5raO5LiJ5bC677yM576O5ZGz55qE5ZCM5pmC5YO55qC85Lmf6Z2e5bi46Imv5b+D44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119XSwidHlwZSI6bnVsbCwiZGVzY3JpcHRpb24iOm51bGwsImF2ZVByaWNlIjpudWxsLCJkaXN0YW5jVW5pdCI6MX0=\"}],\"distributionFactor\":null}]}]}"
+            }
+          }
+        ],
+        "raw": {
+          "section": "華盛頓特區|||2+++波士頓",
+          "todayLocation": "",
+          "dayNumber": 2,
+          "content": [
+            {
+              "contentMode": 3,
+              "productSortNum": null,
+              "relatedId": 7136,
+              "relatedDay": 1,
+              "relatedName": "【BDCT2-2】華盛頓特區 - 波士頓",
+              "contentType": 100,
+              "sortNumber": 0,
+              "jsonContent": "{\"travelId\":7136,\"productCategory\":1,\"name\":\"【BDCT2-2】華盛頓特區 - 波士頓\",\"productType\":\"PC00000021\",\"isAutoTeam\":null,\"expandList\":[{\"language\":2,\"isSource\":1,\"dayList\":[{\"section\":\"華盛頓特區|||2+++波士頓\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD7ku4rlpKnmiJHlgJHlsIfpppblhYjliY3lvoDlgpHkvZvpgZzntIDlv7XloILlj4Pop4DjgILmraPlgLzmq7voirHnm5vplovlraPvvIzpgJrpq5TmvZTnmb3nmoTntIDlv7XloILmjqnmmKDlhbbkuK3vvIznvo7kuI3li53mlLbjgILkuYvlvozliY3lvoDmnbHms6LlpJrppqzlhYvlhazlnJLvvIznubznuozos57mq7vkuYvml4XjgILmsr/okZfmtbfmganmlq/op5LnkrDls7blsI/ot6/mrKPos57nh6boi6Xpm7LpnJ7nmoTmq7voirHnvo7mma/vvIzmsr/pgJTpgoTlj6/nnIvopovppqzkuIHot6/lvrfph5HntIDlv7XnopHlkoznvoXmlq/npo/ntIDlv7XlhazlnJLnrYnokZflkI3lu7rnr4njgILpmqjlvozliY3lvoDmlrDoiIjnmoTlsI/nnL7mma/pu57oj6/nm5vpoJPoga/lkIjluILluILloLTvvIzmiZPljaHotoXntJrphbfngqvnmoTmhJvlv4PloZfptInlorvvvIzlnKjlpb3lkIPlpb3pgJvnmoTpm4bluILoo6HmgqDlk4nmgqDlk4njgILntZDmnZ/oj6/nm5vpoJPnmoTos57mq7vooYznqIvlvozvvIzmgqjlsIfoh6rooYzkuZjlnZDngavou4rov5Tlm57ms6Llo6vpoJPvvIzntZDmnZ/lhanlpKnnmoTmhInlv6vml4XooYzjgII8L3A+XG48cD4mbmJzcDs8L3A+XG48cD48c3Ryb25nPuihjOeoi+WuieaOku+8mjwvc3Ryb25nPjwvcD5cbjxwPjxzdHJvbmc+6YWS5bqXICZyYXJyOyDlgpHmlpDpgZzntIDlv7XloIIr5r2u5rGQ5rmW6LOe5qu7PC9zdHJvbmc+77yIMTIw5YiG6ZCY77yJPHN0cm9uZz4mcmFycjsg5p2x5rOi5aSa6aas5YWL5YWs5ZyS6LOe5qu7PC9zdHJvbmc+77yINjDliIbpkJjvvIk8c3Ryb25nPiZyYXJyOyDoj6/nm5vpoJPoga/lkIjluILloLQ8L3N0cm9uZz7vvIg2MOWIhumQmO+8iTxzdHJvbmc+JnJhcnI7IOiPr+ebm+mgk+eJueWNgOS5mOWdkOeBq+i7iui/lOWbnuazouWjq+mgk++8iDxzcGFuIHN0eWxlPVwiY29sb3I6ICNiYTM3MmE7XCI+54Gr6LuK5LiK54Sh5bCO6YGK6Zmq5ZCM77yM6ImZ5L2N5Zau56iL56Wo5YO56LaF6YGOJDEwMOeahOmDqOWIhu+8jOWuouS6uumcgOiHquihjOijnOi2s+W3ruWDue+8jOaIluiAheiHquiyu+WNh+e0mumBuOaTh+WFtuS7luiJmeS9jTwvc3Bhbj7vvIk8L3N0cm9uZz48L3A+XG48cD4mbmJzcDs8L3A+XG48cD48c3Ryb25nPuWCmeiou++8mjwvc3Ryb25nPjwvcD5cbjxwPjEuIOeBq+i7iummlumBuOePreasoeizh+ioiu+8mkFtdHJhayAmbmRhc2g7IDk2IE5vcnRoZWFzdCBSZWdpb25hbDwvcD5cbjxwPkRlcGFydHMgV2FzaGluZ3RvbiwgREMgLSBVbmlvbiBTdGF0aW9uIChXQVMpJm5kYXNoOyAxOjIwcDwvcD5cbjxwPkFycml2ZXMgQm9zdG9uLCBNQSAtIFNvdXRoIFN0YXRpb24oQk9TKSAmbmRhc2g7IDk6MjBwPC9wPlxuPHA+PHNwYW4gc3R5bGU9XCJjb2xvcjogI2JhMzcyYTtcIj4q5YiX6LuK54+t5qyh5YOF5L6b5Y+D6ICD77yM6KuL5Lul5a+m6Zqb6aCQ6KiC54+t5qyh54iy5YeG44CCPC9zcGFuPjwvcD5cbjxwPjxzcGFuIHN0eWxlPVwiY29sb3I6ICNiYTM3MmE7XCI+Mi4g54Gr6LuK56Wo6LOH5rqQ57eK5by177yM5by354OI5bu66K2w5oKo5YSY5pep6aCQ6KiC77yM6YG/5YWN5Ye654++6LuK56Wo5Zug5ZSu572E54Sh5rOV6aCQ6KiC55qE5oOF5rOB44CC6ImZ5L2N5Zau56iL56Wo5YO56LaF6YGOJDEwMOeahOmDqOWIhu+8jOWuouS6uumcgOiHquihjOijnOi2s+W3ruWDue+8jOaIluiAheiHquiyu+WNh+e0mumBuOaTh+WFtuS7luiJmeS9je+8jOS4i+WWruWJjeiri+iBr+e5q+WuouacjeS6jOasoeeiuuiqjeOAgjwvc3Bhbj48L3A+XG48cD48c3BhbiBzdHlsZT1cImNvbG9yOiAjYmEzNzJhO1wiPjMuIOeBq+i7iuS4iueEoeWwjumBiumZquWQjOOAgjwvc3Bhbj48L3A+IiwidGltZSI6IjEifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":1,\"jsonContent\":\"eyJ0aW1lIjoiMSIsImRpc3RhbmMiOiIiLCJob3VycyI6IiIsIm1pbnV0ZXMiOiIiLCJzdGF5SG91cnMiOiIiLCJzdGF5TWludXRlcyI6IiIsInJlZ2lvbkNvZGUiOm51bGwsInJlZ2lvbk5hbWUiOm51bGwsInJlZ2lvblR5cGUiOm51bGwsImNvbnRlbnQiOlt7InR5cGUiOjAsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAwMDY3Iiwic2NlbmljTmFtZSI6IuWCkeaWkOmBnOe0gOW/teWggiBUaG9tYXMgSmVmZmVyc29uIE1lbW9yaWFsIiwic2NlbmljRXhwbGFpbiI6IiIsImlzQXBwZWFyYW5jZSI6MCwibG9hZGVkIjp0cnVlLCJzY2VuaWNlRGVzYyI6IjxwPuWCkeaWkOmBnOe0gOW/teWgguS9jeaWvOiPr+ebm+mgk+a9ruaxkOa5lumCiu+8jOaYr+eCuuS6hue0gOW/tee+juWci+esrOS4ieS7u+e4vee1seaJmOmmrOaWryZtaWRkb3Q75YKR5paQ6YGc6ICM5bu655qE77yM5Lim5oyJ54Wn5YKR5paQ6YGc5pyA5Zac5oSb55qE5Y+k576F6aas56We5q6/5byP5ZyT6aCC5bu656+J6aKo5qC86Kit6KiI77yM6IiH6I+v55ub6aCT57SA5b+156KR6ZqU5rmW55u45pyb44CC5q+P5bm0NOaciO+8jOa5lueVlOeahOaru+iKseebm+mWi++8jOeSsOe5numAmumrlOa9lOeZveeahOe0gOW/teWggu+8jOe+juS4jeWLneaUtuOAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfSx7InR5cGUiOjIsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAxMTA3Iiwic2NlbmljTmFtZSI6IuadseazouWkmummrOWFi+WFrOWckiAgRWFzdCBQb3RvbWFjIFBhcmsiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+6YCZ5piv5LiA5YCL54u56ZW355qE5Y2K5bO277yM5rKz5rC055Kw57me44CC5rOi5aSa6aas5YWL5YWs5ZyS55qE5qi55pyo5LiN5L2G5oiQ6KGM77yM6ICM5LiU5oiQ54mH44CB5oiQ5p6X77yM5qi55pyo56iu6aGe57mB5aSa77yM5YC85b6X5LiA5o+Q55qE5piv5YWs5ZyS5YWn6Zqo6JmV5Y+v6KaL55qE5qu76Iqx44CC5q+P5bm0M+aciOS4i+aXrOWIsDTmnIjkuIrml6ws6I+v55ub6aCT6YO96KaB5qC55pOa6aCQ5ris55qE55W25bm05qu76Iqx55ub5pS+5pmC6ZaT77yM5pOH5pel6IiJ6KGM5qu76Iqx56+A44CC5bGG5pmC5pil5ZKM5pel6bqX77yM6Iqx5ZyY6Yym57CH77yM57KJ55m95Lqk57mU77yM6YCj57a/5LiN57WV77yM5Yqg5LiK6YGK5Lq656m/5qKt77yM5rmW6Z2i5YCS5b2x77yM576O5LiN5Yud5pS244CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119LHsidHlwZSI6Miwic291cmNlVHlwZSI6Miwic2NlbmljQ29kZSI6IlNNMDAwMDI3NTIiLCJzY2VuaWNOYW1lIjoi6I+v55ub6aCT6IGv5ZCI5biC5aC0ICBVbmlvbiBNYXJrZXQiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+6IGv5ZCI5biC5aC05YmN6Lqr5piv5LiA5YCL5bui5qOE55qE5bel5bug77yM54++5Zyo6YCZ6KOh5Yyv6ZuG5LqG6Kix5aSa57ay57SF5aGX6bSJ5aK75ZKM6Jed6KGT5bel5L2c5a6k77yM57WV5bCN5piv5bCP55y+5oSb5aW96ICF55qE5omT5Y2h5Zyw6aaW6YG477yB5aaC5p6c5L2g5oSb5aW9576O6aOf77yM5Lmf5LiA5a6a6KaB5L6G6IGv5ZCI5biC5aC06YCb6YCb77yM5ZCE5ZyL576O6aOf6K6T5Lq65Z6C5raO5LiJ5bC677yM576O5ZGz55qE5ZCM5pmC5YO55qC85Lmf6Z2e5bi46Imv5b+D44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119XSwidHlwZSI6bnVsbCwiZGVzY3JpcHRpb24iOm51bGwsImF2ZVByaWNlIjpudWxsLCJkaXN0YW5jVW5pdCI6MX0=\"}],\"distributionFactor\":null}]}]}"
+            }
+          ],
+          "isFreeTravel": null,
+          "optionalProductList": null,
+          "distributionFactor": 1
+        }
+      }
+    ],
+    "raw": {
+      "productCode": "P00003810",
+      "dataVersion": 1772076398,
+      "productDay": 2,
+      "productNight": 1,
+      "travelId": 7137,
+      "productType": "PC00000021",
+      "productTypeName": "Boston",
+      "travelName": "【金榜怡享】美國 波士頓火車往返 | 華盛頓特區賞櫻 2日遊",
+      "productTravelInfoList": [
+        {
+          "isSource": 1,
+          "language": 2,
+          "dayList": [
+            {
+              "section": "波士頓|||2+++華盛頓特區",
+              "todayLocation": "",
+              "dayNumber": 1,
+              "content": [
+                {
+                  "contentMode": 3,
+                  "productSortNum": null,
+                  "relatedId": 7135,
+                  "relatedDay": 1,
+                  "relatedName": "【BDCT2-1】波士頓 - 華盛頓特區",
+                  "contentType": 100,
+                  "sortNumber": 0,
+                  "jsonContent": "{\"travelId\":7135,\"productCategory\":1,\"name\":\"【BDCT2-1】波士頓 - 華盛頓特區\",\"productType\":\"PC00000021\",\"isAutoTeam\":null,\"expandList\":[{\"language\":2,\"isSource\":1,\"dayList\":[{\"section\":\"波士頓|||2+++華盛頓特區\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD7ku4rlpKnmgqjlsIflvp7ms6Llo6vpoJPlh7rnmbzvvIzoh6rooYzkuZjlnZDngavou4rliY3lvoDoj6/nm5vpoJPnibnljYDvvIzkuIDotbfplovllZ/os57mq7vkuYvml4XvvIHmq7voirHmmK/nvo7lnIvpppbpg73oj6/nm5vpoJPmnIDploPkuq7nmoTln47luILlkI3niYfkuYvkuIDvvIzlnKjlsIjmpa3lsI7pgYrnmoTluLbpoJjkuIvmiJHlgJHlsIfpppblhYjliY3lvoDogq/kvI3lvrfnpL7ljYDos57mq7vjgILpmqjlvozmiJHlgJHlsIfkuZjou4rliY3lvoDkup7mrbflsbHlpKfogIHln47jgILoiIfoj6/nm5vpoJPnibnljYDojorlmrTogoXnqYbnmoTmsKPmsJvov6XnhLbkuI3lkIzvvIzlnKjogIHln47vvIzmgqjlj6/ku6Xnm6Hmg4Xkuqvlj5fpmb3lhYnjgIHoibLlvanjgIHooZfpoK3pn7PmqILlkozlkITlnIvnvo7po5/vvIzmhJ/lj5fogIHln47mgqDplpLnmoTnlJ/mtLvjgII8L3A+XG48cD4mbmJzcDs8L3A+XG48cD48c3Ryb25nPuihjOeoi+WuieaOku+8mjwvc3Ryb25nPjwvcD5cbjxwPjxzdHJvbmc+5rOi5aOr6aCT5LmY5Z2Q54Gr6LuK5YmN5b6A6I+v55ub6aCT54m55Y2A77yIPHNwYW4gc3R5bGU9XCJjb2xvcjogI2JhMzcyYTtcIj7ngavou4rkuIrnhKHlsI7pgYrpmarlkIzvvIzoiZnkvY3llq7nqIvnpajlg7notoXpgY4kMTAw55qE6YOo5YiG77yM5a6i5Lq66ZyA6Ieq6KGM6KOc6Laz5beu5YO577yM5oiW6ICF6Ieq6LK75Y2H57Sa6YG45pOH5YW25LuW6ImZ5L2NPC9zcGFuPu+8iSZyYXJyOyDogq/kvI3lvrfnpL7ljYDos57mq7s8L3N0cm9uZz7vvIg5MOWIhumQmO+8iTxzdHJvbmc+JnJhcnI7IOS6nuatt+WxseWkp+iAgeWfjjwvc3Ryb25nPu+8iDgw5YiG6ZCY77yM5ZCr5pma6aSQ5pmC6ZaT77yJPHN0cm9uZz4mcmFycjsg6YWS5bqXPC9zdHJvbmc+PC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz7lgpnoqLvvvJo8L3N0cm9uZz48L3A+XG48cD4xLiDngavou4rpppbpgbjnj63mrKHos4foqIrvvJpBbXRyYWsgLSAxOTUgTm9ydGhlYXN0IFJlZ2lvbmFsPC9wPlxuPHA+RGVwYXJ0cyBCb3N0b24sIE1BIC0gU291dGggU3RhdGlvbihCT1MpIC0gNjozMGE8L3A+XG48cD5BcnJpdmVzIFdhc2hpbmd0b24sIERDIC0gVW5pb24gU3RhdGlvbiAoV0FTKSAtIDI6MjVwPC9wPlxuPHA+PHNwYW4gc3R5bGU9XCJjb2xvcjogI2JhMzcyYTtcIj4q5YiX6LuK54+t5qyh5YOF5L6b5Y+D6ICD77yM6KuL5Lul5a+m6Zqb6aCQ6KiC54+t5qyh54K65rqW44CCPC9zcGFuPjwvcD5cbjxwPjxzcGFuIHN0eWxlPVwiY29sb3I6ICNiYTM3MmE7XCI+Mi4g54Gr6LuK56Wo6LOH5rqQ57eK5by177yM5by354OI5bu66K2w5oKo5YSY5pep6aCQ6KiC77yM6YG/5YWN5Ye654++6LuK56Wo5Zug5ZSu572E54Sh5rOV6aCQ6KiC55qE5oOF5rOB44CC6ImZ5L2N5Zau56iL56Wo5YO56LaF6YGOJDEwMOeahOmDqOWIhu+8jOWuouS6uumcgOiHquihjOijnOi2s+W3ruWDue+8jOaIluiAheiHquiyu+WNh+e0mumBuOaTh+WFtuS7luiJmeS9je+8jOS4i+WWruWJjeiri+iBr+e5q+WuouacjeS6jOasoeeiuuiqjeOAgjwvc3Bhbj48L3A+XG48cD48c3BhbiBzdHlsZT1cImNvbG9yOiAjYmEzNzJhO1wiPjMuIOeBq+i7iuS4iueEoeWwjumBiumZquWQjOOAgjwvc3Bhbj48L3A+IiwidGltZSI6IjEifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":1,\"jsonContent\":\"eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJ0eXBlIjowLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMjAxOCIsInNjZW5pY05hbWUiOiLogq/kvI3lvrfnpL7ljYDos57mq7sgS2Vud29vZCBDb21tdW5pdHkgQ2hlcnJ5IEJsb3Nzb20iLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+5q+P5bm05pil5aSp6YO95pyD5pyJMTIwMOajteWQiemHjuaru+ahg+aoueWcqOmAmeWAi+Wwj+iCr+S8jeW+t+ekvuWNgOebm+mWi+WHuueyieiJsuWSjOeZveiJsueahOiKseacte+8jOi2hee0mua1qua8q+OAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfSx7ImFjdGl2aXR5Tm8iOjIsInR5cGUiOjIsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAxMDg5Iiwic2NlbmljTmFtZSI6IuS6nuatt+WxseWkp+iAgeWfjiBPbGQgVG93biBBbGV4YW5kcmlhIiwic2NlbmljRXhwbGFpbiI6IiIsImlzQXBwZWFyYW5jZSI6MCwibG9hZGVkIjp0cnVlLCJzY2VuaWNlRGVzYyI6IjxwPuS6nuatt+WxseWkp+iAgeWfjuaYr+e+juWci+WFuOWei+eahOatt+WPsuihl+WNgO+8jOW7uuaWvCAxNzQ5IOW5tO+8jOS9nOeCuuatt+WPsuS4iumHjeimgeaIsOeVpeWcsOWNgO+8jOmAmeijoeS/neeVmeS6huecvuWkmuauluawkeaZguacn+eahOWPpOiAgeW7uuevie+8jOmChOaTgeacieiRlzIwMOWkmuWutueNqOeri+mkkOW7s+WSjOeyvuWTgeW6l++8jOS7peWPiuengeWvhueahOatt+WPsuWNmueJqemkqOWSjOa1t+a/seaZr+m7nu+8jOaYr+iPr+ebm+mgk0RD6ZmE6L+R5LiN5Y+v5aSa5b6X55qE6YGK546p5Yud5Zyw44CC6ZaS6YCb5Zyo6ZuF6Ie055qE5Y+k5Z+O5YWn77yM5aSn5a625Y+v5Lul5oSf5Y+X5Yiw576O5ZyL55qE5Lq65paH5q235Y+y5ZKM5pys5Zyf54m56Imy6aKo5oOF44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119XSwiZGlzdGFuYyI6IiIsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwidGltZSI6IjMiLCJkaXN0YW5jVW5pdCI6MX0=\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":8,\"sortNumber\":2,\"jsonContent\":\"eyJ0aW1lIjoiNCIsImRpc3RhbmMiOm51bGwsImhvdXJzIjpudWxsLCJtaW51dGVzIjpudWxsLCJzdGF5SG91cnMiOm51bGwsInN0YXlNaW51dGVzIjpudWxsLCJyZWdpb25Db2RlIjoiQTUyMiIsInJlZ2lvbk5hbWUiOiLok4vnkZ/mlq/loKEgR2FpdGhlcnNidXJnIiwicmVnaW9uVHlwZSI6MiwiY29udGVudCI6W3sic291cmNlVHlwZSI6MiwiaG90ZWxDb2RlIjoiSE0wMDAwMDUyMyIsImhvdGVsTmFtZSI6IlNwcmluZ2hpbGwgU3VpdGVzIEdhaXRoZXJzYnVyZyAiLCJob3RlbEFkZHIiOm51bGwsImhvdGVsRW1haWwiOm51bGwsImhvdGVsTGlua01hbiI6bnVsbCwiaG90ZWxMaW5rV2F5IjpudWxsfSx7InNvdXJjZVR5cGUiOjIsImhvdGVsQ29kZSI6IkhNMDAwMDAwNTAiLCJob3RlbE5hbWUiOiJDb21mb3J0IElubiBTaGFkeSBHcm92ZSAtIEdhaXRoZXJzYnVyZyAtIFJvY2t2aWxsZSIsImhvdGVsQWRkciI6bnVsbCwiaG90ZWxFbWFpbCI6bnVsbCwiaG90ZWxMaW5rTWFuIjpudWxsLCJob3RlbExpbmtXYXkiOm51bGx9LHsic291cmNlVHlwZSI6MiwiaG90ZWxDb2RlIjoiSE0wMDAwMDAzOSIsImhvdGVsTmFtZSI6IkhvbGlkYXkgSW5uIEdhaXRoZXJzYnVyZyBieSBJSEciLCJob3RlbEFkZHIiOm51bGwsImhvdGVsRW1haWwiOm51bGwsImhvdGVsTGlua01hbiI6bnVsbCwiaG90ZWxMaW5rV2F5IjpudWxsfSx7InNvdXJjZVR5cGUiOjIsImhvdGVsQ29kZSI6IkhNMDAwMDIzODYiLCJob3RlbE5hbWUiOiJTcGFyayBieSBIaWx0b24gR2VybWFudG93biIsImhvdGVsQWRkciI6bnVsbCwiaG90ZWxFbWFpbCI6bnVsbCwiaG90ZWxMaW5rTWFuIjpudWxsLCJob3RlbExpbmtXYXkiOm51bGx9LHsic291cmNlVHlwZSI6MiwiaG90ZWxDb2RlIjoiSE0wMDAwMzgyOSIsImhvdGVsTmFtZSI6IkJlc3QgV2VzdGVybiBIaXN0b3JpYyBGcmVkZXJpY2siLCJob3RlbEFkZHIiOm51bGwsImhvdGVsRW1haWwiOm51bGwsImhvdGVsTGlua01hbiI6bnVsbCwiaG90ZWxMaW5rV2F5IjpudWxsfSx7InNvdXJjZVR5cGUiOjIsImhvdGVsQ29kZSI6IkhNMDAwMDI2NzMiLCJob3RlbE5hbWUiOiJTb25lc3RhIFNlbGVjdCBHcmVlbmJlbHQgQ29sbGVnZSBQYXJrIiwiaG90ZWxBZGRyIjpudWxsLCJob3RlbEVtYWlsIjpudWxsLCJob3RlbExpbmtNYW4iOm51bGwsImhvdGVsTGlua1dheSI6bnVsbH0seyJzb3VyY2VUeXBlIjoyLCJob3RlbENvZGUiOiJITTAwMDAwMTA3IiwiaG90ZWxOYW1lIjoiQ29tZm9ydCBJbm4gQ29sbGVnZSBQYXJrIiwiaG90ZWxBZGRyIjpudWxsLCJob3RlbEVtYWlsIjpudWxsLCJob3RlbExpbmtNYW4iOm51bGwsImhvdGVsTGlua1dheSI6bnVsbH0seyJzb3VyY2VUeXBlIjoyLCJob3RlbENvZGUiOiJITTAwMDAwNDkyIiwiaG90ZWxOYW1lIjoi5ZCM57SaIiwiaG90ZWxBZGRyIjpudWxsLCJob3RlbEVtYWlsIjpudWxsLCJob3RlbExpbmtNYW4iOm51bGwsImhvdGVsTGlua1dheSI6bnVsbH1dLCJ0eXBlIjpudWxsLCJkZXNjcmlwdGlvbiI6bnVsbCwiYXZlUHJpY2UiOm51bGx9\"}],\"distributionFactor\":null}]}]}"
+                }
+              ],
+              "isFreeTravel": null,
+              "optionalProductList": null,
+              "distributionFactor": 1
+            },
+            {
+              "section": "華盛頓特區|||2+++波士頓",
+              "todayLocation": "",
+              "dayNumber": 2,
+              "content": [
+                {
+                  "contentMode": 3,
+                  "productSortNum": null,
+                  "relatedId": 7136,
+                  "relatedDay": 1,
+                  "relatedName": "【BDCT2-2】華盛頓特區 - 波士頓",
+                  "contentType": 100,
+                  "sortNumber": 0,
+                  "jsonContent": "{\"travelId\":7136,\"productCategory\":1,\"name\":\"【BDCT2-2】華盛頓特區 - 波士頓\",\"productType\":\"PC00000021\",\"isAutoTeam\":null,\"expandList\":[{\"language\":2,\"isSource\":1,\"dayList\":[{\"section\":\"華盛頓特區|||2+++波士頓\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD7ku4rlpKnmiJHlgJHlsIfpppblhYjliY3lvoDlgpHkvZvpgZzntIDlv7XloILlj4Pop4DjgILmraPlgLzmq7voirHnm5vplovlraPvvIzpgJrpq5TmvZTnmb3nmoTntIDlv7XloILmjqnmmKDlhbbkuK3vvIznvo7kuI3li53mlLbjgILkuYvlvozliY3lvoDmnbHms6LlpJrppqzlhYvlhazlnJLvvIznubznuozos57mq7vkuYvml4XjgILmsr/okZfmtbfmganmlq/op5LnkrDls7blsI/ot6/mrKPos57nh6boi6Xpm7LpnJ7nmoTmq7voirHnvo7mma/vvIzmsr/pgJTpgoTlj6/nnIvopovppqzkuIHot6/lvrfph5HntIDlv7XnopHlkoznvoXmlq/npo/ntIDlv7XlhazlnJLnrYnokZflkI3lu7rnr4njgILpmqjlvozliY3lvoDmlrDoiIjnmoTlsI/nnL7mma/pu57oj6/nm5vpoJPoga/lkIjluILluILloLTvvIzmiZPljaHotoXntJrphbfngqvnmoTmhJvlv4PloZfptInlorvvvIzlnKjlpb3lkIPlpb3pgJvnmoTpm4bluILoo6HmgqDlk4nmgqDlk4njgILntZDmnZ/oj6/nm5vpoJPnmoTos57mq7vooYznqIvlvozvvIzmgqjlsIfoh6rooYzkuZjlnZDngavou4rov5Tlm57ms6Llo6vpoJPvvIzntZDmnZ/lhanlpKnnmoTmhInlv6vml4XooYzjgII8L3A+XG48cD4mbmJzcDs8L3A+XG48cD48c3Ryb25nPuihjOeoi+WuieaOku+8mjwvc3Ryb25nPjwvcD5cbjxwPjxzdHJvbmc+6YWS5bqXICZyYXJyOyDlgpHmlpDpgZzntIDlv7XloIIr5r2u5rGQ5rmW6LOe5qu7PC9zdHJvbmc+77yIMTIw5YiG6ZCY77yJPHN0cm9uZz4mcmFycjsg5p2x5rOi5aSa6aas5YWL5YWs5ZyS6LOe5qu7PC9zdHJvbmc+77yINjDliIbpkJjvvIk8c3Ryb25nPiZyYXJyOyDoj6/nm5vpoJPoga/lkIjluILloLQ8L3N0cm9uZz7vvIg2MOWIhumQmO+8iTxzdHJvbmc+JnJhcnI7IOiPr+ebm+mgk+eJueWNgOS5mOWdkOeBq+i7iui/lOWbnuazouWjq+mgk++8iDxzcGFuIHN0eWxlPVwiY29sb3I6ICNiYTM3MmE7XCI+54Gr6LuK5LiK54Sh5bCO6YGK6Zmq5ZCM77yM6ImZ5L2N5Zau56iL56Wo5YO56LaF6YGOJDEwMOeahOmDqOWIhu+8jOWuouS6uumcgOiHquihjOijnOi2s+W3ruWDue+8jOaIluiAheiHquiyu+WNh+e0mumBuOaTh+WFtuS7luiJmeS9jTwvc3Bhbj7vvIk8L3N0cm9uZz48L3A+XG48cD4mbmJzcDs8L3A+XG48cD48c3Ryb25nPuWCmeiou++8mjwvc3Ryb25nPjwvcD5cbjxwPjEuIOeBq+i7iummlumBuOePreasoeizh+ioiu+8mkFtdHJhayAmbmRhc2g7IDk2IE5vcnRoZWFzdCBSZWdpb25hbDwvcD5cbjxwPkRlcGFydHMgV2FzaGluZ3RvbiwgREMgLSBVbmlvbiBTdGF0aW9uIChXQVMpJm5kYXNoOyAxOjIwcDwvcD5cbjxwPkFycml2ZXMgQm9zdG9uLCBNQSAtIFNvdXRoIFN0YXRpb24oQk9TKSAmbmRhc2g7IDk6MjBwPC9wPlxuPHA+PHNwYW4gc3R5bGU9XCJjb2xvcjogI2JhMzcyYTtcIj4q5YiX6LuK54+t5qyh5YOF5L6b5Y+D6ICD77yM6KuL5Lul5a+m6Zqb6aCQ6KiC54+t5qyh54iy5YeG44CCPC9zcGFuPjwvcD5cbjxwPjxzcGFuIHN0eWxlPVwiY29sb3I6ICNiYTM3MmE7XCI+Mi4g54Gr6LuK56Wo6LOH5rqQ57eK5by177yM5by354OI5bu66K2w5oKo5YSY5pep6aCQ6KiC77yM6YG/5YWN5Ye654++6LuK56Wo5Zug5ZSu572E54Sh5rOV6aCQ6KiC55qE5oOF5rOB44CC6ImZ5L2N5Zau56iL56Wo5YO56LaF6YGOJDEwMOeahOmDqOWIhu+8jOWuouS6uumcgOiHquihjOijnOi2s+W3ruWDue+8jOaIluiAheiHquiyu+WNh+e0mumBuOaTh+WFtuS7luiJmeS9je+8jOS4i+WWruWJjeiri+iBr+e5q+WuouacjeS6jOasoeeiuuiqjeOAgjwvc3Bhbj48L3A+XG48cD48c3BhbiBzdHlsZT1cImNvbG9yOiAjYmEzNzJhO1wiPjMuIOeBq+i7iuS4iueEoeWwjumBiumZquWQjOOAgjwvc3Bhbj48L3A+IiwidGltZSI6IjEifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":1,\"jsonContent\":\"eyJ0aW1lIjoiMSIsImRpc3RhbmMiOiIiLCJob3VycyI6IiIsIm1pbnV0ZXMiOiIiLCJzdGF5SG91cnMiOiIiLCJzdGF5TWludXRlcyI6IiIsInJlZ2lvbkNvZGUiOm51bGwsInJlZ2lvbk5hbWUiOm51bGwsInJlZ2lvblR5cGUiOm51bGwsImNvbnRlbnQiOlt7InR5cGUiOjAsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAwMDY3Iiwic2NlbmljTmFtZSI6IuWCkeaWkOmBnOe0gOW/teWggiBUaG9tYXMgSmVmZmVyc29uIE1lbW9yaWFsIiwic2NlbmljRXhwbGFpbiI6IiIsImlzQXBwZWFyYW5jZSI6MCwibG9hZGVkIjp0cnVlLCJzY2VuaWNlRGVzYyI6IjxwPuWCkeaWkOmBnOe0gOW/teWgguS9jeaWvOiPr+ebm+mgk+a9ruaxkOa5lumCiu+8jOaYr+eCuuS6hue0gOW/tee+juWci+esrOS4ieS7u+e4vee1seaJmOmmrOaWryZtaWRkb3Q75YKR5paQ6YGc6ICM5bu655qE77yM5Lim5oyJ54Wn5YKR5paQ6YGc5pyA5Zac5oSb55qE5Y+k576F6aas56We5q6/5byP5ZyT6aCC5bu656+J6aKo5qC86Kit6KiI77yM6IiH6I+v55ub6aCT57SA5b+156KR6ZqU5rmW55u45pyb44CC5q+P5bm0NOaciO+8jOa5lueVlOeahOaru+iKseebm+mWi++8jOeSsOe5numAmumrlOa9lOeZveeahOe0gOW/teWggu+8jOe+juS4jeWLneaUtuOAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfSx7InR5cGUiOjIsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAxMTA3Iiwic2NlbmljTmFtZSI6IuadseazouWkmummrOWFi+WFrOWckiAgRWFzdCBQb3RvbWFjIFBhcmsiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+6YCZ5piv5LiA5YCL54u56ZW355qE5Y2K5bO277yM5rKz5rC055Kw57me44CC5rOi5aSa6aas5YWL5YWs5ZyS55qE5qi55pyo5LiN5L2G5oiQ6KGM77yM6ICM5LiU5oiQ54mH44CB5oiQ5p6X77yM5qi55pyo56iu6aGe57mB5aSa77yM5YC85b6X5LiA5o+Q55qE5piv5YWs5ZyS5YWn6Zqo6JmV5Y+v6KaL55qE5qu76Iqx44CC5q+P5bm0M+aciOS4i+aXrOWIsDTmnIjkuIrml6ws6I+v55ub6aCT6YO96KaB5qC55pOa6aCQ5ris55qE55W25bm05qu76Iqx55ub5pS+5pmC6ZaT77yM5pOH5pel6IiJ6KGM5qu76Iqx56+A44CC5bGG5pmC5pil5ZKM5pel6bqX77yM6Iqx5ZyY6Yym57CH77yM57KJ55m95Lqk57mU77yM6YCj57a/5LiN57WV77yM5Yqg5LiK6YGK5Lq656m/5qKt77yM5rmW6Z2i5YCS5b2x77yM576O5LiN5Yud5pS244CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119LHsidHlwZSI6Miwic291cmNlVHlwZSI6Miwic2NlbmljQ29kZSI6IlNNMDAwMDI3NTIiLCJzY2VuaWNOYW1lIjoi6I+v55ub6aCT6IGv5ZCI5biC5aC0ICBVbmlvbiBNYXJrZXQiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+6IGv5ZCI5biC5aC05YmN6Lqr5piv5LiA5YCL5bui5qOE55qE5bel5bug77yM54++5Zyo6YCZ6KOh5Yyv6ZuG5LqG6Kix5aSa57ay57SF5aGX6bSJ5aK75ZKM6Jed6KGT5bel5L2c5a6k77yM57WV5bCN5piv5bCP55y+5oSb5aW96ICF55qE5omT5Y2h5Zyw6aaW6YG477yB5aaC5p6c5L2g5oSb5aW9576O6aOf77yM5Lmf5LiA5a6a6KaB5L6G6IGv5ZCI5biC5aC06YCb6YCb77yM5ZCE5ZyL576O6aOf6K6T5Lq65Z6C5raO5LiJ5bC677yM576O5ZGz55qE5ZCM5pmC5YO55qC85Lmf6Z2e5bi46Imv5b+D44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119XSwidHlwZSI6bnVsbCwiZGVzY3JpcHRpb24iOm51bGwsImF2ZVByaWNlIjpudWxsLCJkaXN0YW5jVW5pdCI6MX0=\"}],\"distributionFactor\":null}]}]}"
+                }
+              ],
+              "isFreeTravel": null,
+              "optionalProductList": null,
+              "distributionFactor": 1
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "cost": {
+    "includesHtml": "<p>1. 行程中交通費用（使用車輛類型根據當日具體參團人數決定，7座商務，14人座高頂/中巴，或55-61座巴士）；</p>\n<p>2. 行程中住宿（住宿晚數等於行程天數減一）；</p>\n<p>3. 中英文服務人員（司機+導遊/司兼導）；</p>\n<p>4. 波士頓往返華盛頓特區的火車票費用（艙位單程票價超過$100的部分，客人需自行補足差價，或者自費升級選擇其他艙位）；</p>\n<p>5. 酒店內早餐。</p>",
+    "includesText": "1. 行程中交通費用（使用車輛類型根據當日具體參團人數決定，7座商務，14人座高頂/中巴，或55-61座巴士）；\n\n2. 行程中住宿（住宿晚數等於行程天數減一）；\n\n3. 中英文服務人員（司機+導遊/司兼導）；\n\n4. 波士頓往返華盛頓特區的火車票費用（艙位單程票價超過$100的部分，客人需自行補足差價，或者自費升級選擇其他艙位）；\n\n5. 酒店內早餐。",
+    "excludesHtml": "<p>1. 午餐和晚餐；</p>\n<p>2. 行程中需要的機票，渡輪，部分景區/國家公園內的遊覽交通費用；</p>\n<p>3. 景點門票費用（門票價格時常波動，不再另行通知。門票需在導遊處統一購買）；</p>\n<p>4. 服務費（每人每天最低支付US$15，兒童及占座嬰兒均按成人標準支付）；</p>\n<p>5. 酒店房間內私人費用（洗衣費，電話費等）；</p>\n<p>6. 一切除費用包含外的私人性質費用。</p>",
+    "excludesText": "1. 午餐和晚餐；\n\n2. 行程中需要的機票，渡輪，部分景區/國家公園內的遊覽交通費用；\n\n3. 景點門票費用（門票價格時常波動，不再另行通知。門票需在導遊處統一購買）；\n\n4. 服務費（每人每天最低支付US$15，兒童及占座嬰兒均按成人標準支付）；\n\n5. 酒店房間內私人費用（洗衣費，電話費等）；\n\n6. 一切除費用包含外的私人性質費用。",
+    "productCostIsDay": 0,
+    "costInfo": []
+  },
+  "policy_notice": {
+    "notices": [
+      {
+        "matterCode": "AT00000094",
+        "noticeType": 3,
+        "typeLabel": "Cancellation Policy",
+        "matterName": "【退改說明】集團通用",
+        "html": {
+          "primary": "<p>1. 如遇天氣、戰爭、罷工等人力不可抗拒因素無法遊覽，本公司將有權更改行程，景點門票費用退還（贈送的自費項目除外），報名團費不退還；&nbsp;</p>\n<p>2. 取消條款如下：</p>\n<p>&nbsp; &nbsp;a. &nbsp;如果團組在出發前15日 (含) ，要求取消或改期，團費不扣，其他加定酒店、機票或服務需參照酒店或航司規定而確定是否能退款。</p>\n<p>&nbsp; &nbsp;b. &nbsp;在出發前8日 (含) 至 14日 (含) ，要求取消或改期，需扣50%團費，其他加定酒店或服務需參照酒店規定而確定是否能退款。</p>\n<p>&nbsp; &nbsp;c. &nbsp;如果團組在出發前7日 (含) 至出發當天要求取消或出發當日未能準時參加者，作自動放棄論，已付團費概不退還。</p>\n<p>&nbsp; &nbsp;d.&nbsp; 如貴司或客人因個人原因 (無旅行證件、遲到、生病、意外等因素) 於旅途中退出或未能參加行程內任何行程，已付團費概不退還，也不會以其他服務賠償。</p>",
+          "secondary": "【退改說明】集團通用"
+        },
+        "text": {
+          "primary": "1. 如遇天氣、戰爭、罷工等人力不可抗拒因素無法遊覽，本公司將有權更改行程，景點門票費用退還（贈送的自費項目除外），報名團費不退還； \n\n2. 取消條款如下：\n\n   a.  如果團組在出發前15日 (含) ，要求取消或改期，團費不扣，其他加定酒店、機票或服務需參照酒店或航司規定而確定是否能退款。\n\n   b.  在出發前8日 (含) 至 14日 (含) ，要求取消或改期，需扣50%團費，其他加定酒店或服務需參照酒店規定而確定是否能退款。\n\n   c.  如果團組在出發前7日 (含) 至出發當天要求取消或出發當日未能準時參加者，作自動放棄論，已付團費概不退還。\n\n   d.  如貴司或客人因個人原因 (無旅行證件、遲到、生病、意外等因素) 於旅途中退出或未能參加行程內任何行程，已付團費概不退還，也不會以其他服務賠償。",
+          "secondary": "【退改說明】集團通用"
+        },
+        "raw": {
+          "matterCode": "AT00000094",
+          "editType": 1,
+          "noticeType": 3,
+          "matterName": "【退改說明】集團通用",
+          "vluesTip1": "<p>1. 如遇天氣、戰爭、罷工等人力不可抗拒因素無法遊覽，本公司將有權更改行程，景點門票費用退還（贈送的自費項目除外），報名團費不退還；&nbsp;</p>\n<p>2. 取消條款如下：</p>\n<p>&nbsp; &nbsp;a. &nbsp;如果團組在出發前15日 (含) ，要求取消或改期，團費不扣，其他加定酒店、機票或服務需參照酒店或航司規定而確定是否能退款。</p>\n<p>&nbsp; &nbsp;b. &nbsp;在出發前8日 (含) 至 14日 (含) ，要求取消或改期，需扣50%團費，其他加定酒店或服務需參照酒店規定而確定是否能退款。</p>\n<p>&nbsp; &nbsp;c. &nbsp;如果團組在出發前7日 (含) 至出發當天要求取消或出發當日未能準時參加者，作自動放棄論，已付團費概不退還。</p>\n<p>&nbsp; &nbsp;d.&nbsp; 如貴司或客人因個人原因 (無旅行證件、遲到、生病、意外等因素) 於旅途中退出或未能參加行程內任何行程，已付團費概不退還，也不會以其他服務賠償。</p>",
+          "vluesTip2": "【退改說明】集團通用"
+        }
+      },
+      {
+        "matterCode": "AT00000301",
+        "noticeType": 1,
+        "typeLabel": "Know Before You Book",
+        "matterName": "【預定須知】集團通用（不涉及跨境）",
+        "html": {
+          "primary": "<p><strong>預定須知：</strong></p>\n<p>1. 18歲以下未成年人或兒童必須由成人陪伴參團，單獨旅行的未成年人或兒童不能參加縱橫海鷗的旅遊團。出於對孕婦安全的考慮，孕婦參團需在行程結束時懷孕不超過24周。</p>\n<p>2. 請在預定時務必提供準確、完整的資訊，包括姓名、性別、有效的聯繫方式（最好是手機，如有問題，方便通知）、準確的航班資訊或參團地點等，以免產生預定錯誤，影響出行。如因您提供錯誤資訊而造成損失，由您自行承擔。</p>\n<p>3. 酒店有不同的房間類型，例如一張King/Queen Size的大床房或兩張Double Size的雙床房。每個房間可合法住宿的最多人數在2 到4 人，包括成人和兒童。<span style=\"color: #ba372a;\">應部分酒店要求，每組參團客人需至少携帶一張可在目的地使用的信用卡或借記卡，届時需根據酒店的不同規定配合刷卡辦理押金收取和入住手續。如無個人消費，辦理退房後酒店會在7-14個工作日內將押金原路返還。</span>縱橫海鷗保證客人的用房數量，但不保障具體房間類型和所處位置。酒店的入住時間通常在15:00以後。</p>\n<p>4. 參團客人需跟團上導遊購買門票，不可自行帶票或使用City Pass。景點的門票費和團上餐費可能會根據景點官方的臨時通知而變動，以當日景點公佈的價格為准。</p>\n<p>5. 縱橫海鷗有權在方便出團操作的情況下，對行程順序進行適當調整以確保旅遊團順利進行，但不會減少行程中應包含的項目。</p>\n<p>6. 實際出行過程中，導遊或司機有權根據天氣、交通等情況，適當調整景點的遊覽順序、停留時間或集合時間以確保行程順利進行。</p>\n<p>7. 如遇景點臨時關閉或節假日（感恩節、聖誕節、新年等）關閉等，導致無法參觀，導遊會根據實際情況調整為外觀或以其他景點代替以確保行程的豐富性。各景點及國家公園的開放時間及流量控制會因疫情不時變化，如影響行程屬不可抗力因素，敬請諒解。</p>\n<p>8. 八歲以下兒童參團需乘坐安全座椅，縱橫海鷗提供租借服務，租金$10.00/人/天，請務必在預定行程時提前備註告知，以便我們提前準備，如因客人未提前告知所造成的違規和罰金由客人自行承擔，敬請理解。出行當日安排大巴出行無需安全座椅，費用可退還客人。</p>\n<p>9. 行程中眾多旅遊景點需要參團人具備基本的健康條件。殘疾人士和行動不便者報名參團前請提前聯繫縱橫海鷗獲取相關政策資訊。若沒有及時通知，我司不能保證為客人提供輪椅升降巴士或安排合適的座位。</p>\n<p>10. 縱橫海鷗巴士團分為了四個等級：銀榜惠享、金榜怡享、白金尊享、鑽石臻享，詳情請查看<a href=\"https://uvbookings.info/upload/BMS/ProductLevel.pdf\" target=\"_blank\" rel=\"noopener\">產品分級</a>（點擊藍色字體查看）。</p>\n<p>11. 縱橫集團可能會多次修改參團條款和條件，並會在代理網站上及時公佈最新版本。請遊客在報名參團前務必仔細閱讀<a title=\"《參團條例》\" href=\"http://uvbookings.info/upload/terms/s.pdf\" target=\"_blank\" rel=\"noopener\">《參團條例》</a>（點擊藍色字體查看）。我司僅在這些條款和條件下履行義務，除非在此條例中或在法律中有特別規定，否則如果產生任何間接性，補償性，偶然性或懲罰性損害都不做出賠償。</p>\n<p><span style=\"color: #ba372a;\">12. 面對持續上漲的燃油成本，車輛運營成本大大增加，2026年5月18日（出發班期）起，縱橫海鷗的巴士團産品需加收交通附加費$5/人/天，導游將在行程中統一收取。</span></p>\n<p>特殊說明：<br />1）接機、送機當天如無其他巴士行程安排，不收取燃油附加費。<br />2）不涉及巴士用車服務的天數不收取燃油附加費：例如佛州相關産品中客人自行搭乘園區接駁車往返主題樂園，或火車團産品中當天全程爲火車行程且無導游及巴士服務等情况。</p>\n<p>&nbsp;</p>\n<p><strong>出行須知：</strong></p>\n<p>1. 為保障行程順利完整，遊客有責任嚴格遵守導遊給出的集合時間。如果距離集合時間超過十分鐘，車子將離開不予等待。縱橫海鷗竭誠提供準時准點服務，但如遇到天氣、交通、機械故障、罷工、政府停擺以及戰爭和恐怖襲擊等不可控因素，我司無法保證按時按點到達接送地點。由此原因導致的行程延誤進而給客人帶來任何的不便或產生相關航班、火車或大巴費用以及其他旅遊費用等額外費用的，我司概不負責。</p>\n<p>2. 縱橫海鷗有權在方便出團操作的情況下，在途中將遊客從原車換到另一輛車並指派不同導遊和司機提供服務。</p>\n<p>3. 以下建議會幫助您更快更好的登記報到：需攜帶有效身份證件( 內附照片)；請出示紙質版或電子版行程單。</p>\n<p>4. 該產品是團體活動，如您選擇中途離團，請提前告知並征得導遊同意，需簽署離團協議書，未完成部分將被視為您自行放棄，團費不予退還。</p>\n<p>5. 行程中的贈送項目，如因交通、天氣等不可抗力因素導致不能贈送的、或因您個人原因不能參觀的，費用不退，敬請諒解。</p>\n<p>6. 根據美國聯邦法律，參團期間車上禁止吸煙，絕大多數酒店房間也禁止吸煙；酒店的清潔人員都受過專業訓練，保安人員也會專業的留下證據，一旦被發現，會有每晚至少250 美元的清潔費用。這項費用由客人自己承擔，我司概不負責。若有吸煙需要，請到專門的吸煙區。</p>\n<p>7. 縱橫海鷗的所有行程一律不允許帶寵物和動物參團。</p>\n<p>8. 僅針對包含接機服務的產品：同一訂單僅提供一次免費接機時間範圍內的接機服務，如因天氣、航班延誤等造成無法安排，請自理交通費用。</p>\n<p>9. 緊急聯繫電話：（美國免費電話）+1(866)585-8747。</p>",
+          "secondary": "【預定須知】集團通用（不涉及跨境）"
+        },
+        "text": {
+          "primary": "預定須知：\n\n1. 18歲以下未成年人或兒童必須由成人陪伴參團，單獨旅行的未成年人或兒童不能參加縱橫海鷗的旅遊團。出於對孕婦安全的考慮，孕婦參團需在行程結束時懷孕不超過24周。\n\n2. 請在預定時務必提供準確、完整的資訊，包括姓名、性別、有效的聯繫方式（最好是手機，如有問題，方便通知）、準確的航班資訊或參團地點等，以免產生預定錯誤，影響出行。如因您提供錯誤資訊而造成損失，由您自行承擔。\n\n3. 酒店有不同的房間類型，例如一張King/Queen Size的大床房或兩張Double Size的雙床房。每個房間可合法住宿的最多人數在2 到4 人，包括成人和兒童。應部分酒店要求，每組參團客人需至少携帶一張可在目的地使用的信用卡或借記卡，届時需根據酒店的不同規定配合刷卡辦理押金收取和入住手續。如無個人消費，辦理退房後酒店會在7-14個工作日內將押金原路返還。縱橫海鷗保證客人的用房數量，但不保障具體房間類型和所處位置。酒店的入住時間通常在15:00以後。\n\n4. 參團客人需跟團上導遊購買門票，不可自行帶票或使用City Pass。景點的門票費和團上餐費可能會根據景點官方的臨時通知而變動，以當日景點公佈的價格為准。\n\n5. 縱橫海鷗有權在方便出團操作的情況下，對行程順序進行適當調整以確保旅遊團順利進行，但不會減少行程中應包含的項目。\n\n6. 實際出行過程中，導遊或司機有權根據天氣、交通等情況，適當調整景點的遊覽順序、停留時間或集合時間以確保行程順利進行。\n\n7. 如遇景點臨時關閉或節假日（感恩節、聖誕節、新年等）關閉等，導致無法參觀，導遊會根據實際情況調整為外觀或以其他景點代替以確保行程的豐富性。各景點及國家公園的開放時間及流量控制會因疫情不時變化，如影響行程屬不可抗力因素，敬請諒解。\n\n8. 八歲以下兒童參團需乘坐安全座椅，縱橫海鷗提供租借服務，租金$10.00/人/天，請務必在預定行程時提前備註告知，以便我們提前準備，如因客人未提前告知所造成的違規和罰金由客人自行承擔，敬請理解。出行當日安排大巴出行無需安全座椅，費用可退還客人。\n\n9. 行程中眾多旅遊景點需要參團人具備基本的健康條件。殘疾人士和行動不便者報名參團前請提前聯繫縱橫海鷗獲取相關政策資訊。若沒有及時通知，我司不能保證為客人提供輪椅升降巴士或安排合適的座位。\n\n10. 縱橫海鷗巴士團分為了四個等級：銀榜惠享、金榜怡享、白金尊享、鑽石臻享，詳情請查看產品分級（點擊藍色字體查看）。\n\n11. 縱橫集團可能會多次修改參團條款和條件，並會在代理網站上及時公佈最新版本。請遊客在報名參團前務必仔細閱讀《參團條例》（點擊藍色字體查看）。我司僅在這些條款和條件下履行義務，除非在此條例中或在法律中有特別規定，否則如果產生任何間接性，補償性，偶然性或懲罰性損害都不做出賠償。\n\n12. 面對持續上漲的燃油成本，車輛運營成本大大增加，2026年5月18日（出發班期）起，縱橫海鷗的巴士團産品需加收交通附加費$5/人/天，導游將在行程中統一收取。\n\n特殊說明：\n1）接機、送機當天如無其他巴士行程安排，不收取燃油附加費。\n2）不涉及巴士用車服務的天數不收取燃油附加費：例如佛州相關産品中客人自行搭乘園區接駁車往返主題樂園，或火車團産品中當天全程爲火車行程且無導游及巴士服務等情况。\n\n \n\n出行須知：\n\n1. 為保障行程順利完整，遊客有責任嚴格遵守導遊給出的集合時間。如果距離集合時間超過十分鐘，車子將離開不予等待。縱橫海鷗竭誠提供準時准點服務，但如遇到天氣、交通、機械故障、罷工、政府停擺以及戰爭和恐怖襲擊等不可控因素，我司無法保證按時按點到達接送地點。由此原因導致的行程延誤進而給客人帶來任何的不便或產生相關航班、火車或大巴費用以及其他旅遊費用等額外費用的，我司概不負責。\n\n2. 縱橫海鷗有權在方便出團操作的情況下，在途中將遊客從原車換到另一輛車並指派不同導遊和司機提供服務。\n\n3. 以下建議會幫助您更快更好的登記報到：需攜帶有效身份證件( 內附照片)；請出示紙質版或電子版行程單。\n\n4. 該產品是團體活動，如您選擇中途離團，請提前告知並征得導遊同意，需簽署離團協議書，未完成部分將被視為您自行放棄，團費不予退還。\n\n5. 行程中的贈送項目，如因交通、天氣等不可抗力因素導致不能贈送的、或因您個人原因不能參觀的，費用不退，敬請諒解。\n\n6. 根據美國聯邦法律，參團期間車上禁止吸煙，絕大多數酒店房間也禁止吸煙；酒店的清潔人員都受過專業訓練，保安人員也會專業的留下證據，一旦被發現，會有每晚至少250 美元的清潔費用。這項費用由客人自己承擔，我司概不負責。若有吸煙需要，請到專門的吸煙區。\n\n7. 縱橫海鷗的所有行程一律不允許帶寵物和動物參團。\n\n8. 僅針對包含接機服務的產品：同一訂單僅提供一次免費接機時間範圍內的接機服務，如因天氣、航班延誤等造成無法安排，請自理交通費用。\n\n9. 緊急聯繫電話：（美國免費電話）+1(866)585-8747。",
+          "secondary": "【預定須知】集團通用（不涉及跨境）"
+        },
+        "raw": {
+          "matterCode": "AT00000301",
+          "editType": 1,
+          "noticeType": 1,
+          "matterName": "【預定須知】集團通用（不涉及跨境）",
+          "vluesTip1": "<p><strong>預定須知：</strong></p>\n<p>1. 18歲以下未成年人或兒童必須由成人陪伴參團，單獨旅行的未成年人或兒童不能參加縱橫海鷗的旅遊團。出於對孕婦安全的考慮，孕婦參團需在行程結束時懷孕不超過24周。</p>\n<p>2. 請在預定時務必提供準確、完整的資訊，包括姓名、性別、有效的聯繫方式（最好是手機，如有問題，方便通知）、準確的航班資訊或參團地點等，以免產生預定錯誤，影響出行。如因您提供錯誤資訊而造成損失，由您自行承擔。</p>\n<p>3. 酒店有不同的房間類型，例如一張King/Queen Size的大床房或兩張Double Size的雙床房。每個房間可合法住宿的最多人數在2 到4 人，包括成人和兒童。<span style=\"color: #ba372a;\">應部分酒店要求，每組參團客人需至少携帶一張可在目的地使用的信用卡或借記卡，届時需根據酒店的不同規定配合刷卡辦理押金收取和入住手續。如無個人消費，辦理退房後酒店會在7-14個工作日內將押金原路返還。</span>縱橫海鷗保證客人的用房數量，但不保障具體房間類型和所處位置。酒店的入住時間通常在15:00以後。</p>\n<p>4. 參團客人需跟團上導遊購買門票，不可自行帶票或使用City Pass。景點的門票費和團上餐費可能會根據景點官方的臨時通知而變動，以當日景點公佈的價格為准。</p>\n<p>5. 縱橫海鷗有權在方便出團操作的情況下，對行程順序進行適當調整以確保旅遊團順利進行，但不會減少行程中應包含的項目。</p>\n<p>6. 實際出行過程中，導遊或司機有權根據天氣、交通等情況，適當調整景點的遊覽順序、停留時間或集合時間以確保行程順利進行。</p>\n<p>7. 如遇景點臨時關閉或節假日（感恩節、聖誕節、新年等）關閉等，導致無法參觀，導遊會根據實際情況調整為外觀或以其他景點代替以確保行程的豐富性。各景點及國家公園的開放時間及流量控制會因疫情不時變化，如影響行程屬不可抗力因素，敬請諒解。</p>\n<p>8. 八歲以下兒童參團需乘坐安全座椅，縱橫海鷗提供租借服務，租金$10.00/人/天，請務必在預定行程時提前備註告知，以便我們提前準備，如因客人未提前告知所造成的違規和罰金由客人自行承擔，敬請理解。出行當日安排大巴出行無需安全座椅，費用可退還客人。</p>\n<p>9. 行程中眾多旅遊景點需要參團人具備基本的健康條件。殘疾人士和行動不便者報名參團前請提前聯繫縱橫海鷗獲取相關政策資訊。若沒有及時通知，我司不能保證為客人提供輪椅升降巴士或安排合適的座位。</p>\n<p>10. 縱橫海鷗巴士團分為了四個等級：銀榜惠享、金榜怡享、白金尊享、鑽石臻享，詳情請查看<a href=\"https://uvbookings.info/upload/BMS/ProductLevel.pdf\" target=\"_blank\" rel=\"noopener\">產品分級</a>（點擊藍色字體查看）。</p>\n<p>11. 縱橫集團可能會多次修改參團條款和條件，並會在代理網站上及時公佈最新版本。請遊客在報名參團前務必仔細閱讀<a title=\"《參團條例》\" href=\"http://uvbookings.info/upload/terms/s.pdf\" target=\"_blank\" rel=\"noopener\">《參團條例》</a>（點擊藍色字體查看）。我司僅在這些條款和條件下履行義務，除非在此條例中或在法律中有特別規定，否則如果產生任何間接性，補償性，偶然性或懲罰性損害都不做出賠償。</p>\n<p><span style=\"color: #ba372a;\">12. 面對持續上漲的燃油成本，車輛運營成本大大增加，2026年5月18日（出發班期）起，縱橫海鷗的巴士團産品需加收交通附加費$5/人/天，導游將在行程中統一收取。</span></p>\n<p>特殊說明：<br />1）接機、送機當天如無其他巴士行程安排，不收取燃油附加費。<br />2）不涉及巴士用車服務的天數不收取燃油附加費：例如佛州相關産品中客人自行搭乘園區接駁車往返主題樂園，或火車團産品中當天全程爲火車行程且無導游及巴士服務等情况。</p>\n<p>&nbsp;</p>\n<p><strong>出行須知：</strong></p>\n<p>1. 為保障行程順利完整，遊客有責任嚴格遵守導遊給出的集合時間。如果距離集合時間超過十分鐘，車子將離開不予等待。縱橫海鷗竭誠提供準時准點服務，但如遇到天氣、交通、機械故障、罷工、政府停擺以及戰爭和恐怖襲擊等不可控因素，我司無法保證按時按點到達接送地點。由此原因導致的行程延誤進而給客人帶來任何的不便或產生相關航班、火車或大巴費用以及其他旅遊費用等額外費用的，我司概不負責。</p>\n<p>2. 縱橫海鷗有權在方便出團操作的情況下，在途中將遊客從原車換到另一輛車並指派不同導遊和司機提供服務。</p>\n<p>3. 以下建議會幫助您更快更好的登記報到：需攜帶有效身份證件( 內附照片)；請出示紙質版或電子版行程單。</p>\n<p>4. 該產品是團體活動，如您選擇中途離團，請提前告知並征得導遊同意，需簽署離團協議書，未完成部分將被視為您自行放棄，團費不予退還。</p>\n<p>5. 行程中的贈送項目，如因交通、天氣等不可抗力因素導致不能贈送的、或因您個人原因不能參觀的，費用不退，敬請諒解。</p>\n<p>6. 根據美國聯邦法律，參團期間車上禁止吸煙，絕大多數酒店房間也禁止吸煙；酒店的清潔人員都受過專業訓練，保安人員也會專業的留下證據，一旦被發現，會有每晚至少250 美元的清潔費用。這項費用由客人自己承擔，我司概不負責。若有吸煙需要，請到專門的吸煙區。</p>\n<p>7. 縱橫海鷗的所有行程一律不允許帶寵物和動物參團。</p>\n<p>8. 僅針對包含接機服務的產品：同一訂單僅提供一次免費接機時間範圍內的接機服務，如因天氣、航班延誤等造成無法安排，請自理交通費用。</p>\n<p>9. 緊急聯繫電話：（美國免費電話）+1(866)585-8747。</p>",
+          "vluesTip2": "【預定須知】集團通用（不涉及跨境）"
+        }
+      },
+      {
+        "matterCode": "CM00001158",
+        "noticeType": 0,
+        "typeLabel": "Cost description",
+        "matterName": "P00003810",
+        "html": {
+          "primary": "<p>1. 行程中交通費用（使用車輛類型根據當日具體參團人數決定，7座商務，14人座高頂/中巴，或55-61座巴士）；</p>\n<p>2. 行程中住宿（住宿晚數等於行程天數減一）；</p>\n<p>3. 中英文服務人員（司機+導遊/司兼導）；</p>\n<p>4. 波士頓往返華盛頓特區的火車票費用（艙位單程票價超過$100的部分，客人需自行補足差價，或者自費升級選擇其他艙位）；</p>\n<p>5. 酒店內早餐。</p>",
+          "secondary": "<p>1. 午餐和晚餐；</p>\n<p>2. 行程中需要的機票，渡輪，部分景區/國家公園內的遊覽交通費用；</p>\n<p>3. 景點門票費用（門票價格時常波動，不再另行通知。門票需在導遊處統一購買）；</p>\n<p>4. 服務費（每人每天最低支付US$15，兒童及占座嬰兒均按成人標準支付）；</p>\n<p>5. 酒店房間內私人費用（洗衣費，電話費等）；</p>\n<p>6. 一切除費用包含外的私人性質費用。</p>"
+        },
+        "text": {
+          "primary": "1. 行程中交通費用（使用車輛類型根據當日具體參團人數決定，7座商務，14人座高頂/中巴，或55-61座巴士）；\n\n2. 行程中住宿（住宿晚數等於行程天數減一）；\n\n3. 中英文服務人員（司機+導遊/司兼導）；\n\n4. 波士頓往返華盛頓特區的火車票費用（艙位單程票價超過$100的部分，客人需自行補足差價，或者自費升級選擇其他艙位）；\n\n5. 酒店內早餐。",
+          "secondary": "1. 午餐和晚餐；\n\n2. 行程中需要的機票，渡輪，部分景區/國家公園內的遊覽交通費用；\n\n3. 景點門票費用（門票價格時常波動，不再另行通知。門票需在導遊處統一購買）；\n\n4. 服務費（每人每天最低支付US$15，兒童及占座嬰兒均按成人標準支付）；\n\n5. 酒店房間內私人費用（洗衣費，電話費等）；\n\n6. 一切除費用包含外的私人性質費用。"
+        },
+        "raw": {
+          "matterCode": "CM00001158",
+          "editType": 0,
+          "noticeType": 0,
+          "matterName": "P00003810",
+          "vluesTip1": "<p>1. 行程中交通費用（使用車輛類型根據當日具體參團人數決定，7座商務，14人座高頂/中巴，或55-61座巴士）；</p>\n<p>2. 行程中住宿（住宿晚數等於行程天數減一）；</p>\n<p>3. 中英文服務人員（司機+導遊/司兼導）；</p>\n<p>4. 波士頓往返華盛頓特區的火車票費用（艙位單程票價超過$100的部分，客人需自行補足差價，或者自費升級選擇其他艙位）；</p>\n<p>5. 酒店內早餐。</p>",
+          "vluesTip2": "<p>1. 午餐和晚餐；</p>\n<p>2. 行程中需要的機票，渡輪，部分景區/國家公園內的遊覽交通費用；</p>\n<p>3. 景點門票費用（門票價格時常波動，不再另行通知。門票需在導遊處統一購買）；</p>\n<p>4. 服務費（每人每天最低支付US$15，兒童及占座嬰兒均按成人標準支付）；</p>\n<p>5. 酒店房間內私人費用（洗衣費，電話費等）；</p>\n<p>6. 一切除費用包含外的私人性質費用。</p>"
+        }
+      }
+    ],
+    "damagesInfo": []
+  },
+  "pickup_dropoff": {
+    "pickup": [
+      {
+        "code": "ANM00001256",
+        "viewCode": "參團",
+        "name": "波士頓：南站",
+        "address": "700 Atlantic Ave, Boston, MA 02205",
+        "description": "具體出發時間需要參照預定好的車票出發時間。",
+        "descriptionText": "具體出發時間需要參照預定好的車票出發時間。",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00001256",
+          "carpointName": "波士頓：南站",
+          "aggregationAddr": "700 Atlantic Ave, Boston, MA 02205",
+          "aggregationDesc": "具體出發時間需要參照預定好的車票出發時間。",
+          "isAirport": 0,
+          "carpointTimeCode": "",
+          "carpointTimeValue": null,
+          "carpointViewCode": "參團"
+        }
+      }
+    ],
+    "dropoff": [
+      {
+        "code": "ANM00001673",
+        "viewCode": "離團",
+        "name": "波士頓：南站",
+        "address": "700 Atlantic Ave, Boston, MA 02205",
+        "description": "回到波士頓南站後自行散團。",
+        "descriptionText": "回到波士頓南站後自行散團。",
+        "isAirport": false,
+        "raw": {
+          "carpointCode": "ANM00001673",
+          "carpointName": "波士頓：南站",
+          "aggregationAddr": "700 Atlantic Ave, Boston, MA 02205",
+          "aggregationDesc": "回到波士頓南站後自行散團。",
+          "isAirport": 0,
+          "carpointTimeCode": "",
+          "carpointTimeValue": null,
+          "carpointViewCode": "離團"
+        }
+      }
+    ],
+    "teamPickup": [],
+    "teamDropoff": []
+  },
+  "constraints": {
+    "confirmType": 1,
+    "confirmTypeLabel": "Confirm manually",
+    "isAgeLimited": false,
+    "needsIdNumber": false,
+    "isChildAvailable": false,
+    "childAge": "",
+    "childHeight": "",
+    "childNote": "",
+    "infantNote": "",
+    "seniorNote": "",
+    "raw": {
+      "confirmType": 1,
+      "isAge": 0,
+      "ageCode": "",
+      "ageName": null,
+      "isNumber": 0,
+      "isPrice": 1,
+      "isCarpoint": 1,
+      "isChild": 0,
+      "childAge": "",
+      "childHeight": "",
+      "childNote": "",
+      "isRange": 0,
+      "isAutoTeam": 1,
+      "isInfant": 0,
+      "infantAgeUpper": "",
+      "infantNote": "",
+      "isSenior": 0,
+      "seniorAgeLower": "",
+      "seniorNote": ""
+    }
+  },
+  "addons": [
+    {
+      "code": "S00008710",
+      "rewardCode": "RC00008723",
+      "name": "2天交通附加費",
+      "description": "USD$5/人/天",
+      "descriptionText": "USD$5/人/天",
+      "promoteType": 2,
+      "pricingType": 1,
+      "peopleType": 0,
+      "peopleTypeLabel": "All",
+      "amount": 10,
+      "currency": "USD",
+      "prices": [
+        {
+          "priceType": 1,
+          "label": "Adult",
+          "amount": 10,
+          "rewardPrice": 0,
+          "markup": 0,
+          "raw": {
+            "priceType": 1,
+            "groupPrice": 10,
+            "rewardPrice": 0,
+            "rewardType": 0,
+            "rewardValue": 0,
+            "currencyNum": null,
+            "exchangePrice": null
+          }
+        }
+      ],
+      "group": [
+        {
+          "groupDate": "0001-01-01 00:00:00",
+          "groupStock": 0,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "groupStatus": 200,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 10,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "currencyNum": null,
+              "exchangePrice": null
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": [],
+          "promoteCode": "S00008710",
+          "promoteGroupPattern": 1
+        }
+      ],
+      "clauses": [],
+      "raw": {
+        "mainLanguage": 2,
+        "productCode": "P00003810",
+        "promoteCode": "S00008710",
+        "rewardCode": "RC00008723",
+        "promotePattern": 1,
+        "promoteType": 2,
+        "bindType": 0,
+        "promoteDay": "",
+        "peopleType": 0,
+        "promoteName": "2天交通附加費",
+        "promoteDesc": "USD$5/人/天",
+        "promoteIsOutreach": null,
+        "outreachPromoteCode": "",
+        "promoteStatus": 200,
+        "promoteMoney": 10,
+        "promoteRewardMoney": 0,
+        "createTime": "2026-05-21 10:52:17.0",
+        "listPromoteClause": [],
+        "promoteGroup": [
+          {
+            "groupDate": "0001-01-01 00:00:00",
+            "groupStock": 0,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "groupStatus": 200,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 10,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "currencyNum": null,
+                "exchangePrice": null
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": [],
+            "promoteCode": "S00008710",
+            "promoteGroupPattern": 1
+          }
+        ],
+        "optionProductCode": null,
+        "productGroupDate": null,
+        "guideSaleType": 0,
+        "pricingType": 1
+      }
+    },
+    {
+      "code": "S00005128",
+      "rewardCode": "RC00005072",
+      "name": "2天服務費",
+      "description": "每人每天15美金",
+      "descriptionText": "每人每天15美金",
+      "promoteType": 2,
+      "pricingType": 1,
+      "peopleType": 0,
+      "peopleTypeLabel": "All",
+      "amount": 30,
+      "currency": "USD",
+      "prices": [
+        {
+          "priceType": 1,
+          "label": "Adult",
+          "amount": 30,
+          "rewardPrice": 0,
+          "markup": 0,
+          "raw": {
+            "priceType": 1,
+            "groupPrice": 30,
+            "rewardPrice": 0,
+            "rewardType": 0,
+            "rewardValue": 0,
+            "currencyNum": null,
+            "exchangePrice": null
+          }
+        }
+      ],
+      "group": [
+        {
+          "groupDate": "0001-01-01 00:00:00",
+          "groupStock": 0,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "groupStatus": 200,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 1,
+              "groupPrice": 30,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "currencyNum": null,
+              "exchangePrice": null
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": [],
+          "promoteCode": "S00005128",
+          "promoteGroupPattern": 1
+        }
+      ],
+      "clauses": [],
+      "raw": {
+        "mainLanguage": 2,
+        "productCode": "P00003810",
+        "promoteCode": "S00005128",
+        "rewardCode": "RC00005072",
+        "promotePattern": 1,
+        "promoteType": 2,
+        "bindType": 0,
+        "promoteDay": "",
+        "peopleType": 0,
+        "promoteName": "2天服務費",
+        "promoteDesc": "每人每天15美金",
+        "promoteIsOutreach": null,
+        "outreachPromoteCode": "",
+        "promoteStatus": 200,
+        "promoteMoney": 30,
+        "promoteRewardMoney": 0,
+        "createTime": "2021-11-30 09:40:21.0",
+        "listPromoteClause": [],
+        "promoteGroup": [
+          {
+            "groupDate": "0001-01-01 00:00:00",
+            "groupStock": 0,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "groupStatus": 200,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 30,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "currencyNum": null,
+                "exchangePrice": null
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": [],
+            "promoteCode": "S00005128",
+            "promoteGroupPattern": 1
+          }
+        ],
+        "optionProductCode": null,
+        "productGroupDate": null,
+        "guideSaleType": 0,
+        "pricingType": 1
+      }
+    }
+  ],
+  "shopify_mapping": {
+    "title": "【金榜怡享】美國 波士頓火車往返 | 華盛頓特區賞櫻 2日遊",
+    "handle": "p00003810-2",
+    "vendor": "Jupiter Legend Corporation",
+    "productType": "Boston",
+    "tags": [
+      "ToursBMS",
+      "Boston",
+      "2 days"
+    ],
+    "status": "active_candidate",
+    "bodyHtml": "<h2>Highlights</h2>\n<p>【粉色天堂】又是一年櫻花季，數千棵櫻花樹同時綻放，收穫浪漫櫻花美景！</p>\n<p>【暢遊首都】遊覽美國政治中心華盛頓，打卡傑斐遜紀念堂、華盛頓聯合市場等地標景點。</p>\n\n<h2>Departure Date</h2>\n<p>03/21/2026-04/11/2026：週六<br>兩人成團，保證出發。</p>\n\n<h2>Cost Includes</h2>\n<p>1. 行程中交通費用（使用車輛類型根據當日具體參團人數決定，7座商務，14人座高頂/中巴，或55-61座巴士）；</p>\n<p>2. 行程中住宿（住宿晚數等於行程天數減一）；</p>\n<p>3. 中英文服務人員（司機+導遊/司兼導）；</p>\n<p>4. 波士頓往返華盛頓特區的火車票費用（艙位單程票價超過$100的部分，客人需自行補足差價，或者自費升級選擇其他艙位）；</p>\n<p>5. 酒店內早餐。</p>\n<h2>Cost Excludes</h2>\n<p>1. 午餐和晚餐；</p>\n<p>2. 行程中需要的機票，渡輪，部分景區/國家公園內的遊覽交通費用；</p>\n<p>3. 景點門票費用（門票價格時常波動，不再另行通知。門票需在導遊處統一購買）；</p>\n<p>4. 服務費（每人每天最低支付US$15，兒童及占座嬰兒均按成人標準支付）；</p>\n<p>5. 酒店房間內私人費用（洗衣費，電話費等）；</p>\n<p>6. 一切除費用包含外的私人性質費用。</p>\n\n<h2>Cancellation Policy</h2>\n<p>1. 如遇天氣、戰爭、罷工等人力不可抗拒因素無法遊覽，本公司將有權更改行程，景點門票費用退還（贈送的自費項目除外），報名團費不退還；&nbsp;</p>\n<p>2. 取消條款如下：</p>\n<p>&nbsp; &nbsp;a. &nbsp;如果團組在出發前15日 (含) ，要求取消或改期，團費不扣，其他加定酒店、機票或服務需參照酒店或航司規定而確定是否能退款。</p>\n<p>&nbsp; &nbsp;b. &nbsp;在出發前8日 (含) 至 14日 (含) ，要求取消或改期，需扣50%團費，其他加定酒店或服務需參照酒店規定而確定是否能退款。</p>\n<p>&nbsp; &nbsp;c. &nbsp;如果團組在出發前7日 (含) 至出發當天要求取消或出發當日未能準時參加者，作自動放棄論，已付團費概不退還。</p>\n<p>&nbsp; &nbsp;d.&nbsp; 如貴司或客人因個人原因 (無旅行證件、遲到、生病、意外等因素) 於旅途中退出或未能參加行程內任何行程，已付團費概不退還，也不會以其他服務賠償。</p>\n<h2>Know Before You Book</h2>\n<p><strong>預定須知：</strong></p>\n<p>1. 18歲以下未成年人或兒童必須由成人陪伴參團，單獨旅行的未成年人或兒童不能參加縱橫海鷗的旅遊團。出於對孕婦安全的考慮，孕婦參團需在行程結束時懷孕不超過24周。</p>\n<p>2. 請在預定時務必提供準確、完整的資訊，包括姓名、性別、有效的聯繫方式（最好是手機，如有問題，方便通知）、準確的航班資訊或參團地點等，以免產生預定錯誤，影響出行。如因您提供錯誤資訊而造成損失，由您自行承擔。</p>\n<p>3. 酒店有不同的房間類型，例如一張King/Queen Size的大床房或兩張Double Size的雙床房。每個房間可合法住宿的最多人數在2 到4 人，包括成人和兒童。<span style=\"color: #ba372a;\">應部分酒店要求，每組參團客人需至少携帶一張可在目的地使用的信用卡或借記卡，届時需根據酒店的不同規定配合刷卡辦理押金收取和入住手續。如無個人消費，辦理退房後酒店會在7-14個工作日內將押金原路返還。</span>縱橫海鷗保證客人的用房數量，但不保障具體房間類型和所處位置。酒店的入住時間通常在15:00以後。</p>\n<p>4. 參團客人需跟團上導遊購買門票，不可自行帶票或使用City Pass。景點的門票費和團上餐費可能會根據景點官方的臨時通知而變動，以當日景點公佈的價格為准。</p>\n<p>5. 縱橫海鷗有權在方便出團操作的情況下，對行程順序進行適當調整以確保旅遊團順利進行，但不會減少行程中應包含的項目。</p>\n<p>6. 實際出行過程中，導遊或司機有權根據天氣、交通等情況，適當調整景點的遊覽順序、停留時間或集合時間以確保行程順利進行。</p>\n<p>7. 如遇景點臨時關閉或節假日（感恩節、聖誕節、新年等）關閉等，導致無法參觀，導遊會根據實際情況調整為外觀或以其他景點代替以確保行程的豐富性。各景點及國家公園的開放時間及流量控制會因疫情不時變化，如影響行程屬不可抗力因素，敬請諒解。</p>\n<p>8. 八歲以下兒童參團需乘坐安全座椅，縱橫海鷗提供租借服務，租金$10.00/人/天，請務必在預定行程時提前備註告知，以便我們提前準備，如因客人未提前告知所造成的違規和罰金由客人自行承擔，敬請理解。出行當日安排大巴出行無需安全座椅，費用可退還客人。</p>\n<p>9. 行程中眾多旅遊景點需要參團人具備基本的健康條件。殘疾人士和行動不便者報名參團前請提前聯繫縱橫海鷗獲取相關政策資訊。若沒有及時通知，我司不能保證為客人提供輪椅升降巴士或安排合適的座位。</p>\n<p>10. 縱橫海鷗巴士團分為了四個等級：銀榜惠享、金榜怡享、白金尊享、鑽石臻享，詳情請查看<a href=\"https://uvbookings.info/upload/BMS/ProductLevel.pdf\" target=\"_blank\" rel=\"noopener\">產品分級</a>（點擊藍色字體查看）。</p>\n<p>11. 縱橫集團可能會多次修改參團條款和條件，並會在代理網站上及時公佈最新版本。請遊客在報名參團前務必仔細閱讀<a title=\"《參團條例》\" href=\"http://uvbookings.info/upload/terms/s.pdf\" target=\"_blank\" rel=\"noopener\">《參團條例》</a>（點擊藍色字體查看）。我司僅在這些條款和條件下履行義務，除非在此條例中或在法律中有特別規定，否則如果產生任何間接性，補償性，偶然性或懲罰性損害都不做出賠償。</p>\n<p><span style=\"color: #ba372a;\">12. 面對持續上漲的燃油成本，車輛運營成本大大增加，2026年5月18日（出發班期）起，縱橫海鷗的巴士團産品需加收交通附加費$5/人/天，導游將在行程中統一收取。</span></p>\n<p>特殊說明：<br />1）接機、送機當天如無其他巴士行程安排，不收取燃油附加費。<br />2）不涉及巴士用車服務的天數不收取燃油附加費：例如佛州相關産品中客人自行搭乘園區接駁車往返主題樂園，或火車團産品中當天全程爲火車行程且無導游及巴士服務等情况。</p>\n<p>&nbsp;</p>\n<p><strong>出行須知：</strong></p>\n<p>1. 為保障行程順利完整，遊客有責任嚴格遵守導遊給出的集合時間。如果距離集合時間超過十分鐘，車子將離開不予等待。縱橫海鷗竭誠提供準時准點服務，但如遇到天氣、交通、機械故障、罷工、政府停擺以及戰爭和恐怖襲擊等不可控因素，我司無法保證按時按點到達接送地點。由此原因導致的行程延誤進而給客人帶來任何的不便或產生相關航班、火車或大巴費用以及其他旅遊費用等額外費用的，我司概不負責。</p>\n<p>2. 縱橫海鷗有權在方便出團操作的情況下，在途中將遊客從原車換到另一輛車並指派不同導遊和司機提供服務。</p>\n<p>3. 以下建議會幫助您更快更好的登記報到：需攜帶有效身份證件( 內附照片)；請出示紙質版或電子版行程單。</p>\n<p>4. 該產品是團體活動，如您選擇中途離團，請提前告知並征得導遊同意，需簽署離團協議書，未完成部分將被視為您自行放棄，團費不予退還。</p>\n<p>5. 行程中的贈送項目，如因交通、天氣等不可抗力因素導致不能贈送的、或因您個人原因不能參觀的，費用不退，敬請諒解。</p>\n<p>6. 根據美國聯邦法律，參團期間車上禁止吸煙，絕大多數酒店房間也禁止吸煙；酒店的清潔人員都受過專業訓練，保安人員也會專業的留下證據，一旦被發現，會有每晚至少250 美元的清潔費用。這項費用由客人自己承擔，我司概不負責。若有吸煙需要，請到專門的吸煙區。</p>\n<p>7. 縱橫海鷗的所有行程一律不允許帶寵物和動物參團。</p>\n<p>8. 僅針對包含接機服務的產品：同一訂單僅提供一次免費接機時間範圍內的接機服務，如因天氣、航班延誤等造成無法安排，請自理交通費用。</p>\n<p>9. 緊急聯繫電話：（美國免費電話）+1(866)585-8747。</p>",
+    "options": [
+      "Package price type"
+    ],
+    "variants": [],
+    "metafields": {
+      "toursbms_product_code": "P00003810",
+      "toursbms_group_no": "BDCT2",
+      "toursbms_view_code": "R0002594",
+      "duration_days": 2,
+      "duration_nights": 1
+    }
+  },
+  "source": {
+    "productPageUrl": "https://uvbookings.toursbms.com/zh/product/detail?productCode=P00003810",
+    "branchCode": "B00000003",
+    "branchName": "纵横集团",
+    "language": 2,
+    "languagePackage": {
+      "CON000252": "產品大類",
+      "CON000314": "飛機",
+      "CON000315": "火車",
+      "CON000316": "汽車",
+      "CON000317": "郵輪",
+      "CON000318": "其他",
+      "CON000321": "航班",
+      "CON000322": "交通",
+      "CON000323": "景點",
+      "CON000324": "用餐",
+      "CON000325": "購物",
+      "CON000326": "自由活動",
+      "CON000329": "待定",
+      "CON000330": "直飛",
+      "CON000331": "中轉",
+      "CON000332": "行駛距離",
+      "CON000333": "行駛時間",
+      "CON000334": "小時",
+      "CON000335": "分鐘",
+      "CON000338": "早餐",
+      "CON000339": "午餐",
+      "CON000340": "晚餐",
+      "CON000341": "用餐內容",
+      "CON000342": "活動時間",
+      "CON000343": "用餐時間",
+      "CON000344": "自理",
+      "CON000358": "費用包含",
+      "CON000359": "費用不含",
+      "CON000363": "預訂須知",
+      "CON000364": "出行提示",
+      "CON000365": "退改說明",
+      "CON000366": "簽證說明",
+      "CON000370": "購物點名稱",
+      "CON000375": "價格說明",
+      "CON000377": "價格",
+      "CON000380": "團號",
+      "CON000383": "產品形態",
+      "CON000384": "跟團遊",
+      "CON000385": "半自助",
+      "CON000386": "私家團",
+      "CON000389": "交通工具",
+      "CON000390": "參團地點",
+      "CON000392": "離團地點",
+      "CON000394": "產品特色",
+      "CON000395": "促銷資訊",
+      "CON000397": "產品資訊",
+      "CON000400": "確認方式",
+      "CON000401": "人工確認",
+      "CON000402": "系統確認",
+      "CON000403": "年齡限制",
+      "CON000404": "不限制",
+      "CON000405": "限制",
+      "CON000406": "是否需要證件號碼預訂",
+      "CON000407": "不需要",
+      "CON000408": "需要",
+      "CON000413": "兒童標準",
+      "CON000414": "年齡小於等於",
+      "CON000415": "身高小於等於",
+      "CON000439": "天",
+      "CON000440": "晚",
+      "CON000450": "費用說明",
+      "CON000451": "自費專案",
+      "CON000454": "包含天數",
+      "CON000458": "購物推薦",
+      "CON000484": "增值服務",
+      "CON000485": "房型升級",
+      "CON000486": "其他費用",
+      "CON000487": "名稱",
+      "CON000489": "包含人群",
+      "CON000491": "查看更多",
+      "CON000512": "酒店",
+      "CON000533": "全天",
+      "CON000534": "上午",
+      "CON000535": "下午",
+      "CON000536": "晚上",
+      "CON000539": "或",
+      "CON000540": "與",
+      "CON000557": "購物描述",
+      "CON000581": "周日",
+      "CON000582": "週一",
+      "CON000583": "週二",
+      "CON000584": "週三",
+      "CON000585": "週四",
+      "CON000586": "週五",
+      "CON000587": "週六",
+      "CON000651": "成人",
+      "CON000652": "兒童",
+      "CON000653": "類型",
+      "CON000654": "間",
+      "CON000676": "無",
+      "CON000691": "搜索",
+      "CON000692": "價格區間",
+      "CON000693": "多選",
+      "CON000694": "不限",
+      "CON000696": "很抱歉，沒有找到符合條件的相關產品。",
+      "CON000699": "綜合",
+      "CON000700": "價格從低到高",
+      "CON000701": "價格從高到底",
+      "CON000702": "最近班期",
+      "CON000703": "查看班期",
+      "CON000704": "最早出發",
+      "CON000705": "最晚出發",
+      "CON000707": "更多",
+      "CON000708": "銷售範圍",
+      "CON000709": "查看全部",
+      "CON000710": "參/離團地點",
+      "CON000711": "繁體中文行程",
+      "CON000712": "簡體中文行程",
+      "CON000713": "英文行程",
+      "CON000714": "選擇團期",
+      "CON000715": "充足",
+      "CON000716": "少量",
+      "CON000717": "客滿",
+      "CON000718": "當前幣種",
+      "CON000720": "匯出",
+      "CON000721": "列印",
+      "CON000722": "發送",
+      "CON000723": "更多價格",
+      "CON000724": "行程介紹",
+      "CON000725": "協議",
+      "CON000726": "須知",
+      "CON000727": "全部條件",
+      "CON000728": "全部清除",
+      "CON000729": "收起班期",
+      "CON000730": "價格待定",
+      "CON000731": "起始天數不能大於結束天數",
+      "CON000732": "最小價格不能大於最大價格",
+      "CON000733": "最早出發不能晚於最晚出發",
+      "CON000734": "請輸入產品名稱、副標題、團號、出發城市、目的地",
+      "CON000735": "產品詳情",
+      "CON000736": "團期庫存",
+      "CON000737": "基礎價格",
+      "CON000738": "郵件發送",
+      "CON000739": "收件箱",
+      "CON000740": "產品 特色",
+      "CON000741": "費用 說明",
+      "CON000742": "行程 介紹",
+      "CON000743": "購物 推薦",
+      "CON000744": "項目名稱",
+      "CON000745": "預定限制",
+      "CON000746": "兒童是否可訂",
+      "CON000747": "購物點列表",
+      "CON000748": "費用自理",
+      "CON000749": "語言版本",
+      "CON000751": "產品價格",
+      "CON000752": "參團地點",
+      "CON000753": "離團地點",
+      "CON000754": "出發",
+      "CON000755": "詳細地址",
+      "CON000756": "附件",
+      "CON000757": "發送檔案類型",
+      "CON000758": "參考附件",
+      "CON000759": "協議 須知",
+      "CON001251": "說明",
+      "CON001325": "導遊根據行程安排",
+      "CON001326": "或者",
+      "CON001327": "當前語言",
+      "CON001494": "暫未開通網站，請聯繫管理員！",
+      "CON001495": "網站正在維護中，敬請期待！",
+      "CON001501": "進入後臺",
+      "CON001504": "請輸入目的地、主題或者關鍵字",
+      "CON001505": "重新載入",
+      "CON001517": "產品資訊已失效",
+      "CON001770": "飛行時間",
+      "CON001771": "飛行距離",
+      "CON002014": "匯出簡版Word",
+      "CON002015": "匯出簡版PDF",
+      "CON002052": "出發班期",
+      "CON002054": "接機",
+      "CON002055": "送機",
+      "CON002056": "接/送機",
+      "CON002135": "所有語言行程",
+      "CON002192": "共【#Number#】个参团地点",
+      "CON002193": "已售磬",
+      "CON002316": "共【#Number#】个离团地点",
+      "CON002331": "必選",
+      "CON002332": "奇數必選",
+      "CON002333": "【#priceitems#】必選的費用項，數量為對應價格項的【房間數】",
+      "CON002334": "【#priceitems#】必選的費用項，數量為對應價格項的【遊客數】",
+      "CON002335": "【#priceitems#】數量為”奇數“時，必選的費用項，數量為”1“",
+      "CON002552": "今日地點",
+      "CON002570": "人均參考消費",
+      "CON002574": "經濟艙",
+      "CON002575": "超級經濟艙",
+      "CON002576": "商務艙",
+      "CON002577": "頭等艙",
+      "CON002675": "請輸入產品名稱、副標題",
+      "CON002676": "提前【#advanceDay#】天之前預訂",
+      "CON002677": "使用日期範圍記憶體在無效團期",
+      "CON002678": "請選擇使用日期",
+      "CON002679": "數量小計",
+      "CON002688": "預訂【#html#】須知",
+      "CON002760": "入住城市"
+    },
+    "endpoints": {
+      "productBasic": "https://online.ctrip.com/restapi/soa2/17626/getProductBasic.json",
+      "productTravelDetail": "https://online.ctrip.com/restapi/soa2/17626/getProductTravelDetail.json",
+      "productGroup": "https://online.ctrip.com/restapi/soa2/17626/getProductGroup.json",
+      "productPromote": "https://online.ctrip.com/restapi/soa2/17626/getProductPromote.json",
+      "currencies": "https://online.ctrip.com/restapi/soa2/18554/getListWebSiteCurrency.json"
+    },
+    "raw": {
+      "branchInfo": {
+        "branchCode": "B00000003",
+        "branchName": "纵横集团",
+        "branchFullName": "纵横集团 Jupiter Legend Corporation",
+        "branchLogo": "02S5n12000t1twue4730B.png",
+        "logoImageUrl": "https://dimg04.c-ctrip.com/target/02S5n12000t1twue4730B.png",
+        "defaultLanguage": 2,
+        "supportLanguage": [
+          2,
+          1,
+          3
+        ],
+        "branchIsWeb": 1,
+        "showPOILink": 0,
+        "timeZoneModel": {
+          "isSummer": 1,
+          "timeZoneCode": "TZ0009",
+          "timeZoneName": "UTC-5:00",
+          "timeZoneDesc": "波哥大、利马、基多、里奥布朗库、东部时间（美国和加拿大）、哈瓦那、海地、切图马尔、印地安那州（东部）",
+          "timeZoneDiff": -780
+        },
+        "webSiteInfo": [
+          {
+            "websiteCode": "W000010",
+            "languageType": 3,
+            "websiteIsDefault": 1
+          },
+          {
+            "websiteCode": "W000008",
+            "languageType": 1,
+            "websiteIsDefault": 0
+          },
+          {
+            "websiteCode": "W000003",
+            "languageType": 2,
+            "websiteIsDefault": 0
+          }
+        ],
+        "currencyInfo": {
+          "currencyCode": "CI00000002",
+          "currencyNum": "USD",
+          "currencyName": "美元",
+          "currencySymbol": "$"
+        },
+        "tokenCode": "WEBSITEMjAyNi0wNy0xMyZCMDAwMDAwMDMmMjAyNi0wNy0xOA==",
+        "openStockRule": 1,
+        "stockRuleList": [
+          {
+            "showRule": 1,
+            "content": 0,
+            "minStock": 6,
+            "maxStock": 0,
+            "isInfinite": 1
+          },
+          {
+            "showRule": 1,
+            "content": 1,
+            "minStock": 1,
+            "maxStock": 5,
+            "isInfinite": 0
+          },
+          {
+            "showRule": 1,
+            "content": 2,
+            "minStock": 0,
+            "maxStock": 0,
+            "isInfinite": 0
+          }
+        ]
+      },
+      "basic": {
+        "createTime": "2023-02-06 14:02:16",
+        "releaseTime": "2025-12-05 10:31:57",
+        "changeTime": "2026-05-21 15:58:37",
+        "productStatus": 200,
+        "supLanguages": "3,2,1",
+        "productMain": {
+          "mainLanguage": 2,
+          "productCode": "P00003810",
+          "productViewCode": "R0002594",
+          "groupNo": "BDCT2",
+          "productClass": 1,
+          "carpointOff": 3,
+          "carpointOn": 3,
+          "productType": "PC00000021",
+          "productTypeName": "Boston",
+          "tripDay": 2,
+          "nightDay": 1,
+          "productForm": 1,
+          "productRoom": 2,
+          "productVehicle": "2",
+          "productTransfer": "",
+          "productName": "【金榜怡享】美國 波士頓火車往返 | 華盛頓特區賞櫻 2日遊",
+          "subtitleName": "",
+          "productSpecial": "<p>【粉色天堂】又是一年櫻花季，數千棵櫻花樹同時綻放，收穫浪漫櫻花美景！</p>\n<p>【暢遊首都】遊覽美國政治中心華盛頓，打卡傑斐遜紀念堂、華盛頓聯合市場等地標景點。</p>",
+          "salesNote": "",
+          "departureDate": "03/21/2026-04/11/2026：週六\n兩人成團，保證出發。",
+          "rewardCode": "RM00001255",
+          "createTime": "2023-02-06 14:02:16",
+          "datachangelasttime": "2026-05-21 15:58:37",
+          "dataVersion": 1772076398,
+          "productPriceAuto": 0,
+          "advanceDay": -1,
+          "advanceTime": "",
+          "productIsOutreach": null,
+          "upperProductCode": null,
+          "upperUpBranchCode": null,
+          "productAttribute": 1,
+          "productClassify": 0,
+          "schemeName": null,
+          "productStatus": 200,
+          "otherCurrencySupport": [],
+          "productRateInfoList": [],
+          "isLocalResidentOptional": 0
+        },
+        "productImg": [
+          "02S4s12000jcghde7FDA7.jpg"
+        ],
+        "productPointStart": {
+          "regionCode": "A330",
+          "regionName": "波士頓 Boston",
+          "resourceType": 0
+        },
+        "productPointEnd": {
+          "regionCode": "A330",
+          "regionName": "波士頓 Boston",
+          "resourceType": 0
+        },
+        "productDestination": [
+          {
+            "countryCode": "",
+            "countryName": "",
+            "provinceCode": "A353",
+            "provinceName": "華盛頓特區 Washington D.C.",
+            "scenicCode": "",
+            "scenicName": "",
+            "scenicSpotCode": "",
+            "scenicSpotName": "",
+            "resourceType": 0
+          }
+        ],
+        "productCarpointUpper": [
+          {
+            "carpointCode": "ANM00001256",
+            "carpointName": "波士頓：南站",
+            "aggregationAddr": "700 Atlantic Ave, Boston, MA 02205",
+            "aggregationDesc": "具體出發時間需要參照預定好的車票出發時間。",
+            "isAirport": 0,
+            "carpointTimeCode": "",
+            "carpointTimeValue": null,
+            "carpointViewCode": "參團"
+          }
+        ],
+        "productCarpointDown": [
+          {
+            "carpointCode": "ANM00001673",
+            "carpointName": "波士頓：南站",
+            "aggregationAddr": "700 Atlantic Ave, Boston, MA 02205",
+            "aggregationDesc": "回到波士頓南站後自行散團。",
+            "isAirport": 0,
+            "carpointTimeCode": "",
+            "carpointTimeValue": null,
+            "carpointViewCode": "離團"
+          }
+        ],
+        "productConstraint": {
+          "confirmType": 1,
+          "isAge": 0,
+          "ageCode": "",
+          "ageName": null,
+          "isNumber": 0,
+          "isPrice": 1,
+          "isCarpoint": 1,
+          "isChild": 0,
+          "childAge": "",
+          "childHeight": "",
+          "childNote": "",
+          "isRange": 0,
+          "isAutoTeam": 1,
+          "isInfant": 0,
+          "infantAgeUpper": "",
+          "infantNote": "",
+          "isSenior": 0,
+          "seniorAgeLower": "",
+          "seniorNote": ""
+        },
+        "productRange": [],
+        "productRecommendList": [],
+        "otherSchemes": null,
+        "productImageUrl": [
+          "https://dimg04.c-ctrip.com/target/02S4s12000jcghde7FDA7.jpg"
+        ],
+        "tagList": null,
+        "teamCarpointUpper": [],
+        "teamCarpointDown": [],
+        "productImageList": [
+          {
+            "imageUrl": "02S4s12000jcghde7FDA7.jpg",
+            "imageName": ""
+          }
+        ]
+      },
+      "travelDetail": {
+        "productTravel": {
+          "productCode": "P00003810",
+          "dataVersion": 1772076398,
+          "productDay": 2,
+          "productNight": 1,
+          "travelId": 7137,
+          "productType": "PC00000021",
+          "productTypeName": "Boston",
+          "travelName": "【金榜怡享】美國 波士頓火車往返 | 華盛頓特區賞櫻 2日遊",
+          "productTravelInfoList": [
+            {
+              "isSource": 1,
+              "language": 2,
+              "dayList": [
+                {
+                  "section": "波士頓|||2+++華盛頓特區",
+                  "todayLocation": "",
+                  "dayNumber": 1,
+                  "content": [
+                    {
+                      "contentMode": 3,
+                      "productSortNum": null,
+                      "relatedId": 7135,
+                      "relatedDay": 1,
+                      "relatedName": "【BDCT2-1】波士頓 - 華盛頓特區",
+                      "contentType": 100,
+                      "sortNumber": 0,
+                      "jsonContent": "{\"travelId\":7135,\"productCategory\":1,\"name\":\"【BDCT2-1】波士頓 - 華盛頓特區\",\"productType\":\"PC00000021\",\"isAutoTeam\":null,\"expandList\":[{\"language\":2,\"isSource\":1,\"dayList\":[{\"section\":\"波士頓|||2+++華盛頓特區\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD7ku4rlpKnmgqjlsIflvp7ms6Llo6vpoJPlh7rnmbzvvIzoh6rooYzkuZjlnZDngavou4rliY3lvoDoj6/nm5vpoJPnibnljYDvvIzkuIDotbfplovllZ/os57mq7vkuYvml4XvvIHmq7voirHmmK/nvo7lnIvpppbpg73oj6/nm5vpoJPmnIDploPkuq7nmoTln47luILlkI3niYfkuYvkuIDvvIzlnKjlsIjmpa3lsI7pgYrnmoTluLbpoJjkuIvmiJHlgJHlsIfpppblhYjliY3lvoDogq/kvI3lvrfnpL7ljYDos57mq7vjgILpmqjlvozmiJHlgJHlsIfkuZjou4rliY3lvoDkup7mrbflsbHlpKfogIHln47jgILoiIfoj6/nm5vpoJPnibnljYDojorlmrTogoXnqYbnmoTmsKPmsJvov6XnhLbkuI3lkIzvvIzlnKjogIHln47vvIzmgqjlj6/ku6Xnm6Hmg4Xkuqvlj5fpmb3lhYnjgIHoibLlvanjgIHooZfpoK3pn7PmqILlkozlkITlnIvnvo7po5/vvIzmhJ/lj5fogIHln47mgqDplpLnmoTnlJ/mtLvjgII8L3A+XG48cD4mbmJzcDs8L3A+XG48cD48c3Ryb25nPuihjOeoi+WuieaOku+8mjwvc3Ryb25nPjwvcD5cbjxwPjxzdHJvbmc+5rOi5aOr6aCT5LmY5Z2Q54Gr6LuK5YmN5b6A6I+v55ub6aCT54m55Y2A77yIPHNwYW4gc3R5bGU9XCJjb2xvcjogI2JhMzcyYTtcIj7ngavou4rkuIrnhKHlsI7pgYrpmarlkIzvvIzoiZnkvY3llq7nqIvnpajlg7notoXpgY4kMTAw55qE6YOo5YiG77yM5a6i5Lq66ZyA6Ieq6KGM6KOc6Laz5beu5YO577yM5oiW6ICF6Ieq6LK75Y2H57Sa6YG45pOH5YW25LuW6ImZ5L2NPC9zcGFuPu+8iSZyYXJyOyDogq/kvI3lvrfnpL7ljYDos57mq7s8L3N0cm9uZz7vvIg5MOWIhumQmO+8iTxzdHJvbmc+JnJhcnI7IOS6nuatt+WxseWkp+iAgeWfjjwvc3Ryb25nPu+8iDgw5YiG6ZCY77yM5ZCr5pma6aSQ5pmC6ZaT77yJPHN0cm9uZz4mcmFycjsg6YWS5bqXPC9zdHJvbmc+PC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz7lgpnoqLvvvJo8L3N0cm9uZz48L3A+XG48cD4xLiDngavou4rpppbpgbjnj63mrKHos4foqIrvvJpBbXRyYWsgLSAxOTUgTm9ydGhlYXN0IFJlZ2lvbmFsPC9wPlxuPHA+RGVwYXJ0cyBCb3N0b24sIE1BIC0gU291dGggU3RhdGlvbihCT1MpIC0gNjozMGE8L3A+XG48cD5BcnJpdmVzIFdhc2hpbmd0b24sIERDIC0gVW5pb24gU3RhdGlvbiAoV0FTKSAtIDI6MjVwPC9wPlxuPHA+PHNwYW4gc3R5bGU9XCJjb2xvcjogI2JhMzcyYTtcIj4q5YiX6LuK54+t5qyh5YOF5L6b5Y+D6ICD77yM6KuL5Lul5a+m6Zqb6aCQ6KiC54+t5qyh54K65rqW44CCPC9zcGFuPjwvcD5cbjxwPjxzcGFuIHN0eWxlPVwiY29sb3I6ICNiYTM3MmE7XCI+Mi4g54Gr6LuK56Wo6LOH5rqQ57eK5by177yM5by354OI5bu66K2w5oKo5YSY5pep6aCQ6KiC77yM6YG/5YWN5Ye654++6LuK56Wo5Zug5ZSu572E54Sh5rOV6aCQ6KiC55qE5oOF5rOB44CC6ImZ5L2N5Zau56iL56Wo5YO56LaF6YGOJDEwMOeahOmDqOWIhu+8jOWuouS6uumcgOiHquihjOijnOi2s+W3ruWDue+8jOaIluiAheiHquiyu+WNh+e0mumBuOaTh+WFtuS7luiJmeS9je+8jOS4i+WWruWJjeiri+iBr+e5q+WuouacjeS6jOasoeeiuuiqjeOAgjwvc3Bhbj48L3A+XG48cD48c3BhbiBzdHlsZT1cImNvbG9yOiAjYmEzNzJhO1wiPjMuIOeBq+i7iuS4iueEoeWwjumBiumZquWQjOOAgjwvc3Bhbj48L3A+IiwidGltZSI6IjEifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":1,\"jsonContent\":\"eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJ0eXBlIjowLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMjAxOCIsInNjZW5pY05hbWUiOiLogq/kvI3lvrfnpL7ljYDos57mq7sgS2Vud29vZCBDb21tdW5pdHkgQ2hlcnJ5IEJsb3Nzb20iLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+5q+P5bm05pil5aSp6YO95pyD5pyJMTIwMOajteWQiemHjuaru+ahg+aoueWcqOmAmeWAi+Wwj+iCr+S8jeW+t+ekvuWNgOebm+mWi+WHuueyieiJsuWSjOeZveiJsueahOiKseacte+8jOi2hee0mua1qua8q+OAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfSx7ImFjdGl2aXR5Tm8iOjIsInR5cGUiOjIsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAxMDg5Iiwic2NlbmljTmFtZSI6IuS6nuatt+WxseWkp+iAgeWfjiBPbGQgVG93biBBbGV4YW5kcmlhIiwic2NlbmljRXhwbGFpbiI6IiIsImlzQXBwZWFyYW5jZSI6MCwibG9hZGVkIjp0cnVlLCJzY2VuaWNlRGVzYyI6IjxwPuS6nuatt+WxseWkp+iAgeWfjuaYr+e+juWci+WFuOWei+eahOatt+WPsuihl+WNgO+8jOW7uuaWvCAxNzQ5IOW5tO+8jOS9nOeCuuatt+WPsuS4iumHjeimgeaIsOeVpeWcsOWNgO+8jOmAmeijoeS/neeVmeS6huecvuWkmuauluawkeaZguacn+eahOWPpOiAgeW7uuevie+8jOmChOaTgeacieiRlzIwMOWkmuWutueNqOeri+mkkOW7s+WSjOeyvuWTgeW6l++8jOS7peWPiuengeWvhueahOatt+WPsuWNmueJqemkqOWSjOa1t+a/seaZr+m7nu+8jOaYr+iPr+ebm+mgk0RD6ZmE6L+R5LiN5Y+v5aSa5b6X55qE6YGK546p5Yud5Zyw44CC6ZaS6YCb5Zyo6ZuF6Ie055qE5Y+k5Z+O5YWn77yM5aSn5a625Y+v5Lul5oSf5Y+X5Yiw576O5ZyL55qE5Lq65paH5q235Y+y5ZKM5pys5Zyf54m56Imy6aKo5oOF44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119XSwiZGlzdGFuYyI6IiIsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwidGltZSI6IjMiLCJkaXN0YW5jVW5pdCI6MX0=\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":8,\"sortNumber\":2,\"jsonContent\":\"eyJ0aW1lIjoiNCIsImRpc3RhbmMiOm51bGwsImhvdXJzIjpudWxsLCJtaW51dGVzIjpudWxsLCJzdGF5SG91cnMiOm51bGwsInN0YXlNaW51dGVzIjpudWxsLCJyZWdpb25Db2RlIjoiQTUyMiIsInJlZ2lvbk5hbWUiOiLok4vnkZ/mlq/loKEgR2FpdGhlcnNidXJnIiwicmVnaW9uVHlwZSI6MiwiY29udGVudCI6W3sic291cmNlVHlwZSI6MiwiaG90ZWxDb2RlIjoiSE0wMDAwMDUyMyIsImhvdGVsTmFtZSI6IlNwcmluZ2hpbGwgU3VpdGVzIEdhaXRoZXJzYnVyZyAiLCJob3RlbEFkZHIiOm51bGwsImhvdGVsRW1haWwiOm51bGwsImhvdGVsTGlua01hbiI6bnVsbCwiaG90ZWxMaW5rV2F5IjpudWxsfSx7InNvdXJjZVR5cGUiOjIsImhvdGVsQ29kZSI6IkhNMDAwMDAwNTAiLCJob3RlbE5hbWUiOiJDb21mb3J0IElubiBTaGFkeSBHcm92ZSAtIEdhaXRoZXJzYnVyZyAtIFJvY2t2aWxsZSIsImhvdGVsQWRkciI6bnVsbCwiaG90ZWxFbWFpbCI6bnVsbCwiaG90ZWxMaW5rTWFuIjpudWxsLCJob3RlbExpbmtXYXkiOm51bGx9LHsic291cmNlVHlwZSI6MiwiaG90ZWxDb2RlIjoiSE0wMDAwMDAzOSIsImhvdGVsTmFtZSI6IkhvbGlkYXkgSW5uIEdhaXRoZXJzYnVyZyBieSBJSEciLCJob3RlbEFkZHIiOm51bGwsImhvdGVsRW1haWwiOm51bGwsImhvdGVsTGlua01hbiI6bnVsbCwiaG90ZWxMaW5rV2F5IjpudWxsfSx7InNvdXJjZVR5cGUiOjIsImhvdGVsQ29kZSI6IkhNMDAwMDIzODYiLCJob3RlbE5hbWUiOiJTcGFyayBieSBIaWx0b24gR2VybWFudG93biIsImhvdGVsQWRkciI6bnVsbCwiaG90ZWxFbWFpbCI6bnVsbCwiaG90ZWxMaW5rTWFuIjpudWxsLCJob3RlbExpbmtXYXkiOm51bGx9LHsic291cmNlVHlwZSI6MiwiaG90ZWxDb2RlIjoiSE0wMDAwMzgyOSIsImhvdGVsTmFtZSI6IkJlc3QgV2VzdGVybiBIaXN0b3JpYyBGcmVkZXJpY2siLCJob3RlbEFkZHIiOm51bGwsImhvdGVsRW1haWwiOm51bGwsImhvdGVsTGlua01hbiI6bnVsbCwiaG90ZWxMaW5rV2F5IjpudWxsfSx7InNvdXJjZVR5cGUiOjIsImhvdGVsQ29kZSI6IkhNMDAwMDI2NzMiLCJob3RlbE5hbWUiOiJTb25lc3RhIFNlbGVjdCBHcmVlbmJlbHQgQ29sbGVnZSBQYXJrIiwiaG90ZWxBZGRyIjpudWxsLCJob3RlbEVtYWlsIjpudWxsLCJob3RlbExpbmtNYW4iOm51bGwsImhvdGVsTGlua1dheSI6bnVsbH0seyJzb3VyY2VUeXBlIjoyLCJob3RlbENvZGUiOiJITTAwMDAwMTA3IiwiaG90ZWxOYW1lIjoiQ29tZm9ydCBJbm4gQ29sbGVnZSBQYXJrIiwiaG90ZWxBZGRyIjpudWxsLCJob3RlbEVtYWlsIjpudWxsLCJob3RlbExpbmtNYW4iOm51bGwsImhvdGVsTGlua1dheSI6bnVsbH0seyJzb3VyY2VUeXBlIjoyLCJob3RlbENvZGUiOiJITTAwMDAwNDkyIiwiaG90ZWxOYW1lIjoi5ZCM57SaIiwiaG90ZWxBZGRyIjpudWxsLCJob3RlbEVtYWlsIjpudWxsLCJob3RlbExpbmtNYW4iOm51bGwsImhvdGVsTGlua1dheSI6bnVsbH1dLCJ0eXBlIjpudWxsLCJkZXNjcmlwdGlvbiI6bnVsbCwiYXZlUHJpY2UiOm51bGx9\"}],\"distributionFactor\":null}]}]}"
+                    }
+                  ],
+                  "isFreeTravel": null,
+                  "optionalProductList": null,
+                  "distributionFactor": 1
+                },
+                {
+                  "section": "華盛頓特區|||2+++波士頓",
+                  "todayLocation": "",
+                  "dayNumber": 2,
+                  "content": [
+                    {
+                      "contentMode": 3,
+                      "productSortNum": null,
+                      "relatedId": 7136,
+                      "relatedDay": 1,
+                      "relatedName": "【BDCT2-2】華盛頓特區 - 波士頓",
+                      "contentType": 100,
+                      "sortNumber": 0,
+                      "jsonContent": "{\"travelId\":7136,\"productCategory\":1,\"name\":\"【BDCT2-2】華盛頓特區 - 波士頓\",\"productType\":\"PC00000021\",\"isAutoTeam\":null,\"expandList\":[{\"language\":2,\"isSource\":1,\"dayList\":[{\"section\":\"華盛頓特區|||2+++波士頓\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD7ku4rlpKnmiJHlgJHlsIfpppblhYjliY3lvoDlgpHkvZvpgZzntIDlv7XloILlj4Pop4DjgILmraPlgLzmq7voirHnm5vplovlraPvvIzpgJrpq5TmvZTnmb3nmoTntIDlv7XloILmjqnmmKDlhbbkuK3vvIznvo7kuI3li53mlLbjgILkuYvlvozliY3lvoDmnbHms6LlpJrppqzlhYvlhazlnJLvvIznubznuozos57mq7vkuYvml4XjgILmsr/okZfmtbfmganmlq/op5LnkrDls7blsI/ot6/mrKPos57nh6boi6Xpm7LpnJ7nmoTmq7voirHnvo7mma/vvIzmsr/pgJTpgoTlj6/nnIvopovppqzkuIHot6/lvrfph5HntIDlv7XnopHlkoznvoXmlq/npo/ntIDlv7XlhazlnJLnrYnokZflkI3lu7rnr4njgILpmqjlvozliY3lvoDmlrDoiIjnmoTlsI/nnL7mma/pu57oj6/nm5vpoJPoga/lkIjluILluILloLTvvIzmiZPljaHotoXntJrphbfngqvnmoTmhJvlv4PloZfptInlorvvvIzlnKjlpb3lkIPlpb3pgJvnmoTpm4bluILoo6HmgqDlk4nmgqDlk4njgILntZDmnZ/oj6/nm5vpoJPnmoTos57mq7vooYznqIvlvozvvIzmgqjlsIfoh6rooYzkuZjlnZDngavou4rov5Tlm57ms6Llo6vpoJPvvIzntZDmnZ/lhanlpKnnmoTmhInlv6vml4XooYzjgII8L3A+XG48cD4mbmJzcDs8L3A+XG48cD48c3Ryb25nPuihjOeoi+WuieaOku+8mjwvc3Ryb25nPjwvcD5cbjxwPjxzdHJvbmc+6YWS5bqXICZyYXJyOyDlgpHmlpDpgZzntIDlv7XloIIr5r2u5rGQ5rmW6LOe5qu7PC9zdHJvbmc+77yIMTIw5YiG6ZCY77yJPHN0cm9uZz4mcmFycjsg5p2x5rOi5aSa6aas5YWL5YWs5ZyS6LOe5qu7PC9zdHJvbmc+77yINjDliIbpkJjvvIk8c3Ryb25nPiZyYXJyOyDoj6/nm5vpoJPoga/lkIjluILloLQ8L3N0cm9uZz7vvIg2MOWIhumQmO+8iTxzdHJvbmc+JnJhcnI7IOiPr+ebm+mgk+eJueWNgOS5mOWdkOeBq+i7iui/lOWbnuazouWjq+mgk++8iDxzcGFuIHN0eWxlPVwiY29sb3I6ICNiYTM3MmE7XCI+54Gr6LuK5LiK54Sh5bCO6YGK6Zmq5ZCM77yM6ImZ5L2N5Zau56iL56Wo5YO56LaF6YGOJDEwMOeahOmDqOWIhu+8jOWuouS6uumcgOiHquihjOijnOi2s+W3ruWDue+8jOaIluiAheiHquiyu+WNh+e0mumBuOaTh+WFtuS7luiJmeS9jTwvc3Bhbj7vvIk8L3N0cm9uZz48L3A+XG48cD4mbmJzcDs8L3A+XG48cD48c3Ryb25nPuWCmeiou++8mjwvc3Ryb25nPjwvcD5cbjxwPjEuIOeBq+i7iummlumBuOePreasoeizh+ioiu+8mkFtdHJhayAmbmRhc2g7IDk2IE5vcnRoZWFzdCBSZWdpb25hbDwvcD5cbjxwPkRlcGFydHMgV2FzaGluZ3RvbiwgREMgLSBVbmlvbiBTdGF0aW9uIChXQVMpJm5kYXNoOyAxOjIwcDwvcD5cbjxwPkFycml2ZXMgQm9zdG9uLCBNQSAtIFNvdXRoIFN0YXRpb24oQk9TKSAmbmRhc2g7IDk6MjBwPC9wPlxuPHA+PHNwYW4gc3R5bGU9XCJjb2xvcjogI2JhMzcyYTtcIj4q5YiX6LuK54+t5qyh5YOF5L6b5Y+D6ICD77yM6KuL5Lul5a+m6Zqb6aCQ6KiC54+t5qyh54iy5YeG44CCPC9zcGFuPjwvcD5cbjxwPjxzcGFuIHN0eWxlPVwiY29sb3I6ICNiYTM3MmE7XCI+Mi4g54Gr6LuK56Wo6LOH5rqQ57eK5by177yM5by354OI5bu66K2w5oKo5YSY5pep6aCQ6KiC77yM6YG/5YWN5Ye654++6LuK56Wo5Zug5ZSu572E54Sh5rOV6aCQ6KiC55qE5oOF5rOB44CC6ImZ5L2N5Zau56iL56Wo5YO56LaF6YGOJDEwMOeahOmDqOWIhu+8jOWuouS6uumcgOiHquihjOijnOi2s+W3ruWDue+8jOaIluiAheiHquiyu+WNh+e0mumBuOaTh+WFtuS7luiJmeS9je+8jOS4i+WWruWJjeiri+iBr+e5q+WuouacjeS6jOasoeeiuuiqjeOAgjwvc3Bhbj48L3A+XG48cD48c3BhbiBzdHlsZT1cImNvbG9yOiAjYmEzNzJhO1wiPjMuIOeBq+i7iuS4iueEoeWwjumBiumZquWQjOOAgjwvc3Bhbj48L3A+IiwidGltZSI6IjEifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":1,\"jsonContent\":\"eyJ0aW1lIjoiMSIsImRpc3RhbmMiOiIiLCJob3VycyI6IiIsIm1pbnV0ZXMiOiIiLCJzdGF5SG91cnMiOiIiLCJzdGF5TWludXRlcyI6IiIsInJlZ2lvbkNvZGUiOm51bGwsInJlZ2lvbk5hbWUiOm51bGwsInJlZ2lvblR5cGUiOm51bGwsImNvbnRlbnQiOlt7InR5cGUiOjAsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAwMDY3Iiwic2NlbmljTmFtZSI6IuWCkeaWkOmBnOe0gOW/teWggiBUaG9tYXMgSmVmZmVyc29uIE1lbW9yaWFsIiwic2NlbmljRXhwbGFpbiI6IiIsImlzQXBwZWFyYW5jZSI6MCwibG9hZGVkIjp0cnVlLCJzY2VuaWNlRGVzYyI6IjxwPuWCkeaWkOmBnOe0gOW/teWgguS9jeaWvOiPr+ebm+mgk+a9ruaxkOa5lumCiu+8jOaYr+eCuuS6hue0gOW/tee+juWci+esrOS4ieS7u+e4vee1seaJmOmmrOaWryZtaWRkb3Q75YKR5paQ6YGc6ICM5bu655qE77yM5Lim5oyJ54Wn5YKR5paQ6YGc5pyA5Zac5oSb55qE5Y+k576F6aas56We5q6/5byP5ZyT6aCC5bu656+J6aKo5qC86Kit6KiI77yM6IiH6I+v55ub6aCT57SA5b+156KR6ZqU5rmW55u45pyb44CC5q+P5bm0NOaciO+8jOa5lueVlOeahOaru+iKseebm+mWi++8jOeSsOe5numAmumrlOa9lOeZveeahOe0gOW/teWggu+8jOe+juS4jeWLneaUtuOAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfSx7InR5cGUiOjIsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAxMTA3Iiwic2NlbmljTmFtZSI6IuadseazouWkmummrOWFi+WFrOWckiAgRWFzdCBQb3RvbWFjIFBhcmsiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+6YCZ5piv5LiA5YCL54u56ZW355qE5Y2K5bO277yM5rKz5rC055Kw57me44CC5rOi5aSa6aas5YWL5YWs5ZyS55qE5qi55pyo5LiN5L2G5oiQ6KGM77yM6ICM5LiU5oiQ54mH44CB5oiQ5p6X77yM5qi55pyo56iu6aGe57mB5aSa77yM5YC85b6X5LiA5o+Q55qE5piv5YWs5ZyS5YWn6Zqo6JmV5Y+v6KaL55qE5qu76Iqx44CC5q+P5bm0M+aciOS4i+aXrOWIsDTmnIjkuIrml6ws6I+v55ub6aCT6YO96KaB5qC55pOa6aCQ5ris55qE55W25bm05qu76Iqx55ub5pS+5pmC6ZaT77yM5pOH5pel6IiJ6KGM5qu76Iqx56+A44CC5bGG5pmC5pil5ZKM5pel6bqX77yM6Iqx5ZyY6Yym57CH77yM57KJ55m95Lqk57mU77yM6YCj57a/5LiN57WV77yM5Yqg5LiK6YGK5Lq656m/5qKt77yM5rmW6Z2i5YCS5b2x77yM576O5LiN5Yud5pS244CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119LHsidHlwZSI6Miwic291cmNlVHlwZSI6Miwic2NlbmljQ29kZSI6IlNNMDAwMDI3NTIiLCJzY2VuaWNOYW1lIjoi6I+v55ub6aCT6IGv5ZCI5biC5aC0ICBVbmlvbiBNYXJrZXQiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+6IGv5ZCI5biC5aC05YmN6Lqr5piv5LiA5YCL5bui5qOE55qE5bel5bug77yM54++5Zyo6YCZ6KOh5Yyv6ZuG5LqG6Kix5aSa57ay57SF5aGX6bSJ5aK75ZKM6Jed6KGT5bel5L2c5a6k77yM57WV5bCN5piv5bCP55y+5oSb5aW96ICF55qE5omT5Y2h5Zyw6aaW6YG477yB5aaC5p6c5L2g5oSb5aW9576O6aOf77yM5Lmf5LiA5a6a6KaB5L6G6IGv5ZCI5biC5aC06YCb6YCb77yM5ZCE5ZyL576O6aOf6K6T5Lq65Z6C5raO5LiJ5bC677yM576O5ZGz55qE5ZCM5pmC5YO55qC85Lmf6Z2e5bi46Imv5b+D44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119XSwidHlwZSI6bnVsbCwiZGVzY3JpcHRpb24iOm51bGwsImF2ZVByaWNlIjpudWxsLCJkaXN0YW5jVW5pdCI6MX0=\"}],\"distributionFactor\":null}]}]}"
+                    }
+                  ],
+                  "isFreeTravel": null,
+                  "optionalProductList": null,
+                  "distributionFactor": 1
+                }
+              ]
+            }
+          ]
+        },
+        "productNotice": {
+          "mainLanguage": 2,
+          "productCode": "P00003810",
+          "noticeInfo": [
+            {
+              "matterCode": "AT00000094",
+              "editType": 1,
+              "noticeType": 3,
+              "matterName": "【退改說明】集團通用",
+              "vluesTip1": "<p>1. 如遇天氣、戰爭、罷工等人力不可抗拒因素無法遊覽，本公司將有權更改行程，景點門票費用退還（贈送的自費項目除外），報名團費不退還；&nbsp;</p>\n<p>2. 取消條款如下：</p>\n<p>&nbsp; &nbsp;a. &nbsp;如果團組在出發前15日 (含) ，要求取消或改期，團費不扣，其他加定酒店、機票或服務需參照酒店或航司規定而確定是否能退款。</p>\n<p>&nbsp; &nbsp;b. &nbsp;在出發前8日 (含) 至 14日 (含) ，要求取消或改期，需扣50%團費，其他加定酒店或服務需參照酒店規定而確定是否能退款。</p>\n<p>&nbsp; &nbsp;c. &nbsp;如果團組在出發前7日 (含) 至出發當天要求取消或出發當日未能準時參加者，作自動放棄論，已付團費概不退還。</p>\n<p>&nbsp; &nbsp;d.&nbsp; 如貴司或客人因個人原因 (無旅行證件、遲到、生病、意外等因素) 於旅途中退出或未能參加行程內任何行程，已付團費概不退還，也不會以其他服務賠償。</p>",
+              "vluesTip2": "【退改說明】集團通用"
+            },
+            {
+              "matterCode": "AT00000301",
+              "editType": 1,
+              "noticeType": 1,
+              "matterName": "【預定須知】集團通用（不涉及跨境）",
+              "vluesTip1": "<p><strong>預定須知：</strong></p>\n<p>1. 18歲以下未成年人或兒童必須由成人陪伴參團，單獨旅行的未成年人或兒童不能參加縱橫海鷗的旅遊團。出於對孕婦安全的考慮，孕婦參團需在行程結束時懷孕不超過24周。</p>\n<p>2. 請在預定時務必提供準確、完整的資訊，包括姓名、性別、有效的聯繫方式（最好是手機，如有問題，方便通知）、準確的航班資訊或參團地點等，以免產生預定錯誤，影響出行。如因您提供錯誤資訊而造成損失，由您自行承擔。</p>\n<p>3. 酒店有不同的房間類型，例如一張King/Queen Size的大床房或兩張Double Size的雙床房。每個房間可合法住宿的最多人數在2 到4 人，包括成人和兒童。<span style=\"color: #ba372a;\">應部分酒店要求，每組參團客人需至少携帶一張可在目的地使用的信用卡或借記卡，届時需根據酒店的不同規定配合刷卡辦理押金收取和入住手續。如無個人消費，辦理退房後酒店會在7-14個工作日內將押金原路返還。</span>縱橫海鷗保證客人的用房數量，但不保障具體房間類型和所處位置。酒店的入住時間通常在15:00以後。</p>\n<p>4. 參團客人需跟團上導遊購買門票，不可自行帶票或使用City Pass。景點的門票費和團上餐費可能會根據景點官方的臨時通知而變動，以當日景點公佈的價格為准。</p>\n<p>5. 縱橫海鷗有權在方便出團操作的情況下，對行程順序進行適當調整以確保旅遊團順利進行，但不會減少行程中應包含的項目。</p>\n<p>6. 實際出行過程中，導遊或司機有權根據天氣、交通等情況，適當調整景點的遊覽順序、停留時間或集合時間以確保行程順利進行。</p>\n<p>7. 如遇景點臨時關閉或節假日（感恩節、聖誕節、新年等）關閉等，導致無法參觀，導遊會根據實際情況調整為外觀或以其他景點代替以確保行程的豐富性。各景點及國家公園的開放時間及流量控制會因疫情不時變化，如影響行程屬不可抗力因素，敬請諒解。</p>\n<p>8. 八歲以下兒童參團需乘坐安全座椅，縱橫海鷗提供租借服務，租金$10.00/人/天，請務必在預定行程時提前備註告知，以便我們提前準備，如因客人未提前告知所造成的違規和罰金由客人自行承擔，敬請理解。出行當日安排大巴出行無需安全座椅，費用可退還客人。</p>\n<p>9. 行程中眾多旅遊景點需要參團人具備基本的健康條件。殘疾人士和行動不便者報名參團前請提前聯繫縱橫海鷗獲取相關政策資訊。若沒有及時通知，我司不能保證為客人提供輪椅升降巴士或安排合適的座位。</p>\n<p>10. 縱橫海鷗巴士團分為了四個等級：銀榜惠享、金榜怡享、白金尊享、鑽石臻享，詳情請查看<a href=\"https://uvbookings.info/upload/BMS/ProductLevel.pdf\" target=\"_blank\" rel=\"noopener\">產品分級</a>（點擊藍色字體查看）。</p>\n<p>11. 縱橫集團可能會多次修改參團條款和條件，並會在代理網站上及時公佈最新版本。請遊客在報名參團前務必仔細閱讀<a title=\"《參團條例》\" href=\"http://uvbookings.info/upload/terms/s.pdf\" target=\"_blank\" rel=\"noopener\">《參團條例》</a>（點擊藍色字體查看）。我司僅在這些條款和條件下履行義務，除非在此條例中或在法律中有特別規定，否則如果產生任何間接性，補償性，偶然性或懲罰性損害都不做出賠償。</p>\n<p><span style=\"color: #ba372a;\">12. 面對持續上漲的燃油成本，車輛運營成本大大增加，2026年5月18日（出發班期）起，縱橫海鷗的巴士團産品需加收交通附加費$5/人/天，導游將在行程中統一收取。</span></p>\n<p>特殊說明：<br />1）接機、送機當天如無其他巴士行程安排，不收取燃油附加費。<br />2）不涉及巴士用車服務的天數不收取燃油附加費：例如佛州相關産品中客人自行搭乘園區接駁車往返主題樂園，或火車團産品中當天全程爲火車行程且無導游及巴士服務等情况。</p>\n<p>&nbsp;</p>\n<p><strong>出行須知：</strong></p>\n<p>1. 為保障行程順利完整，遊客有責任嚴格遵守導遊給出的集合時間。如果距離集合時間超過十分鐘，車子將離開不予等待。縱橫海鷗竭誠提供準時准點服務，但如遇到天氣、交通、機械故障、罷工、政府停擺以及戰爭和恐怖襲擊等不可控因素，我司無法保證按時按點到達接送地點。由此原因導致的行程延誤進而給客人帶來任何的不便或產生相關航班、火車或大巴費用以及其他旅遊費用等額外費用的，我司概不負責。</p>\n<p>2. 縱橫海鷗有權在方便出團操作的情況下，在途中將遊客從原車換到另一輛車並指派不同導遊和司機提供服務。</p>\n<p>3. 以下建議會幫助您更快更好的登記報到：需攜帶有效身份證件( 內附照片)；請出示紙質版或電子版行程單。</p>\n<p>4. 該產品是團體活動，如您選擇中途離團，請提前告知並征得導遊同意，需簽署離團協議書，未完成部分將被視為您自行放棄，團費不予退還。</p>\n<p>5. 行程中的贈送項目，如因交通、天氣等不可抗力因素導致不能贈送的、或因您個人原因不能參觀的，費用不退，敬請諒解。</p>\n<p>6. 根據美國聯邦法律，參團期間車上禁止吸煙，絕大多數酒店房間也禁止吸煙；酒店的清潔人員都受過專業訓練，保安人員也會專業的留下證據，一旦被發現，會有每晚至少250 美元的清潔費用。這項費用由客人自己承擔，我司概不負責。若有吸煙需要，請到專門的吸煙區。</p>\n<p>7. 縱橫海鷗的所有行程一律不允許帶寵物和動物參團。</p>\n<p>8. 僅針對包含接機服務的產品：同一訂單僅提供一次免費接機時間範圍內的接機服務，如因天氣、航班延誤等造成無法安排，請自理交通費用。</p>\n<p>9. 緊急聯繫電話：（美國免費電話）+1(866)585-8747。</p>",
+              "vluesTip2": "【預定須知】集團通用（不涉及跨境）"
+            },
+            {
+              "matterCode": "CM00001158",
+              "editType": 0,
+              "noticeType": 0,
+              "matterName": "P00003810",
+              "vluesTip1": "<p>1. 行程中交通費用（使用車輛類型根據當日具體參團人數決定，7座商務，14人座高頂/中巴，或55-61座巴士）；</p>\n<p>2. 行程中住宿（住宿晚數等於行程天數減一）；</p>\n<p>3. 中英文服務人員（司機+導遊/司兼導）；</p>\n<p>4. 波士頓往返華盛頓特區的火車票費用（艙位單程票價超過$100的部分，客人需自行補足差價，或者自費升級選擇其他艙位）；</p>\n<p>5. 酒店內早餐。</p>",
+              "vluesTip2": "<p>1. 午餐和晚餐；</p>\n<p>2. 行程中需要的機票，渡輪，部分景區/國家公園內的遊覽交通費用；</p>\n<p>3. 景點門票費用（門票價格時常波動，不再另行通知。門票需在導遊處統一購買）；</p>\n<p>4. 服務費（每人每天最低支付US$15，兒童及占座嬰兒均按成人標準支付）；</p>\n<p>5. 酒店房間內私人費用（洗衣費，電話費等）；</p>\n<p>6. 一切除費用包含外的私人性質費用。</p>"
+            }
+          ],
+          "damagesInfo": [],
+          "advanceDay": -1,
+          "advanceTime": ""
+        },
+        "productCost": {
+          "list": null,
+          "pager": null,
+          "productCostIsDay": 0
+        },
+        "productShop": {
+          "list": null,
+          "pager": null,
+          "productShopIsDay": 0
+        }
+      },
+      "groups": [],
+      "addons": [
+        {
+          "mainLanguage": 2,
+          "productCode": "P00003810",
+          "promoteCode": "S00008710",
+          "rewardCode": "RC00008723",
+          "promotePattern": 1,
+          "promoteType": 2,
+          "bindType": 0,
+          "promoteDay": "",
+          "peopleType": 0,
+          "promoteName": "2天交通附加費",
+          "promoteDesc": "USD$5/人/天",
+          "promoteIsOutreach": null,
+          "outreachPromoteCode": "",
+          "promoteStatus": 200,
+          "promoteMoney": 10,
+          "promoteRewardMoney": 0,
+          "createTime": "2026-05-21 10:52:17.0",
+          "listPromoteClause": [],
+          "promoteGroup": [
+            {
+              "groupDate": "0001-01-01 00:00:00",
+              "groupStock": 0,
+              "groupSaleStock": 0,
+              "isExceedStock": 0,
+              "groupStatus": 200,
+              "currencyNum": "USD",
+              "groupPrice": [
+                {
+                  "priceType": 1,
+                  "groupPrice": 10,
+                  "rewardPrice": 0,
+                  "rewardType": 0,
+                  "rewardValue": 0,
+                  "currencyNum": null,
+                  "exchangePrice": null
+                }
+              ],
+              "otherCurrencyGroupPriceInfo": [],
+              "promoteCode": "S00008710",
+              "promoteGroupPattern": 1
+            }
+          ],
+          "optionProductCode": null,
+          "productGroupDate": null,
+          "guideSaleType": 0,
+          "pricingType": 1
+        },
+        {
+          "mainLanguage": 2,
+          "productCode": "P00003810",
+          "promoteCode": "S00005128",
+          "rewardCode": "RC00005072",
+          "promotePattern": 1,
+          "promoteType": 2,
+          "bindType": 0,
+          "promoteDay": "",
+          "peopleType": 0,
+          "promoteName": "2天服務費",
+          "promoteDesc": "每人每天15美金",
+          "promoteIsOutreach": null,
+          "outreachPromoteCode": "",
+          "promoteStatus": 200,
+          "promoteMoney": 30,
+          "promoteRewardMoney": 0,
+          "createTime": "2021-11-30 09:40:21.0",
+          "listPromoteClause": [],
+          "promoteGroup": [
+            {
+              "groupDate": "0001-01-01 00:00:00",
+              "groupStock": 0,
+              "groupSaleStock": 0,
+              "isExceedStock": 0,
+              "groupStatus": 200,
+              "currencyNum": "USD",
+              "groupPrice": [
+                {
+                  "priceType": 1,
+                  "groupPrice": 30,
+                  "rewardPrice": 0,
+                  "rewardType": 0,
+                  "rewardValue": 0,
+                  "currencyNum": null,
+                  "exchangePrice": null
+                }
+              ],
+              "otherCurrencyGroupPriceInfo": [],
+              "promoteCode": "S00005128",
+              "promoteGroupPattern": 1
+            }
+          ],
+          "optionProductCode": null,
+          "productGroupDate": null,
+          "guideSaleType": 0,
+          "pricingType": 1
+        }
+      ]
+    }
+  }
+}

@@ -563,6 +563,7 @@ async function extractProduct(args) {
   const now = new Date()
   const start = args.start || formatDate(now)
   const end = args.end || defaultEndDate(now)
+  const warnings = []
   assertDate(start, '--start')
   assertDate(end, '--end')
 
@@ -583,7 +584,7 @@ async function extractProduct(args) {
       '17626/getProductTravelDetail.json',
       { productLanguage: args.lang, productCode: args.productCode },
       context,
-      { omitToken: true },
+      { omitToken: true, allowMissing: true },
     ),
     postSoa(
       '17626/getProductGroup.json',
@@ -596,6 +597,7 @@ async function extractProduct(args) {
         productClassify: basic?.productMain?.productClassify ?? 0,
       },
       context,
+      { allowMissing: true },
     ),
     postSoa(
       '17626/getProductPromote.json',
@@ -613,8 +615,16 @@ async function extractProduct(args) {
 
   assertApiSuccess('getProductPromote', addonsJson)
 
-  const travelDetail = travelJson.responseData || {}
-  const groups = groupsJson.responseData || []
+  const travelOk = responseCode(travelJson) === 200 || responseCode(travelJson) === 'Success'
+  if (!travelOk) {
+    warnings.push(`getProductTravelDetail unavailable: ${responseCode(travelJson)} ${responseMessage(travelJson)}`.trim())
+  }
+  const travelDetail = travelOk ? (travelJson.responseData || {}) : {}
+  const groupsOk = responseCode(groupsJson) === 200 || responseCode(groupsJson) === 'Success'
+  if (!groupsOk) {
+    warnings.push(`getProductGroup unavailable: ${responseCode(groupsJson)} ${responseMessage(groupsJson)}`.trim())
+  }
+  const groups = groupsOk ? (groupsJson.responseData || []) : []
   const firstAvailability = groups[0] || null
   const main = basic.productMain || {}
   const notices = normalizeNotice(travelDetail.productNotice?.noticeInfo || [])
@@ -622,6 +632,7 @@ async function extractProduct(args) {
 
   return {
     extractedAt: new Date().toISOString(),
+    warnings,
     product: {
       productCode: args.productCode,
       productViewCode: main.productViewCode || '',
@@ -746,7 +757,9 @@ async function extractProduct(args) {
         branchInfo: context.branchInfo,
         basic,
         travelDetail,
+        travelDetailResponse: travelJson,
         groups,
+        groupsResponse: groupsJson,
         addons: addonsJson.responseData || [],
       },
     },

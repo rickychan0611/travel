@@ -20,6 +20,9 @@ export interface CollectionProduct {
   id: string
   handle: string
   title: string
+  localizedTitle?: string
+  localizedSubtitle?: string
+  localizedPlace?: string
   tags: string[]
   productType: string
   priceRange: {
@@ -58,6 +61,6 @@ export interface ShopifyCollection {
   handle: string
   title: string
   products: {
-    nodes: ShopifyProduct[]
+    nodes: CollectionProduct[]
   }
 }

@@ -1,9 +1,19 @@
 import { promises as fs } from 'fs'
 import path from 'path'
+import { SHOPIFY_CACHE_REVALIDATE_SECONDS } from '@/lib/shopify/cache'
 import type { TourDetailData } from './types'
 
 const PRODUCTS_DIR = path.join(process.cwd(), 'data', 'toursbms-products')
 const SHOPIFY_SYNC_DIR = path.join(process.cwd(), 'data', 'shopify-sync')
+const MEMORY_CACHE_TTL_MS = SHOPIFY_CACHE_REVALIDATE_SECONDS * 1000
+
+const tourDetailMemoryCache = new Map<
+  string,
+  {
+    expiresAt: number
+    value: Promise<TourDetailData | null>
+  }
+>()
 
 function normalizeKey(value: string) {
   return value.trim().toLowerCase()
@@ -76,7 +86,7 @@ async function readShopifyProduct(manifest: ShopifySyncManifest, handle: string,
   }
 }
 
-export async function getToursBmsProductByHandle(handle: string, locale?: string): Promise<TourDetailData | null> {
+async function getToursBmsProductByHandleUncached(handle: string, locale?: string): Promise<TourDetailData | null> {
   const key = normalizeKey(handle)
   if (!key) return null
 
@@ -90,6 +100,29 @@ export async function getToursBmsProductByHandle(handle: string, locale?: string
   const manifests = await readAllShopifySyncManifests()
   const manifest = manifests.find((item) => normalizeKey(item.handle || '') === key)
   return manifest ? readShopifyProduct(manifest, manifest.handle || handle, locale) : null
+}
+
+export async function getToursBmsProductByHandle(handle: string, locale?: string): Promise<TourDetailData | null> {
+  const cacheKey = `${normalizeKey(handle)}:${locale || 'en'}`
+  const cached = tourDetailMemoryCache.get(cacheKey)
+  if (cached && cached.expiresAt > Date.now()) return cached.value
+
+  const value = getToursBmsProductByHandleUncached(handle, locale)
+  const cacheableValue = value.then((tour) => {
+    if (!tour) tourDetailMemoryCache.delete(cacheKey)
+    return tour
+  })
+  tourDetailMemoryCache.set(cacheKey, {
+    expiresAt: Date.now() + MEMORY_CACHE_TTL_MS,
+    value: cacheableValue,
+  })
+
+  try {
+    return await cacheableValue
+  } catch (error) {
+    tourDetailMemoryCache.delete(cacheKey)
+    throw error
+  }
 }
 
 export async function listToursBmsProductCodes(): Promise<string[]> {

@@ -1,0 +1,1178 @@
+{
+  "productCode": "P00004098",
+  "handle": "p00004098-gold-chicago-indianapolis-great-smoky-mountains-gatlinburg-chattanooga-mammoth-cave-national-park-5-day-tour",
+  "shopifyProductId": "gid://shopify/Product/8881397432372",
+  "shopifyAddonProductId": "gid://shopify/Product/8881397497908",
+  "status": "ACTIVE",
+  "locales": [
+    "en",
+    "zh-CN",
+    "zh-TW"
+  ],
+  "syncedAt": "2026-07-15T04:35:24.717Z",
+  "variants": [
+    {
+      "date": "2026-08-13",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-08-13",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00004098-2026-08-13-3-SINGLE-ROOM",
+      "price": "1269.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 6,
+      "remainingStock": 6,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035256238132"
+    },
+    {
+      "date": "2026-08-13",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-08-13",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00004098-2026-08-13-4-DOUBLE-ROOM",
+      "price": "959.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 6,
+      "remainingStock": 6,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035256270900"
+    },
+    {
+      "date": "2026-08-13",
+      "priceType": 5,
+      "label": "Triple room",
+      "optionValues": {
+        "Departure Date": "2026-08-13",
+        "Rate Type": "Triple room"
+      },
+      "sku": "P00004098-2026-08-13-5-TRIPLE-ROOM",
+      "price": "859.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 6,
+      "remainingStock": 6,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035256303668"
+    },
+    {
+      "date": "2026-08-13",
+      "priceType": 6,
+      "label": "Quad room",
+      "optionValues": {
+        "Departure Date": "2026-08-13",
+        "Rate Type": "Quad room"
+      },
+      "sku": "P00004098-2026-08-13-6-QUAD-ROOM",
+      "price": "809.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 6,
+      "remainingStock": 6,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035256336436"
+    },
+    {
+      "date": "2026-08-27",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-08-27",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00004098-2026-08-27-3-SINGLE-ROOM",
+      "price": "1269.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 4,
+      "remainingStock": 4,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035256369204"
+    },
+    {
+      "date": "2026-08-27",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-08-27",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00004098-2026-08-27-4-DOUBLE-ROOM",
+      "price": "959.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 4,
+      "remainingStock": 4,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035256401972"
+    },
+    {
+      "date": "2026-08-27",
+      "priceType": 5,
+      "label": "Triple room",
+      "optionValues": {
+        "Departure Date": "2026-08-27",
+        "Rate Type": "Triple room"
+      },
+      "sku": "P00004098-2026-08-27-5-TRIPLE-ROOM",
+      "price": "859.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 4,
+      "remainingStock": 4,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035256434740"
+    },
+    {
+      "date": "2026-08-27",
+      "priceType": 6,
+      "label": "Quad room",
+      "optionValues": {
+        "Departure Date": "2026-08-27",
+        "Rate Type": "Quad room"
+      },
+      "sku": "P00004098-2026-08-27-6-QUAD-ROOM",
+      "price": "809.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 4,
+      "remainingStock": 4,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035256467508"
+    },
+    {
+      "date": "2026-09-24",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-09-24",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00004098-2026-09-24-3-SINGLE-ROOM",
+      "price": "1269.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035256500276"
+    },
+    {
+      "date": "2026-09-24",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-09-24",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00004098-2026-09-24-4-DOUBLE-ROOM",
+      "price": "959.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035256533044"
+    },
+    {
+      "date": "2026-09-24",
+      "priceType": 5,
+      "label": "Triple room",
+      "optionValues": {
+        "Departure Date": "2026-09-24",
+        "Rate Type": "Triple room"
+      },
+      "sku": "P00004098-2026-09-24-5-TRIPLE-ROOM",
+      "price": "859.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035256565812"
+    },
+    {
+      "date": "2026-09-24",
+      "priceType": 6,
+      "label": "Quad room",
+      "optionValues": {
+        "Departure Date": "2026-09-24",
+        "Rate Type": "Quad room"
+      },
+      "sku": "P00004098-2026-09-24-6-QUAD-ROOM",
+      "price": "809.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035256598580"
+    },
+    {
+      "date": "2026-10-08",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-10-08",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00004098-2026-10-08-3-SINGLE-ROOM",
+      "price": "1269.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035256631348"
+    },
+    {
+      "date": "2026-10-08",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-10-08",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00004098-2026-10-08-4-DOUBLE-ROOM",
+      "price": "959.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035256664116"
+    },
+    {
+      "date": "2026-10-08",
+      "priceType": 5,
+      "label": "Triple room",
+      "optionValues": {
+        "Departure Date": "2026-10-08",
+        "Rate Type": "Triple room"
+      },
+      "sku": "P00004098-2026-10-08-5-TRIPLE-ROOM",
+      "price": "859.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035256696884"
+    },
+    {
+      "date": "2026-10-08",
+      "priceType": 6,
+      "label": "Quad room",
+      "optionValues": {
+        "Departure Date": "2026-10-08",
+        "Rate Type": "Quad room"
+      },
+      "sku": "P00004098-2026-10-08-6-QUAD-ROOM",
+      "price": "809.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 55,
+      "remainingStock": 55,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035256729652"
+    }
+  ],
+  "addons": [
+    {
+      "code": "S00006070",
+      "name": "Incline Railway",
+      "description": "",
+      "amount": 22,
+      "price": "22.00",
+      "currency": "USD",
+      "peopleTypeLabel": "Adult",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00006070",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035256795188"
+    },
+    {
+      "code": "S00008715",
+      "name": "5-Day Transportation Surcharge",
+      "description": "USD$5/person/day",
+      "amount": 25,
+      "price": "25.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00008715",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035256827956"
+    },
+    {
+      "code": "S00007982",
+      "name": "[Everyone] Mandatory Fee: A tour of Chicago's architectural aesthetics",
+      "description": "",
+      "amount": 45,
+      "price": "45.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00007982",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035256860724"
+    },
+    {
+      "code": "S00006064",
+      "name": "Titanic Museum Pigeon Forge",
+      "description": "",
+      "amount": 46.54,
+      "price": "46.54",
+      "currency": "USD",
+      "peopleTypeLabel": "Adult",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00006064",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035256893492"
+    },
+    {
+      "code": "S00007918",
+      "name": "[“Buy and Return Free Service” Exclusive Benefit] 5-day",
+      "description": "$10 per person per day",
+      "amount": 50,
+      "price": "50.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00007918",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035256926260"
+    },
+    {
+      "code": "S00006235",
+      "name": "[Adult] 360 Chicago",
+      "description": "",
+      "amount": 35,
+      "price": "35.00",
+      "currency": "USD",
+      "peopleTypeLabel": "Adult",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00006235",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035256959028"
+    },
+    {
+      "code": "S00006236",
+      "name": "[Senior] 360 Chicago",
+      "description": "",
+      "amount": 35,
+      "price": "35.00",
+      "currency": "USD",
+      "peopleTypeLabel": "Adult",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00006236",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035256991796"
+    },
+    {
+      "code": "S00006237",
+      "name": "[Child] 360 Chicago",
+      "description": "",
+      "amount": 23,
+      "price": "23.00",
+      "currency": "USD",
+      "peopleTypeLabel": "Child",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00006237",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035257024564"
+    },
+    {
+      "code": "S00005448",
+      "name": "Seat surcharge",
+      "description": "Limited to 18 seats in the first three rows of the bus, $15 per person per day.",
+      "amount": 60,
+      "price": "60.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00005448",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035257057332"
+    },
+    {
+      "code": "S00006205",
+      "name": "[Adult] The Art Institute of Chicago",
+      "description": "",
+      "amount": 32,
+      "price": "32.00",
+      "currency": "USD",
+      "peopleTypeLabel": "Adult",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00006205",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035257090100"
+    },
+    {
+      "code": "S00006206",
+      "name": "[Senior] The Art Institute of Chicago",
+      "description": "",
+      "amount": 26,
+      "price": "26.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00006206",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035257122868"
+    },
+    {
+      "code": "S00006207",
+      "name": "[Child] The Art Institute of Chicago",
+      "description": "",
+      "amount": 26,
+      "price": "26.00",
+      "currency": "USD",
+      "peopleTypeLabel": "Child",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00006207",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035257155636"
+    },
+    {
+      "code": "S00006068",
+      "name": "[Adult] Rock city",
+      "description": "",
+      "amount": 49.5,
+      "price": "49.50",
+      "currency": "USD",
+      "peopleTypeLabel": "Adult",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00006068",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035257188404"
+    },
+    {
+      "code": "S00006069",
+      "name": "[Child] Rock city",
+      "description": "",
+      "amount": 38.5,
+      "price": "38.50",
+      "currency": "USD",
+      "peopleTypeLabel": "Child",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00006069",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035257221172"
+    },
+    {
+      "code": "S00006072",
+      "name": "[Adult] Ruby Falls",
+      "description": "",
+      "amount": 32.99,
+      "price": "32.99",
+      "currency": "USD",
+      "peopleTypeLabel": "Adult",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00006072",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035257253940"
+    },
+    {
+      "code": "S00006073",
+      "name": "[Senior] Ruby Falls",
+      "description": "",
+      "amount": 31.9,
+      "price": "31.90",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00006073",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035257286708"
+    },
+    {
+      "code": "S00006074",
+      "name": "[Child] Ruby Falls",
+      "description": "",
+      "amount": 22.07,
+      "price": "22.07",
+      "currency": "USD",
+      "peopleTypeLabel": "Child",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00006074",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035257319476"
+    },
+    {
+      "code": "S00006238",
+      "name": "[Adult] Indianapolis Motor Speedway Museum",
+      "description": "",
+      "amount": 25,
+      "price": "25.00",
+      "currency": "USD",
+      "peopleTypeLabel": "Adult",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00006238",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035257352244"
+    },
+    {
+      "code": "S00006239",
+      "name": "[Senior] Indianapolis Motor Speedway Museum",
+      "description": "",
+      "amount": 23,
+      "price": "23.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00006239",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035257385012"
+    },
+    {
+      "code": "S00006240",
+      "name": "[Child] Indianapolis Motor Speedway Museum",
+      "description": "",
+      "amount": 18,
+      "price": "18.00",
+      "currency": "USD",
+      "peopleTypeLabel": "Child",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00006240",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035257417780"
+    },
+    {
+      "code": "S00007036",
+      "name": "Additional Hotel in Chicago",
+      "description": "The price is 1 room for 1 night, without breakfast.",
+      "amount": 150,
+      "price": "150.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00007036",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035257450548"
+    },
+    {
+      "code": "S00006920",
+      "name": "[Everyone] Chicago Hotel Door to Door Transfer (within 5 miles of Boarding location) Service",
+      "description": "",
+      "amount": 30,
+      "price": "30.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00006920",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035257483316"
+    },
+    {
+      "code": "S00006934",
+      "name": "Great Smoky Mountain Park In-depth Tour (Mandatary)",
+      "description": "Including: the Great Smoky Mountain Cable Car + Newfound Gap Observation Deck + Clingmans Peak",
+      "amount": 85,
+      "price": "85.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00006934",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035257516084"
+    },
+    {
+      "code": "S00005131",
+      "name": "5-Day Service Fee",
+      "description": "$15 per person per day",
+      "amount": 75,
+      "price": "75.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00004098-ADDON-S00005131",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48035257548852"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://dimg04.c-ctrip.com/target/2S041e000001fp3s297C5.jpg",
+      "shopifyMediaId": "gid://shopify/MediaImage/28796770484276",
+      "shopifyFileId": null,
+      "position": 1,
+      "role": "featured",
+      "alt": "[Gold] Chicago+ Indianapolis+ Great Smoky Mountains+ Gatlinburg+ Chattanooga+ Mammoth Cave National Park 5-Day Tour 1"
+    },
+    {
+      "sourceUrl": "https://dimg04.c-ctrip.com/target/2S0s1e000001fwzuhF3FB.jpg",
+      "shopifyMediaId": "gid://shopify/MediaImage/28796770517044",
+      "shopifyFileId": null,
+      "position": 2,
+      "role": "gallery",
+      "alt": "[Gold] Chicago+ Indianapolis+ Great Smoky Mountains+ Gatlinburg+ Chattanooga+ Mammoth Cave National Park 5-Day Tour 2"
+    },
+    {
+      "sourceUrl": "https://dimg04.c-ctrip.com/target/2S0h1e000001fpp1g9850.jpg",
+      "shopifyMediaId": "gid://shopify/MediaImage/28796770549812",
+      "shopifyFileId": null,
+      "position": 3,
+      "role": "gallery",
+      "alt": "[Gold] Chicago+ Indianapolis+ Great Smoky Mountains+ Gatlinburg+ Chattanooga+ Mammoth Cave National Park 5-Day Tour 3"
+    },
+    {
+      "sourceUrl": "https://dimg04.c-ctrip.com/target/2S0p1e000001frlx2392D.jpg",
+      "shopifyMediaId": "gid://shopify/MediaImage/28796770582580",
+      "shopifyFileId": null,
+      "position": 4,
+      "role": "gallery",
+      "alt": "[Gold] Chicago+ Indianapolis+ Great Smoky Mountains+ Gatlinburg+ Chattanooga+ Mammoth Cave National Park 5-Day Tour 4"
+    },
+    {
+      "sourceUrl": "https://dimg04.c-ctrip.com/target/2S0j1e000001frzq5F69B.jpg",
+      "shopifyMediaId": "gid://shopify/MediaImage/28796770615348",
+      "shopifyFileId": null,
+      "position": 5,
+      "role": "gallery",
+      "alt": "[Gold] Chicago+ Indianapolis+ Great Smoky Mountains+ Gatlinburg+ Chattanooga+ Mammoth Cave National Park 5-Day Tour 5"
+    },
+    {
+      "sourceUrl": "https://dimg04.c-ctrip.com/target/2S071e000001g4syq4DA5.jpg",
+      "shopifyMediaId": "gid://shopify/MediaImage/28796770648116",
+      "shopifyFileId": null,
+      "position": 6,
+      "role": "gallery",
+      "alt": "[Gold] Chicago+ Indianapolis+ Great Smoky Mountains+ Gatlinburg+ Chattanooga+ Mammoth Cave National Park 5-Day Tour 6"
+    }
+  ],
+  "metaobjects": {
+    "tour_content": [
+      {
+        "id": "gid://shopify/Metaobject/352328843316",
+        "handle": "p00004098-en-content"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330285108",
+        "handle": "p00004098-zh-cn-content"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331759668",
+        "handle": "p00004098-zh-tw-content"
+      }
+    ],
+    "tour_highlight": [
+      {
+        "id": "gid://shopify/Metaobject/352328876084",
+        "handle": "p00004098-en-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352328908852",
+        "handle": "p00004098-en-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352328941620",
+        "handle": "p00004098-en-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352328974388",
+        "handle": "p00004098-en-highlight-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329007156",
+        "handle": "p00004098-en-highlight-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329039924",
+        "handle": "p00004098-en-highlight-6"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330317876",
+        "handle": "p00004098-zh-cn-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330350644",
+        "handle": "p00004098-zh-cn-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330383412",
+        "handle": "p00004098-zh-cn-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330416180",
+        "handle": "p00004098-zh-cn-highlight-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330448948",
+        "handle": "p00004098-zh-cn-highlight-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330481716",
+        "handle": "p00004098-zh-cn-highlight-6"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330514484",
+        "handle": "p00004098-zh-cn-highlight-7"
+      }
+    ],
+    "tour_itinerary_day": [
+      {
+        "id": "gid://shopify/Metaobject/352329072692",
+        "handle": "p00004098-en-day-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329105460",
+        "handle": "p00004098-en-day-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329138228",
+        "handle": "p00004098-en-day-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329170996",
+        "handle": "p00004098-en-day-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329203764",
+        "handle": "p00004098-en-day-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330547252",
+        "handle": "p00004098-zh-cn-day-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330580020",
+        "handle": "p00004098-zh-cn-day-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330612788",
+        "handle": "p00004098-zh-cn-day-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330645556",
+        "handle": "p00004098-zh-cn-day-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330678324",
+        "handle": "p00004098-zh-cn-day-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331792436",
+        "handle": "p00004098-zh-tw-day-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331825204",
+        "handle": "p00004098-zh-tw-day-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331857972",
+        "handle": "p00004098-zh-tw-day-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331890740",
+        "handle": "p00004098-zh-tw-day-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331923508",
+        "handle": "p00004098-zh-tw-day-5"
+      }
+    ],
+    "tour_cost_section": [
+      {
+        "id": "gid://shopify/Metaobject/352329236532",
+        "handle": "p00004098-en-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329269300",
+        "handle": "p00004098-en-cost-excludes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330711092",
+        "handle": "p00004098-zh-cn-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330743860",
+        "handle": "p00004098-zh-cn-cost-excludes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331956276",
+        "handle": "p00004098-zh-tw-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331989044",
+        "handle": "p00004098-zh-tw-cost-excludes"
+      }
+    ],
+    "tour_policy_notice": [
+      {
+        "id": "gid://shopify/Metaobject/352329302068",
+        "handle": "p00004098-en-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329334836",
+        "handle": "p00004098-en-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329367604",
+        "handle": "p00004098-en-notice-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329400372",
+        "handle": "p00004098-en-notice-2-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330776628",
+        "handle": "p00004098-zh-cn-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330809396",
+        "handle": "p00004098-zh-cn-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330842164",
+        "handle": "p00004098-zh-cn-notice-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330874932",
+        "handle": "p00004098-zh-cn-notice-2-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332021812",
+        "handle": "p00004098-zh-tw-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332054580",
+        "handle": "p00004098-zh-tw-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332087348",
+        "handle": "p00004098-zh-tw-notice-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332120116",
+        "handle": "p00004098-zh-tw-notice-2-4"
+      }
+    ],
+    "tour_pickup_dropoff": [
+      {
+        "id": "gid://shopify/Metaobject/352329433140",
+        "handle": "p00004098-en-pickup-anm00001728"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329465908",
+        "handle": "p00004098-en-dropoff-anm00001728"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330907700",
+        "handle": "p00004098-zh-cn-pickup-anm00001728"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330940468",
+        "handle": "p00004098-zh-cn-dropoff-anm00001728"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332152884",
+        "handle": "p00004098-zh-tw-pickup-anm00001728"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332185652",
+        "handle": "p00004098-zh-tw-dropoff-anm00001728"
+      }
+    ],
+    "tour_addon": [
+      {
+        "id": "gid://shopify/Metaobject/352329498676",
+        "handle": "p00004098-en-addon-s00006070"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329531444",
+        "handle": "p00004098-en-addon-s00008715"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329564212",
+        "handle": "p00004098-en-addon-s00007982"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329596980",
+        "handle": "p00004098-en-addon-s00006064"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329629748",
+        "handle": "p00004098-en-addon-s00007918"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329662516",
+        "handle": "p00004098-en-addon-s00006235"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329695284",
+        "handle": "p00004098-en-addon-s00006236"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329728052",
+        "handle": "p00004098-en-addon-s00006237"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329760820",
+        "handle": "p00004098-en-addon-s00005448"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329793588",
+        "handle": "p00004098-en-addon-s00006205"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329826356",
+        "handle": "p00004098-en-addon-s00006206"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329859124",
+        "handle": "p00004098-en-addon-s00006207"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329891892",
+        "handle": "p00004098-en-addon-s00006068"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329924660",
+        "handle": "p00004098-en-addon-s00006069"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329957428",
+        "handle": "p00004098-en-addon-s00006072"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352329990196",
+        "handle": "p00004098-en-addon-s00006073"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330022964",
+        "handle": "p00004098-en-addon-s00006074"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330055732",
+        "handle": "p00004098-en-addon-s00006238"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330088500",
+        "handle": "p00004098-en-addon-s00006239"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330121268",
+        "handle": "p00004098-en-addon-s00006240"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330154036",
+        "handle": "p00004098-en-addon-s00007036"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330186804",
+        "handle": "p00004098-en-addon-s00006920"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330219572",
+        "handle": "p00004098-en-addon-s00006934"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330252340",
+        "handle": "p00004098-en-addon-s00005131"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352330973236",
+        "handle": "p00004098-zh-cn-addon-s00006070"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331006004",
+        "handle": "p00004098-zh-cn-addon-s00008715"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331038772",
+        "handle": "p00004098-zh-cn-addon-s00007982"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331071540",
+        "handle": "p00004098-zh-cn-addon-s00006064"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331104308",
+        "handle": "p00004098-zh-cn-addon-s00007918"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331137076",
+        "handle": "p00004098-zh-cn-addon-s00006235"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331169844",
+        "handle": "p00004098-zh-cn-addon-s00006236"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331202612",
+        "handle": "p00004098-zh-cn-addon-s00006237"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331235380",
+        "handle": "p00004098-zh-cn-addon-s00005448"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331268148",
+        "handle": "p00004098-zh-cn-addon-s00006205"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331300916",
+        "handle": "p00004098-zh-cn-addon-s00006206"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331333684",
+        "handle": "p00004098-zh-cn-addon-s00006207"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331366452",
+        "handle": "p00004098-zh-cn-addon-s00006068"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331399220",
+        "handle": "p00004098-zh-cn-addon-s00006069"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331431988",
+        "handle": "p00004098-zh-cn-addon-s00006072"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331464756",
+        "handle": "p00004098-zh-cn-addon-s00006073"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331497524",
+        "handle": "p00004098-zh-cn-addon-s00006074"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331530292",
+        "handle": "p00004098-zh-cn-addon-s00006238"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331563060",
+        "handle": "p00004098-zh-cn-addon-s00006239"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331595828",
+        "handle": "p00004098-zh-cn-addon-s00006240"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331628596",
+        "handle": "p00004098-zh-cn-addon-s00007036"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331661364",
+        "handle": "p00004098-zh-cn-addon-s00006920"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331694132",
+        "handle": "p00004098-zh-cn-addon-s00006934"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352331726900",
+        "handle": "p00004098-zh-cn-addon-s00005131"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332218420",
+        "handle": "p00004098-zh-tw-addon-s00006070"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332251188",
+        "handle": "p00004098-zh-tw-addon-s00008715"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332283956",
+        "handle": "p00004098-zh-tw-addon-s00007982"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332316724",
+        "handle": "p00004098-zh-tw-addon-s00006064"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332349492",
+        "handle": "p00004098-zh-tw-addon-s00007918"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332382260",
+        "handle": "p00004098-zh-tw-addon-s00006235"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332415028",
+        "handle": "p00004098-zh-tw-addon-s00006236"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332447796",
+        "handle": "p00004098-zh-tw-addon-s00006237"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332480564",
+        "handle": "p00004098-zh-tw-addon-s00005448"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332513332",
+        "handle": "p00004098-zh-tw-addon-s00006205"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332546100",
+        "handle": "p00004098-zh-tw-addon-s00006206"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332578868",
+        "handle": "p00004098-zh-tw-addon-s00006207"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332611636",
+        "handle": "p00004098-zh-tw-addon-s00006068"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332644404",
+        "handle": "p00004098-zh-tw-addon-s00006069"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332677172",
+        "handle": "p00004098-zh-tw-addon-s00006072"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332709940",
+        "handle": "p00004098-zh-tw-addon-s00006073"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332742708",
+        "handle": "p00004098-zh-tw-addon-s00006074"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332775476",
+        "handle": "p00004098-zh-tw-addon-s00006238"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332808244",
+        "handle": "p00004098-zh-tw-addon-s00006239"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332841012",
+        "handle": "p00004098-zh-tw-addon-s00006240"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332873780",
+        "handle": "p00004098-zh-tw-addon-s00007036"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332906548",
+        "handle": "p00004098-zh-tw-addon-s00006920"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332939316",
+        "handle": "p00004098-zh-tw-addon-s00006934"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352332972084",
+        "handle": "p00004098-zh-tw-addon-s00005131"
+      }
+    ],
+    "tour_departure": [
+      {
+        "id": "gid://shopify/Metaobject/352333004852",
+        "handle": "p00004098-departure-2026-08-13"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352333037620",
+        "handle": "p00004098-departure-2026-08-27"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352333070388",
+        "handle": "p00004098-departure-2026-09-24"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352333103156",
+        "handle": "p00004098-departure-2026-10-08"
+      }
+    ]
+  },
+  "publication": {
+    "id": "gid://shopify/Publication/197740789812",
+    "name": "Travel Website Development"
+  },
+  "warnings": [],
+  "metaobjectDefinitions": {
+    "tour_content": "gid://shopify/MetaobjectDefinition/18676711476",
+    "tour_highlight": "gid://shopify/MetaobjectDefinition/18675433524",
+    "tour_itinerary_day": "gid://shopify/MetaobjectDefinition/18675466292",
+    "tour_departure": "gid://shopify/MetaobjectDefinition/18675499060",
+    "tour_cost_section": "gid://shopify/MetaobjectDefinition/18675531828",
+    "tour_policy_notice": "gid://shopify/MetaobjectDefinition/18675564596",
+    "tour_pickup_dropoff": "gid://shopify/MetaobjectDefinition/18675597364",
+    "tour_addon": "gid://shopify/MetaobjectDefinition/18675630132"
+  },
+  "productReferenceMetafieldDefinitions": {
+    "content": "gid://shopify/MetafieldDefinition/217881935924",
+    "highlight": "gid://shopify/MetafieldDefinition/217872597044",
+    "itinerary_day": "gid://shopify/MetafieldDefinition/217872629812",
+    "departure": "gid://shopify/MetafieldDefinition/217872662580",
+    "cost_section": "gid://shopify/MetafieldDefinition/217872695348",
+    "policy_notice": "gid://shopify/MetafieldDefinition/217872728116",
+    "pickup_dropoff": "gid://shopify/MetafieldDefinition/217872760884",
+    "addon": "gid://shopify/MetafieldDefinition/217872793652"
+  }
+}

@@ -2,30 +2,31 @@ import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import { CategoryPageClient } from '@/components/category/CategoryPageClient'
 import { PartnerBanner } from '@/components/home/PartnerBanner'
-import { CATEGORY_DATA_BY_SLUG } from '@/data/category-ustours'
+import { CATEGORY_SLUGS, TOUR_CATEGORIES, getLocalizedText } from '@/data/tour-categories'
 import { routing } from '@/i18n/routing'
+import { fetchProductsByQueries, localizeCollectionProducts } from '@/lib/shopify/products'
+
+export const revalidate = 1800
 
 export async function generateMetadata({
   params,
 }: {
   params: Promise<{ locale: string; slug: string }>
 }): Promise<Metadata> {
-  const { slug } = await params
-  const category = CATEGORY_DATA_BY_SLUG[slug]
+  const { locale, slug } = await params
+  const category = TOUR_CATEGORIES[slug]
 
-  if (!category) {
-    return {}
-  }
+  if (!category) return {}
 
   return {
-    title: `${category.title} | 途风旅游`,
-    description: `${category.title}筛选、热销线路、旅行指南和游客评价。`,
+    title: `${getLocalizedText(category.title, locale)} | Tours`,
+    description: getLocalizedText(category.description, locale),
   }
 }
 
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) =>
-    Object.keys(CATEGORY_DATA_BY_SLUG).map((slug) => ({
+    CATEGORY_SLUGS.map((slug) => ({
       locale,
       slug,
     })),
@@ -37,16 +38,19 @@ export default async function CategorySlugPage({
 }: {
   params: Promise<{ locale: string; slug: string }>
 }) {
-  const { slug } = await params
-  const category = CATEGORY_DATA_BY_SLUG[slug]
+  const { locale, slug } = await params
+  const category = TOUR_CATEGORIES[slug]
 
-  if (!category) {
-    notFound()
-  }
+  if (!category) notFound()
+
+  const products = await localizeCollectionProducts(
+    await fetchProductsByQueries(category.queries, 48, 48),
+    locale,
+  )
 
   return (
     <>
-      <CategoryPageClient category={category} />
+      <CategoryPageClient category={category} products={products} locale={locale} />
       <PartnerBanner />
     </>
   )

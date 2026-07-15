@@ -1,0 +1,957 @@
+{
+  "extractedAt": "2026-07-15T04:48:03.253Z",
+  "warnings": [
+    "getProductGroup unavailable: 400 scheme information does not exist！"
+  ],
+  "product": {
+    "productCode": "P00004590",
+    "productViewCode": "R0003250",
+    "groupNo": "R7V",
+    "title": "[Gold] 7-Day Tour across Vancouver, San Francisco, Redwood National and State Parks, Crater Lake National Park, Mt. Rainier National Park  w/ Amtrak Coast Starlight Tour",
+    "subtitle": "",
+    "categoryCode": "PC00000067",
+    "categoryName": "San Francisco",
+    "productClass": 1,
+    "productForm": 1,
+    "duration": {
+      "days": 7,
+      "nights": 6,
+      "label": "7 days / 6 nights"
+    },
+    "start": {
+      "regionCode": "A1108",
+      "regionName": "Vancouver",
+      "resourceType": 0
+    },
+    "end": {
+      "regionCode": "A394",
+      "regionName": "Seattle",
+      "resourceType": 0
+    },
+    "destinations": [
+      {
+        "country": "",
+        "province": "",
+        "scenic": "",
+        "spotCode": "SM00001611",
+        "spotName": "Amtrak Coast Starlight",
+        "raw": {
+          "countryCode": "",
+          "countryName": "",
+          "provinceCode": "",
+          "provinceName": "",
+          "scenicCode": "",
+          "scenicName": "",
+          "scenicSpotCode": "SM00001611",
+          "scenicSpotName": "Amtrak Coast Starlight",
+          "resourceType": 0
+        }
+      },
+      {
+        "country": "",
+        "province": "",
+        "scenic": "",
+        "spotCode": "SM00001629",
+        "spotName": "Redwood National and State Parks",
+        "raw": {
+          "countryCode": "",
+          "countryName": "",
+          "provinceCode": "",
+          "provinceName": "",
+          "scenicCode": "",
+          "scenicName": "",
+          "scenicSpotCode": "SM00001629",
+          "scenicSpotName": "Redwood National and State Parks",
+          "resourceType": 0
+        }
+      },
+      {
+        "country": "",
+        "province": "",
+        "scenic": "",
+        "spotCode": "SM00000286",
+        "spotName": "Crater Lake National Park",
+        "raw": {
+          "countryCode": "",
+          "countryName": "",
+          "provinceCode": "",
+          "provinceName": "",
+          "scenicCode": "",
+          "scenicName": "",
+          "scenicSpotCode": "SM00000286",
+          "scenicSpotName": "Crater Lake National Park",
+          "resourceType": 0
+        }
+      },
+      {
+        "country": "",
+        "province": "",
+        "scenic": "",
+        "spotCode": "SM00000278",
+        "spotName": "Mt. Rainier National Park",
+        "raw": {
+          "countryCode": "",
+          "countryName": "",
+          "provinceCode": "",
+          "provinceName": "",
+          "scenicCode": "",
+          "scenicName": "",
+          "scenicSpotCode": "SM00000278",
+          "scenicSpotName": "Mt. Rainier National Park",
+          "resourceType": 0
+        }
+      }
+    ],
+    "vehicleCodes": [
+      "1"
+    ],
+    "vehicles": [
+      "Vehicle"
+    ],
+    "transferCodes": [],
+    "transfers": [],
+    "status": 200,
+    "releaseTime": "2023-11-20 18:42:19",
+    "changeTime": "2026-07-01 13:28:23",
+    "dataVersion": 1782872989,
+    "raw": {
+      "mainLanguage": 2,
+      "productCode": "P00004590",
+      "productViewCode": "R0003250",
+      "groupNo": "R7V",
+      "productClass": 1,
+      "carpointOff": 3,
+      "carpointOn": 3,
+      "productType": "PC00000067",
+      "productTypeName": "San Francisco",
+      "tripDay": 7,
+      "nightDay": 6,
+      "productForm": 1,
+      "productRoom": 2,
+      "productVehicle": "1",
+      "productTransfer": "",
+      "productName": "[Gold] 7-Day Tour across Vancouver, San Francisco, Redwood National and State Parks, Crater Lake National Park, Mt. Rainier National Park  w/ Amtrak Coast Starlight Tour",
+      "subtitleName": "",
+      "productSpecial": "<ul>\n<li>Welcome to the Pacific Northwest! Enter the original redwood forest park with the world's tallest tree species - sea redwood. Get to observe rich wildlife up close, visit the world's largest and most charming crater lake, and admire the charming snow-capped mountains and landscapes composed of glaciers, rivers, valleys and waterfalls!</li>\n<li>Amtrak Coast Starlight is recognized as one of the most spectacular train lines! The train carriages are spacious and comfortable, and the all-glass shell ensures an excellent view of the scenery. There is also a dedicated person who is responsible for explaining the entire journey and accompanying you intimately on your journey!</li>\n<li>The beautiful scenery of Napa Valley is synonymous with wine! Enjoy 5 kinds of Napa wine: White Zinfandel, Pinot Grigio, Zinfandel, Moscato, Zinfandel Port!</li>\n<li>Go to Portland, a livable city in the world, and enjoy the artistic atmosphere and tax-free shopping experience similar to New York &ndash; take a free shuttle to the Woodburn Outlets and enjoy the shopping pleasure of a duty-free paradise; check in to the most prestigious international shopping mall, and wander in the ocean of roses in the Rose Experimental Garden to enjoy a moment of tranquility and leisure unlike any others!</li>\n</ul>\n<p><strong>Note：</strong></p>\n<p>1. If you hold a U.S. or Canadian passport: You must bring a valid U.S. or Canadian passport.<br>2. If you hold a U.S. permanent resident document: You must bring a valid passport and U.S. permanent resident document (green card). Make sure your U.S. permanent resident ID is valid and carry it with you at all times.<br>3. If you do not hold the above documents: Please prepare the corresponding travel visa in advance according to the instructions of the U.S. Customs and Border Protection (CBP). For details, please visit: <a href=\"https://www.cbp.gov\" target=\"_blank\" rel=\"noopener\">https://www.cbp.gov</a><br>Note:<br>1) If the U.S. tourist visa you hold is in an expired passport, but the visa itself is still valid, please travel with your new valid passport and your old passport, and use the valid visa for U.S. travel.<br>2) Starting from November 29, 2016, all individuals holding Chinese passports and holding B1/B2, B1 and B2 visas with the longest validity period (ten years) must complete valid EVUS registration before traveling to the United States. Passengers who have not completed EVUS registration will not be able to obtain a boarding pass or enter the country through land ports. For details, please visit: <a href=\"https://www.evus.gov\" target=\"_blank\" rel=\"noopener\">https://www.evus.gov</a></p>",
+      "salesNote": "",
+      "departureDate": "03/04/2026-11/04/2026: Wednesday\n03/03/2027-11/03/2027: Wednesday\nMinimum of 2 people is required to be operated.",
+      "rewardCode": "",
+      "createTime": "2023-11-20 11:24:08",
+      "datachangelasttime": "2026-07-01 13:28:23",
+      "dataVersion": 1782872989,
+      "productPriceAuto": 0,
+      "advanceDay": -1,
+      "advanceTime": "",
+      "productIsOutreach": null,
+      "upperProductCode": null,
+      "upperUpBranchCode": null,
+      "productAttribute": 1,
+      "productClassify": 1,
+      "schemeName": null,
+      "productStatus": 200,
+      "otherCurrencySupport": [],
+      "productRateInfoList": [],
+      "isLocalResidentOptional": 0
+    }
+  },
+  "media": {
+    "images": [
+      "https://dimg04.c-ctrip.com/target/02S3h12000enelsnjE16D.jpg",
+      "https://dimg04.c-ctrip.com/target/02S4912000engmexx7A90.jpg",
+      "https://dimg04.c-ctrip.com/target/02S3812000epqv9mw3234.png"
+    ],
+    "imageObjects": [
+      {
+        "imageUrl": "02S3h12000enelsnjE16D.jpg",
+        "imageName": "太空针塔"
+      },
+      {
+        "imageUrl": "02S4912000engmexx7A90.jpg",
+        "imageName": "海岸星光号观景列车"
+      },
+      {
+        "imageUrl": "02S3812000epqv9mw3234.png",
+        "imageName": "沙斯塔水坝 "
+      }
+    ],
+    "rawProductImg": [
+      "02S3h12000enelsnjE16D.jpg",
+      "02S4912000engmexx7A90.jpg",
+      "02S3812000epqv9mw3234.png"
+    ]
+  },
+  "highlights": {
+    "html": "<ul>\n<li>Welcome to the Pacific Northwest! Enter the original redwood forest park with the world's tallest tree species - sea redwood. Get to observe rich wildlife up close, visit the world's largest and most charming crater lake, and admire the charming snow-capped mountains and landscapes composed of glaciers, rivers, valleys and waterfalls!</li>\n<li>Amtrak Coast Starlight is recognized as one of the most spectacular train lines! The train carriages are spacious and comfortable, and the all-glass shell ensures an excellent view of the scenery. There is also a dedicated person who is responsible for explaining the entire journey and accompanying you intimately on your journey!</li>\n<li>The beautiful scenery of Napa Valley is synonymous with wine! Enjoy 5 kinds of Napa wine: White Zinfandel, Pinot Grigio, Zinfandel, Moscato, Zinfandel Port!</li>\n<li>Go to Portland, a livable city in the world, and enjoy the artistic atmosphere and tax-free shopping experience similar to New York &ndash; take a free shuttle to the Woodburn Outlets and enjoy the shopping pleasure of a duty-free paradise; check in to the most prestigious international shopping mall, and wander in the ocean of roses in the Rose Experimental Garden to enjoy a moment of tranquility and leisure unlike any others!</li>\n</ul>\n<p><strong>Note：</strong></p>\n<p>1. If you hold a U.S. or Canadian passport: You must bring a valid U.S. or Canadian passport.<br>2. If you hold a U.S. permanent resident document: You must bring a valid passport and U.S. permanent resident document (green card). Make sure your U.S. permanent resident ID is valid and carry it with you at all times.<br>3. If you do not hold the above documents: Please prepare the corresponding travel visa in advance according to the instructions of the U.S. Customs and Border Protection (CBP). For details, please visit: <a href=\"https://www.cbp.gov\" target=\"_blank\" rel=\"noopener\">https://www.cbp.gov</a><br>Note:<br>1) If the U.S. tourist visa you hold is in an expired passport, but the visa itself is still valid, please travel with your new valid passport and your old passport, and use the valid visa for U.S. travel.<br>2) Starting from November 29, 2016, all individuals holding Chinese passports and holding B1/B2, B1 and B2 visas with the longest validity period (ten years) must complete valid EVUS registration before traveling to the United States. Passengers who have not completed EVUS registration will not be able to obtain a boarding pass or enter the country through land ports. For details, please visit: <a href=\"https://www.evus.gov\" target=\"_blank\" rel=\"noopener\">https://www.evus.gov</a></p>",
+    "text": "- Welcome to the Pacific Northwest! Enter the original redwood forest park with the world's tallest tree species - sea redwood. Get to observe rich wildlife up close, visit the world's largest and most charming crater lake, and admire the charming snow-capped mountains and landscapes composed of glaciers, rivers, valleys and waterfalls!\n\n- Amtrak Coast Starlight is recognized as one of the most spectacular train lines! The train carriages are spacious and comfortable, and the all-glass shell ensures an excellent view of the scenery. There is also a dedicated person who is responsible for explaining the entire journey and accompanying you intimately on your journey!\n\n- The beautiful scenery of Napa Valley is synonymous with wine! Enjoy 5 kinds of Napa wine: White Zinfandel, Pinot Grigio, Zinfandel, Moscato, Zinfandel Port!\n\n- Go to Portland, a livable city in the world, and enjoy the artistic atmosphere and tax-free shopping experience similar to New York &ndash; take a free shuttle to the Woodburn Outlets and enjoy the shopping pleasure of a duty-free paradise; check in to the most prestigious international shopping mall, and wander in the ocean of roses in the Rose Experimental Garden to enjoy a moment of tranquility and leisure unlike any others!\n\nNote：\n\n1. If you hold a U.S. or Canadian passport: You must bring a valid U.S. or Canadian passport.\n2. If you hold a U.S. permanent resident document: You must bring a valid passport and U.S. permanent resident document (green card). Make sure your U.S. permanent resident ID is valid and carry it with you at all times.\n3. If you do not hold the above documents: Please prepare the corresponding travel visa in advance according to the instructions of the U.S. Customs and Border Protection (CBP). For details, please visit: https://www.cbp.gov\nNote:\n1) If the U.S. tourist visa you hold is in an expired passport, but the visa itself is still valid, please travel with your new valid passport and your old passport, and use the valid visa for U.S. travel.\n2) Starting from November 29, 2016, all individuals holding Chinese passports and holding B1/B2, B1 and B2 visas with the longest validity period (ten years) must complete valid EVUS registration before traveling to the United States. Passengers who have not completed EVUS registration will not be able to obtain a boarding pass or enter the country through land ports. For details, please visit: https://www.evus.gov",
+    "salesNoteHtml": "",
+    "salesNoteText": ""
+  },
+  "departure": {
+    "html": "03/04/2026-11/04/2026: Wednesday<br>03/03/2027-11/03/2027: Wednesday<br>Minimum of 2 people is required to be operated.",
+    "text": "03/04/2026-11/04/2026: Wednesday\n03/03/2027-11/03/2027: Wednesday\nMinimum of 2 people is required to be operated.",
+    "advanceDay": -1,
+    "advanceTime": "",
+    "availabilityStart": "2026-07-14",
+    "availabilityEnd": "2027-12-31"
+  },
+  "pricing": {
+    "requestedCurrency": "USD",
+    "defaultCurrency": {
+      "currencyCode": "CI00000002",
+      "branchCode": "B00000003",
+      "currencyNum": "USD",
+      "currencyName": "美元",
+      "currencySymbol": "$",
+      "currencyAccuracy": 2,
+      "currencyRate": 1,
+      "currencyConversion": 1,
+      "currencyIsDefault": 1,
+      "currencyStatus": 200
+    },
+    "supportedCurrencies": [
+      {
+        "currencyCode": "CI00000111",
+        "branchCode": "B00000003",
+        "currencyNum": "CAD",
+        "currencyName": "CAD",
+        "currencySymbol": "C$",
+        "currencyAccuracy": 4,
+        "currencyRate": 1.423,
+        "currencyConversion": 1,
+        "currencyIsDefault": 0,
+        "currencyStatus": 200
+      },
+      {
+        "currencyCode": "CI00000002",
+        "branchCode": "B00000003",
+        "currencyNum": "USD",
+        "currencyName": "美元",
+        "currencySymbol": "$",
+        "currencyAccuracy": 2,
+        "currencyRate": 1,
+        "currencyConversion": 1,
+        "currencyIsDefault": 1,
+        "currencyStatus": 200
+      }
+    ],
+    "firstAvailableDate": null,
+    "basePrices": [],
+    "availability": []
+  },
+  "itinerary": {
+    "productDay": null,
+    "productNight": null,
+    "travelName": "",
+    "days": [],
+    "raw": {
+      "productCode": "P00004590",
+      "dataVersion": 1782872989,
+      "productDay": null,
+      "productNight": null,
+      "travelId": null,
+      "productType": null,
+      "productTypeName": null,
+      "travelName": null,
+      "productTravelInfoList": []
+    }
+  },
+  "cost": {
+    "includesHtml": "<p>1. Transportation (The type of vehicle used will be based on the number of guests attending that day).</p>\n<p>2. Professional Chinese-English driver and guide (or driver-guide).</p>\n<p>3. Hotel (Nights are one day less than the total number of tour days).</p>\n<p>4. Breakfasts.</p>",
+    "includesText": "1. Transportation (The type of vehicle used will be based on the number of guests attending that day).\n\n2. Professional Chinese-English driver and guide (or driver-guide).\n\n3. Hotel (Nights are one day less than the total number of tour days).\n\n4. Breakfasts.",
+    "excludesHtml": "<p>1. Lunch and dinner.</p>\n<p>2. Transportation to the departure boarding point.</p>\n<p>3. Service fee (minimum USD$15 or CAD$20 per person per day, any child and Infant reserving a seat have to pay the service fees as well).</p>\n<p>4. Personal expenses (such as food &amp; beverage, telephone surcharge, etc.).</p>\n<p>5. Mandatory and optional attraction admission fee (Prices are subject to change without prior notice; Tickets should be purchased from the tour guide).</p>\n<p>6. Any expenses are not listed in Fee Included.</p>",
+    "excludesText": "1. Lunch and dinner.\n\n2. Transportation to the departure boarding point.\n\n3. Service fee (minimum USD$15 or CAD$20 per person per day, any child and Infant reserving a seat have to pay the service fees as well).\n\n4. Personal expenses (such as food & beverage, telephone surcharge, etc.).\n\n5. Mandatory and optional attraction admission fee (Prices are subject to change without prior notice; Tickets should be purchased from the tour guide).\n\n6. Any expenses are not listed in Fee Included.",
+    "productCostIsDay": 0,
+    "costInfo": []
+  },
+  "policy_notice": {
+    "notices": [
+      {
+        "matterCode": "AT00002177",
+        "noticeType": 3,
+        "typeLabel": "Cancellation Policy",
+        "matterName": "【退改政策】海鷗非木屋黃石團及美西團R/BW系列&買二送二",
+        "html": {
+          "primary": "<table style=\"border-collapse: collapse; width: 98.3129%; height: 110px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 50%; height: 22px;\">Prior to departure</td>\n<td style=\"width: 50%; height: 22px;\">Penalty charge (% of total tour fee)</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 50%; height: 22px;\">Less than 7 days prior to departure date (EST)&nbsp;</td>\n<td style=\"width: 50%; height: 22px;\">100%</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 50%; height: 22px;\">Less than 14 days but 8 days prior to departure date (EST)</td>\n<td style=\"width: 50%; height: 22px;\">50%</td>\n</tr>\n<tr style=\"height: 44px;\">\n<td style=\"width: 50%; height: 44px;\">Less than 30 days but 15 days prior to departure date (EST)</td>\n<td style=\"width: 50%; height: 44px;\">30%</td>\n</tr>\n<tr>\n<td style=\"width: 50%;\">31 days prior to departure date (EST)</td>\n<td style=\"width: 50%;\">0</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<p>Notes:</p>\n<p>1. Paid tour fee will NOT be refunded in the case of no-shows on the day of departure.</p>\n<p>2. If the guest quit during the trip or fails to participate in any itinerary due to personal reasons (no travel documents, late arrival, illness, accident, etc.), the paid tour fare will not be refunded, and no other services will be compensated.</p>\n<p>3. Additional hotel bookings before or after the tour as well as other services are subject to hotel cancellation policy to determine if a refund is possible.</p>\n<p>4. In the event of weather, war, strikes and other force majeure that make it impossible to tour, Jupiter Legend will try its best to protect the safety of guests and their property. Jupiter Legend reserves the right to cancel or adjust part or all of the itinerary, and will not bear any direct or indirect responsibility caused by force majeure. The paid tour fee is non-refundable.</p>\n<p>5. Regarding the \"buy two get two free\" promotion, the Cancellation &amp; Re-schedule Policy for the third and fourth roommates who will be given away for free are as follows:</p>\n<p>&nbsp; &nbsp;a. &nbsp;Early cancellation: If the first two guests participate in the group as usual, if the third and fourth guests who participate for free in the same room request to cancel their seats more than 7 days before the departure, they can enjoy free cancellation without any penalty.<br />&nbsp; &nbsp;b. &nbsp;Temporary cancellation within 7 days before departure: If the first two guests participate normally, and the third and fourth guests who participate for free in the same room cancel within 7 days before the departure, or if they do not show on the day of departure, we will charge a penalty of 50% of the original price of a room for two people for each temporary cancellation.<br />&nbsp; &nbsp;c. &nbsp;If the penalty is temporarily cancelled within 7 days before departure but not paid in full, or if it is NO SHOW on the day of participation, we will collect the above-mentioned penalty amount from the first and second participating guests in the order on the day of participation. If customers of the same order refuse to pay, it will be considered as unpaid group payment, and our company has the right to cancel all reservations for that order.</p>",
+          "secondary": "【退改政策】海鷗非木屋黃石團及美西團R/BW系列&買二送二"
+        },
+        "text": {
+          "primary": "Prior to departure\nPenalty charge (% of total tour fee)\n\nLess than 7 days prior to departure date (EST) \n100%\n\nLess than 14 days but 8 days prior to departure date (EST)\n50%\n\nLess than 30 days but 15 days prior to departure date (EST)\n30%\n\n31 days prior to departure date (EST)\n0\n\n \n\nNotes:\n\n1. Paid tour fee will NOT be refunded in the case of no-shows on the day of departure.\n\n2. If the guest quit during the trip or fails to participate in any itinerary due to personal reasons (no travel documents, late arrival, illness, accident, etc.), the paid tour fare will not be refunded, and no other services will be compensated.\n\n3. Additional hotel bookings before or after the tour as well as other services are subject to hotel cancellation policy to determine if a refund is possible.\n\n4. In the event of weather, war, strikes and other force majeure that make it impossible to tour, Jupiter Legend will try its best to protect the safety of guests and their property. Jupiter Legend reserves the right to cancel or adjust part or all of the itinerary, and will not bear any direct or indirect responsibility caused by force majeure. The paid tour fee is non-refundable.\n\n5. Regarding the \"buy two get two free\" promotion, the Cancellation & Re-schedule Policy for the third and fourth roommates who will be given away for free are as follows:\n\n   a.  Early cancellation: If the first two guests participate in the group as usual, if the third and fourth guests who participate for free in the same room request to cancel their seats more than 7 days before the departure, they can enjoy free cancellation without any penalty.\n   b.  Temporary cancellation within 7 days before departure: If the first two guests participate normally, and the third and fourth guests who participate for free in the same room cancel within 7 days before the departure, or if they do not show on the day of departure, we will charge a penalty of 50% of the original price of a room for two people for each temporary cancellation.\n   c.  If the penalty is temporarily cancelled within 7 days before departure but not paid in full, or if it is NO SHOW on the day of participation, we will collect the above-mentioned penalty amount from the first and second participating guests in the order on the day of participation. If customers of the same order refuse to pay, it will be considered as unpaid group payment, and our company has the right to cancel all reservations for that order.",
+          "secondary": "【退改政策】海鷗非木屋黃石團及美西團R/BW系列&買二送二"
+        },
+        "raw": {
+          "matterCode": "AT00002177",
+          "editType": 1,
+          "noticeType": 3,
+          "matterName": "【退改政策】海鷗非木屋黃石團及美西團R/BW系列&買二送二",
+          "vluesTip1": "<table style=\"border-collapse: collapse; width: 98.3129%; height: 110px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 50%; height: 22px;\">Prior to departure</td>\n<td style=\"width: 50%; height: 22px;\">Penalty charge (% of total tour fee)</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 50%; height: 22px;\">Less than 7 days prior to departure date (EST)&nbsp;</td>\n<td style=\"width: 50%; height: 22px;\">100%</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 50%; height: 22px;\">Less than 14 days but 8 days prior to departure date (EST)</td>\n<td style=\"width: 50%; height: 22px;\">50%</td>\n</tr>\n<tr style=\"height: 44px;\">\n<td style=\"width: 50%; height: 44px;\">Less than 30 days but 15 days prior to departure date (EST)</td>\n<td style=\"width: 50%; height: 44px;\">30%</td>\n</tr>\n<tr>\n<td style=\"width: 50%;\">31 days prior to departure date (EST)</td>\n<td style=\"width: 50%;\">0</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<p>Notes:</p>\n<p>1. Paid tour fee will NOT be refunded in the case of no-shows on the day of departure.</p>\n<p>2. If the guest quit during the trip or fails to participate in any itinerary due to personal reasons (no travel documents, late arrival, illness, accident, etc.), the paid tour fare will not be refunded, and no other services will be compensated.</p>\n<p>3. Additional hotel bookings before or after the tour as well as other services are subject to hotel cancellation policy to determine if a refund is possible.</p>\n<p>4. In the event of weather, war, strikes and other force majeure that make it impossible to tour, Jupiter Legend will try its best to protect the safety of guests and their property. Jupiter Legend reserves the right to cancel or adjust part or all of the itinerary, and will not bear any direct or indirect responsibility caused by force majeure. The paid tour fee is non-refundable.</p>\n<p>5. Regarding the \"buy two get two free\" promotion, the Cancellation &amp; Re-schedule Policy for the third and fourth roommates who will be given away for free are as follows:</p>\n<p>&nbsp; &nbsp;a. &nbsp;Early cancellation: If the first two guests participate in the group as usual, if the third and fourth guests who participate for free in the same room request to cancel their seats more than 7 days before the departure, they can enjoy free cancellation without any penalty.<br />&nbsp; &nbsp;b. &nbsp;Temporary cancellation within 7 days before departure: If the first two guests participate normally, and the third and fourth guests who participate for free in the same room cancel within 7 days before the departure, or if they do not show on the day of departure, we will charge a penalty of 50% of the original price of a room for two people for each temporary cancellation.<br />&nbsp; &nbsp;c. &nbsp;If the penalty is temporarily cancelled within 7 days before departure but not paid in full, or if it is NO SHOW on the day of participation, we will collect the above-mentioned penalty amount from the first and second participating guests in the order on the day of participation. If customers of the same order refuse to pay, it will be considered as unpaid group payment, and our company has the right to cancel all reservations for that order.</p>",
+          "vluesTip2": "【退改政策】海鷗非木屋黃石團及美西團R/BW系列&買二送二"
+        }
+      },
+      {
+        "matterCode": "AT00002228",
+        "noticeType": 2,
+        "typeLabel": "Travel tips",
+        "matterName": "【出行提示】加拿大跨境美國",
+        "html": {
+          "primary": "<p>1. If you hold a U.S. or Canadian passport: You must bring a valid U.S. or Canadian passport.<br />2. If you hold a U.S. permanent resident document: You must bring a valid passport and U.S. permanent resident document (green card). Make sure your U.S. permanent resident ID is valid and carry it with you at all times.<br />3. If you do not hold the above documents: Please prepare the corresponding travel visa in advance according to the instructions of the U.S. Customs and Border Protection (CBP). For details, please visit: <a href=\"https://www.cbp.gov/\" target=\"_blank\" rel=\"noopener\">https://www.cbp.gov</a><br /><strong>Note:</strong><br />1) If the U.S. tourist visa you hold is in an expired passport, but the visa itself is still valid, please travel with your new valid passport and your old passport, and use the valid visa for U.S. travel.<br />2) Starting from November 29, 2016, all individuals holding Chinese passports and holding B1/B2, B1 and B2 visas with the longest validity period (ten years) must complete valid EVUS registration before traveling to the United States. Passengers who have not completed EVUS registration will not be able to obtain a boarding pass or enter the country through land ports. For details, please visit: <a href=\"https://www.evus.gov/\" target=\"_blank\" rel=\"noopener\">https://www.evus.gov</a></p>",
+          "secondary": "【出行提示】加拿大跨境美國"
+        },
+        "text": {
+          "primary": "1. If you hold a U.S. or Canadian passport: You must bring a valid U.S. or Canadian passport.\n2. If you hold a U.S. permanent resident document: You must bring a valid passport and U.S. permanent resident document (green card). Make sure your U.S. permanent resident ID is valid and carry it with you at all times.\n3. If you do not hold the above documents: Please prepare the corresponding travel visa in advance according to the instructions of the U.S. Customs and Border Protection (CBP). For details, please visit: https://www.cbp.gov\nNote:\n1) If the U.S. tourist visa you hold is in an expired passport, but the visa itself is still valid, please travel with your new valid passport and your old passport, and use the valid visa for U.S. travel.\n2) Starting from November 29, 2016, all individuals holding Chinese passports and holding B1/B2, B1 and B2 visas with the longest validity period (ten years) must complete valid EVUS registration before traveling to the United States. Passengers who have not completed EVUS registration will not be able to obtain a boarding pass or enter the country through land ports. For details, please visit: https://www.evus.gov",
+          "secondary": "【出行提示】加拿大跨境美國"
+        },
+        "raw": {
+          "matterCode": "AT00002228",
+          "editType": 1,
+          "noticeType": 2,
+          "matterName": "【出行提示】加拿大跨境美國",
+          "vluesTip1": "<p>1. If you hold a U.S. or Canadian passport: You must bring a valid U.S. or Canadian passport.<br />2. If you hold a U.S. permanent resident document: You must bring a valid passport and U.S. permanent resident document (green card). Make sure your U.S. permanent resident ID is valid and carry it with you at all times.<br />3. If you do not hold the above documents: Please prepare the corresponding travel visa in advance according to the instructions of the U.S. Customs and Border Protection (CBP). For details, please visit: <a href=\"https://www.cbp.gov/\" target=\"_blank\" rel=\"noopener\">https://www.cbp.gov</a><br /><strong>Note:</strong><br />1) If the U.S. tourist visa you hold is in an expired passport, but the visa itself is still valid, please travel with your new valid passport and your old passport, and use the valid visa for U.S. travel.<br />2) Starting from November 29, 2016, all individuals holding Chinese passports and holding B1/B2, B1 and B2 visas with the longest validity period (ten years) must complete valid EVUS registration before traveling to the United States. Passengers who have not completed EVUS registration will not be able to obtain a boarding pass or enter the country through land ports. For details, please visit: <a href=\"https://www.evus.gov/\" target=\"_blank\" rel=\"noopener\">https://www.evus.gov</a></p>",
+          "vluesTip2": "【出行提示】加拿大跨境美國"
+        }
+      },
+      {
+        "matterCode": "AT00002029",
+        "noticeType": 1,
+        "typeLabel": "Know Before You Book",
+        "matterName": "【預定須知】海鷗產品（涉及跨境）",
+        "html": {
+          "primary": "<p><strong>Know Before You Book</strong></p>\n<p>1. Customer under 18 years old MUST be accompanied by at least one adult. &nbsp;<span style=\"color: #ba372a;\"><strong>If the order includes children, please make sure to note and inform them of their age in advance when booking the itinerary, otherwise fees will be charged on-site according to adult standards. </strong></span>In consideration of the guest safety, pregnant women are only allowed to join the tour if pregnant for 24 weeks or less by the end of the trip.</p>\n<p>2. Please be sure to provide accurate and complete information upon booking. This includes name, gender, valid contact information (preferably a mobile phone), accurate flight information, tour location, etc., This helps to avoid any errors upon the reservation bookings because errors affect travel. Any losses due to inaccurate or invalid information will be at your own expense and the company will not be held responsible.&nbsp;</p>\n<p>3. Hotels have different room types, such as a King/Queen size beds or two double size twin beds. The maximum number of people who can legally stay in a room is 2 to 4 people. <span style=\"color: #ba372a;\">According to the requirements of some hotels, each group of guests must bring at least one credit card or debit card that can be used at the destination for check-in procedure. If there is no personal consumption, the hotel will refund the deposit to the card within 7-14 working days after check-out.</span> JUPITER LEGEND Corporation and Ctour Holiday guarantee the number of rooms for guests but does not guarantee the specific room type and location. Hotel check-in time is usually after 15:00.</p>\n<p>4. This tour does not accept any City Pass or your own tickets for any of the attractions. Tour attraction admission charges and meal expenses are subject to change at any time without notification. Any purchased ticket cannot be refunded for lower prices.&nbsp;</p>\n<p>5. JUPITER LEGEND Corporation and Ctour Holiday have the right to make appropriate adjustments to the itinerary under the conditions of facilitating the operation for the tour group. This, however, will not reduce the items that should be included in the itinerary.&nbsp;</p>\n<p>6. During the actual trip, the tour guide or driver has the right to appropriately adjust the tour sequence, stay time or assembly time of scenic spots according to the weather, traffic, and other conditions to ensure the smooth progression of the trip.&nbsp;</p>\n<p>7. If any scenic spots are temporarily closed, including on certain holidays, the tour guide will make appropriate adjustments based on the actual situation, which may include viewing from the outside or substituting with another attraction to maintain the richness of the itinerary. Please note that the opening hours and capacity limits of certain attractions and national parks may change from time to time due to health concerns. Should such changes affect the itinerary, they will be considered force majeure. We appreciate your understanding.</p>\n<p>8. Children under the age of 8 require a booster seat in order to participate in the group tour. JUPITER LEGEND Corporation and Ctour Holiday provide the rental service for $10.00/person/day. Please make a request when booking the itinerary so that we may have the booster seat ready in advance. Please understand that the violations and fines are borne by the guests themselves. There is no need for a booster seat for bus travel on the day of travel, and the fee can be refunded to the guest.&nbsp;</p>\n<p>9. Normal health conditions are required in order to participate and enjoy our full itineraries. Contact us for specific policies or information regarding passengers and the handicapped with disabilities who do need to provide advance notifications to make a reservation. JUPITER LEGEND Corporation and Ctour Holiday does not guarantee a wheelchair liftequipped bus and/or seating availability to disabled passengers without prior notification and approval.</p>\n<p>10. In order to make your trip more complete, pleasant, and smooth, we strongly recommend that you choose to book event tickets, catering packages, etc. when making your order. Please be aware that we do not provide any additional booking services within 7 days before the departure date or during the tour.&nbsp;</p>\n<p>11. The price in the system is US dollars which includes tax. If you need to pay in CAD dollars, all CAD dollar prices do not include 5% GST.&nbsp;</p>\n<p>12. We may alter these terms and conditions from time to time and post the new version on our agents&rsquo; website. It is your responsibility to check the <a href=\"http://uvbookings.info/upload/terms/e.pdf\" target=\"_blank\" rel=\"noopener\">[Terms &amp; Conditions]</a> on their website regularly and prior to making a reservation. Unless specifically stated otherwise herein or required by law, JUPITER LEGEND Corporation shall not be liable for any consequential, compensatory, indirect, incidental, or punitive damages arising out of or in connection with the performance of its obligations under these terms and conditions.</p>\n<p>13. <span style=\"color: #ba372a;\">Due to the continuous rise in fuel prices leading to a sharp increase in vehicle operating costs, effective for all tours departing on May 18, 2026, a transportation surcharge of $5 per person per day will be applied to our tour products. The fee will be collected by tour guides during the trip.</span></p>\n<p>Notes:</p>\n<p>1）No fuel surcharge will be charged on the day of airport pick-up or take-off when no any other itinerary is scheduled.</p>\n<p>2）The surcharge is waived on days without transportation services. For instance, guests taking resort shuttles to theme parks in Florida tours, or full-day train itineraries with no tour guide or coach services included.</p>\n<p>3）For US-Canada cross-border tours, fuel surcharges will be charged based on actual travel regions: USD 5 per person per day in the US, and CAD 5 per person per day in Canada.</p>\n<p>&nbsp;</p>\n<p><strong>Know Before You Go</strong></p>\n<p>1. The maximum waiting time for any late passengers is 10 minutes beyond the meeting time announced by the Tour Guide. While JUPITER LEGEND Corporation makes every effort to provide on-time service, it does not guarantee to arrive at or depart from any point at a specific time. This could be affected by a number of factors including weather, traffic, strikes, government shutdowns, war or terrorist attacks, or mechanical problems. JUPITER LEGEND Corporation is not liable for any inconvenience or expense caused as a result of such a delay. They are not liable for the expense of connecting air or train or bus services missed as a result of a delay and are not liable for any other travel expense caused as a result of a delay.</p>\n<p>2. JUPITER LEGEND Corporation and Ctour Holiday reserve the right, when operating conditions require, transferring passengers from one vehicle to another in route.&nbsp;</p>\n<p>3. The following documents are recommended to make your check-in process smooth: A valid photo ID is required in order to board the bus. We recommend you bring a copy of your email confirmation to board the bus as well.&nbsp;</p>\n<p>4. This product is a group activity. If you choose to leave the group, please inform in advance, and obtain the consent of the tour guide. You need to sign the departure agreement form and the unfinished part will be regarded as your own abandonment. The group fee will not be refunded.&nbsp;</p>\n<p>5. Gift items in the itinerary that cannot be given away due to force majeure factors such as traffic and weather conditions or personal reasons may be subject to change. Please understand that the fees will not be fully refunded.&nbsp;</p>\n<p>6. Smoking is prohibited aboard the bus in accordance with the law and prohibited in most hotel rooms. Customers are responsible for any penalty charged by the hotel in a non-smoking room at least CAD$300 and more per night.&nbsp;</p>\n<p>7. Pets and animals are not allowed on the vehicle.&nbsp;</p>\n<p>8. Only for products with airport pick-up service: only one pick-up service within the free pick-up time range is provided for each order. If it is impossible to arrange due to weather and flight delay, etc., please pay for your own transportation costs.</p>\n<p>9. Emergency contact: (Toll Free) +1(866)585-8747.</p>",
+          "secondary": "【預定須知】海鷗產品（涉及跨境）"
+        },
+        "text": {
+          "primary": "Know Before You Book\n\n1. Customer under 18 years old MUST be accompanied by at least one adult.  If the order includes children, please make sure to note and inform them of their age in advance when booking the itinerary, otherwise fees will be charged on-site according to adult standards. In consideration of the guest safety, pregnant women are only allowed to join the tour if pregnant for 24 weeks or less by the end of the trip.\n\n2. Please be sure to provide accurate and complete information upon booking. This includes name, gender, valid contact information (preferably a mobile phone), accurate flight information, tour location, etc., This helps to avoid any errors upon the reservation bookings because errors affect travel. Any losses due to inaccurate or invalid information will be at your own expense and the company will not be held responsible. \n\n3. Hotels have different room types, such as a King/Queen size beds or two double size twin beds. The maximum number of people who can legally stay in a room is 2 to 4 people. According to the requirements of some hotels, each group of guests must bring at least one credit card or debit card that can be used at the destination for check-in procedure. If there is no personal consumption, the hotel will refund the deposit to the card within 7-14 working days after check-out. JUPITER LEGEND Corporation and Ctour Holiday guarantee the number of rooms for guests but does not guarantee the specific room type and location. Hotel check-in time is usually after 15:00.\n\n4. This tour does not accept any City Pass or your own tickets for any of the attractions. Tour attraction admission charges and meal expenses are subject to change at any time without notification. Any purchased ticket cannot be refunded for lower prices. \n\n5. JUPITER LEGEND Corporation and Ctour Holiday have the right to make appropriate adjustments to the itinerary under the conditions of facilitating the operation for the tour group. This, however, will not reduce the items that should be included in the itinerary. \n\n6. During the actual trip, the tour guide or driver has the right to appropriately adjust the tour sequence, stay time or assembly time of scenic spots according to the weather, traffic, and other conditions to ensure the smooth progression of the trip. \n\n7. If any scenic spots are temporarily closed, including on certain holidays, the tour guide will make appropriate adjustments based on the actual situation, which may include viewing from the outside or substituting with another attraction to maintain the richness of the itinerary. Please note that the opening hours and capacity limits of certain attractions and national parks may change from time to time due to health concerns. Should such changes affect the itinerary, they will be considered force majeure. We appreciate your understanding.\n\n8. Children under the age of 8 require a booster seat in order to participate in the group tour. JUPITER LEGEND Corporation and Ctour Holiday provide the rental service for $10.00/person/day. Please make a request when booking the itinerary so that we may have the booster seat ready in advance. Please understand that the violations and fines are borne by the guests themselves. There is no need for a booster seat for bus travel on the day of travel, and the fee can be refunded to the guest. \n\n9. Normal health conditions are required in order to participate and enjoy our full itineraries. Contact us for specific policies or information regarding passengers and the handicapped with disabilities who do need to provide advance notifications to make a reservation. JUPITER LEGEND Corporation and Ctour Holiday does not guarantee a wheelchair liftequipped bus and/or seating availability to disabled passengers without prior notification and approval.\n\n10. In order to make your trip more complete, pleasant, and smooth, we strongly recommend that you choose to book event tickets, catering packages, etc. when making your order. Please be aware that we do not provide any additional booking services within 7 days before the departure date or during the tour. \n\n11. The price in the system is US dollars which includes tax. If you need to pay in CAD dollars, all CAD dollar prices do not include 5% GST. \n\n12. We may alter these terms and conditions from time to time and post the new version on our agents&rsquo; website. It is your responsibility to check the [Terms & Conditions] on their website regularly and prior to making a reservation. Unless specifically stated otherwise herein or required by law, JUPITER LEGEND Corporation shall not be liable for any consequential, compensatory, indirect, incidental, or punitive damages arising out of or in connection with the performance of its obligations under these terms and conditions.\n\n13. Due to the continuous rise in fuel prices leading to a sharp increase in vehicle operating costs, effective for all tours departing on May 18, 2026, a transportation surcharge of $5 per person per day will be applied to our tour products. The fee will be collected by tour guides during the trip.\n\nNotes:\n\n1）No fuel surcharge will be charged on the day of airport pick-up or take-off when no any other itinerary is scheduled.\n\n2）The surcharge is waived on days without transportation services. For instance, guests taking resort shuttles to theme parks in Florida tours, or full-day train itineraries with no tour guide or coach services included.\n\n3）For US-Canada cross-border tours, fuel surcharges will be charged based on actual travel regions: USD 5 per person per day in the US, and CAD 5 per person per day in Canada.\n\n \n\nKnow Before You Go\n\n1. The maximum waiting time for any late passengers is 10 minutes beyond the meeting time announced by the Tour Guide. While JUPITER LEGEND Corporation makes every effort to provide on-time service, it does not guarantee to arrive at or depart from any point at a specific time. This could be affected by a number of factors including weather, traffic, strikes, government shutdowns, war or terrorist attacks, or mechanical problems. JUPITER LEGEND Corporation is not liable for any inconvenience or expense caused as a result of such a delay. They are not liable for the expense of connecting air or train or bus services missed as a result of a delay and are not liable for any other travel expense caused as a result of a delay.\n\n2. JUPITER LEGEND Corporation and Ctour Holiday reserve the right, when operating conditions require, transferring passengers from one vehicle to another in route. \n\n3. The following documents are recommended to make your check-in process smooth: A valid photo ID is required in order to board the bus. We recommend you bring a copy of your email confirmation to board the bus as well. \n\n4. This product is a group activity. If you choose to leave the group, please inform in advance, and obtain the consent of the tour guide. You need to sign the departure agreement form and the unfinished part will be regarded as your own abandonment. The group fee will not be refunded. \n\n5. Gift items in the itinerary that cannot be given away due to force majeure factors such as traffic and weather conditions or personal reasons may be subject to change. Please understand that the fees will not be fully refunded. \n\n6. Smoking is prohibited aboard the bus in accordance with the law and prohibited in most hotel rooms. Customers are responsible for any penalty charged by the hotel in a non-smoking room at least CAD$300 and more per night. \n\n7. Pets and animals are not allowed on the vehicle. \n\n8. Only for products with airport pick-up service: only one pick-up service within the free pick-up time range is provided for each order. If it is impossible to arrange due to weather and flight delay, etc., please pay for your own transportation costs.\n\n9. Emergency contact: (Toll Free) +1(866)585-8747.",
+          "secondary": "【預定須知】海鷗產品（涉及跨境）"
+        },
+        "raw": {
+          "matterCode": "AT00002029",
+          "editType": 1,
+          "noticeType": 1,
+          "matterName": "【預定須知】海鷗產品（涉及跨境）",
+          "vluesTip1": "<p><strong>Know Before You Book</strong></p>\n<p>1. Customer under 18 years old MUST be accompanied by at least one adult. &nbsp;<span style=\"color: #ba372a;\"><strong>If the order includes children, please make sure to note and inform them of their age in advance when booking the itinerary, otherwise fees will be charged on-site according to adult standards. </strong></span>In consideration of the guest safety, pregnant women are only allowed to join the tour if pregnant for 24 weeks or less by the end of the trip.</p>\n<p>2. Please be sure to provide accurate and complete information upon booking. This includes name, gender, valid contact information (preferably a mobile phone), accurate flight information, tour location, etc., This helps to avoid any errors upon the reservation bookings because errors affect travel. Any losses due to inaccurate or invalid information will be at your own expense and the company will not be held responsible.&nbsp;</p>\n<p>3. Hotels have different room types, such as a King/Queen size beds or two double size twin beds. The maximum number of people who can legally stay in a room is 2 to 4 people. <span style=\"color: #ba372a;\">According to the requirements of some hotels, each group of guests must bring at least one credit card or debit card that can be used at the destination for check-in procedure. If there is no personal consumption, the hotel will refund the deposit to the card within 7-14 working days after check-out.</span> JUPITER LEGEND Corporation and Ctour Holiday guarantee the number of rooms for guests but does not guarantee the specific room type and location. Hotel check-in time is usually after 15:00.</p>\n<p>4. This tour does not accept any City Pass or your own tickets for any of the attractions. Tour attraction admission charges and meal expenses are subject to change at any time without notification. Any purchased ticket cannot be refunded for lower prices.&nbsp;</p>\n<p>5. JUPITER LEGEND Corporation and Ctour Holiday have the right to make appropriate adjustments to the itinerary under the conditions of facilitating the operation for the tour group. This, however, will not reduce the items that should be included in the itinerary.&nbsp;</p>\n<p>6. During the actual trip, the tour guide or driver has the right to appropriately adjust the tour sequence, stay time or assembly time of scenic spots according to the weather, traffic, and other conditions to ensure the smooth progression of the trip.&nbsp;</p>\n<p>7. If any scenic spots are temporarily closed, including on certain holidays, the tour guide will make appropriate adjustments based on the actual situation, which may include viewing from the outside or substituting with another attraction to maintain the richness of the itinerary. Please note that the opening hours and capacity limits of certain attractions and national parks may change from time to time due to health concerns. Should such changes affect the itinerary, they will be considered force majeure. We appreciate your understanding.</p>\n<p>8. Children under the age of 8 require a booster seat in order to participate in the group tour. JUPITER LEGEND Corporation and Ctour Holiday provide the rental service for $10.00/person/day. Please make a request when booking the itinerary so that we may have the booster seat ready in advance. Please understand that the violations and fines are borne by the guests themselves. There is no need for a booster seat for bus travel on the day of travel, and the fee can be refunded to the guest.&nbsp;</p>\n<p>9. Normal health conditions are required in order to participate and enjoy our full itineraries. Contact us for specific policies or information regarding passengers and the handicapped with disabilities who do need to provide advance notifications to make a reservation. JUPITER LEGEND Corporation and Ctour Holiday does not guarantee a wheelchair liftequipped bus and/or seating availability to disabled passengers without prior notification and approval.</p>\n<p>10. In order to make your trip more complete, pleasant, and smooth, we strongly recommend that you choose to book event tickets, catering packages, etc. when making your order. Please be aware that we do not provide any additional booking services within 7 days before the departure date or during the tour.&nbsp;</p>\n<p>11. The price in the system is US dollars which includes tax. If you need to pay in CAD dollars, all CAD dollar prices do not include 5% GST.&nbsp;</p>\n<p>12. We may alter these terms and conditions from time to time and post the new version on our agents&rsquo; website. It is your responsibility to check the <a href=\"http://uvbookings.info/upload/terms/e.pdf\" target=\"_blank\" rel=\"noopener\">[Terms &amp; Conditions]</a> on their website regularly and prior to making a reservation. Unless specifically stated otherwise herein or required by law, JUPITER LEGEND Corporation shall not be liable for any consequential, compensatory, indirect, incidental, or punitive damages arising out of or in connection with the performance of its obligations under these terms and conditions.</p>\n<p>13. <span style=\"color: #ba372a;\">Due to the continuous rise in fuel prices leading to a sharp increase in vehicle operating costs, effective for all tours departing on May 18, 2026, a transportation surcharge of $5 per person per day will be applied to our tour products. The fee will be collected by tour guides during the trip.</span></p>\n<p>Notes:</p>\n<p>1）No fuel surcharge will be charged on the day of airport pick-up or take-off when no any other itinerary is scheduled.</p>\n<p>2）The surcharge is waived on days without transportation services. For instance, guests taking resort shuttles to theme parks in Florida tours, or full-day train itineraries with no tour guide or coach services included.</p>\n<p>3）For US-Canada cross-border tours, fuel surcharges will be charged based on actual travel regions: USD 5 per person per day in the US, and CAD 5 per person per day in Canada.</p>\n<p>&nbsp;</p>\n<p><strong>Know Before You Go</strong></p>\n<p>1. The maximum waiting time for any late passengers is 10 minutes beyond the meeting time announced by the Tour Guide. While JUPITER LEGEND Corporation makes every effort to provide on-time service, it does not guarantee to arrive at or depart from any point at a specific time. This could be affected by a number of factors including weather, traffic, strikes, government shutdowns, war or terrorist attacks, or mechanical problems. JUPITER LEGEND Corporation is not liable for any inconvenience or expense caused as a result of such a delay. They are not liable for the expense of connecting air or train or bus services missed as a result of a delay and are not liable for any other travel expense caused as a result of a delay.</p>\n<p>2. JUPITER LEGEND Corporation and Ctour Holiday reserve the right, when operating conditions require, transferring passengers from one vehicle to another in route.&nbsp;</p>\n<p>3. The following documents are recommended to make your check-in process smooth: A valid photo ID is required in order to board the bus. We recommend you bring a copy of your email confirmation to board the bus as well.&nbsp;</p>\n<p>4. This product is a group activity. If you choose to leave the group, please inform in advance, and obtain the consent of the tour guide. You need to sign the departure agreement form and the unfinished part will be regarded as your own abandonment. The group fee will not be refunded.&nbsp;</p>\n<p>5. Gift items in the itinerary that cannot be given away due to force majeure factors such as traffic and weather conditions or personal reasons may be subject to change. Please understand that the fees will not be fully refunded.&nbsp;</p>\n<p>6. Smoking is prohibited aboard the bus in accordance with the law and prohibited in most hotel rooms. Customers are responsible for any penalty charged by the hotel in a non-smoking room at least CAD$300 and more per night.&nbsp;</p>\n<p>7. Pets and animals are not allowed on the vehicle.&nbsp;</p>\n<p>8. Only for products with airport pick-up service: only one pick-up service within the free pick-up time range is provided for each order. If it is impossible to arrange due to weather and flight delay, etc., please pay for your own transportation costs.</p>\n<p>9. Emergency contact: (Toll Free) +1(866)585-8747.</p>",
+          "vluesTip2": "【預定須知】海鷗產品（涉及跨境）"
+        }
+      },
+      {
+        "matterCode": "CM00002227",
+        "noticeType": 0,
+        "typeLabel": "Cost description",
+        "matterName": "P00004590",
+        "html": {
+          "primary": "<p>1. Transportation (The type of vehicle used will be based on the number of guests attending that day).</p>\n<p>2. Professional Chinese-English driver and guide (or driver-guide).</p>\n<p>3. Hotel (Nights are one day less than the total number of tour days).</p>\n<p>4. Breakfasts.</p>",
+          "secondary": "<p>1. Lunch and dinner.</p>\n<p>2. Transportation to the departure boarding point.</p>\n<p>3. Service fee (minimum USD$15 or CAD$20 per person per day, any child and Infant reserving a seat have to pay the service fees as well).</p>\n<p>4. Personal expenses (such as food &amp; beverage, telephone surcharge, etc.).</p>\n<p>5. Mandatory and optional attraction admission fee (Prices are subject to change without prior notice; Tickets should be purchased from the tour guide).</p>\n<p>6. Any expenses are not listed in Fee Included.</p>"
+        },
+        "text": {
+          "primary": "1. Transportation (The type of vehicle used will be based on the number of guests attending that day).\n\n2. Professional Chinese-English driver and guide (or driver-guide).\n\n3. Hotel (Nights are one day less than the total number of tour days).\n\n4. Breakfasts.",
+          "secondary": "1. Lunch and dinner.\n\n2. Transportation to the departure boarding point.\n\n3. Service fee (minimum USD$15 or CAD$20 per person per day, any child and Infant reserving a seat have to pay the service fees as well).\n\n4. Personal expenses (such as food & beverage, telephone surcharge, etc.).\n\n5. Mandatory and optional attraction admission fee (Prices are subject to change without prior notice; Tickets should be purchased from the tour guide).\n\n6. Any expenses are not listed in Fee Included."
+        },
+        "raw": {
+          "matterCode": "CM00002227",
+          "editType": 0,
+          "noticeType": 0,
+          "matterName": "P00004590",
+          "vluesTip1": "<p>1. Transportation (The type of vehicle used will be based on the number of guests attending that day).</p>\n<p>2. Professional Chinese-English driver and guide (or driver-guide).</p>\n<p>3. Hotel (Nights are one day less than the total number of tour days).</p>\n<p>4. Breakfasts.</p>",
+          "vluesTip2": "<p>1. Lunch and dinner.</p>\n<p>2. Transportation to the departure boarding point.</p>\n<p>3. Service fee (minimum USD$15 or CAD$20 per person per day, any child and Infant reserving a seat have to pay the service fees as well).</p>\n<p>4. Personal expenses (such as food &amp; beverage, telephone surcharge, etc.).</p>\n<p>5. Mandatory and optional attraction admission fee (Prices are subject to change without prior notice; Tickets should be purchased from the tour guide).</p>\n<p>6. Any expenses are not listed in Fee Included.</p>"
+        }
+      }
+    ],
+    "damagesInfo": []
+  },
+  "pickup_dropoff": {
+    "pickup": [],
+    "dropoff": [],
+    "teamPickup": [],
+    "teamDropoff": []
+  },
+  "constraints": {
+    "confirmType": 1,
+    "confirmTypeLabel": "Confirm manually",
+    "isAgeLimited": false,
+    "needsIdNumber": false,
+    "isChildAvailable": false,
+    "childAge": "",
+    "childHeight": "",
+    "childNote": "",
+    "infantNote": "",
+    "seniorNote": "",
+    "raw": {
+      "confirmType": 1,
+      "isAge": 0,
+      "ageCode": "",
+      "ageName": null,
+      "isNumber": 0,
+      "isPrice": 1,
+      "isCarpoint": 1,
+      "isChild": 0,
+      "childAge": "",
+      "childHeight": "",
+      "childNote": "",
+      "isRange": 0,
+      "isAutoTeam": 0,
+      "isInfant": 0,
+      "infantAgeUpper": "",
+      "infantNote": "",
+      "isSenior": 0,
+      "seniorAgeLower": "",
+      "seniorNote": ""
+    }
+  },
+  "addons": [],
+  "shopify_mapping": {
+    "title": "[Gold] 7-Day Tour across Vancouver, San Francisco, Redwood National and State Parks, Crater Lake National Park, Mt. Rainier National Park  w/ Amtrak Coast Starlight Tour",
+    "handle": "p00004590-gold-7-day-tour-across-vancouver-san-francisco-redwood-national-and-state-parks-crater-lake-national-park-mt-r",
+    "vendor": "Jupiter Legend Corporation",
+    "productType": "San Francisco",
+    "tags": [
+      "ToursBMS",
+      "San Francisco",
+      "7 days",
+      "Amtrak Coast Starlight",
+      "Redwood National and State Parks",
+      "Crater Lake National Park",
+      "Mt. Rainier National Park"
+    ],
+    "status": "active_candidate",
+    "bodyHtml": "<h2>Highlights</h2>\n<ul>\n<li>Welcome to the Pacific Northwest! Enter the original redwood forest park with the world's tallest tree species - sea redwood. Get to observe rich wildlife up close, visit the world's largest and most charming crater lake, and admire the charming snow-capped mountains and landscapes composed of glaciers, rivers, valleys and waterfalls!</li>\n<li>Amtrak Coast Starlight is recognized as one of the most spectacular train lines! The train carriages are spacious and comfortable, and the all-glass shell ensures an excellent view of the scenery. There is also a dedicated person who is responsible for explaining the entire journey and accompanying you intimately on your journey!</li>\n<li>The beautiful scenery of Napa Valley is synonymous with wine! Enjoy 5 kinds of Napa wine: White Zinfandel, Pinot Grigio, Zinfandel, Moscato, Zinfandel Port!</li>\n<li>Go to Portland, a livable city in the world, and enjoy the artistic atmosphere and tax-free shopping experience similar to New York &ndash; take a free shuttle to the Woodburn Outlets and enjoy the shopping pleasure of a duty-free paradise; check in to the most prestigious international shopping mall, and wander in the ocean of roses in the Rose Experimental Garden to enjoy a moment of tranquility and leisure unlike any others!</li>\n</ul>\n<p><strong>Note：</strong></p>\n<p>1. If you hold a U.S. or Canadian passport: You must bring a valid U.S. or Canadian passport.<br>2. If you hold a U.S. permanent resident document: You must bring a valid passport and U.S. permanent resident document (green card). Make sure your U.S. permanent resident ID is valid and carry it with you at all times.<br>3. If you do not hold the above documents: Please prepare the corresponding travel visa in advance according to the instructions of the U.S. Customs and Border Protection (CBP). For details, please visit: <a href=\"https://www.cbp.gov\" target=\"_blank\" rel=\"noopener\">https://www.cbp.gov</a><br>Note:<br>1) If the U.S. tourist visa you hold is in an expired passport, but the visa itself is still valid, please travel with your new valid passport and your old passport, and use the valid visa for U.S. travel.<br>2) Starting from November 29, 2016, all individuals holding Chinese passports and holding B1/B2, B1 and B2 visas with the longest validity period (ten years) must complete valid EVUS registration before traveling to the United States. Passengers who have not completed EVUS registration will not be able to obtain a boarding pass or enter the country through land ports. For details, please visit: <a href=\"https://www.evus.gov\" target=\"_blank\" rel=\"noopener\">https://www.evus.gov</a></p>\n\n<h2>Departure Date</h2>\n<p>03/04/2026-11/04/2026: Wednesday<br>03/03/2027-11/03/2027: Wednesday<br>Minimum of 2 people is required to be operated.</p>\n\n<h2>Cost Includes</h2>\n<p>1. Transportation (The type of vehicle used will be based on the number of guests attending that day).</p>\n<p>2. Professional Chinese-English driver and guide (or driver-guide).</p>\n<p>3. Hotel (Nights are one day less than the total number of tour days).</p>\n<p>4. Breakfasts.</p>\n<h2>Cost Excludes</h2>\n<p>1. Lunch and dinner.</p>\n<p>2. Transportation to the departure boarding point.</p>\n<p>3. Service fee (minimum USD$15 or CAD$20 per person per day, any child and Infant reserving a seat have to pay the service fees as well).</p>\n<p>4. Personal expenses (such as food &amp; beverage, telephone surcharge, etc.).</p>\n<p>5. Mandatory and optional attraction admission fee (Prices are subject to change without prior notice; Tickets should be purchased from the tour guide).</p>\n<p>6. Any expenses are not listed in Fee Included.</p>\n\n<h2>Cancellation Policy</h2>\n<table style=\"border-collapse: collapse; width: 98.3129%; height: 110px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 50%; height: 22px;\">Prior to departure</td>\n<td style=\"width: 50%; height: 22px;\">Penalty charge (% of total tour fee)</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 50%; height: 22px;\">Less than 7 days prior to departure date (EST)&nbsp;</td>\n<td style=\"width: 50%; height: 22px;\">100%</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 50%; height: 22px;\">Less than 14 days but 8 days prior to departure date (EST)</td>\n<td style=\"width: 50%; height: 22px;\">50%</td>\n</tr>\n<tr style=\"height: 44px;\">\n<td style=\"width: 50%; height: 44px;\">Less than 30 days but 15 days prior to departure date (EST)</td>\n<td style=\"width: 50%; height: 44px;\">30%</td>\n</tr>\n<tr>\n<td style=\"width: 50%;\">31 days prior to departure date (EST)</td>\n<td style=\"width: 50%;\">0</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<p>Notes:</p>\n<p>1. Paid tour fee will NOT be refunded in the case of no-shows on the day of departure.</p>\n<p>2. If the guest quit during the trip or fails to participate in any itinerary due to personal reasons (no travel documents, late arrival, illness, accident, etc.), the paid tour fare will not be refunded, and no other services will be compensated.</p>\n<p>3. Additional hotel bookings before or after the tour as well as other services are subject to hotel cancellation policy to determine if a refund is possible.</p>\n<p>4. In the event of weather, war, strikes and other force majeure that make it impossible to tour, Jupiter Legend will try its best to protect the safety of guests and their property. Jupiter Legend reserves the right to cancel or adjust part or all of the itinerary, and will not bear any direct or indirect responsibility caused by force majeure. The paid tour fee is non-refundable.</p>\n<p>5. Regarding the \"buy two get two free\" promotion, the Cancellation &amp; Re-schedule Policy for the third and fourth roommates who will be given away for free are as follows:</p>\n<p>&nbsp; &nbsp;a. &nbsp;Early cancellation: If the first two guests participate in the group as usual, if the third and fourth guests who participate for free in the same room request to cancel their seats more than 7 days before the departure, they can enjoy free cancellation without any penalty.<br />&nbsp; &nbsp;b. &nbsp;Temporary cancellation within 7 days before departure: If the first two guests participate normally, and the third and fourth guests who participate for free in the same room cancel within 7 days before the departure, or if they do not show on the day of departure, we will charge a penalty of 50% of the original price of a room for two people for each temporary cancellation.<br />&nbsp; &nbsp;c. &nbsp;If the penalty is temporarily cancelled within 7 days before departure but not paid in full, or if it is NO SHOW on the day of participation, we will collect the above-mentioned penalty amount from the first and second participating guests in the order on the day of participation. If customers of the same order refuse to pay, it will be considered as unpaid group payment, and our company has the right to cancel all reservations for that order.</p>\n<h2>Travel tips</h2>\n<p>1. If you hold a U.S. or Canadian passport: You must bring a valid U.S. or Canadian passport.<br />2. If you hold a U.S. permanent resident document: You must bring a valid passport and U.S. permanent resident document (green card). Make sure your U.S. permanent resident ID is valid and carry it with you at all times.<br />3. If you do not hold the above documents: Please prepare the corresponding travel visa in advance according to the instructions of the U.S. Customs and Border Protection (CBP). For details, please visit: <a href=\"https://www.cbp.gov/\" target=\"_blank\" rel=\"noopener\">https://www.cbp.gov</a><br /><strong>Note:</strong><br />1) If the U.S. tourist visa you hold is in an expired passport, but the visa itself is still valid, please travel with your new valid passport and your old passport, and use the valid visa for U.S. travel.<br />2) Starting from November 29, 2016, all individuals holding Chinese passports and holding B1/B2, B1 and B2 visas with the longest validity period (ten years) must complete valid EVUS registration before traveling to the United States. Passengers who have not completed EVUS registration will not be able to obtain a boarding pass or enter the country through land ports. For details, please visit: <a href=\"https://www.evus.gov/\" target=\"_blank\" rel=\"noopener\">https://www.evus.gov</a></p>\n<h2>Know Before You Book</h2>\n<p><strong>Know Before You Book</strong></p>\n<p>1. Customer under 18 years old MUST be accompanied by at least one adult. &nbsp;<span style=\"color: #ba372a;\"><strong>If the order includes children, please make sure to note and inform them of their age in advance when booking the itinerary, otherwise fees will be charged on-site according to adult standards. </strong></span>In consideration of the guest safety, pregnant women are only allowed to join the tour if pregnant for 24 weeks or less by the end of the trip.</p>\n<p>2. Please be sure to provide accurate and complete information upon booking. This includes name, gender, valid contact information (preferably a mobile phone), accurate flight information, tour location, etc., This helps to avoid any errors upon the reservation bookings because errors affect travel. Any losses due to inaccurate or invalid information will be at your own expense and the company will not be held responsible.&nbsp;</p>\n<p>3. Hotels have different room types, such as a King/Queen size beds or two double size twin beds. The maximum number of people who can legally stay in a room is 2 to 4 people. <span style=\"color: #ba372a;\">According to the requirements of some hotels, each group of guests must bring at least one credit card or debit card that can be used at the destination for check-in procedure. If there is no personal consumption, the hotel will refund the deposit to the card within 7-14 working days after check-out.</span> JUPITER LEGEND Corporation and Ctour Holiday guarantee the number of rooms for guests but does not guarantee the specific room type and location. Hotel check-in time is usually after 15:00.</p>\n<p>4. This tour does not accept any City Pass or your own tickets for any of the attractions. Tour attraction admission charges and meal expenses are subject to change at any time without notification. Any purchased ticket cannot be refunded for lower prices.&nbsp;</p>\n<p>5. JUPITER LEGEND Corporation and Ctour Holiday have the right to make appropriate adjustments to the itinerary under the conditions of facilitating the operation for the tour group. This, however, will not reduce the items that should be included in the itinerary.&nbsp;</p>\n<p>6. During the actual trip, the tour guide or driver has the right to appropriately adjust the tour sequence, stay time or assembly time of scenic spots according to the weather, traffic, and other conditions to ensure the smooth progression of the trip.&nbsp;</p>\n<p>7. If any scenic spots are temporarily closed, including on certain holidays, the tour guide will make appropriate adjustments based on the actual situation, which may include viewing from the outside or substituting with another attraction to maintain the richness of the itinerary. Please note that the opening hours and capacity limits of certain attractions and national parks may change from time to time due to health concerns. Should such changes affect the itinerary, they will be considered force majeure. We appreciate your understanding.</p>\n<p>8. Children under the age of 8 require a booster seat in order to participate in the group tour. JUPITER LEGEND Corporation and Ctour Holiday provide the rental service for $10.00/person/day. Please make a request when booking the itinerary so that we may have the booster seat ready in advance. Please understand that the violations and fines are borne by the guests themselves. There is no need for a booster seat for bus travel on the day of travel, and the fee can be refunded to the guest.&nbsp;</p>\n<p>9. Normal health conditions are required in order to participate and enjoy our full itineraries. Contact us for specific policies or information regarding passengers and the handicapped with disabilities who do need to provide advance notifications to make a reservation. JUPITER LEGEND Corporation and Ctour Holiday does not guarantee a wheelchair liftequipped bus and/or seating availability to disabled passengers without prior notification and approval.</p>\n<p>10. In order to make your trip more complete, pleasant, and smooth, we strongly recommend that you choose to book event tickets, catering packages, etc. when making your order. Please be aware that we do not provide any additional booking services within 7 days before the departure date or during the tour.&nbsp;</p>\n<p>11. The price in the system is US dollars which includes tax. If you need to pay in CAD dollars, all CAD dollar prices do not include 5% GST.&nbsp;</p>\n<p>12. We may alter these terms and conditions from time to time and post the new version on our agents&rsquo; website. It is your responsibility to check the <a href=\"http://uvbookings.info/upload/terms/e.pdf\" target=\"_blank\" rel=\"noopener\">[Terms &amp; Conditions]</a> on their website regularly and prior to making a reservation. Unless specifically stated otherwise herein or required by law, JUPITER LEGEND Corporation shall not be liable for any consequential, compensatory, indirect, incidental, or punitive damages arising out of or in connection with the performance of its obligations under these terms and conditions.</p>\n<p>13. <span style=\"color: #ba372a;\">Due to the continuous rise in fuel prices leading to a sharp increase in vehicle operating costs, effective for all tours departing on May 18, 2026, a transportation surcharge of $5 per person per day will be applied to our tour products. The fee will be collected by tour guides during the trip.</span></p>\n<p>Notes:</p>\n<p>1）No fuel surcharge will be charged on the day of airport pick-up or take-off when no any other itinerary is scheduled.</p>\n<p>2）The surcharge is waived on days without transportation services. For instance, guests taking resort shuttles to theme parks in Florida tours, or full-day train itineraries with no tour guide or coach services included.</p>\n<p>3）For US-Canada cross-border tours, fuel surcharges will be charged based on actual travel regions: USD 5 per person per day in the US, and CAD 5 per person per day in Canada.</p>\n<p>&nbsp;</p>\n<p><strong>Know Before You Go</strong></p>\n<p>1. The maximum waiting time for any late passengers is 10 minutes beyond the meeting time announced by the Tour Guide. While JUPITER LEGEND Corporation makes every effort to provide on-time service, it does not guarantee to arrive at or depart from any point at a specific time. This could be affected by a number of factors including weather, traffic, strikes, government shutdowns, war or terrorist attacks, or mechanical problems. JUPITER LEGEND Corporation is not liable for any inconvenience or expense caused as a result of such a delay. They are not liable for the expense of connecting air or train or bus services missed as a result of a delay and are not liable for any other travel expense caused as a result of a delay.</p>\n<p>2. JUPITER LEGEND Corporation and Ctour Holiday reserve the right, when operating conditions require, transferring passengers from one vehicle to another in route.&nbsp;</p>\n<p>3. The following documents are recommended to make your check-in process smooth: A valid photo ID is required in order to board the bus. We recommend you bring a copy of your email confirmation to board the bus as well.&nbsp;</p>\n<p>4. This product is a group activity. If you choose to leave the group, please inform in advance, and obtain the consent of the tour guide. You need to sign the departure agreement form and the unfinished part will be regarded as your own abandonment. The group fee will not be refunded.&nbsp;</p>\n<p>5. Gift items in the itinerary that cannot be given away due to force majeure factors such as traffic and weather conditions or personal reasons may be subject to change. Please understand that the fees will not be fully refunded.&nbsp;</p>\n<p>6. Smoking is prohibited aboard the bus in accordance with the law and prohibited in most hotel rooms. Customers are responsible for any penalty charged by the hotel in a non-smoking room at least CAD$300 and more per night.&nbsp;</p>\n<p>7. Pets and animals are not allowed on the vehicle.&nbsp;</p>\n<p>8. Only for products with airport pick-up service: only one pick-up service within the free pick-up time range is provided for each order. If it is impossible to arrange due to weather and flight delay, etc., please pay for your own transportation costs.</p>\n<p>9. Emergency contact: (Toll Free) +1(866)585-8747.</p>",
+    "options": [
+      "Package price type"
+    ],
+    "variants": [],
+    "metafields": {
+      "toursbms_product_code": "P00004590",
+      "toursbms_group_no": "R7V",
+      "toursbms_view_code": "R0003250",
+      "duration_days": 7,
+      "duration_nights": 6
+    }
+  },
+  "source": {
+    "productPageUrl": "https://uvbookings.toursbms.com/en/product/detail?productCode=P00004590",
+    "branchCode": "B00000003",
+    "branchName": "纵横集团",
+    "language": 3,
+    "languagePackage": {
+      "CON000252": "Product category",
+      "CON000314": "Airplane",
+      "CON000315": "Train",
+      "CON000316": "Vehicle",
+      "CON000317": "Cruise",
+      "CON000318": "Others",
+      "CON000321": "Flight",
+      "CON000322": "Transportation",
+      "CON000323": "Attractions",
+      "CON000324": "Meals",
+      "CON000325": "Shopping",
+      "CON000326": "Free time",
+      "CON000329": "To be determined",
+      "CON000330": "Direct flight",
+      "CON000331": "Transit",
+      "CON000332": "Travel distance",
+      "CON000333": "Travel time",
+      "CON000334": "Hour",
+      "CON000335": "Minute",
+      "CON000338": "Breakfast",
+      "CON000339": "Lunch",
+      "CON000340": "Dinner",
+      "CON000341": "Dining menu",
+      "CON000342": "Activity time",
+      "CON000343": "Dining time",
+      "CON000344": "Extra expense",
+      "CON000358": "Cost includes",
+      "CON000359": "Cost excludes",
+      "CON000363": "Know Before You Book",
+      "CON000364": "Travel tips",
+      "CON000365": "Cancellation Policy",
+      "CON000366": "Visa instructions",
+      "CON000370": "Shopping point name",
+      "CON000375": "Price description",
+      "CON000377": "Price",
+      "CON000380": "Tour No.",
+      "CON000383": "Product type",
+      "CON000384": "Package tour",
+      "CON000385": "DIY tour",
+      "CON000386": "Private group",
+      "CON000389": "Transportation",
+      "CON000390": "Boarding location",
+      "CON000392": "Drop-off location",
+      "CON000394": "Highlights",
+      "CON000395": "Promotional information",
+      "CON000397": "Product information",
+      "CON000400": "Confirm method",
+      "CON000401": "Confirm manually",
+      "CON000402": "Confirm systematically",
+      "CON000403": "Age limit",
+      "CON000404": "No limit",
+      "CON000405": "Limit",
+      "CON000406": "Need ID number for reservation or not",
+      "CON000407": "Not needed",
+      "CON000408": "Need",
+      "CON000413": "Definition of children",
+      "CON000414": "Age less than or equal to",
+      "CON000415": "Height less than or equal to",
+      "CON000439": "Day",
+      "CON000440": "Night",
+      "CON000450": "Cost Description",
+      "CON000451": "Extra expense",
+      "CON000454": "Days",
+      "CON000458": "Shopping recommendation",
+      "CON000484": "Value-added services",
+      "CON000485": "Room type upgrade",
+      "CON000486": "Other fees",
+      "CON000487": "Name",
+      "CON000489": "People included",
+      "CON000491": "View more",
+      "CON000512": "Hotel",
+      "CON000533": "All day",
+      "CON000534": "Morning",
+      "CON000535": "Afternoon",
+      "CON000536": "Night",
+      "CON000539": "Or",
+      "CON000540": "And",
+      "CON000557": "Shopping description",
+      "CON000581": "Sun",
+      "CON000582": "Mon",
+      "CON000583": "Tue",
+      "CON000584": "Wed",
+      "CON000585": "Thu",
+      "CON000586": "Fri",
+      "CON000587": "Sat",
+      "CON000651": "Adult",
+      "CON000652": "Child",
+      "CON000653": "Type",
+      "CON000654": "Rooms",
+      "CON000676": "None",
+      "CON000691": "Search",
+      "CON000692": "Price range",
+      "CON000693": "Multiple",
+      "CON000694": "Unlimited",
+      "CON000696": "Sorry, no related products found.",
+      "CON000699": "Default sorting",
+      "CON000700": "Price from low to high",
+      "CON000701": "Price from high to low",
+      "CON000702": "Recent schedule",
+      "CON000703": "Check schedule",
+      "CON000704": "Earliest departure",
+      "CON000705": "Latest departure",
+      "CON000707": "More",
+      "CON000708": "Market area",
+      "CON000709": "View all",
+      "CON000710": "Join / leave point",
+      "CON000711": "Itinerary in traditional Chinese",
+      "CON000712": "Itinerary in simplified Chinese",
+      "CON000713": "Itinerary in English",
+      "CON000714": "Select period",
+      "CON000715": "Adequate",
+      "CON000716": "Tight",
+      "CON000717": "Sold out",
+      "CON000718": "Current currency",
+      "CON000720": "Export",
+      "CON000721": "Print",
+      "CON000722": "Send",
+      "CON000723": "More prices",
+      "CON000724": "Tour introduction",
+      "CON000725": "Policy",
+      "CON000726": "Notice",
+      "CON000727": "All conditions",
+      "CON000728": "Clear all",
+      "CON000729": "Hide schedule",
+      "CON000730": "Price to be determined",
+      "CON000731": "Starting days can't be larger than ending days.",
+      "CON000732": "Minimum price can't be larger than maximum price.",
+      "CON000733": "Earliest departure can't be later than latest departure.",
+      "CON000734": "Please enter product name, subtitle, group number, departure city, destination.",
+      "CON000735": "Product details",
+      "CON000736": "Tour inventory",
+      "CON000737": "Basic price",
+      "CON000738": "Send mail",
+      "CON000739": "Inbox",
+      "CON000740": "Highlights",
+      "CON000741": "Expense description",
+      "CON000742": "Itinerary",
+      "CON000743": "Shopping store",
+      "CON000744": "Item name",
+      "CON000745": "Booking limit",
+      "CON000746": "Whether available to children",
+      "CON000747": "Shopping list",
+      "CON000748": "At your own expense",
+      "CON000749": "Language version",
+      "CON000751": "Product price",
+      "CON000752": "Boarding location",
+      "CON000753": "Drop-off location",
+      "CON000754": "Departure",
+      "CON000755": "Address",
+      "CON000756": "Attachments",
+      "CON000757": "Type of sent file",
+      "CON000758": "Refer to attachments",
+      "CON000759": "Policy",
+      "CON001251": "Description",
+      "CON001325": "Tour guide arranges according itinerary",
+      "CON001326": "or",
+      "CON001327": "current language",
+      "CON001494": "Homepage hasn't been enabled, please contact the administrator.",
+      "CON001495": "Homepage maintenance, please wait..",
+      "CON001501": "Enter config page",
+      "CON001504": "Please input destination, theme or keywords.",
+      "CON001505": "Reload",
+      "CON001517": "Product information expired.",
+      "CON001770": "Flight duration",
+      "CON001771": "Flight distance",
+      "CON002014": "Simple Word",
+      "CON002015": "Simple PDF",
+      "CON002052": "Departure date",
+      "CON002054": "Airport pick-up",
+      "CON002055": "Airport drop-off",
+      "CON002056": "Airport pick-up/drop-off",
+      "CON002135": "All language itineraries",
+      "CON002192": "Total 【#Number#】 boarding locations",
+      "CON002193": "Sold out",
+      "CON002316": "Totally 【#Number#】 drop-off locations",
+      "CON002331": "Mandatory cost item",
+      "CON002332": "Mandatory cost item when the quantity is \"odd\"",
+      "CON002333": "【#priceitems#】Mandatory cost item，the quantity is [number of rooms] corresponding to the price item",
+      "CON002334": "【#priceitems#】Mandatory cost item: the quantity is referring to the number of guests which corresponds to the price item.",
+      "CON002335": "【#priceitems#】When the quantity is \"add\".the mandatory cost item is \"1\"",
+      "CON002552": "Today's location",
+      "CON002570": "Average expense",
+      "CON002574": "Economy",
+      "CON002575": "Premium Economy",
+      "CON002576": "Business",
+      "CON002577": "First",
+      "CON002675": "Please input product title and sub-title",
+      "CON002676": "Book ahead of [#advanceDay#]days",
+      "CON002677": "Invalid date in scope",
+      "CON002678": "Please select use date",
+      "CON002679": "Sub-total",
+      "CON002688": "Know Before[#html#]You Book",
+      "CON002760": "Check in city"
+    },
+    "endpoints": {
+      "productBasic": "https://online.ctrip.com/restapi/soa2/17626/getProductBasic.json",
+      "productTravelDetail": "https://online.ctrip.com/restapi/soa2/17626/getProductTravelDetail.json",
+      "productGroup": "https://online.ctrip.com/restapi/soa2/17626/getProductGroup.json",
+      "productPromote": "https://online.ctrip.com/restapi/soa2/17626/getProductPromote.json",
+      "currencies": "https://online.ctrip.com/restapi/soa2/18554/getListWebSiteCurrency.json"
+    },
+    "raw": {
+      "branchInfo": {
+        "branchCode": "B00000003",
+        "branchName": "纵横集团",
+        "branchFullName": "纵横集团 Jupiter Legend Corporation",
+        "branchLogo": "02S5n12000t1twue4730B.png",
+        "logoImageUrl": "https://dimg04.c-ctrip.com/target/02S5n12000t1twue4730B.png",
+        "defaultLanguage": 2,
+        "supportLanguage": [
+          2,
+          1,
+          3
+        ],
+        "branchIsWeb": 1,
+        "showPOILink": 0,
+        "timeZoneModel": {
+          "isSummer": 1,
+          "timeZoneCode": "TZ0009",
+          "timeZoneName": "UTC-5:00",
+          "timeZoneDesc": "波哥大、利马、基多、里奥布朗库、东部时间（美国和加拿大）、哈瓦那、海地、切图马尔、印地安那州（东部）",
+          "timeZoneDiff": -780
+        },
+        "webSiteInfo": [
+          {
+            "websiteCode": "W000010",
+            "languageType": 3,
+            "websiteIsDefault": 1
+          },
+          {
+            "websiteCode": "W000008",
+            "languageType": 1,
+            "websiteIsDefault": 0
+          },
+          {
+            "websiteCode": "W000003",
+            "languageType": 2,
+            "websiteIsDefault": 0
+          }
+        ],
+        "currencyInfo": {
+          "currencyCode": "CI00000002",
+          "currencyNum": "USD",
+          "currencyName": "美元",
+          "currencySymbol": "$"
+        },
+        "tokenCode": "WEBSITEMjAyNi0wNy0xMyZCMDAwMDAwMDMmMjAyNi0wNy0xOA==",
+        "openStockRule": 1,
+        "stockRuleList": [
+          {
+            "showRule": 1,
+            "content": 0,
+            "minStock": 6,
+            "maxStock": 0,
+            "isInfinite": 1
+          },
+          {
+            "showRule": 1,
+            "content": 1,
+            "minStock": 1,
+            "maxStock": 5,
+            "isInfinite": 0
+          },
+          {
+            "showRule": 1,
+            "content": 2,
+            "minStock": 0,
+            "maxStock": 0,
+            "isInfinite": 0
+          }
+        ]
+      },
+      "basic": {
+        "createTime": "2023-11-20 11:24:08",
+        "releaseTime": "2023-11-20 18:42:19",
+        "changeTime": "2026-07-01 13:28:23",
+        "productStatus": 200,
+        "supLanguages": "3,2,1",
+        "productMain": {
+          "mainLanguage": 2,
+          "productCode": "P00004590",
+          "productViewCode": "R0003250",
+          "groupNo": "R7V",
+          "productClass": 1,
+          "carpointOff": 3,
+          "carpointOn": 3,
+          "productType": "PC00000067",
+          "productTypeName": "San Francisco",
+          "tripDay": 7,
+          "nightDay": 6,
+          "productForm": 1,
+          "productRoom": 2,
+          "productVehicle": "1",
+          "productTransfer": "",
+          "productName": "[Gold] 7-Day Tour across Vancouver, San Francisco, Redwood National and State Parks, Crater Lake National Park, Mt. Rainier National Park  w/ Amtrak Coast Starlight Tour",
+          "subtitleName": "",
+          "productSpecial": "<ul>\n<li>Welcome to the Pacific Northwest! Enter the original redwood forest park with the world's tallest tree species - sea redwood. Get to observe rich wildlife up close, visit the world's largest and most charming crater lake, and admire the charming snow-capped mountains and landscapes composed of glaciers, rivers, valleys and waterfalls!</li>\n<li>Amtrak Coast Starlight is recognized as one of the most spectacular train lines! The train carriages are spacious and comfortable, and the all-glass shell ensures an excellent view of the scenery. There is also a dedicated person who is responsible for explaining the entire journey and accompanying you intimately on your journey!</li>\n<li>The beautiful scenery of Napa Valley is synonymous with wine! Enjoy 5 kinds of Napa wine: White Zinfandel, Pinot Grigio, Zinfandel, Moscato, Zinfandel Port!</li>\n<li>Go to Portland, a livable city in the world, and enjoy the artistic atmosphere and tax-free shopping experience similar to New York &ndash; take a free shuttle to the Woodburn Outlets and enjoy the shopping pleasure of a duty-free paradise; check in to the most prestigious international shopping mall, and wander in the ocean of roses in the Rose Experimental Garden to enjoy a moment of tranquility and leisure unlike any others!</li>\n</ul>\n<p><strong>Note：</strong></p>\n<p>1. If you hold a U.S. or Canadian passport: You must bring a valid U.S. or Canadian passport.<br>2. If you hold a U.S. permanent resident document: You must bring a valid passport and U.S. permanent resident document (green card). Make sure your U.S. permanent resident ID is valid and carry it with you at all times.<br>3. If you do not hold the above documents: Please prepare the corresponding travel visa in advance according to the instructions of the U.S. Customs and Border Protection (CBP). For details, please visit: <a href=\"https://www.cbp.gov\" target=\"_blank\" rel=\"noopener\">https://www.cbp.gov</a><br>Note:<br>1) If the U.S. tourist visa you hold is in an expired passport, but the visa itself is still valid, please travel with your new valid passport and your old passport, and use the valid visa for U.S. travel.<br>2) Starting from November 29, 2016, all individuals holding Chinese passports and holding B1/B2, B1 and B2 visas with the longest validity period (ten years) must complete valid EVUS registration before traveling to the United States. Passengers who have not completed EVUS registration will not be able to obtain a boarding pass or enter the country through land ports. For details, please visit: <a href=\"https://www.evus.gov\" target=\"_blank\" rel=\"noopener\">https://www.evus.gov</a></p>",
+          "salesNote": "",
+          "departureDate": "03/04/2026-11/04/2026: Wednesday\n03/03/2027-11/03/2027: Wednesday\nMinimum of 2 people is required to be operated.",
+          "rewardCode": "",
+          "createTime": "2023-11-20 11:24:08",
+          "datachangelasttime": "2026-07-01 13:28:23",
+          "dataVersion": 1782872989,
+          "productPriceAuto": 0,
+          "advanceDay": -1,
+          "advanceTime": "",
+          "productIsOutreach": null,
+          "upperProductCode": null,
+          "upperUpBranchCode": null,
+          "productAttribute": 1,
+          "productClassify": 1,
+          "schemeName": null,
+          "productStatus": 200,
+          "otherCurrencySupport": [],
+          "productRateInfoList": [],
+          "isLocalResidentOptional": 0
+        },
+        "productImg": [
+          "02S3h12000enelsnjE16D.jpg",
+          "02S4912000engmexx7A90.jpg",
+          "02S3812000epqv9mw3234.png"
+        ],
+        "productPointStart": {
+          "regionCode": "A1108",
+          "regionName": "Vancouver",
+          "resourceType": 0
+        },
+        "productPointEnd": {
+          "regionCode": "A394",
+          "regionName": "Seattle",
+          "resourceType": 0
+        },
+        "productDestination": [
+          {
+            "countryCode": "",
+            "countryName": "",
+            "provinceCode": "",
+            "provinceName": "",
+            "scenicCode": "",
+            "scenicName": "",
+            "scenicSpotCode": "SM00001611",
+            "scenicSpotName": "Amtrak Coast Starlight",
+            "resourceType": 0
+          },
+          {
+            "countryCode": "",
+            "countryName": "",
+            "provinceCode": "",
+            "provinceName": "",
+            "scenicCode": "",
+            "scenicName": "",
+            "scenicSpotCode": "SM00001629",
+            "scenicSpotName": "Redwood National and State Parks",
+            "resourceType": 0
+          },
+          {
+            "countryCode": "",
+            "countryName": "",
+            "provinceCode": "",
+            "provinceName": "",
+            "scenicCode": "",
+            "scenicName": "",
+            "scenicSpotCode": "SM00000286",
+            "scenicSpotName": "Crater Lake National Park",
+            "resourceType": 0
+          },
+          {
+            "countryCode": "",
+            "countryName": "",
+            "provinceCode": "",
+            "provinceName": "",
+            "scenicCode": "",
+            "scenicName": "",
+            "scenicSpotCode": "SM00000278",
+            "scenicSpotName": "Mt. Rainier National Park",
+            "resourceType": 0
+          }
+        ],
+        "productCarpointUpper": [],
+        "productCarpointDown": [],
+        "productConstraint": {
+          "confirmType": 1,
+          "isAge": 0,
+          "ageCode": "",
+          "ageName": null,
+          "isNumber": 0,
+          "isPrice": 1,
+          "isCarpoint": 1,
+          "isChild": 0,
+          "childAge": "",
+          "childHeight": "",
+          "childNote": "",
+          "isRange": 0,
+          "isAutoTeam": 0,
+          "isInfant": 0,
+          "infantAgeUpper": "",
+          "infantNote": "",
+          "isSenior": 0,
+          "seniorAgeLower": "",
+          "seniorNote": ""
+        },
+        "productRange": [],
+        "productRecommendList": [],
+        "otherSchemes": null,
+        "productImageUrl": [
+          "https://dimg04.c-ctrip.com/target/02S3h12000enelsnjE16D.jpg",
+          "https://dimg04.c-ctrip.com/target/02S4912000engmexx7A90.jpg",
+          "https://dimg04.c-ctrip.com/target/02S3812000epqv9mw3234.png"
+        ],
+        "tagList": null,
+        "teamCarpointUpper": [],
+        "teamCarpointDown": [],
+        "productImageList": [
+          {
+            "imageUrl": "02S3h12000enelsnjE16D.jpg",
+            "imageName": "太空针塔"
+          },
+          {
+            "imageUrl": "02S4912000engmexx7A90.jpg",
+            "imageName": "海岸星光号观景列车"
+          },
+          {
+            "imageUrl": "02S3812000epqv9mw3234.png",
+            "imageName": "沙斯塔水坝 "
+          }
+        ]
+      },
+      "travelDetail": {
+        "productTravel": {
+          "productCode": "P00004590",
+          "dataVersion": 1782872989,
+          "productDay": null,
+          "productNight": null,
+          "travelId": null,
+          "productType": null,
+          "productTypeName": null,
+          "travelName": null,
+          "productTravelInfoList": []
+        },
+        "productNotice": {
+          "mainLanguage": 3,
+          "productCode": "P00004590",
+          "noticeInfo": [
+            {
+              "matterCode": "AT00002177",
+              "editType": 1,
+              "noticeType": 3,
+              "matterName": "【退改政策】海鷗非木屋黃石團及美西團R/BW系列&買二送二",
+              "vluesTip1": "<table style=\"border-collapse: collapse; width: 98.3129%; height: 110px;\" border=\"1\">\n<tbody>\n<tr style=\"height: 22px;\">\n<td style=\"width: 50%; height: 22px;\">Prior to departure</td>\n<td style=\"width: 50%; height: 22px;\">Penalty charge (% of total tour fee)</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 50%; height: 22px;\">Less than 7 days prior to departure date (EST)&nbsp;</td>\n<td style=\"width: 50%; height: 22px;\">100%</td>\n</tr>\n<tr style=\"height: 22px;\">\n<td style=\"width: 50%; height: 22px;\">Less than 14 days but 8 days prior to departure date (EST)</td>\n<td style=\"width: 50%; height: 22px;\">50%</td>\n</tr>\n<tr style=\"height: 44px;\">\n<td style=\"width: 50%; height: 44px;\">Less than 30 days but 15 days prior to departure date (EST)</td>\n<td style=\"width: 50%; height: 44px;\">30%</td>\n</tr>\n<tr>\n<td style=\"width: 50%;\">31 days prior to departure date (EST)</td>\n<td style=\"width: 50%;\">0</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<p>Notes:</p>\n<p>1. Paid tour fee will NOT be refunded in the case of no-shows on the day of departure.</p>\n<p>2. If the guest quit during the trip or fails to participate in any itinerary due to personal reasons (no travel documents, late arrival, illness, accident, etc.), the paid tour fare will not be refunded, and no other services will be compensated.</p>\n<p>3. Additional hotel bookings before or after the tour as well as other services are subject to hotel cancellation policy to determine if a refund is possible.</p>\n<p>4. In the event of weather, war, strikes and other force majeure that make it impossible to tour, Jupiter Legend will try its best to protect the safety of guests and their property. Jupiter Legend reserves the right to cancel or adjust part or all of the itinerary, and will not bear any direct or indirect responsibility caused by force majeure. The paid tour fee is non-refundable.</p>\n<p>5. Regarding the \"buy two get two free\" promotion, the Cancellation &amp; Re-schedule Policy for the third and fourth roommates who will be given away for free are as follows:</p>\n<p>&nbsp; &nbsp;a. &nbsp;Early cancellation: If the first two guests participate in the group as usual, if the third and fourth guests who participate for free in the same room request to cancel their seats more than 7 days before the departure, they can enjoy free cancellation without any penalty.<br />&nbsp; &nbsp;b. &nbsp;Temporary cancellation within 7 days before departure: If the first two guests participate normally, and the third and fourth guests who participate for free in the same room cancel within 7 days before the departure, or if they do not show on the day of departure, we will charge a penalty of 50% of the original price of a room for two people for each temporary cancellation.<br />&nbsp; &nbsp;c. &nbsp;If the penalty is temporarily cancelled within 7 days before departure but not paid in full, or if it is NO SHOW on the day of participation, we will collect the above-mentioned penalty amount from the first and second participating guests in the order on the day of participation. If customers of the same order refuse to pay, it will be considered as unpaid group payment, and our company has the right to cancel all reservations for that order.</p>",
+              "vluesTip2": "【退改政策】海鷗非木屋黃石團及美西團R/BW系列&買二送二"
+            },
+            {
+              "matterCode": "AT00002228",
+              "editType": 1,
+              "noticeType": 2,
+              "matterName": "【出行提示】加拿大跨境美國",
+              "vluesTip1": "<p>1. If you hold a U.S. or Canadian passport: You must bring a valid U.S. or Canadian passport.<br />2. If you hold a U.S. permanent resident document: You must bring a valid passport and U.S. permanent resident document (green card). Make sure your U.S. permanent resident ID is valid and carry it with you at all times.<br />3. If you do not hold the above documents: Please prepare the corresponding travel visa in advance according to the instructions of the U.S. Customs and Border Protection (CBP). For details, please visit: <a href=\"https://www.cbp.gov/\" target=\"_blank\" rel=\"noopener\">https://www.cbp.gov</a><br /><strong>Note:</strong><br />1) If the U.S. tourist visa you hold is in an expired passport, but the visa itself is still valid, please travel with your new valid passport and your old passport, and use the valid visa for U.S. travel.<br />2) Starting from November 29, 2016, all individuals holding Chinese passports and holding B1/B2, B1 and B2 visas with the longest validity period (ten years) must complete valid EVUS registration before traveling to the United States. Passengers who have not completed EVUS registration will not be able to obtain a boarding pass or enter the country through land ports. For details, please visit: <a href=\"https://www.evus.gov/\" target=\"_blank\" rel=\"noopener\">https://www.evus.gov</a></p>",
+              "vluesTip2": "【出行提示】加拿大跨境美國"
+            },
+            {
+              "matterCode": "AT00002029",
+              "editType": 1,
+              "noticeType": 1,
+              "matterName": "【預定須知】海鷗產品（涉及跨境）",
+              "vluesTip1": "<p><strong>Know Before You Book</strong></p>\n<p>1. Customer under 18 years old MUST be accompanied by at least one adult. &nbsp;<span style=\"color: #ba372a;\"><strong>If the order includes children, please make sure to note and inform them of their age in advance when booking the itinerary, otherwise fees will be charged on-site according to adult standards. </strong></span>In consideration of the guest safety, pregnant women are only allowed to join the tour if pregnant for 24 weeks or less by the end of the trip.</p>\n<p>2. Please be sure to provide accurate and complete information upon booking. This includes name, gender, valid contact information (preferably a mobile phone), accurate flight information, tour location, etc., This helps to avoid any errors upon the reservation bookings because errors affect travel. Any losses due to inaccurate or invalid information will be at your own expense and the company will not be held responsible.&nbsp;</p>\n<p>3. Hotels have different room types, such as a King/Queen size beds or two double size twin beds. The maximum number of people who can legally stay in a room is 2 to 4 people. <span style=\"color: #ba372a;\">According to the requirements of some hotels, each group of guests must bring at least one credit card or debit card that can be used at the destination for check-in procedure. If there is no personal consumption, the hotel will refund the deposit to the card within 7-14 working days after check-out.</span> JUPITER LEGEND Corporation and Ctour Holiday guarantee the number of rooms for guests but does not guarantee the specific room type and location. Hotel check-in time is usually after 15:00.</p>\n<p>4. This tour does not accept any City Pass or your own tickets for any of the attractions. Tour attraction admission charges and meal expenses are subject to change at any time without notification. Any purchased ticket cannot be refunded for lower prices.&nbsp;</p>\n<p>5. JUPITER LEGEND Corporation and Ctour Holiday have the right to make appropriate adjustments to the itinerary under the conditions of facilitating the operation for the tour group. This, however, will not reduce the items that should be included in the itinerary.&nbsp;</p>\n<p>6. During the actual trip, the tour guide or driver has the right to appropriately adjust the tour sequence, stay time or assembly time of scenic spots according to the weather, traffic, and other conditions to ensure the smooth progression of the trip.&nbsp;</p>\n<p>7. If any scenic spots are temporarily closed, including on certain holidays, the tour guide will make appropriate adjustments based on the actual situation, which may include viewing from the outside or substituting with another attraction to maintain the richness of the itinerary. Please note that the opening hours and capacity limits of certain attractions and national parks may change from time to time due to health concerns. Should such changes affect the itinerary, they will be considered force majeure. We appreciate your understanding.</p>\n<p>8. Children under the age of 8 require a booster seat in order to participate in the group tour. JUPITER LEGEND Corporation and Ctour Holiday provide the rental service for $10.00/person/day. Please make a request when booking the itinerary so that we may have the booster seat ready in advance. Please understand that the violations and fines are borne by the guests themselves. There is no need for a booster seat for bus travel on the day of travel, and the fee can be refunded to the guest.&nbsp;</p>\n<p>9. Normal health conditions are required in order to participate and enjoy our full itineraries. Contact us for specific policies or information regarding passengers and the handicapped with disabilities who do need to provide advance notifications to make a reservation. JUPITER LEGEND Corporation and Ctour Holiday does not guarantee a wheelchair liftequipped bus and/or seating availability to disabled passengers without prior notification and approval.</p>\n<p>10. In order to make your trip more complete, pleasant, and smooth, we strongly recommend that you choose to book event tickets, catering packages, etc. when making your order. Please be aware that we do not provide any additional booking services within 7 days before the departure date or during the tour.&nbsp;</p>\n<p>11. The price in the system is US dollars which includes tax. If you need to pay in CAD dollars, all CAD dollar prices do not include 5% GST.&nbsp;</p>\n<p>12. We may alter these terms and conditions from time to time and post the new version on our agents&rsquo; website. It is your responsibility to check the <a href=\"http://uvbookings.info/upload/terms/e.pdf\" target=\"_blank\" rel=\"noopener\">[Terms &amp; Conditions]</a> on their website regularly and prior to making a reservation. Unless specifically stated otherwise herein or required by law, JUPITER LEGEND Corporation shall not be liable for any consequential, compensatory, indirect, incidental, or punitive damages arising out of or in connection with the performance of its obligations under these terms and conditions.</p>\n<p>13. <span style=\"color: #ba372a;\">Due to the continuous rise in fuel prices leading to a sharp increase in vehicle operating costs, effective for all tours departing on May 18, 2026, a transportation surcharge of $5 per person per day will be applied to our tour products. The fee will be collected by tour guides during the trip.</span></p>\n<p>Notes:</p>\n<p>1）No fuel surcharge will be charged on the day of airport pick-up or take-off when no any other itinerary is scheduled.</p>\n<p>2）The surcharge is waived on days without transportation services. For instance, guests taking resort shuttles to theme parks in Florida tours, or full-day train itineraries with no tour guide or coach services included.</p>\n<p>3）For US-Canada cross-border tours, fuel surcharges will be charged based on actual travel regions: USD 5 per person per day in the US, and CAD 5 per person per day in Canada.</p>\n<p>&nbsp;</p>\n<p><strong>Know Before You Go</strong></p>\n<p>1. The maximum waiting time for any late passengers is 10 minutes beyond the meeting time announced by the Tour Guide. While JUPITER LEGEND Corporation makes every effort to provide on-time service, it does not guarantee to arrive at or depart from any point at a specific time. This could be affected by a number of factors including weather, traffic, strikes, government shutdowns, war or terrorist attacks, or mechanical problems. JUPITER LEGEND Corporation is not liable for any inconvenience or expense caused as a result of such a delay. They are not liable for the expense of connecting air or train or bus services missed as a result of a delay and are not liable for any other travel expense caused as a result of a delay.</p>\n<p>2. JUPITER LEGEND Corporation and Ctour Holiday reserve the right, when operating conditions require, transferring passengers from one vehicle to another in route.&nbsp;</p>\n<p>3. The following documents are recommended to make your check-in process smooth: A valid photo ID is required in order to board the bus. We recommend you bring a copy of your email confirmation to board the bus as well.&nbsp;</p>\n<p>4. This product is a group activity. If you choose to leave the group, please inform in advance, and obtain the consent of the tour guide. You need to sign the departure agreement form and the unfinished part will be regarded as your own abandonment. The group fee will not be refunded.&nbsp;</p>\n<p>5. Gift items in the itinerary that cannot be given away due to force majeure factors such as traffic and weather conditions or personal reasons may be subject to change. Please understand that the fees will not be fully refunded.&nbsp;</p>\n<p>6. Smoking is prohibited aboard the bus in accordance with the law and prohibited in most hotel rooms. Customers are responsible for any penalty charged by the hotel in a non-smoking room at least CAD$300 and more per night.&nbsp;</p>\n<p>7. Pets and animals are not allowed on the vehicle.&nbsp;</p>\n<p>8. Only for products with airport pick-up service: only one pick-up service within the free pick-up time range is provided for each order. If it is impossible to arrange due to weather and flight delay, etc., please pay for your own transportation costs.</p>\n<p>9. Emergency contact: (Toll Free) +1(866)585-8747.</p>",
+              "vluesTip2": "【預定須知】海鷗產品（涉及跨境）"
+            },
+            {
+              "matterCode": "CM00002227",
+              "editType": 0,
+              "noticeType": 0,
+              "matterName": "P00004590",
+              "vluesTip1": "<p>1. Transportation (The type of vehicle used will be based on the number of guests attending that day).</p>\n<p>2. Professional Chinese-English driver and guide (or driver-guide).</p>\n<p>3. Hotel (Nights are one day less than the total number of tour days).</p>\n<p>4. Breakfasts.</p>",
+              "vluesTip2": "<p>1. Lunch and dinner.</p>\n<p>2. Transportation to the departure boarding point.</p>\n<p>3. Service fee (minimum USD$15 or CAD$20 per person per day, any child and Infant reserving a seat have to pay the service fees as well).</p>\n<p>4. Personal expenses (such as food &amp; beverage, telephone surcharge, etc.).</p>\n<p>5. Mandatory and optional attraction admission fee (Prices are subject to change without prior notice; Tickets should be purchased from the tour guide).</p>\n<p>6. Any expenses are not listed in Fee Included.</p>"
+            }
+          ],
+          "damagesInfo": [],
+          "advanceDay": -1,
+          "advanceTime": ""
+        },
+        "productCost": {
+          "list": null,
+          "pager": null,
+          "productCostIsDay": 0
+        },
+        "productShop": {
+          "list": null,
+          "pager": null,
+          "productShopIsDay": 0
+        }
+      },
+      "groups": [],
+      "groupsResponse": {
+        "responseStatus": {
+          "timestamp": "2026-07-15 12:48:02",
+          "ack": "Success",
+          "errors": [],
+          "build": null,
+          "version": null,
+          "extension": [
+            {
+              "id": "CLOGGING_TRACE_ID",
+              "version": null,
+              "contentType": null,
+              "value": "6166446592726243292"
+            },
+            {
+              "id": "RootMessageId",
+              "version": null,
+              "contentType": null,
+              "value": "100025527-0aa95527-495580-3595344"
+            }
+          ]
+        },
+        "responseResult": {
+          "code": 400,
+          "msg": "scheme information does not exist！",
+          "msgCode": ""
+        },
+        "responseData": null
+      },
+      "addons": []
+    }
+  }
+}

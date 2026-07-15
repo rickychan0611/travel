@@ -3,6 +3,8 @@ import { notFound } from 'next/navigation'
 import { TourDetailPage } from '@/components/tour/TourDetailPage'
 import { getToursBmsProductByHandle } from '@/lib/toursbms/load-product'
 
+export const revalidate = 1800
+
 export async function generateMetadata({
   params,
 }: {

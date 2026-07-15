@@ -1,0 +1,838 @@
+{
+  "extractedAt": "2026-07-15T04:50:27.684Z",
+  "warnings": [
+    "getProductGroup unavailable: 400 scheme information does not exist！"
+  ],
+  "product": {
+    "productCode": "P00008483",
+    "productViewCode": "R0005502",
+    "groupNo": "K3",
+    "title": "[Silver] 3-Day Aurora Viewing Tour in Yellowknife, Canada",
+    "subtitle": "",
+    "categoryCode": "PC00000187",
+    "categoryName": "Vancouver",
+    "productClass": 1,
+    "productForm": 1,
+    "duration": {
+      "days": 3,
+      "nights": 2,
+      "label": "3 days / 2 nights"
+    },
+    "start": {
+      "regionCode": "A1739",
+      "regionName": "Yellowknife",
+      "resourceType": 0
+    },
+    "end": {
+      "regionCode": "A1739",
+      "regionName": "Yellowknife",
+      "resourceType": 0
+    },
+    "destinations": [
+      {
+        "country": "",
+        "province": "Yellowknife",
+        "scenic": "",
+        "spotCode": "",
+        "spotName": "",
+        "raw": {
+          "countryCode": "",
+          "countryName": "",
+          "provinceCode": "A1739",
+          "provinceName": "Yellowknife",
+          "scenicCode": "",
+          "scenicName": "",
+          "scenicSpotCode": "",
+          "scenicSpotName": "",
+          "resourceType": 0
+        }
+      }
+    ],
+    "vehicleCodes": [
+      "1"
+    ],
+    "vehicles": [
+      "Vehicle"
+    ],
+    "transferCodes": [
+      "1",
+      "2"
+    ],
+    "transfers": [
+      "Airport pick-up",
+      "Airport drop-off"
+    ],
+    "status": 200,
+    "releaseTime": "2026-02-08 18:33:13",
+    "changeTime": "2026-06-20 10:51:36",
+    "dataVersion": 1781857816,
+    "raw": {
+      "mainLanguage": 2,
+      "productCode": "P00008483",
+      "productViewCode": "R0005502",
+      "groupNo": "K3",
+      "productClass": 1,
+      "carpointOff": 3,
+      "carpointOn": 3,
+      "productType": "PC00000187",
+      "productTypeName": "Vancouver",
+      "tripDay": 3,
+      "nightDay": 2,
+      "productForm": 1,
+      "productRoom": 2,
+      "productVehicle": "1",
+      "productTransfer": "1|2",
+      "productName": "[Silver] 3-Day Aurora Viewing Tour in Yellowknife, Canada",
+      "subtitleName": "",
+      "productSpecial": "<ul>\n<li>Yellowknife is easily one of the best places in the world to observe the aurora! It is also known as the \"Northern Lights Capital.\"</li>\n<li>Take a look at the beauty of the aurora and if you&rsquo;re extremely lucky you may even catch an extremely rare yellow-purple aurora!</li>\n<li>Enjoy an unforgettable 3-day and 2-night amazing tour with a 95% probability of seeing the aurora!</li>\n<li>Comfortably stay in a 4-star Yellowknife hotel and select any of our classic winter activities dog sledding. More travel hotel options! Guests can choose to upgrade to The</li>\n<li>Explorer Hotel/Chateau Nova for a fee or stay at Nova Inn Yellowknife for a discount to customize their stay.</li>\n<li>Discover and receive the aurora/Arctic Circle certificates or small badges at the local tourist centers to keep souvenirs of the most beautiful aurora moment!</li>\n</ul>\n<p><img src=\"https://dimg04.c-ctrip.com/images/02S2512000svb0v1e0C95.png\" alt=\"\" width=\"1022\" height=\"248\"></p>",
+      "salesNote": "",
+      "departureDate": "08/14/2026-04/11/2027: Daily Departure",
+      "rewardCode": "",
+      "createTime": "2026-02-06 15:18:50",
+      "datachangelasttime": "2026-06-20 10:51:36",
+      "dataVersion": 1781857816,
+      "productPriceAuto": 0,
+      "advanceDay": -1,
+      "advanceTime": "",
+      "productIsOutreach": null,
+      "upperProductCode": null,
+      "upperUpBranchCode": null,
+      "productAttribute": 1,
+      "productClassify": 1,
+      "schemeName": null,
+      "productStatus": 200,
+      "otherCurrencySupport": [
+        "CAD"
+      ],
+      "productRateInfoList": [
+        {
+          "sourceCurrency": "CAD",
+          "conversionCurrency": "USD",
+          "rate": 0.72,
+          "taxRate": 5,
+          "taxName": "GST"
+        }
+      ],
+      "isLocalResidentOptional": 0
+    }
+  },
+  "media": {
+    "images": [
+      "https://dimg04.c-ctrip.com/target/02S2d12000r34y8qx6C35.jpg"
+    ],
+    "imageObjects": [
+      {
+        "imageUrl": "02S2d12000r34y8qx6C35.jpg",
+        "imageName": "黄刀极光"
+      }
+    ],
+    "rawProductImg": [
+      "02S2d12000r34y8qx6C35.jpg"
+    ]
+  },
+  "highlights": {
+    "html": "<ul>\n<li>Yellowknife is easily one of the best places in the world to observe the aurora! It is also known as the \"Northern Lights Capital.\"</li>\n<li>Take a look at the beauty of the aurora and if you&rsquo;re extremely lucky you may even catch an extremely rare yellow-purple aurora!</li>\n<li>Enjoy an unforgettable 3-day and 2-night amazing tour with a 95% probability of seeing the aurora!</li>\n<li>Comfortably stay in a 4-star Yellowknife hotel and select any of our classic winter activities dog sledding. More travel hotel options! Guests can choose to upgrade to The</li>\n<li>Explorer Hotel/Chateau Nova for a fee or stay at Nova Inn Yellowknife for a discount to customize their stay.</li>\n<li>Discover and receive the aurora/Arctic Circle certificates or small badges at the local tourist centers to keep souvenirs of the most beautiful aurora moment!</li>\n</ul>\n<p><img src=\"https://dimg04.c-ctrip.com/images/02S2512000svb0v1e0C95.png\" alt=\"\" width=\"1022\" height=\"248\"></p>",
+    "text": "- Yellowknife is easily one of the best places in the world to observe the aurora! It is also known as the \"Northern Lights Capital.\"\n\n- Take a look at the beauty of the aurora and if you&rsquo;re extremely lucky you may even catch an extremely rare yellow-purple aurora!\n\n- Enjoy an unforgettable 3-day and 2-night amazing tour with a 95% probability of seeing the aurora!\n\n- Comfortably stay in a 4-star Yellowknife hotel and select any of our classic winter activities dog sledding. More travel hotel options! Guests can choose to upgrade to The\n\n- Explorer Hotel/Chateau Nova for a fee or stay at Nova Inn Yellowknife for a discount to customize their stay.\n\n- Discover and receive the aurora/Arctic Circle certificates or small badges at the local tourist centers to keep souvenirs of the most beautiful aurora moment!",
+    "salesNoteHtml": "",
+    "salesNoteText": ""
+  },
+  "departure": {
+    "html": "08/14/2026-04/11/2027: Daily Departure",
+    "text": "08/14/2026-04/11/2027: Daily Departure",
+    "advanceDay": -1,
+    "advanceTime": "",
+    "availabilityStart": "2026-07-14",
+    "availabilityEnd": "2027-12-31"
+  },
+  "pricing": {
+    "requestedCurrency": "USD",
+    "defaultCurrency": {
+      "currencyCode": "CI00000002",
+      "branchCode": "B00000003",
+      "currencyNum": "USD",
+      "currencyName": "美元",
+      "currencySymbol": "$",
+      "currencyAccuracy": 2,
+      "currencyRate": 1,
+      "currencyConversion": 1,
+      "currencyIsDefault": 1,
+      "currencyStatus": 200
+    },
+    "supportedCurrencies": [
+      {
+        "currencyCode": "CI00000111",
+        "branchCode": "B00000003",
+        "currencyNum": "CAD",
+        "currencyName": "CAD",
+        "currencySymbol": "C$",
+        "currencyAccuracy": 4,
+        "currencyRate": 1.423,
+        "currencyConversion": 1,
+        "currencyIsDefault": 0,
+        "currencyStatus": 200
+      },
+      {
+        "currencyCode": "CI00000002",
+        "branchCode": "B00000003",
+        "currencyNum": "USD",
+        "currencyName": "美元",
+        "currencySymbol": "$",
+        "currencyAccuracy": 2,
+        "currencyRate": 1,
+        "currencyConversion": 1,
+        "currencyIsDefault": 1,
+        "currencyStatus": 200
+      }
+    ],
+    "firstAvailableDate": null,
+    "basePrices": [],
+    "availability": []
+  },
+  "itinerary": {
+    "productDay": null,
+    "productNight": null,
+    "travelName": "",
+    "days": [],
+    "raw": {
+      "productCode": "P00008483",
+      "dataVersion": 1781857816,
+      "productDay": null,
+      "productNight": null,
+      "travelId": null,
+      "productType": null,
+      "productTypeName": null,
+      "travelName": null,
+      "productTravelInfoList": []
+    }
+  },
+  "cost": {
+    "includesHtml": "<p>1. Hotels or similar listed in the itinerary.</p>\n<p>2. Local guide/driver service.</p>\n<p>3. Vehicle using during the itinerary.</p>\n<p>4. Two aurora viewings in Yellowknife.</p>",
+    "includesText": "1. Hotels or similar listed in the itinerary.\n\n2. Local guide/driver service.\n\n3. Vehicle using during the itinerary.\n\n4. Two aurora viewings in Yellowknife.",
+    "excludesHtml": "<p>1. 5%GST of CAD price.</p>\n<p>2. Transportation to/from the boarding/drop-off location.</p>\n<p>3. Service fee: airport pick-up and drop-off in Yellowknife: USD$4/CAD$5 per person per day, Yellowknife tour USD$8/CAD$10 per person per day.&nbsp;</p>\n<p>4. Any food and beverages.&nbsp;</p>\n<p>5. Admission fees mentioned in the itinerary.&nbsp;</p>\n<p>6. Personal fees: such as laundry, telephone, diet, shopping, pay television etc.</p>\n<p>7. Additional fees caused by irresistible reasons due to traffic, war, coup, strikes, weather, flight cancellation or date changes.&nbsp;</p>\n<p>8. Any expenses are not listed in Fee Included.</p>",
+    "excludesText": "1. 5%GST of CAD price.\n\n2. Transportation to/from the boarding/drop-off location.\n\n3. Service fee: airport pick-up and drop-off in Yellowknife: USD$4/CAD$5 per person per day, Yellowknife tour USD$8/CAD$10 per person per day. \n\n4. Any food and beverages. \n\n5. Admission fees mentioned in the itinerary. \n\n6. Personal fees: such as laundry, telephone, diet, shopping, pay television etc.\n\n7. Additional fees caused by irresistible reasons due to traffic, war, coup, strikes, weather, flight cancellation or date changes. \n\n8. Any expenses are not listed in Fee Included.",
+    "productCostIsDay": 0,
+    "costInfo": []
+  },
+  "policy_notice": {
+    "notices": [
+      {
+        "matterCode": "AT00001628",
+        "noticeType": 3,
+        "typeLabel": "Cancellation Policy",
+        "matterName": "【退改說明】黃刀鎮極光",
+        "html": {
+          "primary": "<p>1. If the weather condition, war, general strikes, and other unforeseen circumstances interrupt the journey, our company reserves the right to rearrange the journey without refunding the tour fee.&nbsp;</p>\n<p>2. Cancellation &amp; Re-schedule Policy:</p>\n<p>&nbsp; &nbsp; a. &nbsp;More than 17 days prior to departure date (EST): Free cancellation with full refund. Please reconfirm the penalty for the added hotel or flight ticket.</p>\n<p>&nbsp; &nbsp; b. &nbsp;Less than 16 days but 8 days prior to departure date (EST): 50% of total purchase amount can be refunded.</p>\n<p>&nbsp; &nbsp; c. &nbsp;Less than 7 days prior to departure date (EST) or on departure day (EST): 100% penalty. No refund.&nbsp;</p>\n<p>&nbsp; &nbsp; d. &nbsp;Additional hotel bookings before or after the tour as well as other services are subject to hotel cancellation policy to determine if a refund is possible.</p>\n<p>&nbsp; &nbsp; e. &nbsp;If the guest quit during the trip or fails to participate in any itinerary due to personal reasons (no travel documents, late arrival, illness, accident, etc.), the paid tour fare will not be refunded, and no other services will be compensated.</p>",
+          "secondary": "【退改說明】黃刀鎮極光"
+        },
+        "text": {
+          "primary": "1. If the weather condition, war, general strikes, and other unforeseen circumstances interrupt the journey, our company reserves the right to rearrange the journey without refunding the tour fee. \n\n2. Cancellation & Re-schedule Policy:\n\n    a.  More than 17 days prior to departure date (EST): Free cancellation with full refund. Please reconfirm the penalty for the added hotel or flight ticket.\n\n    b.  Less than 16 days but 8 days prior to departure date (EST): 50% of total purchase amount can be refunded.\n\n    c.  Less than 7 days prior to departure date (EST) or on departure day (EST): 100% penalty. No refund. \n\n    d.  Additional hotel bookings before or after the tour as well as other services are subject to hotel cancellation policy to determine if a refund is possible.\n\n    e.  If the guest quit during the trip or fails to participate in any itinerary due to personal reasons (no travel documents, late arrival, illness, accident, etc.), the paid tour fare will not be refunded, and no other services will be compensated.",
+          "secondary": "【退改說明】黃刀鎮極光"
+        },
+        "raw": {
+          "matterCode": "AT00001628",
+          "editType": 1,
+          "noticeType": 3,
+          "matterName": "【退改說明】黃刀鎮極光",
+          "vluesTip1": "<p>1. If the weather condition, war, general strikes, and other unforeseen circumstances interrupt the journey, our company reserves the right to rearrange the journey without refunding the tour fee.&nbsp;</p>\n<p>2. Cancellation &amp; Re-schedule Policy:</p>\n<p>&nbsp; &nbsp; a. &nbsp;More than 17 days prior to departure date (EST): Free cancellation with full refund. Please reconfirm the penalty for the added hotel or flight ticket.</p>\n<p>&nbsp; &nbsp; b. &nbsp;Less than 16 days but 8 days prior to departure date (EST): 50% of total purchase amount can be refunded.</p>\n<p>&nbsp; &nbsp; c. &nbsp;Less than 7 days prior to departure date (EST) or on departure day (EST): 100% penalty. No refund.&nbsp;</p>\n<p>&nbsp; &nbsp; d. &nbsp;Additional hotel bookings before or after the tour as well as other services are subject to hotel cancellation policy to determine if a refund is possible.</p>\n<p>&nbsp; &nbsp; e. &nbsp;If the guest quit during the trip or fails to participate in any itinerary due to personal reasons (no travel documents, late arrival, illness, accident, etc.), the paid tour fare will not be refunded, and no other services will be compensated.</p>",
+          "vluesTip2": "【退改說明】黃刀鎮極光"
+        }
+      },
+      {
+        "matterCode": "AT00001624",
+        "noticeType": 1,
+        "typeLabel": "Know Before You Book",
+        "matterName": "【預定須知】極光產品",
+        "html": {
+          "primary": "<p>Know Before You Book</p>\n<p>1. Customer under 18 years old MUST be accompanied by at least one adult. In consideration of the guest safety, pregnant women are only allowed to join the tour if pregnant for 24 weeks or less by the end of the trip.</p>\n<p>2. Please be sure to provide accurate and complete information upon booking. This includes name, gender, valid contact information (preferably a mobile phone), accurate flight information, tour location, etc., This helps to avoid any errors upon the reservation because errors affect travel. Any losses due to inaccurate or invalid information will be at your own cost and the company will not be held responsible.&nbsp;</p>\n<p>3. Some hotels have different room types, such as a King/Queen size beds or two double size twin beds. The maximum number of people who can legally stay in a room is 2 to 4 people. In addition, each hotel has a different method of charging the deposit, which requires the cooperation of the guests according to regulations. Please be noticed that most of the deposit collection and refund is handled by credit card.&nbsp;JUPITER LEGEND Corporation and Ctour Holiday guarantee the number of rooms for guests but does not guarantee the specific room type and location. Hotel check-in time is usually after 15:00.</p>\n<p>4. This tour does not accept any City Pass or your own tickets for any of the attractions. Tour attraction admission charges and meal expenses are subject to change at any time without notification. Any purchased ticket cannot be refunded for lower prices.</p>\n<p>5. JUPITER LEGEND Corporation and Ctour Holiday have the right to make appropriate adjustments to the itinerary under the conditions of facilitating the operation for the tour group. This, however, will not reduce the items that should be included in the itinerary.</p>\n<p>6. During the actual trip, the tour guide or driver has the right to appropriately adjust the tour sequence, stay time or assembly time of scenic spots according to the weather, traffic, and other conditions to ensure the smooth progress of the trip.</p>\n<p>7. If any scenic spots are temporarily closed, including on certain holidays, the tour guide will make appropriate adjustments based on the actual situation, which may include viewing from the outside or substituting with another attraction to maintain the richness of the itinerary. Please note that the opening hours and capacity limits of certain attractions and national parks may change from time to time due to health concerns. Should such changes affect the itinerary, they will be considered force majeure. We appreciate your understanding.</p>\n<p>8. Children under the age of 8 require a booster seat in order to participate in the tour group. JUPITER LEGEND Corporation and Ctour Holiday provide the rental service for $10.00/person/day. Please make a request when booking the itinerary so that we may have the booster seat ready in advance. Please understand that the violations and fines are borne by the guests themselves. There is no need for a booster seat for bus travel on the day of travel, and the fee can be refunded to the guest.</p>\n<p>9. Normal health conditions are required to participate and enjoy our full itineraries. Contact us for specific policies or information regarding passengers with disabilities and the handicapped who do need to provide advance notification to make a reservation. JUPITER LEGEND Corporation and Ctour Holiday do not guarantee a wheelchair lift-equipped bus and/or seating availability to disabled passengers without prior notification and approval.</p>\n<p>10. The Northern Lights are a natural phenomenon whose appearance and visibility are dictated by weather and other natural conditions. Thus, there is no guarantee that you will see them. If there are discrepancies between any time stated in the itinerary and the time given by your guide, please meet at the time your guide has informed you of. The sequence of activities in this tour itinerary is subject to change based on the tour departure date, weather conditions, etc., but the content of the tour will not change.&nbsp;</p>\n<p>11. The price in the system is US dollars which includes tax. If you need to pay in CAD dollars, all CAD dollar prices do not include 5% GST.&nbsp;</p>\n<p>12. We may alter these terms and conditions from time to time and post the new version on our agents&rsquo; website. It is your responsibility to check the <a title=\"[Terms &amp; Conditions]\" href=\"http://uvbookings.info/upload/terms/e.pdf\" target=\"_blank\" rel=\"noopener\">[Terms &amp; Conditions]</a> on their website regularly and prior to making a reservation. Unless specifically stated otherwise herein or required by law, JUPITER LEGEND Corporation shall not be liable for any consequential, compensatory, indirect, incidental or punitive damages arising out of or in connection with the performance of its obligations under these terms and conditions.</p>\n<p>&nbsp;</p>\n<p><strong>Know Before You Go</strong></p>\n<p>1. The maximal waiting time for any late passengers is 10 minutes beyond the meeting time announced by the Tour Guide. While JUPITER LEGEND Corporation makes every effort to provide on-time service, it does not guarantee to arrive at or depart from any point.as a specific time, which may be affected by any number of factors including weather, traffic, strikes, government shutdowns, war or terrorist attacks, or mechanical prob- lems. JUPITER LEGEND Corporation is not liable for any inconvenience or expense caused as a result of such a delay, not liable for the expense of connecting air or train or bus service missed as a result of a delay and not liable for any other travel expense caused as a result of a delay.</p>\n<p>2. JUPITER LEGEND Corporation and Ctour Holiday reserve the right, when operating conditions require, transferring passengers from one vehicle to another en route.</p>\n<p>3. The following documents are recommended to make your check-in process smooth: A valid photo ID is required to board the bus; We recommend you bring a copy of the email confirmation to board the bus.</p>\n<p>4. This product is a group activity. If you choose to leave the group, please inform in advance, and obtain the consent of the tour guide. You need to sign the departure agreement form and the unfinished part will be regarded as your own abandonment. The group fee will not be refunded.</p>\n<p>5. Gift items in the itinerary that cannot be given away due to force majeure factors such as traffic and weather conditions or personal reasons may be subject to change. Please understand that the fees will not be refunded.</p>\n<p>6. Smoking is prohibited aboard the bus in accordance with Federal law and prohibited in most hotel rooms. Customers are responsible for any penalty charged by the hotel in a non-smoking room at least $250 per night.</p>\n<p>7. Pets and animals are not allowed on the vehicle.</p>\n<p>8. Only for products with airport pick-up service: only one pick-up service within the free pick-up time range is provided for each order. If it is impossible to arrange due to weather and flight delay, etc., please pay for your own transportation costs.</p>\n<p>9. Emergency contact: (Toll Free) +1(866)585-8747.</p>",
+          "secondary": "【預定須知】極光產品"
+        },
+        "text": {
+          "primary": "Know Before You Book\n\n1. Customer under 18 years old MUST be accompanied by at least one adult. In consideration of the guest safety, pregnant women are only allowed to join the tour if pregnant for 24 weeks or less by the end of the trip.\n\n2. Please be sure to provide accurate and complete information upon booking. This includes name, gender, valid contact information (preferably a mobile phone), accurate flight information, tour location, etc., This helps to avoid any errors upon the reservation because errors affect travel. Any losses due to inaccurate or invalid information will be at your own cost and the company will not be held responsible. \n\n3. Some hotels have different room types, such as a King/Queen size beds or two double size twin beds. The maximum number of people who can legally stay in a room is 2 to 4 people. In addition, each hotel has a different method of charging the deposit, which requires the cooperation of the guests according to regulations. Please be noticed that most of the deposit collection and refund is handled by credit card. JUPITER LEGEND Corporation and Ctour Holiday guarantee the number of rooms for guests but does not guarantee the specific room type and location. Hotel check-in time is usually after 15:00.\n\n4. This tour does not accept any City Pass or your own tickets for any of the attractions. Tour attraction admission charges and meal expenses are subject to change at any time without notification. Any purchased ticket cannot be refunded for lower prices.\n\n5. JUPITER LEGEND Corporation and Ctour Holiday have the right to make appropriate adjustments to the itinerary under the conditions of facilitating the operation for the tour group. This, however, will not reduce the items that should be included in the itinerary.\n\n6. During the actual trip, the tour guide or driver has the right to appropriately adjust the tour sequence, stay time or assembly time of scenic spots according to the weather, traffic, and other conditions to ensure the smooth progress of the trip.\n\n7. If any scenic spots are temporarily closed, including on certain holidays, the tour guide will make appropriate adjustments based on the actual situation, which may include viewing from the outside or substituting with another attraction to maintain the richness of the itinerary. Please note that the opening hours and capacity limits of certain attractions and national parks may change from time to time due to health concerns. Should such changes affect the itinerary, they will be considered force majeure. We appreciate your understanding.\n\n8. Children under the age of 8 require a booster seat in order to participate in the tour group. JUPITER LEGEND Corporation and Ctour Holiday provide the rental service for $10.00/person/day. Please make a request when booking the itinerary so that we may have the booster seat ready in advance. Please understand that the violations and fines are borne by the guests themselves. There is no need for a booster seat for bus travel on the day of travel, and the fee can be refunded to the guest.\n\n9. Normal health conditions are required to participate and enjoy our full itineraries. Contact us for specific policies or information regarding passengers with disabilities and the handicapped who do need to provide advance notification to make a reservation. JUPITER LEGEND Corporation and Ctour Holiday do not guarantee a wheelchair lift-equipped bus and/or seating availability to disabled passengers without prior notification and approval.\n\n10. The Northern Lights are a natural phenomenon whose appearance and visibility are dictated by weather and other natural conditions. Thus, there is no guarantee that you will see them. If there are discrepancies between any time stated in the itinerary and the time given by your guide, please meet at the time your guide has informed you of. The sequence of activities in this tour itinerary is subject to change based on the tour departure date, weather conditions, etc., but the content of the tour will not change. \n\n11. The price in the system is US dollars which includes tax. If you need to pay in CAD dollars, all CAD dollar prices do not include 5% GST. \n\n12. We may alter these terms and conditions from time to time and post the new version on our agents&rsquo; website. It is your responsibility to check the [Terms & Conditions] on their website regularly and prior to making a reservation. Unless specifically stated otherwise herein or required by law, JUPITER LEGEND Corporation shall not be liable for any consequential, compensatory, indirect, incidental or punitive damages arising out of or in connection with the performance of its obligations under these terms and conditions.\n\n \n\nKnow Before You Go\n\n1. The maximal waiting time for any late passengers is 10 minutes beyond the meeting time announced by the Tour Guide. While JUPITER LEGEND Corporation makes every effort to provide on-time service, it does not guarantee to arrive at or depart from any point.as a specific time, which may be affected by any number of factors including weather, traffic, strikes, government shutdowns, war or terrorist attacks, or mechanical prob- lems. JUPITER LEGEND Corporation is not liable for any inconvenience or expense caused as a result of such a delay, not liable for the expense of connecting air or train or bus service missed as a result of a delay and not liable for any other travel expense caused as a result of a delay.\n\n2. JUPITER LEGEND Corporation and Ctour Holiday reserve the right, when operating conditions require, transferring passengers from one vehicle to another en route.\n\n3. The following documents are recommended to make your check-in process smooth: A valid photo ID is required to board the bus; We recommend you bring a copy of the email confirmation to board the bus.\n\n4. This product is a group activity. If you choose to leave the group, please inform in advance, and obtain the consent of the tour guide. You need to sign the departure agreement form and the unfinished part will be regarded as your own abandonment. The group fee will not be refunded.\n\n5. Gift items in the itinerary that cannot be given away due to force majeure factors such as traffic and weather conditions or personal reasons may be subject to change. Please understand that the fees will not be refunded.\n\n6. Smoking is prohibited aboard the bus in accordance with Federal law and prohibited in most hotel rooms. Customers are responsible for any penalty charged by the hotel in a non-smoking room at least $250 per night.\n\n7. Pets and animals are not allowed on the vehicle.\n\n8. Only for products with airport pick-up service: only one pick-up service within the free pick-up time range is provided for each order. If it is impossible to arrange due to weather and flight delay, etc., please pay for your own transportation costs.\n\n9. Emergency contact: (Toll Free) +1(866)585-8747.",
+          "secondary": "【預定須知】極光產品"
+        },
+        "raw": {
+          "matterCode": "AT00001624",
+          "editType": 1,
+          "noticeType": 1,
+          "matterName": "【預定須知】極光產品",
+          "vluesTip1": "<p>Know Before You Book</p>\n<p>1. Customer under 18 years old MUST be accompanied by at least one adult. In consideration of the guest safety, pregnant women are only allowed to join the tour if pregnant for 24 weeks or less by the end of the trip.</p>\n<p>2. Please be sure to provide accurate and complete information upon booking. This includes name, gender, valid contact information (preferably a mobile phone), accurate flight information, tour location, etc., This helps to avoid any errors upon the reservation because errors affect travel. Any losses due to inaccurate or invalid information will be at your own cost and the company will not be held responsible.&nbsp;</p>\n<p>3. Some hotels have different room types, such as a King/Queen size beds or two double size twin beds. The maximum number of people who can legally stay in a room is 2 to 4 people. In addition, each hotel has a different method of charging the deposit, which requires the cooperation of the guests according to regulations. Please be noticed that most of the deposit collection and refund is handled by credit card.&nbsp;JUPITER LEGEND Corporation and Ctour Holiday guarantee the number of rooms for guests but does not guarantee the specific room type and location. Hotel check-in time is usually after 15:00.</p>\n<p>4. This tour does not accept any City Pass or your own tickets for any of the attractions. Tour attraction admission charges and meal expenses are subject to change at any time without notification. Any purchased ticket cannot be refunded for lower prices.</p>\n<p>5. JUPITER LEGEND Corporation and Ctour Holiday have the right to make appropriate adjustments to the itinerary under the conditions of facilitating the operation for the tour group. This, however, will not reduce the items that should be included in the itinerary.</p>\n<p>6. During the actual trip, the tour guide or driver has the right to appropriately adjust the tour sequence, stay time or assembly time of scenic spots according to the weather, traffic, and other conditions to ensure the smooth progress of the trip.</p>\n<p>7. If any scenic spots are temporarily closed, including on certain holidays, the tour guide will make appropriate adjustments based on the actual situation, which may include viewing from the outside or substituting with another attraction to maintain the richness of the itinerary. Please note that the opening hours and capacity limits of certain attractions and national parks may change from time to time due to health concerns. Should such changes affect the itinerary, they will be considered force majeure. We appreciate your understanding.</p>\n<p>8. Children under the age of 8 require a booster seat in order to participate in the tour group. JUPITER LEGEND Corporation and Ctour Holiday provide the rental service for $10.00/person/day. Please make a request when booking the itinerary so that we may have the booster seat ready in advance. Please understand that the violations and fines are borne by the guests themselves. There is no need for a booster seat for bus travel on the day of travel, and the fee can be refunded to the guest.</p>\n<p>9. Normal health conditions are required to participate and enjoy our full itineraries. Contact us for specific policies or information regarding passengers with disabilities and the handicapped who do need to provide advance notification to make a reservation. JUPITER LEGEND Corporation and Ctour Holiday do not guarantee a wheelchair lift-equipped bus and/or seating availability to disabled passengers without prior notification and approval.</p>\n<p>10. The Northern Lights are a natural phenomenon whose appearance and visibility are dictated by weather and other natural conditions. Thus, there is no guarantee that you will see them. If there are discrepancies between any time stated in the itinerary and the time given by your guide, please meet at the time your guide has informed you of. The sequence of activities in this tour itinerary is subject to change based on the tour departure date, weather conditions, etc., but the content of the tour will not change.&nbsp;</p>\n<p>11. The price in the system is US dollars which includes tax. If you need to pay in CAD dollars, all CAD dollar prices do not include 5% GST.&nbsp;</p>\n<p>12. We may alter these terms and conditions from time to time and post the new version on our agents&rsquo; website. It is your responsibility to check the <a title=\"[Terms &amp; Conditions]\" href=\"http://uvbookings.info/upload/terms/e.pdf\" target=\"_blank\" rel=\"noopener\">[Terms &amp; Conditions]</a> on their website regularly and prior to making a reservation. Unless specifically stated otherwise herein or required by law, JUPITER LEGEND Corporation shall not be liable for any consequential, compensatory, indirect, incidental or punitive damages arising out of or in connection with the performance of its obligations under these terms and conditions.</p>\n<p>&nbsp;</p>\n<p><strong>Know Before You Go</strong></p>\n<p>1. The maximal waiting time for any late passengers is 10 minutes beyond the meeting time announced by the Tour Guide. While JUPITER LEGEND Corporation makes every effort to provide on-time service, it does not guarantee to arrive at or depart from any point.as a specific time, which may be affected by any number of factors including weather, traffic, strikes, government shutdowns, war or terrorist attacks, or mechanical prob- lems. JUPITER LEGEND Corporation is not liable for any inconvenience or expense caused as a result of such a delay, not liable for the expense of connecting air or train or bus service missed as a result of a delay and not liable for any other travel expense caused as a result of a delay.</p>\n<p>2. JUPITER LEGEND Corporation and Ctour Holiday reserve the right, when operating conditions require, transferring passengers from one vehicle to another en route.</p>\n<p>3. The following documents are recommended to make your check-in process smooth: A valid photo ID is required to board the bus; We recommend you bring a copy of the email confirmation to board the bus.</p>\n<p>4. This product is a group activity. If you choose to leave the group, please inform in advance, and obtain the consent of the tour guide. You need to sign the departure agreement form and the unfinished part will be regarded as your own abandonment. The group fee will not be refunded.</p>\n<p>5. Gift items in the itinerary that cannot be given away due to force majeure factors such as traffic and weather conditions or personal reasons may be subject to change. Please understand that the fees will not be refunded.</p>\n<p>6. Smoking is prohibited aboard the bus in accordance with Federal law and prohibited in most hotel rooms. Customers are responsible for any penalty charged by the hotel in a non-smoking room at least $250 per night.</p>\n<p>7. Pets and animals are not allowed on the vehicle.</p>\n<p>8. Only for products with airport pick-up service: only one pick-up service within the free pick-up time range is provided for each order. If it is impossible to arrange due to weather and flight delay, etc., please pay for your own transportation costs.</p>\n<p>9. Emergency contact: (Toll Free) +1(866)585-8747.</p>",
+          "vluesTip2": "【預定須知】極光產品"
+        }
+      },
+      {
+        "matterCode": "CM00002458",
+        "noticeType": 0,
+        "typeLabel": "Cost description",
+        "matterName": "P00008483",
+        "html": {
+          "primary": "<p>1. Hotels or similar listed in the itinerary.</p>\n<p>2. Local guide/driver service.</p>\n<p>3. Vehicle using during the itinerary.</p>\n<p>4. Two aurora viewings in Yellowknife.</p>",
+          "secondary": "<p>1. 5%GST of CAD price.</p>\n<p>2. Transportation to/from the boarding/drop-off location.</p>\n<p>3. Service fee: airport pick-up and drop-off in Yellowknife: USD$4/CAD$5 per person per day, Yellowknife tour USD$8/CAD$10 per person per day.&nbsp;</p>\n<p>4. Any food and beverages.&nbsp;</p>\n<p>5. Admission fees mentioned in the itinerary.&nbsp;</p>\n<p>6. Personal fees: such as laundry, telephone, diet, shopping, pay television etc.</p>\n<p>7. Additional fees caused by irresistible reasons due to traffic, war, coup, strikes, weather, flight cancellation or date changes.&nbsp;</p>\n<p>8. Any expenses are not listed in Fee Included.</p>"
+        },
+        "text": {
+          "primary": "1. Hotels or similar listed in the itinerary.\n\n2. Local guide/driver service.\n\n3. Vehicle using during the itinerary.\n\n4. Two aurora viewings in Yellowknife.",
+          "secondary": "1. 5%GST of CAD price.\n\n2. Transportation to/from the boarding/drop-off location.\n\n3. Service fee: airport pick-up and drop-off in Yellowknife: USD$4/CAD$5 per person per day, Yellowknife tour USD$8/CAD$10 per person per day. \n\n4. Any food and beverages. \n\n5. Admission fees mentioned in the itinerary. \n\n6. Personal fees: such as laundry, telephone, diet, shopping, pay television etc.\n\n7. Additional fees caused by irresistible reasons due to traffic, war, coup, strikes, weather, flight cancellation or date changes. \n\n8. Any expenses are not listed in Fee Included."
+        },
+        "raw": {
+          "matterCode": "CM00002458",
+          "editType": 0,
+          "noticeType": 0,
+          "matterName": "P00008483",
+          "vluesTip1": "<p>1. Hotels or similar listed in the itinerary.</p>\n<p>2. Local guide/driver service.</p>\n<p>3. Vehicle using during the itinerary.</p>\n<p>4. Two aurora viewings in Yellowknife.</p>",
+          "vluesTip2": "<p>1. 5%GST of CAD price.</p>\n<p>2. Transportation to/from the boarding/drop-off location.</p>\n<p>3. Service fee: airport pick-up and drop-off in Yellowknife: USD$4/CAD$5 per person per day, Yellowknife tour USD$8/CAD$10 per person per day.&nbsp;</p>\n<p>4. Any food and beverages.&nbsp;</p>\n<p>5. Admission fees mentioned in the itinerary.&nbsp;</p>\n<p>6. Personal fees: such as laundry, telephone, diet, shopping, pay television etc.</p>\n<p>7. Additional fees caused by irresistible reasons due to traffic, war, coup, strikes, weather, flight cancellation or date changes.&nbsp;</p>\n<p>8. Any expenses are not listed in Fee Included.</p>"
+        }
+      }
+    ],
+    "damagesInfo": []
+  },
+  "pickup_dropoff": {
+    "pickup": [],
+    "dropoff": [],
+    "teamPickup": [],
+    "teamDropoff": []
+  },
+  "constraints": {
+    "confirmType": 1,
+    "confirmTypeLabel": "Confirm manually",
+    "isAgeLimited": false,
+    "needsIdNumber": false,
+    "isChildAvailable": true,
+    "childAge": "",
+    "childHeight": "",
+    "childNote": "Child tickets are valid for children 3-10, children must be accompanied by an adult. Children under three are free of charge.",
+    "infantNote": "",
+    "seniorNote": "",
+    "raw": {
+      "confirmType": 1,
+      "isAge": 0,
+      "ageCode": "",
+      "ageName": null,
+      "isNumber": 0,
+      "isPrice": 1,
+      "isCarpoint": 1,
+      "isChild": 1,
+      "childAge": "",
+      "childHeight": "",
+      "childNote": "Child tickets are valid for children 3-10, children must be accompanied by an adult. Children under three are free of charge.",
+      "isRange": 0,
+      "isAutoTeam": 0,
+      "isInfant": 0,
+      "infantAgeUpper": "",
+      "infantNote": "",
+      "isSenior": 0,
+      "seniorAgeLower": "",
+      "seniorNote": ""
+    }
+  },
+  "addons": [],
+  "shopify_mapping": {
+    "title": "[Silver] 3-Day Aurora Viewing Tour in Yellowknife, Canada",
+    "handle": "p00008483-silver-3-day-aurora-viewing-tour-in-yellowknife-canada",
+    "vendor": "Jupiter Legend Corporation",
+    "productType": "Vancouver",
+    "tags": [
+      "ToursBMS",
+      "Vancouver",
+      "3 days"
+    ],
+    "status": "active_candidate",
+    "bodyHtml": "<h2>Highlights</h2>\n<ul>\n<li>Yellowknife is easily one of the best places in the world to observe the aurora! It is also known as the \"Northern Lights Capital.\"</li>\n<li>Take a look at the beauty of the aurora and if you&rsquo;re extremely lucky you may even catch an extremely rare yellow-purple aurora!</li>\n<li>Enjoy an unforgettable 3-day and 2-night amazing tour with a 95% probability of seeing the aurora!</li>\n<li>Comfortably stay in a 4-star Yellowknife hotel and select any of our classic winter activities dog sledding. More travel hotel options! Guests can choose to upgrade to The</li>\n<li>Explorer Hotel/Chateau Nova for a fee or stay at Nova Inn Yellowknife for a discount to customize their stay.</li>\n<li>Discover and receive the aurora/Arctic Circle certificates or small badges at the local tourist centers to keep souvenirs of the most beautiful aurora moment!</li>\n</ul>\n<p><img src=\"https://dimg04.c-ctrip.com/images/02S2512000svb0v1e0C95.png\" alt=\"\" width=\"1022\" height=\"248\"></p>\n\n<h2>Departure Date</h2>\n<p>08/14/2026-04/11/2027: Daily Departure</p>\n\n<h2>Cost Includes</h2>\n<p>1. Hotels or similar listed in the itinerary.</p>\n<p>2. Local guide/driver service.</p>\n<p>3. Vehicle using during the itinerary.</p>\n<p>4. Two aurora viewings in Yellowknife.</p>\n<h2>Cost Excludes</h2>\n<p>1. 5%GST of CAD price.</p>\n<p>2. Transportation to/from the boarding/drop-off location.</p>\n<p>3. Service fee: airport pick-up and drop-off in Yellowknife: USD$4/CAD$5 per person per day, Yellowknife tour USD$8/CAD$10 per person per day.&nbsp;</p>\n<p>4. Any food and beverages.&nbsp;</p>\n<p>5. Admission fees mentioned in the itinerary.&nbsp;</p>\n<p>6. Personal fees: such as laundry, telephone, diet, shopping, pay television etc.</p>\n<p>7. Additional fees caused by irresistible reasons due to traffic, war, coup, strikes, weather, flight cancellation or date changes.&nbsp;</p>\n<p>8. Any expenses are not listed in Fee Included.</p>\n\n<h2>Cancellation Policy</h2>\n<p>1. If the weather condition, war, general strikes, and other unforeseen circumstances interrupt the journey, our company reserves the right to rearrange the journey without refunding the tour fee.&nbsp;</p>\n<p>2. Cancellation &amp; Re-schedule Policy:</p>\n<p>&nbsp; &nbsp; a. &nbsp;More than 17 days prior to departure date (EST): Free cancellation with full refund. Please reconfirm the penalty for the added hotel or flight ticket.</p>\n<p>&nbsp; &nbsp; b. &nbsp;Less than 16 days but 8 days prior to departure date (EST): 50% of total purchase amount can be refunded.</p>\n<p>&nbsp; &nbsp; c. &nbsp;Less than 7 days prior to departure date (EST) or on departure day (EST): 100% penalty. No refund.&nbsp;</p>\n<p>&nbsp; &nbsp; d. &nbsp;Additional hotel bookings before or after the tour as well as other services are subject to hotel cancellation policy to determine if a refund is possible.</p>\n<p>&nbsp; &nbsp; e. &nbsp;If the guest quit during the trip or fails to participate in any itinerary due to personal reasons (no travel documents, late arrival, illness, accident, etc.), the paid tour fare will not be refunded, and no other services will be compensated.</p>\n<h2>Know Before You Book</h2>\n<p>Know Before You Book</p>\n<p>1. Customer under 18 years old MUST be accompanied by at least one adult. In consideration of the guest safety, pregnant women are only allowed to join the tour if pregnant for 24 weeks or less by the end of the trip.</p>\n<p>2. Please be sure to provide accurate and complete information upon booking. This includes name, gender, valid contact information (preferably a mobile phone), accurate flight information, tour location, etc., This helps to avoid any errors upon the reservation because errors affect travel. Any losses due to inaccurate or invalid information will be at your own cost and the company will not be held responsible.&nbsp;</p>\n<p>3. Some hotels have different room types, such as a King/Queen size beds or two double size twin beds. The maximum number of people who can legally stay in a room is 2 to 4 people. In addition, each hotel has a different method of charging the deposit, which requires the cooperation of the guests according to regulations. Please be noticed that most of the deposit collection and refund is handled by credit card.&nbsp;JUPITER LEGEND Corporation and Ctour Holiday guarantee the number of rooms for guests but does not guarantee the specific room type and location. Hotel check-in time is usually after 15:00.</p>\n<p>4. This tour does not accept any City Pass or your own tickets for any of the attractions. Tour attraction admission charges and meal expenses are subject to change at any time without notification. Any purchased ticket cannot be refunded for lower prices.</p>\n<p>5. JUPITER LEGEND Corporation and Ctour Holiday have the right to make appropriate adjustments to the itinerary under the conditions of facilitating the operation for the tour group. This, however, will not reduce the items that should be included in the itinerary.</p>\n<p>6. During the actual trip, the tour guide or driver has the right to appropriately adjust the tour sequence, stay time or assembly time of scenic spots according to the weather, traffic, and other conditions to ensure the smooth progress of the trip.</p>\n<p>7. If any scenic spots are temporarily closed, including on certain holidays, the tour guide will make appropriate adjustments based on the actual situation, which may include viewing from the outside or substituting with another attraction to maintain the richness of the itinerary. Please note that the opening hours and capacity limits of certain attractions and national parks may change from time to time due to health concerns. Should such changes affect the itinerary, they will be considered force majeure. We appreciate your understanding.</p>\n<p>8. Children under the age of 8 require a booster seat in order to participate in the tour group. JUPITER LEGEND Corporation and Ctour Holiday provide the rental service for $10.00/person/day. Please make a request when booking the itinerary so that we may have the booster seat ready in advance. Please understand that the violations and fines are borne by the guests themselves. There is no need for a booster seat for bus travel on the day of travel, and the fee can be refunded to the guest.</p>\n<p>9. Normal health conditions are required to participate and enjoy our full itineraries. Contact us for specific policies or information regarding passengers with disabilities and the handicapped who do need to provide advance notification to make a reservation. JUPITER LEGEND Corporation and Ctour Holiday do not guarantee a wheelchair lift-equipped bus and/or seating availability to disabled passengers without prior notification and approval.</p>\n<p>10. The Northern Lights are a natural phenomenon whose appearance and visibility are dictated by weather and other natural conditions. Thus, there is no guarantee that you will see them. If there are discrepancies between any time stated in the itinerary and the time given by your guide, please meet at the time your guide has informed you of. The sequence of activities in this tour itinerary is subject to change based on the tour departure date, weather conditions, etc., but the content of the tour will not change.&nbsp;</p>\n<p>11. The price in the system is US dollars which includes tax. If you need to pay in CAD dollars, all CAD dollar prices do not include 5% GST.&nbsp;</p>\n<p>12. We may alter these terms and conditions from time to time and post the new version on our agents&rsquo; website. It is your responsibility to check the <a title=\"[Terms &amp; Conditions]\" href=\"http://uvbookings.info/upload/terms/e.pdf\" target=\"_blank\" rel=\"noopener\">[Terms &amp; Conditions]</a> on their website regularly and prior to making a reservation. Unless specifically stated otherwise herein or required by law, JUPITER LEGEND Corporation shall not be liable for any consequential, compensatory, indirect, incidental or punitive damages arising out of or in connection with the performance of its obligations under these terms and conditions.</p>\n<p>&nbsp;</p>\n<p><strong>Know Before You Go</strong></p>\n<p>1. The maximal waiting time for any late passengers is 10 minutes beyond the meeting time announced by the Tour Guide. While JUPITER LEGEND Corporation makes every effort to provide on-time service, it does not guarantee to arrive at or depart from any point.as a specific time, which may be affected by any number of factors including weather, traffic, strikes, government shutdowns, war or terrorist attacks, or mechanical prob- lems. JUPITER LEGEND Corporation is not liable for any inconvenience or expense caused as a result of such a delay, not liable for the expense of connecting air or train or bus service missed as a result of a delay and not liable for any other travel expense caused as a result of a delay.</p>\n<p>2. JUPITER LEGEND Corporation and Ctour Holiday reserve the right, when operating conditions require, transferring passengers from one vehicle to another en route.</p>\n<p>3. The following documents are recommended to make your check-in process smooth: A valid photo ID is required to board the bus; We recommend you bring a copy of the email confirmation to board the bus.</p>\n<p>4. This product is a group activity. If you choose to leave the group, please inform in advance, and obtain the consent of the tour guide. You need to sign the departure agreement form and the unfinished part will be regarded as your own abandonment. The group fee will not be refunded.</p>\n<p>5. Gift items in the itinerary that cannot be given away due to force majeure factors such as traffic and weather conditions or personal reasons may be subject to change. Please understand that the fees will not be refunded.</p>\n<p>6. Smoking is prohibited aboard the bus in accordance with Federal law and prohibited in most hotel rooms. Customers are responsible for any penalty charged by the hotel in a non-smoking room at least $250 per night.</p>\n<p>7. Pets and animals are not allowed on the vehicle.</p>\n<p>8. Only for products with airport pick-up service: only one pick-up service within the free pick-up time range is provided for each order. If it is impossible to arrange due to weather and flight delay, etc., please pay for your own transportation costs.</p>\n<p>9. Emergency contact: (Toll Free) +1(866)585-8747.</p>",
+    "options": [
+      "Package price type"
+    ],
+    "variants": [],
+    "metafields": {
+      "toursbms_product_code": "P00008483",
+      "toursbms_group_no": "K3",
+      "toursbms_view_code": "R0005502",
+      "duration_days": 3,
+      "duration_nights": 2
+    }
+  },
+  "source": {
+    "productPageUrl": "https://uvbookings.toursbms.com/en/product/detail?productCode=P00008483",
+    "branchCode": "B00000003",
+    "branchName": "纵横集团",
+    "language": 3,
+    "languagePackage": {
+      "CON000252": "Product category",
+      "CON000314": "Airplane",
+      "CON000315": "Train",
+      "CON000316": "Vehicle",
+      "CON000317": "Cruise",
+      "CON000318": "Others",
+      "CON000321": "Flight",
+      "CON000322": "Transportation",
+      "CON000323": "Attractions",
+      "CON000324": "Meals",
+      "CON000325": "Shopping",
+      "CON000326": "Free time",
+      "CON000329": "To be determined",
+      "CON000330": "Direct flight",
+      "CON000331": "Transit",
+      "CON000332": "Travel distance",
+      "CON000333": "Travel time",
+      "CON000334": "Hour",
+      "CON000335": "Minute",
+      "CON000338": "Breakfast",
+      "CON000339": "Lunch",
+      "CON000340": "Dinner",
+      "CON000341": "Dining menu",
+      "CON000342": "Activity time",
+      "CON000343": "Dining time",
+      "CON000344": "Extra expense",
+      "CON000358": "Cost includes",
+      "CON000359": "Cost excludes",
+      "CON000363": "Know Before You Book",
+      "CON000364": "Travel tips",
+      "CON000365": "Cancellation Policy",
+      "CON000366": "Visa instructions",
+      "CON000370": "Shopping point name",
+      "CON000375": "Price description",
+      "CON000377": "Price",
+      "CON000380": "Tour No.",
+      "CON000383": "Product type",
+      "CON000384": "Package tour",
+      "CON000385": "DIY tour",
+      "CON000386": "Private group",
+      "CON000389": "Transportation",
+      "CON000390": "Boarding location",
+      "CON000392": "Drop-off location",
+      "CON000394": "Highlights",
+      "CON000395": "Promotional information",
+      "CON000397": "Product information",
+      "CON000400": "Confirm method",
+      "CON000401": "Confirm manually",
+      "CON000402": "Confirm systematically",
+      "CON000403": "Age limit",
+      "CON000404": "No limit",
+      "CON000405": "Limit",
+      "CON000406": "Need ID number for reservation or not",
+      "CON000407": "Not needed",
+      "CON000408": "Need",
+      "CON000413": "Definition of children",
+      "CON000414": "Age less than or equal to",
+      "CON000415": "Height less than or equal to",
+      "CON000439": "Day",
+      "CON000440": "Night",
+      "CON000450": "Cost Description",
+      "CON000451": "Extra expense",
+      "CON000454": "Days",
+      "CON000458": "Shopping recommendation",
+      "CON000484": "Value-added services",
+      "CON000485": "Room type upgrade",
+      "CON000486": "Other fees",
+      "CON000487": "Name",
+      "CON000489": "People included",
+      "CON000491": "View more",
+      "CON000512": "Hotel",
+      "CON000533": "All day",
+      "CON000534": "Morning",
+      "CON000535": "Afternoon",
+      "CON000536": "Night",
+      "CON000539": "Or",
+      "CON000540": "And",
+      "CON000557": "Shopping description",
+      "CON000581": "Sun",
+      "CON000582": "Mon",
+      "CON000583": "Tue",
+      "CON000584": "Wed",
+      "CON000585": "Thu",
+      "CON000586": "Fri",
+      "CON000587": "Sat",
+      "CON000651": "Adult",
+      "CON000652": "Child",
+      "CON000653": "Type",
+      "CON000654": "Rooms",
+      "CON000676": "None",
+      "CON000691": "Search",
+      "CON000692": "Price range",
+      "CON000693": "Multiple",
+      "CON000694": "Unlimited",
+      "CON000696": "Sorry, no related products found.",
+      "CON000699": "Default sorting",
+      "CON000700": "Price from low to high",
+      "CON000701": "Price from high to low",
+      "CON000702": "Recent schedule",
+      "CON000703": "Check schedule",
+      "CON000704": "Earliest departure",
+      "CON000705": "Latest departure",
+      "CON000707": "More",
+      "CON000708": "Market area",
+      "CON000709": "View all",
+      "CON000710": "Join / leave point",
+      "CON000711": "Itinerary in traditional Chinese",
+      "CON000712": "Itinerary in simplified Chinese",
+      "CON000713": "Itinerary in English",
+      "CON000714": "Select period",
+      "CON000715": "Adequate",
+      "CON000716": "Tight",
+      "CON000717": "Sold out",
+      "CON000718": "Current currency",
+      "CON000720": "Export",
+      "CON000721": "Print",
+      "CON000722": "Send",
+      "CON000723": "More prices",
+      "CON000724": "Tour introduction",
+      "CON000725": "Policy",
+      "CON000726": "Notice",
+      "CON000727": "All conditions",
+      "CON000728": "Clear all",
+      "CON000729": "Hide schedule",
+      "CON000730": "Price to be determined",
+      "CON000731": "Starting days can't be larger than ending days.",
+      "CON000732": "Minimum price can't be larger than maximum price.",
+      "CON000733": "Earliest departure can't be later than latest departure.",
+      "CON000734": "Please enter product name, subtitle, group number, departure city, destination.",
+      "CON000735": "Product details",
+      "CON000736": "Tour inventory",
+      "CON000737": "Basic price",
+      "CON000738": "Send mail",
+      "CON000739": "Inbox",
+      "CON000740": "Highlights",
+      "CON000741": "Expense description",
+      "CON000742": "Itinerary",
+      "CON000743": "Shopping store",
+      "CON000744": "Item name",
+      "CON000745": "Booking limit",
+      "CON000746": "Whether available to children",
+      "CON000747": "Shopping list",
+      "CON000748": "At your own expense",
+      "CON000749": "Language version",
+      "CON000751": "Product price",
+      "CON000752": "Boarding location",
+      "CON000753": "Drop-off location",
+      "CON000754": "Departure",
+      "CON000755": "Address",
+      "CON000756": "Attachments",
+      "CON000757": "Type of sent file",
+      "CON000758": "Refer to attachments",
+      "CON000759": "Policy",
+      "CON001251": "Description",
+      "CON001325": "Tour guide arranges according itinerary",
+      "CON001326": "or",
+      "CON001327": "current language",
+      "CON001494": "Homepage hasn't been enabled, please contact the administrator.",
+      "CON001495": "Homepage maintenance, please wait..",
+      "CON001501": "Enter config page",
+      "CON001504": "Please input destination, theme or keywords.",
+      "CON001505": "Reload",
+      "CON001517": "Product information expired.",
+      "CON001770": "Flight duration",
+      "CON001771": "Flight distance",
+      "CON002014": "Simple Word",
+      "CON002015": "Simple PDF",
+      "CON002052": "Departure date",
+      "CON002054": "Airport pick-up",
+      "CON002055": "Airport drop-off",
+      "CON002056": "Airport pick-up/drop-off",
+      "CON002135": "All language itineraries",
+      "CON002192": "Total 【#Number#】 boarding locations",
+      "CON002193": "Sold out",
+      "CON002316": "Totally 【#Number#】 drop-off locations",
+      "CON002331": "Mandatory cost item",
+      "CON002332": "Mandatory cost item when the quantity is \"odd\"",
+      "CON002333": "【#priceitems#】Mandatory cost item，the quantity is [number of rooms] corresponding to the price item",
+      "CON002334": "【#priceitems#】Mandatory cost item: the quantity is referring to the number of guests which corresponds to the price item.",
+      "CON002335": "【#priceitems#】When the quantity is \"add\".the mandatory cost item is \"1\"",
+      "CON002552": "Today's location",
+      "CON002570": "Average expense",
+      "CON002574": "Economy",
+      "CON002575": "Premium Economy",
+      "CON002576": "Business",
+      "CON002577": "First",
+      "CON002675": "Please input product title and sub-title",
+      "CON002676": "Book ahead of [#advanceDay#]days",
+      "CON002677": "Invalid date in scope",
+      "CON002678": "Please select use date",
+      "CON002679": "Sub-total",
+      "CON002688": "Know Before[#html#]You Book",
+      "CON002760": "Check in city"
+    },
+    "endpoints": {
+      "productBasic": "https://online.ctrip.com/restapi/soa2/17626/getProductBasic.json",
+      "productTravelDetail": "https://online.ctrip.com/restapi/soa2/17626/getProductTravelDetail.json",
+      "productGroup": "https://online.ctrip.com/restapi/soa2/17626/getProductGroup.json",
+      "productPromote": "https://online.ctrip.com/restapi/soa2/17626/getProductPromote.json",
+      "currencies": "https://online.ctrip.com/restapi/soa2/18554/getListWebSiteCurrency.json"
+    },
+    "raw": {
+      "branchInfo": {
+        "branchCode": "B00000003",
+        "branchName": "纵横集团",
+        "branchFullName": "纵横集团 Jupiter Legend Corporation",
+        "branchLogo": "02S5n12000t1twue4730B.png",
+        "logoImageUrl": "https://dimg04.c-ctrip.com/target/02S5n12000t1twue4730B.png",
+        "defaultLanguage": 2,
+        "supportLanguage": [
+          2,
+          1,
+          3
+        ],
+        "branchIsWeb": 1,
+        "showPOILink": 0,
+        "timeZoneModel": {
+          "isSummer": 1,
+          "timeZoneCode": "TZ0009",
+          "timeZoneName": "UTC-5:00",
+          "timeZoneDesc": "波哥大、利马、基多、里奥布朗库、东部时间（美国和加拿大）、哈瓦那、海地、切图马尔、印地安那州（东部）",
+          "timeZoneDiff": -780
+        },
+        "webSiteInfo": [
+          {
+            "websiteCode": "W000010",
+            "languageType": 3,
+            "websiteIsDefault": 1
+          },
+          {
+            "websiteCode": "W000008",
+            "languageType": 1,
+            "websiteIsDefault": 0
+          },
+          {
+            "websiteCode": "W000003",
+            "languageType": 2,
+            "websiteIsDefault": 0
+          }
+        ],
+        "currencyInfo": {
+          "currencyCode": "CI00000002",
+          "currencyNum": "USD",
+          "currencyName": "美元",
+          "currencySymbol": "$"
+        },
+        "tokenCode": "WEBSITEMjAyNi0wNy0xMyZCMDAwMDAwMDMmMjAyNi0wNy0xOA==",
+        "openStockRule": 1,
+        "stockRuleList": [
+          {
+            "showRule": 1,
+            "content": 0,
+            "minStock": 6,
+            "maxStock": 0,
+            "isInfinite": 1
+          },
+          {
+            "showRule": 1,
+            "content": 1,
+            "minStock": 1,
+            "maxStock": 5,
+            "isInfinite": 0
+          },
+          {
+            "showRule": 1,
+            "content": 2,
+            "minStock": 0,
+            "maxStock": 0,
+            "isInfinite": 0
+          }
+        ]
+      },
+      "basic": {
+        "createTime": "2026-02-06 15:18:50",
+        "releaseTime": "2026-02-08 18:33:13",
+        "changeTime": "2026-06-20 10:51:36",
+        "productStatus": 200,
+        "supLanguages": "3,2,1",
+        "productMain": {
+          "mainLanguage": 2,
+          "productCode": "P00008483",
+          "productViewCode": "R0005502",
+          "groupNo": "K3",
+          "productClass": 1,
+          "carpointOff": 3,
+          "carpointOn": 3,
+          "productType": "PC00000187",
+          "productTypeName": "Vancouver",
+          "tripDay": 3,
+          "nightDay": 2,
+          "productForm": 1,
+          "productRoom": 2,
+          "productVehicle": "1",
+          "productTransfer": "1|2",
+          "productName": "[Silver] 3-Day Aurora Viewing Tour in Yellowknife, Canada",
+          "subtitleName": "",
+          "productSpecial": "<ul>\n<li>Yellowknife is easily one of the best places in the world to observe the aurora! It is also known as the \"Northern Lights Capital.\"</li>\n<li>Take a look at the beauty of the aurora and if you&rsquo;re extremely lucky you may even catch an extremely rare yellow-purple aurora!</li>\n<li>Enjoy an unforgettable 3-day and 2-night amazing tour with a 95% probability of seeing the aurora!</li>\n<li>Comfortably stay in a 4-star Yellowknife hotel and select any of our classic winter activities dog sledding. More travel hotel options! Guests can choose to upgrade to The</li>\n<li>Explorer Hotel/Chateau Nova for a fee or stay at Nova Inn Yellowknife for a discount to customize their stay.</li>\n<li>Discover and receive the aurora/Arctic Circle certificates or small badges at the local tourist centers to keep souvenirs of the most beautiful aurora moment!</li>\n</ul>\n<p><img src=\"https://dimg04.c-ctrip.com/images/02S2512000svb0v1e0C95.png\" alt=\"\" width=\"1022\" height=\"248\"></p>",
+          "salesNote": "",
+          "departureDate": "08/14/2026-04/11/2027: Daily Departure",
+          "rewardCode": "",
+          "createTime": "2026-02-06 15:18:50",
+          "datachangelasttime": "2026-06-20 10:51:36",
+          "dataVersion": 1781857816,
+          "productPriceAuto": 0,
+          "advanceDay": -1,
+          "advanceTime": "",
+          "productIsOutreach": null,
+          "upperProductCode": null,
+          "upperUpBranchCode": null,
+          "productAttribute": 1,
+          "productClassify": 1,
+          "schemeName": null,
+          "productStatus": 200,
+          "otherCurrencySupport": [
+            "CAD"
+          ],
+          "productRateInfoList": [
+            {
+              "sourceCurrency": "CAD",
+              "conversionCurrency": "USD",
+              "rate": 0.72,
+              "taxRate": 5,
+              "taxName": "GST"
+            }
+          ],
+          "isLocalResidentOptional": 0
+        },
+        "productImg": [
+          "02S2d12000r34y8qx6C35.jpg"
+        ],
+        "productPointStart": {
+          "regionCode": "A1739",
+          "regionName": "Yellowknife",
+          "resourceType": 0
+        },
+        "productPointEnd": {
+          "regionCode": "A1739",
+          "regionName": "Yellowknife",
+          "resourceType": 0
+        },
+        "productDestination": [
+          {
+            "countryCode": "",
+            "countryName": "",
+            "provinceCode": "A1739",
+            "provinceName": "Yellowknife",
+            "scenicCode": "",
+            "scenicName": "",
+            "scenicSpotCode": "",
+            "scenicSpotName": "",
+            "resourceType": 0
+          }
+        ],
+        "productCarpointUpper": [],
+        "productCarpointDown": [],
+        "productConstraint": {
+          "confirmType": 1,
+          "isAge": 0,
+          "ageCode": "",
+          "ageName": null,
+          "isNumber": 0,
+          "isPrice": 1,
+          "isCarpoint": 1,
+          "isChild": 1,
+          "childAge": "",
+          "childHeight": "",
+          "childNote": "Child tickets are valid for children 3-10, children must be accompanied by an adult. Children under three are free of charge.",
+          "isRange": 0,
+          "isAutoTeam": 0,
+          "isInfant": 0,
+          "infantAgeUpper": "",
+          "infantNote": "",
+          "isSenior": 0,
+          "seniorAgeLower": "",
+          "seniorNote": ""
+        },
+        "productRange": [],
+        "productRecommendList": [],
+        "otherSchemes": null,
+        "productImageUrl": [
+          "https://dimg04.c-ctrip.com/target/02S2d12000r34y8qx6C35.jpg"
+        ],
+        "tagList": null,
+        "teamCarpointUpper": [],
+        "teamCarpointDown": [],
+        "productImageList": [
+          {
+            "imageUrl": "02S2d12000r34y8qx6C35.jpg",
+            "imageName": "黄刀极光"
+          }
+        ]
+      },
+      "travelDetail": {
+        "productTravel": {
+          "productCode": "P00008483",
+          "dataVersion": 1781857816,
+          "productDay": null,
+          "productNight": null,
+          "travelId": null,
+          "productType": null,
+          "productTypeName": null,
+          "travelName": null,
+          "productTravelInfoList": []
+        },
+        "productNotice": {
+          "mainLanguage": 3,
+          "productCode": "P00008483",
+          "noticeInfo": [
+            {
+              "matterCode": "AT00001628",
+              "editType": 1,
+              "noticeType": 3,
+              "matterName": "【退改說明】黃刀鎮極光",
+              "vluesTip1": "<p>1. If the weather condition, war, general strikes, and other unforeseen circumstances interrupt the journey, our company reserves the right to rearrange the journey without refunding the tour fee.&nbsp;</p>\n<p>2. Cancellation &amp; Re-schedule Policy:</p>\n<p>&nbsp; &nbsp; a. &nbsp;More than 17 days prior to departure date (EST): Free cancellation with full refund. Please reconfirm the penalty for the added hotel or flight ticket.</p>\n<p>&nbsp; &nbsp; b. &nbsp;Less than 16 days but 8 days prior to departure date (EST): 50% of total purchase amount can be refunded.</p>\n<p>&nbsp; &nbsp; c. &nbsp;Less than 7 days prior to departure date (EST) or on departure day (EST): 100% penalty. No refund.&nbsp;</p>\n<p>&nbsp; &nbsp; d. &nbsp;Additional hotel bookings before or after the tour as well as other services are subject to hotel cancellation policy to determine if a refund is possible.</p>\n<p>&nbsp; &nbsp; e. &nbsp;If the guest quit during the trip or fails to participate in any itinerary due to personal reasons (no travel documents, late arrival, illness, accident, etc.), the paid tour fare will not be refunded, and no other services will be compensated.</p>",
+              "vluesTip2": "【退改說明】黃刀鎮極光"
+            },
+            {
+              "matterCode": "AT00001624",
+              "editType": 1,
+              "noticeType": 1,
+              "matterName": "【預定須知】極光產品",
+              "vluesTip1": "<p>Know Before You Book</p>\n<p>1. Customer under 18 years old MUST be accompanied by at least one adult. In consideration of the guest safety, pregnant women are only allowed to join the tour if pregnant for 24 weeks or less by the end of the trip.</p>\n<p>2. Please be sure to provide accurate and complete information upon booking. This includes name, gender, valid contact information (preferably a mobile phone), accurate flight information, tour location, etc., This helps to avoid any errors upon the reservation because errors affect travel. Any losses due to inaccurate or invalid information will be at your own cost and the company will not be held responsible.&nbsp;</p>\n<p>3. Some hotels have different room types, such as a King/Queen size beds or two double size twin beds. The maximum number of people who can legally stay in a room is 2 to 4 people. In addition, each hotel has a different method of charging the deposit, which requires the cooperation of the guests according to regulations. Please be noticed that most of the deposit collection and refund is handled by credit card.&nbsp;JUPITER LEGEND Corporation and Ctour Holiday guarantee the number of rooms for guests but does not guarantee the specific room type and location. Hotel check-in time is usually after 15:00.</p>\n<p>4. This tour does not accept any City Pass or your own tickets for any of the attractions. Tour attraction admission charges and meal expenses are subject to change at any time without notification. Any purchased ticket cannot be refunded for lower prices.</p>\n<p>5. JUPITER LEGEND Corporation and Ctour Holiday have the right to make appropriate adjustments to the itinerary under the conditions of facilitating the operation for the tour group. This, however, will not reduce the items that should be included in the itinerary.</p>\n<p>6. During the actual trip, the tour guide or driver has the right to appropriately adjust the tour sequence, stay time or assembly time of scenic spots according to the weather, traffic, and other conditions to ensure the smooth progress of the trip.</p>\n<p>7. If any scenic spots are temporarily closed, including on certain holidays, the tour guide will make appropriate adjustments based on the actual situation, which may include viewing from the outside or substituting with another attraction to maintain the richness of the itinerary. Please note that the opening hours and capacity limits of certain attractions and national parks may change from time to time due to health concerns. Should such changes affect the itinerary, they will be considered force majeure. We appreciate your understanding.</p>\n<p>8. Children under the age of 8 require a booster seat in order to participate in the tour group. JUPITER LEGEND Corporation and Ctour Holiday provide the rental service for $10.00/person/day. Please make a request when booking the itinerary so that we may have the booster seat ready in advance. Please understand that the violations and fines are borne by the guests themselves. There is no need for a booster seat for bus travel on the day of travel, and the fee can be refunded to the guest.</p>\n<p>9. Normal health conditions are required to participate and enjoy our full itineraries. Contact us for specific policies or information regarding passengers with disabilities and the handicapped who do need to provide advance notification to make a reservation. JUPITER LEGEND Corporation and Ctour Holiday do not guarantee a wheelchair lift-equipped bus and/or seating availability to disabled passengers without prior notification and approval.</p>\n<p>10. The Northern Lights are a natural phenomenon whose appearance and visibility are dictated by weather and other natural conditions. Thus, there is no guarantee that you will see them. If there are discrepancies between any time stated in the itinerary and the time given by your guide, please meet at the time your guide has informed you of. The sequence of activities in this tour itinerary is subject to change based on the tour departure date, weather conditions, etc., but the content of the tour will not change.&nbsp;</p>\n<p>11. The price in the system is US dollars which includes tax. If you need to pay in CAD dollars, all CAD dollar prices do not include 5% GST.&nbsp;</p>\n<p>12. We may alter these terms and conditions from time to time and post the new version on our agents&rsquo; website. It is your responsibility to check the <a title=\"[Terms &amp; Conditions]\" href=\"http://uvbookings.info/upload/terms/e.pdf\" target=\"_blank\" rel=\"noopener\">[Terms &amp; Conditions]</a> on their website regularly and prior to making a reservation. Unless specifically stated otherwise herein or required by law, JUPITER LEGEND Corporation shall not be liable for any consequential, compensatory, indirect, incidental or punitive damages arising out of or in connection with the performance of its obligations under these terms and conditions.</p>\n<p>&nbsp;</p>\n<p><strong>Know Before You Go</strong></p>\n<p>1. The maximal waiting time for any late passengers is 10 minutes beyond the meeting time announced by the Tour Guide. While JUPITER LEGEND Corporation makes every effort to provide on-time service, it does not guarantee to arrive at or depart from any point.as a specific time, which may be affected by any number of factors including weather, traffic, strikes, government shutdowns, war or terrorist attacks, or mechanical prob- lems. JUPITER LEGEND Corporation is not liable for any inconvenience or expense caused as a result of such a delay, not liable for the expense of connecting air or train or bus service missed as a result of a delay and not liable for any other travel expense caused as a result of a delay.</p>\n<p>2. JUPITER LEGEND Corporation and Ctour Holiday reserve the right, when operating conditions require, transferring passengers from one vehicle to another en route.</p>\n<p>3. The following documents are recommended to make your check-in process smooth: A valid photo ID is required to board the bus; We recommend you bring a copy of the email confirmation to board the bus.</p>\n<p>4. This product is a group activity. If you choose to leave the group, please inform in advance, and obtain the consent of the tour guide. You need to sign the departure agreement form and the unfinished part will be regarded as your own abandonment. The group fee will not be refunded.</p>\n<p>5. Gift items in the itinerary that cannot be given away due to force majeure factors such as traffic and weather conditions or personal reasons may be subject to change. Please understand that the fees will not be refunded.</p>\n<p>6. Smoking is prohibited aboard the bus in accordance with Federal law and prohibited in most hotel rooms. Customers are responsible for any penalty charged by the hotel in a non-smoking room at least $250 per night.</p>\n<p>7. Pets and animals are not allowed on the vehicle.</p>\n<p>8. Only for products with airport pick-up service: only one pick-up service within the free pick-up time range is provided for each order. If it is impossible to arrange due to weather and flight delay, etc., please pay for your own transportation costs.</p>\n<p>9. Emergency contact: (Toll Free) +1(866)585-8747.</p>",
+              "vluesTip2": "【預定須知】極光產品"
+            },
+            {
+              "matterCode": "CM00002458",
+              "editType": 0,
+              "noticeType": 0,
+              "matterName": "P00008483",
+              "vluesTip1": "<p>1. Hotels or similar listed in the itinerary.</p>\n<p>2. Local guide/driver service.</p>\n<p>3. Vehicle using during the itinerary.</p>\n<p>4. Two aurora viewings in Yellowknife.</p>",
+              "vluesTip2": "<p>1. 5%GST of CAD price.</p>\n<p>2. Transportation to/from the boarding/drop-off location.</p>\n<p>3. Service fee: airport pick-up and drop-off in Yellowknife: USD$4/CAD$5 per person per day, Yellowknife tour USD$8/CAD$10 per person per day.&nbsp;</p>\n<p>4. Any food and beverages.&nbsp;</p>\n<p>5. Admission fees mentioned in the itinerary.&nbsp;</p>\n<p>6. Personal fees: such as laundry, telephone, diet, shopping, pay television etc.</p>\n<p>7. Additional fees caused by irresistible reasons due to traffic, war, coup, strikes, weather, flight cancellation or date changes.&nbsp;</p>\n<p>8. Any expenses are not listed in Fee Included.</p>"
+            }
+          ],
+          "damagesInfo": [],
+          "advanceDay": -1,
+          "advanceTime": ""
+        },
+        "productCost": {
+          "list": null,
+          "pager": null,
+          "productCostIsDay": 0
+        },
+        "productShop": {
+          "list": null,
+          "pager": null,
+          "productShopIsDay": 0
+        }
+      },
+      "groups": [],
+      "groupsResponse": {
+        "responseStatus": {
+          "timestamp": "2026-07-15 12:50:27",
+          "ack": "Success",
+          "errors": [],
+          "build": null,
+          "version": null,
+          "extension": [
+            {
+              "id": "CLOGGING_TRACE_ID",
+              "version": null,
+              "contentType": null,
+              "value": "8019333835511095713"
+            },
+            {
+              "id": "RootMessageId",
+              "version": null,
+              "contentType": null,
+              "value": "100025527-0a2b4167-495580-3774395"
+            }
+          ]
+        },
+        "responseResult": {
+          "code": 400,
+          "msg": "scheme information does not exist！",
+          "msgCode": ""
+        },
+        "responseData": null
+      },
+      "addons": []
+    }
+  }
+}

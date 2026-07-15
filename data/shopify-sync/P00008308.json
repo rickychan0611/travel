@@ -1,0 +1,1278 @@
+{
+  "productCode": "P00008308",
+  "handle": "p00008308-juicy-premium-small-group-tour-with-no-more-than-13-people-calgary-round-trip-lake-louise-columbia-icefield-sa",
+  "shopifyProductId": "gid://shopify/Product/8881352933428",
+  "shopifyAddonProductId": "gid://shopify/Product/8881352966196",
+  "status": "ACTIVE",
+  "locales": [
+    "en",
+    "zh-CN",
+    "zh-TW"
+  ],
+  "syncedAt": "2026-07-15T04:06:20.003Z",
+  "variants": [
+    {
+      "date": "2026-07-19",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-07-19",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00008308-2026-07-19-3-SINGLE-ROOM",
+      "price": "1258.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 1,
+      "remainingStock": 1,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034997731380"
+    },
+    {
+      "date": "2026-07-19",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-07-19",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00008308-2026-07-19-4-DOUBLE-ROOM",
+      "price": "768.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 1,
+      "remainingStock": 1,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034997764148"
+    },
+    {
+      "date": "2026-07-19",
+      "priceType": 5,
+      "label": "Triple room",
+      "optionValues": {
+        "Departure Date": "2026-07-19",
+        "Rate Type": "Triple room"
+      },
+      "sku": "P00008308-2026-07-19-5-TRIPLE-ROOM",
+      "price": "512.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 1,
+      "remainingStock": 1,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034997796916"
+    },
+    {
+      "date": "2026-07-19",
+      "priceType": 6,
+      "label": "Quad room",
+      "optionValues": {
+        "Departure Date": "2026-07-19",
+        "Rate Type": "Quad room"
+      },
+      "sku": "P00008308-2026-07-19-6-QUAD-ROOM",
+      "price": "384.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 1,
+      "remainingStock": 1,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034997829684"
+    },
+    {
+      "date": "2026-08-09",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-08-09",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00008308-2026-08-09-3-SINGLE-ROOM",
+      "price": "1258.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034997862452"
+    },
+    {
+      "date": "2026-08-09",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-08-09",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00008308-2026-08-09-4-DOUBLE-ROOM",
+      "price": "768.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034997895220"
+    },
+    {
+      "date": "2026-08-09",
+      "priceType": 5,
+      "label": "Triple room",
+      "optionValues": {
+        "Departure Date": "2026-08-09",
+        "Rate Type": "Triple room"
+      },
+      "sku": "P00008308-2026-08-09-5-TRIPLE-ROOM",
+      "price": "512.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034997927988"
+    },
+    {
+      "date": "2026-08-09",
+      "priceType": 6,
+      "label": "Quad room",
+      "optionValues": {
+        "Departure Date": "2026-08-09",
+        "Rate Type": "Quad room"
+      },
+      "sku": "P00008308-2026-08-09-6-QUAD-ROOM",
+      "price": "384.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034997960756"
+    },
+    {
+      "date": "2026-08-16",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-08-16",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00008308-2026-08-16-3-SINGLE-ROOM",
+      "price": "1258.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034997993524"
+    },
+    {
+      "date": "2026-08-16",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-08-16",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00008308-2026-08-16-4-DOUBLE-ROOM",
+      "price": "768.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998026292"
+    },
+    {
+      "date": "2026-08-16",
+      "priceType": 5,
+      "label": "Triple room",
+      "optionValues": {
+        "Departure Date": "2026-08-16",
+        "Rate Type": "Triple room"
+      },
+      "sku": "P00008308-2026-08-16-5-TRIPLE-ROOM",
+      "price": "512.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998059060"
+    },
+    {
+      "date": "2026-08-16",
+      "priceType": 6,
+      "label": "Quad room",
+      "optionValues": {
+        "Departure Date": "2026-08-16",
+        "Rate Type": "Quad room"
+      },
+      "sku": "P00008308-2026-08-16-6-QUAD-ROOM",
+      "price": "384.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998091828"
+    },
+    {
+      "date": "2026-08-23",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-08-23",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00008308-2026-08-23-3-SINGLE-ROOM",
+      "price": "1258.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998124596"
+    },
+    {
+      "date": "2026-08-23",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-08-23",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00008308-2026-08-23-4-DOUBLE-ROOM",
+      "price": "768.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998157364"
+    },
+    {
+      "date": "2026-08-23",
+      "priceType": 5,
+      "label": "Triple room",
+      "optionValues": {
+        "Departure Date": "2026-08-23",
+        "Rate Type": "Triple room"
+      },
+      "sku": "P00008308-2026-08-23-5-TRIPLE-ROOM",
+      "price": "512.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998190132"
+    },
+    {
+      "date": "2026-08-23",
+      "priceType": 6,
+      "label": "Quad room",
+      "optionValues": {
+        "Departure Date": "2026-08-23",
+        "Rate Type": "Quad room"
+      },
+      "sku": "P00008308-2026-08-23-6-QUAD-ROOM",
+      "price": "384.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998222900"
+    },
+    {
+      "date": "2026-08-30",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-08-30",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00008308-2026-08-30-3-SINGLE-ROOM",
+      "price": "1258.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998255668"
+    },
+    {
+      "date": "2026-08-30",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-08-30",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00008308-2026-08-30-4-DOUBLE-ROOM",
+      "price": "768.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998288436"
+    },
+    {
+      "date": "2026-08-30",
+      "priceType": 5,
+      "label": "Triple room",
+      "optionValues": {
+        "Departure Date": "2026-08-30",
+        "Rate Type": "Triple room"
+      },
+      "sku": "P00008308-2026-08-30-5-TRIPLE-ROOM",
+      "price": "512.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998321204"
+    },
+    {
+      "date": "2026-08-30",
+      "priceType": 6,
+      "label": "Quad room",
+      "optionValues": {
+        "Departure Date": "2026-08-30",
+        "Rate Type": "Quad room"
+      },
+      "sku": "P00008308-2026-08-30-6-QUAD-ROOM",
+      "price": "384.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998353972"
+    },
+    {
+      "date": "2026-09-06",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-09-06",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00008308-2026-09-06-3-SINGLE-ROOM",
+      "price": "1258.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998386740"
+    },
+    {
+      "date": "2026-09-06",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-09-06",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00008308-2026-09-06-4-DOUBLE-ROOM",
+      "price": "768.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998419508"
+    },
+    {
+      "date": "2026-09-06",
+      "priceType": 5,
+      "label": "Triple room",
+      "optionValues": {
+        "Departure Date": "2026-09-06",
+        "Rate Type": "Triple room"
+      },
+      "sku": "P00008308-2026-09-06-5-TRIPLE-ROOM",
+      "price": "512.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998452276"
+    },
+    {
+      "date": "2026-09-06",
+      "priceType": 6,
+      "label": "Quad room",
+      "optionValues": {
+        "Departure Date": "2026-09-06",
+        "Rate Type": "Quad room"
+      },
+      "sku": "P00008308-2026-09-06-6-QUAD-ROOM",
+      "price": "384.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998485044"
+    },
+    {
+      "date": "2026-09-13",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-09-13",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00008308-2026-09-13-3-SINGLE-ROOM",
+      "price": "1258.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 2,
+      "remainingStock": 2,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998517812"
+    },
+    {
+      "date": "2026-09-13",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-09-13",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00008308-2026-09-13-4-DOUBLE-ROOM",
+      "price": "768.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 2,
+      "remainingStock": 2,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998550580"
+    },
+    {
+      "date": "2026-09-13",
+      "priceType": 5,
+      "label": "Triple room",
+      "optionValues": {
+        "Departure Date": "2026-09-13",
+        "Rate Type": "Triple room"
+      },
+      "sku": "P00008308-2026-09-13-5-TRIPLE-ROOM",
+      "price": "512.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 2,
+      "remainingStock": 2,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998583348"
+    },
+    {
+      "date": "2026-09-13",
+      "priceType": 6,
+      "label": "Quad room",
+      "optionValues": {
+        "Departure Date": "2026-09-13",
+        "Rate Type": "Quad room"
+      },
+      "sku": "P00008308-2026-09-13-6-QUAD-ROOM",
+      "price": "384.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 2,
+      "remainingStock": 2,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998616116"
+    },
+    {
+      "date": "2026-09-27",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-09-27",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00008308-2026-09-27-3-SINGLE-ROOM",
+      "price": "1258.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998648884"
+    },
+    {
+      "date": "2026-09-27",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-09-27",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00008308-2026-09-27-4-DOUBLE-ROOM",
+      "price": "768.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998681652"
+    },
+    {
+      "date": "2026-09-27",
+      "priceType": 5,
+      "label": "Triple room",
+      "optionValues": {
+        "Departure Date": "2026-09-27",
+        "Rate Type": "Triple room"
+      },
+      "sku": "P00008308-2026-09-27-5-TRIPLE-ROOM",
+      "price": "512.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998714420"
+    },
+    {
+      "date": "2026-09-27",
+      "priceType": 6,
+      "label": "Quad room",
+      "optionValues": {
+        "Departure Date": "2026-09-27",
+        "Rate Type": "Quad room"
+      },
+      "sku": "P00008308-2026-09-27-6-QUAD-ROOM",
+      "price": "384.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998747188"
+    },
+    {
+      "date": "2026-10-04",
+      "priceType": 3,
+      "label": "Single room",
+      "optionValues": {
+        "Departure Date": "2026-10-04",
+        "Rate Type": "Single room"
+      },
+      "sku": "P00008308-2026-10-04-3-SINGLE-ROOM",
+      "price": "1258.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 11,
+      "remainingStock": 11,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998779956"
+    },
+    {
+      "date": "2026-10-04",
+      "priceType": 4,
+      "label": "Double room",
+      "optionValues": {
+        "Departure Date": "2026-10-04",
+        "Rate Type": "Double room"
+      },
+      "sku": "P00008308-2026-10-04-4-DOUBLE-ROOM",
+      "price": "768.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 11,
+      "remainingStock": 11,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998812724"
+    },
+    {
+      "date": "2026-10-04",
+      "priceType": 5,
+      "label": "Triple room",
+      "optionValues": {
+        "Departure Date": "2026-10-04",
+        "Rate Type": "Triple room"
+      },
+      "sku": "P00008308-2026-10-04-5-TRIPLE-ROOM",
+      "price": "512.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 11,
+      "remainingStock": 11,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998845492"
+    },
+    {
+      "date": "2026-10-04",
+      "priceType": 6,
+      "label": "Quad room",
+      "optionValues": {
+        "Departure Date": "2026-10-04",
+        "Rate Type": "Quad room"
+      },
+      "sku": "P00008308-2026-10-04-6-QUAD-ROOM",
+      "price": "384.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 11,
+      "remainingStock": 11,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998878260"
+    }
+  ],
+  "addons": [
+    {
+      "code": "S00008720",
+      "name": "[Vancouver/Calgary/Toronto] 3-Day Transportation Surcharge",
+      "description": "",
+      "amount": 15,
+      "price": "15.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00008308-ADDON-S00008720",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998911028"
+    },
+    {
+      "code": "S00008549",
+      "name": "JP-BGC3 mandatory Breakfast fee",
+      "description": "",
+      "amount": 54,
+      "price": "54.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00008308-ADDON-S00008549",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998943796"
+    },
+    {
+      "code": "S00008522",
+      "name": "JP-BGV3/JP-BGC3 Optional Meal Plan (Day 3)",
+      "description": "Includes lunch on the third day of the trip.",
+      "amount": 33,
+      "price": "33.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00008308-ADDON-S00008522",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034998976564"
+    },
+    {
+      "code": "S00008519",
+      "name": "JP-BGV3/JP-BGC3 Optional Meal Plan (Day 1)",
+      "description": "Includes lunch on the first day of the trip.",
+      "amount": 29,
+      "price": "29.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00008308-ADDON-S00008519",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034999009332"
+    },
+    {
+      "code": "S00007338",
+      "name": "[Vancouver/Calgary/Toronto] 3-day Service Fee",
+      "description": "USD$15 or CAD$20 per person per day",
+      "amount": 45,
+      "price": "45.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00008308-ADDON-S00007338",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034999042100"
+    },
+    {
+      "code": "S00008416",
+      "name": "JP-BGC series Mandatory Fee",
+      "description": "",
+      "amount": 119,
+      "price": "119.00",
+      "currency": "USD",
+      "peopleTypeLabel": "All",
+      "chargeable": true,
+      "sku": "P00008308-ADDON-S00008416",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034999074868"
+    },
+    {
+      "code": "S00005718",
+      "name": "A. [Adult] Maligne Lake Cruise",
+      "description": "Maligne Lake is short of resources. It is highly recommended that you pay in advance to ensure the cruise resources.",
+      "amount": 82,
+      "price": "82.00",
+      "currency": "USD",
+      "peopleTypeLabel": "Adult",
+      "chargeable": true,
+      "sku": "P00008308-ADDON-S00005718",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034999107636"
+    },
+    {
+      "code": "S00005719",
+      "name": "A. [Child] Maligne Lake Cruise",
+      "description": "Maligne Lake is short of resources. It is highly recommended that you pay in advance to ensure the cruise resources.",
+      "amount": 52,
+      "price": "52.00",
+      "currency": "USD",
+      "peopleTypeLabel": "Child",
+      "chargeable": true,
+      "sku": "P00008308-ADDON-S00005719",
+      "shopifyVariantId": "gid://shopify/ProductVariant/48034999140404"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://dimg04.c-ctrip.com/target/02S4712000r2xazepEE14.jpg",
+      "shopifyMediaId": "gid://shopify/MediaImage/28796339060788",
+      "shopifyFileId": null,
+      "position": 1,
+      "role": "featured",
+      "alt": "Juicy Premium || Small Group Tour with No More Than 13 People | Calgary Round Trip + Lake Louise + Columbia Icefield + Sanwaputa Falls 3-Day Tour (One Night Stay in The Crossing Resort Canada) 1"
+    }
+  ],
+  "metaobjects": {
+    "tour_content": [
+      {
+        "id": "gid://shopify/Metaobject/352169951284",
+        "handle": "p00008308-en-content"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171524148",
+        "handle": "p00008308-zh-cn-content"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172769332",
+        "handle": "p00008308-zh-tw-content"
+      }
+    ],
+    "tour_highlight": [
+      {
+        "id": "gid://shopify/Metaobject/352169984052",
+        "handle": "p00008308-en-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170016820",
+        "handle": "p00008308-en-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170049588",
+        "handle": "p00008308-en-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170082356",
+        "handle": "p00008308-en-highlight-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170115124",
+        "handle": "p00008308-en-highlight-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170147892",
+        "handle": "p00008308-en-highlight-6"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170180660",
+        "handle": "p00008308-en-highlight-7"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170213428",
+        "handle": "p00008308-en-highlight-8"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170246196",
+        "handle": "p00008308-en-highlight-9"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170278964",
+        "handle": "p00008308-en-highlight-10"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170311732",
+        "handle": "p00008308-en-highlight-11"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170344500",
+        "handle": "p00008308-en-highlight-12"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170377268",
+        "handle": "p00008308-en-highlight-13"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170410036",
+        "handle": "p00008308-en-highlight-14"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170442804",
+        "handle": "p00008308-en-highlight-15"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170475572",
+        "handle": "p00008308-en-highlight-16"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170508340",
+        "handle": "p00008308-en-highlight-17"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170541108",
+        "handle": "p00008308-en-highlight-18"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170573876",
+        "handle": "p00008308-en-highlight-19"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170606644",
+        "handle": "p00008308-en-highlight-20"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170639412",
+        "handle": "p00008308-en-highlight-21"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170672180",
+        "handle": "p00008308-en-highlight-22"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171556916",
+        "handle": "p00008308-zh-cn-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171589684",
+        "handle": "p00008308-zh-cn-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171622452",
+        "handle": "p00008308-zh-cn-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171655220",
+        "handle": "p00008308-zh-cn-highlight-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171687988",
+        "handle": "p00008308-zh-cn-highlight-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171720756",
+        "handle": "p00008308-zh-cn-highlight-6"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171753524",
+        "handle": "p00008308-zh-cn-highlight-7"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171786292",
+        "handle": "p00008308-zh-cn-highlight-8"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171819060",
+        "handle": "p00008308-zh-cn-highlight-9"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171851828",
+        "handle": "p00008308-zh-cn-highlight-10"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171884596",
+        "handle": "p00008308-zh-cn-highlight-11"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171917364",
+        "handle": "p00008308-zh-cn-highlight-12"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172802100",
+        "handle": "p00008308-zh-tw-highlight-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172834868",
+        "handle": "p00008308-zh-tw-highlight-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172867636",
+        "handle": "p00008308-zh-tw-highlight-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172900404",
+        "handle": "p00008308-zh-tw-highlight-4"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172933172",
+        "handle": "p00008308-zh-tw-highlight-5"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172965940",
+        "handle": "p00008308-zh-tw-highlight-6"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172998708",
+        "handle": "p00008308-zh-tw-highlight-7"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173031476",
+        "handle": "p00008308-zh-tw-highlight-8"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173064244",
+        "handle": "p00008308-zh-tw-highlight-9"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173097012",
+        "handle": "p00008308-zh-tw-highlight-10"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173129780",
+        "handle": "p00008308-zh-tw-highlight-11"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173162548",
+        "handle": "p00008308-zh-tw-highlight-12"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173195316",
+        "handle": "p00008308-zh-tw-highlight-13"
+      }
+    ],
+    "tour_itinerary_day": [
+      {
+        "id": "gid://shopify/Metaobject/352170704948",
+        "handle": "p00008308-en-day-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170737716",
+        "handle": "p00008308-en-day-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170770484",
+        "handle": "p00008308-en-day-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171950132",
+        "handle": "p00008308-zh-cn-day-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171982900",
+        "handle": "p00008308-zh-cn-day-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172015668",
+        "handle": "p00008308-zh-cn-day-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173228084",
+        "handle": "p00008308-zh-tw-day-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173260852",
+        "handle": "p00008308-zh-tw-day-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173293620",
+        "handle": "p00008308-zh-tw-day-3"
+      }
+    ],
+    "tour_cost_section": [
+      {
+        "id": "gid://shopify/Metaobject/352170803252",
+        "handle": "p00008308-en-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170836020",
+        "handle": "p00008308-en-cost-excludes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172048436",
+        "handle": "p00008308-zh-cn-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172081204",
+        "handle": "p00008308-zh-cn-cost-excludes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173326388",
+        "handle": "p00008308-zh-tw-cost-includes"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173359156",
+        "handle": "p00008308-zh-tw-cost-excludes"
+      }
+    ],
+    "tour_policy_notice": [
+      {
+        "id": "gid://shopify/Metaobject/352170868788",
+        "handle": "p00008308-en-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170901556",
+        "handle": "p00008308-en-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170934324",
+        "handle": "p00008308-en-notice-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172113972",
+        "handle": "p00008308-zh-cn-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172146740",
+        "handle": "p00008308-zh-cn-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172179508",
+        "handle": "p00008308-zh-cn-notice-3"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173391924",
+        "handle": "p00008308-zh-tw-notice-3-1"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173424692",
+        "handle": "p00008308-zh-tw-notice-1-2"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173457460",
+        "handle": "p00008308-zh-tw-notice-3"
+      }
+    ],
+    "tour_pickup_dropoff": [
+      {
+        "id": "gid://shopify/Metaobject/352170967092",
+        "handle": "p00008308-en-pickup-anm00001843"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352170999860",
+        "handle": "p00008308-en-pickup-anm00001844"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171032628",
+        "handle": "p00008308-en-pickup-anm00001690"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171065396",
+        "handle": "p00008308-en-pickup-anm00001846"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171098164",
+        "handle": "p00008308-en-dropoff-anm00001843"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171130932",
+        "handle": "p00008308-en-dropoff-anm00001844"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171163700",
+        "handle": "p00008308-en-dropoff-anm00001845"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171196468",
+        "handle": "p00008308-en-dropoff-anm00001846"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171229236",
+        "handle": "p00008308-en-dropoff-anm00001079"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172212276",
+        "handle": "p00008308-zh-cn-pickup-anm00001843"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172245044",
+        "handle": "p00008308-zh-cn-pickup-anm00001844"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172277812",
+        "handle": "p00008308-zh-cn-pickup-anm00001690"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172310580",
+        "handle": "p00008308-zh-cn-pickup-anm00001846"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172343348",
+        "handle": "p00008308-zh-cn-dropoff-anm00001843"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172376116",
+        "handle": "p00008308-zh-cn-dropoff-anm00001844"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172408884",
+        "handle": "p00008308-zh-cn-dropoff-anm00001845"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172441652",
+        "handle": "p00008308-zh-cn-dropoff-anm00001846"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172474420",
+        "handle": "p00008308-zh-cn-dropoff-anm00001079"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173490228",
+        "handle": "p00008308-zh-tw-pickup-anm00001843"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173522996",
+        "handle": "p00008308-zh-tw-pickup-anm00001844"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173555764",
+        "handle": "p00008308-zh-tw-pickup-anm00001690"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173588532",
+        "handle": "p00008308-zh-tw-pickup-anm00001846"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173621300",
+        "handle": "p00008308-zh-tw-dropoff-anm00001843"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173654068",
+        "handle": "p00008308-zh-tw-dropoff-anm00001844"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173686836",
+        "handle": "p00008308-zh-tw-dropoff-anm00001845"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173719604",
+        "handle": "p00008308-zh-tw-dropoff-anm00001846"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173752372",
+        "handle": "p00008308-zh-tw-dropoff-anm00001079"
+      }
+    ],
+    "tour_addon": [
+      {
+        "id": "gid://shopify/Metaobject/352171262004",
+        "handle": "p00008308-en-addon-s00008720"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171294772",
+        "handle": "p00008308-en-addon-s00008549"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171327540",
+        "handle": "p00008308-en-addon-s00008522"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171360308",
+        "handle": "p00008308-en-addon-s00008519"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171393076",
+        "handle": "p00008308-en-addon-s00007338"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171425844",
+        "handle": "p00008308-en-addon-s00008416"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171458612",
+        "handle": "p00008308-en-addon-s00005718"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352171491380",
+        "handle": "p00008308-en-addon-s00005719"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172507188",
+        "handle": "p00008308-zh-cn-addon-s00008720"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172539956",
+        "handle": "p00008308-zh-cn-addon-s00008549"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172572724",
+        "handle": "p00008308-zh-cn-addon-s00008522"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172605492",
+        "handle": "p00008308-zh-cn-addon-s00008519"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172638260",
+        "handle": "p00008308-zh-cn-addon-s00007338"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172671028",
+        "handle": "p00008308-zh-cn-addon-s00008416"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172703796",
+        "handle": "p00008308-zh-cn-addon-s00005718"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352172736564",
+        "handle": "p00008308-zh-cn-addon-s00005719"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173785140",
+        "handle": "p00008308-zh-tw-addon-s00008720"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173817908",
+        "handle": "p00008308-zh-tw-addon-s00008549"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173850676",
+        "handle": "p00008308-zh-tw-addon-s00008522"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173883444",
+        "handle": "p00008308-zh-tw-addon-s00008519"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173916212",
+        "handle": "p00008308-zh-tw-addon-s00007338"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173948980",
+        "handle": "p00008308-zh-tw-addon-s00008416"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352173981748",
+        "handle": "p00008308-zh-tw-addon-s00005718"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352174014516",
+        "handle": "p00008308-zh-tw-addon-s00005719"
+      }
+    ],
+    "tour_departure": [
+      {
+        "id": "gid://shopify/Metaobject/352174047284",
+        "handle": "p00008308-departure-2026-07-19"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352174080052",
+        "handle": "p00008308-departure-2026-08-09"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352174112820",
+        "handle": "p00008308-departure-2026-08-16"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352174145588",
+        "handle": "p00008308-departure-2026-08-23"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352174178356",
+        "handle": "p00008308-departure-2026-08-30"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352174211124",
+        "handle": "p00008308-departure-2026-09-06"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352174243892",
+        "handle": "p00008308-departure-2026-09-13"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352174276660",
+        "handle": "p00008308-departure-2026-09-27"
+      },
+      {
+        "id": "gid://shopify/Metaobject/352174309428",
+        "handle": "p00008308-departure-2026-10-04"
+      }
+    ]
+  },
+  "publication": {
+    "id": "gid://shopify/Publication/197740789812",
+    "name": "Travel Website Development"
+  },
+  "warnings": [],
+  "metaobjectDefinitions": {
+    "tour_content": "gid://shopify/MetaobjectDefinition/18676711476",
+    "tour_highlight": "gid://shopify/MetaobjectDefinition/18675433524",
+    "tour_itinerary_day": "gid://shopify/MetaobjectDefinition/18675466292",
+    "tour_departure": "gid://shopify/MetaobjectDefinition/18675499060",
+    "tour_cost_section": "gid://shopify/MetaobjectDefinition/18675531828",
+    "tour_policy_notice": "gid://shopify/MetaobjectDefinition/18675564596",
+    "tour_pickup_dropoff": "gid://shopify/MetaobjectDefinition/18675597364",
+    "tour_addon": "gid://shopify/MetaobjectDefinition/18675630132"
+  },
+  "productReferenceMetafieldDefinitions": {
+    "content": "gid://shopify/MetafieldDefinition/217881935924",
+    "highlight": "gid://shopify/MetafieldDefinition/217872597044",
+    "itinerary_day": "gid://shopify/MetafieldDefinition/217872629812",
+    "departure": "gid://shopify/MetafieldDefinition/217872662580",
+    "cost_section": "gid://shopify/MetafieldDefinition/217872695348",
+    "policy_notice": "gid://shopify/MetafieldDefinition/217872728116",
+    "pickup_dropoff": "gid://shopify/MetafieldDefinition/217872760884",
+    "addon": "gid://shopify/MetafieldDefinition/217872793652"
+  }
+}

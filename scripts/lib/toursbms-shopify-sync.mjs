@@ -150,6 +150,80 @@ export function moneyValue(value) {
   return number.toFixed(2)
 }
 
+function tagSlug(input) {
+  return String(input || '')
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+}
+
+function includesAny(text, values) {
+  return values.some((value) => text.includes(value.toLowerCase()))
+}
+
+function addTag(tags, value) {
+  if (value) tags.add(value)
+}
+
+export function buildDiscoveryTags(json) {
+  const tags = new Set(['tour'])
+  const product = json?.product || {}
+  const rawText = [
+    product.title,
+    product.subtitle,
+    product.categoryName,
+    product.start?.regionName,
+    product.end?.regionName,
+    ...(product.destinations || []).map((destination) => destination.spotName),
+  ].filter(Boolean).join(' ')
+  const text = rawText.toLowerCase()
+  const days = Number(product.duration?.days ?? product.raw?.tripDay ?? 0)
+  const category = tagSlug(product.categoryName)
+  const start = tagSlug(product.start?.regionName)
+  const end = tagSlug(product.end?.regionName)
+
+  addTag(tags, category ? `category-${category}` : '')
+  addTag(tags, start ? `dest-${start}` : '')
+  addTag(tags, end && end !== start ? `dest-${end}` : '')
+  if (days > 0) addTag(tags, `duration-${days}-day${days === 1 ? '' : 's'}`)
+  if (days > 0 && days <= 2) addTag(tags, 'duration-short')
+
+  if (includesAny(text, ['cancun', 'cancún', '坎昆'])) addTag(tags, 'dest-cancun')
+  if (includesAny(text, ['new york', '纽约', '紐約'])) addTag(tags, 'dest-new-york')
+  if (includesAny(text, ['yellowstone', '黄石', '黃石'])) addTag(tags, 'dest-yellowstone')
+  if (includesAny(text, ['calgary', 'banff', 'rockies', '卡尔加里', '卡爾加里', '班芙', '落基'])) addTag(tags, 'dest-calgary')
+  if (includesAny(text, ['alaska', 'anchorage', 'fairbanks', '阿拉斯加', '安克雷奇', '费尔班克斯'])) addTag(tags, 'dest-alaska')
+  if (includesAny(text, ['china', 'beijing', 'shanghai', 'xian', '中国', '中國', '北京', '上海', '西安'])) addTag(tags, 'dest-china')
+  if (includesAny(text, ['peru', 'machu picchu', 'cusco', '秘鲁', '秘魯', '马丘比丘', '馬丘比丘'])) addTag(tags, 'dest-peru')
+  if (includesAny(text, ['salt lake', '盐湖城', '鹽湖城'])) addTag(tags, 'dest-salt-lake-city')
+
+  if (includesAny(text, ['mexico', 'cancun', 'peru', 'chile', 'argentina', 'costa rica', 'colombia', '秘鲁', '智利'])) {
+    addTag(tags, 'region-latin-america')
+  }
+  if (includesAny(text, ['europe', 'spain', 'greece', 'switzerland', 'iceland', '欧洲', '歐洲', '西班牙', '希腊', '希臘'])) {
+    addTag(tags, 'region-europe')
+  }
+  if (includesAny(text, ['china', 'vietnam', 'thailand', '中国', '中國', '越南', '泰国', '泰國'])) {
+    addTag(tags, 'region-asia')
+  }
+  if (includesAny(text, ['new york', 'yellowstone', 'calgary', 'alaska', 'los angeles', 'san francisco', 'seattle', '纽约', '黄石', '卡尔加里', '阿拉斯加'])) {
+    addTag(tags, 'region-north-america')
+  }
+
+  if (includesAny(text, ['白金尊享', 'platinum', 'premium'])) addTag(tags, 'type-platinum')
+  if (includesAny(text, ['金榜怡享', 'gold'])) addTag(tags, 'type-gold')
+  if (includesAny(text, ['银榜惠享', '銀榜惠享', 'silver'])) addTag(tags, 'type-silver')
+  if (includesAny(text, ['私家包团', '私家包團', 'private'])) addTag(tags, 'type-private')
+  if (includesAny(text, ['边边游', '邊邊遊'])) addTag(tags, 'type-local')
+
+  if (days === 1) addTag(tags, 'day-trip')
+  if (days > 1) addTag(tags, 'group-tour')
+
+  return [...tags]
+}
+
 export function getProductCode(json) {
   return json?.product?.productCode || json?.shopify_mapping?.metafields?.toursbms_product_code || ''
 }
@@ -231,9 +305,92 @@ export function buildProductImages(json, existingImages = []) {
   })
 }
 
+function uniqueStrings(values) {
+  return [...new Set(values.map((value) => String(value || '').trim()).filter(Boolean))]
+}
+
+function destinationNames(product) {
+  return uniqueStrings([
+    product.start?.regionName,
+    ...(product.destinations || []).flatMap((destination) => [
+      destination.spotName,
+      destination.scenicName,
+      destination.provinceName,
+      destination.cityName,
+    ]),
+    product.end?.regionName,
+  ])
+}
+
+function inferCountry(product) {
+  const text = [
+    product.title,
+    product.categoryName,
+    product.start?.regionName,
+    product.end?.regionName,
+    ...destinationNames(product),
+  ].filter(Boolean).join(' ').toLowerCase()
+
+  if (includesAny(text, ['cancun', 'mexico', 'chich', 'xcaret', 'tulum', 'åŽæ˜†', 'å¢¨è¥¿å“¥'])) return 'Mexico'
+  if (includesAny(text, ['canada', 'calgary', 'banff', 'vancouver', 'toronto', 'rockies', 'åŠ æ‹¿å¤§', 'å¡å°”åŠ é‡Œ', 'å¡çˆ¾åŠ é‡Œ', 'æ¸©å“¥åŽ', 'æº«å“¥è¯'])) return 'Canada'
+  if (includesAny(text, ['united states', 'usa', 'new york', 'yellowstone', 'los angeles', 'san francisco', 'alaska', 'washington', 'salt lake', 'ç¾Žå›½', 'ç¾Žåœ‹', 'çº½çº¦', 'ç´ç´„'])) return 'United States'
+  if (includesAny(text, ['china', 'beijing', 'shanghai', 'xian', 'ä¸­å›½', 'ä¸­åœ‹', 'åŒ—äº¬', 'ä¸Šæµ·'])) return 'China'
+  if (includesAny(text, ['peru', 'machu picchu', 'cusco', 'ç§˜é²', 'ç§˜é­¯'])) return 'Peru'
+  if (includesAny(text, ['europe', 'spain', 'greece', 'switzerland', 'iceland', 'æ¬§æ´²', 'æ­æ´²'])) return 'Europe'
+  return product.categoryName || ''
+}
+
+function inferProductType(product, variants) {
+  const text = `${product.title || ''} ${product.categoryName || ''}`.toLowerCase()
+  const days = Number(product.duration?.days ?? product.raw?.tripDay ?? 0)
+  if (includesAny(text, ['private', 'ç§å®¶åŒ…å›¢', 'ç§å®¶åŒ…åœ˜'])) return 'private'
+  if (days === 1) return 'day-tour'
+  if (variants.length === 0) return 'content-only'
+  return 'group-tour'
+}
+
+function inferConfirmMethod(json) {
+  const raw = json?.constraints?.confirmType ?? json?.departure?.confirmType ?? json?.product?.raw?.confirmType
+  if (raw === 1 || raw === '1') return 'manual'
+  if (raw === 2 || raw === '2') return 'instant'
+  return ''
+}
+
+function priceRangeFromVariants(variants, pricing) {
+  const amounts = variants.map((variant) => Number(variant.price)).filter((amount) => Number.isFinite(amount) && amount > 0)
+  for (const price of pricing.basePrices || []) {
+    const amount = Number(price.amount)
+    if (Number.isFinite(amount) && amount > 0) amounts.push(amount)
+  }
+  if (amounts.length === 0) return { min: '', max: '' }
+  return {
+    min: Math.min(...amounts).toFixed(2),
+    max: Math.max(...amounts).toFixed(2),
+  }
+}
+
+function departureRange(availability = []) {
+  const dates = availability.map((departure) => departure?.date).filter(Boolean).sort()
+  return {
+    earliest: dates[0] || '',
+    latest: dates[dates.length - 1] || '',
+  }
+}
+
+function discoveryLabels(tags) {
+  return tags
+    .filter((tag) => tag.startsWith('type-') || tag.startsWith('region-') || tag.startsWith('dest-'))
+    .map((tag) => tag.replace(/-/g, ' '))
+}
+
 export function buildProductMetafields(json) {
   const product = json.product || {}
   const pricing = json.pricing || {}
+  const variants = buildTourVariants(json)
+  const tags = buildDiscoveryTags(json)
+  const prices = priceRangeFromVariants(variants, pricing)
+  const departures = departureRange(pricing.availability || [])
+  const destinations = destinationNames(product)
   return [
     ['product_code', getProductCode(json), 'single_line_text_field'],
     ['group_no', product.groupNo || '', 'single_line_text_field'],
@@ -242,6 +399,18 @@ export function buildProductMetafields(json) {
     ['duration_nights', String(product.duration?.nights ?? product.raw?.nightDay ?? 0), 'number_integer'],
     ['departure_city', product.start?.regionName || '', 'single_line_text_field'],
     ['return_city', product.end?.regionName || '', 'single_line_text_field'],
+    ['country', inferCountry(product), 'single_line_text_field'],
+    ['city', product.start?.regionName || destinations[0] || '', 'single_line_text_field'],
+    ['destinations', asJsonMetafieldValue(destinations), 'json'],
+    ['labels', asJsonMetafieldValue(discoveryLabels(tags)), 'json'],
+    ['min_price', prices.min, 'number_decimal'],
+    ['max_price', prices.max, 'number_decimal'],
+    ['earliest_departure', departures.earliest, 'date'],
+    ['latest_departure', departures.latest, 'date'],
+    ['product_type', inferProductType(product, variants), 'single_line_text_field'],
+    ['confirm_method', inferConfirmMethod(json), 'single_line_text_field'],
+    ['bookable', variants.length > 0 ? 'true' : 'false', 'boolean'],
+    ['last_synced_at', new Date().toISOString(), 'date_time'],
     ['source_url', json.source?.productPageUrl || '', 'url'],
     ['last_extracted_at', json.extractedAt || new Date().toISOString(), 'date_time'],
     ['availability_summary', asJsonMetafieldValue({
@@ -257,9 +426,20 @@ export function buildProductMetafields(json) {
 export function buildProductPayload(json, status = 'DRAFT') {
   const product = json.product || {}
   const mapping = json.shopify_mapping || {}
+  const variants = buildTourVariants(json)
+  const country = inferCountry(product)
+  const city = product.start?.regionName || destinationNames(product)[0] || ''
+  const type = inferProductType(product, variants)
+  const confirmMethod = inferConfirmMethod(json)
   const tags = new Set([
     ...(mapping.tags || []),
+    ...buildDiscoveryTags(json),
     'toursbms',
+    country ? `country-${tagSlug(country)}` : '',
+    city ? `city-${tagSlug(city)}` : '',
+    type ? `product-type-${tagSlug(type)}` : '',
+    confirmMethod ? `confirm-${tagSlug(confirmMethod)}` : '',
+    variants.length > 0 ? 'bookable' : 'content-only',
     product.categoryName ? `category:${product.categoryName}` : '',
     product.groupNo ? `group:${product.groupNo}` : '',
     getProductCode(json) ? `code:${getProductCode(json)}` : '',

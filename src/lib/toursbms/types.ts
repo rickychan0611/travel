@@ -29,6 +29,9 @@ export type TourItineraryStop = {
 export type TourItineraryImage = {
   src: string
   alt: string
+  caption?: string
+  sourceUrl?: string
+  shopifyMediaId?: string
 }
 
 export type TourItineraryDay = {
