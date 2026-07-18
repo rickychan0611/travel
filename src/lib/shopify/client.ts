@@ -1,5 +1,6 @@
 import { createStorefrontApiClient } from '@shopify/storefront-api-client'
 import { SHOPIFY_CACHE_REVALIDATE_SECONDS, SHOPIFY_CACHE_TAGS } from './cache'
+import { isStorefrontSsrEnabled } from '@/lib/admin/storefront-settings'
 
 if (!process.env.NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN) {
   throw new Error('NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN is not set')
@@ -32,6 +33,7 @@ export async function shopifyReadRequest<T>(
     revalidate?: number
   } = {},
 ): Promise<{ data?: T; errors?: unknown }> {
+  const ssrEnabled = await isStorefrontSsrEnabled()
   const headers = new Headers()
   for (const [key, value] of Object.entries(_client.config.headers)) {
     if (Array.isArray(value)) {
@@ -45,8 +47,8 @@ export async function shopifyReadRequest<T>(
     method: 'POST',
     headers,
     body: JSON.stringify({ query, variables: variables ?? {} }),
-    cache: 'force-cache',
-    next: { revalidate, tags },
+    cache: ssrEnabled ? 'no-store' : 'force-cache',
+    ...(ssrEnabled ? {} : { next: { revalidate, tags } }),
   })
 
   if (!response.ok) throw new Error(`Shopify Storefront API ${response.status}`)

@@ -77,7 +77,7 @@ export function UsaTravelSection({
               key={product.id}
               className={index === 0 || index === 5 ? styles.featured : undefined}
             >
-              <ProductCard product={product} locale={locale} />
+              <ProductCard product={product} locale={locale} featured={index === 0 || index === 5} />
             </div>
           ))}
         </div>

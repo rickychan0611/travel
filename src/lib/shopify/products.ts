@@ -3,6 +3,7 @@ import { shopifyAdminClient } from './admin-client'
 import { SHOPIFY_CACHE_REVALIDATE_SECONDS, SHOPIFY_CACHE_TAGS } from './cache'
 import { ALL_PRODUCTS_QUERY } from './queries/product'
 import type { CollectionProduct } from './types'
+import { isStorefrontSsrEnabled } from '@/lib/admin/storefront-settings'
 
 type ProductsResponse = {
   products?: {
@@ -166,6 +167,35 @@ export async function fetchProductsByQueries(queries: string[], first = 24, max 
   return [...byId.values()].slice(0, max)
 }
 
+const PRODUCTS_BY_IDS_QUERY = `#graphql
+  query HomepageProductsByIds($ids: [ID!]!) {
+    nodes(ids: $ids) {
+      ... on Product {
+        id
+        productCode: metafield(namespace: "toursbms", key: "product_code") { value }
+        handle
+        title
+        tags
+        productType
+        priceRange { minVariantPrice { amount currencyCode } }
+        images(first: 1) { nodes { url altText } }
+      }
+    }
+  }
+`
+
+export async function fetchProductsByIds(ids: string[], locale: string) {
+  if (ids.length === 0) return []
+  const { data, errors } = await shopifyReadRequest<{ nodes?: Array<CollectionProduct | null> }>(PRODUCTS_BY_IDS_QUERY, {
+    variables: { ids },
+    tags: [SHOPIFY_CACHE_TAGS.products, SHOPIFY_CACHE_TAGS.productCards, SHOPIFY_CACHE_TAGS.homepage],
+  })
+  if (errors) throw new Error(`Could not load homepage products: ${JSON.stringify(errors)}`)
+  const byId = new Map((data?.nodes ?? []).filter((node): node is CollectionProduct => Boolean(node?.id)).map((node) => [node.id, node]))
+  const ordered = ids.flatMap((id) => byId.get(id) ? [byId.get(id)!] : [])
+  return localizeCollectionProducts(ordered, locale)
+}
+
 export async function fetchTourProducts(first = 100) {
   return fetchProductsByQuery({ query: 'tag:tour', first: Math.min(first, 100), max: first })
 }
@@ -175,6 +205,7 @@ export async function localizeCollectionProducts(products: CollectionProduct[], 
   if (ids.length === 0) return products
 
   try {
+    const ssrEnabled = await isStorefrontSsrEnabled()
     const byId = new Map<string, ProductCardLocalizationNode>()
 
     for (const idChunk of chunk(ids, 50)) {
@@ -182,11 +213,13 @@ export async function localizeCollectionProducts(products: CollectionProduct[], 
         PRODUCT_CARD_LOCALIZATION_QUERY,
         {
           variables: { ids: idChunk },
-          cache: 'force-cache',
-          next: {
-            revalidate: SHOPIFY_CACHE_REVALIDATE_SECONDS,
-            tags: [SHOPIFY_CACHE_TAGS.products, SHOPIFY_CACHE_TAGS.productCards],
-          },
+          cache: ssrEnabled ? 'no-store' : 'force-cache',
+          ...(ssrEnabled ? {} : {
+            next: {
+              revalidate: SHOPIFY_CACHE_REVALIDATE_SECONDS,
+              tags: [SHOPIFY_CACHE_TAGS.products, SHOPIFY_CACHE_TAGS.productCards],
+            },
+          }),
         },
       )
       if (errors) throw new Error(JSON.stringify(errors))

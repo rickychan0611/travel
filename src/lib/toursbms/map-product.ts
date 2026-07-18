@@ -14,6 +14,7 @@ type RawPrice = {
   priceType?: number
   label?: string
   amount?: number
+  travelerType?: 'adult' | 'child' | 'senior'
 }
 
 type RawAvailability = {
@@ -22,6 +23,7 @@ type RawAvailability = {
   stockStatus?: number
   remainingStock?: number
   prices?: RawPrice[]
+  isGroupRoom?: boolean
 }
 
 type RawContent = {
@@ -94,6 +96,7 @@ export type ToursBmsProductJson = {
     requestedCurrency?: string
     basePrices?: RawPrice[]
     availability?: RawAvailability[]
+    pricingMode?: 'per_person' | 'room_occupancy'
   }
   itinerary?: {
     travelName?: string
@@ -122,18 +125,25 @@ export type ToursBmsProductJson = {
 const ADULT_PRICE_TYPES = new Set([3, 4, 5, 6])
 const LIMITED_STOCK_THRESHOLD = 10
 
-function mapPrices(prices: RawPrice[] | undefined): TourPrice[] {
-  return (prices ?? [])
+function mapPrices(prices: RawPrice[] | undefined, pricingMode: 'per_person' | 'room_occupancy'): TourPrice[] {
+  const mapped = (prices ?? [])
     .filter((price) => typeof price.amount === 'number' && price.amount > 0)
     .map((price) => ({
       priceType: price.priceType ?? 0,
+      travelerType: price.travelerType ?? (price.priceType === 1 ? 'adult' : price.priceType === 2 ? 'child' : price.priceType === 7 ? 'senior' : 'adult'),
       label: price.label?.trim() || `Type ${price.priceType ?? '?'}`,
       amount: Number(price.amount),
     }))
+  if (pricingMode !== 'room_occupancy') return mapped
+  const genericChild = mapped.find((price) => price.priceType === 2)
+  return mapped.filter((price) => ADULT_PRICE_TYPES.has(price.priceType)).flatMap((adult) => [
+    { ...adult, travelerType: 'adult' as const },
+    ...(genericChild ? [{ ...genericChild, priceType: adult.priceType, label: adult.label, travelerType: 'child' as const }] : []),
+  ])
 }
 
 function lowestAdultPrice(prices: TourPrice[]): number {
-  const adults = prices.filter((price) => ADULT_PRICE_TYPES.has(price.priceType))
+  const adults = prices.filter((price) => ADULT_PRICE_TYPES.has(price.priceType) && price.travelerType !== 'child')
   const pool = adults.length > 0 ? adults : prices
   if (pool.length === 0) return 0
   return Math.min(...pool.map((price) => price.amount))
@@ -310,9 +320,10 @@ function mapAvailability(rows: RawAvailability[] | undefined, currency: string):
   return (rows ?? [])
     .filter((row) => Boolean(row.date))
     .map((row) => {
-      const prices = mapPrices(row.prices)
+      const pricingMode = row.isGroupRoom || row.prices?.some((price) => ADULT_PRICE_TYPES.has(Number(price.priceType))) ? 'room_occupancy' : 'per_person'
+      const prices = mapPrices(row.prices, pricingMode)
       const remainingStock = row.remainingStock ?? 0
-      const soldOut = row.stockStatus !== 200 || remainingStock <= 0 || prices.length === 0
+      const soldOut = row.stockStatus !== 200 || prices.length === 0
       const limited = !soldOut && remainingStock > 0 && remainingStock <= LIMITED_STOCK_THRESHOLD
       return {
         date: row.date!,
@@ -322,6 +333,7 @@ function mapAvailability(rows: RawAvailability[] | undefined, currency: string):
         currency: row.currency || currency,
         prices,
         lowestPrice: lowestAdultPrice(prices),
+        pricingMode,
       }
     })
 }
@@ -362,8 +374,12 @@ function mapAddon(addon: RawAddon): TourAddon {
 export function mapToursBmsProduct(json: ToursBmsProductJson): TourDetailData {
   const product = json.product ?? {}
   const currency = json.pricing?.requestedCurrency || 'USD'
-  const basePrices = mapPrices(json.pricing?.basePrices)
+  const pricingMode = json.pricing?.pricingMode
+    ?? (json.pricing?.availability?.some((day) => day.isGroupRoom) ? 'room_occupancy' : 'per_person')
   const availability = mapAvailability(json.pricing?.availability, currency)
+  const basePrices = pricingMode === 'room_occupancy' && availability[0]?.prices.length
+    ? availability[0].prices
+    : mapPrices(json.pricing?.basePrices, pricingMode)
   const fromPrice =
     availability.find((day) => day.available)?.lowestPrice ||
     lowestAdultPrice(basePrices)
@@ -406,6 +422,7 @@ export function mapToursBmsProduct(json: ToursBmsProductJson): TourDetailData {
     advanceDay: json.departure?.advanceDay ?? 0,
     advanceTime: json.departure?.advanceTime ?? '',
     currency,
+    pricingMode,
     basePrices,
     fromPrice,
     availability,
@@ -436,5 +453,5 @@ export function findChildPrice(prices: TourPrice[]): TourPrice | undefined {
 }
 
 export function findAdultRoomPrices(prices: TourPrice[]): TourPrice[] {
-  return prices.filter((price) => ADULT_PRICE_TYPES.has(price.priceType))
+  return prices.filter((price) => ADULT_PRICE_TYPES.has(price.priceType) && price.travelerType !== 'child' && price.travelerType !== 'senior')
 }

@@ -1,11 +1,14 @@
 import { describe, expect, it } from 'vitest'
 import {
+  buildAddonVariantMetafields,
   buildDryRunPayload,
   buildProductImages,
   buildProductMetafields,
   buildProductPayload,
+  buildTourVariantMetafields,
   buildTourVariants,
   isRequestOnlyAddon,
+  nonShippableInventoryItemInput,
 } from './toursbms-shopify-sync.mjs'
 
 const fixture = {
@@ -75,6 +78,25 @@ const fixture = {
 }
 
 describe('ToursBMS Shopify sync builders', () => {
+  it('marks synced Shopify inventory items as not requiring shipping', () => {
+    expect(nonShippableInventoryItemInput()).toEqual({ requiresShipping: false })
+  })
+
+  it('builds variant metafields separately from the productSet payload', () => {
+    expect(buildTourVariantMetafields('gid://shopify/ProductVariant/1', {
+      date: '2026-07-13',
+      priceType: 3,
+      travelerType: 'adult',
+    })).toEqual([
+      expect.objectContaining({ ownerId: 'gid://shopify/ProductVariant/1', key: 'departure_date', value: '2026-07-13' }),
+      expect.objectContaining({ ownerId: 'gid://shopify/ProductVariant/1', key: 'price_type', value: '3' }),
+      expect.objectContaining({ ownerId: 'gid://shopify/ProductVariant/1', key: 'traveler_type', value: 'adult' }),
+    ])
+    expect(buildAddonVariantMetafields('gid://shopify/ProductVariant/2', { code: 'S1' })).toEqual([
+      expect.objectContaining({ ownerId: 'gid://shopify/ProductVariant/2', key: 'addon_code', value: 'S1' }),
+    ])
+  })
+
   it('creates one variant per departure date and price type', () => {
     const variants = buildTourVariants(fixture)
 
@@ -82,10 +104,12 @@ describe('ToursBMS Shopify sync builders', () => {
     expect(variants[0]).toMatchObject({
       date: '2026-07-13',
       priceType: 3,
-      label: 'Single room',
+      travelerType: 'adult',
+      label: 'Single room · Adult',
       price: '1919.00',
-      sku: 'P00000001-2026-07-13-3-SINGLE-ROOM',
+      sku: 'P00000001-2026-07-13-3-ADULT',
     })
+    expect(variants[1]).toMatchObject({ priceType: 3, travelerType: 'child', label: 'Single room · Child', price: '709.00' })
   })
 
   it('keeps image source URL order and roles stable', () => {
@@ -133,6 +157,11 @@ describe('ToursBMS Shopify sync builders', () => {
     expect(metafields.max_price).toBe('1999.00')
     expect(metafields.earliest_departure).toBe('2026-07-13')
     expect(metafields.latest_departure).toBe('2026-07-14')
+    expect(metafields.pricing_mode).toBe('room_occupancy')
+    expect(JSON.parse(metafields.rate_template)).toEqual([
+      { rateType: 'Single room', travelerType: 'adult' },
+      { rateType: 'Single room', travelerType: 'child' },
+    ])
     expect(payload.tags).toEqual(expect.arrayContaining(['country-mexico', 'city-cancun', 'bookable']))
   })
 })

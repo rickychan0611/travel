@@ -18,12 +18,15 @@ import {
 import { useCartStore } from '@/store/cart'
 import { ImageSlider } from '@/components/ui/ImageSlider'
 import { findAdultRoomPrices, findChildPrice } from '@/lib/toursbms/map-product'
+import { findPrice, perPersonTotal, resolveBookingPricingMode, roomTotal, travelerTotal, validateRoom } from '@/lib/toursbms/pricing'
 import type {
   TourAddon,
   TourAvailabilityDay,
   TourDetailData,
   TourItineraryDay,
   TourPrice,
+  RoomAssignment,
+  TravelerCounts,
 } from '@/lib/toursbms/types'
 
 type Props = {
@@ -34,13 +37,9 @@ type Props = {
 type AddonSelection = {
   addon: TourAddon
   chargeable: boolean
-  disabled: boolean
   quantity: number
   subtotal: number
-  quantityLabel: string
 }
-
-type TourDetailTranslator = ReturnType<typeof useTranslations<'tourDetail'>>
 
 function money(amount: number | string, currency = 'USD', locale?: string) {
   const value = Number(amount)
@@ -77,24 +76,6 @@ function isRequestOnlyAddon(addon: TourAddon) {
   )
 }
 
-function getAddonTravelerQuantity(addon: TourAddon, adultCount: number, childCount: number) {
-  const label = addon.peopleTypeLabel.toLowerCase()
-  if (label.includes('adult')) return adultCount
-  if (label.includes('child')) return childCount
-  return adultCount + childCount
-}
-
-function getAddonQuantityLabel(
-  addon: TourAddon,
-  quantity: number,
-  t: TourDetailTranslator,
-) {
-  const label = addon.peopleTypeLabel.toLowerCase()
-  if (label.includes('adult')) return t('adultCount', { count: quantity })
-  if (label.includes('child')) return t('childCount', { count: quantity })
-  return t('travelerCount', { count: quantity })
-}
-
 function HtmlOrText({ html, text }: { html?: string; text?: string }) {
   if (html?.trim()) {
     return (
@@ -115,58 +96,103 @@ export function TourDetailPage({ tour }: Props) {
   const locale = useLocale()
   const addItem = useCartStore((state) => state.addItem)
   const departureDates = tour.availability
+  const initialDate = departureDates.find((date) => date.available)?.date ?? null
+  const initialPrices = departureDates.find((date) => date.date === initialDate)?.prices ?? tour.basePrices
+  const initialRoomPrices = findAdultRoomPrices(initialPrices)
+  const initialRoomType = (initialRoomPrices.find((price) => price.priceType === 4)?.priceType
+    ?? initialRoomPrices[0]?.priceType
+    ?? 4) as RoomAssignment['priceType']
+  const initialRoomAdults = Math.min(2, initialRoomType - 2)
   const [activeImage, setActiveImage] = useState(0)
   const [galleryModalOpen, setGalleryModalOpen] = useState(false)
-  const [selectedDate, setSelectedDate] = useState<string | null>(
-    departureDates.find((date) => date.available)?.date ?? null,
-  )
+  const [selectedDate, setSelectedDate] = useState<string | null>(initialDate)
   const [selectedPriceType, setSelectedPriceType] = useState<number | null>(null)
   const [adultCount, setAdultCount] = useState(2)
   const [childCount, setChildCount] = useState(0)
+  const [seniorCount, setSeniorCount] = useState(0)
+  const [rooms, setRooms] = useState<RoomAssignment[]>([
+    { id: 'room-1', priceType: initialRoomType, adults: initialRoomAdults, seniors: 0, children: 0 },
+  ])
   const [activeMonth, setActiveMonth] = useState(monthsFromDates(departureDates)[0] ?? '')
   const [activeSection, setActiveSection] = useState('intro')
   const [activeDay, setActiveDay] = useState(tour.itinerary.days[0]?.dayNumber ?? 1)
   const [showDayNav, setShowDayNav] = useState(false)
   const [added, setAdded] = useState(false)
   const [selectedAddonCodes, setSelectedAddonCodes] = useState<string[]>([])
+  const [addonQuantities, setAddonQuantities] = useState<Record<string, number>>({})
 
   const gallery = tour.gallery
   const dateMap = useMemo(() => new Map(departureDates.map((date) => [date.date, date])), [departureDates])
   const selectedDeparture = selectedDate ? dateMap.get(selectedDate) : undefined
-  const roomPrices = findAdultRoomPrices(selectedDeparture?.prices ?? tour.basePrices)
-  const childPrice = findChildPrice(selectedDeparture?.prices ?? tour.basePrices)
+  const currentPrices = selectedDeparture?.prices ?? tour.basePrices
+  const roomPrices = useMemo(() => findAdultRoomPrices(currentPrices), [currentPrices])
+  const childPrice = findChildPrice(currentPrices)
+  const bookingPricingMode = resolveBookingPricingMode(tour.pricingMode, currentPrices)
   const selectedRoom =
     roomPrices.find((price) => price.priceType === selectedPriceType) ?? roomPrices[0] ?? null
 
-  const totalTravelers = adultCount + childCount
-  const adultTotal = selectedRoom ? selectedRoom.amount * adultCount : 0
-  const childTotal = childPrice ? childPrice.amount * childCount : 0
-  const baseTotal = adultTotal + childTotal
+  const selectDepartureDate = (date: string) => {
+    const nextPrices = dateMap.get(date)?.prices ?? tour.basePrices
+    const nextRoomPrices = findAdultRoomPrices(nextPrices)
+    setSelectedDate(date)
+    if (resolveBookingPricingMode(tour.pricingMode, nextPrices) !== 'room_occupancy' || nextRoomPrices.length === 0) return
+    const availableTypes = new Set(nextRoomPrices.map((price) => price.priceType))
+    const fallbackType = nextRoomPrices[0].priceType as RoomAssignment['priceType']
+    setRooms((current) => current.map((room) => {
+      const priceType = availableTypes.has(room.priceType) ? room.priceType : fallbackType
+      const hasChildRate = Boolean(findPrice(nextPrices, priceType, 'child'))
+      const children = hasChildRate ? Math.min(room.children, (room.adults + room.seniors) * 2) : 0
+      return priceType === room.priceType && children === room.children ? room : { ...room, priceType, children }
+    }))
+  }
+
+  const perPersonCounts: TravelerCounts = { adults: adultCount, seniors: seniorCount, children: childCount }
+  const roomCounts = rooms.reduce<TravelerCounts>((sum, room) => ({
+    adults: sum.adults + room.adults,
+    seniors: sum.seniors + room.seniors,
+    children: sum.children + room.children,
+  }), { adults: 0, seniors: 0, children: 0 })
+  const counts = bookingPricingMode === 'room_occupancy' ? roomCounts : perPersonCounts
+  const totalTravelers = travelerTotal(counts)
+  const baseTotal = bookingPricingMode === 'room_occupancy'
+    ? rooms.reduce((sum, room) => sum + roomTotal(room, currentPrices), 0)
+    : perPersonTotal(perPersonCounts, currentPrices)
   const addonSelections = useMemo<AddonSelection[]>(
     () =>
       tour.addons.map((addon) => {
         const chargeable = !isRequestOnlyAddon(addon)
-        const quantity = chargeable ? getAddonTravelerQuantity(addon, adultCount, childCount) : 1
+        const quantity = Math.max(1, addonQuantities[addon.code] ?? 1)
         return {
           addon,
           chargeable,
-          disabled: chargeable && quantity <= 0,
           quantity,
           subtotal: chargeable ? addon.amount * quantity : 0,
-          quantityLabel: chargeable ? getAddonQuantityLabel(addon, quantity, t) : t('requestOnly'),
         }
       }),
-    [adultCount, childCount, t, tour.addons],
+    [addonQuantities, tour.addons],
   )
   const selectedAddonCodeSet = useMemo(() => new Set(selectedAddonCodes), [selectedAddonCodes])
   const selectedAddons = addonSelections.filter(
-    (selection) => !selection.disabled && selectedAddonCodeSet.has(selection.addon.code),
+    (selection) => selectedAddonCodeSet.has(selection.addon.code),
   )
   const addonsTotal = selectedAddons.reduce((sum, selection) => sum + selection.subtotal, 0)
   const total = baseTotal + addonsTotal
   const months = monthsFromDates(departureDates)
   const firstGallery = gallery[activeImage] ?? gallery[0]
-  const canBook = Boolean(selectedDate && selectedDeparture?.available && selectedRoom && adultCount > 0)
+  const roomErrors = bookingPricingMode === 'room_occupancy'
+    ? rooms.map((room) => validateRoom(room, currentPrices)).filter(Boolean)
+    : []
+  const hasCapacity = !selectedDeparture?.remainingStock || totalTravelers <= selectedDeparture.remainingStock
+  const perPersonValid = adultCount + seniorCount > 0
+    && (!adultCount || Boolean(findPrice(currentPrices, 1)))
+    && (!childCount || Boolean(findPrice(currentPrices, 2)))
+  const hasCheckoutVariants = bookingPricingMode === 'room_occupancy'
+    ? rooms.every((room) => Boolean(findPrice(currentPrices, room.priceType, 'adult')?.shopifyVariantId)
+      && (!room.children || Boolean(findPrice(currentPrices, room.priceType, 'child')?.shopifyVariantId)))
+    : [[adultCount, 1], [childCount, 2], [seniorCount, findPrice(currentPrices, 7) ? 7 : 1]]
+      .every(([count, type]) => !count || Boolean(findPrice(currentPrices, type)?.shopifyVariantId))
+  const canBook = Boolean(selectedDate && selectedDeparture?.available && hasCapacity
+    && hasCheckoutVariants && (bookingPricingMode === 'room_occupancy' ? roomErrors.length === 0 : perPersonValid))
   const dash = t('emDash')
 
   const scrollTo = (id: string) => {
@@ -177,6 +203,10 @@ export function TourDetailPage({ tour }: Props) {
     setSelectedAddonCodes((codes) =>
       codes.includes(code) ? codes.filter((selectedCode) => selectedCode !== code) : [...codes, code],
     )
+  }
+
+  const setAddonQuantity = (code: string, quantity: number) => {
+    setAddonQuantities((current) => ({ ...current, [code]: Math.max(1, quantity) }))
   }
 
   useEffect(() => {
@@ -217,39 +247,47 @@ export function TourDetailPage({ tour }: Props) {
   }, [tour.itinerary.days])
 
   const handleAddToCart = () => {
-    if (!canBook || !selectedDate || !selectedRoom) return
+    if (!canBook || !selectedDate) return
     const cartAddons = selectedAddons.map((selection) => ({
       id: selection.addon.code,
       name: selection.addon.name,
       price: selection.chargeable ? selection.addon.amount : 0,
-      quantity: selection.chargeable ? selection.quantity : 1,
+      quantity: selection.quantity,
       variantId: selection.chargeable ? selection.addon.shopifyVariantId : undefined,
     }))
 
+    const priceLines = bookingPricingMode === 'room_occupancy'
+      ? rooms.flatMap((room, index) => {
+          const occupancy = findPrice(currentPrices, room.priceType, 'adult')!
+          const child = findPrice(currentPrices, room.priceType, 'child')
+          const attributes = { Occupants: `${room.adults} adult, ${room.seniors} senior, ${room.children} child` }
+          return [
+            ...(room.adults ? [{ variantId: occupancy.shopifyVariantId!, label: occupancy.label, quantity: room.adults, unitPrice: occupancy.amount, roomNumber: index + 1, attributes }] : []),
+            ...(room.seniors ? [{ variantId: occupancy.shopifyVariantId!, label: `${occupancy.label} Adult`, quantity: room.seniors, unitPrice: occupancy.amount, roomNumber: index + 1, attributes }] : []),
+            ...(room.children && child ? [{ variantId: child.shopifyVariantId!, label: child.label, quantity: room.children, unitPrice: child.amount, roomNumber: index + 1, attributes }] : []),
+          ]
+        })
+      : [
+          { type: 1, count: adultCount }, { type: 7, count: seniorCount }, { type: 2, count: childCount },
+        ].filter((row) => row.count > 0).map((row) => {
+          const price = findPrice(currentPrices, row.type) ?? findPrice(currentPrices, 1)!
+          return { variantId: price.shopifyVariantId!, label: price.label, quantity: row.count, unitPrice: price.amount }
+        })
+
     addItem({
-      variantId: selectedRoom.shopifyVariantId || `${tour.productCode}-${selectedDate}-${selectedRoom.priceType}`,
+      bookingId: `${tour.productCode}-${selectedDate}-${Date.now()}`,
       productHandle: tour.handle,
       productTitle: tour.title,
       departureDate: selectedDate,
-      partySize: totalTravelers,
-      pricePerPerson: selectedRoom.amount,
+      pricingMode: bookingPricingMode,
+      travelers: counts,
+      roomSummary: bookingPricingMode === 'room_occupancy'
+        ? rooms.map((room, index) => `Room ${index + 1}: ${room.adults} adult, ${room.seniors} senior, ${room.children} child`)
+        : [],
+      priceLines,
       currencyCode: tour.currency,
-      quantity: 1,
       pickupLocationId: tour.pickup[0]?.code ?? null,
       addons: cartAddons,
-      lineItemProperties: {
-        Adults: String(adultCount),
-        Children: String(childCount),
-        'Room Type': selectedRoom.label,
-        'Price Type': String(selectedRoom.priceType),
-        'Child Unit Price': childPrice ? String(childPrice.amount) : '0',
-        'Adult Subtotal': String(adultTotal),
-        'Child Subtotal': String(childTotal),
-        'Base Total': String(baseTotal),
-        'Add-ons Total': String(addonsTotal),
-        'Selected Add-ons': selectedAddons.map((selection) => selection.addon.name).join(', '),
-        Total: String(total),
-      },
     })
     setAdded(true)
     setTimeout(() => setAdded(false), 1800)
@@ -291,7 +329,7 @@ export function TourDetailPage({ tour }: Props) {
               activeMonth={activeMonth}
               setActiveMonth={setActiveMonth}
               selectedDate={selectedDate}
-              setSelectedDate={setSelectedDate}
+              setSelectedDate={selectDepartureDate}
               currency={tour.currency}
               fallbackPrice={tour.fromPrice}
             />
@@ -398,7 +436,7 @@ export function TourDetailPage({ tour }: Props) {
           availableDates={departureDates.filter((date) => date.available).map((date) => date.date)}
           tripDays={tour.duration.days || tour.itinerary.days.length}
           selectedDate={selectedDate}
-          setSelectedDate={setSelectedDate}
+          setSelectedDate={selectDepartureDate}
           roomPrices={roomPrices}
           selectedRoom={selectedRoom}
           setSelectedPriceType={setSelectedPriceType}
@@ -406,12 +444,21 @@ export function TourDetailPage({ tour }: Props) {
           setAdultCount={setAdultCount}
           childCount={childCount}
           setChildCount={setChildCount}
+          seniorCount={seniorCount}
+          setSeniorCount={setSeniorCount}
+          pricingMode={bookingPricingMode}
+          prices={currentPrices}
+          rooms={rooms}
+          setRooms={setRooms}
+          remainingStock={selectedDeparture?.remainingStock ?? 0}
+          bookingMessage={roomErrors[0] || (!hasCapacity ? 'This party exceeds the remaining departure capacity.' : !hasCheckoutVariants ? 'A required Shopify price is not linked.' : '')}
           childPrice={childPrice}
           childNote={tour.constraints.childNote}
-          isChildAvailable={tour.constraints.isChildAvailable}
+          isChildAvailable={currentPrices.some((price) => price.travelerType === 'child' || price.priceType === 2)}
           addons={addonSelections}
           selectedAddonCodes={selectedAddonCodes}
           onToggleAddon={toggleAddon}
+          onAddonQuantityChange={setAddonQuantity}
           currency={tour.currency}
           baseTotal={baseTotal}
           addonsTotal={addonsTotal}
@@ -664,12 +711,21 @@ function TourBookingForm(props: {
   setAdultCount: (value: number) => void
   childCount: number
   setChildCount: (value: number) => void
+  seniorCount: number
+  setSeniorCount: (value: number) => void
+  pricingMode: TourDetailData['pricingMode']
+  prices: TourPrice[]
+  rooms: RoomAssignment[]
+  setRooms: (rooms: RoomAssignment[]) => void
+  remainingStock: number
+  bookingMessage: string
   childPrice?: TourPrice
   childNote: string
   isChildAvailable: boolean
   addons: AddonSelection[]
   selectedAddonCodes: string[]
   onToggleAddon: (code: string) => void
+  onAddonQuantityChange: (code: string, quantity: number) => void
   currency: string
   baseTotal: number
   addonsTotal: number
@@ -704,35 +760,45 @@ function TourBookingForm(props: {
             </select>
           </label>
 
-          <div>
+          {props.pricingMode === 'room_occupancy' ? <div>
             <p className="mb-2 text-[14px] font-bold">{t('roomOccupancy')}</p>
-            <div className="grid gap-2 sm:grid-cols-2">
-              {props.roomPrices.map((price) => {
-                const active = props.selectedRoom?.priceType === price.priceType
-                return (
-                  <button
-                    key={price.priceType}
-                    type="button"
-                    onClick={() => props.setSelectedPriceType(price.priceType)}
-                    className={`rounded border px-3 py-3 text-left ${active ? 'border-[#f5a400] bg-white shadow-sm' : 'border-[#e5e5e5] bg-white/70'}`}
-                  >
-                    <p className="text-[14px] font-bold">{price.label}</p>
-                    <p className="text-[#ff5b00]">{money(price.amount, props.currency, locale)}</p>
-                  </button>
-                )
+            <div className="space-y-3">
+              {props.rooms.map((room, index) => {
+                const capacity = room.priceType - 2
+                const adultOccupants = room.adults + room.seniors
+                const adultRate = findPrice(props.prices, room.priceType, 'adult')
+                const childRate = findPrice(props.prices, room.priceType, 'child')
+                const update = (patch: Partial<RoomAssignment>) => props.setRooms(props.rooms.map((item) => item.id === room.id ? { ...item, ...patch } : item))
+                return <div key={room.id} className="rounded border border-[#e5e5e5] bg-white p-3">
+                  <div className="mb-3 flex items-center justify-between gap-3">
+                    <b>Room {index + 1}</b>
+                    {props.rooms.length > 1 ? <button type="button" className="text-xs text-red-700" onClick={() => props.setRooms(props.rooms.filter((item) => item.id !== room.id))}>Remove room</button> : null}
+                  </div>
+                  <select value={room.priceType} onChange={(event) => update({ priceType: Number(event.target.value) as RoomAssignment['priceType'] })} className="mb-3 w-full rounded border px-3 py-2 text-sm">
+                    {props.roomPrices.map((price) => <option key={price.priceType} value={price.priceType}>{price.label} · {money(price.amount, props.currency, locale)} per adult</option>)}
+                  </select>
+                  <div className="space-y-3">
+                    <Counter label={t('adults')} hint={adultRate ? money(adultRate.amount, props.currency, locale) : undefined} value={room.adults} min={0} max={capacity - room.seniors} onChange={(adults) => update({ adults, children: Math.min(room.children, (adults + room.seniors) * 2) })} />
+                    {findPrice(props.prices, 7) ? <Counter label="Seniors" hint={adultRate ? money(adultRate.amount, props.currency, locale) : undefined} value={room.seniors} min={0} max={capacity - room.adults} onChange={(seniors) => update({ seniors, children: Math.min(room.children, (room.adults + seniors) * 2) })} /> : null}
+                    {childRate ? <Counter label={t('children')} hint={money(childRate.amount, props.currency, locale)} value={room.children} min={0} max={adultOccupants * 2} onChange={(children) => update({ children })} /> : null}
+                  </div>
+                  <p className="mt-2 text-xs text-[#777]">{adultOccupants} of {capacity} adults/seniors · {room.children} children · {money(roomTotal(room, props.prices), props.currency, locale)}</p>
+                </div>
               })}
             </div>
-          </div>
+            <button type="button" className="mt-3 rounded border bg-white px-3 py-2 text-sm font-bold" onClick={() => props.setRooms([...props.rooms, { id: `room-${Date.now()}`, priceType: (props.roomPrices[0]?.priceType ?? 4) as RoomAssignment['priceType'], adults: 1, seniors: 0, children: 0 }])}>+ Add another room</button>
+          </div> : null}
         </div>
 
-        <div className="space-y-4">
+        {props.pricingMode === 'per_person' ? <div className="space-y-4">
           <Counter
             label={t('adults')}
             value={props.adultCount}
-            min={1}
+            min={0}
             onChange={props.setAdultCount}
-            hint={props.selectedRoom ? `${money(props.selectedRoom.amount, props.currency, locale)} × ${props.adultCount}` : undefined}
+            hint={findPrice(props.prices, 1) ? money(findPrice(props.prices, 1)?.amount ?? 0, props.currency, locale) : undefined}
           />
+          {findPrice(props.prices, 7) ? <Counter label="Seniors" value={props.seniorCount} min={0} onChange={props.setSeniorCount} hint={money(findPrice(props.prices, 7)?.amount ?? 0, props.currency, locale)} /> : null}
           {props.isChildAvailable ? (
             <Counter
               label={t('children')}
@@ -741,13 +807,14 @@ function TourBookingForm(props: {
               onChange={props.setChildCount}
               hint={
                 props.childPrice
-                  ? `${money(props.childPrice.amount, props.currency, locale)} × ${props.childCount}`
+                  ? money(props.childPrice.amount, props.currency, locale)
                   : t('childRateUnavailable')
               }
             />
           ) : null}
           {props.childNote ? <p className="text-[12px] leading-5 text-[#777]">{props.childNote}</p> : null}
-        </div>
+          {props.bookingMessage ? <p className="text-sm text-amber-700">{props.bookingMessage} Contact us for a manual quote.</p> : null}
+        </div> : <div className="space-y-2 text-sm"><b>Booking summary</b><p>{props.rooms.length} room{props.rooms.length === 1 ? '' : 's'}</p>{props.remainingStock > 0 ? <p>{props.remainingStock} traveler spaces remaining</p> : null}{props.bookingMessage ? <p className="text-amber-700">{props.bookingMessage} Contact us for a manual quote.</p> : null}</div>}
 
         {props.addons.length > 0 ? (
           <div className="space-y-3 border-t border-[#f0d58a] pt-4 lg:col-span-2">
@@ -764,29 +831,37 @@ function TourBookingForm(props: {
             </div>
             <div className="grid max-h-[420px] gap-2 overflow-y-auto pr-1 md:grid-cols-2">
               {props.addons.map((selection) => {
-                const selected = !selection.disabled && props.selectedAddonCodes.includes(selection.addon.code)
+                const selected = props.selectedAddonCodes.includes(selection.addon.code)
                 const currency = selection.addon.currency || props.currency
                 return (
-                  <label
+                  <div
                     key={selection.addon.code}
-                    className={`flex cursor-pointer gap-3 rounded border bg-white p-3 text-[13px] leading-5 ${
+                    className={`relative rounded border bg-white p-3 text-[13px] leading-5 ${
                       selected ? 'border-[#f5a400] shadow-sm' : 'border-[#e5e5e5]'
-                    } ${selection.disabled ? 'cursor-not-allowed opacity-60' : ''}`}
+                    }`}
                   >
-                    <input
-                      type="checkbox"
-                      checked={selected}
-                      disabled={selection.disabled}
-                      onChange={() => props.onToggleAddon(selection.addon.code)}
-                      className="mt-1 h-4 w-4 accent-[#f5a400]"
-                    />
-                    <span className="min-w-0 flex-1">
-                      <span className="block font-bold text-[#222]">{selection.addon.name}</span>
+                    <div className="flex items-start justify-between gap-3">
+                      <label className="flex min-w-0 cursor-pointer items-start gap-3 pr-2">
+                        <input
+                          type="checkbox"
+                          checked={selected}
+                          onChange={() => props.onToggleAddon(selection.addon.code)}
+                          className="mt-1 h-4 w-4 shrink-0 accent-[#f5a400]"
+                        />
+                        <span className="font-bold text-[#222]">{selection.addon.name}</span>
+                      </label>
+                      <div className="flex shrink-0 items-center rounded border border-[#ddd] bg-white" aria-label={`${selection.addon.name} quantity`}>
+                        <button type="button" aria-label={`Decrease ${selection.addon.name} quantity`} disabled={selection.quantity <= 1} onClick={() => props.onAddonQuantityChange(selection.addon.code, selection.quantity - 1)} className="h-7 w-7 text-sm disabled:opacity-35">−</button>
+                        <span className="min-w-7 text-center text-xs font-bold" aria-live="polite">{selection.quantity}</span>
+                        <button type="button" aria-label={`Increase ${selection.addon.name} quantity`} onClick={() => props.onAddonQuantityChange(selection.addon.code, selection.quantity + 1)} className="h-7 w-7 text-sm">+</button>
+                      </div>
+                    </div>
+                    <div className="ml-7 min-w-0">
                       <span className="mt-1 block text-[#666]">
                         {selection.chargeable ? (
                           <>
-                            {money(selection.addon.amount, currency, locale)} x {selection.quantityLabel}
-                            {selection.subtotal > 0 ? (
+                            {money(selection.addon.amount, currency, locale)} × {selection.quantity}
+                            {selected ? (
                               <b className="ml-1 text-[#ff5b00]">= {money(selection.subtotal, currency, locale)}</b>
                             ) : null}
                           </>
@@ -794,21 +869,18 @@ function TourBookingForm(props: {
                           <b className="text-[#777]">{t('requestOnly')}</b>
                         )}
                       </span>
-                      {selection.disabled ? (
-                        <span className="mt-1 block text-[#999]">{t('addonNeedTravelers')}</span>
-                      ) : null}
                       {selection.addon.description ? (
                         <span className="mt-1 block text-[#777]">{selection.addon.description}</span>
                       ) : null}
-                    </span>
-                  </label>
+                    </div>
+                  </div>
                 )
               })}
             </div>
           </div>
         ) : null}
 
-        <div className="flex min-w-[200px] flex-col justify-between border-t border-[#f0d58a] pt-4 lg:col-start-3 lg:row-span-2 lg:row-start-1 lg:border-l lg:border-t-0 lg:pl-5 lg:pt-0">
+        <div className="flex min-w-[200px] flex-col border-t border-[#f0d58a] pt-4 lg:col-start-3 lg:row-span-2 lg:row-start-1 lg:border-l lg:border-t-0 lg:pl-5 lg:pt-0">
           <div>
             <p className="text-[13px] text-[#777]">{t('estimatedTotal')}</p>
             <p className="text-[28px] font-bold text-[#ff5b00]">
@@ -854,17 +926,22 @@ function Counter({
   min,
   onChange,
   hint,
+  max,
 }: {
   label: string
   value: number
   min: number
   onChange: (value: number) => void
   hint?: string
+  max?: number
 }) {
   return (
     <div>
       <div className="flex items-center justify-between gap-3">
-        <span className="text-[14px] font-bold">{label}</span>
+        <span className="flex min-w-0 items-baseline gap-2 text-[14px]">
+          <span className="font-bold">{label}</span>
+          {hint ? <span className="whitespace-nowrap font-semibold text-[#ff5b00]">{hint}</span> : null}
+        </span>
         <div className="flex items-center gap-2">
           <button
             type="button"
@@ -877,14 +954,14 @@ function Counter({
           <span className="w-8 text-center font-bold">{value}</span>
           <button
             type="button"
-            className="h-8 w-8 rounded border bg-white"
+            className="h-8 w-8 rounded border bg-white disabled:opacity-40"
+            disabled={max !== undefined && value >= Math.max(0, max)}
             onClick={() => onChange(value + 1)}
           >
             +
           </button>
         </div>
       </div>
-      {hint ? <p className="mt-1 text-[12px] text-[#999]">{hint}</p> : null}
     </div>
   )
 }

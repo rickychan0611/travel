@@ -19,15 +19,13 @@ function formatAddonAttribute(item: CartItem) {
     .join('; ')
 }
 
-function mainLineAttributes(item: CartItem) {
+function mainLineAttributes(item: CartItem, line: CartItem['priceLines'][number]) {
   return [
     { key: 'Departure Date', value: item.departureDate },
-    { key: 'Party Size',     value: String(item.partySize) },
-    ...(item.lineItemProperties
-      ? Object.entries(item.lineItemProperties)
-          .filter((entry): entry is [string, string] => Boolean(entry[1]))
-          .map(([key, value]) => ({ key, value: String(value) }))
-      : []),
+    { key: 'Booking ID', value: item.bookingId },
+    { key: 'Rate', value: line.label },
+    ...(line.roomNumber ? [{ key: 'Room', value: String(line.roomNumber) }] : []),
+    ...Object.entries(line.attributes ?? {}).map(([key, value]) => ({ key, value })),
     ...(item.pickupLocationId
       ? [{ key: 'Pickup Location', value: item.pickupLocationId }]
       : []),
@@ -40,7 +38,7 @@ function mainLineAttributes(item: CartItem) {
 function addonLineAttributes(item: CartItem, addon: CartItem['addons'][number]) {
   return [
     { key: 'Parent Tour', value: item.productTitle },
-    { key: 'Tour Variant', value: item.variantId },
+    { key: 'Booking ID', value: item.bookingId },
     { key: 'Departure Date', value: item.departureDate },
     { key: 'Add-on Code', value: addon.id },
   ]
@@ -64,11 +62,11 @@ export async function POST(request: NextRequest) {
   }
 
   const lines = items.flatMap((item) => [
-    {
-      merchandiseId: item.variantId,
-      quantity: 1,
-      attributes: mainLineAttributes(item),
-    },
+    ...item.priceLines.map((line) => ({
+      merchandiseId: line.variantId,
+      quantity: line.quantity,
+      attributes: mainLineAttributes(item, line),
+    })),
     ...item.addons
       .filter((addon) => addon.variantId && addon.price > 0 && addon.quantity > 0)
       .map((addon) => ({

@@ -56,6 +56,10 @@ export const METAOBJECT_DEFINITIONS = [
       ['status', 'Status', 'single_line_text_field'],
       ['remaining_stock', 'Remaining stock', 'number_integer'],
       ['currency', 'Currency', 'single_line_text_field'],
+      ['pricing_mode', 'Pricing mode', 'single_line_text_field'],
+      ['stock_type', 'Stock type', 'number_integer'],
+      ['source_stock', 'Source stock', 'number_integer'],
+      ['sold_stock', 'Sold stock', 'number_integer'],
       ['prices_json', 'Prices JSON', 'json'],
       ['variant_ids_json', 'Variant IDs JSON', 'json'],
     ],
@@ -263,17 +267,33 @@ export function buildTourVariants(json) {
 
   for (const departure of availability) {
     if (!departure?.date || departure.stockStatus !== 200) continue
-    for (const price of departure.prices || []) {
-      if (!price?.label || !Number(price.amount)) continue
+    const sourcePrices = (departure.prices || []).filter((price) => price?.label && Number(price.amount))
+    const roomMode = departure.isGroupRoom != null
+      ? Boolean(departure.isGroupRoom)
+      : json?.pricing?.pricingMode === 'room_occupancy' || sourcePrices.some((price) => ADULT_PRICE_TYPES.has(Number(price.priceType)))
+    const genericChild = sourcePrices.find((price) => Number(price.priceType) === 2)
+    const normalizedPrices = roomMode
+      ? sourcePrices.filter((price) => ADULT_PRICE_TYPES.has(Number(price.priceType))).flatMap((roomPrice) => [
+          { ...roomPrice, travelerType: 'adult', variantLabel: `${String(roomPrice.label).trim()} · Adult` },
+          ...(genericChild ? [{ ...genericChild, priceType: Number(roomPrice.priceType), label: roomPrice.label, travelerType: 'child', variantLabel: `${String(roomPrice.label).trim()} · Child` }] : []),
+        ])
+      : sourcePrices.map((price) => ({
+          ...price,
+          travelerType: Number(price.priceType) === 1 ? 'adult' : Number(price.priceType) === 2 ? 'child' : Number(price.priceType) === 7 ? 'senior' : undefined,
+          variantLabel: String(price.label).trim(),
+        }))
+    for (const price of normalizedPrices) {
       variants.push({
         date: departure.date,
         priceType: Number(price.priceType || 0),
-        label: String(price.label).trim(),
+        travelerType: price.travelerType,
+        roomType: roomMode ? String(price.label).trim() : undefined,
+        label: price.variantLabel,
         optionValues: {
           'Departure Date': departure.date,
-          'Rate Type': String(price.label).trim(),
+          'Rate Type': price.variantLabel,
         },
-        sku: `${productCode}-${departure.date}-${price.priceType}-${slugify(price.label)}`.toUpperCase(),
+        sku: `${productCode}-${departure.date}-${price.priceType}-${price.travelerType || slugify(price.label)}`.toUpperCase(),
         price: moneyValue(price.amount),
         currency: departure.currency || json?.pricing?.requestedCurrency || json?.pricing?.defaultCurrency || 'USD',
         inventoryPolicy: 'CONTINUE',
@@ -391,6 +411,14 @@ export function buildProductMetafields(json) {
   const prices = priceRangeFromVariants(variants, pricing)
   const departures = departureRange(pricing.availability || [])
   const destinations = destinationNames(product)
+  const pricingMode = pricing.pricingMode
+    || (pricing.availability?.some((day) => day.isGroupRoom) || variants.some((variant) => ADULT_PRICE_TYPES.has(Number(variant.priceType))) ? 'room_occupancy' : 'per_person')
+  const rateTemplate = [...new Map(variants.map((variant) => {
+    const rateType = variant.roomType || variant.label
+    const travelerType = variant.travelerType || (variant.priceType === 2 ? 'child' : variant.priceType === 7 ? 'senior' : 'adult')
+    const item = { rateType, travelerType }
+    return [`${rateType}:${travelerType}`, item]
+  })).values()]
   return [
     ['product_code', getProductCode(json), 'single_line_text_field'],
     ['group_no', product.groupNo || '', 'single_line_text_field'],
@@ -409,11 +437,14 @@ export function buildProductMetafields(json) {
     ['latest_departure', departures.latest, 'date'],
     ['product_type', inferProductType(product, variants), 'single_line_text_field'],
     ['confirm_method', inferConfirmMethod(json), 'single_line_text_field'],
+    ['pricing_mode', pricingMode, 'single_line_text_field'],
+    ['rate_template', asJsonMetafieldValue(rateTemplate), 'json'],
     ['bookable', variants.length > 0 ? 'true' : 'false', 'boolean'],
     ['last_synced_at', new Date().toISOString(), 'date_time'],
     ['source_url', json.source?.productPageUrl || '', 'url'],
     ['last_extracted_at', json.extractedAt || new Date().toISOString(), 'date_time'],
     ['availability_summary', asJsonMetafieldValue({
+      pricingMode,
       firstAvailableDate: pricing.firstAvailableDate || pricing.availability?.[0]?.date || null,
       dateCount: pricing.availability?.length || 0,
       basePrices: pricing.basePrices || [],
@@ -646,6 +677,9 @@ export function buildMetaobjectEntries(jsonByLocale, syncSeed = {}) {
   }
 
   for (const departure of baseJson.pricing?.availability || []) {
+    const variantIds = Object.fromEntries((syncSeed.variants || [])
+      .filter((variant) => variant.date === departure.date && variant.shopifyVariantId)
+      .map((variant) => [`${variant.priceType}:${variant.travelerType || 'rate'}`, variant.shopifyVariantId]))
     entries.push({
       type: 'tour_departure',
       handle: stableHandle(productCode, 'departure', departure.date),
@@ -655,8 +689,12 @@ export function buildMetaobjectEntries(jsonByLocale, syncSeed = {}) {
         field('status', departure.stockStatus === 200 ? 'open' : 'closed'),
         field('remaining_stock', Number(departure.remainingStock ?? departure.groupStock ?? 0)),
         field('currency', departure.currency || baseJson.pricing?.requestedCurrency || 'USD'),
-        field('prices_json', asJsonMetafieldValue(departure.prices || [])),
-        field('variant_ids_json', asJsonMetafieldValue({})),
+        field('pricing_mode', departure.isGroupRoom ? 'room_occupancy' : 'per_person'),
+        field('stock_type', Number(departure.stockType || 0)),
+        field('source_stock', Number(departure.groupStock || 0)),
+        field('sold_stock', Number(departure.groupSaleStock || 0)),
+        field('prices_json', asJsonMetafieldValue(buildTourVariants(baseJson).filter((variant) => variant.date === departure.date).map(({ priceType, travelerType, roomType, price }) => ({ priceType, travelerType, label: roomType, amount: Number(price) })))),
+        field('variant_ids_json', asJsonMetafieldValue(variantIds)),
       ]),
     })
   }
@@ -688,7 +726,7 @@ export function buildManifestSkeleton({ jsonByLocale, existingManifest = {}, sta
     variants: variants.map((variant) => ({
       ...variant,
       shopifyVariantId: existingManifest.variants?.find?.(
-        (item) => item.date === variant.date && Number(item.priceType) === variant.priceType,
+        (item) => item.date === variant.date && Number(item.priceType) === variant.priceType && (item.travelerType || 'adult') === (variant.travelerType || 'adult'),
       )?.shopifyVariantId || null,
     })),
     addons,
@@ -711,6 +749,26 @@ export function buildDryRunPayload(jsonByLocale, existingManifest = {}, status =
     metaobjects: buildMetaobjectEntries(jsonByLocale, manifest),
     manifest,
   }
+}
+
+export function nonShippableInventoryItemInput() {
+  return { requiresShipping: false }
+}
+
+export function buildTourVariantMetafields(ownerId, variant) {
+  return [
+    { ownerId, namespace: 'toursbms', key: 'departure_date', type: 'single_line_text_field', value: variant.date },
+    { ownerId, namespace: 'toursbms', key: 'price_type', type: 'number_integer', value: String(variant.priceType) },
+    ...(variant.travelerType
+      ? [{ ownerId, namespace: 'toursbms', key: 'traveler_type', type: 'single_line_text_field', value: variant.travelerType }]
+      : []),
+  ]
+}
+
+export function buildAddonVariantMetafields(ownerId, addon) {
+  return [
+    { ownerId, namespace: 'toursbms', key: 'addon_code', type: 'single_line_text_field', value: addon.code },
+  ]
 }
 
 export function extractDayDescriptionHtml(day) {

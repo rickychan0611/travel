@@ -56,6 +56,8 @@ export type AdminVariant = {
   inventoryQuantity: number | null
   date: string
   rateType: string
+  priceType: number
+  travelerType?: 'adult' | 'child' | 'senior'
 }
 
 export type AdminProductDetail = AdminProductListItem & {
@@ -128,6 +130,8 @@ const PRODUCT_FRAGMENT = `#graphql
         inventoryQuantity
         selectedOptions { name value }
         departureDate: metafield(namespace: "toursbms", key: "departure_date") { value }
+        priceType: metafield(namespace: "toursbms", key: "price_type") { value }
+        travelerType: metafield(namespace: "toursbms", key: "traveler_type") { value }
       }
     }
     metafields(first: 100, namespace: "toursbms") {
@@ -276,6 +280,21 @@ const VARIANTS_BULK_CREATE_MUTATION = `#graphql
   mutation AdminVariantsBulkCreate($productId: ID!, $variants: [ProductVariantsBulkInput!]!) {
     productVariantsBulkCreate(productId: $productId, variants: $variants) {
       productVariants { id title price }
+      userErrors { field message }
+    }
+  }
+`
+
+const INITIALIZE_DATE_PRICE_VARIANTS_MUTATION = `#graphql
+  mutation AdminInitializeDatePriceVariants($identifier: ProductSetIdentifiers, $input: ProductSetInput!, $synchronous: Boolean!) {
+    productSet(identifier: $identifier, input: $input, synchronous: $synchronous) {
+      product {
+        id
+        variants(first: 250) {
+          nodes { id title price }
+        }
+      }
+      productSetOperation { userErrors { field message } }
       userErrors { field message }
     }
   }
@@ -435,15 +454,20 @@ function mapProduct(product: RawProduct): AdminProductDetail {
     pickupDropoffs: metaobjects(product.pickupDropoffRefs),
     addons: metaobjects(product.addonRefs),
     departures: metaobjects(product.departureRefs),
-    variants: variants.map((variant) => ({
+    variants: variants.map((variant) => {
+      const optionRate = optionValue(variant, 'Rate Type') || variant.title
+      const travelerType = (variant.travelerType?.value || (/\s[·-]\sChild$/i.test(optionRate) ? 'child' : /\s[·-]\sSenior$/i.test(optionRate) ? 'senior' : /\s[·-]\sAdult$/i.test(optionRate) ? 'adult' : '')) as AdminVariant['travelerType'] | ''
+      return {
       id: variant.id,
       title: variant.title,
       sku: variant.sku ?? '',
       price: variant.price,
       inventoryQuantity: variant.inventoryQuantity,
       date: variant.departureDate?.value || optionValue(variant, 'Departure Date'),
-      rateType: optionValue(variant, 'Rate Type') || variant.title,
-    })),
+      rateType: optionRate.replace(/\s[·-]\s(?:Adult|Child|Senior)$/i, ''),
+      priceType: Number(variant.priceType?.value || 0),
+      travelerType: travelerType || undefined,
+    }}),
     adminUrl: shopifyAdminProductUrl(numericId),
   }
 }
@@ -461,6 +485,37 @@ export async function listAdminProducts(options: { q?: string; first?: number } 
   return (data.products?.nodes ?? []).map(mapProduct)
 }
 
+export async function resolveAdminProductCodes(productCodes: string[]) {
+  const requestedCodes = [...new Set(productCodes.map(normalizeProductCode).filter(Boolean))]
+  const requested = new Set(requestedCodes)
+  const resolved = new Map<string, string>()
+  let after: string | null = null
+
+  do {
+    const data: ProductsResponse = assertGraphQl<ProductsResponse>(
+      await shopifyAdminClient.request(PRODUCTS_QUERY, {
+        variables: { first: 250, after, query: null },
+        cache: 'no-store',
+      }),
+      'Resolve product codes',
+    )
+    for (const product of data.products?.nodes ?? []) {
+      const code = normalizeProductCode(metafieldValue(product, 'product_code'))
+      if (!requested.has(code)) continue
+      const existingId = resolved.get(code)
+      if (existingId && existingId !== product.id) {
+        throw new Error(`Product code ${code} is used by more than one Shopify product`)
+      }
+      resolved.set(code, product.id)
+    }
+    after = data.products?.pageInfo?.hasNextPage
+      ? data.products.pageInfo.endCursor
+      : null
+  } while (after)
+
+  return resolved
+}
+
 export async function getAdminProductByHandle(handle: string) {
   const data = assertGraphQl<ProductsResponse>(
     await shopifyAdminClient.request(PRODUCT_BY_HANDLE_QUERY, {
@@ -471,6 +526,124 @@ export async function getAdminProductByHandle(handle: string) {
   )
   const product = data.products?.nodes?.[0]
   return product ? mapProduct(product) : null
+}
+
+export function normalizeProductCode(value: string) {
+  return value.trim().toUpperCase()
+}
+
+export function validateProductCode(value: string) {
+  const code = normalizeProductCode(value)
+  if (!code) throw new Error('Product code is required')
+  if (!/^[A-Z0-9][A-Z0-9_-]{2,39}$/.test(code)) {
+    throw new Error('Product code must be 3-40 characters using only letters, numbers, hyphens, or underscores')
+  }
+  return code
+}
+
+async function assertUniqueProductCode(productId: string, productCode: string) {
+  let after: string | null = null
+  do {
+    const data: ProductsResponse = assertGraphQl<ProductsResponse>(
+      await shopifyAdminClient.request(PRODUCTS_QUERY, {
+        variables: { first: 250, after, query: null },
+        cache: 'no-store',
+      }),
+      'Check product code uniqueness',
+    )
+    const duplicate = (data.products?.nodes ?? []).find((candidate: RawProduct) =>
+      candidate.id !== productId
+      && normalizeProductCode(metafieldValue(candidate, 'product_code')) === productCode,
+    )
+    if (duplicate) {
+      throw new Error(`Product code ${productCode} is already used by “${duplicate.title}”`)
+    }
+    after = data.products?.pageInfo?.hasNextPage
+      ? data.products.pageInfo.endCursor
+      : null
+  } while (after)
+}
+
+/**
+ * Renames the editable Shopify-side product identity. Raw ToursBMS snapshots and
+ * historical orders are intentionally not rewritten because they are source/audit records.
+ */
+export async function renameAdminProductCode(handle: string, requestedCode: string) {
+  const product = await getAdminProductByHandle(handle)
+  if (!product) throw new Error('Product not found')
+
+  const oldCode = normalizeProductCode(product.productCode)
+  const newCode = validateProductCode(requestedCode)
+  if (oldCode === newCode) return { oldCode, newCode, updatedReferences: 0, updatedSkus: 0 }
+
+  await assertUniqueProductCode(product.id, newCode)
+
+  const references = [
+    ...product.content,
+    ...product.highlights,
+    ...product.itineraryDays,
+    ...product.costSections,
+    ...product.policyNotices,
+    ...product.pickupDropoffs,
+    ...product.addons,
+    ...product.departures,
+  ]
+  const uniqueReferences = [...new Map(references.map((item) => [item.id, item])).values()]
+  for (const reference of uniqueReferences) {
+    if (normalizeProductCode(reference.fields.product_code || '') !== newCode) {
+      await updateAdminMetaobject(reference.id, { product_code: newCode })
+    }
+  }
+
+  const escapedOldCode = oldCode.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+  const codePattern = oldCode ? new RegExp(escapedOldCode, 'gi') : null
+  const variants = codePattern
+    ? product.variants.flatMap((variant) => {
+        const sku = variant.sku.replace(codePattern, newCode)
+        return sku !== variant.sku ? [{ id: variant.id, sku }] : []
+      })
+    : []
+  if (variants.length > 0) {
+    const data = assertGraphQl<VariantsBulkUpdateResponse>(
+      await shopifyAdminClient.request(VARIANTS_BULK_UPDATE_MUTATION, {
+        variables: { productId: product.id, variants },
+      }),
+      'Update product-code SKUs',
+    )
+    assertUserErrors(data.productVariantsBulkUpdate?.userErrors, 'Update product-code SKUs')
+  }
+
+  const tags = [
+    ...product.tags.filter((tag) => !/^code:/i.test(tag)),
+    `code:${newCode}`,
+  ]
+  const data = assertGraphQl<ProductSetResponse>(
+    await shopifyAdminClient.request(PRODUCT_SET_MUTATION, {
+      variables: {
+        identifier: { id: product.id },
+        input: {
+          tags,
+          metafields: [{
+            namespace: 'toursbms',
+            key: 'product_code',
+            type: 'single_line_text_field',
+            value: newCode,
+          }],
+        },
+        synchronous: true,
+      },
+    }),
+    'Rename product code',
+  )
+  assertUserErrors(data.productSet?.userErrors, 'Rename product code')
+  assertUserErrors(data.productSet?.productSetOperation?.userErrors, 'Rename product code operation')
+
+  return {
+    oldCode,
+    newCode,
+    updatedReferences: uniqueReferences.length,
+    updatedSkus: variants.length,
+  }
 }
 
 export async function updateAdminProductBasic(input: {
@@ -565,13 +738,16 @@ export async function deleteAdminProduct(productId: string) {
 }
 
 export async function updateProductFilterMetafields(productId: string, fields: Record<string, string | boolean | number>) {
-  const metafields = Object.entries(fields).map(([key, value]) => ({
-    ownerId: productId,
-    namespace: 'toursbms',
-    key,
-    type: metafieldType(key),
-    value: stringifyMetafieldValue(key, value),
-  }))
+  const metafields = Object.entries(fields)
+    .filter(([, value]) => typeof value !== 'string' || value.trim() !== '')
+    .map(([key, value]) => ({
+      ownerId: productId,
+      namespace: 'toursbms',
+      key,
+      type: metafieldType(key),
+      value: stringifyMetafieldValue(key, value),
+    }))
+  if (metafields.length === 0) return
   const data = assertGraphQl<MetafieldsSetResponse>(
     await shopifyAdminClient.request(METAFIELDS_SET_MUTATION, { variables: { metafields } }),
     'Update filter facts',
@@ -653,36 +829,79 @@ export async function updateVariantPrice(productId: string, variantId: string, p
   assertUserErrors(data.productVariantsBulkUpdate?.userErrors, 'Update variant price')
 }
 
-export async function createDatePriceVariant(input: {
+export async function createDatePriceVariants(input: {
   productId: string
   date: string
-  rateType: string
-  price: string
-  priceType?: string
-  sku?: string
+  rates: Array<{ rateType: string; price: string; priceType: number; travelerType?: 'adult' | 'child' | 'senior'; sku?: string }>
 }) {
   const data = assertGraphQl<VariantsBulkCreateResponse>(
     await shopifyAdminClient.request(VARIANTS_BULK_CREATE_MUTATION, {
       variables: {
         productId: input.productId,
-        variants: [{
-          price: input.price,
-          sku: input.sku || undefined,
+        variants: input.rates.map((rate) => ({
+          price: rate.price,
+          sku: rate.sku || undefined,
           inventoryPolicy: 'CONTINUE',
           optionValues: [
             { optionName: 'Departure Date', name: input.date },
-            { optionName: 'Rate Type', name: input.rateType },
+            { optionName: 'Rate Type', name: rate.travelerType && rate.priceType >= 3 && rate.priceType <= 6 ? `${rate.rateType} · ${rate.travelerType[0].toUpperCase()}${rate.travelerType.slice(1)}` : rate.rateType },
           ],
           metafields: [
             { namespace: 'toursbms', key: 'departure_date', type: 'single_line_text_field', value: input.date },
-            { namespace: 'toursbms', key: 'price_type', type: 'number_integer', value: input.priceType || '0' },
+            { namespace: 'toursbms', key: 'price_type', type: 'number_integer', value: String(rate.priceType) },
+            ...(rate.travelerType ? [{ namespace: 'toursbms', key: 'traveler_type', type: 'single_line_text_field', value: rate.travelerType }] : []),
           ],
-        }],
+        })),
       },
     }),
     'Create date price',
   )
   assertUserErrors(data.productVariantsBulkCreate?.userErrors, 'Create date price')
+  return data.productVariantsBulkCreate?.productVariants ?? []
+}
+
+export async function initializeDatePriceVariants(input: {
+  productId: string
+  date: string
+  rates: Array<{ rateType: string; price: string; priceType: number; travelerType?: 'adult' | 'child' | 'senior'; sku?: string }>
+}) {
+  const optionName = (rate: (typeof input.rates)[number]) =>
+    rate.travelerType && rate.priceType >= 3 && rate.priceType <= 6
+      ? `${rate.rateType} · ${rate.travelerType[0].toUpperCase()}${rate.travelerType.slice(1)}`
+      : rate.rateType
+  const rateNames = [...new Set(input.rates.map(optionName))]
+  const data = assertGraphQl<InitializeDatePriceVariantsResponse>(
+    await shopifyAdminClient.request(INITIALIZE_DATE_PRICE_VARIANTS_MUTATION, {
+      variables: {
+        identifier: { id: input.productId },
+        input: {
+          productOptions: [
+            { name: 'Departure Date', position: 1, values: [{ name: input.date }] },
+            { name: 'Rate Type', position: 2, values: rateNames.map((name) => ({ name })) },
+          ],
+          variants: input.rates.map((rate) => ({
+            price: rate.price,
+            sku: rate.sku || undefined,
+            inventoryPolicy: 'CONTINUE',
+            optionValues: [
+              { optionName: 'Departure Date', name: input.date },
+              { optionName: 'Rate Type', name: optionName(rate) },
+            ],
+            metafields: [
+              { namespace: 'toursbms', key: 'departure_date', type: 'single_line_text_field', value: input.date },
+              { namespace: 'toursbms', key: 'price_type', type: 'number_integer', value: String(rate.priceType) },
+              ...(rate.travelerType ? [{ namespace: 'toursbms', key: 'traveler_type', type: 'single_line_text_field', value: rate.travelerType }] : []),
+            ],
+          })),
+        },
+        synchronous: true,
+      },
+    }),
+    'Initialize date prices',
+  )
+  assertUserErrors(data.productSet?.userErrors, 'Initialize date prices')
+  assertUserErrors(data.productSet?.productSetOperation?.userErrors, 'Initialize date price operation')
+  return data.productSet?.product?.variants.nodes ?? []
 }
 
 export async function deleteDatePriceVariant(productId: string, variantId: string) {
@@ -784,7 +1003,7 @@ function metafieldType(key: string) {
   if (['duration_days'].includes(key)) return 'number_integer'
   if (['min_price', 'max_price'].includes(key)) return 'number_decimal'
   if (['bookable'].includes(key)) return 'boolean'
-  if (['destinations', 'labels'].includes(key)) return 'json'
+  if (['destinations', 'labels', 'rate_template'].includes(key)) return 'json'
   if (['earliest_departure', 'latest_departure'].includes(key)) return 'date'
   if (['last_synced_at'].includes(key)) return 'date_time'
   return 'single_line_text_field'
@@ -828,6 +1047,8 @@ type RawVariant = {
   inventoryQuantity: number | null
   selectedOptions: Array<{ name: string; value: string }>
   departureDate?: { value: string } | null
+  priceType?: { value: string } | null
+  travelerType?: { value: string } | null
 }
 type RawMetaobject = {
   id: string
@@ -880,7 +1101,14 @@ type MetaobjectUpsertResponse = {
 type MetaobjectUpdateResponse = { metaobjectUpdate?: { userErrors?: UserError[] } }
 type MetaobjectDeleteResponse = { metaobjectDelete?: { userErrors?: UserError[] } }
 type VariantsBulkUpdateResponse = { productVariantsBulkUpdate?: { userErrors?: UserError[] } }
-type VariantsBulkCreateResponse = { productVariantsBulkCreate?: { userErrors?: UserError[] } }
+type VariantsBulkCreateResponse = { productVariantsBulkCreate?: { productVariants?: Array<{ id: string; title: string; price: string }>; userErrors?: UserError[] } }
+type InitializeDatePriceVariantsResponse = {
+  productSet?: {
+    product?: { variants: { nodes: Array<{ id: string; title: string; price: string }> } }
+    userErrors?: UserError[]
+    productSetOperation?: { userErrors?: UserError[] }
+  }
+}
 type VariantsBulkDeleteResponse = { productVariantsBulkDelete?: { userErrors?: UserError[] } }
 type ProductCreateMediaResponse = {
   productCreateMedia?: {

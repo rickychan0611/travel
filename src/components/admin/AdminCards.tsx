@@ -1,4 +1,6 @@
 import type { ReactNode } from 'react'
+import { ChevronDown } from 'lucide-react'
+import { AdminPanelCloseButton } from './AdminPanelCloseButton'
 
 export function AdminPageHeader({
   title,
@@ -34,11 +36,36 @@ export function AdminPanel({
   title,
   description,
   children,
+  collapsible = false,
+  defaultOpen = false,
 }: {
   title?: string
   description?: string
   children: ReactNode
+  collapsible?: boolean
+  defaultOpen?: boolean
 }) {
+  if (collapsible && title) {
+    return (
+      <details open={defaultOpen} className="group rounded-lg border border-slate-200 bg-white shadow-sm">
+        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 px-4 py-3 marker:hidden [&::-webkit-details-marker]:hidden">
+          <span className="min-w-0">
+            <span className="block font-medium text-slate-950">{title}</span>
+            {description ? <span className="mt-1 block text-sm text-slate-600">{description}</span> : null}
+          </span>
+          <span className="inline-flex size-8 shrink-0 items-center justify-center rounded-md border border-slate-200 text-slate-500 transition group-open:rotate-180" aria-hidden="true">
+            <ChevronDown className="size-4" />
+          </span>
+        </summary>
+        <div className="border-t border-slate-200 p-4">
+          {children}
+          <div className="mt-5 flex justify-end border-t border-slate-200 pt-4">
+            <AdminPanelCloseButton title={title} />
+          </div>
+        </div>
+      </details>
+    )
+  }
   return (
     <section className="rounded-lg border border-slate-200 bg-white shadow-sm">
       {title ? (

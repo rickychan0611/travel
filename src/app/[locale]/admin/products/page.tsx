@@ -1,7 +1,6 @@
 import Link from 'next/link'
-import { AdminPageHeader, AdminPanel } from '@/components/admin/AdminCards'
+import { AdminLinkButton, AdminPageHeader, AdminPanel } from '@/components/admin/AdminCards'
 import { listAdminProducts } from '@/lib/admin/shopify-admin'
-import { createProductAction } from './actions'
 
 export const dynamic = 'force-dynamic'
 
@@ -21,32 +20,10 @@ export default async function AdminProductsPage({
       <AdminPageHeader
         title="Products"
         description="Manage Shopify tour products, filter facts, synced content, and date/rate variants."
+        action={<AdminLinkButton href={`/${locale}/admin/products/new`}>+ Create new tour</AdminLinkButton>}
       />
 
-      <div className="mb-4 grid gap-4 lg:grid-cols-[360px_minmax(0,1fr)]">
-        <AdminPanel title="Create new tour" description="Start a blank Shopify tour product. You can add content, dates, images, and add-ons after creation.">
-          <form action={createProductAction} className="space-y-3">
-            <input type="hidden" name="locale" value={locale} />
-            <label className="block">
-              <span className="text-sm text-slate-700">Tour title</span>
-              <input name="title" required className="mt-1 h-10 w-full rounded-lg border border-slate-300 bg-white px-3 text-sm text-slate-950" />
-            </label>
-            <label className="block">
-              <span className="text-sm text-slate-700">Product code</span>
-              <input name="productCode" placeholder="Optional" className="mt-1 h-10 w-full rounded-lg border border-slate-300 bg-white px-3 font-mono text-sm text-slate-950" />
-            </label>
-            <label className="block">
-              <span className="text-sm text-slate-700">URL handle</span>
-              <input name="handle" placeholder="Optional" className="mt-1 h-10 w-full rounded-lg border border-slate-300 bg-white px-3 font-mono text-sm text-slate-950" />
-            </label>
-            <label className="block">
-              <span className="text-sm text-slate-700">Product type</span>
-              <input name="productType" defaultValue="Tour" className="mt-1 h-10 w-full rounded-lg border border-slate-300 bg-white px-3 text-sm text-slate-950" />
-            </label>
-            <button className="rounded-lg bg-slate-950 px-4 py-2 text-sm font-semibold text-white">Create product</button>
-          </form>
-        </AdminPanel>
-
+      <div className="mb-4">
         <AdminPanel title="Product list">
         <form className="mb-4 flex gap-2">
           <input

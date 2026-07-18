@@ -39,17 +39,17 @@ export function TourBookingPanel({
     const partySizeRaw =
       selectedVariant.selectedOptions.find(o => o.name === 'Party Size')?.value ?? '1'
     addItem({
-      variantId: selectedVariant.id,
+      bookingId: `${productHandle}-${selectedDate}-${Date.now()}`,
       productHandle,
       productTitle,
       departureDate: selectedDate,
-      partySize: parseInt(partySizeRaw),
-      pricePerPerson: parseFloat(selectedVariant.price.amount),
+      pricingMode: 'per_person',
+      travelers: { adults: parseInt(partySizeRaw), seniors: 0, children: 0 },
+      roomSummary: [],
+      priceLines: [{ variantId: selectedVariant.id, label: selectedVariant.title, quantity: parseInt(partySizeRaw), unitPrice: parseFloat(selectedVariant.price.amount) }],
       currencyCode: selectedVariant.price.currencyCode,
-      quantity: 1,
       pickupLocationId: null,
       addons: [],
-      lineItemProperties: {},
     })
     setAdded(true)
     setTimeout(() => setAdded(false), 2000)

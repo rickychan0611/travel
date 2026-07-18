@@ -242,6 +242,7 @@ export function UserBookingsPage({
                           {item.title}
                           {item.variantTitle ? ` · ${item.variantTitle}` : ''}
                           {item.quantity > 1 ? ` ×${item.quantity}` : ''}
+                          {item.customAttributes?.filter((attr) => ['Room', 'Occupants', 'Departure Date'].includes(attr.key)).map((attr) => ` · ${attr.key}: ${attr.value}`).join('')}
                         </li>
                       ))}
                     </ul>

@@ -1,6 +1,8 @@
 import { CacheRefreshForm } from '@/components/admin/CacheRefreshForm'
 import { AdminPageHeader, AdminPanel } from '@/components/admin/AdminCards'
+import { StorefrontRenderingToggle } from '@/components/admin/StorefrontRenderingToggle'
 import { getAdminUser } from '@/lib/admin/auth'
+import { getStorefrontSettings } from '@/lib/admin/storefront-settings'
 
 export const dynamic = 'force-dynamic'
 
@@ -18,6 +20,7 @@ export default async function AdminSettingsPage({
       </AdminPanel>
     )
   }
+  const storefrontSettings = await getStorefrontSettings()
 
   return (
     <>
@@ -26,6 +29,9 @@ export default async function AdminSettingsPage({
         description="Operational controls for cache refresh and Shopify connection health."
       />
       <div className="grid gap-4 lg:grid-cols-2">
+        <AdminPanel title="Storefront rendering" description="Control whether Shopify storefront data is cached. SSR is enabled by default during local development.">
+          <StorefrontRenderingToggle initialEnabled={storefrontSettings.ssrEnabled} />
+        </AdminPanel>
         <AdminPanel title="Cache refresh" description="Refresh Shopify product lists, tour pages, category pages, and product cards.">
           <CacheRefreshForm locale={locale} />
         </AdminPanel>

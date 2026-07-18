@@ -687,6 +687,7 @@ async function extractProduct(args) {
       availabilityEnd: end,
     },
     pricing: {
+      pricingMode: groups.some((group) => group.isGroupRoom === 1) ? 'room_occupancy' : 'per_person',
       requestedCurrency: args.currency,
       defaultCurrency: currency,
       supportedCurrencies: currencies,

@@ -18,6 +18,7 @@ export interface ShopifyProduct {
 // Lighter type returned by COLLECTION_PRODUCTS_QUERY (no description/vendor/metafields)
 export interface CollectionProduct {
   id: string
+  productCode?: { value: string } | null
   handle: string
   title: string
   localizedTitle?: string

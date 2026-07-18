@@ -8,16 +8,19 @@ import {
   DEFAULT_LOCALES,
   LOCALE_TO_TOURSBMS_LANG,
   METAOBJECT_DEFINITIONS,
+  buildAddonVariantMetafields,
   buildAddonProductPayload,
   buildDryRunPayload,
   buildManifestSkeleton,
   buildMetaobjectEntries,
   buildProductPayload,
   buildProductImages,
+  buildTourVariantMetafields,
   buildTourVariants,
   getProductCode,
   getProductHandle,
   moneyValue,
+  nonShippableInventoryItemInput,
 } from './lib/toursbms-shopify-sync.mjs'
 
 const DEFAULT_API_VERSION = '2026-01'
@@ -284,12 +287,24 @@ query ProductVariants($id: ID!, $after: String) {
         id
         sku
         selectedOptions { name value }
+        inventoryItem {
+          id
+          requiresShipping
+        }
       }
       pageInfo {
         hasNextPage
         endCursor
       }
     }
+  }
+}`
+
+const INVENTORY_ITEM_UPDATE_MUTATION = `#graphql
+mutation InventoryItemUpdate($id: ID!, $input: InventoryItemInput!) {
+  inventoryItemUpdate(id: $id, input: $input) {
+    inventoryItem { id requiresShipping }
+    userErrors { field message }
   }
 }`
 
@@ -343,6 +358,15 @@ query MetaobjectDefinition($type: String!) {
   metaobjectDefinitionByType(type: $type) {
     id
     type
+    fieldDefinitions { key }
+  }
+}`
+
+const METAOBJECT_DEFINITION_UPDATE = `#graphql
+mutation MetaobjectDefinitionUpdate($id: ID!, $definition: MetaobjectDefinitionUpdateInput!) {
+  metaobjectDefinitionUpdate(id: $id, definition: $definition) {
+    metaobjectDefinition { id type fieldDefinitions { key } }
+    userErrors { code field message }
   }
 }`
 
@@ -431,13 +455,10 @@ function toProductSetInput(payload, variants) {
       sku: variant.sku,
       price: variant.price,
       inventoryPolicy: variant.inventoryPolicy,
+      inventoryItem: nonShippableInventoryItemInput(),
       optionValues: [
         { optionName: 'Departure Date', name: variant.date },
         { optionName: 'Rate Type', name: variant.label },
-      ],
-      metafields: [
-        { namespace: 'toursbms', key: 'departure_date', type: 'single_line_text_field', value: variant.date },
-        { namespace: 'toursbms', key: 'price_type', type: 'number_integer', value: String(variant.priceType) },
       ],
     })),
   }
@@ -472,10 +493,8 @@ function toAddonProductSetInput(payload) {
       sku: addon.sku,
       price: moneyValue(addon.price),
       inventoryPolicy: 'CONTINUE',
+      inventoryItem: nonShippableInventoryItemInput(),
       optionValues: [{ optionName: 'Add-on', name: addon.optionName }],
-      metafields: [
-        { namespace: 'toursbms', key: 'addon_code', type: 'single_line_text_field', value: addon.code },
-      ],
     })),
     metafields: [
       { namespace: 'toursbms', key: 'hidden_addon_product', type: 'boolean', value: 'true' },
@@ -513,6 +532,30 @@ async function fetchAllProductVariants(client, productId) {
   return variants
 }
 
+async function setSyncedVariantMetafields(client, desiredVariants, syncedVariants, buildMetafields, label) {
+  const syncedBySku = new Map(syncedVariants.map((variant) => [variant.sku, variant]))
+  const metafields = desiredVariants.flatMap((variant) => {
+    const synced = syncedBySku.get(variant.sku)
+    return synced?.id ? buildMetafields(synced.id, variant) : []
+  })
+
+  for (let i = 0; i < metafields.length; i += 25) {
+    const data = await client.request(METAFIELDS_SET_MUTATION, { metafields: metafields.slice(i, i + 25) })
+    assertNoUserErrors(data, label)
+  }
+}
+
+async function ensureVariantsDoNotRequireShipping(client, variants, label) {
+  for (const variant of variants) {
+    if (!variant.inventoryItem?.id || variant.inventoryItem.requiresShipping === false) continue
+    const data = await client.request(INVENTORY_ITEM_UPDATE_MUTATION, {
+      id: variant.inventoryItem.id,
+      input: nonShippableInventoryItemInput(),
+    })
+    assertNoUserErrors(data, label)
+  }
+}
+
 async function fetchExistingProduct(client, productId) {
   if (!productId) return null
   const data = await client.request(EXISTING_PRODUCT_QUERY, { id: productId })
@@ -540,7 +583,17 @@ async function ensureMetaobjectDefinitions(client) {
   for (const definition of METAOBJECT_DEFINITIONS) {
     const existing = await client.request(METAOBJECT_DEFINITION_QUERY, { type: definition.type })
     if (existing.metaobjectDefinitionByType?.id) {
-      result[definition.type] = existing.metaobjectDefinitionByType.id
+      const existingDefinition = existing.metaobjectDefinitionByType
+      const existingKeys = new Set((existingDefinition.fieldDefinitions || []).map((field) => field.key))
+      const missingFields = definition.fields.filter(([key]) => !existingKeys.has(key))
+      if (missingFields.length > 0) {
+        const updated = await client.request(METAOBJECT_DEFINITION_UPDATE, {
+          id: existingDefinition.id,
+          definition: { fieldDefinitions: missingFields.map(([key, name, type]) => ({ create: { key, name, type } })) },
+        })
+        assertNoUserErrors(updated, `Update metaobject definition ${definition.type}`)
+      }
+      result[definition.type] = existingDefinition.id
       continue
     }
 
@@ -744,21 +797,28 @@ async function syncOneProduct(client, jsonByLocale, existingManifest, args) {
   const product = await productSet(client, toProductSetInput(productPayload, variants), `Sync product ${productPayload.handle}`)
   manifest.shopifyProductId = product.id
   const syncedVariants = await fetchAllProductVariants(client, product.id)
+  await ensureVariantsDoNotRequireShipping(client, syncedVariants, `Disable shipping ${productPayload.handle}`)
+  await setSyncedVariantMetafields(client, variants, syncedVariants, buildTourVariantMetafields, `Set variant metafields ${productPayload.handle}`)
   mergeVariantIds(manifest, syncedVariants)
 
   const addonPayload = buildAddonProductPayload(baseJson, manifest.addons, 'ACTIVE')
   const addonProduct = await productSet(client, toAddonProductSetInput(addonPayload), `Sync add-ons ${addonPayload.handle}`)
   manifest.shopifyAddonProductId = addonProduct.id
   const syncedAddonVariants = await fetchAllProductVariants(client, addonProduct.id)
+  await ensureVariantsDoNotRequireShipping(client, syncedAddonVariants, `Disable shipping ${addonPayload.handle}`)
+  await setSyncedVariantMetafields(client, addonPayload.variants, syncedAddonVariants, buildAddonVariantMetafields, `Set add-on variant metafields ${addonPayload.handle}`)
   mergeAddonVariantIds(manifest, syncedAddonVariants)
 
   const images = buildProductImages(baseJson, manifest.images || [])
   manifest.images = await attachProductMedia(client, product.id, images)
 
   if (preservingManualEdits && existingManifest?.metaobjects) {
-    manifest.metaobjects = existingManifest.metaobjects
+    const departureEntries = buildMetaobjectEntries(jsonByLocale, manifest).filter((entry) => entry.type === 'tour_departure')
+    const departureMetaobjects = await upsertMetaobjects(client, departureEntries)
+    manifest.metaobjects = { ...existingManifest.metaobjects, tour_departure: departureMetaobjects.tour_departure || [] }
     manifest.metaobjectDefinitions = definitionIds
     manifest.productReferenceMetafieldDefinitions = productReferenceDefinitionIds
+    await setProductReferences(client, product.id, manifest.metaobjects)
   } else {
     const entries = buildMetaobjectEntries(jsonByLocale, manifest)
     const metaobjects = await upsertMetaobjects(client, entries)

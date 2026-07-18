@@ -4,7 +4,7 @@ export type AdminRole = 'owner' | 'staff'
 
 // Temporary local/admin-build bypass while Clerk access is unavailable.
 // Set this back to false and restore the admin proxy matcher before production.
-const ADMIN_AUTH_DISABLED = true
+const ADMIN_AUTH_DISABLED = false
 
 export type AdminUser = {
   id: string

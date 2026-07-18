@@ -1,7 +1,8 @@
-/** Slim view-model for tour detail UI (locale-agnostic keys; values come from locale JSON). */
+import type { PricingMode } from './date-price-rates'
 
 export type TourPrice = {
   priceType: number
+  travelerType?: 'adult' | 'child' | 'senior'
   label: string
   amount: number
   shopifyVariantId?: string
@@ -16,6 +17,14 @@ export type TourAvailabilityDay = {
   currency: string
   prices: TourPrice[]
   lowestPrice: number
+  pricingMode: PricingMode
+}
+
+export type TravelerCounts = { adults: number; seniors: number; children: number }
+
+export type RoomAssignment = TravelerCounts & {
+  id: string
+  priceType: 3 | 4 | 5 | 6
 }
 
 export type TourItineraryStop = {
@@ -93,6 +102,7 @@ export type TourDetailData = {
   advanceDay: number
   advanceTime: string
   currency: string
+  pricingMode: PricingMode
   basePrices: TourPrice[]
   fromPrice: number
   availability: TourAvailabilityDay[]

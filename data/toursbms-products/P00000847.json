@@ -1,5 +1,6 @@
 {
-  "extractedAt": "2026-07-15T04:11:54.096Z",
+  "extractedAt": "2026-07-18T00:40:57.743Z",
+  "warnings": [],
   "product": {
     "productCode": "P00000847",
     "productViewCode": "R0000687",
@@ -152,10 +153,11 @@
     "text": "Groups with an English tour guide:Minimum of 2 people to be required.\n\nGroups with a Chinese tour guide:\nWednesday and Thursday: Minimum of 2 people to be required.\nMonday, Tuesday, Friday, Saturday, Sunday: Minimum of 4 people to be required.",
     "advanceDay": -1,
     "advanceTime": "",
-    "availabilityStart": "2026-07-14",
+    "availabilityStart": "2026-07-17",
     "availabilityEnd": "2027-12-31"
   },
   "pricing": {
+    "pricingMode": "per_person",
     "requestedCurrency": "USD",
     "defaultCurrency": {
       "currencyCode": "CI00000002",
@@ -195,7 +197,7 @@
         "currencyStatus": 200
       }
     ],
-    "firstAvailableDate": "2026-07-14 00:00:00",
+    "firstAvailableDate": "2026-07-17 00:00:00",
     "basePrices": [
       {
         "priceType": 1,
@@ -229,141 +231,6 @@
       }
     ],
     "availability": [
-      {
-        "date": "2026-07-14",
-        "groupDate": "2026-07-14 00:00:00",
-        "currency": "USD",
-        "stockType": 2,
-        "stockStatus": 200,
-        "groupStock": 0,
-        "groupSaleStock": 0,
-        "remainingStock": 0,
-        "isGroupRoom": false,
-        "isExceedStock": false,
-        "prices": [
-          {
-            "priceType": 1,
-            "label": "Adult",
-            "amount": 249,
-            "rewardPrice": 0,
-            "markup": 0,
-            "raw": {
-              "priceType": 1,
-              "groupPrice": 249,
-              "rewardPrice": 0,
-              "rewardType": 0,
-              "rewardValue": 0,
-              "markup": 0
-            }
-          },
-          {
-            "priceType": 2,
-            "label": "Child",
-            "amount": 229,
-            "rewardPrice": 0,
-            "markup": 0,
-            "raw": {
-              "priceType": 2,
-              "groupPrice": 229,
-              "rewardPrice": 0,
-              "rewardType": 0,
-              "rewardValue": 0,
-              "markup": 0
-            }
-          }
-        ],
-        "otherCurrencyGroupPriceInfo": []
-      },
-      {
-        "date": "2026-07-15",
-        "groupDate": "2026-07-15 00:00:00",
-        "currency": "USD",
-        "stockType": 2,
-        "stockStatus": 200,
-        "groupStock": 0,
-        "groupSaleStock": 0,
-        "remainingStock": 0,
-        "isGroupRoom": false,
-        "isExceedStock": false,
-        "prices": [
-          {
-            "priceType": 1,
-            "label": "Adult",
-            "amount": 249,
-            "rewardPrice": 0,
-            "markup": 0,
-            "raw": {
-              "priceType": 1,
-              "groupPrice": 249,
-              "rewardPrice": 0,
-              "rewardType": 0,
-              "rewardValue": 0,
-              "markup": 0
-            }
-          },
-          {
-            "priceType": 2,
-            "label": "Child",
-            "amount": 229,
-            "rewardPrice": 0,
-            "markup": 0,
-            "raw": {
-              "priceType": 2,
-              "groupPrice": 229,
-              "rewardPrice": 0,
-              "rewardType": 0,
-              "rewardValue": 0,
-              "markup": 0
-            }
-          }
-        ],
-        "otherCurrencyGroupPriceInfo": []
-      },
-      {
-        "date": "2026-07-16",
-        "groupDate": "2026-07-16 00:00:00",
-        "currency": "USD",
-        "stockType": 2,
-        "stockStatus": 200,
-        "groupStock": 0,
-        "groupSaleStock": 0,
-        "remainingStock": 0,
-        "isGroupRoom": false,
-        "isExceedStock": false,
-        "prices": [
-          {
-            "priceType": 1,
-            "label": "Adult",
-            "amount": 249,
-            "rewardPrice": 0,
-            "markup": 0,
-            "raw": {
-              "priceType": 1,
-              "groupPrice": 249,
-              "rewardPrice": 0,
-              "rewardType": 0,
-              "rewardValue": 0,
-              "markup": 0
-            }
-          },
-          {
-            "priceType": 2,
-            "label": "Child",
-            "amount": 229,
-            "rewardPrice": 0,
-            "markup": 0,
-            "raw": {
-              "priceType": 2,
-              "groupPrice": 229,
-              "rewardPrice": 0,
-              "rewardType": 0,
-              "rewardValue": 0,
-              "markup": 0
-            }
-          }
-        ],
-        "otherCurrencyGroupPriceInfo": []
-      },
       {
         "date": "2026-07-17",
         "groupDate": "2026-07-17 00:00:00",
@@ -9075,7 +8942,7 @@
           "currencyName": "美元",
           "currencySymbol": "$"
         },
-        "tokenCode": "WEBSITEMjAyNi0wNy0xMyZCMDAwMDAwMDMmMjAyNi0wNy0xOA==",
+        "tokenCode": "WEBSITEMjAyNi0wNy0xNiZCMDAwMDAwMDMmMjAyNi0wNy0yMQ==",
         "openStockRule": 1,
         "stockRuleList": [
           {
@@ -9379,100 +9246,136 @@
           "productShopIsDay": 0
         }
       },
+      "travelDetailResponse": {
+        "responseStatus": {
+          "timestamp": "2026-07-18 08:40:58",
+          "ack": "Success",
+          "errors": [],
+          "build": null,
+          "version": null,
+          "extension": [
+            {
+              "id": "CLOGGING_TRACE_ID",
+              "version": null,
+              "contentType": null,
+              "value": "1131406542323092757"
+            },
+            {
+              "id": "RootMessageId",
+              "version": null,
+              "contentType": null,
+              "value": "100025527-0a2b80c1-495648-1903248"
+            }
+          ]
+        },
+        "responseResult": {
+          "code": 200,
+          "msg": "success.",
+          "msgCode": ""
+        },
+        "responseData": {
+          "productTravel": {
+            "productCode": "P00000847",
+            "dataVersion": 1779528360,
+            "productDay": 1,
+            "productNight": 0,
+            "travelId": 3349,
+            "productType": "PC00000025",
+            "productTypeName": "Cancun",
+            "travelName": "不超過13人的精品小團 | 不帶錢包暢遊坎昆之探索瑪雅文明 | 奇琴伊察+網紅雙天井 1日遊",
+            "productTravelInfoList": [
+              {
+                "isSource": 0,
+                "language": 3,
+                "dayList": [
+                  {
+                    "section": "Cancun|||1+++Chichén Itzá|||1+++Hacienda selva Maya|||1+++Suytun cenote",
+                    "todayLocation": "",
+                    "dayNumber": 1,
+                    "content": [
+                      {
+                        "contentMode": 0,
+                        "productSortNum": null,
+                        "relatedId": -1,
+                        "relatedDay": -1,
+                        "relatedName": "",
+                        "contentType": 7,
+                        "sortNumber": 0,
+                        "jsonContent": "eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD5Ub2RheSB3ZSB3aWxsIHZpc2l0IG9uZSBvZiB0aGUgbW9zdCBpbXBvcnRhbnQgZXhhbXBsZXMgb2YgdGhlIE1heWFuLVRvbHRlYyBjaXZpbGl6YXRpb24gaW4gWXVjYXQmYWFjdXRlO24sIENoaWNoZW4gSXR6YSwgZXhwbG9yaW5nIHRoZSBmdXNpb24gb2YgTWF5YW4gY29uc3RydWN0aW9uIHRlY2huaXF1ZXMgd2l0aCBuZXcgZWxlbWVudHMgZnJvbSBjZW50cmFsIE1leGljby4gQXMgb25lIG9mIE1leGljbydzIG1vc3QgdmlzaXRlZCB0b3VyaXN0IGRlc3RpbmF0aW9ucywgaXQgd2FzIGdyYW50ZWQgV29ybGQgSGVyaXRhZ2UgU2l0ZSBzdGF0dXMgaW4gMTk4OCBieSBVTkVTQ08gV29ybGQgSGVyaXRhZ2UgU2l0ZSBhbmQgd2FzIHJlY2VudGx5IHNlbGVjdGVkIGFzIG9uZSBvZiB0aGUgTmV3IFNldmVuIFdvbmRlcnMgb2YgdGhlIFdvcmxkLiBBZnRlciBsZWFybmluZyBhbGwgYWJvdXQgdGhlIGRhenpsaW5nIGFuY2llbnQgY2l0eSwgd2Ugd2lsbCBoZWFkIHRvIENlbm90ZSBJay1LaWwgZm9yIHNvbWUgbG9jYWwgY3Vpc2luZSBhcyB3ZWxsIGFzIHJlbGF4aW5nIGFuZCBmZWVsaW5nIHJlZnJlc2hlZCBpbiB0aGUgdW5pcXVlbHkgcGVhY2VmdWwgYW5kIGJlYXV0aWZ1bCBlbnZpcm9ubWVudC48L3A+XG48cD4mbmJzcDs8L3A+XG48cD48c3Ryb25nPkl0aW5lcmFyeTo8L3N0cm9uZz48L3A+XG48cD48c3Ryb25nPkNhbmN1biAmcmFycjsgQ2hpY2gmZWFjdXRlO24gSXR6JmFhY3V0ZTs8L3N0cm9uZz4oOTBtaW5zKSA8c3Ryb25nPiZyYXJyOyBTcGVjaWFsIGx1bmNoICZyYXJyOyBDZW5vdGUgSWstS2lsPC9zdHJvbmc+ICg5MG1pbnMpPHN0cm9uZz4gJnJhcnI7IFN1eXR1biBjZW5vdGUgPC9zdHJvbmc+KDMwbWlucykgJnJhcnI7IDxzdHJvbmc+Q2FuY3VuPC9zdHJvbmc+PC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+NzoyMH44OjEwIERlcGFydCBmcm9tIGhvdGVsPC9wPlxuPHA+MTE6MDAgQXJyaXZlIGF0IENoaWNoZW4gSXR6YSAoOTAgbWlucyk8L3A+XG48cD4xMjo0NSBEZXBhcnQgZnJvbSBDaGljaGVuIEl0emEmbmJzcDs8L3A+XG48cD4xMzoyMCBIZWFkIHRvIENlbm90ZSBJay1LaWwgKDkwIG1pbnMpPC9wPlxuPHA+MTU6MTUgVmlzaXQgU3V5dHVuIGNlbm90ZSAoMzAgbWlucyk8L3A+XG48cD4xNzoxNSBIZWFkIGJhY2sgdG8gaG90ZWw8L3A+XG48cD5QbGVhc2UgYmUgbm90aWNlZCB0aGF0IHRoaXMgc2NoZWR1bGUgbWF5IGJlIHN1YmplY3QgdG8gY2hhbmdlIGRlcGVuZGluZyBvbiB0aGUgYWN0dWFsIGNpcmN1bXN0YW5jZXMuPC9wPiIsInRpbWUiOiIxIn0="
+                      },
+                      {
+                        "contentMode": 0,
+                        "productSortNum": null,
+                        "relatedId": -1,
+                        "relatedDay": -1,
+                        "relatedName": "",
+                        "contentType": 3,
+                        "sortNumber": 1,
+                        "jsonContent": "eyJ0aW1lIjoiMSIsImRpc3RhbmMiOiIiLCJob3VycyI6IiIsIm1pbnV0ZXMiOiIiLCJzdGF5SG91cnMiOiIiLCJzdGF5TWludXRlcyI6IiIsInJlZ2lvbkNvZGUiOm51bGwsInJlZ2lvbk5hbWUiOm51bGwsInJlZ2lvblR5cGUiOm51bGwsImNvbnRlbnQiOlt7InR5cGUiOjAsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAxMTE5Iiwic2NlbmljTmFtZSI6IkNoaWNow6luIEl0esOhIiwic2NlbmljRXhwbGFpbiI6IiIsImlzQXBwZWFyYW5jZSI6MCwibG9hZGVkIjp0cnVlLCJzY2VuaWNlRGVzYyI6IjxwPkFzIHRoZSBiZXN0LXByZXNlcnZlZCBNYXlhbiBjaXR5LXN0YXRlIHJ1aW5zIGluIHRoZSB3b3JsZCwgdGhpcyBhbmNpZW50IGNhcGl0YWwgb2YgdGhlIE1heWFuIEVtcGlyZSwgd2hpY2ggd2FzIGV4Y2F2YXRlZCBpbiA1MTQgQUQsIGhhcyBtYW55IGJlYXV0aWZ1bCBhbmNpZW50IGJ1aWxkaW5ncywgc3VjaCBhcyB0aGUgQ2FzdGlsbG8gUHlyYW1pZCwgdGhlIEN1anUgQmFsbCBDb3VydCwgdGhlIFdhcnJpb3IgVGVtcGxlLCB0aGUgT3ZhbCBPYnNlcnZhdG9yeSwgZXRjLiBXaGV0aGVyIGl0IGlzIHRoZSBhcmNoaXRlY3R1cmFsIHN0eWxlLCBhcnRpc3RpYyBhdHRhaW5tZW50cywgcmVsaWdpb3VzIGNvbmNlcHRzLCBvciBzY2llbnRpZmljIGFjaGlldmVtZW50cywgdGhleSBhcmUgYWxsIGJyZWF0aHRha2luZywgYXR0cmFjdGluZyBjb3VudGxlc3Mgc2Nob2xhcnMgYW5kIHRvdXJpc3RzIHRvIGNvbWUgYW5kIGFkbWlyZS4gQW1vbmcgdGhlbSwgdGhlIFF1ZXR6YWxjb2F0bCBQeXJhbWlkIGlzIGxpc3RlZCBhcyBvbmUgb2YgdGhlIG5ldyBzZXZlbiB3b25kZXJzIG9mIHRoZSB3b3JsZC4gVGhlIGxvY2FscyB3b3JzaGlwIGEga2luZCBvZiBzYWNyZWQgYmlyZCB0aGF0IGlzIGJlbGlldmVkIHRvIGNvbWUgZnJvbSBoZWF2ZW4sIHNvIHRoZXkgc3BlY2lhbGx5IGRlc2lnbmVkIHN1Y2ggc3RlcHMgdG8gY3JlYXRlIGFuIGVjaG8gc2ltaWxhciB0byB0aGUgc291bmQgb2YgYSBiaXJkLCBhcyBpZiB0aGV5IHdlcmUgdGFsa2luZyB0byB0aGUgZ29kcy4gSWYgeW91IGNvbWUgaGVyZSwgeW91IG1pZ2h0IGFzIHdlbGwgdHJ5IHRvIGNsYXAgeW91ciBoYW5kcyBmYWNpbmcgdGhlIHB5cmFtaWQgYW5kIHlvdSBjYW4gaGVhciB0aGlzIGVjaG8uPC9wPiIsInNjZW5pY0ltYWdlcyI6W119LHsidHlwZSI6Miwic291cmNlVHlwZSI6Miwic2NlbmljQ29kZSI6IlNNMDAwMDExMjAiLCJzY2VuaWNOYW1lIjoiQ2Vub3RlIElrLUtpbCIsInNjZW5pY0V4cGxhaW4iOiIiLCJpc0FwcGVhcmFuY2UiOjAsImxvYWRlZCI6dHJ1ZSwic2NlbmljZURlc2MiOiI8cD5JayBLaWwgaXMgYSBjZW5vdGUgb3V0c2lkZSBQaXN0JmVhY3V0ZTsgaW4gdGhlIFRpbiZ1YWN1dGU7bSBNdW5pY2lwYWxpdHksIFl1Y2F0JmFhY3V0ZTtuLCBNZXhpY28uIFRoZSBjZW5vdGUgaXMgb3BlbiB0byB0aGUgc2t5IHdpdGggdGhlIHdhdGVyIGxldmVsIGFib3V0IDI2IG1ldGVycyAoODUgZnQpIGJlbG93IGdyb3VuZCBsZXZlbC4gVGhlcmUgaXMgYSBjYXJ2ZWQgc3RhaXJ3YXkgdGhhdCBsZWFkcyBkb3duIHRvIGEgc3dpbW1pbmcgcGxhdGZvcm0uIElrIEtpbCB3YXMgY29uc2lkZXJlZCBzYWNyZWQgYnkgdGhlIE1heWFucyB3aG8gdXNlZCB0aGUgc2l0ZSBhcyBhIGxvY2F0aW9uIGZvciBodW1hbiBzYWNyaWZpY2UgdG8gdGhlaXIgcmFpbiBnb2QsIENoYWFjLjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfSx7InR5cGUiOjIsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAzMDQzIiwic2NlbmljTmFtZSI6IlN1eXR1biBjZW5vdGUiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+QSB0aGluIGJsdWVzdG9uZSBwYXRoIGV4dGVuZHMgaW50byBhIHR1cnF1b2lzZSBwb29sLiBUaGlzIGlzIHRoZSBpbnRlcm5ldC1mYW1vdXMgcGF0aW8gXCJTdWl0b25cIiB0aGF0IGhhcyBiZWVuIGxpa2VkIHRob3VzYW5kcyBvZiB0aW1lcyBvbiBcIkxpdHRsZSBSZWQgQm9va1wiIGFuZCBJbnN0ZXJncmFtLiBJdCBpcyBub3QgdmVyeSBiaWcsIGJ1dCBpdHMgdW5pcXVlIGxhbmRzY2FwZSBtYWtlcyBwZW9wbGUgd2FudCB0byBjb21lIGhlcmUgdG8gdGFrZSBwaWN0dXJlcy4gSXQgaXMgYW4gQWd1YWRhcyBsaW1lc3RvbmUgcGl0LiBJdHMgbmF0dXJhbCBiZWF1dHkgaXMgYnJlYXRodGFraW5nLiBUaGUgc3RvbmUgcGllcnMgaW4gdGhlIHN0b25lIGtpbG4gbWFrZSBpdCBsb29rIHNvIG15c3RlcmlvdXMuIFRoZSB3YXRlciBpbiB0aGUgcG9vbCBpcyByZWxhdGl2ZWx5IHNoYWxsb3cgY29tcGFyZWQgdG8gdGhlIHRvd2VyaW5nIHN0b25lIHdhbGxzLiBJdCBpcyBsaWtlIGEgaHVnZSBvcGVuIGNodXJjaC4gVGhlIGNyYWNrIGluIHRoZSBjZWlsaW5nIG9mIHRoZSBjaHVyY2ggaXMgdGhlIGJlc3Qgd2VhbHRoIGFuZCBoaWdobGlnaHQgb2YgdGhlIGVudGlyZSBcIlN1aXRvbiBQYXRpb1wiLiBJdCBpcyBpbiBhbiBhbG1vc3QgcGVyZmVjdCBwb3NpdGlvbiwgYW5kIHRoZSBsaWdodCBzaGluZXMgcmlnaHQgaW4gdGhlIGNlbnRlciBvZiB0aGUgbmF0dXJhbCB3ZWxsLiBJZiB0aGUgYWlyIGlzIGh1bWlkIG9yIHRoZXJlIGlzIHNvbWUgZHVzdCBpbiB0aGUgYWlyLCB0aGF0IGlzIHRoZSBiZXN0IGVmZmVjdCBmb3IgdGFraW5nIHBpY3R1cmVzLiBTdGFuZGluZyBhdCB0aGUgZW5kIG9mIHRoZSBibHVlc3RvbmUgcGF0aCBpbiB0aGUgY2F2ZSwgaW4gdGhlIG1pZGRsZSBvZiB0aGUgcGF0aW8sIGEgYmVhbSBvZiBsaWdodCBzaGluZXMgZGlyZWN0bHkgZnJvbSB0aGUgdG9wLCBsaWtlIGFuIGFuZ2VsJ3MgYXJtcyBlbWJyYWNpbmcgeW91LjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfV0sInR5cGUiOm51bGwsImRlc2NyaXB0aW9uIjpudWxsLCJhdmVQcmljZSI6bnVsbCwiZGlzdGFuY1VuaXQiOjF9"
+                      }
+                    ],
+                    "isFreeTravel": null,
+                    "optionalProductList": null,
+                    "distributionFactor": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "productNotice": {
+            "mainLanguage": 3,
+            "productCode": "P00000847",
+            "noticeInfo": [
+              {
+                "matterCode": "AT00002776",
+                "editType": 1,
+                "noticeType": 3,
+                "matterName": "【退改說明】墨西哥+坎昆一日遊",
+                "vluesTip1": "<p>1. If the weather condition, war, general strikes, and other unforeseen circumstances interrupt the journey, our company reserves the right to rearrange the journey without refunding the tour fee.&nbsp;</p>\n<p>2. Cancellation &amp; Re-schedule Policy:</p>\n<p>&nbsp; &nbsp; a. &nbsp;More than 15 days prior to departure date (EST): Free cancellation with full refund.</p>\n<p>&nbsp; &nbsp; b. &nbsp;Less than 18 days but 8 days prior to departure date (EST):&nbsp;</p>\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Cancellation: 50% of total purchase amount can be refunded;&nbsp;</p>\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Re-schedule: 80% of total purchase amount can be refunded.</p>\n<p>&nbsp; &nbsp; c. &nbsp;Less than 7 days prior to departure date (EST) or on departure day (EST): 100% penalty. No refund.&nbsp;</p>\n<p>&nbsp; &nbsp; d. &nbsp;Additional hotel bookings before or after the tour as well as other services are subject to hotel cancellation policy to determine if a refund is possible.</p>\n<p>&nbsp; &nbsp; e. &nbsp;If the guest quit during the trip or fails to participate in any itinerary due to personal reasons (no travel documents, late arrival, illness, accident, etc.), the paid tour fare will not be refunded, and no other services will be compensated.</p>",
+                "vluesTip2": "【退改說明】墨西哥+坎昆一日遊"
+              },
+              {
+                "matterCode": "AT00000894",
+                "editType": 0,
+                "noticeType": 2,
+                "matterName": "<p>P00000847</p>",
+                "vluesTip1": "<p>1. Sun protections are needed and should be used before entering the tourist attractions.</p>\n<p>2. Cozy outfit and sneakers are suggested. Please also use sun protections. Carry credit cards and small amount of cash for souvenir and other personal expenses.</p>\n<p>3. For guests planning to swim in the cenote, swimming suits, towels, and clothes for change should be prepared in advance.</p>\n<p>4. English or Spanish driver. Guide service will not be included.</p>",
+                "vluesTip2": "<p>P00000847</p>"
+              },
+              {
+                "matterCode": "AT00000298",
+                "editType": 1,
+                "noticeType": 1,
+                "matterName": "【預定須知】坎昆一日遊",
+                "vluesTip1": "<p><strong>Know Before You Book</strong></p>\n<p>1. Customer under 18 years old MUST be accompanied by at least one adult. In consideration of the guest safety, pregnant women are only allowed to join the tour if pregnant for 24 weeks or less by the end of the trip.</p>\n<p>2. Please be sure to provide accurate and complete information upon booking. This includes name, gender, valid contact information (preferably a mobile phone), accurate tour location, etc., This helps to avoid any errors upon the reservation because errors affect travel. Any losses due to inaccurate or invalid information will be at your own cost and the company will not be held responsible.&nbsp;</p>\n<p>3. This tour does not accept any City Pass or your own tickets for any of the attractions. Tour attraction admission charges and meal expenses are subject to change at any time without notification. Any purchased ticket cannot be refunded for lower prices.</p>\n<p>4. During the actual trip, the tour guide or driver has the right to appropriately adjust the tour sequence, stay time or assembly time of scenic spots according to the weather, traffic, and other conditions to ensure the smooth progress of the trip.</p>\n<p>5. If any scenic spots are temporarily closed, including on certain holidays, the tour guide will make appropriate adjustments based on the actual situation, which may include viewing from the outside or substituting with another attraction to maintain the richness of the itinerary. Please note that the opening hours and capacity limits of certain attractions and national parks may change from time to time due to health concerns. Should such changes affect the itinerary, they will be considered force majeure. We appreciate your understanding.</p>\n<p>6. Children under the age of 8 require a booster seat in order to participate in the tour group. JUPITER LEGEND Corporation and Ctour Holiday provide the rental service for $10.00/person/day. Please make a request when booking the itinerary so that we may have the booster seat ready in advance. Please understand that the violations and fines are borne by the guests themselves. There is no need for a booster seat for bus travel on the day of travel, and the fee can be refunded to the guest.</p>\n<p>7. Normal health conditions are required to participate and enjoy our full itineraries. Contact us for specific policies or information regarding passengers with disabilities and the handicapped who do need to provide advance notification to make a reservation. JUPITER LEGEND Corporation and Ctour Holiday do not guarantee a wheelchair lift-equipped bus and/or seating availability to disabled passengers without prior notification and approval.</p>\n<p>8. Please note the name, location and contact information of your hotel when placing an order. Please contact customer service for confirmation of the hotel's specific departure time.</p>\n<p>9. English or Spanish driver. Guide service will not be included.</p>\n<p>10. We may alter these terms and conditions from time to time and post the new version on our agents&rsquo; website. It is your responsibility to check the <a title=\"[Terms &amp; Conditions]\" href=\"http://uvbookings.info/upload/terms/e.pdf\" target=\"_blank\" rel=\"noopener\">[Terms &amp; Conditions]</a> on their website regularly and prior to making a reservation. Unless specifically stated otherwise herein or required by law, JUPITER LEGEND Corporation shall not be liable for any consequential, compensatory, indirect, incidental or punitive damages arising out of or in connection with the performance of its obligations under these terms and conditions.</p>\n<p>11. <span style=\"color: #ba372a;\">Faced with continuously rising fuel costs and significantly increased vehicle operating costs, starting from May 18, 2026 (departure dates), a transportation surcharge of $5 per person per day will be added to the Seagull Bus Tour products. The tour guide will collect the surcharge during the trip.</span></p>\n<p>&nbsp;</p>\n<p><strong>Know Before You Go</strong></p>\n<p>1. The maximal waiting time for any late passengers is 10 minutes beyond the meeting time announced by the Tour Guide. While JUPITER LEGEND Corporation makes every effort to provide on-time service, it does not guarantee to arrive at or depart from any point.as a specific time, which may be affected by any number of factors including weather, traffic, strikes, government shutdowns, war or terrorist attacks, or mechanical prob- lems. JUPITER LEGEND Corporation is not liable for any inconvenience or expense caused as a result of such a delay, not liable for the expense of connecting air or train or bus service missed as a result of a delay and not liable for any other travel expense caused as a result of a delay.</p>\n<p>2. JUPITER LEGEND Corporation and Ctour Holiday reserve the right, when operating conditions require, transferring passengers from one vehicle to another en route.</p>\n<p>3. The following documents are recommended to make your check-in process smooth: A valid photo ID is required to board the bus; We recommend you bring a copy of the email confirmation to board the bus.</p>\n<p>4. This product is a group activity. If you choose to leave the group, please inform in advance, and obtain the consent of the tour guide. You need to sign the departure agreement form and the unfinished part will be regarded as your own abandonment. The group fee will not be refunded.</p>\n<p>5. Gift items in the itinerary that cannot be given away due to force majeure factors such as traffic and weather conditions or personal reasons may be subject to change. Please understand that the fees will not be refunded.</p>\n<p>6. Smoking is prohibited aboard the bus in accordance with law.</p>\n<p>7. Pets and animals are not allowed on the vehicle.</p>\n<p>8. Emergency contact: (Toll Free) +1(866)585-8747.</p>",
+                "vluesTip2": "【預定須知】坎昆一日遊"
+              },
+              {
+                "matterCode": "CM00000183",
+                "editType": 1,
+                "noticeType": 0,
+                "matterName": "【坎昆】全包一日遊",
+                "vluesTip1": "<p>1. Transportation.</p>\n<p>2. English/Spanish driver.</p>\n<p>3. Attraction tickets.</p>\n<p>4. Meal.</p>\n<p>5. Service fee.</p>",
+                "vluesTip2": "<p>1. Any personal expenses are not listed in Fee Included.</p>"
+              }
+            ],
+            "damagesInfo": [],
+            "advanceDay": -1,
+            "advanceTime": ""
+          },
+          "productCost": {
+            "list": null,
+            "pager": null,
+            "productCostIsDay": 0
+          },
+          "productShop": {
+            "list": null,
+            "pager": null,
+            "productShopIsDay": 0
+          }
+        }
+      },
       "groups": [
-        {
-          "groupDate": "2026-07-14 00:00:00",
-          "isGroupRoom": 0,
-          "stockType": 2,
-          "groupStock": 0,
-          "groupSaleStock": 0,
-          "isExceedStock": 0,
-          "rewardCode": "RM00003003",
-          "stockStatus": 200,
-          "productPriceprofit": 0,
-          "currencyNum": "USD",
-          "groupPrice": [
-            {
-              "priceType": 1,
-              "groupPrice": 249,
-              "rewardPrice": 0,
-              "rewardType": 0,
-              "rewardValue": 0,
-              "markup": 0
-            },
-            {
-              "priceType": 2,
-              "groupPrice": 229,
-              "rewardPrice": 0,
-              "rewardType": 0,
-              "rewardValue": 0,
-              "markup": 0
-            }
-          ],
-          "otherCurrencyGroupPriceInfo": []
-        },
-        {
-          "groupDate": "2026-07-15 00:00:00",
-          "isGroupRoom": 0,
-          "stockType": 2,
-          "groupStock": 0,
-          "groupSaleStock": 0,
-          "isExceedStock": 0,
-          "rewardCode": "RM00003003",
-          "stockStatus": 200,
-          "productPriceprofit": 0,
-          "currencyNum": "USD",
-          "groupPrice": [
-            {
-              "priceType": 1,
-              "groupPrice": 249,
-              "rewardPrice": 0,
-              "rewardType": 0,
-              "rewardValue": 0,
-              "markup": 0
-            },
-            {
-              "priceType": 2,
-              "groupPrice": 229,
-              "rewardPrice": 0,
-              "rewardType": 0,
-              "rewardValue": 0,
-              "markup": 0
-            }
-          ],
-          "otherCurrencyGroupPriceInfo": []
-        },
-        {
-          "groupDate": "2026-07-16 00:00:00",
-          "isGroupRoom": 0,
-          "stockType": 2,
-          "groupStock": 0,
-          "groupSaleStock": 0,
-          "isExceedStock": 0,
-          "rewardCode": "RM00003003",
-          "stockStatus": 200,
-          "productPriceprofit": 0,
-          "currencyNum": "USD",
-          "groupPrice": [
-            {
-              "priceType": 1,
-              "groupPrice": 249,
-              "rewardPrice": 0,
-              "rewardType": 0,
-              "rewardValue": 0,
-              "markup": 0
-            },
-            {
-              "priceType": 2,
-              "groupPrice": 229,
-              "rewardPrice": 0,
-              "rewardType": 0,
-              "rewardValue": 0,
-              "markup": 0
-            }
-          ],
-          "otherCurrencyGroupPriceInfo": []
-        },
         {
           "groupDate": "2026-07-17 00:00:00",
           "isGroupRoom": 0,
@@ -14682,6 +14585,5244 @@
           "otherCurrencyGroupPriceInfo": []
         }
       ],
+      "groupsResponse": {
+        "responseStatus": {
+          "timestamp": "2026-07-18 08:40:58",
+          "ack": "Success",
+          "errors": [],
+          "build": null,
+          "version": null,
+          "extension": [
+            {
+              "id": "CLOGGING_TRACE_ID",
+              "version": null,
+              "contentType": null,
+              "value": "5830536348024338394"
+            },
+            {
+              "id": "RootMessageId",
+              "version": null,
+              "contentType": null,
+              "value": "100025527-0a154b02-495648-2430868"
+            }
+          ]
+        },
+        "responseResult": {
+          "code": 200,
+          "msg": "success.",
+          "msgCode": ""
+        },
+        "responseData": [
+          {
+            "groupDate": "2026-07-17 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 0,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-07-18 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 0,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-07-19 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 0,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-07-20 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 0,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-07-21 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 0,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-07-22 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 5,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-07-23 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 0,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-07-24 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 0,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-07-25 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 0,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-07-26 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 0,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-07-27 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-07-28 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-07-29 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-07-30 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-07-31 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-01 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-02 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-03 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-04 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-05 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-06 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-07 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-08 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-09 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 6,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-10 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-11 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-12 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-13 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-14 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-15 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-16 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-17 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 2,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-18 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-19 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-20 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-21 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-22 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 4,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-23 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-24 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-25 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-26 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-27 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-28 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-29 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-30 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-31 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-01 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-02 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-03 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-04 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-05 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-06 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-07 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-08 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-09 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-10 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-11 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-12 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-13 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-14 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-15 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-16 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-17 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-18 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-19 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-20 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-21 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-22 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-23 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-24 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-25 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-26 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-27 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-28 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-29 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-30 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-01 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-02 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-03 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-04 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-05 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-06 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-07 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-08 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-09 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-10 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-11 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-12 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-13 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-14 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-15 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-16 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-17 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-18 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-19 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-20 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-21 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-22 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-23 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-24 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-25 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-26 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-27 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-28 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-29 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-30 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-31 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-01 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-02 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-03 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-04 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-05 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-06 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-07 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-08 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-09 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-10 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-11 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-12 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-13 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-14 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-15 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-16 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-17 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-18 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-19 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-20 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-21 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-22 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-23 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-24 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-25 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-26 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-27 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-28 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-29 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-11-30 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-01 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-02 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-03 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-04 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-05 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-06 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-07 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-08 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-09 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-10 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-11 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-12 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-13 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-14 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-15 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-16 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-17 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-18 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-19 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-20 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-21 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-22 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-23 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-24 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-25 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-26 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-27 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-28 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-29 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-30 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-12-31 00:00:00",
+            "isGroupRoom": 0,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00003003",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 1,
+                "groupPrice": 249,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 2,
+                "groupPrice": 229,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          }
+        ]
+      },
       "addons": [
         {
           "mainLanguage": 2,

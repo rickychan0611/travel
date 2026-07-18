@@ -7,20 +7,23 @@ const { POST } = await import('../route')
 
 // ── Cart item factory ─────────────────────────────────────────────────────────
 
-const makeItem = (overrides: Partial<CartItem> = {}): CartItem => ({
-  variantId: 'gid://shopify/ProductVariant/1',
+const makeItem = (overrides: Partial<CartItem> & { variantId?: string; partySize?: number } = {}): CartItem => {
+  const variantId = overrides.variantId ?? 'gid://shopify/ProductVariant/1'
+  const partySize = overrides.partySize ?? 2
+  return ({
+  bookingId: `booking-${variantId}`,
   productHandle: 'tour-victoria',
   productTitle: 'Victoria Day Tour',
   departureDate: '2026-07-01',
-  partySize: 2,
-  pricePerPerson: 99,
+  pricingMode: 'per_person',
+  travelers: { adults: partySize, seniors: 0, children: 0 },
+  roomSummary: [],
+  priceLines: [{ variantId, label: 'Adult', quantity: partySize, unitPrice: 99 }],
   currencyCode: 'CAD',
-  quantity: 1,
   pickupLocationId: null,
   addons: [],
-  lineItemProperties: {},
   ...overrides,
-})
+}) as CartItem }
 
 const makeRequest = (body: unknown) =>
   new NextRequest('http://localhost/api/shopify/cart', {
@@ -116,16 +119,16 @@ describe('POST /api/shopify/cart', () => {
 
   // ── Line item construction ────────────────────────────────────────────────
 
-  it('sends quantity 1 per line item regardless of partySize', async () => {
+  it('sends the chargeable traveler quantity', async () => {
     requestSpy.mockResolvedValueOnce(makeSuccess() as never)
 
     await POST(makeRequest({ items: [makeItem({ partySize: 5 })] }))
 
     const lines = requestSpy.mock.calls[0][1]?.variables?.lines
-    expect(lines[0].quantity).toBe(1)
+    expect(lines[0].quantity).toBe(5)
   })
 
-  it('attaches Departure Date and Party Size as line item attributes', async () => {
+  it('attaches Departure Date and Booking ID as line item attributes', async () => {
     requestSpy.mockResolvedValueOnce(makeSuccess() as never)
 
     await POST(makeRequest({
@@ -134,7 +137,7 @@ describe('POST /api/shopify/cart', () => {
 
     const attrs = requestSpy.mock.calls[0][1]?.variables?.lines[0].attributes
     expect(attrs).toContainEqual({ key: 'Departure Date', value: '2026-08-15' })
-    expect(attrs).toContainEqual({ key: 'Party Size', value: '3' })
+    expect(attrs).toContainEqual({ key: 'Booking ID', value: 'booking-gid://shopify/ProductVariant/1' })
   })
 
   it('includes Pickup Location attribute when pickupLocationId is set', async () => {

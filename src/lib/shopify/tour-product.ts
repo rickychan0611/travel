@@ -8,7 +8,6 @@ import type {
   TourPickupPoint,
   TourPrice,
 } from '@/lib/toursbms/types'
-import { SHOPIFY_CACHE_REVALIDATE_SECONDS, SHOPIFY_CACHE_TAGS } from './cache'
 
 const TOUR_PRODUCT_QUERY = `#graphql
   query TourProduct($id: ID!, $variantsAfter: String) {
@@ -44,6 +43,9 @@ const TOUR_PRODUCT_QUERY = `#graphql
             value
           }
           priceType: metafield(namespace: "toursbms", key: "price_type") {
+            value
+          }
+          travelerType: metafield(namespace: "toursbms", key: "traveler_type") {
             value
           }
           departureDate: metafield(namespace: "toursbms", key: "departure_date") {
@@ -146,6 +148,7 @@ type ShopifyVariant = {
   inventoryQuantity: number | null
   selectedOptions: Array<{ name: string; value: string }>
   priceType?: { value: string } | null
+  travelerType?: { value: string } | null
   departureDate?: { value: string } | null
 }
 
@@ -249,19 +252,36 @@ function priceTypeFromVariant(variant: ShopifyVariant) {
   return RATE_LABEL_TO_PRICE_TYPE[selectedOption(variant, 'Rate Type').toLowerCase()] ?? 0
 }
 
+function travelerTypeFromVariant(variant: ShopifyVariant): TourPrice['travelerType'] {
+  const explicit = variant.travelerType?.value
+  if (explicit === 'adult' || explicit === 'child' || explicit === 'senior') return explicit
+  const label = selectedOption(variant, 'Rate Type')
+  if (/\s[·-]\sChild$/i.test(label)) return 'child'
+  if (/\s[·-]\sSenior$/i.test(label)) return 'senior'
+  if (/\s[·-]\sAdult$/i.test(label)) return 'adult'
+  const priceType = priceTypeFromVariant(variant)
+  if (priceType >= 3 && priceType <= 6) return 'adult'
+  if (priceType === 1) return 'adult'
+  if (priceType === 2) return 'child'
+  if (priceType === 7) return 'senior'
+  return undefined
+}
+
 function buildAvailability(product: ShopifyTourProduct, departureRows: MetaobjectNode[], currency: string): TourAvailabilityDay[] {
   const departuresByDate = new Map(departureRows.map((node) => [fieldsOf(node).date, fieldsOf(node)]))
   const grouped = new Map<string, TourAvailabilityDay>()
 
   for (const variant of product.variants.nodes) {
     const date = variant.departureDate?.value || selectedOption(variant, 'Departure Date')
-    const label = selectedOption(variant, 'Rate Type') || variant.title
+    const optionLabel = selectedOption(variant, 'Rate Type') || variant.title
+    const label = optionLabel.replace(/\s[·-]\s(?:Adult|Child|Senior)$/i, '')
     if (!date || !label) continue
 
     const departure = departuresByDate.get(date)
     const amount = numberValue(variant.price)
     const price: TourPrice = {
       priceType: priceTypeFromVariant(variant),
+      travelerType: travelerTypeFromVariant(variant),
       label,
       amount,
       shopifyVariantId: variant.id,
@@ -278,6 +298,10 @@ function buildAvailability(product: ShopifyTourProduct, departureRows: Metaobjec
     }
 
     const remainingStock = numberValue(departure?.remaining_stock, variant.inventoryQuantity ?? 0)
+    const pricingMode = product.variants.nodes.some((candidate) => {
+      const type = priceTypeFromVariant(candidate)
+      return type >= 3 && type <= 6
+    }) ? 'room_occupancy' : 'per_person'
     const available = product.status === 'ACTIVE' && (departure?.status !== 'closed')
     grouped.set(date, {
       date,
@@ -287,10 +311,14 @@ function buildAvailability(product: ShopifyTourProduct, departureRows: Metaobjec
       currency,
       prices: [price],
       lowestPrice: amount,
+      pricingMode,
     })
   }
 
-  return [...grouped.values()].sort((a, b) => a.date.localeCompare(b.date))
+  return [...grouped.values()].map((day) => {
+    const primary = day.prices.filter((price) => price.travelerType !== 'child' && price.travelerType !== 'senior')
+    return { ...day, lowestPrice: Math.min(...(primary.length ? primary : day.prices).map((price) => price.amount)) }
+  }).sort((a, b) => a.date.localeCompare(b.date))
 }
 
 function buildHighlights(product: ShopifyTourProduct, locale: string) {
@@ -339,8 +367,9 @@ function buildItinerary(product: ShopifyTourProduct, locale: string, travelName:
 
 function buildCost(product: ShopifyTourProduct, locale: string): TourDetailData['cost'] {
   const sections = localizedMetaobjects(product.costSectionRefs, locale).map((node) => fieldsOf(node))
-  const includes = sections.find((section) => section.section === 'includes')
-  const excludes = sections.find((section) => section.section === 'excludes')
+  const sectionKey = (value: string) => value.trim().toLowerCase().replace(/[\s_-]+/g, '')
+  const includes = sections.find((section) => ['include', 'includes', 'included'].includes(sectionKey(section.section || '')))
+  const excludes = sections.find((section) => ['exclude', 'excludes', 'excluded', 'notincluded'].includes(sectionKey(section.section || '')))
   return {
     includesHtml: includes?.html || '',
     includesText: includes?.text || '',
@@ -416,14 +445,10 @@ export async function getShopifyTourProductByHandle(
   do {
     const response: { data?: ShopifyTourProductResponse; errors?: unknown } = await client.request<ShopifyTourProductResponse>(TOUR_PRODUCT_QUERY, {
       variables: { id: manifest.shopifyProductId, variantsAfter: after },
-      cache: 'force-cache',
-      next: {
-        revalidate: SHOPIFY_CACHE_REVALIDATE_SECONDS,
-        tags: [
-          SHOPIFY_CACHE_TAGS.tourProducts,
-          `${SHOPIFY_CACHE_TAGS.tourProducts}:${manifest.shopifyProductId}`,
-        ],
-      },
+      // Departure status, capacity, and price variants are operational data.
+      // Always read them from Shopify so a saved room rate is immediately
+      // selectable and checkout totals cannot be calculated from stale data.
+      cache: 'no-store',
     })
     const pageProduct = response.data?.product
     if (response.errors || !pageProduct) return null
@@ -450,8 +475,9 @@ export async function getShopifyTourProductByHandle(
   const departureRows = metaobjects(shopifyProduct.departureRefs)
   const availability = buildAvailability(shopifyProduct, departureRows, currency)
   const basePrices = buildBasePrices(availability)
+  const pricingMode = availability[0]?.pricingMode ?? 'per_person'
   const fromPrice = availability.reduce(
-    (lowest, day) => Math.min(lowest, ...day.prices.map((price) => price.amount)),
+    (lowest, day) => Math.min(lowest, day.lowestPrice),
     Number.POSITIVE_INFINITY,
   )
   const durationDays = numberValue(metaValue(shopifyProduct.durationDays))
@@ -488,6 +514,7 @@ export async function getShopifyTourProductByHandle(
     advanceDay: 0,
     advanceTime: '',
     currency,
+    pricingMode,
     basePrices,
     fromPrice: Number.isFinite(fromPrice) ? fromPrice : 0,
     availability,
@@ -498,7 +525,7 @@ export async function getShopifyTourProductByHandle(
     dropoff: buildPickupDropoff(shopifyProduct, locale, 'dropoff'),
     constraints: {
       confirmTypeLabel: '',
-      isChildAvailable: basePrices.some((price) => price.priceType === 2),
+      isChildAvailable: basePrices.some((price) => price.travelerType === 'child' || price.priceType === 2),
       childNote: '',
     },
     addons: buildAddons(shopifyProduct, locale, currency),

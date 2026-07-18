@@ -9,107 +9,12 @@
     "zh-CN",
     "zh-TW"
   ],
-  "syncedAt": "2026-07-15T04:13:14.567Z",
+  "syncedAt": "2026-07-18T00:42:12.483Z",
   "variants": [
-    {
-      "date": "2026-07-14",
-      "priceType": 1,
-      "label": "Adult",
-      "optionValues": {
-        "Departure Date": "2026-07-14",
-        "Rate Type": "Adult"
-      },
-      "sku": "P00000847-2026-07-14-1-ADULT",
-      "price": "249.00",
-      "currency": "USD",
-      "inventoryPolicy": "CONTINUE",
-      "inventoryQuantity": 0,
-      "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035086762036"
-    },
-    {
-      "date": "2026-07-14",
-      "priceType": 2,
-      "label": "Child",
-      "optionValues": {
-        "Departure Date": "2026-07-14",
-        "Rate Type": "Child"
-      },
-      "sku": "P00000847-2026-07-14-2-CHILD",
-      "price": "229.00",
-      "currency": "USD",
-      "inventoryPolicy": "CONTINUE",
-      "inventoryQuantity": 0,
-      "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035086794804"
-    },
-    {
-      "date": "2026-07-15",
-      "priceType": 1,
-      "label": "Adult",
-      "optionValues": {
-        "Departure Date": "2026-07-15",
-        "Rate Type": "Adult"
-      },
-      "sku": "P00000847-2026-07-15-1-ADULT",
-      "price": "249.00",
-      "currency": "USD",
-      "inventoryPolicy": "CONTINUE",
-      "inventoryQuantity": 0,
-      "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035086827572"
-    },
-    {
-      "date": "2026-07-15",
-      "priceType": 2,
-      "label": "Child",
-      "optionValues": {
-        "Departure Date": "2026-07-15",
-        "Rate Type": "Child"
-      },
-      "sku": "P00000847-2026-07-15-2-CHILD",
-      "price": "229.00",
-      "currency": "USD",
-      "inventoryPolicy": "CONTINUE",
-      "inventoryQuantity": 0,
-      "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035086860340"
-    },
-    {
-      "date": "2026-07-16",
-      "priceType": 1,
-      "label": "Adult",
-      "optionValues": {
-        "Departure Date": "2026-07-16",
-        "Rate Type": "Adult"
-      },
-      "sku": "P00000847-2026-07-16-1-ADULT",
-      "price": "249.00",
-      "currency": "USD",
-      "inventoryPolicy": "CONTINUE",
-      "inventoryQuantity": 0,
-      "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035086893108"
-    },
-    {
-      "date": "2026-07-16",
-      "priceType": 2,
-      "label": "Child",
-      "optionValues": {
-        "Departure Date": "2026-07-16",
-        "Rate Type": "Child"
-      },
-      "sku": "P00000847-2026-07-16-2-CHILD",
-      "price": "229.00",
-      "currency": "USD",
-      "inventoryPolicy": "CONTINUE",
-      "inventoryQuantity": 0,
-      "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035086925876"
-    },
     {
       "date": "2026-07-17",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-07-17",
@@ -121,11 +26,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 0,
       "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035086958644"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043269455924"
     },
     {
       "date": "2026-07-17",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-07-17",
@@ -137,11 +43,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 0,
       "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035086991412"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043269488692"
     },
     {
       "date": "2026-07-18",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-07-18",
@@ -153,11 +60,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 0,
       "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087024180"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043269521460"
     },
     {
       "date": "2026-07-18",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-07-18",
@@ -169,11 +77,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 0,
       "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087056948"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043269554228"
     },
     {
       "date": "2026-07-19",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-07-19",
@@ -185,11 +94,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 0,
       "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087089716"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043269586996"
     },
     {
       "date": "2026-07-19",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-07-19",
@@ -201,11 +111,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 0,
       "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087122484"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043269619764"
     },
     {
       "date": "2026-07-20",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-07-20",
@@ -217,11 +128,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 0,
       "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087155252"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043269652532"
     },
     {
       "date": "2026-07-20",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-07-20",
@@ -233,11 +145,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 0,
       "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087188020"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043269685300"
     },
     {
       "date": "2026-07-21",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-07-21",
@@ -249,11 +162,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 0,
       "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087220788"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043269718068"
     },
     {
       "date": "2026-07-21",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-07-21",
@@ -265,11 +179,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 0,
       "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087253556"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043269750836"
     },
     {
       "date": "2026-07-22",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-07-22",
@@ -281,11 +196,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 50,
       "remainingStock": 50,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087286324"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043269783604"
     },
     {
       "date": "2026-07-22",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-07-22",
@@ -297,11 +213,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 50,
       "remainingStock": 50,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087319092"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043269816372"
     },
     {
       "date": "2026-07-23",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-07-23",
@@ -313,11 +230,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 0,
       "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087351860"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043269849140"
     },
     {
       "date": "2026-07-23",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-07-23",
@@ -329,11 +247,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 0,
       "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087384628"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043269881908"
     },
     {
       "date": "2026-07-24",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-07-24",
@@ -345,11 +264,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 0,
       "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087417396"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043269914676"
     },
     {
       "date": "2026-07-24",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-07-24",
@@ -361,11 +281,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 0,
       "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087450164"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043269947444"
     },
     {
       "date": "2026-07-25",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-07-25",
@@ -377,11 +298,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 0,
       "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087482932"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043269980212"
     },
     {
       "date": "2026-07-25",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-07-25",
@@ -393,11 +315,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 0,
       "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087515700"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270012980"
     },
     {
       "date": "2026-07-26",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-07-26",
@@ -409,11 +332,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 0,
       "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087548468"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270045748"
     },
     {
       "date": "2026-07-26",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-07-26",
@@ -425,11 +349,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 0,
       "remainingStock": 0,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087581236"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270078516"
     },
     {
       "date": "2026-07-27",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-07-27",
@@ -441,11 +366,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087614004"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270111284"
     },
     {
       "date": "2026-07-27",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-07-27",
@@ -457,11 +383,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087646772"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270144052"
     },
     {
       "date": "2026-07-28",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-07-28",
@@ -473,11 +400,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087679540"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270176820"
     },
     {
       "date": "2026-07-28",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-07-28",
@@ -489,11 +417,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087712308"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270209588"
     },
     {
       "date": "2026-07-29",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-07-29",
@@ -505,11 +434,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087745076"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270242356"
     },
     {
       "date": "2026-07-29",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-07-29",
@@ -521,11 +451,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087777844"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270275124"
     },
     {
       "date": "2026-07-30",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-07-30",
@@ -537,11 +468,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087810612"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270307892"
     },
     {
       "date": "2026-07-30",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-07-30",
@@ -553,11 +485,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087843380"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270340660"
     },
     {
       "date": "2026-07-31",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-07-31",
@@ -569,11 +502,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087876148"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270373428"
     },
     {
       "date": "2026-07-31",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-07-31",
@@ -585,11 +519,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087908916"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270406196"
     },
     {
       "date": "2026-08-01",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-01",
@@ -601,11 +536,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087941684"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270438964"
     },
     {
       "date": "2026-08-01",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-01",
@@ -617,11 +553,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035087974452"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270471732"
     },
     {
       "date": "2026-08-02",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-02",
@@ -633,11 +570,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088007220"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270504500"
     },
     {
       "date": "2026-08-02",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-02",
@@ -649,11 +587,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088039988"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270537268"
     },
     {
       "date": "2026-08-03",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-03",
@@ -665,11 +604,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088072756"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270570036"
     },
     {
       "date": "2026-08-03",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-03",
@@ -681,11 +621,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088105524"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270602804"
     },
     {
       "date": "2026-08-04",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-04",
@@ -697,11 +638,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088138292"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270635572"
     },
     {
       "date": "2026-08-04",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-04",
@@ -713,11 +655,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088171060"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270668340"
     },
     {
       "date": "2026-08-05",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-05",
@@ -729,11 +672,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088203828"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270701108"
     },
     {
       "date": "2026-08-05",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-05",
@@ -745,11 +689,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088236596"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270733876"
     },
     {
       "date": "2026-08-06",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-06",
@@ -761,11 +706,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088269364"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270766644"
     },
     {
       "date": "2026-08-06",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-06",
@@ -777,11 +723,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088302132"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270799412"
     },
     {
       "date": "2026-08-07",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-07",
@@ -793,11 +740,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088334900"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270832180"
     },
     {
       "date": "2026-08-07",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-07",
@@ -809,11 +757,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088367668"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270864948"
     },
     {
       "date": "2026-08-08",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-08",
@@ -825,11 +774,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088400436"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270897716"
     },
     {
       "date": "2026-08-08",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-08",
@@ -841,11 +791,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088433204"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270930484"
     },
     {
       "date": "2026-08-09",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-09",
@@ -857,11 +808,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 49,
       "remainingStock": 49,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088465972"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270963252"
     },
     {
       "date": "2026-08-09",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-09",
@@ -873,11 +825,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 49,
       "remainingStock": 49,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088498740"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043270996020"
     },
     {
       "date": "2026-08-10",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-10",
@@ -889,11 +842,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088531508"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271028788"
     },
     {
       "date": "2026-08-10",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-10",
@@ -905,11 +859,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088564276"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271061556"
     },
     {
       "date": "2026-08-11",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-11",
@@ -921,11 +876,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088597044"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271094324"
     },
     {
       "date": "2026-08-11",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-11",
@@ -937,11 +893,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088629812"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271127092"
     },
     {
       "date": "2026-08-12",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-12",
@@ -953,11 +910,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088662580"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271159860"
     },
     {
       "date": "2026-08-12",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-12",
@@ -969,11 +927,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088695348"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271192628"
     },
     {
       "date": "2026-08-13",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-13",
@@ -985,11 +944,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088728116"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271225396"
     },
     {
       "date": "2026-08-13",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-13",
@@ -1001,11 +961,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088760884"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271258164"
     },
     {
       "date": "2026-08-14",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-14",
@@ -1017,11 +978,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088793652"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271290932"
     },
     {
       "date": "2026-08-14",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-14",
@@ -1033,11 +995,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088826420"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271323700"
     },
     {
       "date": "2026-08-15",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-15",
@@ -1049,11 +1012,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088859188"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271356468"
     },
     {
       "date": "2026-08-15",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-15",
@@ -1065,11 +1029,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088891956"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271389236"
     },
     {
       "date": "2026-08-16",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-16",
@@ -1081,11 +1046,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088924724"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271422004"
     },
     {
       "date": "2026-08-16",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-16",
@@ -1097,11 +1063,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088957492"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271454772"
     },
     {
       "date": "2026-08-17",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-17",
@@ -1113,11 +1080,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 53,
       "remainingStock": 53,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035088990260"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271487540"
     },
     {
       "date": "2026-08-17",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-17",
@@ -1129,11 +1097,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 53,
       "remainingStock": 53,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089023028"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271520308"
     },
     {
       "date": "2026-08-18",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-18",
@@ -1145,11 +1114,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089055796"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271553076"
     },
     {
       "date": "2026-08-18",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-18",
@@ -1161,11 +1131,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089088564"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271585844"
     },
     {
       "date": "2026-08-19",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-19",
@@ -1177,11 +1148,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089121332"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271618612"
     },
     {
       "date": "2026-08-19",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-19",
@@ -1193,11 +1165,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089154100"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271651380"
     },
     {
       "date": "2026-08-20",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-20",
@@ -1209,11 +1182,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089186868"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271684148"
     },
     {
       "date": "2026-08-20",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-20",
@@ -1225,11 +1199,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089219636"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271716916"
     },
     {
       "date": "2026-08-21",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-21",
@@ -1241,11 +1216,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089252404"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271749684"
     },
     {
       "date": "2026-08-21",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-21",
@@ -1257,11 +1233,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089285172"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271782452"
     },
     {
       "date": "2026-08-22",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-22",
@@ -1273,11 +1250,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 51,
       "remainingStock": 51,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089317940"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271815220"
     },
     {
       "date": "2026-08-22",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-22",
@@ -1289,11 +1267,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 51,
       "remainingStock": 51,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089350708"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271847988"
     },
     {
       "date": "2026-08-23",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-23",
@@ -1305,11 +1284,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089383476"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271880756"
     },
     {
       "date": "2026-08-23",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-23",
@@ -1321,11 +1301,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089416244"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271913524"
     },
     {
       "date": "2026-08-24",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-24",
@@ -1337,11 +1318,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089449012"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271946292"
     },
     {
       "date": "2026-08-24",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-24",
@@ -1353,11 +1335,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089481780"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043271979060"
     },
     {
       "date": "2026-08-25",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-25",
@@ -1369,11 +1352,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089514548"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272011828"
     },
     {
       "date": "2026-08-25",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-25",
@@ -1385,11 +1369,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089547316"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272044596"
     },
     {
       "date": "2026-08-26",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-26",
@@ -1401,11 +1386,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089580084"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272077364"
     },
     {
       "date": "2026-08-26",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-26",
@@ -1417,11 +1403,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089612852"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272110132"
     },
     {
       "date": "2026-08-27",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-27",
@@ -1433,11 +1420,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089645620"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272142900"
     },
     {
       "date": "2026-08-27",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-27",
@@ -1449,11 +1437,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089678388"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272175668"
     },
     {
       "date": "2026-08-28",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-28",
@@ -1465,11 +1454,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089711156"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272208436"
     },
     {
       "date": "2026-08-28",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-28",
@@ -1481,11 +1471,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089743924"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272241204"
     },
     {
       "date": "2026-08-29",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-29",
@@ -1497,11 +1488,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089776692"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272273972"
     },
     {
       "date": "2026-08-29",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-29",
@@ -1513,11 +1505,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089809460"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272306740"
     },
     {
       "date": "2026-08-30",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-30",
@@ -1529,11 +1522,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089842228"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272339508"
     },
     {
       "date": "2026-08-30",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-30",
@@ -1545,11 +1539,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089874996"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272372276"
     },
     {
       "date": "2026-08-31",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-08-31",
@@ -1561,11 +1556,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089907764"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272405044"
     },
     {
       "date": "2026-08-31",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-08-31",
@@ -1577,11 +1573,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089940532"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272437812"
     },
     {
       "date": "2026-09-01",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-01",
@@ -1593,11 +1590,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035089973300"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272470580"
     },
     {
       "date": "2026-09-01",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-01",
@@ -1609,11 +1607,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090006068"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272503348"
     },
     {
       "date": "2026-09-02",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-02",
@@ -1625,11 +1624,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090038836"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272536116"
     },
     {
       "date": "2026-09-02",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-02",
@@ -1641,11 +1641,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090071604"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272568884"
     },
     {
       "date": "2026-09-03",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-03",
@@ -1657,11 +1658,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090104372"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272601652"
     },
     {
       "date": "2026-09-03",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-03",
@@ -1673,11 +1675,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090137140"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272634420"
     },
     {
       "date": "2026-09-04",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-04",
@@ -1689,11 +1692,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090169908"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272667188"
     },
     {
       "date": "2026-09-04",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-04",
@@ -1705,11 +1709,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090202676"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272699956"
     },
     {
       "date": "2026-09-05",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-05",
@@ -1721,11 +1726,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090235444"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272732724"
     },
     {
       "date": "2026-09-05",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-05",
@@ -1737,11 +1743,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090268212"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272765492"
     },
     {
       "date": "2026-09-06",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-06",
@@ -1753,11 +1760,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090300980"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272798260"
     },
     {
       "date": "2026-09-06",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-06",
@@ -1769,11 +1777,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090333748"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272831028"
     },
     {
       "date": "2026-09-07",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-07",
@@ -1785,11 +1794,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090366516"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272863796"
     },
     {
       "date": "2026-09-07",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-07",
@@ -1801,11 +1811,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090399284"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272896564"
     },
     {
       "date": "2026-09-08",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-08",
@@ -1817,11 +1828,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090432052"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272929332"
     },
     {
       "date": "2026-09-08",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-08",
@@ -1833,11 +1845,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090464820"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272962100"
     },
     {
       "date": "2026-09-09",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-09",
@@ -1849,11 +1862,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090497588"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043272994868"
     },
     {
       "date": "2026-09-09",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-09",
@@ -1865,11 +1879,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090530356"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273027636"
     },
     {
       "date": "2026-09-10",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-10",
@@ -1881,11 +1896,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090563124"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273060404"
     },
     {
       "date": "2026-09-10",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-10",
@@ -1897,11 +1913,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090595892"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273093172"
     },
     {
       "date": "2026-09-11",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-11",
@@ -1913,11 +1930,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090628660"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273125940"
     },
     {
       "date": "2026-09-11",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-11",
@@ -1929,11 +1947,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090661428"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273158708"
     },
     {
       "date": "2026-09-12",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-12",
@@ -1945,11 +1964,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090694196"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273191476"
     },
     {
       "date": "2026-09-12",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-12",
@@ -1961,11 +1981,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090726964"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273224244"
     },
     {
       "date": "2026-09-13",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-13",
@@ -1977,11 +1998,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090759732"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273257012"
     },
     {
       "date": "2026-09-13",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-13",
@@ -1993,11 +2015,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090792500"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273289780"
     },
     {
       "date": "2026-09-14",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-14",
@@ -2009,11 +2032,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090825268"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273322548"
     },
     {
       "date": "2026-09-14",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-14",
@@ -2025,11 +2049,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090858036"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273355316"
     },
     {
       "date": "2026-09-15",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-15",
@@ -2041,11 +2066,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090890804"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273388084"
     },
     {
       "date": "2026-09-15",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-15",
@@ -2057,11 +2083,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090923572"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273420852"
     },
     {
       "date": "2026-09-16",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-16",
@@ -2073,11 +2100,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090956340"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273453620"
     },
     {
       "date": "2026-09-16",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-16",
@@ -2089,11 +2117,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035090989108"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273486388"
     },
     {
       "date": "2026-09-17",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-17",
@@ -2105,11 +2134,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091021876"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273519156"
     },
     {
       "date": "2026-09-17",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-17",
@@ -2121,11 +2151,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091054644"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273551924"
     },
     {
       "date": "2026-09-18",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-18",
@@ -2137,11 +2168,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091087412"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273584692"
     },
     {
       "date": "2026-09-18",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-18",
@@ -2153,11 +2185,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091120180"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273617460"
     },
     {
       "date": "2026-09-19",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-19",
@@ -2169,11 +2202,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091152948"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273650228"
     },
     {
       "date": "2026-09-19",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-19",
@@ -2185,11 +2219,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091185716"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273682996"
     },
     {
       "date": "2026-09-20",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-20",
@@ -2201,11 +2236,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091218484"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273715764"
     },
     {
       "date": "2026-09-20",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-20",
@@ -2217,11 +2253,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091251252"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273748532"
     },
     {
       "date": "2026-09-21",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-21",
@@ -2233,11 +2270,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091284020"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273781300"
     },
     {
       "date": "2026-09-21",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-21",
@@ -2249,11 +2287,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091316788"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273814068"
     },
     {
       "date": "2026-09-22",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-22",
@@ -2265,11 +2304,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091349556"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273846836"
     },
     {
       "date": "2026-09-22",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-22",
@@ -2281,11 +2321,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091382324"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273879604"
     },
     {
       "date": "2026-09-23",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-23",
@@ -2297,11 +2338,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091415092"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273912372"
     },
     {
       "date": "2026-09-23",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-23",
@@ -2313,11 +2355,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091447860"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273945140"
     },
     {
       "date": "2026-09-24",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-24",
@@ -2329,11 +2372,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091480628"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043273977908"
     },
     {
       "date": "2026-09-24",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-24",
@@ -2345,11 +2389,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091513396"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274010676"
     },
     {
       "date": "2026-09-25",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-25",
@@ -2361,11 +2406,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091546164"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274043444"
     },
     {
       "date": "2026-09-25",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-25",
@@ -2377,11 +2423,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091578932"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274076212"
     },
     {
       "date": "2026-09-26",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-26",
@@ -2393,11 +2440,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091611700"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274108980"
     },
     {
       "date": "2026-09-26",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-26",
@@ -2409,11 +2457,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091644468"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274141748"
     },
     {
       "date": "2026-09-27",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-27",
@@ -2425,11 +2474,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091677236"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274174516"
     },
     {
       "date": "2026-09-27",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-27",
@@ -2441,11 +2491,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091710004"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274207284"
     },
     {
       "date": "2026-09-28",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-28",
@@ -2457,11 +2508,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091742772"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274240052"
     },
     {
       "date": "2026-09-28",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-28",
@@ -2473,11 +2525,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091775540"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274272820"
     },
     {
       "date": "2026-09-29",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-29",
@@ -2489,11 +2542,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091808308"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274305588"
     },
     {
       "date": "2026-09-29",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-29",
@@ -2505,11 +2559,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091841076"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274338356"
     },
     {
       "date": "2026-09-30",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-09-30",
@@ -2521,11 +2576,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091873844"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274371124"
     },
     {
       "date": "2026-09-30",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-09-30",
@@ -2537,11 +2593,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091906612"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274403892"
     },
     {
       "date": "2026-10-01",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-01",
@@ -2553,11 +2610,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091939380"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274436660"
     },
     {
       "date": "2026-10-01",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-01",
@@ -2569,11 +2627,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035091972148"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274469428"
     },
     {
       "date": "2026-10-02",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-02",
@@ -2585,11 +2644,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092004916"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274502196"
     },
     {
       "date": "2026-10-02",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-02",
@@ -2601,11 +2661,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092037684"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274534964"
     },
     {
       "date": "2026-10-03",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-03",
@@ -2617,11 +2678,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092070452"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274567732"
     },
     {
       "date": "2026-10-03",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-03",
@@ -2633,11 +2695,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092103220"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274600500"
     },
     {
       "date": "2026-10-04",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-04",
@@ -2649,11 +2712,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092135988"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274633268"
     },
     {
       "date": "2026-10-04",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-04",
@@ -2665,11 +2729,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092168756"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274666036"
     },
     {
       "date": "2026-10-05",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-05",
@@ -2681,11 +2746,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092201524"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274698804"
     },
     {
       "date": "2026-10-05",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-05",
@@ -2697,11 +2763,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092234292"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274731572"
     },
     {
       "date": "2026-10-06",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-06",
@@ -2713,11 +2780,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092267060"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274764340"
     },
     {
       "date": "2026-10-06",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-06",
@@ -2729,11 +2797,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092299828"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274797108"
     },
     {
       "date": "2026-10-07",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-07",
@@ -2745,11 +2814,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092332596"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274829876"
     },
     {
       "date": "2026-10-07",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-07",
@@ -2761,11 +2831,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092365364"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274862644"
     },
     {
       "date": "2026-10-08",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-08",
@@ -2777,11 +2848,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092398132"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274895412"
     },
     {
       "date": "2026-10-08",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-08",
@@ -2793,11 +2865,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092430900"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274928180"
     },
     {
       "date": "2026-10-09",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-09",
@@ -2809,11 +2882,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092463668"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274960948"
     },
     {
       "date": "2026-10-09",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-09",
@@ -2825,11 +2899,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092496436"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043274993716"
     },
     {
       "date": "2026-10-10",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-10",
@@ -2841,11 +2916,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092529204"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275026484"
     },
     {
       "date": "2026-10-10",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-10",
@@ -2857,11 +2933,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092561972"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275059252"
     },
     {
       "date": "2026-10-11",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-11",
@@ -2873,11 +2950,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092594740"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275092020"
     },
     {
       "date": "2026-10-11",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-11",
@@ -2889,11 +2967,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092627508"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275124788"
     },
     {
       "date": "2026-10-12",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-12",
@@ -2905,11 +2984,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092660276"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275157556"
     },
     {
       "date": "2026-10-12",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-12",
@@ -2921,11 +3001,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092693044"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275190324"
     },
     {
       "date": "2026-10-13",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-13",
@@ -2937,11 +3018,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092725812"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275223092"
     },
     {
       "date": "2026-10-13",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-13",
@@ -2953,11 +3035,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092758580"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275255860"
     },
     {
       "date": "2026-10-14",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-14",
@@ -2969,11 +3052,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092791348"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275288628"
     },
     {
       "date": "2026-10-14",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-14",
@@ -2985,11 +3069,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092824116"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275321396"
     },
     {
       "date": "2026-10-15",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-15",
@@ -3001,11 +3086,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092856884"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275354164"
     },
     {
       "date": "2026-10-15",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-15",
@@ -3017,11 +3103,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092889652"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275386932"
     },
     {
       "date": "2026-10-16",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-16",
@@ -3033,11 +3120,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092922420"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275419700"
     },
     {
       "date": "2026-10-16",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-16",
@@ -3049,11 +3137,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092955188"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275452468"
     },
     {
       "date": "2026-10-17",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-17",
@@ -3065,11 +3154,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035092987956"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275485236"
     },
     {
       "date": "2026-10-17",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-17",
@@ -3081,11 +3171,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093020724"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275518004"
     },
     {
       "date": "2026-10-18",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-18",
@@ -3097,11 +3188,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093053492"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275550772"
     },
     {
       "date": "2026-10-18",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-18",
@@ -3113,11 +3205,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093086260"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275583540"
     },
     {
       "date": "2026-10-19",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-19",
@@ -3129,11 +3222,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093119028"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275616308"
     },
     {
       "date": "2026-10-19",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-19",
@@ -3145,11 +3239,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093151796"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275649076"
     },
     {
       "date": "2026-10-20",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-20",
@@ -3161,11 +3256,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093184564"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275681844"
     },
     {
       "date": "2026-10-20",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-20",
@@ -3177,11 +3273,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093217332"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275714612"
     },
     {
       "date": "2026-10-21",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-21",
@@ -3193,11 +3290,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093250100"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275747380"
     },
     {
       "date": "2026-10-21",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-21",
@@ -3209,11 +3307,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093282868"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275780148"
     },
     {
       "date": "2026-10-22",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-22",
@@ -3225,11 +3324,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093315636"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275812916"
     },
     {
       "date": "2026-10-22",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-22",
@@ -3241,11 +3341,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093348404"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275845684"
     },
     {
       "date": "2026-10-23",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-23",
@@ -3257,11 +3358,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093381172"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275878452"
     },
     {
       "date": "2026-10-23",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-23",
@@ -3273,11 +3375,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093413940"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275911220"
     },
     {
       "date": "2026-10-24",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-24",
@@ -3289,11 +3392,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093446708"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275943988"
     },
     {
       "date": "2026-10-24",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-24",
@@ -3305,11 +3409,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093479476"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043275976756"
     },
     {
       "date": "2026-10-25",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-25",
@@ -3321,11 +3426,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093512244"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276009524"
     },
     {
       "date": "2026-10-25",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-25",
@@ -3337,11 +3443,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093545012"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276042292"
     },
     {
       "date": "2026-10-26",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-26",
@@ -3353,11 +3460,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093577780"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276075060"
     },
     {
       "date": "2026-10-26",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-26",
@@ -3369,11 +3477,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093610548"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276107828"
     },
     {
       "date": "2026-10-27",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-27",
@@ -3385,11 +3494,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093643316"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276140596"
     },
     {
       "date": "2026-10-27",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-27",
@@ -3401,11 +3511,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093676084"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276173364"
     },
     {
       "date": "2026-10-28",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-28",
@@ -3417,11 +3528,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093708852"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276206132"
     },
     {
       "date": "2026-10-28",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-28",
@@ -3433,11 +3545,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093741620"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276238900"
     },
     {
       "date": "2026-10-29",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-29",
@@ -3449,11 +3562,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093774388"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276271668"
     },
     {
       "date": "2026-10-29",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-29",
@@ -3465,11 +3579,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093807156"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276304436"
     },
     {
       "date": "2026-10-30",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-30",
@@ -3481,11 +3596,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093839924"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276337204"
     },
     {
       "date": "2026-10-30",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-30",
@@ -3497,11 +3613,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093872692"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276369972"
     },
     {
       "date": "2026-10-31",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-10-31",
@@ -3513,11 +3630,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093905460"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276402740"
     },
     {
       "date": "2026-10-31",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-10-31",
@@ -3529,11 +3647,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093938228"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276435508"
     },
     {
       "date": "2026-11-01",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-01",
@@ -3545,11 +3664,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035093970996"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276468276"
     },
     {
       "date": "2026-11-01",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-01",
@@ -3561,11 +3681,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094003764"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276501044"
     },
     {
       "date": "2026-11-02",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-02",
@@ -3577,11 +3698,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094036532"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276533812"
     },
     {
       "date": "2026-11-02",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-02",
@@ -3593,11 +3715,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094069300"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276566580"
     },
     {
       "date": "2026-11-03",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-03",
@@ -3609,11 +3732,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094102068"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276599348"
     },
     {
       "date": "2026-11-03",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-03",
@@ -3625,11 +3749,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094134836"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276632116"
     },
     {
       "date": "2026-11-04",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-04",
@@ -3641,11 +3766,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094167604"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276664884"
     },
     {
       "date": "2026-11-04",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-04",
@@ -3657,11 +3783,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094200372"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276697652"
     },
     {
       "date": "2026-11-05",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-05",
@@ -3673,11 +3800,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094233140"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276730420"
     },
     {
       "date": "2026-11-05",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-05",
@@ -3689,11 +3817,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094265908"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276763188"
     },
     {
       "date": "2026-11-06",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-06",
@@ -3705,11 +3834,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094298676"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276795956"
     },
     {
       "date": "2026-11-06",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-06",
@@ -3721,11 +3851,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094331444"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276828724"
     },
     {
       "date": "2026-11-07",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-07",
@@ -3737,11 +3868,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094364212"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276861492"
     },
     {
       "date": "2026-11-07",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-07",
@@ -3753,11 +3885,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094396980"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276894260"
     },
     {
       "date": "2026-11-08",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-08",
@@ -3769,11 +3902,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094429748"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276927028"
     },
     {
       "date": "2026-11-08",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-08",
@@ -3785,11 +3919,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094462516"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276959796"
     },
     {
       "date": "2026-11-09",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-09",
@@ -3801,11 +3936,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094495284"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043276992564"
     },
     {
       "date": "2026-11-09",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-09",
@@ -3817,11 +3953,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094528052"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277025332"
     },
     {
       "date": "2026-11-10",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-10",
@@ -3833,11 +3970,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094560820"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277058100"
     },
     {
       "date": "2026-11-10",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-10",
@@ -3849,11 +3987,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094593588"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277090868"
     },
     {
       "date": "2026-11-11",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-11",
@@ -3865,11 +4004,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094626356"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277123636"
     },
     {
       "date": "2026-11-11",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-11",
@@ -3881,11 +4021,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094659124"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277156404"
     },
     {
       "date": "2026-11-12",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-12",
@@ -3897,11 +4038,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094691892"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277189172"
     },
     {
       "date": "2026-11-12",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-12",
@@ -3913,11 +4055,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094724660"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277221940"
     },
     {
       "date": "2026-11-13",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-13",
@@ -3929,11 +4072,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094757428"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277254708"
     },
     {
       "date": "2026-11-13",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-13",
@@ -3945,11 +4089,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094790196"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277287476"
     },
     {
       "date": "2026-11-14",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-14",
@@ -3961,11 +4106,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094822964"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277320244"
     },
     {
       "date": "2026-11-14",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-14",
@@ -3977,11 +4123,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094855732"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277353012"
     },
     {
       "date": "2026-11-15",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-15",
@@ -3993,11 +4140,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094888500"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277385780"
     },
     {
       "date": "2026-11-15",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-15",
@@ -4009,11 +4157,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094921268"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277418548"
     },
     {
       "date": "2026-11-16",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-16",
@@ -4025,11 +4174,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094954036"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277451316"
     },
     {
       "date": "2026-11-16",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-16",
@@ -4041,11 +4191,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035094986804"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277484084"
     },
     {
       "date": "2026-11-17",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-17",
@@ -4057,11 +4208,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095019572"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277516852"
     },
     {
       "date": "2026-11-17",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-17",
@@ -4073,11 +4225,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095052340"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277549620"
     },
     {
       "date": "2026-11-18",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-18",
@@ -4089,11 +4242,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095085108"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277582388"
     },
     {
       "date": "2026-11-18",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-18",
@@ -4105,11 +4259,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095117876"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277615156"
     },
     {
       "date": "2026-11-19",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-19",
@@ -4121,11 +4276,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095150644"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277647924"
     },
     {
       "date": "2026-11-19",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-19",
@@ -4137,11 +4293,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095183412"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277680692"
     },
     {
       "date": "2026-11-20",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-20",
@@ -4153,11 +4310,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095216180"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277713460"
     },
     {
       "date": "2026-11-20",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-20",
@@ -4169,11 +4327,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095248948"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277746228"
     },
     {
       "date": "2026-11-21",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-21",
@@ -4185,11 +4344,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095281716"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277778996"
     },
     {
       "date": "2026-11-21",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-21",
@@ -4201,11 +4361,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095314484"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277811764"
     },
     {
       "date": "2026-11-22",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-22",
@@ -4217,11 +4378,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095347252"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277844532"
     },
     {
       "date": "2026-11-22",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-22",
@@ -4233,11 +4395,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095380020"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277877300"
     },
     {
       "date": "2026-11-23",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-23",
@@ -4249,11 +4412,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095412788"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277910068"
     },
     {
       "date": "2026-11-23",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-23",
@@ -4265,11 +4429,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095445556"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277942836"
     },
     {
       "date": "2026-11-24",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-24",
@@ -4281,11 +4446,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095478324"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043277975604"
     },
     {
       "date": "2026-11-24",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-24",
@@ -4297,11 +4463,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095511092"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278008372"
     },
     {
       "date": "2026-11-25",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-25",
@@ -4313,11 +4480,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095543860"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278041140"
     },
     {
       "date": "2026-11-25",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-25",
@@ -4329,11 +4497,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095576628"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278073908"
     },
     {
       "date": "2026-11-26",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-26",
@@ -4345,11 +4514,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095609396"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278106676"
     },
     {
       "date": "2026-11-26",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-26",
@@ -4361,11 +4531,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095642164"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278139444"
     },
     {
       "date": "2026-11-27",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-27",
@@ -4377,11 +4548,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095674932"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278172212"
     },
     {
       "date": "2026-11-27",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-27",
@@ -4393,11 +4565,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095707700"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278204980"
     },
     {
       "date": "2026-11-28",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-28",
@@ -4409,11 +4582,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095740468"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278237748"
     },
     {
       "date": "2026-11-28",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-28",
@@ -4425,11 +4599,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095773236"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278270516"
     },
     {
       "date": "2026-11-29",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-29",
@@ -4441,11 +4616,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095806004"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278303284"
     },
     {
       "date": "2026-11-29",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-29",
@@ -4457,11 +4633,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095838772"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278336052"
     },
     {
       "date": "2026-11-30",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-11-30",
@@ -4473,11 +4650,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095871540"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278368820"
     },
     {
       "date": "2026-11-30",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-11-30",
@@ -4489,11 +4667,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095904308"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278401588"
     },
     {
       "date": "2026-12-01",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-01",
@@ -4505,11 +4684,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095937076"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278434356"
     },
     {
       "date": "2026-12-01",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-01",
@@ -4521,11 +4701,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035095969844"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278467124"
     },
     {
       "date": "2026-12-02",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-02",
@@ -4537,11 +4718,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096002612"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278499892"
     },
     {
       "date": "2026-12-02",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-02",
@@ -4553,11 +4735,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096035380"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278532660"
     },
     {
       "date": "2026-12-03",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-03",
@@ -4569,11 +4752,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096068148"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278565428"
     },
     {
       "date": "2026-12-03",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-03",
@@ -4585,11 +4769,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096100916"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278598196"
     },
     {
       "date": "2026-12-04",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-04",
@@ -4601,11 +4786,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096133684"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278630964"
     },
     {
       "date": "2026-12-04",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-04",
@@ -4617,11 +4803,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096166452"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278663732"
     },
     {
       "date": "2026-12-05",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-05",
@@ -4633,11 +4820,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096199220"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278696500"
     },
     {
       "date": "2026-12-05",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-05",
@@ -4649,11 +4837,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096231988"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278729268"
     },
     {
       "date": "2026-12-06",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-06",
@@ -4665,11 +4854,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096264756"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278762036"
     },
     {
       "date": "2026-12-06",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-06",
@@ -4681,11 +4871,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096297524"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278794804"
     },
     {
       "date": "2026-12-07",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-07",
@@ -4697,11 +4888,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096330292"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278827572"
     },
     {
       "date": "2026-12-07",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-07",
@@ -4713,11 +4905,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096363060"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278860340"
     },
     {
       "date": "2026-12-08",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-08",
@@ -4729,11 +4922,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096395828"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278893108"
     },
     {
       "date": "2026-12-08",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-08",
@@ -4745,11 +4939,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096428596"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278925876"
     },
     {
       "date": "2026-12-09",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-09",
@@ -4761,11 +4956,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096461364"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278958644"
     },
     {
       "date": "2026-12-09",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-09",
@@ -4777,11 +4973,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096494132"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043278991412"
     },
     {
       "date": "2026-12-10",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-10",
@@ -4793,11 +4990,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096526900"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279024180"
     },
     {
       "date": "2026-12-10",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-10",
@@ -4809,11 +5007,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096559668"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279056948"
     },
     {
       "date": "2026-12-11",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-11",
@@ -4825,11 +5024,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096592436"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279089716"
     },
     {
       "date": "2026-12-11",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-11",
@@ -4841,11 +5041,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096625204"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279122484"
     },
     {
       "date": "2026-12-12",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-12",
@@ -4857,11 +5058,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096657972"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279155252"
     },
     {
       "date": "2026-12-12",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-12",
@@ -4873,11 +5075,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096690740"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279188020"
     },
     {
       "date": "2026-12-13",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-13",
@@ -4889,11 +5092,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096723508"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279220788"
     },
     {
       "date": "2026-12-13",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-13",
@@ -4905,11 +5109,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096756276"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279253556"
     },
     {
       "date": "2026-12-14",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-14",
@@ -4921,11 +5126,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096789044"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279286324"
     },
     {
       "date": "2026-12-14",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-14",
@@ -4937,11 +5143,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096821812"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279319092"
     },
     {
       "date": "2026-12-15",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-15",
@@ -4953,11 +5160,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096854580"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279351860"
     },
     {
       "date": "2026-12-15",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-15",
@@ -4969,11 +5177,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096887348"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279384628"
     },
     {
       "date": "2026-12-16",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-16",
@@ -4985,11 +5194,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096920116"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279417396"
     },
     {
       "date": "2026-12-16",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-16",
@@ -5001,11 +5211,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096952884"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279450164"
     },
     {
       "date": "2026-12-17",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-17",
@@ -5017,11 +5228,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035096985652"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279482932"
     },
     {
       "date": "2026-12-17",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-17",
@@ -5033,11 +5245,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097018420"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279515700"
     },
     {
       "date": "2026-12-18",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-18",
@@ -5049,11 +5262,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097051188"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279548468"
     },
     {
       "date": "2026-12-18",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-18",
@@ -5065,11 +5279,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097083956"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279581236"
     },
     {
       "date": "2026-12-19",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-19",
@@ -5081,11 +5296,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097116724"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279614004"
     },
     {
       "date": "2026-12-19",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-19",
@@ -5097,11 +5313,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097149492"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279646772"
     },
     {
       "date": "2026-12-20",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-20",
@@ -5113,11 +5330,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097182260"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279679540"
     },
     {
       "date": "2026-12-20",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-20",
@@ -5129,11 +5347,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097215028"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279712308"
     },
     {
       "date": "2026-12-21",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-21",
@@ -5145,11 +5364,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097247796"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279745076"
     },
     {
       "date": "2026-12-21",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-21",
@@ -5161,11 +5381,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097280564"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279777844"
     },
     {
       "date": "2026-12-22",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-22",
@@ -5177,11 +5398,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097313332"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279810612"
     },
     {
       "date": "2026-12-22",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-22",
@@ -5193,11 +5415,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097346100"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279843380"
     },
     {
       "date": "2026-12-23",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-23",
@@ -5209,11 +5432,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097378868"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279876148"
     },
     {
       "date": "2026-12-23",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-23",
@@ -5225,11 +5449,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097411636"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279908916"
     },
     {
       "date": "2026-12-24",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-24",
@@ -5241,11 +5466,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097444404"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279941684"
     },
     {
       "date": "2026-12-24",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-24",
@@ -5257,11 +5483,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097477172"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043279974452"
     },
     {
       "date": "2026-12-25",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-25",
@@ -5273,11 +5500,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097509940"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043280007220"
     },
     {
       "date": "2026-12-25",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-25",
@@ -5289,11 +5517,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097542708"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043280039988"
     },
     {
       "date": "2026-12-26",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-26",
@@ -5305,11 +5534,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097575476"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043280072756"
     },
     {
       "date": "2026-12-26",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-26",
@@ -5321,11 +5551,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097608244"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043280105524"
     },
     {
       "date": "2026-12-27",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-27",
@@ -5337,11 +5568,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097641012"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043280138292"
     },
     {
       "date": "2026-12-27",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-27",
@@ -5353,11 +5585,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097673780"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043280171060"
     },
     {
       "date": "2026-12-28",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-28",
@@ -5369,11 +5602,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097706548"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043280203828"
     },
     {
       "date": "2026-12-28",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-28",
@@ -5385,11 +5619,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097739316"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043280236596"
     },
     {
       "date": "2026-12-29",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-29",
@@ -5401,11 +5636,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097772084"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043280269364"
     },
     {
       "date": "2026-12-29",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-29",
@@ -5417,11 +5653,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097804852"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043280302132"
     },
     {
       "date": "2026-12-30",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-30",
@@ -5433,11 +5670,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097837620"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043280334900"
     },
     {
       "date": "2026-12-30",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-30",
@@ -5449,11 +5687,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097870388"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043280367668"
     },
     {
       "date": "2026-12-31",
       "priceType": 1,
+      "travelerType": "adult",
       "label": "Adult",
       "optionValues": {
         "Departure Date": "2026-12-31",
@@ -5465,11 +5704,12 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097903156"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043280400436"
     },
     {
       "date": "2026-12-31",
       "priceType": 2,
+      "travelerType": "child",
       "label": "Child",
       "optionValues": {
         "Departure Date": "2026-12-31",
@@ -5481,7 +5721,7 @@
       "inventoryPolicy": "CONTINUE",
       "inventoryQuantity": 55,
       "remainingStock": 55,
-      "shopifyVariantId": "gid://shopify/ProductVariant/48035097935924"
+      "shopifyVariantId": "gid://shopify/ProductVariant/48043280433204"
     }
   ],
   "addons": [
@@ -5537,7 +5777,7 @@
   "images": [
     {
       "sourceUrl": "https://dimg04.c-ctrip.com/target/2S0m1700000111bzr487A.png",
-      "shopifyMediaId": "gid://shopify/MediaImage/28796399976500",
+      "shopifyMediaId": "gid://shopify/MediaImage/28814005665844",
       "shopifyFileId": null,
       "position": 1,
       "role": "featured",
@@ -5545,7 +5785,7 @@
     },
     {
       "sourceUrl": "https://dimg04.c-ctrip.com/target/2S0i170000010qrmpE879.png",
-      "shopifyMediaId": "gid://shopify/MediaImage/28796400009268",
+      "shopifyMediaId": "gid://shopify/MediaImage/28814005698612",
       "shopifyFileId": null,
       "position": 2,
       "role": "gallery",
@@ -5553,7 +5793,7 @@
     },
     {
       "sourceUrl": "https://dimg04.c-ctrip.com/target/2S05170000010ugcv966F.png",
-      "shopifyMediaId": "gid://shopify/MediaImage/28796400042036",
+      "shopifyMediaId": "gid://shopify/MediaImage/28814005731380",
       "shopifyFileId": null,
       "position": 3,
       "role": "gallery",
@@ -5804,18 +6044,6 @@
       }
     ],
     "tour_departure": [
-      {
-        "id": "gid://shopify/Metaobject/352201343028",
-        "handle": "p00000847-departure-2026-07-14"
-      },
-      {
-        "id": "gid://shopify/Metaobject/352201375796",
-        "handle": "p00000847-departure-2026-07-15"
-      },
-      {
-        "id": "gid://shopify/Metaobject/352201408564",
-        "handle": "p00000847-departure-2026-07-16"
-      },
       {
         "id": "gid://shopify/Metaobject/352201441332",
         "handle": "p00000847-departure-2026-07-17"
@@ -6490,11 +6718,10 @@
       }
     ]
   },
-  "publication": {
-    "id": "gid://shopify/Publication/197740789812",
-    "name": "Travel Website Development"
-  },
-  "warnings": [],
+  "publication": null,
+  "warnings": [
+    "Preserved existing Shopify editable product/content fields. Use --overwrite-from-toursbms to replace them from ToursBMS."
+  ],
   "metaobjectDefinitions": {
     "tour_content": "gid://shopify/MetaobjectDefinition/18676711476",
     "tour_highlight": "gid://shopify/MetaobjectDefinition/18675433524",

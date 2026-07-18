@@ -8,6 +8,7 @@ export interface OrderLineItem {
   variantTitle: string | null
   quantity: number
   originalTotalSet: { shopMoney: ShopifyMoney }
+  customAttributes: Array<{ key: string; value: string }>
 }
 
 export interface Order {
@@ -38,6 +39,7 @@ const ORDERS_BY_EMAIL_QUERY = `
                 variantTitle
                 quantity
                 originalTotalSet { shopMoney { amount currencyCode } }
+                customAttributes { key value }
               }
             }
           }

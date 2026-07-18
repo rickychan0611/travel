@@ -5,7 +5,7 @@ import { useCartStore } from '@/store/cart'
 
 export function CartIcon({ locale }: { locale: string }) {
   const items = useCartStore((s) => s.items)
-  const count = items.reduce((sum, item) => sum + item.quantity, 0)
+  const count = items.reduce((sum, item) => sum + item.travelers.adults + item.travelers.seniors + item.travelers.children, 0)
 
   return (
     <Link

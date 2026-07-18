@@ -1,20 +1,9 @@
 import { promises as fs } from 'fs'
 import path from 'path'
-import { SHOPIFY_CACHE_REVALIDATE_SECONDS } from '@/lib/shopify/cache'
 import type { TourDetailData } from './types'
 
 const PRODUCTS_DIR = path.join(process.cwd(), 'data', 'toursbms-products')
 const SHOPIFY_SYNC_DIR = path.join(process.cwd(), 'data', 'shopify-sync')
-const MEMORY_CACHE_TTL_MS = SHOPIFY_CACHE_REVALIDATE_SECONDS * 1000
-
-const tourDetailMemoryCache = new Map<
-  string,
-  {
-    expiresAt: number
-    value: Promise<TourDetailData | null>
-  }
->()
-
 function normalizeKey(value: string) {
   return value.trim().toLowerCase()
 }
@@ -86,6 +75,23 @@ async function readShopifyProduct(manifest: ShopifySyncManifest, handle: string,
   }
 }
 
+async function readShopifyProductByHandle(handle: string, locale?: string): Promise<TourDetailData | null> {
+  try {
+    const { getAdminProductByHandle } = await import('@/lib/admin/shopify-admin')
+    const product = await getAdminProductByHandle(handle)
+    if (!product || normalizeKey(product.handle) !== normalizeKey(handle)) return null
+
+    return readShopifyProduct({
+      productCode: product.productCode,
+      handle: product.handle,
+      shopifyProductId: product.id,
+    }, product.handle, locale)
+  } catch (error) {
+    console.error('Failed to find Shopify tour product by handle', error)
+    return null
+  }
+}
+
 async function getToursBmsProductByHandleUncached(handle: string, locale?: string): Promise<TourDetailData | null> {
   const key = normalizeKey(handle)
   if (!key) return null
@@ -93,36 +99,27 @@ async function getToursBmsProductByHandleUncached(handle: string, locale?: strin
   const byCode = extractProductCode(handle)
   if (byCode) {
     const manifest = await readShopifySyncManifest(byCode)
-    if (!manifest) return null
-    return readShopifyProduct(manifest, manifest.handle || handle, locale)
+    if (manifest) {
+      const product = await readShopifyProduct(manifest, manifest.handle || handle, locale)
+      if (product) return product
+    }
+    return readShopifyProductByHandle(handle, locale)
   }
 
   const manifests = await readAllShopifySyncManifests()
   const manifest = manifests.find((item) => normalizeKey(item.handle || '') === key)
-  return manifest ? readShopifyProduct(manifest, manifest.handle || handle, locale) : null
+  if (manifest) {
+    const product = await readShopifyProduct(manifest, manifest.handle || handle, locale)
+    if (product) return product
+  }
+  return readShopifyProductByHandle(handle, locale)
 }
 
 export async function getToursBmsProductByHandle(handle: string, locale?: string): Promise<TourDetailData | null> {
-  const cacheKey = `${normalizeKey(handle)}:${locale || 'en'}`
-  const cached = tourDetailMemoryCache.get(cacheKey)
-  if (cached && cached.expiresAt > Date.now()) return cached.value
-
-  const value = getToursBmsProductByHandleUncached(handle, locale)
-  const cacheableValue = value.then((tour) => {
-    if (!tour) tourDetailMemoryCache.delete(cacheKey)
-    return tour
-  })
-  tourDetailMemoryCache.set(cacheKey, {
-    expiresAt: Date.now() + MEMORY_CACHE_TTL_MS,
-    value: cacheableValue,
-  })
-
-  try {
-    return await cacheableValue
-  } catch (error) {
-    tourDetailMemoryCache.delete(cacheKey)
-    throw error
-  }
+  // Shopify fetches already use Next.js cache tags. A separate process-local
+  // cache cannot be invalidated across requests/instances and caused newly
+  // saved room variants to remain invisible for up to 30 minutes.
+  return getToursBmsProductByHandleUncached(handle, locale)
 }
 
 export async function listToursBmsProductCodes(): Promise<string[]> {

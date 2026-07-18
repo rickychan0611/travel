@@ -90,13 +90,13 @@ export default function CartPage() {
 
             return (
             <div
-              key={item.variantId}
+              key={item.bookingId}
               className="flex items-start gap-4 rounded-xl border bg-card p-4"
             >
               <div className="flex-1 min-w-0">
                 <p className="font-medium text-sm leading-snug">{item.productTitle}</p>
                 <div className="mt-1.5 flex flex-wrap gap-x-3 gap-y-1 text-sm text-muted-foreground">
-                  <span>{item.partySize} person{item.partySize > 1 ? 's' : ''}</span>
+                  <span>{item.travelers.adults + item.travelers.seniors + item.travelers.children} travelers</span>
                   <span>·</span>
                   <span>{item.departureDate}</span>
                 </div>
@@ -133,12 +133,13 @@ export default function CartPage() {
                     Item total: {item.currencyCode} {itemTotal.toFixed(0)}
                   </p>
                 </div>
+                {item.roomSummary.length > 0 ? <ul className="mt-2 text-xs text-muted-foreground">{item.roomSummary.map((room) => <li key={room}>{room}</li>)}</ul> : null}
               </div>
               <Button
                 variant="ghost"
                 size="sm"
                 className="shrink-0 text-muted-foreground hover:text-destructive"
-                onClick={() => removeItem(item.variantId)}
+                onClick={() => removeItem(item.bookingId)}
                 aria-label="Remove item"
               >
                 <Trash2 className="size-4" />
