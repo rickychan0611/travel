@@ -2,6 +2,7 @@
 
 import { mkdir, writeFile } from 'fs/promises'
 import { dirname, resolve } from 'path'
+import { enrichProductLocations } from './lib/location-enrichment.mjs'
 
 const PRODUCT_PAGE_HOST = 'https://uvbookings.toursbms.com'
 const SOA_BASE = 'https://online.ctrip.com/restapi/soa2'
@@ -344,7 +345,7 @@ async function discoverContext(productCode, lang) {
     throw new Error('Missing branchCode or tokenCode from ToursBMS context')
   }
 
-  return {
+  const normalized = {
     pageUrl: page.url,
     initialState,
     branchInfo,
@@ -352,6 +353,7 @@ async function discoverContext(productCode, lang) {
     tokenCode: branchInfo.tokenCode,
     lang,
   }
+  return enrichProductLocations(normalized)
 }
 
 function findCurrency(currencies, requestedCurrency, branchInfo) {
@@ -578,6 +580,34 @@ async function extractProduct(args) {
   const basic = basicJson.responseData
   const currencies = currencyJson.responseData || []
   const currency = findCurrency(currencies, args.currency, context.branchInfo)
+  const productClassify = Number(basic?.productMain?.productClassify ?? 0)
+  let packageSchemesJson = null
+  let packageSchemes = []
+
+  if (productClassify === 1) {
+    packageSchemesJson = await postSoa(
+      '17626/getPagerScheme.json',
+      {
+        productCode: args.productCode,
+        containValidGroup: 1,
+        schemeStatus: 200,
+        currLanguage: args.lang,
+        needGuaranteed: 1,
+        pager: { pageIndex: 1, pageSize: 99 },
+      },
+      context,
+      { allowMissing: true },
+    )
+    const schemesOk = responseCode(packageSchemesJson) === 200 || responseCode(packageSchemesJson) === 'Success'
+    if (schemesOk) {
+      packageSchemes = packageSchemesJson.responseData?.listScheme || []
+    } else {
+      warnings.push(`getPagerScheme unavailable: ${responseCode(packageSchemesJson)} ${responseMessage(packageSchemesJson)}`.trim())
+    }
+    if (packageSchemes.length === 0) warnings.push('No active package scheme is available for this product.')
+  }
+
+  const availabilityProductCode = packageSchemes[0]?.schemeCode || args.productCode
 
   const [travelJson, groupsJson, addonsJson] = await Promise.all([
     postSoa(
@@ -591,10 +621,10 @@ async function extractProduct(args) {
       {
         startTime: `${start} 00:00:00`,
         endTime: `${end} 23:59:59`,
-        productCode: args.productCode,
+        productCode: availabilityProductCode,
         currencyCode: currency.currencyCode,
         stockStatus: 200,
-        productClassify: basic?.productMain?.productClassify ?? 0,
+        productClassify,
       },
       context,
       { allowMissing: true },
@@ -691,6 +721,8 @@ async function extractProduct(args) {
       requestedCurrency: args.currency,
       defaultCurrency: currency,
       supportedCurrencies: currencies,
+      packageSchemes,
+      selectedPackageScheme: packageSchemes[0] || null,
       firstAvailableDate: firstAvailability?.groupDate || null,
       basePrices: normalizeBasePrices(firstAvailability),
       availability: normalizeAvailability(groups),
@@ -751,6 +783,7 @@ async function extractProduct(args) {
         productBasic: `${SOA_BASE}/17626/getProductBasic.json`,
         productTravelDetail: `${SOA_BASE}/17626/getProductTravelDetail.json`,
         productGroup: `${SOA_BASE}/17626/getProductGroup.json`,
+        packageSchemes: `${SOA_BASE}/17626/getPagerScheme.json`,
         productPromote: `${SOA_BASE}/17626/getProductPromote.json`,
         currencies: `${SOA_BASE}/18554/getListWebSiteCurrency.json`,
       },
@@ -759,6 +792,8 @@ async function extractProduct(args) {
         basic,
         travelDetail,
         travelDetailResponse: travelJson,
+        packageSchemes,
+        packageSchemesResponse: packageSchemesJson,
         groups,
         groupsResponse: groupsJson,
         addons: addonsJson.responseData || [],

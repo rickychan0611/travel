@@ -9,13 +9,302 @@
     "zh-CN",
     "zh-TW"
   ],
-  "syncedAt": "2026-07-15T04:50:23.203Z",
-  "variants": [],
+  "syncedAt": "2026-07-19T00:41:41.935Z",
+  "variants": [
+    {
+      "date": "2026-07-21",
+      "priceType": 3,
+      "travelerType": "adult",
+      "roomType": "Single room",
+      "label": "Single room · Adult",
+      "optionValues": {
+        "Departure Date": "2026-07-21",
+        "Rate Type": "Single room · Adult"
+      },
+      "sku": "P00007570-2026-07-21-3-ADULT",
+      "price": "2488.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48044586270772"
+    },
+    {
+      "date": "2026-07-21",
+      "priceType": 4,
+      "travelerType": "adult",
+      "roomType": "Double room",
+      "label": "Double room · Adult",
+      "optionValues": {
+        "Departure Date": "2026-07-21",
+        "Rate Type": "Double room · Adult"
+      },
+      "sku": "P00007570-2026-07-21-4-ADULT",
+      "price": "1698.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48044586303540"
+    },
+    {
+      "date": "2026-07-21",
+      "priceType": 5,
+      "travelerType": "adult",
+      "roomType": "Triple room",
+      "label": "Triple room · Adult",
+      "optionValues": {
+        "Departure Date": "2026-07-21",
+        "Rate Type": "Triple room · Adult"
+      },
+      "sku": "P00007570-2026-07-21-5-ADULT",
+      "price": "1408.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48044586336308"
+    },
+    {
+      "date": "2026-07-21",
+      "priceType": 6,
+      "travelerType": "adult",
+      "roomType": "Quad room",
+      "label": "Quad room · Adult",
+      "optionValues": {
+        "Departure Date": "2026-07-21",
+        "Rate Type": "Quad room · Adult"
+      },
+      "sku": "P00007570-2026-07-21-6-ADULT",
+      "price": "1248.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48044586369076"
+    },
+    {
+      "date": "2026-07-29",
+      "priceType": 3,
+      "travelerType": "adult",
+      "roomType": "Single room",
+      "label": "Single room · Adult",
+      "optionValues": {
+        "Departure Date": "2026-07-29",
+        "Rate Type": "Single room · Adult"
+      },
+      "sku": "P00007570-2026-07-29-3-ADULT",
+      "price": "2488.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48044586401844"
+    },
+    {
+      "date": "2026-07-29",
+      "priceType": 4,
+      "travelerType": "adult",
+      "roomType": "Double room",
+      "label": "Double room · Adult",
+      "optionValues": {
+        "Departure Date": "2026-07-29",
+        "Rate Type": "Double room · Adult"
+      },
+      "sku": "P00007570-2026-07-29-4-ADULT",
+      "price": "1698.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48044586434612"
+    },
+    {
+      "date": "2026-07-29",
+      "priceType": 5,
+      "travelerType": "adult",
+      "roomType": "Triple room",
+      "label": "Triple room · Adult",
+      "optionValues": {
+        "Departure Date": "2026-07-29",
+        "Rate Type": "Triple room · Adult"
+      },
+      "sku": "P00007570-2026-07-29-5-ADULT",
+      "price": "1408.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48044586467380"
+    },
+    {
+      "date": "2026-07-29",
+      "priceType": 6,
+      "travelerType": "adult",
+      "roomType": "Quad room",
+      "label": "Quad room · Adult",
+      "optionValues": {
+        "Departure Date": "2026-07-29",
+        "Rate Type": "Quad room · Adult"
+      },
+      "sku": "P00007570-2026-07-29-6-ADULT",
+      "price": "1248.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48044586500148"
+    },
+    {
+      "date": "2026-08-24",
+      "priceType": 3,
+      "travelerType": "adult",
+      "roomType": "Single room",
+      "label": "Single room · Adult",
+      "optionValues": {
+        "Departure Date": "2026-08-24",
+        "Rate Type": "Single room · Adult"
+      },
+      "sku": "P00007570-2026-08-24-3-ADULT",
+      "price": "2488.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48044586532916"
+    },
+    {
+      "date": "2026-08-24",
+      "priceType": 4,
+      "travelerType": "adult",
+      "roomType": "Double room",
+      "label": "Double room · Adult",
+      "optionValues": {
+        "Departure Date": "2026-08-24",
+        "Rate Type": "Double room · Adult"
+      },
+      "sku": "P00007570-2026-08-24-4-ADULT",
+      "price": "1698.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48044586565684"
+    },
+    {
+      "date": "2026-08-24",
+      "priceType": 5,
+      "travelerType": "adult",
+      "roomType": "Triple room",
+      "label": "Triple room · Adult",
+      "optionValues": {
+        "Departure Date": "2026-08-24",
+        "Rate Type": "Triple room · Adult"
+      },
+      "sku": "P00007570-2026-08-24-5-ADULT",
+      "price": "1408.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48044586598452"
+    },
+    {
+      "date": "2026-08-24",
+      "priceType": 6,
+      "travelerType": "adult",
+      "roomType": "Quad room",
+      "label": "Quad room · Adult",
+      "optionValues": {
+        "Departure Date": "2026-08-24",
+        "Rate Type": "Quad room · Adult"
+      },
+      "sku": "P00007570-2026-08-24-6-ADULT",
+      "price": "1248.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48044586631220"
+    },
+    {
+      "date": "2026-08-25",
+      "priceType": 3,
+      "travelerType": "adult",
+      "roomType": "Single room",
+      "label": "Single room · Adult",
+      "optionValues": {
+        "Departure Date": "2026-08-25",
+        "Rate Type": "Single room · Adult"
+      },
+      "sku": "P00007570-2026-08-25-3-ADULT",
+      "price": "2488.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48044586663988"
+    },
+    {
+      "date": "2026-08-25",
+      "priceType": 4,
+      "travelerType": "adult",
+      "roomType": "Double room",
+      "label": "Double room · Adult",
+      "optionValues": {
+        "Departure Date": "2026-08-25",
+        "Rate Type": "Double room · Adult"
+      },
+      "sku": "P00007570-2026-08-25-4-ADULT",
+      "price": "1698.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48044586696756"
+    },
+    {
+      "date": "2026-08-25",
+      "priceType": 5,
+      "travelerType": "adult",
+      "roomType": "Triple room",
+      "label": "Triple room · Adult",
+      "optionValues": {
+        "Departure Date": "2026-08-25",
+        "Rate Type": "Triple room · Adult"
+      },
+      "sku": "P00007570-2026-08-25-5-ADULT",
+      "price": "1408.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48044586729524"
+    },
+    {
+      "date": "2026-08-25",
+      "priceType": 6,
+      "travelerType": "adult",
+      "roomType": "Quad room",
+      "label": "Quad room · Adult",
+      "optionValues": {
+        "Departure Date": "2026-08-25",
+        "Rate Type": "Quad room · Adult"
+      },
+      "sku": "P00007570-2026-08-25-6-ADULT",
+      "price": "1248.00",
+      "currency": "USD",
+      "inventoryPolicy": "CONTINUE",
+      "inventoryQuantity": 0,
+      "remainingStock": 0,
+      "shopifyVariantId": "gid://shopify/ProductVariant/48044586762292"
+    }
+  ],
   "addons": [],
   "images": [
     {
       "sourceUrl": "https://dimg04.c-ctrip.com/target/02S2n12000engekx94371.jpg",
-      "shopifyMediaId": "gid://shopify/MediaImage/28797024895028",
+      "shopifyMediaId": "gid://shopify/MediaImage/28818119098420",
       "shopifyFileId": null,
       "position": 1,
       "role": "featured",
@@ -23,7 +312,7 @@
     },
     {
       "sourceUrl": "https://dimg04.c-ctrip.com/target/02S6p12000epu4e0f1F14.png",
-      "shopifyMediaId": "gid://shopify/MediaImage/28797024927796",
+      "shopifyMediaId": "gid://shopify/MediaImage/28818119131188",
       "shopifyFileId": null,
       "position": 2,
       "role": "gallery",
@@ -31,7 +320,7 @@
     },
     {
       "sourceUrl": "https://dimg04.c-ctrip.com/target/02S6y12000eneqqk86E24.jpg",
-      "shopifyMediaId": "gid://shopify/MediaImage/28797024960564",
+      "shopifyMediaId": "gid://shopify/MediaImage/28818119163956",
       "shopifyFileId": null,
       "position": 3,
       "role": "gallery",
@@ -238,15 +527,31 @@
         "id": "gid://shopify/Metaobject/352392708148",
         "handle": "p00007570-zh-tw-notice-5"
       }
+    ],
+    "tour_departure": [
+      {
+        "id": "gid://shopify/Metaobject/362077913140",
+        "handle": "p00007570-departure-2026-07-21"
+      },
+      {
+        "id": "gid://shopify/Metaobject/362077945908",
+        "handle": "p00007570-departure-2026-07-29"
+      },
+      {
+        "id": "gid://shopify/Metaobject/362077978676",
+        "handle": "p00007570-departure-2026-08-24"
+      },
+      {
+        "id": "gid://shopify/Metaobject/362078011444",
+        "handle": "p00007570-departure-2026-08-25"
+      }
     ]
   },
-  "publication": {
-    "id": "gid://shopify/Publication/197740789812",
-    "name": "Travel Website Development"
-  },
+  "publication": null,
   "warnings": [
     "No ToursBMS departure-price variants were extracted; synced product content without date/rate variants.",
-    "Skipped optional add-ons because the product has no bookable departure-price variants."
+    "Skipped optional add-ons because the product has no bookable departure-price variants.",
+    "Preserved existing Shopify editable product/content fields. Use --overwrite-from-toursbms to replace them from ToursBMS."
   ],
   "metaobjectDefinitions": {
     "tour_content": "gid://shopify/MetaobjectDefinition/18676711476",
@@ -267,5 +572,6 @@
     "policy_notice": "gid://shopify/MetafieldDefinition/217872728116",
     "pickup_dropoff": "gid://shopify/MetafieldDefinition/217872760884",
     "addon": "gid://shopify/MetafieldDefinition/217872793652"
-  }
+  },
+  "filterFacetsSyncedAt": "2026-07-19T23:29:53.051Z"
 }

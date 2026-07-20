@@ -302,6 +302,7 @@ export async function saveMetaobjectContent(formData: FormData) {
   for (const [key, value] of formData.entries()) {
     if (key.startsWith('field:')) fields[key.slice('field:'.length)] = String(value)
   }
+  if (fields.html !== undefined) fields.text = htmlToText(fields.html)
   await updateAdminMetaobject(text(formData, 'metaobjectId'), fields)
   expireStorefrontCaches(locale, handle)
   redirect(`/${locale}/admin/products/${handle}`)
@@ -569,6 +570,7 @@ export async function saveSimpleMetaobjectAction(
   for (const [key, value] of formData.entries()) {
     if (key.startsWith('field:')) fields[key.slice('field:'.length)] = String(value)
   }
+  if (fields.html !== undefined) fields.text = htmlToText(fields.html)
   try {
     await updateAdminMetaobject(text(formData, 'metaobjectId'), fields)
   } catch (error) {
@@ -594,6 +596,7 @@ export async function addSimpleMetaobjectAction(formData: FormData) {
   for (const [fieldKey, value] of formData.entries()) {
     if (fieldKey.startsWith('field:')) fields[fieldKey.slice('field:'.length)] = String(value)
   }
+  if (fields.html !== undefined) fields.text = htmlToText(fields.html)
   if (type === 'tour_addon' && !fields.code) fields.code = `manual-${Date.now()}`
   const node = await upsertAdminMetaobject(type, `${handle}-${contentLocale}-${slugify(type)}-${Date.now()}`, fields)
   await appendReference(handle, key, node.id)
@@ -613,6 +616,7 @@ export async function addCostSectionAction(
   try {
     const product = await getAdminProductByHandle(handle)
     if (!product) throw new Error('Product not found')
+    const html = text(formData, 'field:html')
     const node = await upsertAdminMetaobject(
       'tour_cost_section',
       `${handle}-${contentLocale}-cost-section-${Date.now()}`,
@@ -620,7 +624,8 @@ export async function addCostSectionAction(
         product_code: productCodeFrom(product),
         locale: contentLocale,
         section: text(formData, 'field:section'),
-        text: text(formData, 'field:text'),
+        html,
+        text: htmlToText(html),
       },
     )
     await appendReference(handle, 'cost_section', node.id)

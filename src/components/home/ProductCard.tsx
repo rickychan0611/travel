@@ -16,7 +16,6 @@ export function ProductCard({
 }) {
   const t = useTranslations('product')
   const image = product.images.nodes[0]
-  const isInstant = product.tags.includes('booking:instant')
   const title = product.localizedTitle ?? product.title
   const place = product.localizedPlace ?? product.productType.replace(/-/g, ' ')
   const { amount, currencyCode } = product.priceRange.minVariantPrice
@@ -41,13 +40,6 @@ export function ProductCard({
             <div className="flex h-full items-center justify-center text-sm text-white/60">No image</div>
           )}
           <div className="absolute inset-x-0 bottom-0 h-[68%] bg-gradient-to-t from-black/30 via-black/15 to-transparent" aria-hidden="true" />
-          <span
-            className={`absolute left-3 top-3 rounded px-2 py-1 text-[10px] font-medium text-white ${
-              isInstant ? 'bg-tff-blue' : 'bg-black/55 backdrop-blur-sm'
-            }`}
-          >
-            {isInstant ? t('instant') : t('manual')}
-          </span>
           <div className="absolute inset-x-0 bottom-0 p-5 text-white">
             <p className="mb-1 text-xs capitalize text-white/75">{place}</p>
             <h3 className="line-clamp-2 text-lg font-semibold leading-snug text-white drop-shadow-sm">
@@ -81,13 +73,6 @@ export function ProductCard({
         ) : (
           <div className="flex h-full items-center justify-center text-sm text-[#c0c4cc]">No image</div>
         )}
-        <span
-          className={`absolute left-2 top-2 rounded px-1.5 py-0.5 text-[10px] font-medium text-white ${
-            isInstant ? 'bg-tff-blue' : 'bg-[#909399]'
-          }`}
-        >
-          {isInstant ? t('instant') : t('manual')}
-        </span>
       </Link>
 
       <div className="flex flex-1 flex-col p-3">

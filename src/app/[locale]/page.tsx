@@ -1,11 +1,10 @@
 import type { Metadata } from 'next'
 import { getTranslations } from 'next-intl/server'
 import { HeroBanner } from '@/components/home/HeroBanner'
-import { HomeNavTiles } from '@/components/home/HomeNavTiles'
 import { SeasonMustPlay } from '@/components/home/SeasonMustPlay'
 import { UsaTravelSection, type HomepageTourSectionData } from '@/components/home/UsaTravelSection'
 import { CustomStories } from '@/components/home/CustomStories'
-import { KnowUs } from '@/components/home/KnowUs'
+import { SignatureCollections } from '@/components/home/SignatureCollections'
 import { PartnerBanner } from '@/components/home/PartnerBanner'
 import { HOMEPAGE_TOUR_SECTIONS } from '@/data/tour-categories'
 import { fetchProductsByQueries, localizeCollectionProducts } from '@/lib/shopify/products'
@@ -40,11 +39,11 @@ export default async function HomePage({
         id: section.id,
         title: localized(section.title),
         icon: '/tff/usa-title-icon.png',
-        moreHref: `/${section.categories[0]?.categorySlug || 'tours'}`,
+        moreHref: '',
         tabs: section.categories.map((category) => ({
           id: category.id,
           label: localized(category.title),
-          href: `/${category.categorySlug}`,
+          href: '',
           queries: [],
           products: category.products,
         })),
@@ -65,18 +64,18 @@ export default async function HomePage({
     <>
       <HeroBanner
         locale={locale}
-        managedSlides={managed.initialized ? managed.heroSlides.flatMap((slide) => slide.image ? [{ id: slide.id, title: slide.title, categorySlug: slide.categorySlug, imageUrl: slide.image.url }] : []) : undefined}
-        managedDestinationGroups={managed.initialized ? managed.destinationGroups.map((group) => ({ id: group.id, title: group.title, links: group.links.map((link) => ({ id: link.id, title: link.title, categorySlug: link.categorySlug })) })) : undefined}
+        managedSlides={managed.initialized ? managed.heroSlides.flatMap((slide) => slide.image ? [{ id: slide.id, title: slide.title, linkEnabled: slide.linkEnabled, imageUrl: slide.image.url }] : []) : undefined}
+        managedDestinationGroups={managed.initialized ? managed.destinationGroups.map((group) => ({ id: group.id, title: group.title, links: group.links.map((link) => ({ id: link.id, title: link.title })) })) : undefined}
       />
 
       <div className="mx-auto max-w-[1200px] space-y-4 px-4 py-4 md:space-y-5 md:py-5">
-        <HomeNavTiles locale={locale} />
-        <SeasonMustPlay locale={locale} managedItems={managed.initialized ? managed.seasonItems.flatMap((item) => item.image ? [{ id: item.id, title: item.title, categorySlug: item.categorySlug, imageUrl: item.image.url }] : []) : undefined} />
+        <SeasonMustPlay locale={locale} managedItems={managed.initialized ? managed.seasonItems.flatMap((item) => item.image ? [{ id: item.id, title: item.title, imageUrl: item.image.url }] : []) : undefined} />
         {tourSections.map((section) => (
           <UsaTravelSection key={section.id} locale={locale} section={section} />
         ))}
+        <SignatureCollections locale={locale} />
         <CustomStories locale={locale} />
-        <KnowUs />
+        {/* Know Us and media sections are intentionally hidden. */}
         <PartnerBanner />
       </div>
     </>

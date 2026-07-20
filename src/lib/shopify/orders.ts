@@ -1,3 +1,5 @@
+import { shopifyAdminClient, type ShopifyAdminGraphQlResponse } from './admin-client'
+
 export interface ShopifyMoney {
   amount: string
   currencyCode: string
@@ -19,6 +21,35 @@ export interface Order {
   financialStatus: string
   fulfillmentStatus: string
   lineItems: OrderLineItem[]
+}
+
+export interface OrderDetailLineItem extends ConfirmationLineItem {
+  id: string
+  sku: string | null
+  currentQuantity: number
+  total: ShopifyMoney
+  image: { url: string; altText: string | null } | null
+  productHandle: string | null
+}
+
+export interface CustomerOrderDetail {
+  id: string
+  numericId: string
+  name: string
+  createdAt: string
+  processedAt: string
+  cancelledAt: string | null
+  cancelReason: string | null
+  email: string
+  financialStatus: string
+  fulfillmentStatus: string
+  subtotal: ShopifyMoney
+  discounts: ShopifyMoney
+  taxes: ShopifyMoney
+  total: ShopifyMoney
+  refunded: ShopifyMoney
+  paymentGatewayNames: string[]
+  lineItems: OrderDetailLineItem[]
 }
 
 const ORDERS_BY_EMAIL_QUERY = `
@@ -199,6 +230,177 @@ export async function getOrderById(id: string): Promise<ConfirmationOrder | null
       quantity: n.quantity,
       unitPrice: n.originalUnitPriceSet.shopMoney,
       customAttributes: n.customAttributes,
+    })),
+  }
+}
+
+const CUSTOMER_ORDER_DETAIL_QUERY = `
+  query GetCustomerOrderDetail($id: ID!) {
+    order(id: $id) {
+      id
+      legacyResourceId
+      name
+      createdAt
+      processedAt
+      cancelledAt
+      cancelReason
+      displayFinancialStatus
+      displayFulfillmentStatus
+      paymentGatewayNames
+      currentSubtotalPriceSet { shopMoney { amount currencyCode } }
+      currentTotalDiscountsSet { shopMoney { amount currencyCode } }
+      currentTotalTaxSet { shopMoney { amount currencyCode } }
+      currentTotalPriceSet { shopMoney { amount currencyCode } }
+      totalRefundedSet { shopMoney { amount currencyCode } }
+      lineItems(first: 50) {
+        nodes {
+          id
+          title
+          variantTitle
+          sku
+          quantity
+          currentQuantity
+          originalUnitPriceSet { shopMoney { amount currencyCode } }
+          discountedTotalSet { shopMoney { amount currencyCode } }
+          customAttributes { key value }
+          image { url altText }
+          product { handle }
+        }
+      }
+    }
+  }
+`
+
+type RawCustomerOrderDetail = {
+  id: string
+  legacyResourceId: string
+  name: string
+  createdAt: string
+  processedAt: string
+  cancelledAt: string | null
+  cancelReason: string | null
+  displayFinancialStatus: string
+  displayFulfillmentStatus: string
+  paymentGatewayNames: string[]
+  currentSubtotalPriceSet: { shopMoney: ShopifyMoney }
+  currentTotalDiscountsSet: { shopMoney: ShopifyMoney }
+  currentTotalTaxSet: { shopMoney: ShopifyMoney }
+  currentTotalPriceSet: { shopMoney: ShopifyMoney }
+  totalRefundedSet: { shopMoney: ShopifyMoney }
+  lineItems: {
+    nodes: Array<{
+      id: string
+      title: string
+      variantTitle: string | null
+      sku: string | null
+      quantity: number
+      currentQuantity: number
+      originalUnitPriceSet: { shopMoney: ShopifyMoney }
+      discountedTotalSet: { shopMoney: ShopifyMoney }
+      customAttributes: Array<{ key: string; value: string }>
+      image: { url: string; altText: string | null } | null
+      product: { handle: string } | null
+    }>
+  }
+}
+
+const CUSTOMER_ORDER_IDS_QUERY = `
+  query GetCustomerOrderIds($query: String!, $after: String) {
+    orders(first: 250, after: $after, query: $query, sortKey: CREATED_AT, reverse: true) {
+      nodes { id }
+      pageInfo { hasNextPage endCursor }
+    }
+  }
+`
+
+type CustomerOrderIdsResponse = {
+  orders: {
+    nodes: Array<{ id: string }>
+    pageInfo: { hasNextPage: boolean; endCursor: string | null }
+  }
+}
+
+async function customerOwnsOrder(numericId: string, authenticatedEmail: string) {
+  const escapedEmail = authenticatedEmail.trim().replace(/\\/g, '\\\\').replace(/"/g, '\\"')
+  let after: string | null = null
+
+  do {
+    const response: ShopifyAdminGraphQlResponse<CustomerOrderIdsResponse> = await shopifyAdminClient.request<CustomerOrderIdsResponse>(CUSTOMER_ORDER_IDS_QUERY, {
+      variables: { query: `email:"${escapedEmail}"`, after },
+      cache: 'no-store',
+    })
+    if (response.errors) {
+      const message = Array.isArray(response.errors)
+        ? response.errors.map((error: unknown) => (error as { message?: string }).message).filter(Boolean).join('; ')
+        : JSON.stringify(response.errors)
+      throw new Error(message || 'Shopify Admin API error')
+    }
+
+    const orderConnection: CustomerOrderIdsResponse['orders'] | undefined = response.data?.orders
+    if (!orderConnection) return false
+    if (orderConnection.nodes.some((order: { id: string }) => order.id === `gid://shopify/Order/${numericId}`)) return true
+    after = orderConnection.pageInfo.hasNextPage ? orderConnection.pageInfo.endCursor : null
+  } while (after)
+
+  return false
+}
+
+/**
+ * Loads one order and returns it only when it belongs to the authenticated email.
+ * This ownership check is required even though the route is protected by Clerk.
+ */
+export async function getCustomerOrderDetail(id: string, authenticatedEmail: string): Promise<CustomerOrderDetail | null> {
+  const numericId = id.startsWith('gid://') ? id.split('/').pop() ?? '' : id.trim()
+  if (!/^\d+$/.test(numericId) || !authenticatedEmail.trim()) return null
+  if (!await customerOwnsOrder(numericId, authenticatedEmail)) return null
+
+  const response = await shopifyAdminClient.request<{ order: RawCustomerOrderDetail | null }>(
+    CUSTOMER_ORDER_DETAIL_QUERY,
+    {
+      variables: { id: `gid://shopify/Order/${numericId}` },
+      cache: 'no-store',
+    },
+  )
+
+  if (response.errors) {
+    const message = Array.isArray(response.errors)
+      ? response.errors.map((error) => (error as { message?: string }).message).filter(Boolean).join('; ')
+      : JSON.stringify(response.errors)
+    throw new Error(message || 'Shopify Admin API error')
+  }
+
+  const order = response.data?.order
+  if (!order) return null
+
+  return {
+    id: order.id,
+    numericId: order.legacyResourceId || numericId,
+    name: order.name,
+    createdAt: order.createdAt,
+    processedAt: order.processedAt,
+    cancelledAt: order.cancelledAt,
+    cancelReason: order.cancelReason,
+    email: authenticatedEmail.trim().toLowerCase(),
+    financialStatus: order.displayFinancialStatus,
+    fulfillmentStatus: order.displayFulfillmentStatus,
+    subtotal: order.currentSubtotalPriceSet.shopMoney,
+    discounts: order.currentTotalDiscountsSet.shopMoney,
+    taxes: order.currentTotalTaxSet.shopMoney,
+    total: order.currentTotalPriceSet.shopMoney,
+    refunded: order.totalRefundedSet.shopMoney,
+    paymentGatewayNames: order.paymentGatewayNames ?? [],
+    lineItems: order.lineItems.nodes.map((item) => ({
+      id: item.id,
+      title: item.title,
+      variantTitle: item.variantTitle,
+      sku: item.sku,
+      quantity: item.quantity,
+      currentQuantity: item.currentQuantity,
+      unitPrice: item.originalUnitPriceSet.shopMoney,
+      total: item.discountedTotalSet.shopMoney,
+      customAttributes: item.customAttributes,
+      image: item.image,
+      productHandle: item.product?.handle ?? null,
     })),
   }
 }

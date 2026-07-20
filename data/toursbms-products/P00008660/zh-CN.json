@@ -162,6 +162,93 @@
         }
       ],
       "isLocalResidentOptional": 0
+    },
+    "location": {
+      "countries": [
+        "Canada"
+      ],
+      "cities": [
+        "Toronto",
+        "Montreal",
+        "Quebec City",
+        "Ottawa"
+      ],
+      "primaryCountry": "Canada",
+      "primaryCity": "Toronto",
+      "confidence": "high",
+      "evidence": [
+        {
+          "kind": "city",
+          "value": "Toronto",
+          "country": "Canada",
+          "source": "structured-place",
+          "matched": "toronto",
+          "confidence": "high"
+        },
+        {
+          "kind": "city",
+          "value": "Montreal",
+          "country": "Canada",
+          "source": "structured-place",
+          "matched": "montreal",
+          "confidence": "high"
+        },
+        {
+          "kind": "city",
+          "value": "Quebec City",
+          "country": "Canada",
+          "source": "structured-place",
+          "matched": "quebec city",
+          "confidence": "high"
+        },
+        {
+          "kind": "city",
+          "value": "Ottawa",
+          "country": "Canada",
+          "source": "structured-place",
+          "matched": "ottawa",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Canada",
+          "source": "structured-place",
+          "matched": "加拿大",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Canada",
+          "source": "structured-place",
+          "matched": "toronto",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Canada",
+          "source": "structured-place",
+          "matched": "montreal",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Canada",
+          "source": "structured-place",
+          "matched": "quebec city",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Canada",
+          "source": "structured-place",
+          "matched": "ottawa",
+          "confidence": "high"
+        }
+      ],
+      "isMultiCountry": false,
+      "isMultiCity": true,
+      "needsReview": false,
+      "reviewReasons": []
     }
   },
   "media": {

@@ -3,11 +3,14 @@ import {
   buildAddonVariantMetafields,
   buildDryRunPayload,
   buildProductImages,
+  buildFilterFacets,
   buildProductMetafields,
   buildProductPayload,
+  buildSearchAliases,
   buildTourVariantMetafields,
   buildTourVariants,
   isRequestOnlyAddon,
+  mergeSyncedProductTags,
   nonShippableInventoryItemInput,
 } from './toursbms-shopify-sync.mjs'
 
@@ -78,6 +81,22 @@ const fixture = {
 }
 
 describe('ToursBMS Shopify sync builders', () => {
+  it('builds storefront filter facets from ToursBMS data', () => {
+    const facets = buildFilterFacets({
+      ...fixture,
+      product: { ...fixture.product, productForm: 1, transfers: ['Airport pick-up'], destinations: [{ provinceName: 'Yucatan' }] },
+      constraints: { confirmType: 1 },
+    })
+    expect(facets.durationDays).toBe(4)
+    expect(facets.departureDates).toEqual(['2026-07-13', '2026-07-14'])
+    expect(facets.transfers).toEqual(['airport-pick-up'])
+    expect(facets.tourFormats).toEqual(['package-tour'])
+    expect(facets.confirmMethods).toEqual(['manual'])
+  })
+
+  it('replaces sync-owned tags while retaining manual Shopify tags', () => {
+    expect(mergeSyncedProductTags(['staff-pick', 'region-europe', 'code:OLD'], ['tour', 'region-asia', 'code:NEW'])).toEqual(['staff-pick', 'tour', 'region-asia', 'code:NEW'])
+  })
   it('marks synced Shopify inventory items as not requiring shipping', () => {
     expect(nonShippableInventoryItemInput()).toEqual({ requiresShipping: false })
   })
@@ -163,5 +182,19 @@ describe('ToursBMS Shopify sync builders', () => {
       { rateType: 'Single room', travelerType: 'child' },
     ])
     expect(payload.tags).toEqual(expect.arrayContaining(['country-mexico', 'city-cancun', 'bookable']))
+  })
+
+  it('builds multilingual structured search aliases', () => {
+    const aliases = buildSearchAliases({
+      en: fixture,
+      'zh-CN': {
+        ...fixture,
+        product: { ...fixture.product, title: '坎昆精选行程', start: { regionName: '坎昆' }, end: { regionName: '坎昆' } },
+        shopify_mapping: { ...fixture.shopify_mapping, title: '坎昆精选行程' },
+      },
+    })
+    expect(aliases).toEqual(expect.arrayContaining(['Test Cancun Tour', '坎昆精选行程', 'Mexico', 'Cancun']))
+    const metafields = Object.fromEntries(buildProductMetafields(fixture, { en: fixture, 'zh-CN': { ...fixture, product: { ...fixture.product, title: '坎昆精选行程' }, shopify_mapping: { ...fixture.shopify_mapping, title: '坎昆精选行程' } } }).map((field) => [field.key, field.value]))
+    expect(JSON.parse(metafields.search_aliases)).toContain('坎昆精选行程')
   })
 })

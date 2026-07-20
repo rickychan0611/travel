@@ -1,4 +1,5 @@
 import type { CollectionProduct } from '@/lib/shopify/types'
+import type { LocalizedText } from '@/data/tour-categories'
 
 export const TFF_BLUE = '#0090f2'
 export const TFF_ORANGE = '#fb5f10'
@@ -24,69 +25,63 @@ export const PHONE_LINES = [
 
 export type MegaNavItem = {
   id: string
-  label: string
+  label: LocalizedText
   href?: string
   hot?: boolean
   /** Flat hover tags (matches old Tours4fun header popovers) */
-  links?: Array<{ label: string; href: string }>
+  links?: Array<{ label: LocalizedText; href: string }>
 }
 
+const navText = (en: string, zhCN: string, zhTW = zhCN): LocalizedText => ({ en, 'zh-CN': zhCN, 'zh-TW': zhTW })
+
 export const MEGA_NAV: MegaNavItem[] = [
-  { id: 'home', label: '首页', href: '/' },
+  { id: 'home', label: navText('Home', '首页', '首頁'), href: '/' },
   {
     id: 'americas',
-    label: '美洲旅游',
-    href: '/new-york',
+    label: navText('Americas', '美洲旅游', '美洲旅遊'),
+    href: '/americas',
     links: [
-      { label: '纽约', href: '/new-york' },
-      { label: '黄石公园', href: '/yellowstone' },
-      { label: '卡尔加里落基山', href: '/calgary-rockies' },
-      { label: '阿拉斯加', href: '/alaska' },
-      { label: '坎昆', href: '/cancun' },
-      { label: '秘鲁', href: '/peru' },
+      { label: navText('New York', '纽约', '紐約'), href: '/new-york' },
+      { label: navText('Yellowstone', '黄石公园', '黃石公園'), href: '/yellowstone' },
+      { label: navText('Calgary & Rockies', '卡尔加里落基山', '卡爾加里落基山'), href: '/calgary-rockies' },
+      { label: navText('Alaska', '阿拉斯加'), href: '/alaska' },
+      { label: navText('Cancún', '坎昆'), href: '/cancun' },
+      { label: navText('Peru', '秘鲁', '秘魯'), href: '/peru' },
     ],
   },
   {
     id: 'europe',
-    label: '欧洲旅游',
+    label: navText('Europe', '欧洲旅游', '歐洲旅遊'),
     href: '/europe',
     links: [
-      { label: '欧洲精选', href: '/europe' },
-      { label: '西班牙', href: '/europe' },
-      { label: '希腊', href: '/europe' },
-      { label: '北欧 / 冰岛', href: '/europe' },
+      { label: navText('Europe', '欧洲精选', '歐洲精選'), href: '/europe' },
+      { label: navText('Spain', '西班牙'), href: '/europe' },
+      { label: navText('Greece', '希腊', '希臘'), href: '/europe' },
+      { label: navText('Nordics & Iceland', '北欧 / 冰岛', '北歐 / 冰島'), href: '/europe' },
     ],
   },
   {
     id: 'asia_world',
-    label: '亚洲与世界',
-    href: '/china',
+    label: navText('Asia & World', '亚洲与世界', '亞洲與世界'),
+    href: '/asia-world',
     links: [
-      { label: '中国', href: '/china' },
-      { label: '欧洲', href: '/europe' },
-      { label: '阿拉斯加', href: '/alaska' },
-      { label: '秘鲁', href: '/peru' },
+      { label: navText('China', '中国', '中國'), href: '/china' },
+      { label: navText('Europe', '欧洲', '歐洲'), href: '/europe' },
+      { label: navText('Alaska', '阿拉斯加'), href: '/alaska' },
+      { label: navText('Peru', '秘鲁', '秘魯'), href: '/peru' },
     ],
   },
   {
     id: 'day_tours',
-    label: '一日游与短线',
-    hot: true,
+    label: navText('One Day Tour', '一日游', '一日遊'),
     href: '/day-tours',
-    links: [
-      { label: '一日游', href: '/day-tours' },
-      { label: '周边短线', href: '/day-tours' },
-      { label: '纽约短线', href: '/new-york' },
-      { label: '西雅图短线', href: '/day-tours' },
-    ],
   },
-  { id: 'platinum', label: '白金尊享', hot: true, href: '/platinum-tours' },
-  { id: 'private', label: '私家包团', href: '/private-tours' },
 ]
 
 export type HotDestinationRegion = {
   id: string
   title: string
+  categorySlug: string
   badge: string
   links: string[]
 }
@@ -95,24 +90,28 @@ export const HOT_DESTINATIONS: HotDestinationRegion[] = [
   {
     id: 'us',
     title: '美国旅游',
+    categorySlug: 'united-states',
     badge: '夏季黄石5折',
     links: ['洛杉矶', '美西国家公园', '纽约', '羚羊谷', '拉斯维加斯', '旧金山', '阿拉斯加', '黄石'],
   },
   {
     id: 'canada',
     title: '加拿大&拉美',
+    categorySlug: 'canada-latin-america',
     badge: '夏季班芙公园',
     links: ['卡尔加里', '温哥华', '多伦多', '秘鲁', '墨西哥', '尼亚加拉'],
   },
   {
     id: 'europe',
     title: '欧洲旅游',
+    categorySlug: 'europe',
     badge: '精品小团9折起',
     links: ['北欧峡湾', '英国', '冰岛', '法瑞意', '土耳其希腊', '西葡'],
   },
   {
     id: 'asia',
     title: '亚非&澳新',
+    categorySlug: 'asia-world',
     badge: '日本夏季8折起',
     links: ['中国', '日本', '新西兰', '澳大利亚', '埃及', '东南亚'],
   },

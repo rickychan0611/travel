@@ -5,6 +5,8 @@ import Link from 'next/link'
 import type { Route } from 'next'
 import { MEGA_NAV } from '@/data/home-mock'
 import { MapPin } from 'lucide-react'
+import { getLocalizedText } from '@/data/tour-categories'
+import { catalogKeywordHref } from '@/lib/catalog-keywords'
 
 export function MegaNav({ locale }: { locale: string }) {
   const [openId, setOpenId] = useState<string | null>(null)
@@ -25,9 +27,18 @@ export function MegaNav({ locale }: { locale: string }) {
 
         <div className="flex min-w-0 flex-1 items-stretch px-1">
           {MEGA_NAV.map((item) => {
-            const href = item.href
-              ? (`/${locale}${item.href === '/' ? '' : item.href}` as Route)
-              : (`/${locale}/tours` as Route)
+            const label = getLocalizedText(item.label, locale)
+            const href = item.id === 'home'
+              ? (`/${locale}` as Route)
+              : catalogKeywordHref(
+                  locale,
+                  label,
+                  item.id === 'day_tours'
+                    ? { days: 1 }
+                    : item.id === 'asia_world'
+                      ? { region: ['asia', 'other'] }
+                      : undefined,
+                )
             const hasMenu = Boolean(item.links?.length)
 
             return (
@@ -42,7 +53,7 @@ export function MegaNav({ locale }: { locale: string }) {
                     openId === item.id ? 'bg-white/10' : ''
                   }`}
                 >
-                  {item.label}
+                  {label}
                   {item.hot ? (
                     <span className="pointer-events-none absolute -top-1.5 right-0 z-60 rounded-sm bg-tff-orange px-1 py-px text-[9px] font-bold leading-none text-white shadow-sm">
                       HOT
@@ -54,12 +65,12 @@ export function MegaNav({ locale }: { locale: string }) {
                   <div className="absolute left-0 top-full z-50 min-w-[160px] rounded-b-md border border-[#e8e8e8] bg-white px-4 py-3 shadow-lg">
                     <ul className="flex flex-col gap-2.5">
                       {item.links!.map((link) => (
-                        <li key={link.label}>
+                        <li key={getLocalizedText(link.label, locale)}>
                           <Link
-                            href={`/${locale}${link.href}` as Route}
+                            href={catalogKeywordHref(locale, getLocalizedText(link.label, locale))}
                             className="cursor-pointer whitespace-nowrap text-sm text-[#606266] hover:text-tff-blue"
                           >
-                            {link.label}
+                            {getLocalizedText(link.label, locale)}
                           </Link>
                         </li>
                       ))}

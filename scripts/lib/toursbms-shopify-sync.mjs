@@ -171,6 +171,25 @@ function addTag(tags, value) {
   if (value) tags.add(value)
 }
 
+const PRODUCT_FORM_LABELS = {
+  1: 'package-tour',
+  2: 'diy-tour',
+  3: 'private-group',
+  4: 'free-day',
+  5: 'one-day-tour',
+  6: 'customized-tour',
+}
+
+export function isSyncOwnedProductTag(tag) {
+  const value = String(tag || '').toLowerCase()
+  return ['tour', 'toursbms', 'bookable', 'content-only', 'day-trip', 'group-tour'].includes(value)
+    || ['category-', 'dest-', 'duration-', 'region-', 'type-', 'country-', 'city-', 'product-type-', 'confirm-', 'category:', 'group:', 'code:'].some((prefix) => value.startsWith(prefix))
+}
+
+export function mergeSyncedProductTags(existingTags = [], syncedTags = []) {
+  return [...new Set([...existingTags.filter((tag) => !isSyncOwnedProductTag(tag)), ...syncedTags].filter(Boolean))]
+}
+
 export function buildDiscoveryTags(json) {
   const tags = new Set(['tour'])
   const product = json?.product || {}
@@ -215,6 +234,15 @@ export function buildDiscoveryTags(json) {
   if (includesAny(text, ['new york', 'yellowstone', 'calgary', 'alaska', 'los angeles', 'san francisco', 'seattle', '纽约', '黄石', '卡尔加里', '阿拉斯加'])) {
     addTag(tags, 'region-north-america')
   }
+  if (includesAny(text, ['united states', 'usa', 'new york', 'yellowstone', 'los angeles', 'san francisco', 'seattle', 'alaska', 'hawaii', '美国', '美國', '纽约', '紐約', '黄石', '黃石', '阿拉斯加', '夏威夷'])) addTag(tags, 'region-united-states')
+  if (includesAny(text, ['canada', 'calgary', 'banff', 'vancouver', 'toronto', 'jasper', '加拿大', '卡尔加里', '卡爾加里', '班芙', '温哥华', '溫哥華', '多伦多', '多倫多'])) {
+    addTag(tags, 'region-canada')
+    addTag(tags, 'region-north-america')
+  }
+  if (includesAny(text, ['japan', 'korea', 'singapore', 'malaysia', 'taiwan', 'maldives', '日本', '韩国', '韓國', '新加坡', '马来西亚', '馬來西亞', '台湾', '台灣', '马尔代夫', '馬爾代夫'])) addTag(tags, 'region-asia')
+  if (includesAny(text, ['australia', 'new zealand', 'oceania', '澳大利亚', '澳大利亞', '澳洲', '新西兰', '紐西蘭'])) addTag(tags, 'region-oceania')
+  if (includesAny(text, ['africa', 'egypt', 'morocco', 'kenya', 'south africa', '非洲', '埃及', '摩洛哥', '肯尼亚', '肯亞', '南非'])) addTag(tags, 'region-africa')
+  if (includesAny(text, ['middle east', 'dubai', 'israel', 'jordan', '中东', '中東', '迪拜', '以色列', '约旦', '約旦'])) addTag(tags, 'region-middle-east')
 
   if (includesAny(text, ['白金尊享', 'platinum', 'premium'])) addTag(tags, 'type-platinum')
   if (includesAny(text, ['金榜怡享', 'gold'])) addTag(tags, 'type-gold')
@@ -331,6 +359,7 @@ function uniqueStrings(values) {
 
 function destinationNames(product) {
   return uniqueStrings([
+    ...(product.location?.cities || []),
     product.start?.regionName,
     ...(product.destinations || []).flatMap((destination) => [
       destination.spotName,
@@ -343,6 +372,7 @@ function destinationNames(product) {
 }
 
 function inferCountry(product) {
+  if (product.location?.primaryCountry) return product.location.primaryCountry
   const text = [
     product.title,
     product.categoryName,
@@ -403,7 +433,83 @@ function discoveryLabels(tags) {
     .map((tag) => tag.replace(/-/g, ' '))
 }
 
-export function buildProductMetafields(json) {
+export function buildFilterFacets(json) {
+  const product = json?.product || {}
+  const availability = Array.isArray(json?.pricing?.availability) ? json.pricing.availability : []
+  const durationDays = Number(product.duration?.days ?? product.raw?.tripDay ?? 0)
+  const productForm = Number(product.productForm ?? product.raw?.productForm ?? 0)
+  const transfers = uniqueStrings(product.transfers || []).map((value) => tagSlug(value))
+  const confirmMethod = inferConfirmMethod(json)
+  const manualLabels = uniqueStrings(json?.shopify_mapping?.filterLabels || json?.shopify_mapping?.labels || [])
+  return {
+    version: 1,
+    productTypes: uniqueStrings([product.categoryName]),
+    departureCountries: uniqueStrings(product.location?.countries?.length ? product.location.countries : [inferCountry(product)]),
+    departureCities: uniqueStrings(product.location?.cities?.length ? product.location.cities : [product.start?.regionName]),
+    returnCities: uniqueStrings([product.end?.regionName]),
+    destinations: destinationNames(product),
+    labels: manualLabels,
+    durationDays: Number.isFinite(durationDays) && durationDays > 0 ? durationDays : null,
+    departureDates: uniqueStrings(availability.filter((item) => item?.stockStatus === 200 && item?.date).map((item) => item.date)).sort(),
+    transfers,
+    tourFormats: uniqueStrings([PRODUCT_FORM_LABELS[productForm] || inferProductType(product, buildTourVariants(json))]),
+    confirmMethods: uniqueStrings([confirmMethod]),
+  }
+}
+
+const SEARCH_ALIAS_EXPANSIONS = {
+  'region-north-america': ['Americas', 'North America', '美洲', '北美洲', '北美热门线路', '北美熱門線路'],
+  'region-united-states': ['United States', 'USA', '美国', '美國'],
+  'region-canada': ['Canada', '加拿大'],
+  'region-latin-america': ['Americas', 'Latin America', 'South America', '拉丁美洲', '南美洲'],
+  'region-europe': ['Europe', '欧洲', '歐洲'],
+  'region-asia': ['Asia', '亚洲', '亞洲'],
+  'region-oceania': ['Oceania', 'Australia', 'New Zealand', '大洋洲', '澳大利亚', '澳大利亞', '新西兰', '紐西蘭'],
+  'region-africa': ['Africa', '非洲'],
+  'region-middle-east': ['Middle East', '中东', '中東'],
+  'type-private': ['Private Tours', 'Private', '私家包团', '私家包團'],
+  'type-platinum': ['Platinum Tours', 'Platinum', '白金尊享'],
+  'duration-1-day': ['Day Tours', 'Day Trip', '一日游', '一日遊', '一日游与短线', '一日遊與短線'],
+}
+
+export function buildSearchAliases(jsonByLocale) {
+  const localized = jsonByLocale && !jsonByLocale.product ? Object.values(jsonByLocale) : [jsonByLocale]
+  const aliases = []
+  const discoveryTags = new Set()
+
+  for (const json of localized.filter(Boolean)) {
+    const product = json.product || {}
+    const facets = buildFilterFacets(json)
+    const tags = buildDiscoveryTags(json)
+    tags.forEach((tag) => discoveryTags.add(tag))
+    aliases.push(
+      getProductCode(json),
+      getProductHandle(json),
+      getProductTitle(json),
+      product.subtitle,
+      product.groupNo,
+      product.categoryName,
+      product.start?.regionName,
+      product.end?.regionName,
+      ...(json.shopify_mapping?.tags || []),
+      ...tags,
+      ...tags.map((tag) => tag.replace(/-/g, ' ')),
+      ...facets.productTypes,
+      ...facets.departureCountries,
+      ...facets.departureCities,
+      ...facets.returnCities,
+      ...facets.destinations,
+      ...facets.labels,
+      ...facets.tourFormats,
+      ...destinationNames(product),
+    )
+  }
+
+  for (const tag of discoveryTags) aliases.push(...(SEARCH_ALIAS_EXPANSIONS[tag] || []))
+  return uniqueStrings(aliases)
+}
+
+export function buildProductMetafields(json, jsonByLocale = { en: json }) {
   const product = json.product || {}
   const pricing = json.pricing || {}
   const variants = buildTourVariants(json)
@@ -411,6 +517,8 @@ export function buildProductMetafields(json) {
   const prices = priceRangeFromVariants(variants, pricing)
   const departures = departureRange(pricing.availability || [])
   const destinations = destinationNames(product)
+  const countries = uniqueStrings(product.location?.countries || [inferCountry(product)])
+  const cities = uniqueStrings(product.location?.cities || [product.start?.regionName || destinations[0]])
   const pricingMode = pricing.pricingMode
     || (pricing.availability?.some((day) => day.isGroupRoom) || variants.some((variant) => ADULT_PRICE_TYPES.has(Number(variant.priceType))) ? 'room_occupancy' : 'per_person')
   const rateTemplate = [...new Map(variants.map((variant) => {
@@ -427,10 +535,14 @@ export function buildProductMetafields(json) {
     ['duration_nights', String(product.duration?.nights ?? product.raw?.nightDay ?? 0), 'number_integer'],
     ['departure_city', product.start?.regionName || '', 'single_line_text_field'],
     ['return_city', product.end?.regionName || '', 'single_line_text_field'],
-    ['country', inferCountry(product), 'single_line_text_field'],
-    ['city', product.start?.regionName || destinations[0] || '', 'single_line_text_field'],
+    ['country', product.location?.primaryCountry || inferCountry(product), 'single_line_text_field'],
+    ['city', product.location?.primaryCity || product.start?.regionName || destinations[0] || '', 'single_line_text_field'],
+    ['countries', asJsonMetafieldValue(countries), 'json'],
+    ['cities', asJsonMetafieldValue(cities), 'json'],
     ['destinations', asJsonMetafieldValue(destinations), 'json'],
     ['labels', asJsonMetafieldValue(discoveryLabels(tags)), 'json'],
+    ['search_aliases', asJsonMetafieldValue(buildSearchAliases(jsonByLocale)), 'json'],
+    ['filter_facets', asJsonMetafieldValue(buildFilterFacets(json)), 'json'],
     ['min_price', prices.min, 'number_decimal'],
     ['max_price', prices.max, 'number_decimal'],
     ['earliest_departure', departures.earliest, 'date'],
@@ -449,12 +561,13 @@ export function buildProductMetafields(json) {
       dateCount: pricing.availability?.length || 0,
       basePrices: pricing.basePrices || [],
       supportedCurrencies: pricing.supportedCurrencies || [],
+      departureDates: buildFilterFacets(json).departureDates,
     }), 'json'],
   ].filter(([, value]) => value !== '')
     .map(([key, value, type]) => ({ namespace: 'toursbms', key, value: String(value), type }))
 }
 
-export function buildProductPayload(json, status = 'DRAFT') {
+export function buildProductPayload(json, status = 'DRAFT', jsonByLocale = { en: json }) {
   const product = json.product || {}
   const mapping = json.shopify_mapping || {}
   const variants = buildTourVariants(json)
@@ -484,7 +597,7 @@ export function buildProductPayload(json, status = 'DRAFT') {
     productType: mapping.productType || product.categoryName || 'Tour',
     tags: [...tags],
     status,
-    metafields: buildProductMetafields(json),
+    metafields: buildProductMetafields(json, jsonByLocale),
   }
 }
 
@@ -741,7 +854,7 @@ export function buildDryRunPayload(jsonByLocale, existingManifest = {}, status =
   const baseJson = jsonByLocale.en || Object.values(jsonByLocale)[0]
   const manifest = buildManifestSkeleton({ jsonByLocale, existingManifest, status })
   return {
-    product: buildProductPayload(baseJson, status),
+    product: buildProductPayload(baseJson, status, jsonByLocale),
     variants: manifest.variants,
     addonProduct: buildAddonProductPayload(baseJson, manifest.addons),
     images: manifest.images,

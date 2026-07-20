@@ -257,6 +257,176 @@
       "otherCurrencySupport": [],
       "productRateInfoList": [],
       "isLocalResidentOptional": 0
+    },
+    "location": {
+      "countries": [
+        "France",
+        "Luxembourg",
+        "Germany",
+        "Czech",
+        "Austria",
+        "Hungary",
+        "Slovak",
+        "Switzerland",
+        "Italy",
+        "Liechtenstein"
+      ],
+      "cities": [
+        "Paris",
+        "Rome",
+        "Venice",
+        "Lucerne"
+      ],
+      "primaryCountry": "France",
+      "primaryCity": "Paris",
+      "confidence": "high",
+      "evidence": [
+        {
+          "kind": "country",
+          "value": "France",
+          "source": "destination.explicit",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Luxembourg",
+          "source": "destination.explicit",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Germany",
+          "source": "destination.explicit",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Czech",
+          "source": "destination.explicit",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Austria",
+          "source": "destination.explicit",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Hungary",
+          "source": "destination.explicit",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Slovak",
+          "source": "destination.explicit",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Switzerland",
+          "source": "destination.explicit",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Italy",
+          "source": "destination.explicit",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Liechtenstein",
+          "source": "destination.explicit",
+          "confidence": "high"
+        },
+        {
+          "kind": "city",
+          "value": "Paris",
+          "country": "France",
+          "source": "structured-place",
+          "matched": "paris",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "France",
+          "source": "structured-place",
+          "matched": "france",
+          "confidence": "high"
+        },
+        {
+          "kind": "city",
+          "value": "Rome",
+          "country": "Italy",
+          "source": "structured-place",
+          "matched": "rome",
+          "confidence": "high"
+        },
+        {
+          "kind": "city",
+          "value": "Venice",
+          "country": "Italy",
+          "source": "itinerary-place",
+          "matched": "venice",
+          "confidence": "medium"
+        },
+        {
+          "kind": "country",
+          "value": "Italy",
+          "source": "structured-place",
+          "matched": "italy",
+          "confidence": "high"
+        },
+        {
+          "kind": "city",
+          "value": "Lucerne",
+          "country": "Switzerland",
+          "source": "itinerary-place",
+          "matched": "lucerne",
+          "confidence": "medium"
+        },
+        {
+          "kind": "country",
+          "value": "Switzerland",
+          "source": "structured-place",
+          "matched": "switzerland",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "France",
+          "source": "structured-place",
+          "matched": "paris",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Italy",
+          "source": "structured-place",
+          "matched": "rome",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Italy",
+          "source": "itinerary-place",
+          "matched": "venice",
+          "confidence": "medium"
+        },
+        {
+          "kind": "country",
+          "value": "Switzerland",
+          "source": "itinerary-place",
+          "matched": "lucerne",
+          "confidence": "medium"
+        }
+      ],
+      "isMultiCountry": true,
+      "isMultiCity": true,
+      "needsReview": false,
+      "reviewReasons": []
     }
   },
   "media": {

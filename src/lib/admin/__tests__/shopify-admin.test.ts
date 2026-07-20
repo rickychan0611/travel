@@ -1,6 +1,48 @@
 import { afterEach, describe, expect, it, vi } from 'vitest'
 import { shopifyAdminClient } from '../../shopify/admin-client'
-import { normalizeProductCode, resolveAdminProductCodes, updateProductFilterMetafields, validateProductCode } from '../shopify-admin'
+import {
+  createAdminProduct,
+  createDatePriceVariants,
+  initializeDatePriceVariants,
+  normalizeProductCode,
+  resolveAdminProductCodes,
+  updateProductFilterMetafields,
+  validateProductCode,
+} from '../shopify-admin'
+
+describe('admin product creation', () => {
+  afterEach(() => {
+    vi.restoreAllMocks()
+  })
+
+  it('creates its initial Shopify variant as a non-physical item', async () => {
+    const request = vi.spyOn(shopifyAdminClient, 'request').mockResolvedValue({
+      data: {
+        productSet: {
+          product: { id: 'gid://shopify/Product/1', handle: 'example-tour' },
+          userErrors: [],
+          productSetOperation: { userErrors: [] },
+        },
+      },
+    })
+
+    await createAdminProduct({
+      title: 'Example tour',
+      handle: 'example-tour',
+      productCode: 'P00000001',
+      productType: 'Tour',
+    })
+
+    expect(request.mock.calls[0]?.[1]?.variables).toMatchObject({
+      input: {
+        variants: [{
+          price: '0.00',
+          inventoryItem: { requiresShipping: false },
+        }],
+      },
+    })
+  })
+})
 
 describe('product code validation', () => {
   it('normalizes codes before saving', () => {
@@ -95,5 +137,77 @@ describe('updateProductFilterMetafields', () => {
     })
 
     expect(request).not.toHaveBeenCalled()
+  })
+})
+
+describe('admin variant publication', () => {
+  afterEach(() => {
+    vi.restoreAllMocks()
+    delete process.env.SHOPIFY_STOREFRONT_PUBLICATION_NAME
+  })
+
+  it('publishes a product after adding date-price variants', async () => {
+    const request = vi.spyOn(shopifyAdminClient, 'request')
+      .mockResolvedValueOnce({
+        data: { productVariantsBulkCreate: { productVariants: [{ id: 'gid://shopify/ProductVariant/1' }], userErrors: [] } },
+      })
+      .mockResolvedValueOnce({
+        data: { publications: { nodes: [{ id: 'gid://shopify/Publication/1', name: 'Travel Website Development' }] } },
+      })
+      .mockResolvedValueOnce({
+        data: { publishablePublish: { userErrors: [] } },
+      })
+
+    await createDatePriceVariants({
+      productId: 'gid://shopify/Product/1',
+      date: '2026-08-01',
+      rates: [{ rateType: 'Adult', price: '100.00', priceType: 1, travelerType: 'adult' }],
+    })
+
+    expect(request).toHaveBeenCalledTimes(3)
+    expect(request.mock.calls[0]?.[1]?.variables).toMatchObject({
+      variants: [{ inventoryItem: { requiresShipping: false } }],
+    })
+    expect(request.mock.calls[2]?.[1]?.variables).toEqual({
+      id: 'gid://shopify/Product/1',
+      input: [{ publicationId: 'gid://shopify/Publication/1' }],
+    })
+  })
+
+  it('publishes a product after initializing its first date-price variants', async () => {
+    process.env.SHOPIFY_STOREFRONT_PUBLICATION_NAME = 'Custom Storefront'
+    const request = vi.spyOn(shopifyAdminClient, 'request')
+      .mockResolvedValueOnce({
+        data: {
+          productSet: {
+            product: { variants: { nodes: [{ id: 'gid://shopify/ProductVariant/2' }] } },
+            userErrors: [],
+            productSetOperation: { userErrors: [] },
+          },
+        },
+      })
+      .mockResolvedValueOnce({
+        data: { publications: { nodes: [{ id: 'gid://shopify/Publication/2', name: 'Custom Storefront' }] } },
+      })
+      .mockResolvedValueOnce({
+        data: { publishablePublish: { userErrors: [] } },
+      })
+
+    await initializeDatePriceVariants({
+      productId: 'gid://shopify/Product/2',
+      date: '2026-08-02',
+      rates: [{ rateType: 'Adult', price: '150.00', priceType: 1, travelerType: 'adult' }],
+    })
+
+    expect(request).toHaveBeenCalledTimes(3)
+    expect(request.mock.calls[0]?.[1]?.variables).toMatchObject({
+      input: {
+        variants: [{ inventoryItem: { requiresShipping: false } }],
+      },
+    })
+    expect(request.mock.calls[2]?.[1]?.variables).toEqual({
+      id: 'gid://shopify/Product/2',
+      input: [{ publicationId: 'gid://shopify/Publication/2' }],
+    })
   })
 })

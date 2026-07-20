@@ -1,7 +1,6 @@
 import { getAdminUser } from "@/lib/admin/auth";
 import { getLandingPageContent } from "@/lib/admin/homepage-admin";
 import { HOMEPAGE_METAOBJECT_TYPES } from "@/lib/homepage/types";
-import { TOUR_CATEGORIES, getLocalizedText } from "@/data/tour-categories";
 import { AdminActionForm } from "@/components/admin/AdminActionForm";
 import { AdminPageHeader, AdminPanel } from "@/components/admin/AdminCards";
 import { AdminOrderControls } from "@/components/admin/AdminOrderControls";
@@ -74,39 +73,6 @@ function TextField({
         defaultValue={defaultValue}
         className={inputClass}
       />
-    </label>
-  );
-}
-
-function CategoryField({
-  locale,
-  defaultValue = "",
-  required = true,
-}: {
-  locale: string;
-  defaultValue?: string;
-  required?: boolean;
-}) {
-  return (
-    <label className="block">
-      <span className="text-sm text-slate-700">Linked category</span>
-      <select
-        name="categorySlug"
-        required={required}
-        defaultValue={defaultValue}
-        className={inputClass}
-      >
-        {!required || !defaultValue ? (
-          <option value="">
-            {required ? "Select category" : "No category yet"}
-          </option>
-        ) : null}
-        {Object.values(TOUR_CATEGORIES).map((category) => (
-          <option key={category.slug} value={category.slug}>
-            {getLocalizedText(category.title, locale)} · /{category.slug}
-          </option>
-        ))}
-      </select>
     </label>
   );
 }
@@ -232,7 +198,7 @@ export default async function LandingPageAdmin({
       <div className="space-y-4">
         <AdminPanel
           title="Hero banners"
-          description="Autoplay slideshow. Imported banners may remain unlinked until you choose a category."
+          description="Autoplay slideshow. A linked banner searches with its visible translated title."
           collapsible
         >
           <div className="space-y-3">
@@ -259,17 +225,10 @@ export default async function LandingPageAdmin({
                     id={slide.id}
                   />
                   <Titles titles={slide.titles} />
-                  <CategoryField
-                    locale={locale}
-                    defaultValue={slide.categorySlug}
-                    required={false}
-                  />
-                  {!slide.categorySlug ? (
-                    <p className="text-xs font-medium text-amber-700">
-                      Category required before this banner can link to a
-                      category page.
-                    </p>
-                  ) : null}
+                  <label className="flex items-center gap-2 text-sm text-slate-700">
+                    <input name="linkEnabled" type="checkbox" defaultChecked={slide.linkEnabled} className="size-4" />
+                    Link banner using its translated title as the search keyword
+                  </label>
                   <ShopifyImageField
                     label="Banner image"
                     recommendedSize="3840 × 780 px"
@@ -288,7 +247,10 @@ export default async function LandingPageAdmin({
             >
               <Context type={HOMEPAGE_METAOBJECT_TYPES.hero} />
               <Titles />
-              <CategoryField locale={locale} />
+              <label className="flex items-center gap-2 text-sm text-slate-700">
+                <input name="linkEnabled" type="checkbox" defaultChecked className="size-4" />
+                Link banner using its translated title as the search keyword
+              </label>
               <ShopifyImageField
                 label="Banner image"
                 recommendedSize="3840 × 780 px"
@@ -303,7 +265,7 @@ export default async function LandingPageAdmin({
 
         <AdminPanel
           title="Hot destination menu"
-          description="Four fixed groups with editable linked category items."
+          description="Four fixed groups with editable destination links. Each visible title becomes its search keyword."
           collapsible
         >
           <div className="space-y-4">
@@ -362,7 +324,7 @@ export default async function LandingPageAdmin({
                           action={saveLandingItemAction}
                           submitLabel="Save link"
                           deleteLabel="Delete link"
-                          deleteConfirmMessage="Delete this linked category?"
+                          deleteConfirmMessage="Delete this destination link?"
                           className="space-y-3"
                           footerClassName="flex flex-wrap items-center gap-3"
                           submitClassName={submitClass}
@@ -373,16 +335,12 @@ export default async function LandingPageAdmin({
                             parentId={group.id}
                           />
                           <Titles titles={link.titles} label="Link title" />
-                          <CategoryField
-                            locale={locale}
-                            defaultValue={link.categorySlug}
-                          />
                         </AdminActionForm>
                       </div>
                     ))}
                     <AdminActionForm
                       action={saveLandingItemAction}
-                      submitLabel="Add linked category"
+                      submitLabel="Add destination link"
                       pendingLabel="Adding…"
                       className="space-y-3 rounded-lg border border-dashed border-slate-300 bg-white p-3"
                       footerClassName="flex flex-wrap items-center gap-3"
@@ -393,7 +351,6 @@ export default async function LandingPageAdmin({
                         parentId={group.id}
                       />
                       <Titles label="Link title" />
-                      <CategoryField locale={locale} />
                       <p className="text-xs text-slate-500">
                         New links are added last. Use Move up after adding to
                         change the order.
@@ -438,10 +395,6 @@ export default async function LandingPageAdmin({
                     id={item.id}
                   />
                   <Titles titles={item.titles} />
-                  <CategoryField
-                    locale={locale}
-                    defaultValue={item.categorySlug}
-                  />
                   <ShopifyImageField
                     label="Seasonal image"
                     recommendedSize="660 × 600 px"
@@ -460,7 +413,6 @@ export default async function LandingPageAdmin({
             >
               <Context type={HOMEPAGE_METAOBJECT_TYPES.season} />
               <Titles />
-              <CategoryField locale={locale} />
               <ShopifyImageField
                 label="Seasonal image"
                 recommendedSize="660 × 600 px"
@@ -555,10 +507,6 @@ export default async function LandingPageAdmin({
                               parentId={section.id}
                             />
                             <Titles titles={category.titles} />
-                            <CategoryField
-                              locale={locale}
-                              defaultValue={category.categorySlug}
-                            />
                             <label className="block">
                               <span className="text-sm text-slate-700">
                                 Ordered product codes (maximum 6)
@@ -606,7 +554,6 @@ export default async function LandingPageAdmin({
                           parentId={section.id}
                         />
                         <Titles />
-                        <CategoryField locale={locale} />
                         <label className="block">
                           <span className="text-sm text-slate-700">
                             Ordered product codes (maximum 6)

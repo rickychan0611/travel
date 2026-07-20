@@ -129,7 +129,7 @@ type Definition = { type: string; name: string; fields: DefinitionField[] }
 
 export const HOMEPAGE_DEFINITIONS: Definition[] = [
   { type: HOMEPAGE_METAOBJECT_TYPES.config, name: 'Homepage Config', fields: [['initialized', 'Initialized', 'boolean'], ['schema_version', 'Schema version', 'number_integer']] },
-  { type: HOMEPAGE_METAOBJECT_TYPES.hero, name: 'Homepage Hero Slide', fields: localizedFields([['image', 'Image', 'file_reference'], ['category_slug', 'Category slug', 'single_line_text_field'], ['position', 'Position', 'number_integer']]) },
+  { type: HOMEPAGE_METAOBJECT_TYPES.hero, name: 'Homepage Hero Slide', fields: localizedFields([['image', 'Image', 'file_reference'], ['link_enabled', 'Link banner', 'boolean'], ['category_slug', 'Category slug', 'single_line_text_field'], ['position', 'Position', 'number_integer']]) },
   { type: HOMEPAGE_METAOBJECT_TYPES.destinationGroup, name: 'Homepage Destination Group', fields: localizedFields([['position', 'Position', 'number_integer']]) },
   { type: HOMEPAGE_METAOBJECT_TYPES.destinationLink, name: 'Homepage Destination Link', fields: localizedFields([['group', 'Destination group', 'metaobject_reference', HOMEPAGE_METAOBJECT_TYPES.destinationGroup], ['category_slug', 'Category slug', 'single_line_text_field'], ['position', 'Position', 'number_integer']]) },
   { type: HOMEPAGE_METAOBJECT_TYPES.season, name: 'Homepage Seasonal Item', fields: localizedFields([['image', 'Image', 'file_reference'], ['category_slug', 'Category slug', 'single_line_text_field'], ['position', 'Position', 'number_integer']]) },
@@ -229,7 +229,7 @@ export async function getLandingPageContent(locale: string, cached = true): Prom
   if (!initialized) return { initialized: false, heroSlides: [], destinationGroups: [], seasonItems: [], tourSections: [] }
 
   const heroSlides = records.filter((record) => record.type === HOMEPAGE_METAOBJECT_TYPES.hero).sort((a, b) => order(a) - order(b)).map((record) => ({
-    id: record.id, title: localizedHomepageTitle(record.fields, locale), titles: homepageTitles(record.fields), categorySlug: record.fields.category_slug || '', position: order(record), image: record.images.image || null,
+    id: record.id, title: localizedHomepageTitle(record.fields, locale), titles: homepageTitles(record.fields), categorySlug: record.fields.category_slug || '', linkEnabled: record.fields.link_enabled ? record.fields.link_enabled === 'true' : Boolean(record.fields.category_slug), position: order(record), image: record.images.image || null,
   }))
   const destinationLinks = records.filter((record) => record.type === HOMEPAGE_METAOBJECT_TYPES.destinationLink).map((record) => ({
     id: record.id, title: localizedHomepageTitle(record.fields, locale), titles: homepageTitles(record.fields), categorySlug: record.fields.category_slug || '', position: order(record), groupId: record.fields.group || '',
@@ -331,6 +331,19 @@ export async function getShopifyImages(ids: string[]) {
   return (data.nodes ?? []).flatMap((node) => fileNode(node) ? [fileNode(node)!] : [])
 }
 
+async function waitForShopifyImage(id: string) {
+  const attempts = 30
+  for (let attempt = 0; attempt < attempts; attempt += 1) {
+    const data = await adminRequest<{ nodes?: Array<Parameters<typeof fileNode>[0]> }>(FILES_BY_IDS, { ids: [id] }, 'Process Shopify image')
+    const node = data.nodes?.[0] ?? null
+    if (node?.fileStatus === 'FAILED') throw new Error('Create Shopify image: Shopify could not process the uploaded file')
+    const image = fileNode(node)
+    if (image?.status === 'READY') return image
+    if (attempt < attempts - 1) await new Promise((resolve) => setTimeout(resolve, 500))
+  }
+  throw new Error('Create Shopify image: Shopify is still processing the file. Please upload it again in a moment.')
+}
+
 export async function uploadImageBufferToShopify(input: { bytes: Uint8Array; filename: string; mimeType: string; alt: string }) {
   const staged = await adminRequest<{ stagedUploadsCreate?: { stagedTargets?: Array<{ url: string; resourceUrl: string; parameters: Array<{ name: string; value: string }> }> } }>(STAGED_UPLOADS_CREATE, {
     input: [{ filename: input.filename, mimeType: input.mimeType, resource: 'IMAGE', httpMethod: 'POST' }],
@@ -349,7 +362,8 @@ export async function uploadImageBufferToShopify(input: { bytes: Uint8Array; fil
   }, 'Create Shopify image')
   const node = created.fileCreate?.files?.[0]
   if (!node?.id) throw new Error('Create Shopify image: no file returned')
-  return fileNode(node) || { id: node.id, url: '', width: 0, height: 0, altText: input.alt, status: node.fileStatus || 'PROCESSING' }
+  const image = fileNode(node)
+  return image?.status === 'READY' ? image : waitForShopifyImage(node.id)
 }
 
 export async function uploadPublicHomepageImage(relativePath: string, alt: string) {

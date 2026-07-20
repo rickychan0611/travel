@@ -151,7 +151,7 @@ export function RichTextEditor({
               suppressContentEditableWarning
               onInput={syncFromEditor}
               onBlur={syncFromEditor}
-              className="min-h-56 px-3 py-3 text-sm leading-6 text-slate-950 outline-none [&_a]:text-blue-700 [&_a]:underline [&_h2]:mb-2 [&_h2]:mt-4 [&_h2]:text-lg [&_h2]:font-semibold [&_li]:ml-5 [&_ol]:list-decimal [&_p]:mb-3 [&_ul]:list-disc"
+              className="min-h-56 px-3 py-3 text-sm leading-6 text-slate-950 outline-none [&_a]:text-blue-700 [&_a]:underline [&_h2]:mb-2 [&_h2]:mt-4 [&_h2]:text-lg [&_h2]:font-semibold [&_img]:h-auto [&_img]:max-w-full [&_li]:ml-5 [&_ol]:list-decimal [&_p]:mb-3 [&_ul]:list-disc"
             />
           </>
         ) : (

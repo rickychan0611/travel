@@ -105,6 +105,38 @@
         }
       ],
       "isLocalResidentOptional": 0
+    },
+    "location": {
+      "countries": [
+        "Canada"
+      ],
+      "cities": [
+        "Vancouver"
+      ],
+      "primaryCountry": "Canada",
+      "primaryCity": "Vancouver",
+      "confidence": "high",
+      "evidence": [
+        {
+          "kind": "city",
+          "value": "Vancouver",
+          "country": "Canada",
+          "source": "structured-place",
+          "matched": "vancouver",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Canada",
+          "source": "structured-place",
+          "matched": "vancouver",
+          "confidence": "high"
+        }
+      ],
+      "isMultiCountry": false,
+      "isMultiCity": false,
+      "needsReview": false,
+      "reviewReasons": []
     }
   },
   "media": {

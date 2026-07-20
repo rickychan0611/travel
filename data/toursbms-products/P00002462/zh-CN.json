@@ -131,6 +131,54 @@
       "otherCurrencySupport": [],
       "productRateInfoList": [],
       "isLocalResidentOptional": 0
+    },
+    "location": {
+      "countries": [
+        "United States"
+      ],
+      "cities": [
+        "Las Vegas",
+        "Page"
+      ],
+      "primaryCountry": "United States",
+      "primaryCity": "Las Vegas",
+      "confidence": "high",
+      "evidence": [
+        {
+          "kind": "city",
+          "value": "Las Vegas",
+          "country": "United States",
+          "source": "structured-place",
+          "matched": "las vegas",
+          "confidence": "high"
+        },
+        {
+          "kind": "city",
+          "value": "Page",
+          "country": "United States",
+          "source": "itinerary-place",
+          "matched": "佩吉",
+          "confidence": "medium"
+        },
+        {
+          "kind": "country",
+          "value": "United States",
+          "source": "structured-place",
+          "matched": "las vegas",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "United States",
+          "source": "itinerary-place",
+          "matched": "佩吉",
+          "confidence": "medium"
+        }
+      ],
+      "isMultiCountry": false,
+      "isMultiCity": true,
+      "needsReview": false,
+      "reviewReasons": []
     }
   },
   "media": {

@@ -15,7 +15,7 @@ import { expireHomepageCaches } from '@/lib/admin/revalidate'
 import { HOMEPAGE_METAOBJECT_TYPES, normalizeShopifyProductId } from '@/lib/homepage/types'
 import { moveHomepageItem, sortHomepageItems, type HomepageOrderDirection } from '@/lib/homepage/order'
 import { HOME_BANNERS, HOT_DESTINATIONS, SEASON_MUST_PLAY } from '@/data/home-mock'
-import { CATEGORY_SLUGS, HOMEPAGE_TOUR_SECTIONS } from '@/data/tour-categories'
+import { HOMEPAGE_TOUR_SECTIONS } from '@/data/tour-categories'
 import { fetchProductsByQueries } from '@/lib/shopify/products'
 import { resolveAdminProductCodes } from '@/lib/admin/shopify-admin'
 
@@ -34,8 +34,6 @@ function failed(error: unknown, fallback: string): AdminFormState {
 function safeHandle(value: string) {
   return value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 100) || `item-${Date.now()}`
 }
-
-const categorySlugs = new Set<string>(CATEGORY_SLUGS)
 
 function parentFieldForType(type: string) {
   if (type === HOMEPAGE_METAOBJECT_TYPES.destinationLink) return 'group'
@@ -72,13 +70,6 @@ function finishHomepageMutation() {
   refresh()
 }
 
-const destinationCategories: Record<string, string> = {
-  '洛杉矶': 'yellowstone', '美西国家公园': 'yellowstone', '纽约': 'new-york', '羚羊谷': 'yellowstone', '拉斯维加斯': 'yellowstone', '旧金山': 'yellowstone', '阿拉斯加': 'alaska', '黄石': 'yellowstone',
-  '卡尔加里': 'calgary-rockies', '温哥华': 'calgary-rockies', '多伦多': 'new-york', '秘鲁': 'peru', '墨西哥': 'cancun', '尼亚加拉': 'new-york',
-  '北欧峡湾': 'europe', '英国': 'europe', '冰岛': 'europe', '法瑞意': 'europe', '土耳其希腊': 'europe', '西葡': 'europe',
-  '中国': 'china', '日本': 'china', '新西兰': 'china', '澳大利亚': 'china', '埃及': 'china', '东南亚': 'china',
-}
-
 export async function initializeLandingPageAction(
   _previousState: AdminFormState,
   _formData: FormData,
@@ -105,6 +96,7 @@ export async function initializeLandingPageAction(
         title_zh_cn: banner.label,
         title_zh_tw: banner.label,
         image: imageIds.get(banner.src) || '',
+        link_enabled: 'false',
         category_slug: '',
         position: String(index + 1),
       })
@@ -123,7 +115,6 @@ export async function initializeLandingPageAction(
           title_zh_cn: title,
           title_zh_tw: title,
           group: groupId,
-          category_slug: destinationCategories[title] || 'day-tours',
           position: String(linkIndex + 1),
         })
       }
@@ -135,7 +126,6 @@ export async function initializeLandingPageAction(
         title_zh_cn: item.title,
         title_zh_tw: item.title,
         image: imageIds.get(item.image) || '',
-        category_slug: item.href.replace(/^\//, ''),
         position: String(index + 1),
       })
     }
@@ -154,14 +144,13 @@ export async function initializeLandingPageAction(
           title_zh_cn: category.label['zh-CN'],
           title_zh_tw: category.label['zh-TW'],
           section: sectionId,
-          category_slug: category.href.replace(/^\//, ''),
           position: String(categoryIndex + 1),
           products: JSON.stringify(products.map((product) => product.id)),
         })
       }
     }
 
-    await saveHomepageMetaobject(HOMEPAGE_METAOBJECT_TYPES.config, '', 'main', { initialized: 'true', schema_version: '1' })
+    await saveHomepageMetaobject(HOMEPAGE_METAOBJECT_TYPES.config, '', 'main', { initialized: 'true', schema_version: '2' })
     finishHomepageMutation()
     return saved('Current landing page imported into Shopify')
   } catch (error) {
@@ -189,10 +178,7 @@ export async function saveLandingItemAction(
     const type = text(formData, 'type')
     const id = text(formData, 'id')
     if (!editableTypes.has(type)) throw new Error('Unsupported landing page item')
-    const categorySlug = text(formData, 'categorySlug')
-    if (categorySlug && !categorySlugs.has(categorySlug)) throw new Error('Choose a working category page')
-    if (!id && type === HOMEPAGE_METAOBJECT_TYPES.hero && !categorySlug) throw new Error('New hero slides require a linked category')
-
+    if (type === HOMEPAGE_METAOBJECT_TYPES.hero) await ensureHomepageDefinitions()
     const parentId = text(formData, 'parentId')
     const siblings = await scopedHomepageRecords(type, parentId)
     const orderedSiblings = orderedHomepageRecords(siblings)
@@ -210,16 +196,14 @@ export async function saveLandingItemAction(
       const image = text(formData, 'imageId')
       if (!image) throw new Error('Choose or upload an image')
       fields.image = image
-      fields.category_slug = categorySlug
+      if (type === HOMEPAGE_METAOBJECT_TYPES.hero) fields.link_enabled = text(formData, 'linkEnabled') ? 'true' : 'false'
     }
     if (type === HOMEPAGE_METAOBJECT_TYPES.destinationLink) {
       fields.group = parentId
-      fields.category_slug = categorySlug
       if (!fields.group) throw new Error('Destination group is required')
     }
     if (type === HOMEPAGE_METAOBJECT_TYPES.tourCategory) {
       fields.section = parentId
-      fields.category_slug = categorySlug
       if (!fields.section) throw new Error('Tour section is required')
       const rawProducts = text(formData, 'productCodes').split(/[\s,]+/).filter(Boolean)
       const productCodes = rawProducts

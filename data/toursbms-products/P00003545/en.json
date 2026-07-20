@@ -191,6 +191,38 @@
       "otherCurrencySupport": [],
       "productRateInfoList": [],
       "isLocalResidentOptional": 0
+    },
+    "location": {
+      "countries": [
+        "Mexico"
+      ],
+      "cities": [
+        "Cancun"
+      ],
+      "primaryCountry": "Mexico",
+      "primaryCity": "Cancun",
+      "confidence": "high",
+      "evidence": [
+        {
+          "kind": "city",
+          "value": "Cancun",
+          "country": "Mexico",
+          "source": "structured-place",
+          "matched": "cancun",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Mexico",
+          "source": "structured-place",
+          "matched": "cancun",
+          "confidence": "high"
+        }
+      ],
+      "isMultiCountry": false,
+      "isMultiCity": false,
+      "needsReview": false,
+      "reviewReasons": []
     }
   },
   "media": {

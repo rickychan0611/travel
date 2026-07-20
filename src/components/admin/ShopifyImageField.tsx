@@ -61,7 +61,8 @@ export function ShopifyImageField({
       if (!response.ok || !result.image) throw new Error(result.error || 'Could not upload image')
       setSelected(result.image)
       setImages((current) => [result.image!, ...current.filter((image) => image.id !== result.image!.id)])
-      setMessage('Uploaded to Shopify')
+      setPickerOpen(false)
+      setMessage('Uploaded and selected. Save this item to publish it.')
     } catch (caught) {
       setError(caught instanceof Error ? caught.message : 'Could not upload image')
     } finally {

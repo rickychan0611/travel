@@ -22,8 +22,20 @@ type ProductCardMetaobject = {
 type ProductCardLocalizationNode = {
   id: string
   productType?: string
+  productCode?: { value: string } | null
+  searchAliases?: { value: string } | null
+  filterFacets?: { value: string } | null
+  durationDays?: { value: string } | null
   departureCity?: { value: string } | null
   returnCity?: { value: string } | null
+  country?: { value: string } | null
+  destinations?: { value: string } | null
+  filterLabels?: { value: string } | null
+  earliestDeparture?: { value: string } | null
+  latestDeparture?: { value: string } | null
+  availabilitySummary?: { value: string } | null
+  filterProductType?: { value: string } | null
+  confirmMethod?: { value: string } | null
   contentRefs?: {
     references?: {
       nodes?: ProductCardMetaobject[]
@@ -41,12 +53,24 @@ const PRODUCT_CARD_LOCALIZATION_QUERY = `#graphql
       ... on Product {
         id
         productType
+        productCode: metafield(namespace: "toursbms", key: "product_code") { value }
+        searchAliases: metafield(namespace: "toursbms", key: "search_aliases") { value }
+        filterFacets: metafield(namespace: "toursbms", key: "filter_facets") { value }
+        durationDays: metafield(namespace: "toursbms", key: "duration_days") { value }
         departureCity: metafield(namespace: "toursbms", key: "departure_city") {
           value
         }
         returnCity: metafield(namespace: "toursbms", key: "return_city") {
           value
         }
+        country: metafield(namespace: "toursbms", key: "country") { value }
+        destinations: metafield(namespace: "toursbms", key: "destinations") { value }
+        filterLabels: metafield(namespace: "toursbms", key: "labels") { value }
+        earliestDeparture: metafield(namespace: "toursbms", key: "earliest_departure") { value }
+        latestDeparture: metafield(namespace: "toursbms", key: "latest_departure") { value }
+        availabilitySummary: metafield(namespace: "toursbms", key: "availability_summary") { value }
+        filterProductType: metafield(namespace: "toursbms", key: "product_type") { value }
+        confirmMethod: metafield(namespace: "toursbms", key: "confirm_method") { value }
         contentRefs: metafield(namespace: "toursbms", key: "content") {
           references(first: 20) {
             nodes {
@@ -237,6 +261,20 @@ export async function localizeCollectionProducts(products: CollectionProduct[], 
 
       return {
         ...product,
+        productCode: meta?.productCode ?? product.productCode,
+        searchAliases: meta?.searchAliases ?? product.searchAliases,
+        filterFacets: meta?.filterFacets ?? product.filterFacets,
+        durationDays: meta?.durationDays ?? product.durationDays,
+        departureCity: meta?.departureCity ?? product.departureCity,
+        returnCity: meta?.returnCity ?? product.returnCity,
+        country: meta?.country ?? product.country,
+        destinations: meta?.destinations ?? product.destinations,
+        filterLabels: meta?.filterLabels ?? product.filterLabels,
+        earliestDeparture: meta?.earliestDeparture ?? product.earliestDeparture,
+        latestDeparture: meta?.latestDeparture ?? product.latestDeparture,
+        availabilitySummary: meta?.availabilitySummary ?? product.availabilitySummary,
+        filterProductType: meta?.filterProductType ?? product.filterProductType,
+        confirmMethod: meta?.confirmMethod ?? product.confirmMethod,
         localizedTitle: content.title || product.title,
         localizedSubtitle: content.subtitle || undefined,
         localizedPlace: placeSource ? placeLabel(placeSource, locale) : undefined,

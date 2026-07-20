@@ -166,6 +166,70 @@
         }
       ],
       "isLocalResidentOptional": 0
+    },
+    "location": {
+      "countries": [
+        "Canada"
+      ],
+      "cities": [
+        "Vancouver",
+        "Calgary",
+        "Banff"
+      ],
+      "primaryCountry": "Canada",
+      "primaryCity": "Vancouver",
+      "confidence": "high",
+      "evidence": [
+        {
+          "kind": "city",
+          "value": "Vancouver",
+          "country": "Canada",
+          "source": "structured-place",
+          "matched": "vancouver",
+          "confidence": "high"
+        },
+        {
+          "kind": "city",
+          "value": "Calgary",
+          "country": "Canada",
+          "source": "structured-place",
+          "matched": "calgary",
+          "confidence": "high"
+        },
+        {
+          "kind": "city",
+          "value": "Banff",
+          "country": "Canada",
+          "source": "structured-place",
+          "matched": "banff",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Canada",
+          "source": "structured-place",
+          "matched": "vancouver",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Canada",
+          "source": "structured-place",
+          "matched": "calgary",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Canada",
+          "source": "structured-place",
+          "matched": "banff",
+          "confidence": "high"
+        }
+      ],
+      "isMultiCountry": false,
+      "isMultiCity": true,
+      "needsReview": false,
+      "reviewReasons": []
     }
   },
   "media": {

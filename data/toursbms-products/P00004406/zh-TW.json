@@ -1,5 +1,6 @@
 {
-  "extractedAt": "2026-07-15T04:32:18.368Z",
+  "extractedAt": "2026-07-19T01:12:46.477Z",
+  "warnings": [],
   "product": {
     "productCode": "P00004406",
     "productViewCode": "R0003100",
@@ -115,6 +116,54 @@
       "otherCurrencySupport": [],
       "productRateInfoList": [],
       "isLocalResidentOptional": 0
+    },
+    "location": {
+      "countries": [
+        "United States"
+      ],
+      "cities": [
+        "New York",
+        "Boston"
+      ],
+      "primaryCountry": "United States",
+      "primaryCity": "Boston",
+      "confidence": "high",
+      "evidence": [
+        {
+          "kind": "city",
+          "value": "New York",
+          "country": "United States",
+          "source": "structured-place",
+          "matched": "紐約",
+          "confidence": "high"
+        },
+        {
+          "kind": "city",
+          "value": "Boston",
+          "country": "United States",
+          "source": "structured-place",
+          "matched": "boston",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "United States",
+          "source": "structured-place",
+          "matched": "紐約",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "United States",
+          "source": "structured-place",
+          "matched": "boston",
+          "confidence": "high"
+        }
+      ],
+      "isMultiCountry": false,
+      "isMultiCity": true,
+      "needsReview": false,
+      "reviewReasons": []
     }
   },
   "media": {
@@ -172,10 +221,11 @@
     "text": "05/01/2025-10/23/2025：週四\n04/30/2026-10/29/2026：週四\n8月-10月為當地旅遊旺季，在此期間出發的班期需額外加收$50每房（已綁定必付增值服務）。\n兩人成團，保證出發。",
     "advanceDay": -1,
     "advanceTime": "",
-    "availabilityStart": "2026-07-14",
+    "availabilityStart": "2026-07-18",
     "availabilityEnd": "2027-12-31"
   },
   "pricing": {
+    "pricingMode": "room_occupancy",
     "requestedCurrency": "USD",
     "defaultCurrency": {
       "currencyCode": "CI00000002",
@@ -215,7 +265,9 @@
         "currencyStatus": 200
       }
     ],
-    "firstAvailableDate": "2026-07-16 00:00:00",
+    "packageSchemes": [],
+    "selectedPackageScheme": null,
+    "firstAvailableDate": "2026-07-23 00:00:00",
     "basePrices": [
       {
         "priceType": 3,
@@ -280,89 +332,14 @@
     ],
     "availability": [
       {
-        "date": "2026-07-16",
-        "groupDate": "2026-07-16 00:00:00",
-        "currency": "USD",
-        "stockType": 2,
-        "stockStatus": 200,
-        "groupStock": 2,
-        "groupSaleStock": 0,
-        "remainingStock": 2,
-        "isGroupRoom": true,
-        "isExceedStock": false,
-        "prices": [
-          {
-            "priceType": 3,
-            "label": "Single room",
-            "amount": 1019,
-            "rewardPrice": 0,
-            "markup": 999,
-            "raw": {
-              "priceType": 3,
-              "groupPrice": 1019,
-              "rewardPrice": 0,
-              "rewardType": 0,
-              "rewardValue": 0,
-              "markup": 999
-            }
-          },
-          {
-            "priceType": 4,
-            "label": "Double room",
-            "amount": 739,
-            "rewardPrice": 0,
-            "markup": 719,
-            "raw": {
-              "priceType": 4,
-              "groupPrice": 739,
-              "rewardPrice": 0,
-              "rewardType": 0,
-              "rewardValue": 0,
-              "markup": 719
-            }
-          },
-          {
-            "priceType": 5,
-            "label": "Triple room",
-            "amount": 659,
-            "rewardPrice": 0,
-            "markup": 639,
-            "raw": {
-              "priceType": 5,
-              "groupPrice": 659,
-              "rewardPrice": 0,
-              "rewardType": 0,
-              "rewardValue": 0,
-              "markup": 639
-            }
-          },
-          {
-            "priceType": 6,
-            "label": "Quad room",
-            "amount": 619,
-            "rewardPrice": 0,
-            "markup": 599,
-            "raw": {
-              "priceType": 6,
-              "groupPrice": 619,
-              "rewardPrice": 0,
-              "rewardType": 0,
-              "rewardValue": 0,
-              "markup": 599
-            }
-          }
-        ],
-        "otherCurrencyGroupPriceInfo": []
-      },
-      {
         "date": "2026-07-23",
         "groupDate": "2026-07-23 00:00:00",
         "currency": "USD",
         "stockType": 2,
         "stockStatus": 200,
-        "groupStock": 50,
+        "groupStock": 8,
         "groupSaleStock": 0,
-        "remainingStock": 50,
+        "remainingStock": 8,
         "isGroupRoom": true,
         "isExceedStock": false,
         "prices": [
@@ -510,9 +487,9 @@
         "currency": "USD",
         "stockType": 2,
         "stockStatus": 200,
-        "groupStock": 55,
+        "groupStock": 53,
         "groupSaleStock": 2,
-        "remainingStock": 53,
+        "remainingStock": 51,
         "isGroupRoom": true,
         "isExceedStock": false,
         "prices": [
@@ -585,9 +562,9 @@
         "currency": "USD",
         "stockType": 2,
         "stockStatus": 200,
-        "groupStock": 50,
+        "groupStock": 48,
         "groupSaleStock": 0,
-        "remainingStock": 50,
+        "remainingStock": 48,
         "isGroupRoom": true,
         "isExceedStock": false,
         "prices": [
@@ -1035,9 +1012,9 @@
         "currency": "USD",
         "stockType": 2,
         "stockStatus": 200,
-        "groupStock": 55,
+        "groupStock": 53,
         "groupSaleStock": 0,
-        "remainingStock": 55,
+        "remainingStock": 53,
         "isGroupRoom": true,
         "isExceedStock": false,
         "prices": [
@@ -6272,6 +6249,7 @@
       "productBasic": "https://online.ctrip.com/restapi/soa2/17626/getProductBasic.json",
       "productTravelDetail": "https://online.ctrip.com/restapi/soa2/17626/getProductTravelDetail.json",
       "productGroup": "https://online.ctrip.com/restapi/soa2/17626/getProductGroup.json",
+      "packageSchemes": "https://online.ctrip.com/restapi/soa2/17626/getPagerScheme.json",
       "productPromote": "https://online.ctrip.com/restapi/soa2/17626/getProductPromote.json",
       "currencies": "https://online.ctrip.com/restapi/soa2/18554/getListWebSiteCurrency.json"
     },
@@ -6320,7 +6298,7 @@
           "currencyName": "美元",
           "currencySymbol": "$"
         },
-        "tokenCode": "WEBSITEMjAyNi0wNy0xMyZCMDAwMDAwMDMmMjAyNi0wNy0xOA==",
+        "tokenCode": "WEBSITEMjAyNi0wNy0xNyZCMDAwMDAwMDMmMjAyNi0wNy0yMg==",
         "openStockRule": 1,
         "stockRuleList": [
           {
@@ -7012,59 +6990,493 @@
           "productShopIsDay": 0
         }
       },
-      "groups": [
-        {
-          "groupDate": "2026-07-16 00:00:00",
-          "isGroupRoom": 1,
-          "stockType": 2,
-          "groupStock": 2,
-          "groupSaleStock": 0,
-          "isExceedStock": 0,
-          "rewardCode": "RM00001466",
-          "stockStatus": 200,
-          "productPriceprofit": 0,
-          "currencyNum": "USD",
-          "groupPrice": [
+      "travelDetailResponse": {
+        "responseStatus": {
+          "timestamp": "2026-07-19 09:12:46",
+          "ack": "Success",
+          "errors": [],
+          "build": null,
+          "version": null,
+          "extension": [
             {
-              "priceType": 3,
-              "groupPrice": 1019,
-              "rewardPrice": 0,
-              "rewardType": 0,
-              "rewardValue": 0,
-              "markup": 999
+              "id": "CLOGGING_TRACE_ID",
+              "version": null,
+              "contentType": null,
+              "value": "7041618431499378623"
             },
             {
-              "priceType": 4,
-              "groupPrice": 739,
-              "rewardPrice": 0,
-              "rewardType": 0,
-              "rewardValue": 0,
-              "markup": 719
-            },
-            {
-              "priceType": 5,
-              "groupPrice": 659,
-              "rewardPrice": 0,
-              "rewardType": 0,
-              "rewardValue": 0,
-              "markup": 639
-            },
-            {
-              "priceType": 6,
-              "groupPrice": 619,
-              "rewardPrice": 0,
-              "rewardType": 0,
-              "rewardValue": 0,
-              "markup": 599
+              "id": "RootMessageId",
+              "version": null,
+              "contentType": null,
+              "value": "100025527-0a2bce01-495673-692479"
             }
-          ],
-          "otherCurrencyGroupPriceInfo": []
+          ]
         },
+        "responseResult": {
+          "code": 200,
+          "msg": "success.",
+          "msgCode": ""
+        },
+        "responseData": {
+          "productTravel": {
+            "productCode": "P00004406",
+            "dataVersion": 1750643337,
+            "productDay": 4,
+            "productNight": 3,
+            "travelId": 7942,
+            "productType": "PC00000021",
+            "productTypeName": "Boston",
+            "travelName": "【銀榜惠享】美東火車體驗之旅丨波士頓乘坐火車前往紐約 4日遊",
+            "productTravelInfoList": [
+              {
+                "isSource": 1,
+                "language": 2,
+                "dayList": [
+                  {
+                    "section": "波士頓|||2+++紐約",
+                    "todayLocation": "",
+                    "dayNumber": 1,
+                    "content": [
+                      {
+                        "contentMode": 3,
+                        "productSortNum": null,
+                        "relatedId": 7938,
+                        "relatedDay": 1,
+                        "relatedName": "BOS-NY(火车团)",
+                        "contentType": 100,
+                        "sortNumber": 0,
+                        "jsonContent": "{\"travelId\":7938,\"productCategory\":1,\"name\":\"BOS-NY(火车团)\",\"productType\":\"PC00000021\",\"isAutoTeam\":null,\"expandList\":[{\"language\":2,\"isSource\":1,\"dayList\":[{\"section\":\"波士頓|||2+++紐約\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbIjAyUzRrMTIwMDBjNGYzbTFkRDIwQi5wbmciXSwiZGVzY3JpcHRpb24iOiI8cD7ku4rlpKnkuIrljYjmgqjlsIflnKjms6Llo6vpoJPnmbvkuIrngavou4rvvIzkvLTpmqjokZfmsb3nrJvovZ/ps7TvvIzmiJHlgJHlsIfot5/pmqjliJfou4rooYzpgLLnmoTohbPmraXliY3lvoDnvo7lnIvnrKzkuIDlpKfln47luILntJDntITjgILmsr/pgJTmk4HmnInnhKHmlbjmuK/lj6PjgIHoiLnoiLblkozmqYvmqJHvvIzlj6/po73opr3lurfmtoXni4TmoLzlt57mtbflsrjnt5rlkozpoqjmma/lpoLnlavnmoTnvo7mma/jgILmirXpgZTntJDntITlvozvvIzmiJHlgJHlsIflnKjlsI7pgYrnmoTluLbpoJjkuIvvvIzlj4Pop4DlpJrlgIvokZflkI3nmoTlnLDmqJnlu7rnr4nvvIznnq3op6Pmm7TlpJrpl5zmlrzpgJnluqfln47luILnjajnibnnmoTmrbflj7LlkozmlofljJbvvIE8L3A+XG48cD4mbmJzcDs8L3A+XG48cD48c3Ryb25nPuihjOeoi+WuieaOku+8mjwvc3Ryb25nPjwvcD5cbjxwPjxzdHJvbmc+5rOi5aOr6aCT5LmY5Z2Q54Gr6LuK5YmN5b6A57SQ57SEPC9zdHJvbmc+77yIPHNwYW4gc3R5bGU9XCJjb2xvcjogI2JhMzcyYTtcIj7ljIXlkKvngavou4rnpag8L3NwYW4+77yMNOWwj+aZguW3puWPs++8iTxzdHJvbmc+JnJhcnI7IOe0kOe0hCAmcmFycjsg5ZOI5b636YGc5Z+O5biC5buj5aC0K+WNiOmkkCtUaGUgRWRnZSDntrLntIXop4Dmma/lj7A8L3N0cm9uZz7vvIgxMjDliIbpkJjvvIzop4Dmma/lj7DpnIDoh6rosrvvvIkmcmFycjsgPHN0cm9uZz7nv7Hnv5TntJDntIQ8L3N0cm9uZz7vvIjoh6rosrvvvIw2MOWIhumQmO+8iSZyYXJyOzxzdHJvbmc+IDwvc3Ryb25nPjxzdHJvbmc+5pmC5Luj5buj5aC0PC9zdHJvbmc+77yIMjDliIbpkJjvvIkmcmFycjsgPHN0cm9uZz7mmZrkuIrlj6/oh6rosrvop4Dos57nmb7ogIHljK/pn7PmqILlioc8L3N0cm9uZz48L3A+XG48cD4mbmJzcDs8L3A+XG48cD48c3Ryb25nPuWCmeiou++8mjwvc3Ryb25nPjwvcD5cbjxwPjEuIOeBq+i7iummlumBuOePreasoeS/oeaBr++8mkFtdHJhayAtIDE3MSBOb3J0aGVhc3QgUmVnaW9uYWw7IENvYWNoIFNlYXQ8L3A+XG48cD5EZXBhcnRzICZuYnNwO0Jvc3RvbiwgTUEgLSBTb3V0aCBTdGF0aW9uIChCT1MpIC0gODoxNWFtPC9wPlxuPHA+QXJyaXZlcyBOZXcgWW9yaywgTlkgLSBNb3luaWhhbiBUcmFpbiBIYWxsIGF0IFBlbm4gU3RhLihOWVApIC0gMTI6MjRwbTwvcD5cbjxwPjxzcGFuIHN0eWxlPVwiY29sb3I6ICNiYTM3MmE7XCI+Mi4g54Gr6LuK56Wo6LOH5rqQ57eK5by177yM5by354OI5bu66K2w5oKo55uh5pep6aCQ6KiC77yM6YG/5YWN5Ye654++6LuK56Wo5Zug5ZSu572E54Sh5rOV6aCQ6KiC55qE5oOF5rOB44CC5aaC6YGH6LuK56Wo5ZSu572E77yM5bCH5pu05o+b5YW25LuW6LuK5qyh5YmN5b6A57SQ57SE44CCPC9zcGFuPjwvcD5cbjxwPjxzcGFuIHN0eWxlPVwiY29sb3I6ICNiYTM3MmE7XCI+My4g54Gr6LuK5LiK54Sh5bCO6YGK6Zmq5ZCM44CCPC9zcGFuPjwvcD5cbjxwPiZuYnNwOzwvcD5cbjxwPuiRl+WQjei/quWjq+WwvOeZvuiAgeWMr+mfs+aoguWKh++8muOAikFsYWRkaW4g6Zi/5ouJ5LiB44CL44CKVGhlIExpb24gS2luZyDnjYXlrZDnjovjgIs8YnIgLz7luqfkvY3ljYDln5/vvJpPcmNoZXN0cmEgT3IgRnJvbnQgTWV6emFuaW5lJm5ic3A7PGJyIC8+5YO55qC877yaJDI4MC/kurrvvIjljIXlkKvkuIDlvLXnmb7ogIHljK/ploDnpagr55m+6ICB5Yyv5b6M5a6J5o6S5Lit5paH5o6l6YCB5Yiw6YWS5bqX77yJPC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+6JGX5ZCN55m+6ICB5Yyv57aT5YW46Z+z5qiC5YqH77ya44CKV2lja2VkIOWls+W3q+OAi+OAik1KOiBUaGUgTXVzaWNhbCDpgoHlhYvniL7lgpHlhYvpgZzjgIs8YnIgLz7luqfkvY3ljYDln5/vvJpPcmNoZXN0cmEgT3IgRnJvbnQgTWV6emFuaW5lJm5ic3A7PGJyIC8+6LOj5YO577yaJDI2MC/kurrvvIjljIXlkKvkuIDlvLXnmb7ogIHljK/ploDnpagr55m+6ICB5Yyv5b6M5a6J5o6S5Lit5paH5o6l6YCB5Yiw6YWS5bqX77yJPC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+6JGX5ZCN55m+6ICB5Yyv57aT5YW46Z+z5qiC5YqH77ya44CKSGFycnkgUG90dGVyIGFuZCB0aGUgQ3Vyc2VkIENoaWxkIOWTiOWIqeazoueJueiIh+iiq+ipm+WSkueahOWtqeerpeOAizwvcD5cbjxwPuW6p+S9jeWNgOWfn++8mk9yY2hlc3RyYSBPciBQcmltZSBEcmVzcyBDaXJjbGU8YnIgLz7os6Plg7nvvJokMjYwL+S6uu+8iOWMheWQq+S4gOW8teeZvuiAgeWMr+mWgOelqCvnmb7ogIHljK/lvozlronmjpLkuK3mlofmjqXpgIHliLDphZLlupfvvIk8L3A+XG48cD4mbmJzcDs8L3A+XG48cD48c3BhbiBzdHlsZT1cImNvbG9yOiAjYmEzNzJhO1wiPuiou++8mueZvuiAgeWMr+mfs+aoguWKh+mWgOelqOS4gOe2k+mgkOWumueEoeazlemAgOaUueOAgjwvc3Bhbj48L3A+IiwidGltZSI6IjEifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":2,\"sortNumber\":1,\"jsonContent\":\"eyJpbmZvcm1hdGlvbiI6IuW+nuazouWjq+mgk+WNl+ermeS5mOeBq+i7iuWJjeW+gOe0kOe0hCIsImRpc3RhbmMiOiIyNTUiLCJkaXN0YW5jVW5pdCI6MywiaG91cnMiOiI0IiwibWludXRlcyI6IjEwIiwidGltZSI6IjIifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":2,\"jsonContent\":\"eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJ0eXBlIjowLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMjc5NyIsInNjZW5pY05hbWUiOiLlk4jlvrfpgZzln47luILlu6PloLQgSHVkc29uIFlhcmRzIiwic2NlbmljRXhwbGFpbiI6IiIsImlzQXBwZWFyYW5jZSI6MCwibG9hZGVkIjp0cnVlLCJzY2VuaWNlRGVzYyI6IjxwPuWcqDIwMTnlubTvvIxIdWRzb24gWWFyZHPokKznnL7mnJ/lvoXnm5vlpKfplovluZXvvIzpgJnoo6Hkvr/miJDngrrmm7zlk4jpoJPpgaDopb/lgbTlsrjpgorkuIDniYfmnIDploPogIDnmoTmkanlpKnmqJPnvqTvvIzpoZvopobkuoblpKfnnL7lsI3ln47luILnmoTmg7Plg4/vvIHkvYZIdWRzb24gWWFyZHPnmoTlpYfot6HpgaDpnZ7lg4XmraTogIzlt7IuLi4uLi4g5pyA5Y+X55+a55uu55qE5oeJ6Kmy5bCx5piv5paw5Zyw5qiZVmVzc2Vs77yM6KKr56ix54K6JmxkcXVvO+e0kOe0hOeahOWfg+iPsueIvumQteWhlCZyZHF1bzvvvIzpj6TnqbrnmoTonrrml4vlvI/mqJPmoq/pgKPntZDvvIzoqK3oqIjmpbXlhbfpoZvopobvvIzlkIzmmYLkuZ/lhYXmu7/niK3orbDjgIIzMCBIdWRzb24gWWFyZHPpgoTmk4HmnInopb/ljYrnkIPmnIDpq5jnmoTln47luILop4Dmma/lj7B0aGUgRWRnZe+8jOavlDEwNTDoi7HlsLrnmoTluJ3lnIvlpKflu4jop4Dmma/lj7Dlkozpm6LlnLA4NTDoi7HlsLrnmoTmtJvlhYvoj7Lli5LkuK3lv4Pop4Dmma/lj7Dpg73opoHpq5jvvIHnlbbnhLbvvIxIdWRzb24gWWFyZHPlhLznhLblt7LntpPmiJDngrrntJDntITnmoTnhrHploDmiZPljaHogZblnLDvvIzml4HpgornmoQ35bGk5qiT5aWi6I+v5ZWG5aC0VGhlIFNob3Bz77yM5Lmf6Z2e5bi45YC85b6X5LiA6YCb44CCVGhlIFNob3Bz5Y2g5ZywMTAw6JCs5bmz5pa56Iux5bC677yM5YWn5ZCr57SQ57SE56ys5LiA5a625Lmf5piv5ZSv5LiA55qE5LiA5a626auY56uv55m+6LKoTmVpbWFuIE1hcmN1c++8jOWbiuaLrOeahOWTgeeJjOi2hemBjjEwMOWutuOAguiiq+eoseeCuiZsZHF1bzvlsI/opb/nj63niZkmcmRxdW8755qE576O6aOf6ZuG5biC55Sx5LiJ5L2N6KW/54+t54mZ5Li75bua6IGv5ZCI5Ym156uL77yM6LWw6YCy5Y675pyJ5LiA56iu6KW/54+t54mZ5bCP5ZCD6KGX55qE5oSf6Ka644CC57SQ57SE5pmC5aCx5LuL57S56YCZ6KOhVG9wMjDnmoTpo5/nianvvIzkvIrmr5TliKnkup7ngavohb/lsLHmjpLnrKzkuIDvvIznlKjnmoTmmK/lj6rmnInkuInlkajlpKfnmoTliKnmr5Tkup7lsI/osazogonvvIzlvojlgLzlvpfkuIDoqabvvIznlbbnhLbpgoTmnInkuI3mnIPlh7rpjK/nmoTopb/nj63niZnmtbfprq7po6/jgII8L3A+Iiwic2NlbmljSW1hZ2VzIjpbXX0seyJhY3Rpdml0eU5vIjoyLCJ0eXBlIjoyLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMjc5NiIsInNjZW5pY05hbWUiOiLntJDntITlpKnpmpvmta7mma/lj7AgRWRnZSBOWUMiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+57SQ57SE5aSp6Zqb5rWu5pmv5Y+w5piv6KW/5Y2K55CD5pyA6auY55qE5oi25aSW56m65Lit5bmz6Ie677yM5pOB5pyJ542o5LiA54Sh5LqM55qE6Kit6KiI44CC5a6D5oe45rWu5Zyo5Y2K56m65Lit77yM5pOB5pyJ5YW25LuW5Lu75L2V5Zyw5pa56YO954Sh5rOV542y5b6X55qEIDM2MCDluqblhajmma/jgILop4Dmma/lj7Dmk4HmnIkzNjDluqboppbph47nmoTkuInop5LlvaLmiLblpJbop4Dmma/lubPoh7rvvIzlkJHlpJblgr7mlpznmoTnjrvnkoPluLfluZXvvIzkuK3plpPmnInkuIDlgIvljYDloYrmmK/njrvnkoPlnLDmnb/vvIzlj6/ku6Xlvp7nqbrkuK3kv6/nnrDliLDoh6rnlLHlpbPnpZ7jgIHmsrPmma/lj4rph5Hono3ljYDnrYnjgII8L3A+Iiwic2NlbmljSW1hZ2VzIjpbXX0seyJhY3Rpdml0eU5vIjozLCJ0eXBlIjoyLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwNDEzNiIsInNjZW5pY05hbWUiOiLnv7Hnv5TntJDntIQgUmlzZU5ZIiwic2NlbmljRXhwbGFpbiI6IiIsImlzQXBwZWFyYW5jZSI6MCwibG9hZGVkIjp0cnVlLCJzY2VuaWNlRGVzYyI6IjxwPuS9jeaWvOaZguS7o+W7o+WgtO+8jOS7peayiea1uOW8j+mrlOmpl+W4tuaCqOepv+i2iue0kOe0hOWFhea7v+a0u+WKm+eahOa1geihjOaWh+WMluiIh+att+WPsuiuiumBt+OAguW+nuW4guaUv+W7s+WcsOmQteermeeahOW+qeWIu+WHuueZvO+8jOWPg+ingOa2teiTi+mHkeiejeOAgembu+W9seOAgeaZguWwmuOAgemfs+aoguOAgeWkqemam+e3muOAgembu+imluW7o+aSreWSjOeZvuiAgeWMr+eahOS4g+Wkp+WxleW7s++8jOaso+iznuePjeiytOWxleWTgeiIh+e2k+WFuOS9iOaZr+OAguacgOW+jOeZu+S4iumrmOenkeaKgOmjm+ihjOWKh+mZou+8jOWcqOmAvOecn+eahDhL56m65Lit6KaW6KeS5Lit5L+v556w57SQ57SE5Zyw5qiZ77yM5oSf5Y+X5aaC6Kaq6Ieo5YW25aKD55qE6ZyH5pK85peF56iL44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119LHsiYWN0aXZpdHlObyI6NCwidHlwZSI6Miwic291cmNlVHlwZSI6Miwic2NlbmljQ29kZSI6IlNNMDAwMDAwMzQiLCJzY2VuaWNOYW1lIjoi5pmC5Luj5buj5aC0IFRpbWVzIFNxdWFyZSIsInNjZW5pY0V4cGxhaW4iOiIiLCJpc0FwcGVhcmFuY2UiOjAsImxvYWRlZCI6dHJ1ZSwic2NlbmljZURlc2MiOiI8cD7mmYLku6Plu6PloLTmmK/nvo7lnIvntJDntITluILmm7zlk4jpoJPnmoTkuIDloYrnuYHoj6/ooZfljYDvvIzooqvnqLHngrombGRxdW875LiW55WM55qE5Y2B5a2X6Lev5Y+jJnJkcXVvO+OAguW7o+WgtOmZhOi/keiBmumbhuS6huWQhOmhnuWVhuWgtOWSjOWKh+mZou+8jOaYr+e5geebm+eahOWom+aoguWPiuizvOeJqeS4reW/g+OAguW7o+WRiueahOWVhualremHkeiejeawo+aBr+iIh+mrmOenkeaKgOiXneihk+aJi+auteWcqOmAmeijoeW+l+WIsOWujOe+jueahOe1seS4gO+8jOWknOaZmuiAgOecvOeahOmck+iZueeHiOWPjeaYoOS6huabvOWTiOmgk+W8t+eDiOeahOaZguWwmumDveW4gueJueaAp+OAgui1sOmAsuaZguS7o+W7o+WgtO+8jOWbm+WRqOmDveaYr+iJsuW9qee1oueIm+eahOeci+adv+WSjOi6q+aHt+e1leaKgOeahOihl+mgreiXneS6uu+8jOiAs+mCiuWFheaWpeiRl+WQhOeoruWVhuWTgeeahOW7o+WRiuiqnuOAgeatjOabsk1W77yM6ZyH5pK86JGX5q+P5YCL5Lq655qE5b+D6Z2I44CC5LqL5a+m5LiK5Lq65YCR5pep5bey5rWB5YKz5aaC5pav77ya5LiN5Yiw57SQ57SE566X5LiN5LiK5Yiw6YGO576O5ZyL77yM5LiN5Yiw5pmC5Luj5buj5aC0566X5LiN5LiK5Yiw6YGO57SQ57SE44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119XSwiZGlzdGFuYyI6IiIsImRpc3RhbmNVbml0IjoxLCJob3VycyI6IiIsIm1pbnV0ZXMiOiIiLCJzdGF5SG91cnMiOiIiLCJzdGF5TWludXRlcyI6IiIsInRpbWUiOiIzIn0=\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":3,\"jsonContent\":\"eyJ0aW1lIjoiNCIsImRpc3RhbmMiOiIiLCJob3VycyI6IiIsIm1pbnV0ZXMiOiIiLCJzdGF5SG91cnMiOiIiLCJzdGF5TWludXRlcyI6IiIsInJlZ2lvbkNvZGUiOm51bGwsInJlZ2lvbk5hbWUiOm51bGwsInJlZ2lvblR5cGUiOm51bGwsImNvbnRlbnQiOlt7InR5cGUiOjAsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAwMzA3Iiwic2NlbmljTmFtZSI6IueZvuiAgeWMryBCcm9hZHdheSBUaGVhdHJlIiwic2NlbmljRXhwbGFpbiI6IiIsImlzQXBwZWFyYW5jZSI6MCwibG9hZGVkIjp0cnVlLCJzY2VuaWNlRGVzYyI6IjxwPueZvuiAgeWMr+WKh+mZou+8jOaYr+aMh+WMheaLrOWcqOe+juWci+e0kOe0hOabvOWTiOmgk+WKh+mZouWNgOWfn+S7peWPiuael+iCr+S4reW/g+S4gOW4tueahOWKh+mZouaJgOa8lOWHuueahOaIsuWKh++8jOeZvuiAgeWMr+S7pea8lOWHuumfs+aoguWKh+iRl+WQje+8jOavj+Wkqeavj+aZmumDveacieWQhOeorue2k+WFuOeyvuW9qeeahOa8lOWHuuWcqOatpOS4iua8lOOAguS6puW4uOW4uOacieaIsuWKh+OAgeatjOWKh+OAgeiInui5iOetieetieeahOihqOa8lO+8jOWSjOWAq+aVpueahOilv+WNgOWKh+mZouWQjOeCuuiLseiqnuS4lueVjOS4reacgOiRl+WQjeeahOWKh+mZouWNgOWfn+OAguWcqOmBjuWOu+eahOS4gOWAi+WkmuS4lue0gOijoe+8jOeZvuiAgeWMr+S4gOebtOiiq+iqjeeCuuaYr+e0kOe0hOS5g+iHs+S4lueVjOihqOa8lOiXneihk+eahOS4reW/g+OAgueZvuiAgeWMr+WKh+mZouWNgOWfn+S5n+aYr+e0kOe0hOW4gueahOmHjeimgeaXhemBiuaZr+m7nuOAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfV0sInR5cGUiOm51bGwsImRlc2NyaXB0aW9uIjpudWxsLCJhdmVQcmljZSI6bnVsbCwiZGlzdGFuY1VuaXQiOjF9\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":8,\"sortNumber\":4,\"jsonContent\":\"eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJzb3VyY2VUeXBlIjoyLCJob3RlbENvZGUiOiJITTAwMDAxMDEyIiwiaG90ZWxOYW1lIjoiSHlhdHQgUGxhY2UgRmx1c2hpbmcvTGFHdWFyZGlhIEFpcnBvcnQiLCJsb2FkZWQiOnRydWV9LHsiYWN0aXZpdHlObyI6Miwic291cmNlVHlwZSI6MiwiaG90ZWxDb2RlIjoiSE0wMDAwMDQ5MiIsImhvdGVsTmFtZSI6IuWQjOe0miIsImxvYWRlZCI6dHJ1ZX1dLCJjdXN0b21lclZpc2libGUiOjEsInJlZ2lvbkN1c3RvbWVyVmlzaWJsZSI6MCwicmVnaW9uTmFtZSI6Iue0kOe0hOeah+WQjuWNgCBRdWVlbnMiLCJyZWdpb25Db2RlIjoiQTIwOTAiLCJyZWdpb25UeXBlIjoyLCJ0aW1lIjoiNCJ9\"}],\"distributionFactor\":null}]}]}"
+                      },
+                      {
+                        "contentMode": 0,
+                        "productSortNum": null,
+                        "relatedId": -1,
+                        "relatedDay": -1,
+                        "relatedName": "",
+                        "contentType": 7,
+                        "sortNumber": 1,
+                        "jsonContent": "eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD48c3BhbiBzdHlsZT1cImNvbG9yOiAjYmEzNzJhO1wiPjxzdHJvbmc+MDYvMDQvMjAyNi0wNi8wNy8yMDI244CBMDcvMDMvMjAyNi0wNy8wNS8yMDI244CBMDcvMTcvMjAyNi0wNy8xOS8yMDI244CBMDgvMjUvMjAyNi0wOS8xMy8yMDI2IOacn+mWk+WHuueZvOeahOePreacn++8jOeVtuWkqeWwh+WFpeS9j0hvbGlkYXkgSW5uIE5ld2FyayBJbnRlcm5hdGlvbmFsIEFpcnBvcnQg5oiWIENvdXJ0eWFyZCBieSBNYXJyaW90dCBCYXNraW5nIFJpZGdlIOaIliDlkIzntJrphZLlupfvvIzlkIzmmYLotIjpgIHmr4/kvY3lrqLkurrkuIDlvLVUaGUgRWRnZeingOaZr+WPsOmWgOelqOOAgjwvc3Ryb25nPjwvc3Bhbj48L3A+IiwidGltZSI6IjQifQ=="
+                      }
+                    ],
+                    "isFreeTravel": null,
+                    "optionalProductList": null,
+                    "distributionFactor": 1
+                  },
+                  {
+                    "section": "紐約|||1+++紐黑文|||1+++新港市|||1+++波士頓",
+                    "todayLocation": "",
+                    "dayNumber": 3,
+                    "content": [
+                      {
+                        "contentMode": 3,
+                        "productSortNum": null,
+                        "relatedId": 203,
+                        "relatedDay": 1,
+                        "relatedName": "【BO2-1】紐黑文 – 新港市 – 波士頓",
+                        "contentType": 100,
+                        "sortNumber": 0,
+                        "jsonContent": "{\"travelId\":203,\"productCategory\":1,\"name\":\"【BO2-1】紐黑文 – 新港市 – 波士頓\",\"productType\":\"PC00000006\",\"isAutoTeam\":null,\"expandList\":[{\"language\":2,\"isSource\":1,\"dayList\":[{\"section\":\"紐約|||1+++紐黑文|||1+++新港市|||1+++波士頓\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiaG91cnMiOiIiLCJtaW51dGVzIjoiIiwic3RheUhvdXJzIjoiIiwic3RheU1pbnV0ZXMiOiIiLCJsaXN0SW1hZ2UiOltdLCJkZXNjcmlwdGlvbiI6IjxwPuS7iuWkqeaIkeWAkemmluWFiOacg+aKtemBlOe0kOm7keaWh+W4gu+8jOWPg+ingOiAtumtr+Wkp+WtuOOAguaOpeiRl+WJjeW+gOS9jeaWvOe+heW+t+WztueahOaWsOa4r++8jOmAmeijoeaYr+aWsOiLseagvOiYreWcsOWNgOmBv+aakeWLneWcsO+8jOS7peixquWuheiRl+eoseOAguWCjeaZmuaZguWIhuWIsOmBlOazouWjq+mgk+OAgjxiciAvPiZuYnNwOzxiciAvPjxzdHJvbmc+6KGM56iL5a6J5o6S77yaPC9zdHJvbmc+PGJyIC8+PHN0cm9uZz7ntJDntIQgJnJhcnI7IOe0kOm7keaWhyAmcmFycjsg6IC26a2v5aSn5a245qCh5ZyS6YGKPC9zdHJvbmc+77yI6Ieq6LK777yMNjDliIbpkJjvvIkmcmFycjsgPHN0cm9uZz7mlrDmuK/luIIgJnJhcnI7IOiBvea/pOWxseiOijwvc3Ryb25nPu+8iOiHquiyu++8jDkw5YiG6ZCY77yJJnJhcnI7IDxzdHJvbmc+5rOi5aOr6aCTPC9zdHJvbmc+PC9wPiIsInRpbWUiOiIxIiwiZGlzdGFuY1VuaXQiOjF9\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":2,\"sortNumber\":1,\"jsonContent\":\"eyJpbmZvcm1hdGlvbiI6IuW+nue0kOe0hOS5mOi7iuWJjeW+gOe0kOm7keaWh+iAtumtr+Wkp+WtuCIsImRpc3RhbmMiOiI4NSIsImRpc3RhbmNVbml0IjozLCJob3VycyI6IjEiLCJtaW51dGVzIjoiNDAiLCJ0aW1lIjoiMiJ9\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":2,\"jsonContent\":\"eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJ0eXBlIjowLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMDEwNSIsInNjZW5pY05hbWUiOiLogLbpra/lpKflrbggWWFsZSBVbml2ZXJzaXR5ICIsInNjZW5pY0V4cGxhaW4iOiIiLCJpc0FwcGVhcmFuY2UiOjAsImxvYWRlZCI6dHJ1ZSwic2NlbmljZURlc2MiOiI8cD7ogLbpra/lpKflrbjlp4vlibXmlrwxNzAx5bm077yM5piv5bi45pil6Jek55uf5qCh5LmL5LiA77yM5Ye66YGONeS9jee+juWci+e4vee1se+8jOWdkOiQveS6juW6t+a2heeLhOagvOW3nue0kOm7keaWh+OAguipsuagoeiiq+eoseS9nCZsZHF1bzvnvo7lnIvnvo7pupfnmoTln47luILmoKHlnJImcmRxdW8777yM5ryC5Lqu55qE5ZOl54m55byP5bu656+J6IiH54++5Luj5YyW5bu656+J5Lqk55u45LqS5pig77yM5pW05YCL5qCh5ZyS5b2M5ryr6JGX5Y+k5YW455qE5rWq5ryr5ZKM54++5Luj55qE57K+6Iux5rCj5oGv44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119XSwiZGlzdGFuYyI6IiIsImRpc3RhbmNVbml0IjoxLCJob3VycyI6IiIsIm1pbnV0ZXMiOiIiLCJzdGF5SG91cnMiOiIiLCJzdGF5TWludXRlcyI6IiIsInRpbWUiOiIyIn0=\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":2,\"sortNumber\":3,\"jsonContent\":\"eyJpbmZvcm1hdGlvbiI6IuW+nue0kOm7keaWh+S5mOi7iuWJjeW+gOaWsOa4r+W4guiBvea/pOWxseiOiiIsImRpc3RhbmMiOiIxMDUiLCJkaXN0YW5jVW5pdCI6MywiaG91cnMiOiIyIiwibWludXRlcyI6IiIsInRpbWUiOiIyIn0=\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":4,\"jsonContent\":\"eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJ0eXBlIjowLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMDEwMSIsInNjZW5pY05hbWUiOiLogb3mv6TlsbHojoogVGhlIEJyZWFrZXJzIiwic2NlbmljRXhwbGFpbiI6IiIsImlzQXBwZWFyYW5jZSI6MCwibG9hZGVkIjp0cnVlLCJzY2VuaWNlRGVzYyI6IjxwPuWcqOe+heW+t+WztumAmeWAi+ixquWuhemBjeS9iOeahOWcsOaWue+8jOiBvea/pOWxseiOiumhr+W+l+WNgeWIhueahOeqgeWHuiwg5a6D5piv576O5ZyL6ZC16Lev5aSn5Lqo6IyD5b635q+U54i+54m55a625peP55qE6YG/5pqR5bGx6I6K44CC5Zyo6YCZ6KOh77yM5Y+v5Lul6Kaq6Lqr5oSf5Y+X5Yiw576O5ZyL5reY6YeR5pmC5pyf55qE6LKh5a+M5qau6ICA44CC5Zug54K65bGx6I6K6IOM6Z2g5aSn5rW377yM5aSn5rW35ouN5pOK5bSW5aOB55qE5rWq5r+k6IGy5LiN57WV5pa86ICz77yM5omA5Lul6KKr56ix54K66IG95r+k5bGx6I6K44CC5bGx6I6K5b6M6Z2i5pyJ5LiA5YCL6Z2i56mN5b6I5aSn55qE6Iqx5ZyS6I2J5Z2q77yM5Zyo6YCZ6KOh5Y+v5Lul5oSf5Y+X5Yiw6Z2i5pyd5aSn5rW377yM5pil5pqW6Iqx6ZaL55qE5oSc5oSPfjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfV0sImRpc3RhbmMiOiIiLCJkaXN0YW5jVW5pdCI6MSwiaG91cnMiOiIiLCJtaW51dGVzIjoiIiwic3RheUhvdXJzIjoiIiwic3RheU1pbnV0ZXMiOiIiLCJ0aW1lIjoiMyJ9\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":2,\"sortNumber\":5,\"jsonContent\":\"eyJpbmZvcm1hdGlvbiI6IuW+nuaWsOa4r+W4guS5mOi7iuWJjeW+gOmFkuW6lyIsImRpc3RhbmMiOiIxMDAiLCJkaXN0YW5jVW5pdCI6MywiaG91cnMiOiIxIiwibWludXRlcyI6IjUwIiwidGltZSI6IjMifQ==\"}],\"distributionFactor\":null}]}]}"
+                      },
+                      {
+                        "contentMode": 0,
+                        "productSortNum": null,
+                        "relatedId": -1,
+                        "relatedDay": -1,
+                        "relatedName": "",
+                        "contentType": 8,
+                        "sortNumber": 1,
+                        "jsonContent": "eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJzb3VyY2VUeXBlIjoyLCJob3RlbENvZGUiOiJITTAwMDAyOTk4IiwiaG90ZWxOYW1lIjoiRmFpcmZpZWxkIElubiBCb3N0b24gVGV3a3NidXJ5L0FuZG92ZXIiLCJsb2FkZWQiOnRydWV9LHsiYWN0aXZpdHlObyI6Miwic291cmNlVHlwZSI6MiwiaG90ZWxDb2RlIjoiSE0wMDAwMjQ4NiIsImhvdGVsTmFtZSI6IlNvbmVzdGEgU2VsZWN0IEJvc3RvbiBMb3dlbGwgQ2hlbG1zZm9yZCIsImxvYWRlZCI6dHJ1ZX0seyJhY3Rpdml0eU5vIjozLCJzb3VyY2VUeXBlIjoyLCJob3RlbENvZGUiOiJITTAwMDAzMDAzIiwiaG90ZWxOYW1lIjoiRG91YmxlVHJlZSBieSBIaWx0b24gQm9zdG9uLUFuZG92ZXIiLCJsb2FkZWQiOnRydWV9LHsiYWN0aXZpdHlObyI6NCwic291cmNlVHlwZSI6MiwiaG90ZWxDb2RlIjoiSE0wMDAwMzgyMiIsImhvdGVsTmFtZSI6IkZvdXIgUG9pbnRzIGJ5IFNoZXJhdG9uIFdha2VmaWVsZCBCb3N0b24gSG90ZWwgJiBDb25mZXJlbmNlIENlbnRlciIsImxvYWRlZCI6dHJ1ZX0seyJhY3Rpdml0eU5vIjo1LCJzb3VyY2VUeXBlIjoyLCJob3RlbENvZGUiOiJITTAwMDAzODIzIiwiaG90ZWxOYW1lIjoiQmVzdCBXZXN0ZXJuIFJveWFsIFBsYXphIEhvdGVsIGFuZCBUcmFkZSBDZW50ZXIiLCJsb2FkZWQiOnRydWV9LHsiYWN0aXZpdHlObyI6Niwic291cmNlVHlwZSI6MiwiaG90ZWxDb2RlIjoiSE0wMDAwMzgyNCIsImhvdGVsTmFtZSI6IkhvbGlkYXkgSW5uIEV4cHJlc3MgLSBDaGVsbXNmb3JkIiwibG9hZGVkIjp0cnVlfSx7ImFjdGl2aXR5Tm8iOjcsInNvdXJjZVR5cGUiOjIsImhvdGVsQ29kZSI6IkhNMDAwMDM4MjUiLCJob3RlbE5hbWUiOiJIb2xpZGF5IElubiBFeHByZXNzICYgU3VpdGVzIEJvc3RvbiAtIE1hcmxib3JvIGJ5IElIRyIsImxvYWRlZCI6dHJ1ZX0seyJhY3Rpdml0eU5vIjo4LCJzb3VyY2VUeXBlIjoyLCJob3RlbENvZGUiOiJITTAwMDAwNDkyIiwiaG90ZWxOYW1lIjoi5ZCM57SaIiwibG9hZGVkIjp0cnVlfV0sImN1c3RvbWVyVmlzaWJsZSI6MSwicmVnaW9uQ3VzdG9tZXJWaXNpYmxlIjowLCJyZWdpb25OYW1lIjoi5rOi5aOr6aCTIEJvc3RvbiIsInJlZ2lvbkNvZGUiOiJBMzMwIiwicmVnaW9uVHlwZSI6MiwiZGVzY3JpcHRpb24iOm51bGwsInRpbWUiOiI0In0="
+                      }
+                    ],
+                    "isFreeTravel": null,
+                    "optionalProductList": null,
+                    "distributionFactor": 1
+                  },
+                  {
+                    "section": "紐約網紅地標打卡一日遊",
+                    "todayLocation": "",
+                    "dayNumber": 2,
+                    "content": [
+                      {
+                        "contentMode": 3,
+                        "productSortNum": null,
+                        "relatedId": 1512,
+                        "relatedDay": 1,
+                        "relatedName": "【NR1】紐約網紅地標打卡一日遊",
+                        "contentType": 100,
+                        "sortNumber": 0,
+                        "jsonContent": "{\"travelId\":1512,\"productCategory\":1,\"name\":\"【NR1】紐約網紅地標打卡一日遊\",\"productType\":\"PC00000006\",\"isAutoTeam\":null,\"expandList\":[{\"language\":2,\"isSource\":1,\"dayList\":[{\"section\":\"紐約網紅地標打卡一日遊\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiaG91cnMiOiIiLCJtaW51dGVzIjoiIiwic3RheUhvdXJzIjoiIiwic3RheU1pbnV0ZXMiOiIiLCJsaXN0SW1hZ2UiOltdLCJkZXNjcmlwdGlvbiI6IjxwPuiBvemBjuS6huWkquWkmue0kOe0hOeahOaVheS6i++8jOiAjOmAmeS6m+aVheS6i+ijoeacieatpeWxpeWMhuW/meeahOe0kOe0hOWuou+8jOacieiBnuWQjemBkOmCh+eahOiXneihk+W7uuevieOAguS5n+ioseS9oOeZu+mgguS6humrmOiBs+WFpembsueahOaRqeWkqeW7uuevie+8jOimi+mBjuS6humrmOiIieeBq+eCrOeahOmtheWKm+Wls+elnu+8jOi1sOmAsuS6huWkmumHkeeahOmHkeiejeihl+OAguS9huaYr+S9oOabtOaDs+iBveS4gOiBvemCo+S6m+S9oOimi+mBjuaIluiAheiBvemBjuWNu+S4jeefpemBk+aAjum6vOWOu+WIsOeahOWcsOaWueOAguaJgOS7peS4jeimgeeMtuixq++8jOi3n+maqOaIkeWAkeeahOiFs+atpe+8jOS4gOi1t+Wwi+aJvuWPpuS4gOmdoueahOe0kOe0hOOAgjwvcD5cbjxwPiZuYnNwOzwvcD5cbjxwPjxzdHJvbmc+6KGM56iL5a6J5o6S77yaPC9zdHJvbmc+PC9wPlxuPHA+PHN0cm9uZz7kuK3lpK7ou4rnq5k8L3N0cm9uZz7vvIjlhaXlhafvvIwyMOWIhumQmO+8iTxzdHJvbmc+JnJhcnI7IOe0kOe0hOWFrOWFseWcluabuOmkqDwvc3Ryb25nPu+8iOWFpeWFp++8iTxzdHJvbmc+K+W4g+iQiuaBqeeJueWFrOWckivol43nk7blkpbllaE8L3N0cm9uZz7vvIjoh6rosrvvvIk8c3Ryb25nPitMYWR5IE3om4vns5U8L3N0cm9uZz7vvIjoh6rosrvvvInvvIg0MOWIhumQmO+8iSZyYXJyOyA8c3Ryb25nPuS4reWkruWFrOWckjwvc3Ryb25nPu+8iDIw5YiG6ZCY77yJJnJhcnI7IDxzdHJvbmc+576F5pav56aP5bO25rex5bqm5ri4PC9zdHJvbmc+77yI6Ieq6LK777yMNDDliIbpkJjvvIzlkKvnupzou4rllq7nqIvou4rnpajvvIkmcmFycjsgPHN0cm9uZz7luIPpra/lhYvmnpdEVU1CT+iXneihk+WNgDwvc3Ryb25nPu+8iDcw5YiG6ZCY77yJJnJhcnI7IDxzdHJvbmc+57ay57SF5oe45rWu5YWs5ZySK+aYn+W3tOWFi+eDmOeEmemrlOmpl+W6lyvliIfniL7opb/luILloLQr6auY57ea5YWs5ZySK+iHquiyu+WNiOmkkDwvc3Ryb25nPu+8iDgw5YiG6ZCY77yJJnJhcnI7IDxzdHJvbmc+5ZOI5b636YGc5ZyS5Y2AIFZlc3NlbDwvc3Ryb25nPu+8iOWkluingO+8jDEw5YiG6ZCY77yJPC9wPiIsInRpbWUiOiIxIn0=\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":1,\"jsonContent\":\"eyJ0aW1lIjoiMiIsImRpc3RhbmMiOiIiLCJob3VycyI6IiIsIm1pbnV0ZXMiOiIiLCJzdGF5SG91cnMiOiIiLCJzdGF5TWludXRlcyI6IiIsInJlZ2lvbkNvZGUiOm51bGwsInJlZ2lvbk5hbWUiOm51bGwsInJlZ2lvblR5cGUiOm51bGwsImNvbnRlbnQiOlt7InR5cGUiOjAsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAwNjcxIiwic2NlbmljTmFtZSI6Iue0kOe0hOS4reWkrueBq+i7iuermSBHcmFuZCBDZW50cmFsIFRlcm1pbmFsIiwic2NlbmljRXhwbGFpbiI6IiIsImlzQXBwZWFyYW5jZSI6MCwibG9hZGVkIjp0cnVlLCJzY2VuaWNlRGVzYyI6IjxwPumAmeijoeaYr+S4lueVjOefpeWQjeeahOi7iuermeS5i+S4gO+8jOS5n+aYr+ecvuWkmumbu+W9seWSjOe+juWKh+eGseiht+eahOaLjeaUneWgtOaZr+S5i+S4gO+8jOOAium7keiho+S6uuOAi+OAiue1leWcsOaIsOitpuOAi+OAiuaVmeeItuOAi+OAiue3i+iBnuWls+WtqeOAi+OAiuW+qeS7h+iAheiBr+ebn+OAi+etiemDveabvuWcqOmAmeWFkuWPluaZr+OAguawo+WLouaBouWuj+eahOWkp+eQhuefs+ijnemjvuOAgeaLseW9oueOu+eSg+eql+OAgeWQu+WIpeWupChLaXNzaW5nIFJvb20p44CB5Zub6Z2i6ZCY44CB5LiK5bid6KaW6KeS55qE5pif56m656m56aCC77yM6K6T5oKo55uu5LiN5pqH5o6l77yM6IiH5bCO6YGK5LiA6LW35o6i57Si5Lit5aSu54Gr6LuK56uZ55qE56eY5a+G5ZCn44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119LHsidHlwZSI6Miwic291cmNlVHlwZSI6Miwic2NlbmljQ29kZSI6IlNNMDAwMDA2NzIiLCJzY2VuaWNOYW1lIjoi57SQ57SE5YWs5YWx5ZyW5pu46aSoIE5ldyBZb3JrIFB1YmxpYyBMaWJyYXJ5Iiwic2NlbmljRXhwbGFpbiI6IiIsImlzQXBwZWFyYW5jZSI6MCwibG9hZGVkIjp0cnVlLCJzY2VuaWNlRGVzYyI6IjxwPuWvjOm6l+Wggueah+eahOe0kOe0hOWFrOWFseWcluabuOmkqOmWgOWPo+acieiOiuWatOiCheephueahOmbhOeNhembleWhke+8jOi1sOS4iuWkp+eQhuefs+iHuumajuepv+mBjui1sOW7iumAsuWFpeWIsOWPpOWgoeS4gOiIrOeahOWcluabuOmkqOWFp+mDqO+8jOWkp+W7s+ijoea8guS6rueahOWkp+eQhuefs+efs+afseWSjOeJhuWjgeWxleekuuiRl+WlueS9juiqv+iPr+m6l+S5i+e+juOAguWcluabuOmkqOmkqOiXj+ixkOWvjO+8jOWcluabuOOAgeacn+WIiuOAgeaJi+eov+OAgeWclueJh+etieWFsTE2NDfokKzlhorjgILpoJflhbflj6TlhbjmsKPmga/nmoTlnJbmm7jppKjkuZ/mmK/lvbHoppbkvZzlk4HkuK3nmoTluLjlrqLvvIzjgIrljZrnianppKjlpYflppnlpJzjgIvjgIHjgIrlvozlpKnjgIvjgIHjgIronJjom5vkv6DjgIvjgIHjgIrllJDkurrooZfmjqLmoYjjgIvnrYnpg73mm77lnKjpgJnoo6Hlj5bmma/jgII8L3A+Iiwic2NlbmljSW1hZ2VzIjpbXX0seyJ0eXBlIjoyLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMDY4NCIsInNjZW5pY05hbWUiOiLluIPokIrmgannibnlhazlnJIgQnJ5YW50IFBhcmsiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+5biD6JCK5oGp54m55YWs5ZyS5bu65pa8MTg4NOW5tO+8jOeCuue0gOW/teipqeS6uuWPiue3qOi8r+WogeW7iSZtaWRkb3Q75YWL5p6XJm1pZGRvdDvluIPokIrmgannibnvvIhXaWxsaWFtIEN1bGxlbiBCcnlhbnQsIDE3OTQtMTg3OO+8ieOAguW4g+iQiuaBqeeJueWFrOWckuWdkOiQveWcqOabvOWTiOmgk+eahOaguOW/g+iFueWcsO+8jOaYr+e0kOe0hOmHkeiejeeyvuiLseeahOath+iFs+S5i+WcsOOAguWcqOW/meeijOeahOmDveW4guS4reWwj+WdkOeJh+WIu++8jOmrlOmpl+e0kOe0hOS4jeS4gOaoo+eahOmtheWKm++8jOmAmeijoeS5n+aYr+OAiuassuacm+mDveW4guOAi+OAiuW+jOWkqeOAi+OAiuiSguWHoeWwvOaXqemkkOOAi+OAiuicmOibm+S/oOOAi+etieW9seimluWKh+eahOWPluaZr+WcsOOAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfSx7InR5cGUiOjIsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAwNjgzIiwic2NlbmljTmFtZSI6IuiXjeeTtuWSluWVoSBCbHVlIEJvdHRsZSBDb2ZmZWUiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+54m556uL542o6KGM55qE6JeN55O25ZKW5ZWh55Sx6Km55aeG5pav6LK76KOh5pu86aaW5Ym177yM57SQ57SE56ys5LiA5a6255qE6JeN55O25ZKW5ZWh5pa8MjAxMOW5tOmZjeeUn+WcqOW4g+iQiuaBqeeJueWFrOWckuWwjemdouOAguWSluWVoeW6l+ijoeeahOS4gOWIh+S6leeEtuacieW6j++8jOWuiemdnOOAgeewoeWWruOAgeeyvueiuu+8jOiyu+ijoeabvOWujOe+jueahOaWueW8j+S4gOWumuimgee1puaJgOacieS6uuWujOe+jueahOmrlOmpl+OAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfSx7InR5cGUiOjIsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAwMzA2Iiwic2NlbmljTmFtZSI6IuS4reWkruWFrOWckiBDZW50cmFsIFBhcmsiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+5Lit5aSu5YWs5ZyS5piv57SQ57SE5biC5rCR55qE5b6M6Iqx5ZyS77yM5YWs5ZyS5Zub5a2j55qG576O77yM5pil5aSp5auj57SF5aup57ag44CB5aSP5aSp6Zm95YWJ55KA55Ko44CB56eL5aSp5qWT57SF5Ly854Gr44CB5Yas5aSp6YqA55m96JWt57Si44CC5LiN6KuW55W25Zyw5bGF5rCR6YKE5piv5ZCE5Zyw6YGK5a6i77yM6YO96KKr6YCZ5bqn6auY5qiT5p6X56uL5Lit55qE5LiW5aSW5qGD5rqQ5rex5rex5ZC45byV44CC55yL5Ly85aSp54S255qE5YWs5ZyS77yM5YW25pmv6KeA5a+m6Zqb5LiK57aT6YGO57K+5b+D54ef6YCg77ya5YWn5pyJ5pW45YCL5Lq65bel5rmW44CB5ryr6ZW355qE5q2l6KGM5b6R44CB5YWp5YCL5ruR5Yaw5aC044CB5LiA5YCL6YeO55Sf5YuV54mp5L+d6K235Y2A44CB5aSa6JmV6I2J5Zyw5Lul5Y+K5YWS56ul6YGK5qiC5aC044CC5a6D5Lmf5piv57SQ57SE55+l5ZCN55qE6YO95biC5YWs5ZyS77yM5b6e44CK6JyY6Jub5L+g44CL5Yiw44CK5b6p5LuH6ICF6IGv55uf44CL77yM5Lit5aSu5YWs5ZyS5Zyo5ryr5aiB6Zu75b2x5Lit6aC76aC75Ye66Y+h44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119LHsidHlwZSI6Miwic291cmNlVHlwZSI6Miwic2NlbmljQ29kZSI6IlNNMDAwMDA2OTUiLCJzY2VuaWNOYW1lIjoi576F5pav56aP5bO2IFJvb3NldmVsdCBJc2xhbmQiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+576F5pav56aP5bO25piv5LiA5bqn57Sw6ZW35Z6L55qE5bO25ba877yM5L2N5pa85pu85ZOI6aCT5bO25ba855qH5ZCO5Y2A5LmL6ZaT55qE5p2x5rKz44CC576F5pav56aP5bO26ZuW54S26Z2i56mN5LiN5aSn77yM5L2G5Y275pyJ6JGX542o54m555qE5bu656+J5q235Y+y44CC5bO25LiK5pyJ5pW45qOf5Zyo6aKo5qC85pa56Z2i5YW35pyJ6YeN6KaB5Zyw5L2N55qE5bu656+J77yM5Lim5Lmf5pu+5piv6Kix5aSa6YeN6KaB6YO95biC6KaP5YqD56u25ZyW5ZKM5o+Q5qGI55qE55uu5qiZ5Z+65Zyw44CC6ICM44CK6JyY6Jub5L+g44CL44CK6YeR5Ymb44CL5Lmf5pu+5Zyo5q2k5Y+W5pmv44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119LHsidHlwZSI6Miwic291cmNlVHlwZSI6Miwic2NlbmljQ29kZSI6IlNNMDAwMDA2ODYiLCJzY2VuaWNOYW1lIjoi5biD6a2v5YWL5p6XRFVNQk/ol53ooZPljYAgXCJEb3duIFVuZGVyIE1hbmhhdHRhbiBCcmlkZ2UgT3ZlcnBhc3NcIiBpbiBEVU1CTywgQnJvb2tseW4iLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+5L2N5pa857SQ57SE5p2x5rKz5bK477yM5aaC5LuK55qERFVNQk/mmK/kuIDlgIvlhYXmu7/ol53ooZPmtLvlipvnmoTljYDjgILogIzmsr/okZfmsrPlsrjnmoTluIPpra/lhYvmnpflhazlnJLvvIzmm7TmmK/mk4HmnInop4DnnIvntJDntITkuIvln47lpKnpmpvnt5rlj4rluIPpra/lhYvmnpfmqYvlkozmm7zlk4jpoJPlpKfmqYvnmoTntZXkvbPoppbph47vvIzpgqPkupvliLvmhI/kv53lrZjnmoTnn7Pmnb/ot6/jgIHntIXno5rniYbvvIzlkozntrLntIXml4vovYnmnKjppqzorpPpgJnoo6HlhYXmu7/pn7vlkbPjgII8L3A+Iiwic2NlbmljSW1hZ2VzIjpbXX1dLCJ0eXBlIjpudWxsLCJkZXNjcmlwdGlvbiI6bnVsbCwiYXZlUHJpY2UiOm51bGx9\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":2,\"jsonContent\":\"eyJ0aW1lIjoiMyIsImRpc3RhbmMiOiIiLCJob3VycyI6IiIsIm1pbnV0ZXMiOiIiLCJzdGF5SG91cnMiOiIiLCJzdGF5TWludXRlcyI6IiIsInJlZ2lvbkNvZGUiOm51bGwsInJlZ2lvbk5hbWUiOm51bGwsInJlZ2lvblR5cGUiOm51bGwsImNvbnRlbnQiOlt7InR5cGUiOjAsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAxNTk3Iiwic2NlbmljTmFtZSI6IuaHuOa1ruWFrOWckiBMaXR0bGUgSXNsYW5kIiwic2NlbmljRXhwbGFpbiI6IiIsImlzQXBwZWFyYW5jZSI6MCwibG9hZGVkIjp0cnVlLCJzY2VuaWNlRGVzYyI6IjxwPuS6jjIwMjHlubTmraPlvI/lkJHlhaznnL7lhY3osrvplovmlL7nmoTmh7jmta7lhazlnJLvvIzkuIDntpPplovmlL7lsLHmiJDngrrntJDntITntrLntIXmiZPljaHnmoTlv4XljrvkuYvomZXvvIzpgJnoo6HnmoToqK3oqIjlsI/nnL7ogIzmuIXmlrDjgILmlK/mkpDmh7jmta7lnKjlk4jlvrfpgZzmsrPkuIrnmoTlhazlnJLmmK/nlLExMzLlgIvkuI3lkIzpq5jluqbnmoTmt7flh53lnJ8mbGRxdW876ayx6YeR6aaZJnJkcXVvO+aUr+aSkOi1t+S+hueahO+8jOW9ouaIkOS6hjIuNOiLseeVneeahOS4mOmZteWSjOicv+ickueahOWwj+W+keOAguaVtOWAi+Wwj+WztuWkp+e0hOaciTQwMOeoruS4jeWQjOeahOaoueacqOOAgeeBjOacqOOAgeWcsOiiq+WSjOWkmuW5tOeUn+akjeeJqe+8jOS4puiHs+WwkeaciTEwMOeorumBqeWQiOe0kOe0hOawo+WAmeeahOS4jeWQjOWWrOacqOOAguWztuS4iueahOavj+WAi+inkuiQvemDveS7o+ihqOiRl+S4jeWQjOeahOW+ruWwj+awo+WAme+8jOmAmeWPluaxuuaWvOWcsOW9ouOAgeaXpeeFp+WSjOmiqOeSsOWig+OAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfSx7InR5cGUiOjIsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAwNjg5Iiwic2NlbmljTmFtZSI6IuWIh+eIvuilv+W4guWgtCBDaGVsc2VhIE1hcmtldCIsInNjZW5pY0V4cGxhaW4iOiIiLCJpc0FwcGVhcmFuY2UiOjAsImxvYWRlZCI6dHJ1ZSwic2NlbmljZURlc2MiOiI8cD7liIfniL7opb/luILloLTmnIDliJ3mmK/nlLHlu6Lmo4Tlt6Xlu6DmlLnlu7rogIzmiJDvvIzmmK/kuIDlgIvpm4bnvo7po5/lu6PloLTlkozlvqnlj6ToqK3oqIjlsI/lupfmlrzkuIDpq5TnmoTlrqTlhafluILpm4bvvIzmmK/ntJDntITmnIDlj5fmraHov47nmoTluILloLTkuYvkuIDjgILpgJnoo6HmnInlvojlpJrmlrDlpYflpb3njqnnmoTnpq7lk4HlupfvvIzlvojpganlkIjpgbjos7zmiYvkv6HjgIImbGRxdW875Y67Q2hlbHNlYSBNYXJrZXTlkIPkuIDmrKHpvo3onaYmcmRxdW8777yM5bey5oiQ54K66Kix5aSa5ZCD6LKo5YCR5L6G5Yiw57SQ57SE5b+F5ZCDbGlzdOS4iueahOmHjeimgeS4gOerme+8gemZpOS6huS+huiHquS4lueVjOWQhOWcsOeahOa1t+muruWklu+8jOa+s+a0sumkoemkheOAgeazleWci+eUnOWTgeOAgeaXpeW8j+WjveWPuOWSjOe+qeWkp+WIqemcnOa3h+a3i+etieetiemDveWPr+S7peWcqOeQs+eQhea7v+ebrueahOmbhuW4guaJvuWIsOOAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfSx7InR5cGUiOjIsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAwNjg4Iiwic2NlbmljTmFtZSI6IumrmOe3muWFrOWckiBUaGUgSGlnaCBMaW5lIiwic2NlbmljRXhwbGFpbiI6IiIsImlzQXBwZWFyYW5jZSI6MCwibG9hZGVkIjp0cnVlLCJzY2VuaWNlRGVzYyI6IjxwPumrmOe3muWFrOWckuaYr+S4gOWAi+S9jeaWvOe0kOe0hOabvOWTiOmgk+S4reWfjuilv+WBtOeahOe3muWei+epuuS4reiKseWcku+8jOWFqOmVtzEuNDXoi7Hph4zvvIzmmK/lnKjosqjpgYvpkLXot6/nt5rnmoTln7rnpI7kuIrkv67lu7rogIzmiJDjgILni7nplbfnmoTkurrooYzmraXpgZPnqb/moq3lnKjpq5jmqJPkuYvplpPvvIzlhanml4HkvYjmu7/kuoboirHojYnvvIzmvKvmraXlnKjmraXpgZPkuIrjgIHourrlnKjojYnlnarkuIrogYrlpKnnnIvmm7jmiJbmm6zlpKrpmb3pg73mmK/lnKjntJDntITpgJnluqfnuYHoj6/pg73luILkuK3nmoTniYfliLvkuqvlj5fjgII8L3A+Iiwic2NlbmljSW1hZ2VzIjpbXX0seyJ0eXBlIjoyLCJzb3VyY2VUeXBlIjoyLCJzY2VuaWNDb2RlIjoiU00wMDAwMDY5MCIsInNjZW5pY05hbWUiOiLlk4jlvrfpgZzlnJLljYAgSHVkc29uIFlhcmRzIFZlc3NlbCIsInNjZW5pY0V4cGxhaW4iOiIiLCJpc0FwcGVhcmFuY2UiOjAsImxvYWRlZCI6dHJ1ZSwic2NlbmljZURlc2MiOiI8cD7kvY3mlrxIdWRzb24gWWFyZHPmma/op4DpgJrlu4rjgIHlu6PloLTkuK3lv4PlkozoppboprrnhKbpu57omZXnmoTlt6jlpKfmp4vnr4nnianlkI3ngrpWZXNzZWzvvIjlrrnlmajvvInvvIzlroPmmK/kuIDlgIvonILnqqnni4DnmoTmqJPmoq/vvIzntrLlj4vlgJHopqrliIfnmoTnqLHlroPngrombGRxdW875aSn5p2+5p6cJnJkcXVvO+OAguW+nuS4jeWQjOinkuW6puaso+iznuW7uueviemDveiDveeZvOePvueNqOeJueeahOe+juaEn++8jOaYr+aCqOaci+WPi+WciOaJk+WNoeeahOe1leS9s+WcsOm7nuOAgjwvcD4iLCJzY2VuaWNJbWFnZXMiOltdfV0sInR5cGUiOm51bGwsImRlc2NyaXB0aW9uIjpudWxsLCJhdmVQcmljZSI6bnVsbH0=\"}],\"distributionFactor\":null}]}]}"
+                      },
+                      {
+                        "contentMode": 0,
+                        "productSortNum": null,
+                        "relatedId": -1,
+                        "relatedDay": -1,
+                        "relatedName": "",
+                        "contentType": 8,
+                        "sortNumber": 1,
+                        "jsonContent": "eyJjb250ZW50IjpbeyJhY3Rpdml0eU5vIjoxLCJzb3VyY2VUeXBlIjoyLCJob3RlbENvZGUiOiJITTAwMDAxMDEyIiwiaG90ZWxOYW1lIjoiSHlhdHQgUGxhY2UgRmx1c2hpbmcvTGFHdWFyZGlhIEFpcnBvcnQiLCJsb2FkZWQiOnRydWV9LHsiYWN0aXZpdHlObyI6Miwic291cmNlVHlwZSI6MiwiaG90ZWxDb2RlIjoiSE0wMDAwMDQ5MiIsImhvdGVsTmFtZSI6IuWQjOe0miIsImxvYWRlZCI6dHJ1ZX1dLCJjdXN0b21lclZpc2libGUiOjEsInJlZ2lvbkN1c3RvbWVyVmlzaWJsZSI6MCwicmVnaW9uTmFtZSI6Iue0kOe0hOeah+WQjuWNgCBRdWVlbnMiLCJyZWdpb25Db2RlIjoiQTIwOTAiLCJyZWdpb25UeXBlIjoyLCJ0aW1lIjoiNCJ9"
+                      },
+                      {
+                        "contentMode": 0,
+                        "productSortNum": null,
+                        "relatedId": -1,
+                        "relatedDay": -1,
+                        "relatedName": "",
+                        "contentType": 7,
+                        "sortNumber": 2,
+                        "jsonContent": "eyJkaXN0YW5jIjoiIiwiZGlzdGFuY1VuaXQiOjEsImhvdXJzIjoiIiwibWludXRlcyI6IiIsInN0YXlIb3VycyI6IiIsInN0YXlNaW51dGVzIjoiIiwibGlzdEltYWdlIjpbXSwiZGVzY3JpcHRpb24iOiI8cD48c3BhbiBzdHlsZT1cImNvbG9yOiAjYmEzNzJhO1wiPjxzdHJvbmc+MDYvMDQvMjAyNi0wNi8wNy8yMDI244CBMDcvMDMvMjAyNi0wNy8wNS8yMDI244CBMDcvMTcvMjAyNi0wNy8xOS8yMDI244CBMDgvMjUvMjAyNi0wOS8xMy8yMDI2IOacn+mWk+WHuueZvOeahOePreacn++8jOeVtuWkqeeVtuWkqeWwh+WFpeS9j0hvbGlkYXkgSW5uIE5ld2FyayBJbnRlcm5hdGlvbmFsIEFpcnBvcnQg5oiWIENvdXJ0eWFyZCBieSBNYXJyaW90dCBCYXNraW5nIFJpZGdlIOaIliDlkIzntJrphZLlupfjgII8L3N0cm9uZz48L3NwYW4+PC9wPiIsInRpbWUiOiI0In0="
+                      }
+                    ],
+                    "isFreeTravel": null,
+                    "optionalProductList": null,
+                    "distributionFactor": 1
+                  },
+                  {
+                    "section": "劍橋市|||1+++波士頓",
+                    "todayLocation": "",
+                    "dayNumber": 4,
+                    "content": [
+                      {
+                        "contentMode": 3,
+                        "productSortNum": null,
+                        "relatedId": 8158,
+                        "relatedDay": 1,
+                        "relatedName": "【BB3T-3】劍橋市 – 波士頓",
+                        "contentType": 100,
+                        "sortNumber": 0,
+                        "jsonContent": "{\"travelId\":8158,\"productCategory\":1,\"name\":\"【BB3T-3】劍橋市 – 波士頓\",\"productType\":\"PC00000006\",\"isAutoTeam\":null,\"expandList\":[{\"language\":2,\"isSource\":1,\"dayList\":[{\"section\":\"劍橋市|||1+++波士頓\",\"todayLocation\":\"\",\"dayNumber\":1,\"content\":[{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":7,\"sortNumber\":0,\"jsonContent\":\"eyJkaXN0YW5jIjoiIiwiaG91cnMiOiIiLCJtaW51dGVzIjoiIiwic3RheUhvdXJzIjoiIiwic3RheU1pbnV0ZXMiOiIiLCJsaXN0SW1hZ2UiOltdLCJkZXNjcmlwdGlvbiI6IjxwPuazouWjq+mgk+aYr+S4gOWAi+att+WPsuaCoOS5heeahOWfjuW4gu+8jOS9huWQjOaZguS5n+aYr+acgOW5tOi8leeahOWfjuW4gu+8jOmAmeijoeeahOmrmOerr+WtuOW6nOS7peWPiuioseWkmueahOesrOS4gOasoemDveS9v+mAmeW6p+WfjuW4gueFpeeZvOaWsOeahOeUn+apn+OAguS7iuWkqeaIkeWAkeWwh+mWi+WVn+esrOS4gOS5i+aXhe+8jOaEn+WPl+azouWjq+mgk+a/g+a/g+eahOatt+WPsumiqOWRs+OAguS5mOWdkOazouWjq+mgk+ingOa4r+iIue+8jOW+nuawtOS4iuimluinkuaso+iznuS4jeS4gOaoo+eahOazouWjq+mgk++8m+WJjeW+gOaWsOiLseagvOiYreawtOaXj+mkqO+8jOmAmeijoeaYr+iqjeitmOa1t+a0i+eUn+eJqeeahOWlveWOu+iZle+8m+WcqOaYhuilv+W4guWgtOaEn+WPl+azouWjq+mgk+WPpOiAgeeahOaWh+WMlumBuueUou+8jOizvOiyt+e0gOW/teWTgeiIh+WTgeWYl+WcsOmBk+e+jumjn++8m+eZu+S4iuS/neiqoOWkp+W7iDUy5bGk55qE6Zuy56uv5ryr5q2l6KeA5pmv5Y+w77yM5rOi5aOr6aCT5Z+O5biC5pmv6KeA55uh5pS255y85bqV77yBPC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz7ooYznqIvlronmjpLvvJo8L3N0cm9uZz48L3A+XG48cD48c3Ryb25nPumFkuW6lyAmcmFycjsg5rOi5aOr6aCTICZyYXJyOyDnvo7lnIvnrKzkuIDkuYvml4U8L3N0cm9uZz7vvIjlv4Xku5jpoIXnm67vvIwz5bCP5pmC77yJPHN0cm9uZz4mcmFycjsg5rOi5aOr6aCT6KeA5riv6Ii5PC9zdHJvbmc+77yI6Ieq6LK777yMNjDliIbpkJjvvIk8c3Ryb25nPiZyYXJyOyDmmIbopb/luILloLQ8L3N0cm9uZz7vvIjoh6rosrvlk4HlmJfms6Llo6vpoJPpvo3onabppJDvvIw2MOWIhumQmO+8iTxzdHJvbmc+JnJhcnI7IOazouWjq+mgk+mbsuerr+a8q+atpeingOaZr+WPsDwvc3Ryb25nPu+8iOiHquiyu++8jDUw5YiG6ZCY77yJPC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHN0cm9uZz7nvo7lnIvnrKzkuIDkuYvml4XooYznqIvlronmjpLvvJo8L3N0cm9uZz7lk4jkvZvlpKflrbjvvIgx5bCP5pmC77yM5YyF5ZCr5a6Y5pa55qCh5ZyS5bCO6Ka977yJJnJhcnI7IFRoZSBPbGQgU3RhdGUgSG91c2XvvIjnvo7lnIvpnanlkb3nmoToqpXnlJ/lnLDvvIzjgIrnjajnq4vlrqPoqIDjgIvpppbmrKHnmbzooajnmoTlnLDmlrnvvIkmcmFycjsg576O5ZyL56ys5LiA5YCL5Zyw6ZC157O757WxICZyYXJyOyZuYnNwOyDnvo7lnIvnrKzkuIDlgIvlhazlhbHlhazlnJIgJnJhcnI7IOe+juWci+esrOS4gOW6p+WFrOWFseakjeeJqeWckiAmcmFycjsg576O5ZyL56ys5LiA5YCL5YWs55y+5oqV6LOH55qE5aSn5Z6L5YWN6LK75biC56uL5ZyW5pu46aSoPC9wPlxuPHA+Jm5ic3A7PC9wPlxuPHA+PHNwYW4gc3R5bGU9XCJjb2xvcjogI2JhMzcyYTtcIj7nibnliKXoqqrmmI7vvJrlpoLpgYfms6Llo6vpoJPop4DmuK/oiLnpl5zplonvvIzoqbLmma/pu57lsIfmm7/mj5vngrrvvJrmlrDoi7HmoLzomK3msLTml4/ppKjvvIjoh6rosrvvvIw2MOWIhumQmO+8ieOAgjwvc3Bhbj48L3A+IiwidGltZSI6IjEifQ==\"},{\"contentMode\":0,\"productSortNum\":null,\"relatedId\":-1,\"relatedDay\":-1,\"relatedName\":\"\",\"contentType\":3,\"sortNumber\":1,\"jsonContent\":\"eyJ0aW1lIjoiMSIsImRpc3RhbmMiOiIiLCJob3VycyI6IiIsIm1pbnV0ZXMiOiIiLCJzdGF5SG91cnMiOiIiLCJzdGF5TWludXRlcyI6IiIsInJlZ2lvbkNvZGUiOm51bGwsInJlZ2lvbk5hbWUiOm51bGwsInJlZ2lvblR5cGUiOm51bGwsImNvbnRlbnQiOlt7InR5cGUiOjAsInNvdXJjZVR5cGUiOjIsInNjZW5pY0NvZGUiOiJTTTAwMDAzMzI4Iiwic2NlbmljTmFtZSI6Iue+juWci+esrOS4gOS5i+aXhSBUaGUgRmlyc3RzIG9mIEFtZXJpY2EgRXhwbG9yYXRpb24gVG91ciIsInNjZW5pY0V4cGxhaW4iOiIiLCJpc0FwcGVhcmFuY2UiOjAsImxvYWRlZCI6dHJ1ZSwic2NlbmljZURlc2MiOiI8cD7ms6Llo6vpoJPmmK/nvo7lnIvmnIDlj6TogIHnmoTln47luILkuYvkuIDvvIzlhbfmnInmv4PljprnmoTlrbjooZPmsKPmga/vvIzlnKjntpPmrbfmrbflj7LnmoTmtJfmu4zlvozvvIzoqLHlpJrnmoTnrKzkuIDmrKHlnKjms6Llo6vpoJPoqpXnlJ/kuobjgILku4rlpKnmiJHlgJHlsIflj4Pop4AxNjM25bm055qE56ys5LiA5bqn5aSn5a24LeWTiOS9m+Wkp+WtuO+8jOe+juWci+mdqeWRveeahOiqleeUn+WcsOOAgeOAiueNqOeri+Wuo+iogOOAi+mmluasoeeZvOihqOeahOWcsOaWuS1UaGUgT2xkIFN0YXRlIEhvdXNl77yM576O5ZyL56ys5LiA5YCL5Zyw6ZC157O757Wx44CB576O5ZyL56ys5LiA5YCL5YWs5YWx5YWs5ZyS44CB576O5ZyL56ys5LiA5bqn5YWs5YWx5qSN54mp5ZyS5Lul5Y+K576O5ZyL56ys5LiA5YCL5YWs55y+5oqV6LOH55qE5aSn5Z6L5YWN6LK75biC56uL5ZyW5pu46aSo77yM5oSf5Y+X5rOi5aOr6aCT5r+D5r+D55qE5q235Y+y6aKo5oOF44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119LHsidHlwZSI6Miwic291cmNlVHlwZSI6Miwic2NlbmljQ29kZSI6IlNNMDAwMDAwOTkiLCJzY2VuaWNOYW1lIjoi5rOi5aOr6aCT6KeA5riv6Ii5IEJvc3RvbiBIYXJib3IgQ3J1aXNlIiwic2NlbmljRXhwbGFpbiI6IiIsImlzQXBwZWFyYW5jZSI6MCwibG9hZGVkIjp0cnVlLCJzY2VuaWNlRGVzYyI6IjxwPuW+nuawtOS4iumBiuimveazouWjq+mgk++8jOimi+itiemAmeijoeeahOatt+WPsu+8jOS6uueJqe+8jOmBuuWdgO+8jOaVheS6i+S7peWPiuWFtuS7lueahOioseioseWkmuWkmiAtIOazouWjq+mgk+aTgeacieiRl+mAmeS4gOWIh+OAguazouWjq+mhv+a4r+aYr+ilv+WNiueQg+acgOWPpOiAgeeahOS4jeaWrea0u+i3g+eahOa1t+a4r+OAguWcqOasp+a0suS6uuWIsOi+vuWbm+WNg+W5tOS5i+WJje+8jOWcn+iRl+S6uuawkeWwhumprOiQqOivuOWhnuW3nua5vuS9nOS4uue5geW/meeahOS6pOaYk+WMuuWfn+OAguasp+a0sumprOiQqOivuOWhnua5vuauluawkeWcsOW7uuaIkOWQju+8jOa1t+a4r+aIkOS4uuS4u+imgeeahOWVhuS4muS4reW/g+OAguazouWjq+mgk+a4r+mDteiIueWQkeS5mOWuouWxleePvuS6humAmeaoo+S4gOWAi+i/t+S6uueahOWfjuW4guOAguW+nOW+ieS6juW5s+mdnOeahOa4r+eBoywg5qW155uu6YGg55y677yM5Z+O5biC55qE5bu656+J54mp5Zyo5aSp56m655qE5pig6KWv5LiL5oy65ouU5aOv6ZeK44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119LHsidHlwZSI6Miwic291cmNlVHlwZSI6Miwic2NlbmljQ29kZSI6IlNNMDAwMDAxMDAiLCJzY2VuaWNOYW1lIjoi5rOi5aOr6aCT5piG6KW/5biC5aC0IFF1aW5jeSBNYXJrZXQiLCJzY2VuaWNFeHBsYWluIjoiIiwiaXNBcHBlYXJhbmNlIjowLCJsb2FkZWQiOnRydWUsInNjZW5pY2VEZXNjIjoiPHA+5piG6KW/5biC5aC05piv5rOi5aOr6aCT55+l5ZCN55qE5peF6YGK5pmv6bue5ZKM6LO854mp5aC05omA44CC5piG6KW/5biC5aC055qE54m56Imy5Zyo5pa85YW2542o54m555qE576F6aas5byP5bu656+J6aKo5qC877yM5aSn5Z6L5ZyT5p+x5ZKM5qiZ6KqM5oCn55qE5LiJ6KeS5byP5bGL6aCC44CB57aT5YW455qE576F6aas5byP6ZuV5Yi75aSn6ZaA5Lul5Y+K6Iqx5bSX5bKp5bu65p2Q6IiH54++5Luj576O5byP6aKo5qC855qE55+p5b2i546755KD77yM5oiQ5Yqf5Zyw5bCH5Y+k5YW4576O6IiH54++5Luj576O5ZCI5LqM54K65LiA44CC5biC5aC05peB6YKK5YWp5bqn5bu656+J5YiG5Yil5Y+r5Y2X5biC5ZKM5YyX5biC77yM6JaI6JCD5LqG5ZCE56iu5bCP5ZWG5bqX77yM5Zyo6YCZ6KOh5Y+v5Lul5reY5Yiw5ZCE56iu5rOi5aOr6aCT5bCP57SA5b+15ZOB44CCPC9wPiIsInNjZW5pY0ltYWdlcyI6W119LHsidHlwZSI6Miwic291cmNlVHlwZSI6Miwic2NlbmljQ29kZSI6IlNNMDAwMDI5NTUiLCJzY2VuaWNOYW1lIjoi5rOi5aOr6aCT6Zuy56uv5ryr5q2l6KeA5pmv5Y+wIFZpZXcgQm9zdG9uIGF0IFBydWRlbnRpYWwgQ2VudGVyIiwic2NlbmljRXhwbGFpbiI6IiIsImlzQXBwZWFyYW5jZSI6MCwibG9hZGVkIjp0cnVlLCJzY2VuaWNlRGVzYyI6IjxwPuingOaZr+WPsOS9jeaWvOazouWjq+mgk+esrOS6jOmrmOaok+S/neiqoOWkp+W7iOeahDUy5bGk77yM5oKo5Y+v5Lul5ZyoIDM2MCDluqbpnLLlpKnlsYvpoILlubPoh7rmvKvpgYrvvIzlnKjms6Llo6vpoJPluILkuK3lv4PnmoTliLbpq5jpu57po73opr3lhajln47nvo7mma/vvIHmiZPljaHlpKflsY/lvbHpmaLvvIzliKnnlKjkuqTkupLmioDooZPlnKjms6Llo6vpoJPlpKfooZflsI/lt7foo6HmsonmtbjlvI/oh6rnlLHmjqLntKLvvIzop6Ppjpbms6Llo6vpoJPlnLDmqJnmma/pu57vvIjljIXmi6zoiqzlqIHlhazlnJLvvInnmoTluZXlvozoppbop5LvvIE8L3A+Iiwic2NlbmljSW1hZ2VzIjpbXX1dLCJ0eXBlIjpudWxsLCJkZXNjcmlwdGlvbiI6bnVsbCwiYXZlUHJpY2UiOm51bGx9\"}],\"distributionFactor\":null}]}]}"
+                      }
+                    ],
+                    "isFreeTravel": null,
+                    "optionalProductList": null,
+                    "distributionFactor": 1
+                  }
+                ]
+              }
+            ]
+          },
+          "productNotice": {
+            "mainLanguage": 2,
+            "productCode": "P00004406",
+            "noticeInfo": [
+              {
+                "matterCode": "AT00001831",
+                "editType": 1,
+                "noticeType": 3,
+                "matterName": "【退改說明】溫哥華火車團",
+                "vluesTip1": "<p>火車票預定後一經確認，無法取消或更改等。參加火車團的人報名時必須使用護照/Photo ID上的姓名及出生日期。</p>",
+                "vluesTip2": "【退改說明】溫哥華火車團"
+              },
+              {
+                "matterCode": "AT00000301",
+                "editType": 1,
+                "noticeType": 1,
+                "matterName": "【預定須知】集團通用（不涉及跨境）",
+                "vluesTip1": "<p><strong>預定須知：</strong></p>\n<p>1. 18歲以下未成年人或兒童必須由成人陪伴參團，單獨旅行的未成年人或兒童不能參加縱橫海鷗的旅遊團。出於對孕婦安全的考慮，孕婦參團需在行程結束時懷孕不超過24周。</p>\n<p>2. 請在預定時務必提供準確、完整的資訊，包括姓名、性別、有效的聯繫方式（最好是手機，如有問題，方便通知）、準確的航班資訊或參團地點等，以免產生預定錯誤，影響出行。如因您提供錯誤資訊而造成損失，由您自行承擔。</p>\n<p>3. 酒店有不同的房間類型，例如一張King/Queen Size的大床房或兩張Double Size的雙床房。每個房間可合法住宿的最多人數在2 到4 人，包括成人和兒童。<span style=\"color: #ba372a;\">應部分酒店要求，每組參團客人需至少携帶一張可在目的地使用的信用卡或借記卡，届時需根據酒店的不同規定配合刷卡辦理押金收取和入住手續。如無個人消費，辦理退房後酒店會在7-14個工作日內將押金原路返還。</span>縱橫海鷗保證客人的用房數量，但不保障具體房間類型和所處位置。酒店的入住時間通常在15:00以後。</p>\n<p>4. 參團客人需跟團上導遊購買門票，不可自行帶票或使用City Pass。景點的門票費和團上餐費可能會根據景點官方的臨時通知而變動，以當日景點公佈的價格為准。</p>\n<p>5. 縱橫海鷗有權在方便出團操作的情況下，對行程順序進行適當調整以確保旅遊團順利進行，但不會減少行程中應包含的項目。</p>\n<p>6. 實際出行過程中，導遊或司機有權根據天氣、交通等情況，適當調整景點的遊覽順序、停留時間或集合時間以確保行程順利進行。</p>\n<p>7. 如遇景點臨時關閉或節假日（感恩節、聖誕節、新年等）關閉等，導致無法參觀，導遊會根據實際情況調整為外觀或以其他景點代替以確保行程的豐富性。各景點及國家公園的開放時間及流量控制會因疫情不時變化，如影響行程屬不可抗力因素，敬請諒解。</p>\n<p>8. 八歲以下兒童參團需乘坐安全座椅，縱橫海鷗提供租借服務，租金$10.00/人/天，請務必在預定行程時提前備註告知，以便我們提前準備，如因客人未提前告知所造成的違規和罰金由客人自行承擔，敬請理解。出行當日安排大巴出行無需安全座椅，費用可退還客人。</p>\n<p>9. 行程中眾多旅遊景點需要參團人具備基本的健康條件。殘疾人士和行動不便者報名參團前請提前聯繫縱橫海鷗獲取相關政策資訊。若沒有及時通知，我司不能保證為客人提供輪椅升降巴士或安排合適的座位。</p>\n<p>10. 縱橫海鷗巴士團分為了四個等級：銀榜惠享、金榜怡享、白金尊享、鑽石臻享，詳情請查看<a href=\"https://uvbookings.info/upload/BMS/ProductLevel.pdf\" target=\"_blank\" rel=\"noopener\">產品分級</a>（點擊藍色字體查看）。</p>\n<p>11. 縱橫集團可能會多次修改參團條款和條件，並會在代理網站上及時公佈最新版本。請遊客在報名參團前務必仔細閱讀<a title=\"《參團條例》\" href=\"http://uvbookings.info/upload/terms/s.pdf\" target=\"_blank\" rel=\"noopener\">《參團條例》</a>（點擊藍色字體查看）。我司僅在這些條款和條件下履行義務，除非在此條例中或在法律中有特別規定，否則如果產生任何間接性，補償性，偶然性或懲罰性損害都不做出賠償。</p>\n<p><span style=\"color: #ba372a;\">12. 面對持續上漲的燃油成本，車輛運營成本大大增加，2026年5月18日（出發班期）起，縱橫海鷗的巴士團産品需加收交通附加費$5/人/天，導游將在行程中統一收取。</span></p>\n<p>特殊說明：<br />1）接機、送機當天如無其他巴士行程安排，不收取燃油附加費。<br />2）不涉及巴士用車服務的天數不收取燃油附加費：例如佛州相關産品中客人自行搭乘園區接駁車往返主題樂園，或火車團産品中當天全程爲火車行程且無導游及巴士服務等情况。</p>\n<p>&nbsp;</p>\n<p><strong>出行須知：</strong></p>\n<p>1. 為保障行程順利完整，遊客有責任嚴格遵守導遊給出的集合時間。如果距離集合時間超過十分鐘，車子將離開不予等待。縱橫海鷗竭誠提供準時准點服務，但如遇到天氣、交通、機械故障、罷工、政府停擺以及戰爭和恐怖襲擊等不可控因素，我司無法保證按時按點到達接送地點。由此原因導致的行程延誤進而給客人帶來任何的不便或產生相關航班、火車或大巴費用以及其他旅遊費用等額外費用的，我司概不負責。</p>\n<p>2. 縱橫海鷗有權在方便出團操作的情況下，在途中將遊客從原車換到另一輛車並指派不同導遊和司機提供服務。</p>\n<p>3. 以下建議會幫助您更快更好的登記報到：需攜帶有效身份證件( 內附照片)；請出示紙質版或電子版行程單。</p>\n<p>4. 該產品是團體活動，如您選擇中途離團，請提前告知並征得導遊同意，需簽署離團協議書，未完成部分將被視為您自行放棄，團費不予退還。</p>\n<p>5. 行程中的贈送項目，如因交通、天氣等不可抗力因素導致不能贈送的、或因您個人原因不能參觀的，費用不退，敬請諒解。</p>\n<p>6. 根據美國聯邦法律，參團期間車上禁止吸煙，絕大多數酒店房間也禁止吸煙；酒店的清潔人員都受過專業訓練，保安人員也會專業的留下證據，一旦被發現，會有每晚至少250 美元的清潔費用。這項費用由客人自己承擔，我司概不負責。若有吸煙需要，請到專門的吸煙區。</p>\n<p>7. 縱橫海鷗的所有行程一律不允許帶寵物和動物參團。</p>\n<p>8. 僅針對包含接機服務的產品：同一訂單僅提供一次免費接機時間範圍內的接機服務，如因天氣、航班延誤等造成無法安排，請自理交通費用。</p>\n<p>9. 緊急聯繫電話：（美國免費電話）+1(866)585-8747。</p>",
+                "vluesTip2": "【預定須知】集團通用（不涉及跨境）"
+              },
+              {
+                "matterCode": "CM00001461",
+                "editType": 0,
+                "noticeType": 0,
+                "matterName": "P00004406",
+                "vluesTip1": "<p>1. 行程中交通費用（使用車輛類型根據當日具體參團人數決定，7座商務，14人座高頂/中巴，或55-61座巴士）；</p>\n<p>2. 行程中住宿（住宿晚數等於行程天數減一）；</p>\n<p>3. 中英文服務人員（司機+導遊/司兼導）；</p>\n<p>4.波士頓前往紐約的 Coach Seat 火車票費用。</p>",
+                "vluesTip2": "<p>1. 餐飲（導遊將提供建議。關於早餐：一般導遊會在第1個景點附近安排您吃早餐或者提早1天通知您準備好第二天的早餐）；</p>\n<p>2. 行程中需要的機票，渡輪，部分景區/國家公園內的遊覽交通費用；</p>\n<p>3. 景點門票費用（門票價格時常波動，不再另行通知。門票需在導遊處統一購買）；</p>\n<p>4. 服務費（每人每天最低支付US$15，兒童及占座嬰兒均按成人標準支付）；</p>\n<p>5. 酒店房間內私人費用（洗衣費，電話費等）；</p>\n<p>6. 一切除費用包含外的私人性質費用。</p>"
+              }
+            ],
+            "damagesInfo": [],
+            "advanceDay": -1,
+            "advanceTime": ""
+          },
+          "productCost": {
+            "list": [
+              {
+                "id": 87711,
+                "editType": 1,
+                "expenseCode": "EM00002321",
+                "costDay": "",
+                "expIExpandName": "翱翔紐約 RiseNY",
+                "expIExpandDesc": "",
+                "resourceType": 0,
+                "sortNo": 1,
+                "priceInfo": [
+                  {
+                    "expPriceName": "成人",
+                    "expPriceMoney": "$48.99",
+                    "sortNo": 1
+                  },
+                  {
+                    "expPriceName": "兒童（3-12歲）",
+                    "expPriceMoney": "$45.72",
+                    "sortNo": 2
+                  }
+                ]
+              },
+              {
+                "id": 50548,
+                "editType": 1,
+                "expenseCode": "EM00001831",
+                "costDay": "",
+                "expIExpandName": "必付項目：美國第一之旅 The Firsts of America Exploration Tour (Mandatory)",
+                "expIExpandDesc": "",
+                "resourceType": 0,
+                "sortNo": 1,
+                "priceInfo": [
+                  {
+                    "expPriceName": "成人",
+                    "expPriceMoney": "$55.00",
+                    "sortNo": 1
+                  },
+                  {
+                    "expPriceName": "老人（65+歲）",
+                    "expPriceMoney": "$55.00",
+                    "sortNo": 2
+                  },
+                  {
+                    "expPriceName": "兒童（3-12歲）",
+                    "expPriceMoney": "$45.00",
+                    "sortNo": 3
+                  }
+                ]
+              },
+              {
+                "id": 28266,
+                "editType": 1,
+                "expenseCode": "EM00001519",
+                "costDay": "",
+                "expIExpandName": "Edge沉浸式觀景台 Edge Immersive Observation Deck",
+                "expIExpandDesc": "",
+                "resourceType": 0,
+                "sortNo": 1,
+                "priceInfo": [
+                  {
+                    "expPriceName": "成人",
+                    "expPriceMoney": "$43.55~$58.79",
+                    "sortNo": 1
+                  },
+                  {
+                    "expPriceName": "老人",
+                    "expPriceMoney": "$43.55~$58.79",
+                    "sortNo": 2
+                  },
+                  {
+                    "expPriceName": "兒童（6-12歲）",
+                    "expPriceMoney": "$38.11~$53.35",
+                    "sortNo": 3
+                  }
+                ]
+              },
+              {
+                "id": 28268,
+                "editType": 1,
+                "expenseCode": "EM00001518",
+                "costDay": "",
+                "expIExpandName": "百老匯音樂劇 Broadway Musical",
+                "expIExpandDesc": "<p>著名迪士尼百老匯音樂劇：《Aladdin 阿拉丁》《The Lion King 獅子王》<br />座位區域：Orchestra Or Front Mezzanine&nbsp;<br />價格：$280/人（包含一張百老匯門票+百老匯後安排中文接送到酒店）</p>\n<p>&nbsp;</p>\n<p>著名百老匯經典音樂劇：《Wicked 女巫》《MJ: The Musical 邁克爾傑克遜》<br />座位區域：Orchestra Or Front Mezzanine</p>\n<p>《Harry Potter and the Cursed Child 哈利波特與被詛咒的孩童》</p>\n<p>座位區域：Orchestra Or Prime Dress Circle</p>\n<p>賣價：$260/人（包含一張百老匯門票+百老匯後安排中文接送到酒店）</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p><span style=\"color: #ba372a;\">註：百老匯音樂劇門票一經預定無法退改。</span></p>",
+                "resourceType": 0,
+                "sortNo": 3,
+                "priceInfo": [
+                  {
+                    "expPriceName": "每人",
+                    "expPriceMoney": "$280.00 或 $260.00",
+                    "sortNo": 1
+                  }
+                ]
+              },
+              {
+                "id": 28088,
+                "editType": 1,
+                "expenseCode": "EM00000842",
+                "costDay": "",
+                "expIExpandName": "羅斯福島深度遊 Roosevelt Island In-depth Tour",
+                "expIExpandDesc": "<p>包含單程纜車費用</p>",
+                "resourceType": 0,
+                "sortNo": 3,
+                "priceInfo": [
+                  {
+                    "expPriceName": "成人",
+                    "expPriceMoney": "$35.00",
+                    "sortNo": 1
+                  },
+                  {
+                    "expPriceName": "老人（65+歲）",
+                    "expPriceMoney": "$35.00",
+                    "sortNo": 2
+                  },
+                  {
+                    "expPriceName": "兒童（3-12歲）",
+                    "expPriceMoney": "$30.00",
+                    "sortNo": 3
+                  }
+                ]
+              },
+              {
+                "id": 28081,
+                "editType": 1,
+                "expenseCode": "EM00000069",
+                "costDay": "",
+                "expIExpandName": "耶魯大學校園遊 Yale University In-Depth Campus Tour",
+                "expIExpandDesc": "",
+                "resourceType": 0,
+                "sortNo": 4,
+                "priceInfo": [
+                  {
+                    "expPriceName": "成人",
+                    "expPriceMoney": "$25.00",
+                    "sortNo": 1
+                  },
+                  {
+                    "expPriceName": "老人（65+歲）",
+                    "expPriceMoney": "$25.00",
+                    "sortNo": 2
+                  },
+                  {
+                    "expPriceName": "兒童 （3-12歲）",
+                    "expPriceMoney": "$15.00",
+                    "sortNo": 3
+                  }
+                ]
+              },
+              {
+                "id": 28082,
+                "editType": 1,
+                "expenseCode": "EM00000068",
+                "costDay": "",
+                "expIExpandName": "聽濤山莊 The Breakers Mansion",
+                "expIExpandDesc": "",
+                "resourceType": 0,
+                "sortNo": 5,
+                "priceInfo": [
+                  {
+                    "expPriceName": "成人",
+                    "expPriceMoney": "$36.00",
+                    "sortNo": 1
+                  },
+                  {
+                    "expPriceName": "兒童 （6-12歲）",
+                    "expPriceMoney": "$18.00",
+                    "sortNo": 2
+                  }
+                ]
+              },
+              {
+                "id": 28084,
+                "editType": 1,
+                "expenseCode": "EM00000059",
+                "costDay": "",
+                "expIExpandName": "波士頓觀港船 Boston Harbor Cruise",
+                "expIExpandDesc": "",
+                "resourceType": 0,
+                "sortNo": 7,
+                "priceInfo": [
+                  {
+                    "expPriceName": "成人",
+                    "expPriceMoney": "$46.00",
+                    "sortNo": 1
+                  },
+                  {
+                    "expPriceName": "老人（65+歲）",
+                    "expPriceMoney": "$46.00",
+                    "sortNo": 2
+                  },
+                  {
+                    "expPriceName": "兒童（3-11歲）",
+                    "expPriceMoney": "$41.00",
+                    "sortNo": 3
+                  }
+                ]
+              },
+              {
+                "id": 28085,
+                "editType": 1,
+                "expenseCode": "EM00000062",
+                "costDay": "",
+                "expIExpandName": "新英格蘭水族館 New England Aquarium",
+                "expIExpandDesc": "",
+                "resourceType": 0,
+                "sortNo": 8,
+                "priceInfo": [
+                  {
+                    "expPriceName": "成人",
+                    "expPriceMoney": "$39.00",
+                    "sortNo": 1
+                  },
+                  {
+                    "expPriceName": "老人（60+歲）",
+                    "expPriceMoney": "$37.00",
+                    "sortNo": 2
+                  },
+                  {
+                    "expPriceName": "兒童 （3-11歲）",
+                    "expPriceMoney": "$30.00",
+                    "sortNo": 3
+                  }
+                ]
+              },
+              {
+                "id": 28086,
+                "editType": 1,
+                "expenseCode": "EM00000061",
+                "costDay": "",
+                "expIExpandName": "波士頓龍蝦餐 Boston Lobster Meal ",
+                "expIExpandDesc": "",
+                "resourceType": 0,
+                "sortNo": 9,
+                "priceInfo": [
+                  {
+                    "expPriceName": "每人",
+                    "expPriceMoney": "$40.00",
+                    "sortNo": 1
+                  }
+                ]
+              },
+              {
+                "id": 28087,
+                "editType": 1,
+                "expenseCode": "EM00001552",
+                "costDay": "",
+                "expIExpandName": "波士頓雲端漫步觀景台 View Boston at Prudential Center",
+                "expIExpandDesc": "",
+                "resourceType": 0,
+                "sortNo": 10,
+                "priceInfo": [
+                  {
+                    "expPriceName": "成人",
+                    "expPriceMoney": "$37.00",
+                    "sortNo": 1
+                  },
+                  {
+                    "expPriceName": "老人（65歲+）",
+                    "expPriceMoney": "$35.00",
+                    "sortNo": 2
+                  },
+                  {
+                    "expPriceName": "兒童（6-12歲）",
+                    "expPriceMoney": "$18.00",
+                    "sortNo": 3
+                  }
+                ]
+              }
+            ],
+            "pager": null,
+            "productCostIsDay": 0
+          },
+          "productShop": {
+            "list": null,
+            "pager": null,
+            "productShopIsDay": 0
+          }
+        }
+      },
+      "packageSchemes": [],
+      "packageSchemesResponse": null,
+      "groups": [
         {
           "groupDate": "2026-07-23 00:00:00",
           "isGroupRoom": 1,
           "stockType": 2,
-          "groupStock": 50,
+          "groupStock": 8,
           "groupSaleStock": 0,
           "isExceedStock": 0,
           "rewardCode": "RM00001466",
@@ -7158,7 +7570,7 @@
           "groupDate": "2026-08-06 00:00:00",
           "isGroupRoom": 1,
           "stockType": 2,
-          "groupStock": 55,
+          "groupStock": 53,
           "groupSaleStock": 2,
           "isExceedStock": 0,
           "rewardCode": "RM00001466",
@@ -7205,7 +7617,7 @@
           "groupDate": "2026-08-13 00:00:00",
           "isGroupRoom": 1,
           "stockType": 2,
-          "groupStock": 50,
+          "groupStock": 48,
           "groupSaleStock": 0,
           "isExceedStock": 0,
           "rewardCode": "RM00001466",
@@ -7487,7 +7899,7 @@
           "groupDate": "2026-09-24 00:00:00",
           "isGroupRoom": 1,
           "stockType": 2,
-          "groupStock": 55,
+          "groupStock": 53,
           "groupSaleStock": 0,
           "isExceedStock": 0,
           "rewardCode": "RM00001466",
@@ -7766,6 +8178,741 @@
           "otherCurrencyGroupPriceInfo": []
         }
       ],
+      "groupsResponse": {
+        "responseStatus": {
+          "timestamp": "2026-07-19 09:12:46",
+          "ack": "Success",
+          "errors": [],
+          "build": null,
+          "version": null,
+          "extension": [
+            {
+              "id": "CLOGGING_TRACE_ID",
+              "version": null,
+              "contentType": null,
+              "value": "1320334424510061707"
+            },
+            {
+              "id": "RootMessageId",
+              "version": null,
+              "contentType": null,
+              "value": "100025527-0a14a821-495673-885706"
+            }
+          ]
+        },
+        "responseResult": {
+          "code": 200,
+          "msg": "success.",
+          "msgCode": ""
+        },
+        "responseData": [
+          {
+            "groupDate": "2026-07-23 00:00:00",
+            "isGroupRoom": 1,
+            "stockType": 2,
+            "groupStock": 8,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00001466",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 3,
+                "groupPrice": 1019,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 999
+              },
+              {
+                "priceType": 4,
+                "groupPrice": 739,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 719
+              },
+              {
+                "priceType": 5,
+                "groupPrice": 659,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 639
+              },
+              {
+                "priceType": 6,
+                "groupPrice": 619,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 599
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-07-30 00:00:00",
+            "isGroupRoom": 1,
+            "stockType": 2,
+            "groupStock": 53,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00001466",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 3,
+                "groupPrice": 1019,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 999
+              },
+              {
+                "priceType": 4,
+                "groupPrice": 739,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 719
+              },
+              {
+                "priceType": 5,
+                "groupPrice": 659,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 639
+              },
+              {
+                "priceType": 6,
+                "groupPrice": 619,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 599
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-06 00:00:00",
+            "isGroupRoom": 1,
+            "stockType": 2,
+            "groupStock": 53,
+            "groupSaleStock": 2,
+            "isExceedStock": 0,
+            "rewardCode": "RM00001466",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 3,
+                "groupPrice": 1019,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 999
+              },
+              {
+                "priceType": 4,
+                "groupPrice": 739,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 719
+              },
+              {
+                "priceType": 5,
+                "groupPrice": 659,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 639
+              },
+              {
+                "priceType": 6,
+                "groupPrice": 619,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 599
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-13 00:00:00",
+            "isGroupRoom": 1,
+            "stockType": 2,
+            "groupStock": 48,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00001466",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 3,
+                "groupPrice": 1019,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 999
+              },
+              {
+                "priceType": 4,
+                "groupPrice": 739,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 719
+              },
+              {
+                "priceType": 5,
+                "groupPrice": 659,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 639
+              },
+              {
+                "priceType": 6,
+                "groupPrice": 619,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 599
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-20 00:00:00",
+            "isGroupRoom": 1,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00001466",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 3,
+                "groupPrice": 1019,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 999
+              },
+              {
+                "priceType": 4,
+                "groupPrice": 739,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 719
+              },
+              {
+                "priceType": 5,
+                "groupPrice": 659,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 639
+              },
+              {
+                "priceType": 6,
+                "groupPrice": 619,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 599
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-27 00:00:00",
+            "isGroupRoom": 1,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00001466",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 3,
+                "groupPrice": 1019,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 999
+              },
+              {
+                "priceType": 4,
+                "groupPrice": 739,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 719
+              },
+              {
+                "priceType": 5,
+                "groupPrice": 659,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 639
+              },
+              {
+                "priceType": 6,
+                "groupPrice": 619,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 599
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-03 00:00:00",
+            "isGroupRoom": 1,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00001466",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 3,
+                "groupPrice": 1019,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 999
+              },
+              {
+                "priceType": 4,
+                "groupPrice": 739,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 719
+              },
+              {
+                "priceType": 5,
+                "groupPrice": 659,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 639
+              },
+              {
+                "priceType": 6,
+                "groupPrice": 619,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 599
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-10 00:00:00",
+            "isGroupRoom": 1,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00001466",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 3,
+                "groupPrice": 1019,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 999
+              },
+              {
+                "priceType": 4,
+                "groupPrice": 739,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 719
+              },
+              {
+                "priceType": 5,
+                "groupPrice": 659,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 639
+              },
+              {
+                "priceType": 6,
+                "groupPrice": 619,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 599
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-17 00:00:00",
+            "isGroupRoom": 1,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00001466",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 3,
+                "groupPrice": 1019,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 999
+              },
+              {
+                "priceType": 4,
+                "groupPrice": 739,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 719
+              },
+              {
+                "priceType": 5,
+                "groupPrice": 659,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 639
+              },
+              {
+                "priceType": 6,
+                "groupPrice": 619,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 599
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-09-24 00:00:00",
+            "isGroupRoom": 1,
+            "stockType": 2,
+            "groupStock": 53,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00001466",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 3,
+                "groupPrice": 1019,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 999
+              },
+              {
+                "priceType": 4,
+                "groupPrice": 739,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 719
+              },
+              {
+                "priceType": 5,
+                "groupPrice": 659,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 639
+              },
+              {
+                "priceType": 6,
+                "groupPrice": 619,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 599
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-01 00:00:00",
+            "isGroupRoom": 1,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00001466",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 3,
+                "groupPrice": 1019,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 999
+              },
+              {
+                "priceType": 4,
+                "groupPrice": 739,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 719
+              },
+              {
+                "priceType": 5,
+                "groupPrice": 659,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 639
+              },
+              {
+                "priceType": 6,
+                "groupPrice": 619,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 599
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-08 00:00:00",
+            "isGroupRoom": 1,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00001466",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 3,
+                "groupPrice": 1019,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 999
+              },
+              {
+                "priceType": 4,
+                "groupPrice": 739,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 719
+              },
+              {
+                "priceType": 5,
+                "groupPrice": 659,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 639
+              },
+              {
+                "priceType": 6,
+                "groupPrice": 619,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 599
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-15 00:00:00",
+            "isGroupRoom": 1,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00001466",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 3,
+                "groupPrice": 1019,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 999
+              },
+              {
+                "priceType": 4,
+                "groupPrice": 739,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 719
+              },
+              {
+                "priceType": 5,
+                "groupPrice": 659,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 639
+              },
+              {
+                "priceType": 6,
+                "groupPrice": 619,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 599
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-22 00:00:00",
+            "isGroupRoom": 1,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00001466",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 3,
+                "groupPrice": 1019,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 999
+              },
+              {
+                "priceType": 4,
+                "groupPrice": 739,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 719
+              },
+              {
+                "priceType": 5,
+                "groupPrice": 659,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 639
+              },
+              {
+                "priceType": 6,
+                "groupPrice": 619,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 599
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-10-29 00:00:00",
+            "isGroupRoom": 1,
+            "stockType": 2,
+            "groupStock": 55,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00001466",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 3,
+                "groupPrice": 1019,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 999
+              },
+              {
+                "priceType": 4,
+                "groupPrice": 739,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 719
+              },
+              {
+                "priceType": 5,
+                "groupPrice": 659,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 639
+              },
+              {
+                "priceType": 6,
+                "groupPrice": 619,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 599
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          }
+        ]
+      },
       "addons": [
         {
           "mainLanguage": 2,

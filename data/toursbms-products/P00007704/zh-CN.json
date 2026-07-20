@@ -257,6 +257,195 @@
       "otherCurrencySupport": [],
       "productRateInfoList": [],
       "isLocalResidentOptional": 0
+    },
+    "location": {
+      "countries": [
+        "法国 France",
+        "卢森堡 Luxembourg",
+        "德国 Germany",
+        "捷克 Czech",
+        "奧地利 Austria",
+        "匈牙利 Hungary",
+        "斯洛伐克 Slovak",
+        "瑞士 Switzerland",
+        "意大利 Italy",
+        "列支敦士登 Liechtenstein",
+        "France",
+        "Italy",
+        "Switzerland"
+      ],
+      "cities": [
+        "Paris",
+        "Nice",
+        "Rome",
+        "Venice",
+        "Lucerne"
+      ],
+      "primaryCountry": "法国 France",
+      "primaryCity": "Paris",
+      "confidence": "high",
+      "evidence": [
+        {
+          "kind": "country",
+          "value": "法国 France",
+          "source": "destination.explicit",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "卢森堡 Luxembourg",
+          "source": "destination.explicit",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "德国 Germany",
+          "source": "destination.explicit",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "捷克 Czech",
+          "source": "destination.explicit",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "奧地利 Austria",
+          "source": "destination.explicit",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "匈牙利 Hungary",
+          "source": "destination.explicit",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "斯洛伐克 Slovak",
+          "source": "destination.explicit",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "瑞士 Switzerland",
+          "source": "destination.explicit",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "意大利 Italy",
+          "source": "destination.explicit",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "列支敦士登 Liechtenstein",
+          "source": "destination.explicit",
+          "confidence": "high"
+        },
+        {
+          "kind": "city",
+          "value": "Paris",
+          "country": "France",
+          "source": "structured-place",
+          "matched": "paris",
+          "confidence": "high"
+        },
+        {
+          "kind": "city",
+          "value": "Nice",
+          "country": "France",
+          "source": "itinerary-place",
+          "matched": "尼斯",
+          "confidence": "medium"
+        },
+        {
+          "kind": "country",
+          "value": "France",
+          "source": "structured-place",
+          "matched": "france",
+          "confidence": "high"
+        },
+        {
+          "kind": "city",
+          "value": "Rome",
+          "country": "Italy",
+          "source": "structured-place",
+          "matched": "rome",
+          "confidence": "high"
+        },
+        {
+          "kind": "city",
+          "value": "Venice",
+          "country": "Italy",
+          "source": "itinerary-place",
+          "matched": "威尼斯",
+          "confidence": "medium"
+        },
+        {
+          "kind": "country",
+          "value": "Italy",
+          "source": "structured-place",
+          "matched": "italy",
+          "confidence": "high"
+        },
+        {
+          "kind": "city",
+          "value": "Lucerne",
+          "country": "Switzerland",
+          "source": "itinerary-place",
+          "matched": "琉森",
+          "confidence": "medium"
+        },
+        {
+          "kind": "country",
+          "value": "Switzerland",
+          "source": "structured-place",
+          "matched": "switzerland",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "France",
+          "source": "structured-place",
+          "matched": "paris",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "France",
+          "source": "itinerary-place",
+          "matched": "尼斯",
+          "confidence": "medium"
+        },
+        {
+          "kind": "country",
+          "value": "Italy",
+          "source": "structured-place",
+          "matched": "rome",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Italy",
+          "source": "itinerary-place",
+          "matched": "威尼斯",
+          "confidence": "medium"
+        },
+        {
+          "kind": "country",
+          "value": "Switzerland",
+          "source": "itinerary-place",
+          "matched": "琉森",
+          "confidence": "medium"
+        }
+      ],
+      "isMultiCountry": true,
+      "isMultiCity": true,
+      "needsReview": false,
+      "reviewReasons": []
     }
   },
   "media": {

@@ -4,26 +4,23 @@ import { useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
-import { useTranslations } from 'next-intl'
 import type { Route } from 'next'
 import { Search } from 'lucide-react'
 import { CartIcon } from './CartIcon'
 import { MobileMenu } from './MobileMenu'
 import { MobileMenuButton } from './MobileMenuButton'
 import { MegaNav } from './MegaNav'
-import { HOT_SEARCH_TAGS, PHONE_LINES } from '@/data/home-mock'
+import { PHONE_LINES } from '@/data/home-mock'
+import { catalogKeywordHref } from '@/lib/catalog-keywords'
 
 export function Header({ locale }: { locale: string }) {
-  const th = useTranslations('home')
   const router = useRouter()
   const [query, setQuery] = useState('')
 
   function onSearch(e: React.FormEvent) {
     e.preventDefault()
     const q = query.trim()
-    const path = q
-      ? `/${locale}/tours?q=${encodeURIComponent(q)}`
-      : `/${locale}/tours`
+    const path = q ? catalogKeywordHref(locale, q) : catalogKeywordHref(locale, 'Tours')
     router.push(path as Route)
   }
 
@@ -33,7 +30,7 @@ export function Header({ locale }: { locale: string }) {
         {/* Main header row — matches old ToursForFun chrome */}
         <div className="mx-auto flex max-w-[1200px] items-center justify-between gap-5 px-4 py-3">
           {/* Logo */}
-          <Link href={`/${locale}` as Route} className="shrink-0">
+          <Link href={`/${locale}` as Route} className="hidden shrink-0 md:block">
             <Image
               src="/tff/header-logo.png"
               alt="Tours4fun 途风旅游"
@@ -44,7 +41,7 @@ export function Header({ locale }: { locale: string }) {
             />
           </Link>
 
-          {/* Search + hot tags */}
+          {/* Search */}
           <div className="hidden w-[651px] min-w-0 md:block">
             <form onSubmit={onSearch} className="w-full max-w-[520px]">
               <div className="flex h-10 overflow-hidden rounded-sm border-2 border-[#ff8a00]">
@@ -66,21 +63,6 @@ export function Header({ locale }: { locale: string }) {
                 </button>
               </div>
             </form>
-            <div className="mt-1.5 flex flex-wrap items-center gap-x-2.5 gap-y-0.5 text-sm">
-              <span className="text-[#666]">{th('hotRecommend')}</span>
-              {HOT_SEARCH_TAGS.map((tag) => (
-                <Link
-                  key={tag}
-                  href={`/${locale}/tours?q=${encodeURIComponent(tag)}` as Route}
-                  className="text-tff-blue hover:underline"
-                >
-                  {tag}
-                </Link>
-              ))}
-              <Link href={`/${locale}/tours` as Route} className="text-tff-blue hover:underline">
-                {th('more')}
-              </Link>
-            </div>
           </div>
 
           {/* Mobile search */}

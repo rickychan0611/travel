@@ -11,6 +11,8 @@ import { LocaleSwitcher } from './LocaleSwitcher'
 import { CurrencySwitcher } from './CurrencySwitcher'
 import { Button } from '@/components/ui/button'
 import { MEGA_NAV } from '@/data/home-mock'
+import { getLocalizedText } from '@/data/tour-categories'
+import { catalogKeywordHref } from '@/lib/catalog-keywords'
 
 export function MobileMenu({ locale }: { locale: string }) {
   const open = useUIStore((s) => s.mobileMenuOpen)
@@ -45,16 +47,25 @@ export function MobileMenu({ locale }: { locale: string }) {
 
           <nav className="mb-4 flex flex-col gap-0.5">
             {MEGA_NAV.map((item) => {
-              const href = item.href
-                ? (`/${locale}${item.href === '/' ? '' : item.href}` as Route)
-                : (`/${locale}/tours` as Route)
+              const label = getLocalizedText(item.label, locale)
+              const href = item.id === 'home'
+                ? (`/${locale}` as Route)
+                : catalogKeywordHref(
+                    locale,
+                    label,
+                    item.id === 'day_tours'
+                      ? { days: 1 }
+                      : item.id === 'asia_world'
+                        ? { region: ['asia', 'other'] }
+                        : undefined,
+                  )
               return (
                 <Link
                   key={item.id}
                   href={href}
                   className="flex cursor-pointer items-center gap-2 rounded-md px-3 py-2 text-sm font-medium text-[#303133] hover:bg-[#f5f5f5] hover:text-tff-blue"
                 >
-                  {item.label}
+                  {label}
                   {item.hot ? (
                     <span className="rounded bg-tff-orange px-1 text-[10px] font-bold text-white">HOT</span>
                   ) : null}

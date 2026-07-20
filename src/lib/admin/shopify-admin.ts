@@ -226,6 +226,23 @@ const PRODUCT_DELETE_MUTATION = `#graphql
   }
 `
 
+const PUBLICATIONS_QUERY = `#graphql
+  query AdminPublications {
+    publications(first: 50) {
+      nodes { id name }
+    }
+  }
+`
+
+const PUBLISHABLE_PUBLISH_MUTATION = `#graphql
+  mutation AdminPublishProduct($id: ID!, $input: [PublicationInput!]!) {
+    publishablePublish(id: $id, input: $input) {
+      publishable { ... on Product { id } }
+      userErrors { field message }
+    }
+  }
+`
+
 const METAFIELDS_SET_MUTATION = `#graphql
   mutation AdminMetafieldsSet($metafields: [MetafieldsSetInput!]!) {
     metafieldsSet(metafields: $metafields) {
@@ -696,6 +713,10 @@ export async function createAdminProduct(input: {
           productType: input.productType || 'Tour',
           tags,
           descriptionHtml: '',
+          variants: [{
+            price: '0.00',
+            inventoryItem: { requiresShipping: false },
+          }],
           metafields: [
             { namespace: 'toursbms', key: 'product_code', type: 'single_line_text_field', value: input.productCode },
             { namespace: 'toursbms', key: 'bookable', type: 'boolean', value: 'false' },
@@ -829,6 +850,31 @@ export async function updateVariantPrice(productId: string, variantId: string, p
   assertUserErrors(data.productVariantsBulkUpdate?.userErrors, 'Update variant price')
 }
 
+export async function publishAdminProductToStorefront(productId: string) {
+  const publicationName = (process.env.SHOPIFY_STOREFRONT_PUBLICATION_NAME || 'Travel Website Development').trim()
+  const publicationData = assertGraphQl<PublicationsResponse>(
+    await shopifyAdminClient.request(PUBLICATIONS_QUERY, { cache: 'no-store' }),
+    'Load Shopify publications',
+  )
+  const publications = publicationData.publications?.nodes ?? []
+  const publication = publications.find((item) => item.name.toLowerCase() === publicationName.toLowerCase())
+  if (!publication) {
+    const available = publications.map((item) => item.name).join(', ') || 'none'
+    throw new Error(`Publish product: Shopify publication "${publicationName}" was not found. Available publications: ${available}`)
+  }
+
+  const data = assertGraphQl<PublishablePublishResponse>(
+    await shopifyAdminClient.request(PUBLISHABLE_PUBLISH_MUTATION, {
+      variables: {
+        id: productId,
+        input: [{ publicationId: publication.id }],
+      },
+    }),
+    'Publish product',
+  )
+  assertUserErrors(data.publishablePublish?.userErrors, 'Publish product')
+}
+
 export async function createDatePriceVariants(input: {
   productId: string
   date: string
@@ -842,6 +888,7 @@ export async function createDatePriceVariants(input: {
           price: rate.price,
           sku: rate.sku || undefined,
           inventoryPolicy: 'CONTINUE',
+          inventoryItem: { requiresShipping: false },
           optionValues: [
             { optionName: 'Departure Date', name: input.date },
             { optionName: 'Rate Type', name: rate.travelerType && rate.priceType >= 3 && rate.priceType <= 6 ? `${rate.rateType} · ${rate.travelerType[0].toUpperCase()}${rate.travelerType.slice(1)}` : rate.rateType },
@@ -857,6 +904,7 @@ export async function createDatePriceVariants(input: {
     'Create date price',
   )
   assertUserErrors(data.productVariantsBulkCreate?.userErrors, 'Create date price')
+  await publishAdminProductToStorefront(input.productId)
   return data.productVariantsBulkCreate?.productVariants ?? []
 }
 
@@ -883,6 +931,7 @@ export async function initializeDatePriceVariants(input: {
             price: rate.price,
             sku: rate.sku || undefined,
             inventoryPolicy: 'CONTINUE',
+            inventoryItem: { requiresShipping: false },
             optionValues: [
               { optionName: 'Departure Date', name: input.date },
               { optionName: 'Rate Type', name: optionName(rate) },
@@ -901,6 +950,7 @@ export async function initializeDatePriceVariants(input: {
   )
   assertUserErrors(data.productSet?.userErrors, 'Initialize date prices')
   assertUserErrors(data.productSet?.productSetOperation?.userErrors, 'Initialize date price operation')
+  await publishAdminProductToStorefront(input.productId)
   return data.productSet?.product?.variants.nodes ?? []
 }
 
@@ -1110,6 +1160,8 @@ type InitializeDatePriceVariantsResponse = {
   }
 }
 type VariantsBulkDeleteResponse = { productVariantsBulkDelete?: { userErrors?: UserError[] } }
+type PublicationsResponse = { publications?: { nodes?: Array<{ id: string; name: string }> } }
+type PublishablePublishResponse = { publishablePublish?: { userErrors?: UserError[] } }
 type ProductCreateMediaResponse = {
   productCreateMedia?: {
     media?: Array<{ id: string; image?: { url: string; altText: string | null } | null }>

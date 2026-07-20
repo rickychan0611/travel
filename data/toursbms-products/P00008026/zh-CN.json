@@ -95,6 +95,54 @@
       "otherCurrencySupport": [],
       "productRateInfoList": [],
       "isLocalResidentOptional": 0
+    },
+    "location": {
+      "countries": [
+        "United States"
+      ],
+      "cities": [
+        "New York",
+        "Washington"
+      ],
+      "primaryCountry": "United States",
+      "primaryCity": "Washington",
+      "confidence": "high",
+      "evidence": [
+        {
+          "kind": "city",
+          "value": "New York",
+          "country": "United States",
+          "source": "structured-place",
+          "matched": "new york",
+          "confidence": "high"
+        },
+        {
+          "kind": "city",
+          "value": "Washington",
+          "country": "United States",
+          "source": "structured-place",
+          "matched": "华盛顿",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "United States",
+          "source": "structured-place",
+          "matched": "new york",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "United States",
+          "source": "structured-place",
+          "matched": "华盛顿",
+          "confidence": "high"
+        }
+      ],
+      "isMultiCountry": false,
+      "isMultiCity": true,
+      "needsReview": false,
+      "reviewReasons": []
     }
   },
   "media": {

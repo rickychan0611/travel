@@ -1,0 +1,281 @@
+{
+  "generatedAt": "2026-07-19T23:30:42.668Z",
+  "mode": "apply",
+  "scanned": 204,
+  "changed": 204,
+  "reviewCount": 24,
+  "products": [
+    {
+      "productCode": "P00003040",
+      "title": "“Midnight Sun”2026 Alaska Summer Season | Denali Flightseeing Tour Not including glacier landing",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00003040\\en.json",
+      "countries": [],
+      "cities": [],
+      "reasons": [
+        "country-unresolved",
+        "city-unresolved"
+      ]
+    },
+    {
+      "productCode": "P00003040",
+      "title": "“午夜阳光”2026阿拉斯加夏季 | 北美最高峰-1小时迪纳利山观光飞机体验 （不含冰河登陆）",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00003040\\zh-CN.json",
+      "countries": [],
+      "cities": [],
+      "reasons": [
+        "country-unresolved",
+        "city-unresolved"
+      ]
+    },
+    {
+      "productCode": "P00003040",
+      "title": "“午夜陽光” 2026阿拉斯加夏季 | 北美最高峰-1小時迪納利山觀光飛機體驗（不含冰河登陸）",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00003040\\zh-TW.json",
+      "countries": [],
+      "cities": [],
+      "reasons": [
+        "country-unresolved",
+        "city-unresolved"
+      ]
+    },
+    {
+      "productCode": "P00003040",
+      "title": "“Midnight Sun”2026 Alaska Summer Season | Denali Flightseeing Tour Not including glacier landing",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00003040.json",
+      "countries": [],
+      "cities": [],
+      "reasons": [
+        "country-unresolved",
+        "city-unresolved"
+      ]
+    },
+    {
+      "productCode": "P00003694",
+      "title": "Siyam World Maldives 6-Day 5-Night Tour",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00003694\\en.json",
+      "countries": [],
+      "cities": [],
+      "reasons": [
+        "country-unresolved",
+        "city-unresolved"
+      ]
+    },
+    {
+      "productCode": "P00003694",
+      "title": "马尔代夫禧亚世嘉岛 6日5晚",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00003694\\zh-CN.json",
+      "countries": [],
+      "cities": [],
+      "reasons": [
+        "country-unresolved",
+        "city-unresolved"
+      ]
+    },
+    {
+      "productCode": "P00003694",
+      "title": "馬爾地夫禧亞世嘉島 6日5晚",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00003694\\zh-TW.json",
+      "countries": [],
+      "cities": [],
+      "reasons": [
+        "country-unresolved",
+        "city-unresolved"
+      ]
+    },
+    {
+      "productCode": "P00003694",
+      "title": "Siyam World Maldives 6-Day 5-Night Tour",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00003694.json",
+      "countries": [],
+      "cities": [],
+      "reasons": [
+        "country-unresolved",
+        "city-unresolved"
+      ]
+    },
+    {
+      "productCode": "P00004444",
+      "title": "[Gold] 5 Days & 4 Nights Tour of Argentina and Bueno Aires ",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00004444\\en.json",
+      "countries": [],
+      "cities": [],
+      "reasons": [
+        "country-unresolved",
+        "city-unresolved"
+      ]
+    },
+    {
+      "productCode": "P00004444",
+      "title": "【金榜怡享】阿根廷 布宜诺斯艾利斯 5日4晚跟团游 (英文团)",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00004444\\zh-CN.json",
+      "countries": [],
+      "cities": [],
+      "reasons": [
+        "country-unresolved",
+        "city-unresolved"
+      ]
+    },
+    {
+      "productCode": "P00004444",
+      "title": "【金榜怡享】阿根廷 布宜諾斯艾利斯 5日4晚跟團遊 (英文團)",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00004444\\zh-TW.json",
+      "countries": [],
+      "cities": [],
+      "reasons": [
+        "country-unresolved",
+        "city-unresolved"
+      ]
+    },
+    {
+      "productCode": "P00004444",
+      "title": "[Gold] 5 Days & 4 Nights Tour of Argentina and Bueno Aires ",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00004444.json",
+      "countries": [],
+      "cities": [],
+      "reasons": [
+        "country-unresolved",
+        "city-unresolved"
+      ]
+    },
+    {
+      "productCode": "P00007066",
+      "title": "[Gold] 12 Days 11 Nights Türkiye Istanbul, Ankara, Cappadocia, Konya, Pamukkale,  Canakkale",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00007066\\en.json",
+      "countries": [],
+      "cities": [],
+      "reasons": [
+        "country-unresolved",
+        "city-unresolved"
+      ]
+    },
+    {
+      "productCode": "P00007066",
+      "title": "【金榜怡享】异域风情丨土耳其 伊斯坦布尔+安卡拉+卡帕多奇亚+孔亚+棉花堡+库萨达斯+伊兹密尔+恰纳卡莱 12天11晚游",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00007066\\zh-CN.json",
+      "countries": [],
+      "cities": [],
+      "reasons": [
+        "country-unresolved",
+        "city-unresolved"
+      ]
+    },
+    {
+      "productCode": "P00007066",
+      "title": "【金榜怡享】異域風情丨土耳其 伊斯坦布爾+安卡拉+卡帕多奇亞+孔亞+棉花堡+庫薩達斯+伊茲密爾+恰納卡萊 12天11晚遊",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00007066\\zh-TW.json",
+      "countries": [],
+      "cities": [],
+      "reasons": [
+        "country-unresolved",
+        "city-unresolved"
+      ]
+    },
+    {
+      "productCode": "P00007066",
+      "title": "[Gold] 12 Days 11 Nights Türkiye Istanbul, Ankara, Cappadocia, Konya, Pamukkale,  Canakkale",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00007066.json",
+      "countries": [],
+      "cities": [],
+      "reasons": [
+        "country-unresolved",
+        "city-unresolved"
+      ]
+    },
+    {
+      "productCode": "P00008483",
+      "title": "[Silver] 3-Day Aurora Viewing Tour in Yellowknife, Canada",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00008483\\en.json",
+      "countries": [
+        "Canada"
+      ],
+      "cities": [],
+      "reasons": [
+        "city-unresolved"
+      ]
+    },
+    {
+      "productCode": "P00008483",
+      "title": "【银榜惠享】加拿大黄刀镇三天北极光观赏之旅",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00008483\\zh-CN.json",
+      "countries": [
+        "Canada"
+      ],
+      "cities": [],
+      "reasons": [
+        "city-unresolved"
+      ]
+    },
+    {
+      "productCode": "P00008483",
+      "title": "【銀榜惠享】加拿大黃刀鎮三天北極光觀賞之旅",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00008483\\zh-TW.json",
+      "countries": [
+        "Canada"
+      ],
+      "cities": [],
+      "reasons": [
+        "city-unresolved"
+      ]
+    },
+    {
+      "productCode": "P00008483",
+      "title": "[Silver] 3-Day Aurora Viewing Tour in Yellowknife, Canada",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00008483.json",
+      "countries": [
+        "Canada"
+      ],
+      "cities": [],
+      "reasons": [
+        "city-unresolved"
+      ]
+    },
+    {
+      "productCode": "P00008484",
+      "title": "[Silver] 4-Day Aurora Viewing Tour in Yellowknife, Canada",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00008484\\en.json",
+      "countries": [
+        "Canada"
+      ],
+      "cities": [],
+      "reasons": [
+        "city-unresolved"
+      ]
+    },
+    {
+      "productCode": "P00008484",
+      "title": "【银榜惠享】加拿大黄刀镇四天北极光观赏之旅",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00008484\\zh-CN.json",
+      "countries": [
+        "Canada"
+      ],
+      "cities": [],
+      "reasons": [
+        "city-unresolved"
+      ]
+    },
+    {
+      "productCode": "P00008484",
+      "title": "【銀榜惠享】加拿大黃刀鎮四天北極光觀賞之旅",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00008484\\zh-TW.json",
+      "countries": [
+        "Canada"
+      ],
+      "cities": [],
+      "reasons": [
+        "city-unresolved"
+      ]
+    },
+    {
+      "productCode": "P00008484",
+      "title": "[Silver] 4-Day Aurora Viewing Tour in Yellowknife, Canada",
+      "file": "G:\\travelnew\\data\\toursbms-products\\P00008484.json",
+      "countries": [
+        "Canada"
+      ],
+      "cities": [],
+      "reasons": [
+        "city-unresolved"
+      ]
+    }
+  ]
+}

@@ -1733,5 +1733,6 @@
     "policy_notice": "gid://shopify/MetafieldDefinition/217872728116",
     "pickup_dropoff": "gid://shopify/MetafieldDefinition/217872760884",
     "addon": "gid://shopify/MetafieldDefinition/217872793652"
-  }
+  },
+  "filterFacetsSyncedAt": "2026-07-19T23:29:37.527Z"
 }

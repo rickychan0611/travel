@@ -23,6 +23,7 @@ export type HomepageHeroSlide = {
   title: string
   titles: Record<string, string>
   categorySlug: string
+  linkEnabled: boolean
   position: number
   image: HomepageImage | null
 }

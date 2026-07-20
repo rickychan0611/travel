@@ -1,8 +1,6 @@
 {
-  "extractedAt": "2026-07-15T04:50:02.586Z",
-  "warnings": [
-    "getProductGroup unavailable: 400 scheme information does not exist！"
-  ],
+  "extractedAt": "2026-07-19T00:41:32.366Z",
+  "warnings": [],
   "product": {
     "productCode": "P00007570",
     "productViewCode": "R0004719",
@@ -246,6 +244,71 @@
       "otherCurrencySupport": [],
       "productRateInfoList": [],
       "isLocalResidentOptional": 0
+    },
+    "location": {
+      "countries": [
+        "United States",
+        "Canada"
+      ],
+      "cities": [
+        "Seattle",
+        "Vancouver",
+        "Victoria"
+      ],
+      "primaryCountry": "United States",
+      "primaryCity": "Seattle",
+      "confidence": "high",
+      "evidence": [
+        {
+          "kind": "city",
+          "value": "Seattle",
+          "country": "United States",
+          "source": "structured-place",
+          "matched": "seattle",
+          "confidence": "high"
+        },
+        {
+          "kind": "city",
+          "value": "Vancouver",
+          "country": "Canada",
+          "source": "structured-place",
+          "matched": "vancouver",
+          "confidence": "high"
+        },
+        {
+          "kind": "city",
+          "value": "Victoria",
+          "country": "Canada",
+          "source": "structured-place",
+          "matched": "维多利亚",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "United States",
+          "source": "structured-place",
+          "matched": "seattle",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Canada",
+          "source": "structured-place",
+          "matched": "vancouver",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Canada",
+          "source": "structured-place",
+          "matched": "维多利亚",
+          "confidence": "high"
+        }
+      ],
+      "isMultiCountry": true,
+      "isMultiCity": true,
+      "needsReview": false,
+      "reviewReasons": []
     }
   },
   "media": {
@@ -285,10 +348,11 @@
     "text": "2026年出发班期如下：\n6月：06/01、06/15\n7月：07/01、07/03、07/08、07/15、07/21、07/29\n8月：08/12、08/24、08/25、08/26\n6-8月出发班期入住温哥华酒店需加收旺季附加费USD$48.00/CAD$60.00/间/晚（加币价格不含联邦服务税5%GST）\n两人成团，保证出发\n如果订单内含儿童，请务必在预定行程时提前备注告知儿童年龄，否则必付项目将按成人标准在现场收取费用。",
     "advanceDay": -1,
     "advanceTime": "",
-    "availabilityStart": "2026-07-14",
+    "availabilityStart": "2026-07-18",
     "availabilityEnd": "2027-12-31"
   },
   "pricing": {
+    "pricingMode": "room_occupancy",
     "requestedCurrency": "USD",
     "defaultCurrency": {
       "currencyCode": "CI00000002",
@@ -328,9 +392,431 @@
         "currencyStatus": 200
       }
     ],
-    "firstAvailableDate": null,
-    "basePrices": [],
-    "availability": []
+    "packageSchemes": [
+      {
+        "schemeCode": "SC00001474",
+        "schemeName": "SV1+VJ1+JSC5",
+        "schemeDescription": [
+          "day1  SV1-SVB5",
+          "day2  VJ1",
+          "day3-day7  JSC5-A*"
+        ],
+        "actualPrice": 1698,
+        "recommendPrice": 1896.42,
+        "isAutoTeam": 0,
+        "containValidGroup": 1,
+        "schemeStatus": 200,
+        "schemeInfos": [
+          {
+            "description": "day1  SV1-SVB5",
+            "optionalProducts": []
+          },
+          {
+            "description": "day2  VJ1",
+            "optionalProducts": []
+          },
+          {
+            "description": "day3-day7  JSC5-A*",
+            "optionalProducts": []
+          }
+        ],
+        "latelyGroupDate": "2026-07-21"
+      }
+    ],
+    "selectedPackageScheme": {
+      "schemeCode": "SC00001474",
+      "schemeName": "SV1+VJ1+JSC5",
+      "schemeDescription": [
+        "day1  SV1-SVB5",
+        "day2  VJ1",
+        "day3-day7  JSC5-A*"
+      ],
+      "actualPrice": 1698,
+      "recommendPrice": 1896.42,
+      "isAutoTeam": 0,
+      "containValidGroup": 1,
+      "schemeStatus": 200,
+      "schemeInfos": [
+        {
+          "description": "day1  SV1-SVB5",
+          "optionalProducts": []
+        },
+        {
+          "description": "day2  VJ1",
+          "optionalProducts": []
+        },
+        {
+          "description": "day3-day7  JSC5-A*",
+          "optionalProducts": []
+        }
+      ],
+      "latelyGroupDate": "2026-07-21"
+    },
+    "firstAvailableDate": "2026-07-21 00:00:00",
+    "basePrices": [
+      {
+        "priceType": 3,
+        "label": "Single room",
+        "amount": 2488,
+        "rewardPrice": 0,
+        "markup": 0,
+        "raw": {
+          "priceType": 3,
+          "groupPrice": 2488,
+          "rewardPrice": 0,
+          "rewardType": 0,
+          "rewardValue": 0,
+          "markup": 0
+        }
+      },
+      {
+        "priceType": 4,
+        "label": "Double room",
+        "amount": 1698,
+        "rewardPrice": 0,
+        "markup": 0,
+        "raw": {
+          "priceType": 4,
+          "groupPrice": 1698,
+          "rewardPrice": 0,
+          "rewardType": 0,
+          "rewardValue": 0,
+          "markup": 0
+        }
+      },
+      {
+        "priceType": 5,
+        "label": "Triple room",
+        "amount": 1408,
+        "rewardPrice": 0,
+        "markup": 0,
+        "raw": {
+          "priceType": 5,
+          "groupPrice": 1408,
+          "rewardPrice": 0,
+          "rewardType": 0,
+          "rewardValue": 0,
+          "markup": 0
+        }
+      },
+      {
+        "priceType": 6,
+        "label": "Quad room",
+        "amount": 1248,
+        "rewardPrice": 0,
+        "markup": 0,
+        "raw": {
+          "priceType": 6,
+          "groupPrice": 1248,
+          "rewardPrice": 0,
+          "rewardType": 0,
+          "rewardValue": 0,
+          "markup": 0
+        }
+      }
+    ],
+    "availability": [
+      {
+        "date": "2026-07-21",
+        "groupDate": "2026-07-21 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 0,
+        "groupSaleStock": 0,
+        "remainingStock": 0,
+        "isGroupRoom": true,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 3,
+            "label": "Single room",
+            "amount": 2488,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 3,
+              "groupPrice": 2488,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 4,
+            "label": "Double room",
+            "amount": 1698,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 4,
+              "groupPrice": 1698,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 5,
+            "label": "Triple room",
+            "amount": 1408,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 5,
+              "groupPrice": 1408,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 6,
+            "label": "Quad room",
+            "amount": 1248,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 6,
+              "groupPrice": 1248,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-07-29",
+        "groupDate": "2026-07-29 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 0,
+        "groupSaleStock": 0,
+        "remainingStock": 0,
+        "isGroupRoom": true,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 3,
+            "label": "Single room",
+            "amount": 2488,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 3,
+              "groupPrice": 2488,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 4,
+            "label": "Double room",
+            "amount": 1698,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 4,
+              "groupPrice": 1698,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 5,
+            "label": "Triple room",
+            "amount": 1408,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 5,
+              "groupPrice": 1408,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 6,
+            "label": "Quad room",
+            "amount": 1248,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 6,
+              "groupPrice": 1248,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-24",
+        "groupDate": "2026-08-24 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 0,
+        "groupSaleStock": 0,
+        "remainingStock": 0,
+        "isGroupRoom": true,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 3,
+            "label": "Single room",
+            "amount": 2488,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 3,
+              "groupPrice": 2488,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 4,
+            "label": "Double room",
+            "amount": 1698,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 4,
+              "groupPrice": 1698,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 5,
+            "label": "Triple room",
+            "amount": 1408,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 5,
+              "groupPrice": 1408,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 6,
+            "label": "Quad room",
+            "amount": 1248,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 6,
+              "groupPrice": 1248,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      },
+      {
+        "date": "2026-08-25",
+        "groupDate": "2026-08-25 00:00:00",
+        "currency": "USD",
+        "stockType": 2,
+        "stockStatus": 200,
+        "groupStock": 0,
+        "groupSaleStock": 0,
+        "remainingStock": 0,
+        "isGroupRoom": true,
+        "isExceedStock": false,
+        "prices": [
+          {
+            "priceType": 3,
+            "label": "Single room",
+            "amount": 2488,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 3,
+              "groupPrice": 2488,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 4,
+            "label": "Double room",
+            "amount": 1698,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 4,
+              "groupPrice": 1698,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 5,
+            "label": "Triple room",
+            "amount": 1408,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 5,
+              "groupPrice": 1408,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          },
+          {
+            "priceType": 6,
+            "label": "Quad room",
+            "amount": 1248,
+            "rewardPrice": 0,
+            "markup": 0,
+            "raw": {
+              "priceType": 6,
+              "groupPrice": 1248,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          }
+        ],
+        "otherCurrencyGroupPriceInfo": []
+      }
+    ]
   },
   "itinerary": {
     "productDay": null,
@@ -532,7 +1018,36 @@
     "options": [
       "Package price type"
     ],
-    "variants": [],
+    "variants": [
+      {
+        "option1": "Single room",
+        "sku": "P00007570-SINGLE-ROOM",
+        "price": "2488.00",
+        "currency": "USD",
+        "inventoryPolicy": "continue"
+      },
+      {
+        "option1": "Double room",
+        "sku": "P00007570-DOUBLE-ROOM",
+        "price": "1698.00",
+        "currency": "USD",
+        "inventoryPolicy": "continue"
+      },
+      {
+        "option1": "Triple room",
+        "sku": "P00007570-TRIPLE-ROOM",
+        "price": "1408.00",
+        "currency": "USD",
+        "inventoryPolicy": "continue"
+      },
+      {
+        "option1": "Quad room",
+        "sku": "P00007570-QUAD-ROOM",
+        "price": "1248.00",
+        "currency": "USD",
+        "inventoryPolicy": "continue"
+      }
+    ],
     "metafields": {
       "toursbms_product_code": "P00007570",
       "toursbms_group_no": "SVJSC7",
@@ -745,6 +1260,7 @@
       "productBasic": "https://online.ctrip.com/restapi/soa2/17626/getProductBasic.json",
       "productTravelDetail": "https://online.ctrip.com/restapi/soa2/17626/getProductTravelDetail.json",
       "productGroup": "https://online.ctrip.com/restapi/soa2/17626/getProductGroup.json",
+      "packageSchemes": "https://online.ctrip.com/restapi/soa2/17626/getPagerScheme.json",
       "productPromote": "https://online.ctrip.com/restapi/soa2/17626/getProductPromote.json",
       "currencies": "https://online.ctrip.com/restapi/soa2/18554/getListWebSiteCurrency.json"
     },
@@ -793,7 +1309,7 @@
           "currencyName": "美元",
           "currencySymbol": "$"
         },
-        "tokenCode": "WEBSITEMjAyNi0wNy0xMyZCMDAwMDAwMDMmMjAyNi0wNy0xOA==",
+        "tokenCode": "WEBSITEMjAyNi0wNy0xNyZCMDAwMDAwMDMmMjAyNi0wNy0yMg==",
         "openStockRule": 1,
         "stockRuleList": [
           {
@@ -1134,10 +1650,9 @@
           "productShopIsDay": 0
         }
       },
-      "groups": [],
-      "groupsResponse": {
+      "travelDetailResponse": {
         "responseStatus": {
-          "timestamp": "2026-07-15 12:50:02",
+          "timestamp": "2026-07-19 08:41:32",
           "ack": "Success",
           "errors": [],
           "build": null,
@@ -1147,22 +1662,602 @@
               "id": "CLOGGING_TRACE_ID",
               "version": null,
               "contentType": null,
-              "value": "1976018662197694479"
+              "value": "5300213360254754604"
             },
             {
               "id": "RootMessageId",
               "version": null,
               "contentType": null,
-              "value": "100025527-0a14685b-495580-4720302"
+              "value": "100025527-0a14f652-495672-2355260"
             }
           ]
         },
         "responseResult": {
-          "code": 400,
-          "msg": "scheme information does not exist！",
+          "code": 200,
+          "msg": "success.",
           "msgCode": ""
         },
-        "responseData": null
+        "responseData": {
+          "productTravel": {
+            "productCode": "P00007570",
+            "dataVersion": 1773128426,
+            "productDay": null,
+            "productNight": null,
+            "travelId": null,
+            "productType": null,
+            "productTypeName": null,
+            "travelName": null,
+            "productTravelInfoList": []
+          },
+          "productNotice": {
+            "mainLanguage": 1,
+            "productCode": "P00007570",
+            "noticeInfo": [
+              {
+                "matterCode": "AT00000602",
+                "editType": 1,
+                "noticeType": 4,
+                "matterName": "【西雅圖】SV3",
+                "vluesTip1": "<p>1. 由于行程涉及加拿大，需携带美国护照或本国护照及绿卡</p><p>2. 无美国护照及绿卡者,需持本国有效护照及美国&amp;加拿大有效签证。</p><p><br/></p>",
+                "vluesTip2": "【西雅圖】SV3"
+              },
+              {
+                "matterCode": "AT00001324",
+                "editType": 1,
+                "noticeType": 3,
+                "matterName": "【退改說明】溫哥華/卡爾加里多日",
+                "vluesTip1": "<p>1. 如遇天气、战争、罢工等人力不可抗拒因素无法游览，本公司将有权更改行程，景点门票费用退还（赠送的自费项目除外），报名团费不退还；<br />2.以下情况适用于订单取消和更改：同订单减少参加行程人数、取消整张订单、更改行程、更改同一行程的不同参加日期。<br />a. 如果团组在出发前31日 (含) ，要求取消或改期，团费不扣，其他加定酒店、机票或服务需参照酒店或航司规定而确定是否能退款。<br />b. 在出发前15日 (含) 至 30日 (含) ，要求取消或改期，需扣50% 团费，其他加定酒店或服务需参照酒店规定而确定是否能退款。<br />c. &nbsp;如果团组在出发前14日 (含) 至出发当天要求取消或出发当日未能准时参加者，作自动放弃论，已付团费概不退还。<br />d. &nbsp;如贵司或客人因个人原因 (无旅行证件、迟到、生病、意外等因素) 于旅途中退出或未能参加行程内任何行程，已付团费概不退还，也不会以其他服务赔偿。<br />当订单修改，资源情况改变而产生额外费用，按实际收取；<br />任何更改或取消，必须通过电邮或传真书面形式直接与本公司联络及办理。</p>",
+                "vluesTip2": "【退改說明】溫哥華/卡爾加里多日"
+              },
+              {
+                "matterCode": "AT00002227",
+                "editType": 1,
+                "noticeType": 2,
+                "matterName": "【出行提示】美國跨境加拿大",
+                "vluesTip1": "<p>1. 如您持有美国或加拿大护照：必须携带有效的美国或加拿大护照。</p>\n<p>2. 如您持有美国永久居民证件或加拿大永久居民证件：必须携带有效护照及美国或加拿大永久居民证件。确保您的美国或加拿大永久居民证件在有效期内，幷随身携带。</p>\n<p>3. 如您未持有以上的证件：请提前根据加拿大移民、难民及公民部（IRCC）的指示准备相应的旅行签证。详情请浏览：<a href=\"https://www.canada.ca/en/services/immigration-citizenship.html\" target=\"_blank\" rel=\"noopener\">https://www.canada.ca/en/services/immigration-citizenship.html</a></p>",
+                "vluesTip2": "【出行提示】美國跨境加拿大"
+              },
+              {
+                "matterCode": "AT00000897",
+                "editType": 1,
+                "noticeType": 1,
+                "matterName": "【预定须知】集团通用（涉及跨境）",
+                "vluesTip1": "<p><strong>预定须知：</strong></p>\n<p>1. 18岁以下未成年人或儿童必须由成人陪伴参团。单独旅行的未成年人或儿童不能参加纵横海鸥的旅游团。参团儿童的监护人必须提供监护证明或者提供父母授权的参团同意书。若陪伴儿童的成人既不是儿童父母也不是儿童监护人，需要从儿童父母或监护人那里获取同意书，同意陪同儿童过境。同意书中需注明父母或监护人的姓名及联系方式。出于对孕妇安全的考虑，孕妇参团需在行程结束时怀孕不超过24周。</p>\n<p>2. 请您在预定时务必提供准确、完整的信息，包括姓名、性别、有效的证件（如护照、签证等），有效的联系方式（最好是手机，如有问题，方便通知）、准确的航班信息或参团地点等，以免产生预定错误，影响出行。如因您提供错误信息而造成损失，由您自行承担。</p>\n<p>3. 酒店有不同的房间类型，例如一张King/Queen Size的大床房或两张Double/Full Size的双床房。每个房间可合法住宿的最多人数在2 到4 人，包括成人和儿童。另外每个酒店都有不同的收取押金的方式（多以信用卡办理押金的收取与退还），届时需要参团客人根据不同规定给予配合。纵横海鸥保证客人的用房数量，但不保障具体房间类型和所处位置。酒店的入住时间通常在15:00以后。</p>\n<p>4. 参团客人需跟团上导游购买门票，不可自行带票或使用City Pass。景点的门票费和团上餐费可能会根据景点官方的临时通知而变动，以当日景点公布的价格为准。</p>\n<p>5. 纵横海鸥有权在方便出团操作的情况下，对行程顺序进行适当调整以确保旅游团顺利进行，但不会减少行程中应包含的项目。</p>\n<p>6. 实际出行过程中，导游或司机有权根据天气、交通等情况，适当调整景点的游览顺序、停留时间或集合时间以确保行程顺利进行。</p>\n<p>7. 如遇景点临时关闭或节假日（感恩节、圣诞节、新年）关闭等，导致无法参观，导游会根据实际情况调整为外观或以其他景点代替以确保行程的丰富性。各景点及国家公园的开放时间及流量控制会因疫情不时变化，如影响行程属不可抗力因素，敬请谅解。</p>\n<p>8. 八岁以下儿童参团需乘坐安全座椅，纵横海鸥提供租借服务，租金$10.00/人/天，请务必在预定行程时提前备注告知，以便我们提前准备，如因客人未提前告知所造成的违规和罚金由客人自行承担，敬请理解。出行当日安排大巴出行无需安全座椅，费用可退还客人。</p>\n<p>9. 行程中众多旅游景点需要参团人具备基本的健康条件。残疾人士和行动不便者报名参团前请提前联系纵横海鸥获取相关政策信息。若没有及时通知，我司不能保证为客人提供轮椅升降巴士或安排合适的座位。</p>\n<p>10. 客人需自备入境或旅行途中跨境时所需要的相关证件和材料，能否出入境以各国海关的决定为准，无法入境属不可抗力因素，已付团费不能退还。</p>\n<p>11. 纵横海鸥巴士团分为了四个等级：银榜惠享、金榜怡享、白金尊享、钻石臻享，详情请查看<a href=\"https://uvbookings.info/upload/BMS/ProductLevel.pdf\" target=\"_blank\" rel=\"noopener\">产品分级</a>（点击蓝色字体查看）。</p>\n<p>12. 纵横集团可能会多次修改参团条款和条件，并会在代理网站上及时公布最新版本。请游客在报名参团前务必仔细阅读<a title=\"《参团条例》\" href=\"http://uvbookings.info/upload/terms/s.pdf\" target=\"_blank\" rel=\"noopener\">《参团条例》</a>（点击蓝色字体查看）。我司仅在这些条款和条件下履行义务，除非在此条例中或在法律中有特别规定，否则如果产生任何间接性，补偿性，偶然性或惩罚性损害都不做出赔偿。</p>\n<p><span style=\"color: #ba372a;\">13. 面对持续上涨的燃油成本，车辆运营成本大大增加，2026年5月18日（出发班期）起，纵横海鸥的巴士团产品需加收交通附加费美境：$5/人/天、加境：CAD$5/人/天，导游将在行程中统一收取。</span></p>\n<p>特殊说明：<br />1）接机、送机当天如无其他巴士行程安排，不收取燃油附加费。<br />2）不涉及巴士用车服务的天数不收取燃油附加费：例如佛州相关产品中客人自行搭乘园区接驳车往返主题乐园，或火车团产品中当天全程为火车行程且无导游及巴士服务等情况。</p>\n<p>3）美加跨境产品（如美加东系列、温西连线系列等）按实际行程所在地分别收取燃油附加费；行程当天在美境按 USD$5/人/天收取，在加境按 CAD$5/人/天收取。</p>\n<p>&nbsp;</p>\n<p><strong>出行须知：</strong></p>\n<p>1. 为保障行程顺利完整，游客有责任严格遵守导游给出的集合时间。如果距离集合时间超过十分钟，车子将离开不予等待。纵横海鸥竭诚提供准时准点服务，但如遇到天气、交通、机械故障、罢工、政府停摆以及战争和恐怖袭击等不可控因素，我司无法保证按时按点到达接送地点。由此原因导致的行程延误进而给客人带来任何的不便或产生相关航班、火车或大巴费用以及其他旅游费用等额外费用的，我司概不负责。</p>\n<p>2. 纵横海鸥有权在方便出团操作的情况下，在途中将游客从原车换到另一辆车并指派不同导游和司机提供服务。</p>\n<p>3. 以下建议会帮助您更快更好的登记报到：需携带有效身份证件( 内附照片)；请出示纸质版或电子版行程单。</p>\n<p>4. 该产品是团体活动，如您选择中途离团，请提前告知并征得导游同意，需签署离团协议书，未完成部分将被视为您自行放弃，团费不予退还。</p>\n<p>5. 行程中的赠送项目，如因交通、天气等不可抗力因素导致不能赠送的、或因您个人原因不能参观的，费用不退，敬请谅解。</p>\n<p>6. 根据相关法律，参团期间车上禁止吸烟，绝大多数酒店房间也禁止吸烟；酒店的清洁人员都受过专业训练，保安人员也会专业的留下证据，一旦被发现，会有每晚至少250 美元的清洁费用。这项费用由客人自己承担，我司概不负责。若有吸烟需要，请到专门的吸烟区。</p>\n<p>7. 纵横海鸥的所有行程一律不允许带宠物和动物参团。</p>\n<p>8. 过境时需检查行李.游客需要在过境处向海关申报需缴纳关税的物品。纵横海鸥对过境的行李不承担看管责任。游客必须在过境处认领所有的行李才能继续行程。没有游客认领的行李不能过境。若不幸游客被拒绝入境，纵横海鸥不提供免费巴士送客。故请在参加跨境团前备齐相关证明和文件。</p>\n<p>9. 仅针对包含接机服务的产品：同一订单仅提供一次免费接机时间范围内的接机服务，如因天气、航班延误等造成无法安排，请自理交通费用。</p>\n<p>10. 紧急联系电话：（美国免费电话）+1(866)585-8747。</p>",
+                "vluesTip2": "【预定须知】集团通用（涉及跨境）"
+              },
+              {
+                "matterCode": "CM00000610",
+                "editType": 1,
+                "noticeType": 0,
+                "matterName": "【西雅圖-溫哥華】連線系列",
+                "vluesTip1": "<p>1. 行程中交通费用（使用车辆类型根据当日具体参团人数决定）；</p>\n<p>2. 中英文服务人员（司机+导游/司兼导）；</p>\n<p>3. 行程中住宿（住宿晚数等于行程天数减一）。</p>",
+                "vluesTip2": "<p><span style=\"color: #ba372a;\">1. 加币价格不含联邦服务税5%GST；</span></p>\n<p>2. 司机导游服务费：USD$15美金每人每天；</p>\n<p>3. 全程餐饮；</p>\n<p>4. 行程中提及活动门票；</p>\n<p>5. 其他私人消费，如洗衣、电话、饮品、购物、收费电视等；</p>\n<p>6. 因交通延阻、战争、政变、罢工、天气、航班取消或更改时间等不可抗力原因所导致的额外费用；<br />7. 任何种类的旅游保险。</p>"
+              }
+            ],
+            "damagesInfo": [],
+            "advanceDay": -1,
+            "advanceTime": ""
+          },
+          "productCost": {
+            "list": null,
+            "pager": null,
+            "productCostIsDay": 0
+          },
+          "productShop": {
+            "list": null,
+            "pager": null,
+            "productShopIsDay": 0
+          }
+        }
+      },
+      "packageSchemes": [
+        {
+          "schemeCode": "SC00001474",
+          "schemeName": "SV1+VJ1+JSC5",
+          "schemeDescription": [
+            "day1  SV1-SVB5",
+            "day2  VJ1",
+            "day3-day7  JSC5-A*"
+          ],
+          "actualPrice": 1698,
+          "recommendPrice": 1896.42,
+          "isAutoTeam": 0,
+          "containValidGroup": 1,
+          "schemeStatus": 200,
+          "schemeInfos": [
+            {
+              "description": "day1  SV1-SVB5",
+              "optionalProducts": []
+            },
+            {
+              "description": "day2  VJ1",
+              "optionalProducts": []
+            },
+            {
+              "description": "day3-day7  JSC5-A*",
+              "optionalProducts": []
+            }
+          ],
+          "latelyGroupDate": "2026-07-21"
+        }
+      ],
+      "packageSchemesResponse": {
+        "responseStatus": {
+          "timestamp": "2026-07-19 08:41:32",
+          "ack": "Success",
+          "errors": [],
+          "build": null,
+          "version": null,
+          "extension": [
+            {
+              "id": "CLOGGING_TRACE_ID",
+              "version": null,
+              "contentType": null,
+              "value": "7806087452577510965"
+            },
+            {
+              "id": "RootMessageId",
+              "version": null,
+              "contentType": null,
+              "value": "100025527-0a185426-495672-2355840"
+            }
+          ]
+        },
+        "responseResult": {
+          "code": 200,
+          "msg": "success.",
+          "msgCode": ""
+        },
+        "responseData": {
+          "listScheme": [
+            {
+              "schemeCode": "SC00001474",
+              "schemeName": "SV1+VJ1+JSC5",
+              "schemeDescription": [
+                "day1  SV1-SVB5",
+                "day2  VJ1",
+                "day3-day7  JSC5-A*"
+              ],
+              "actualPrice": 1698,
+              "recommendPrice": 1896.42,
+              "isAutoTeam": 0,
+              "containValidGroup": 1,
+              "schemeStatus": 200,
+              "schemeInfos": [
+                {
+                  "description": "day1  SV1-SVB5",
+                  "optionalProducts": []
+                },
+                {
+                  "description": "day2  VJ1",
+                  "optionalProducts": []
+                },
+                {
+                  "description": "day3-day7  JSC5-A*",
+                  "optionalProducts": []
+                }
+              ],
+              "latelyGroupDate": "2026-07-21"
+            }
+          ],
+          "success": true,
+          "pager": {
+            "pageSize": 99,
+            "pageIndex": 1,
+            "totalCount": 1,
+            "totalPage": 1,
+            "hasPrePage": null,
+            "hasNextPage": null
+          }
+        }
+      },
+      "groups": [
+        {
+          "groupDate": "2026-07-21 00:00:00",
+          "isGroupRoom": 1,
+          "stockType": 2,
+          "groupStock": 0,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00006816",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 3,
+              "groupPrice": 2488,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 4,
+              "groupPrice": 1698,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 5,
+              "groupPrice": 1408,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 6,
+              "groupPrice": 1248,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-07-29 00:00:00",
+          "isGroupRoom": 1,
+          "stockType": 2,
+          "groupStock": 0,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00006816",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 3,
+              "groupPrice": 2488,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 4,
+              "groupPrice": 1698,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 5,
+              "groupPrice": 1408,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 6,
+              "groupPrice": 1248,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-24 00:00:00",
+          "isGroupRoom": 1,
+          "stockType": 2,
+          "groupStock": 0,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00006816",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 3,
+              "groupPrice": 2488,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 4,
+              "groupPrice": 1698,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 5,
+              "groupPrice": 1408,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 6,
+              "groupPrice": 1248,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        },
+        {
+          "groupDate": "2026-08-25 00:00:00",
+          "isGroupRoom": 1,
+          "stockType": 2,
+          "groupStock": 0,
+          "groupSaleStock": 0,
+          "isExceedStock": 0,
+          "rewardCode": "RM00006816",
+          "stockStatus": 200,
+          "productPriceprofit": 0,
+          "currencyNum": "USD",
+          "groupPrice": [
+            {
+              "priceType": 3,
+              "groupPrice": 2488,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 4,
+              "groupPrice": 1698,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 5,
+              "groupPrice": 1408,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            },
+            {
+              "priceType": 6,
+              "groupPrice": 1248,
+              "rewardPrice": 0,
+              "rewardType": 0,
+              "rewardValue": 0,
+              "markup": 0
+            }
+          ],
+          "otherCurrencyGroupPriceInfo": []
+        }
+      ],
+      "groupsResponse": {
+        "responseStatus": {
+          "timestamp": "2026-07-19 08:41:32",
+          "ack": "Success",
+          "errors": [],
+          "build": null,
+          "version": null,
+          "extension": [
+            {
+              "id": "CLOGGING_TRACE_ID",
+              "version": null,
+              "contentType": null,
+              "value": "4443951278548100148"
+            },
+            {
+              "id": "RootMessageId",
+              "version": null,
+              "contentType": null,
+              "value": "100025527-0a146990-495672-2355953"
+            }
+          ]
+        },
+        "responseResult": {
+          "code": 200,
+          "msg": "success.",
+          "msgCode": ""
+        },
+        "responseData": [
+          {
+            "groupDate": "2026-07-21 00:00:00",
+            "isGroupRoom": 1,
+            "stockType": 2,
+            "groupStock": 0,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00006816",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 3,
+                "groupPrice": 2488,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 4,
+                "groupPrice": 1698,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 5,
+                "groupPrice": 1408,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 6,
+                "groupPrice": 1248,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-07-29 00:00:00",
+            "isGroupRoom": 1,
+            "stockType": 2,
+            "groupStock": 0,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00006816",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 3,
+                "groupPrice": 2488,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 4,
+                "groupPrice": 1698,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 5,
+                "groupPrice": 1408,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 6,
+                "groupPrice": 1248,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-24 00:00:00",
+            "isGroupRoom": 1,
+            "stockType": 2,
+            "groupStock": 0,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00006816",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 3,
+                "groupPrice": 2488,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 4,
+                "groupPrice": 1698,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 5,
+                "groupPrice": 1408,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 6,
+                "groupPrice": 1248,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          },
+          {
+            "groupDate": "2026-08-25 00:00:00",
+            "isGroupRoom": 1,
+            "stockType": 2,
+            "groupStock": 0,
+            "groupSaleStock": 0,
+            "isExceedStock": 0,
+            "rewardCode": "RM00006816",
+            "stockStatus": 200,
+            "productPriceprofit": 0,
+            "currencyNum": "USD",
+            "groupPrice": [
+              {
+                "priceType": 3,
+                "groupPrice": 2488,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 4,
+                "groupPrice": 1698,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 5,
+                "groupPrice": 1408,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              },
+              {
+                "priceType": 6,
+                "groupPrice": 1248,
+                "rewardPrice": 0,
+                "rewardType": 0,
+                "rewardValue": 0,
+                "markup": 0
+              }
+            ],
+            "otherCurrencyGroupPriceInfo": []
+          }
+        ]
       },
       "addons": []
     }

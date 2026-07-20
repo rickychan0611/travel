@@ -8,6 +8,8 @@ import type {
   TourPickupPoint,
   TourPrice,
 } from '@/lib/toursbms/types'
+import { isIsoCalendarDate } from '@/lib/toursbms/date'
+import { extractDepartureSectionHtml } from '@/lib/toursbms/rich-content'
 
 const TOUR_PRODUCT_QUERY = `#graphql
   query TourProduct($id: ID!, $variantsAfter: String) {
@@ -275,7 +277,7 @@ function buildAvailability(product: ShopifyTourProduct, departureRows: Metaobjec
     const date = variant.departureDate?.value || selectedOption(variant, 'Departure Date')
     const optionLabel = selectedOption(variant, 'Rate Type') || variant.title
     const label = optionLabel.replace(/\s[·-]\s(?:Adult|Child|Senior)$/i, '')
-    if (!date || !label) continue
+    if (!isIsoCalendarDate(date) || !label) continue
 
     const departure = departuresByDate.get(date)
     const amount = numberValue(variant.price)
@@ -510,7 +512,7 @@ export async function getShopifyTourProductByHandle(
       })),
     highlights: buildHighlights(shopifyProduct, locale),
     highlightsHtml: '',
-    departureNotes: '',
+    departureNotes: extractDepartureSectionHtml(localizedContent.descriptionHtml),
     advanceDay: 0,
     advanceTime: '',
     currency,

@@ -114,6 +114,30 @@
         }
       ],
       "isLocalResidentOptional": 0
+    },
+    "location": {
+      "countries": [
+        "Canada"
+      ],
+      "cities": [],
+      "primaryCountry": "Canada",
+      "primaryCity": "",
+      "confidence": "high",
+      "evidence": [
+        {
+          "kind": "country",
+          "value": "Canada",
+          "source": "structured-place",
+          "matched": "canada",
+          "confidence": "high"
+        }
+      ],
+      "isMultiCountry": false,
+      "isMultiCity": false,
+      "needsReview": true,
+      "reviewReasons": [
+        "city-unresolved"
+      ]
     }
   },
   "media": {

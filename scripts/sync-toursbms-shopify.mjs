@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { existsSync, readFileSync } from 'fs'
+import { existsSync, readFileSync, readdirSync } from 'fs'
 import { mkdir, readFile, writeFile } from 'fs/promises'
 import { dirname, resolve } from 'path'
 import { spawnSync } from 'child_process'
@@ -19,9 +19,11 @@ import {
   buildTourVariants,
   getProductCode,
   getProductHandle,
+  mergeSyncedProductTags,
   moneyValue,
   nonShippableInventoryItemInput,
 } from './lib/toursbms-shopify-sync.mjs'
+import { locationReviewEntry } from './lib/location-enrichment.mjs'
 
 const DEFAULT_API_VERSION = '2026-01'
 const SHOPIFY_VARIANT_LIMIT = 2048
@@ -32,7 +34,7 @@ function usage() {
   node scripts/sync-toursbms-shopify.mjs --ids ids.txt --locales en,zh-CN,zh-TW --apply --publish headless
 
 Options:
-  --ids <list|file>       Comma-separated product codes or a file containing codes.
+  --ids <list|file|all>   Comma-separated codes, a code file, or all extracted products.
   --locales <list>        Locales to extract/sync. Defaults to en,zh-CN,zh-TW.
   --currency <code>       Currency for ToursBMS extraction. Defaults to USD.
   --start <YYYY-MM-DD>    Availability extraction start date.
@@ -47,6 +49,7 @@ Options:
   --status <status>       Shopify product status. Defaults to DRAFT, or ACTIVE when publishing.
   --overwrite-from-toursbms
                          Replace editable Shopify product/content fields from ToursBMS. Defaults to preserving them on reruns.
+  --filters-only         Update only filter metadata/tags from existing extracted JSON.
   --help                  Show this help.
 `)
 }
@@ -67,6 +70,7 @@ function parseArgs(argv) {
     listPublications: false,
     status: null,
     overwriteFromToursbms: false,
+    filtersOnly: false,
   }
 
   for (let i = 0; i < argv.length; i += 1) {
@@ -90,11 +94,25 @@ function parseArgs(argv) {
     else if (arg === '--list-publications') args.listPublications = true
     else if (arg === '--status') args.status = String(argv[++i] || '').toUpperCase()
     else if (arg === '--overwrite-from-toursbms') args.overwriteFromToursbms = true
+    else if (arg === '--filters-only') {
+      args.filtersOnly = true
+      args.skipExtract = true
+    }
     else if (!arg.startsWith('--')) args.ids.push(...parseIds(arg))
     else throw new Error(`Unknown option: ${arg}`)
   }
 
   args.ids = [...new Set(args.ids.map((id) => id.trim().toUpperCase()).filter(Boolean))]
+  if (args.ids.includes('ALL')) {
+    const productPattern = /^P\d+$/i
+    const extractedRoot = resolve(args.outDir)
+    if (!existsSync(extractedRoot)) throw new Error(`Extracted product directory not found: ${extractedRoot}`)
+    args.ids = [...new Set(readdirSync(extractedRoot, { withFileTypes: true }).flatMap((entry) => {
+      if (entry.isDirectory() && productPattern.test(entry.name)) return [entry.name.toUpperCase()]
+      const code = entry.isFile() ? entry.name.replace(/\.json$/i, '') : ''
+      return productPattern.test(code) ? [code.toUpperCase()] : []
+    }))].sort()
+  }
   args.locales = [...new Set(args.locales)]
   if (!args.help && !args.listPublications && args.ids.length === 0) throw new Error('Missing --ids P00002834')
   if (!args.status) args.status = args.publish ? 'ACTIVE' : 'DRAFT'
@@ -353,6 +371,14 @@ mutation MetafieldDefinitionCreate($definition: MetafieldDefinitionInput!) {
   }
 }`
 
+const PRODUCT_UPDATE_MUTATION = `#graphql
+mutation ProductUpdate($product: ProductUpdateInput!) {
+  productUpdate(product: $product) {
+    product { id tags }
+    userErrors { field message }
+  }
+}`
+
 const METAOBJECT_DEFINITION_QUERY = `#graphql
 query MetaobjectDefinition($type: String!) {
   metaobjectDefinitionByType(type: $type) {
@@ -572,7 +598,7 @@ function preserveEditableProductFields(payload, existingProduct, status) {
     vendor: existingProduct.vendor || payload.vendor,
     productType: existingProduct.productType || payload.productType,
     tags: Array.isArray(existingProduct.tags) && existingProduct.tags.length > 0
-      ? [...new Set([...existingProduct.tags, ...payload.tags.filter((tag) => tag.startsWith('code:') || tag.startsWith('group:') || tag === 'tour' || tag === 'toursbms')])]
+      ? mergeSyncedProductTags(existingProduct.tags, payload.tags)
       : payload.tags,
     status,
   }
@@ -651,6 +677,54 @@ async function ensureProductReferenceMetafieldDefinitions(client, metaobjectDefi
   }
 
   return result
+}
+
+async function ensureFilterMetafieldDefinition(client) {
+  const identifier = { ownerType: 'PRODUCT', namespace: 'toursbms', key: 'filter_facets' }
+  const existing = await client.request(METAFIELD_DEFINITION_QUERY, { identifier })
+  if (existing.metafieldDefinition?.id) return existing.metafieldDefinition.id
+  const created = await client.request(METAFIELD_DEFINITION_CREATE, {
+    definition: {
+      name: 'ToursBMS filter facets',
+      namespace: 'toursbms',
+      key: 'filter_facets',
+      type: 'json',
+      ownerType: 'PRODUCT',
+      access: { storefront: 'PUBLIC_READ' },
+    },
+  })
+  assertNoUserErrors(created, 'Create product metafield definition toursbms.filter_facets')
+  return created.metafieldDefinitionCreate?.createdDefinition?.id
+}
+
+async function ensureSearchAliasesMetafieldDefinition(client) {
+  const identifier = { ownerType: 'PRODUCT', namespace: 'toursbms', key: 'search_aliases' }
+  const existing = await client.request(METAFIELD_DEFINITION_QUERY, { identifier })
+  if (existing.metafieldDefinition?.id) return existing.metafieldDefinition.id
+  const created = await client.request(METAFIELD_DEFINITION_CREATE, {
+    definition: {
+      name: 'ToursBMS search aliases',
+      namespace: 'toursbms',
+      key: 'search_aliases',
+      type: 'json',
+      ownerType: 'PRODUCT',
+      access: { storefront: 'PUBLIC_READ' },
+    },
+  })
+  assertNoUserErrors(created, 'Create product metafield definition toursbms.search_aliases')
+  return created.metafieldDefinitionCreate?.createdDefinition?.id
+}
+
+async function ensureLocationListMetafieldDefinitions(client) {
+  for (const [key, name] of [['countries', 'ToursBMS countries'], ['cities', 'ToursBMS cities']]) {
+    const identifier = { ownerType: 'PRODUCT', namespace: 'toursbms', key }
+    const existing = await client.request(METAFIELD_DEFINITION_QUERY, { identifier })
+    if (existing.metafieldDefinition?.id) continue
+    const created = await client.request(METAFIELD_DEFINITION_CREATE, {
+      definition: { name, namespace: 'toursbms', key, type: 'json', ownerType: 'PRODUCT', access: { storefront: 'PUBLIC_READ' } },
+    })
+    assertNoUserErrors(created, `Create product metafield definition toursbms.${key}`)
+  }
 }
 
 async function upsertMetaobjects(client, entries) {
@@ -776,9 +850,33 @@ function mergeAddonVariantIds(manifest, addonVariants) {
   }))
 }
 
+async function syncProductFiltersOnly(client, jsonByLocale, existingManifest) {
+  const baseJson = jsonByLocale.en || Object.values(jsonByLocale)[0]
+  const productId = existingManifest?.shopifyProductId
+  if (!productId) throw new Error(`${getProductCode(baseJson)} has no Shopify product ID in its sync manifest`)
+  await ensureFilterMetafieldDefinition(client)
+  await ensureSearchAliasesMetafieldDefinition(client)
+  await ensureLocationListMetafieldDefinitions(client)
+  const payload = buildProductPayload(baseJson, existingManifest.status || 'ACTIVE', jsonByLocale)
+  const existingProduct = await fetchExistingProduct(client, productId)
+  if (!existingProduct?.id) throw new Error(`Shopify product ${productId} was not found`)
+  const catalogMetafields = payload.metafields.filter((field) => ['country', 'city', 'countries', 'cities', 'destinations', 'filter_facets', 'search_aliases'].includes(field.key))
+  if (!catalogMetafields.some((field) => field.key === 'filter_facets')) throw new Error(`No location/filter metadata generated for ${getProductCode(baseJson)}`)
+  const metafieldsResult = await client.request(METAFIELDS_SET_MUTATION, {
+    metafields: catalogMetafields.map((field) => ({ ownerId: productId, namespace: 'toursbms', key: field.key, type: field.type, value: field.value })),
+  })
+  assertNoUserErrors(metafieldsResult, `Set filter facets ${payload.handle}`)
+  const updateResult = await client.request(PRODUCT_UPDATE_MUTATION, {
+    product: { id: productId, tags: mergeSyncedProductTags(existingProduct.tags || [], payload.tags) },
+  })
+  assertNoUserErrors(updateResult, `Update filter tags ${payload.handle}`)
+  return { ...existingManifest, filterFacetsSyncedAt: new Date().toISOString() }
+}
+
 async function syncOneProduct(client, jsonByLocale, existingManifest, args) {
   const baseJson = jsonByLocale.en || Object.values(jsonByLocale)[0]
-  let productPayload = buildProductPayload(baseJson, args.status)
+  if (args.filtersOnly) return syncProductFiltersOnly(client, jsonByLocale, existingManifest)
+  let productPayload = buildProductPayload(baseJson, args.status, jsonByLocale)
   const variants = buildTourVariants(baseJson)
   if (variants.length > SHOPIFY_VARIANT_LIMIT) {
     throw new Error(`${getProductCode(baseJson)} has ${variants.length} date/rate variants, above Shopify limit ${SHOPIFY_VARIANT_LIMIT}`)
@@ -794,6 +892,9 @@ async function syncOneProduct(client, jsonByLocale, existingManifest, args) {
   }
   const definitionIds = await ensureMetaobjectDefinitions(client)
   const productReferenceDefinitionIds = await ensureProductReferenceMetafieldDefinitions(client, definitionIds)
+  await ensureFilterMetafieldDefinition(client)
+  await ensureSearchAliasesMetafieldDefinition(client)
+  await ensureLocationListMetafieldDefinitions(client)
   const product = await productSet(client, toProductSetInput(productPayload, variants), `Sync product ${productPayload.handle}`)
   manifest.shopifyProductId = product.id
   const syncedVariants = await fetchAllProductVariants(client, product.id)
@@ -855,6 +956,7 @@ async function main() {
   console.log(`Locales: ${args.locales.join(', ')}`)
 
   const client = args.apply && !args.skipUpload ? new ShopifyAdminClient(env) : null
+  const locationReviews = []
 
   for (const productCode of args.ids) {
     if (!args.skipExtract) {
@@ -869,6 +971,8 @@ async function main() {
 
     const jsonByLocale = await loadLocalizedJson(productCode, args)
     const baseJson = jsonByLocale.en || Object.values(jsonByLocale)[0]
+    const review = locationReviewEntry(baseJson, extractionPath(args.outDir, productCode, 'en'))
+    if (review) locationReviews.push(review)
     const actualProductCode = getProductCode(baseJson) || productCode
     const manifestPath = syncManifestPath(actualProductCode)
     const existingManifest = await readJson(manifestPath, {})
@@ -883,7 +987,7 @@ async function main() {
     console.log(`  Gallery images: ${imageCount}`)
     console.log(`  Metaobject entries: ${dryRunPayload.metaobjects.length}`)
 
-    if (variantCount > SHOPIFY_VARIANT_LIMIT) {
+    if (!args.filtersOnly && variantCount > SHOPIFY_VARIANT_LIMIT) {
       throw new Error(`${actualProductCode} has ${variantCount} variants, above Shopify limit ${SHOPIFY_VARIANT_LIMIT}`)
     }
 
@@ -899,6 +1003,15 @@ async function main() {
     console.log(`  Synced Shopify product: ${manifest.shopifyProductId}`)
     console.log(`  Wrote manifest: ${manifestPath}`)
   }
+
+  const locationReviewPath = resolve('data', 'shopify-sync', 'location-review.json')
+  await writeJson(locationReviewPath, {
+    generatedAt: new Date().toISOString(),
+    source: 'admin-sync',
+    reviewCount: locationReviews.length,
+    products: locationReviews,
+  })
+  console.log(`Location review: ${locationReviewPath} (${locationReviews.length} products)`)
 }
 
 main().catch((error) => {

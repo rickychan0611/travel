@@ -396,7 +396,7 @@ export default async function AdminProductDetailPage({
             <input type="hidden" name="metaobjectId" value={content?.id || ''} />
             <TextInput label="Tour title" name="title" defaultValue={content?.fields.title || product.title} />
             <TextInput label="Subtitle" name="subtitle" defaultValue={content?.fields.subtitle} />
-            <RichTextEditor name="descriptionHtml" label="Description" initialHtml={content?.fields.description_html || product.descriptionHtml} />
+            <RichTextEditor name="descriptionHtml" label="Highlights rich content" initialHtml={content?.fields.description_html || product.descriptionHtml} />
           </AdminActionForm>
         </AdminPanel>
 
@@ -479,8 +479,7 @@ export default async function AdminProductDetailPage({
                       defaultValue={/^(?:exclude|excludes|excluded|not[\s_-]*included)$/i.test(section.fields.section.trim()) ? 'excludes' : 'includes'}
                       options={[{ value: 'includes', label: 'Includes' }, { value: 'excludes', label: 'Excludes' }]}
                     />
-                    <TextArea label="Text" name="field:text" defaultValue={section.fields.text} />
-                    <input type="hidden" name="field:html" value={section.fields.html || section.fields.text || ''} />
+                    <RichTextEditor name="field:html" label="Content" initialHtml={section.fields.html || section.fields.text || ''} />
                   </AdminActionForm>
                   <form action={deleteContentItemAction} className="mt-2">
                     <HiddenContext locale={locale} contentLocale={contentLocale} handle={product.handle} product={product} />
@@ -500,7 +499,7 @@ export default async function AdminProductDetailPage({
               >
                 <HiddenContext locale={locale} contentLocale={contentLocale} handle={product.handle} product={product} />
                 <SelectInput label="New section" name="field:section" defaultValue="includes" options={[{ value: 'includes', label: 'Includes' }, { value: 'excludes', label: 'Excludes' }]} />
-                <TextArea label="Text" name="field:text" />
+                <RichTextEditor name="field:html" label="Content" initialHtml="" />
               </AdminActionForm>
             </div>
           </AdminPanel>
@@ -518,10 +517,9 @@ export default async function AdminProductDetailPage({
                     <HiddenContext locale={locale} contentLocale={contentLocale} handle={product.handle} product={product} />
                     <input type="hidden" name="metaobjectId" value={policy.id} />
                     <TextInput label="Title" name="field:matter_name" defaultValue={policy.fields.matter_name || policy.fields.type_label} />
-                    <TextArea label="Text" name="field:text" defaultValue={policy.fields.text} />
+                    <RichTextEditor name="field:html" label="Content" initialHtml={policy.fields.html || policy.fields.text || ''} />
                     <input type="hidden" name="field:notice_type" value={policy.fields.notice_type || '0'} />
                     <input type="hidden" name="field:type_label" value={policy.fields.type_label || 'Notice'} />
-                    <input type="hidden" name="field:html" value={policy.fields.html || policy.fields.text || ''} />
                   </AdminActionForm>
                   <form action={deleteContentItemAction} className="mt-2">
                     <HiddenContext locale={locale} contentLocale={contentLocale} handle={product.handle} product={product} />
@@ -538,7 +536,7 @@ export default async function AdminProductDetailPage({
                 <input type="hidden" name="field:notice_type" value="0" />
                 <input type="hidden" name="field:type_label" value="Notice" />
                 <TextInput label="New notice title" name="field:matter_name" />
-                <TextArea label="Text" name="field:text" />
+                <RichTextEditor name="field:html" label="Content" initialHtml="" />
                 <button className="mt-2 rounded-lg bg-slate-950 px-3 py-2 text-sm font-semibold text-white">Add notice</button>
               </form>
             </div>

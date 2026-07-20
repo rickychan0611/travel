@@ -1,14 +1,13 @@
 'use client'
 
 import { useState } from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
-import type { Route } from 'next'
 import { ProductCard } from '@/components/home/ProductCard'
 import type { HomepageTourSection } from '@/data/tour-categories'
 import { getLocalizedText } from '@/data/tour-categories'
 import type { CollectionProduct } from '@/lib/shopify/types'
 import styles from './UsaTravelSection.module.css'
+import { catalogKeywordHref } from '@/lib/catalog-keywords'
 
 export type HomepageTourSectionData = Omit<HomepageTourSection, 'tabs'> & {
   tabs: Array<HomepageTourSection['tabs'][number] & { products: CollectionProduct[] }>
@@ -31,13 +30,6 @@ export function UsaTravelSection({
     <section className={styles.section}>
       <div className="mb-6 flex items-center justify-center">
         <div className="mt-10 flex items-center gap-3">
-          <Image
-            src={section.icon}
-            alt=""
-            width={52}
-            height={52}
-            className="h-[52px] w-[52px] object-contain"
-          />
           <h2 className="text-[30px] font-bold leading-none tracking-normal text-[#202124]">
             {getLocalizedText(section.title, locale)}
           </h2>
@@ -63,8 +55,8 @@ export function UsaTravelSection({
           })}
         </div>
         <Link
-          href={`/${locale}${active.href || section.moreHref}` as Route}
-          className="mt-1 shrink-0 cursor-pointer whitespace-nowrap text-tff-blue hover:underline lg:absolute lg:right-0 lg:top-0 lg:mt-0"
+          href={catalogKeywordHref(locale, getLocalizedText(section.title, locale))}
+          className="ml-6 mt-1 shrink-0 cursor-pointer whitespace-nowrap text-tff-blue hover:underline lg:absolute lg:right-0 lg:top-0 lg:ml-0 lg:mt-0"
         >
           {locale === 'en' ? 'View more' : '查看更多'} &gt;
         </Link>

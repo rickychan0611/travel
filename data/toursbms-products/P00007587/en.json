@@ -221,6 +221,38 @@
       "otherCurrencySupport": [],
       "productRateInfoList": [],
       "isLocalResidentOptional": 0
+    },
+    "location": {
+      "countries": [
+        "France"
+      ],
+      "cities": [
+        "Paris"
+      ],
+      "primaryCountry": "France",
+      "primaryCity": "Paris",
+      "confidence": "high",
+      "evidence": [
+        {
+          "kind": "city",
+          "value": "Paris",
+          "country": "France",
+          "source": "structured-place",
+          "matched": "paris",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "France",
+          "source": "structured-place",
+          "matched": "paris",
+          "confidence": "high"
+        }
+      ],
+      "isMultiCountry": false,
+      "isMultiCity": false,
+      "needsReview": false,
+      "reviewReasons": []
     }
   },
   "media": {

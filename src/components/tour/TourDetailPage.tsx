@@ -18,6 +18,7 @@ import {
 import { useCartStore } from '@/store/cart'
 import { ImageSlider } from '@/components/ui/ImageSlider'
 import { findAdultRoomPrices, findChildPrice } from '@/lib/toursbms/map-product'
+import { isIsoCalendarDate, isoMonthFromDate } from '@/lib/toursbms/date'
 import { findPrice, perPersonTotal, resolveBookingPricingMode, roomTotal, travelerTotal, validateRoom } from '@/lib/toursbms/pricing'
 import type {
   TourAddon,
@@ -55,8 +56,7 @@ function money(amount: number | string, currency = 'USD', locale?: string) {
 }
 
 function monthsFromDates(dates: TourAvailabilityDay[]) {
-  const months = Array.from(new Set(dates.map((date) => date.date.slice(0, 7))))
-  return months.length > 0 ? months : []
+  return Array.from(new Set(dates.map((date) => isoMonthFromDate(date.date)).filter((month): month is string => Boolean(month))))
 }
 
 function monthLabel(month: string) {
@@ -96,7 +96,7 @@ export function TourDetailPage({ tour }: Props) {
   const locale = useLocale()
   const addItem = useCartStore((state) => state.addItem)
   const departureDates = tour.availability
-  const initialDate = departureDates.find((date) => date.available)?.date ?? null
+  const initialDate = departureDates.find((date) => date.available && isIsoCalendarDate(date.date))?.date ?? null
   const initialPrices = departureDates.find((date) => date.date === initialDate)?.prices ?? tour.basePrices
   const initialRoomPrices = findAdultRoomPrices(initialPrices)
   const initialRoomType = (initialRoomPrices.find((price) => price.priceType === 4)?.priceType
@@ -114,7 +114,7 @@ export function TourDetailPage({ tour }: Props) {
     { id: 'room-1', priceType: initialRoomType, adults: initialRoomAdults, seniors: 0, children: 0 },
   ])
   const [activeMonth, setActiveMonth] = useState(monthsFromDates(departureDates)[0] ?? '')
-  const [activeSection, setActiveSection] = useState('intro')
+  const [activeSection, setActiveSection] = useState(tour.departureNotes ? 'departure' : 'itinerary')
   const [activeDay, setActiveDay] = useState(tour.itinerary.days[0]?.dayNumber ?? 1)
   const [showDayNav, setShowDayNav] = useState(false)
   const [added, setAdded] = useState(false)
@@ -122,7 +122,10 @@ export function TourDetailPage({ tour }: Props) {
   const [addonQuantities, setAddonQuantities] = useState<Record<string, number>>({})
 
   const gallery = tour.gallery
-  const dateMap = useMemo(() => new Map(departureDates.map((date) => [date.date, date])), [departureDates])
+  const dateMap = useMemo(
+    () => new Map(departureDates.filter((date) => isIsoCalendarDate(date.date)).map((date) => [date.date, date])),
+    [departureDates],
+  )
   const selectedDeparture = selectedDate ? dateMap.get(selectedDate) : undefined
   const currentPrices = selectedDeparture?.prices ?? tour.basePrices
   const roomPrices = useMemo(() => findAdultRoomPrices(currentPrices), [currentPrices])
@@ -210,7 +213,7 @@ export function TourDetailPage({ tour }: Props) {
   }
 
   useEffect(() => {
-    const sectionIds = ['intro', 'itinerary', 'fees', 'pickup', 'notice']
+    const sectionIds = ['departure', 'itinerary', 'fees', 'pickup', 'notice']
 
     const updateActiveState = () => {
       const currentSection = sectionIds
@@ -413,13 +416,6 @@ export function TourDetailPage({ tour }: Props) {
               </div>
             ) : null}
 
-            {tour.departureNotes ? (
-              <div className="mt-4 rounded bg-[#fffbe8] p-3 text-[13px] leading-6 text-[#666]">
-                <p className="mb-1 font-bold text-[#ff5b00]">{t('departureNotes')}</p>
-                <p className="whitespace-pre-line">{tour.departureNotes}</p>
-              </div>
-            ) : null}
-
             <div className="mt-4 flex items-center gap-2 border-b border-[#e5e5e5] pb-4 text-sm">
               <ShieldCheck className="h-6 w-6 shrink-0" />
               <span>
@@ -471,24 +467,20 @@ export function TourDetailPage({ tour }: Props) {
         <TourStickyNav
           activeSection={activeSection}
           onJump={scrollTo}
+          showDeparture={Boolean(tour.departureNotes)}
           canBook={canBook}
           onBook={handleAddToCart}
         />
 
         <main className="bg-white px-5 pb-10">
-          <section id="intro" className="scroll-mt-20 border-t border-[#eee] py-10">
-            <SectionTitle>{t('productHighlights')}</SectionTitle>
-            {tour.highlightsHtml || tour.highlights.length > 0 ? (
+          {tour.departureNotes ? (
+            <section id="departure" className="scroll-mt-20 border-t border-[#eee] py-10">
+              <h2 className="mb-8 text-center text-[30px]">{t('departureDate')}</h2>
               <div className="rounded bg-[#f6f9fc] p-6">
-                <HtmlOrText html={tour.highlightsHtml} text={tour.highlights.map((h) => `• ${h}`).join('\n')} />
+                <HtmlOrText html={tour.departureNotes} />
               </div>
-            ) : (
-              <p className="text-[14px] text-[#999]">{t('noHighlights')}</p>
-            )}
-            {tour.itinerary.travelName ? (
-              <p className="mt-4 text-[15px] text-[#555]">{tour.itinerary.travelName}</p>
-            ) : null}
-          </section>
+            </section>
+          ) : null}
 
           <section id="itinerary" className="scroll-mt-20 py-8">
             <h2 className="mb-8 text-center text-[30px]">{t('itinerary')}</h2>
@@ -621,8 +613,13 @@ function TourCalendar({
     return <div className="mt-4 border border-[#d9d9d9] p-4 text-[14px] text-[#999]">{t('noDepartureDates')}</div>
   }
 
-  const [year, monthRaw] = activeMonth.split('-').map(Number)
-  const month = monthRaw - 1
+  const monthMatch = /^(\d{4})-(0[1-9]|1[0-2])$/.exec(activeMonth)
+  if (!monthMatch) {
+    return <div className="mt-4 border border-[#d9d9d9] p-4 text-[14px] text-[#999]">{t('noDepartureDates')}</div>
+  }
+
+  const year = Number(monthMatch[1])
+  const month = Number(monthMatch[2]) - 1
   const firstDow = new Date(year, month, 1).getDay()
   const daysInMonth = new Date(year, month + 1, 0).getDate()
   const cells: Array<number | null> = [...Array(firstDow).fill(null), ...Array.from({ length: daysInMonth }, (_, index) => index + 1)]
@@ -969,17 +966,19 @@ function Counter({
 function TourStickyNav({
   activeSection,
   onJump,
+  showDeparture,
   canBook,
   onBook,
 }: {
   activeSection: string
   onJump: (id: string) => void
+  showDeparture: boolean
   canBook: boolean
   onBook: () => void
 }) {
   const t = useTranslations('tourDetail')
-  const items = [
-    ['intro', t('navHighlights')],
+  const items: Array<[string, string]> = [
+    ...(showDeparture ? [['departure', t('navDeparture')] as [string, string]] : []),
     ['itinerary', t('navItinerary')],
     ['fees', t('navFees')],
     ['pickup', t('navPickup')],
@@ -1173,16 +1172,29 @@ function TourFeesSection({ tour }: { tour: TourDetailData }) {
         </div>
       ) : null}
 
-      <SectionTitle>{t('included')}</SectionTitle>
-      <div className="rounded border border-[#dfe7f2] p-5">
-        <HtmlOrText html={tour.cost.includesHtml} text={tour.cost.includesText} />
-      </div>
-
-      <div className="mt-6">
-        <SectionTitle>{t('notIncluded')}</SectionTitle>
-        <div className="rounded border border-[#dfe7f2] p-5">
-          <HtmlOrText html={tour.cost.excludesHtml} text={tour.cost.excludesText} />
-        </div>
+      <div className="overflow-x-auto rounded border border-[#dfe7f2]">
+        <table className="w-full min-w-[680px] table-fixed border-collapse">
+          <thead className="bg-[#f6f9fc] text-left">
+            <tr>
+              <th scope="col" className="border-r border-[#dfe7f2] px-5 py-3 text-[16px] font-bold">
+                {t('included')}
+              </th>
+              <th scope="col" className="px-5 py-3 text-[16px] font-bold">
+                {t('extraExpense')}
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border-r border-t border-[#dfe7f2] p-5 align-top">
+                <HtmlOrText html={tour.cost.includesHtml} text={tour.cost.includesText} />
+              </td>
+              <td className="border-t border-[#dfe7f2] p-5 align-top">
+                <HtmlOrText html={tour.cost.excludesHtml} text={tour.cost.excludesText} />
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
       {tour.addons.length > 0 ? (

@@ -1,7 +1,6 @@
 import { StatusBar } from '@/components/layout/StatusBar'
 import { Header } from '@/components/layout/Header'
 import { Footer } from '@/components/layout/Footer'
-import { FloatingSidebar } from '@/components/layout/FloatingSidebar'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
@@ -25,7 +24,7 @@ export default async function LocaleLayout({
       <Header locale={locale} />
       <main className="flex-1 bg-white">{children}</main>
       <Footer locale={locale} />
-      <FloatingSidebar />
+      {/* Floating contact sidebar is intentionally hidden. */}
     </NextIntlClientProvider>
   )
 }

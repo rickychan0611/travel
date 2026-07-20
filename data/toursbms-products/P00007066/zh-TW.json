@@ -155,6 +155,21 @@
       "otherCurrencySupport": [],
       "productRateInfoList": [],
       "isLocalResidentOptional": 0
+    },
+    "location": {
+      "countries": [],
+      "cities": [],
+      "primaryCountry": "",
+      "primaryCity": "",
+      "confidence": "low",
+      "evidence": [],
+      "isMultiCountry": false,
+      "isMultiCity": false,
+      "needsReview": true,
+      "reviewReasons": [
+        "country-unresolved",
+        "city-unresolved"
+      ]
     }
   },
   "media": {

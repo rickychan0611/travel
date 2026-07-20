@@ -27,6 +27,10 @@ export type HomepageTourSection = {
 }
 
 export const CATEGORY_SLUGS = [
+  'united-states',
+  'canada-latin-america',
+  'americas',
+  'asia-world',
   'cancun',
   'new-york',
   'yellowstone',
@@ -50,6 +54,54 @@ const tourTagQuery = (...tags: string[]) => ['tag:tour', ...tags.map((tag) => `t
 const legacyTagQuery = (tag: string) => `tag:${tag}`
 
 export const TOUR_CATEGORIES: Record<string, TourCategory> = {
+  'united-states': {
+    slug: 'united-states',
+    title: t('United States Tours', '美国旅游', '美國旅遊'),
+    description: t(
+      'Tours across the United States, including national parks, major cities, Alaska, Hawaii, and local experiences.',
+      '美国国家公园、热门城市、阿拉斯加、夏威夷及当地体验线路。',
+      '美國國家公園、熱門城市、阿拉斯加、夏威夷及當地體驗線路。',
+    ),
+    queries: [tourTagQuery('region-united-states'), tourTagQuery('country-united-states'), 'United States OR USA OR 美国 OR 美國'],
+    heroImage: '/tff/2026052709301093627115.jpg',
+    tags: ['region-united-states', 'country-united-states'],
+  },
+  'canada-latin-america': {
+    slug: 'canada-latin-america',
+    title: t('Canada & Latin America Tours', '加拿大与拉美旅游', '加拿大與拉美旅遊'),
+    description: t(
+      'Canadian Rockies, major Canadian cities, Mexico, the Caribbean, Central America, and South America.',
+      '加拿大落基山与热门城市，以及墨西哥、加勒比、中美洲和南美洲线路。',
+      '加拿大落基山與熱門城市，以及墨西哥、加勒比、中美洲和南美洲線路。',
+    ),
+    queries: [tourTagQuery('region-canada'), tourTagQuery('region-latin-america'), 'Canada OR Mexico OR Peru OR 加拿大 OR 墨西哥 OR 秘鲁 OR 秘魯'],
+    heroImage: '/tff/20250331013739000245945.jpg',
+    tags: ['region-canada', 'region-latin-america'],
+  },
+  americas: {
+    slug: 'americas',
+    title: t('Americas Tours', '美洲旅游', '美洲旅遊'),
+    description: t(
+      'United States, Canada, Mexico, the Caribbean, Central America, and South America tours.',
+      '覆盖美国、加拿大、墨西哥、加勒比、中美洲和南美洲的旅行线路。',
+      '覆蓋美國、加拿大、墨西哥、加勒比、中美洲和南美洲的旅行線路。',
+    ),
+    queries: [tourTagQuery('region-north-america'), tourTagQuery('region-latin-america'), 'United States OR Canada OR Mexico OR Peru OR 美国 OR 美國 OR 加拿大 OR 秘鲁 OR 秘魯'],
+    heroImage: '/tff/americas-banner.jpg',
+    tags: ['region-north-america', 'region-latin-america'],
+  },
+  'asia-world': {
+    slug: 'asia-world',
+    title: t('Asia, Africa & Oceania Tours', '亚非与澳新旅游', '亞非與澳新旅遊'),
+    description: t(
+      'Asia, the Middle East, Africa, Australia, New Zealand, and other worldwide destinations.',
+      '亚洲、中东、非洲、澳大利亚、新西兰及其他世界目的地线路。',
+      '亞洲、中東、非洲、澳大利亞、紐西蘭及其他世界目的地線路。',
+    ),
+    queries: [tourTagQuery('region-asia'), tourTagQuery('region-middle-east'), tourTagQuery('region-africa'), tourTagQuery('region-oceania'), 'China OR Japan OR Australia OR Egypt OR 中国 OR 中國 OR 日本 OR 澳大利亚 OR 澳洲 OR 埃及'],
+    heroImage: '/tff/20260703021815892716696887.jpg',
+    tags: ['region-asia', 'region-middle-east', 'region-africa', 'region-oceania'],
+  },
   cancun: {
     slug: 'cancun',
     title: t('Cancun Tours', '坎昆旅游', '坎昆旅遊'),

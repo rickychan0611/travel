@@ -95,6 +95,38 @@
       "otherCurrencySupport": [],
       "productRateInfoList": [],
       "isLocalResidentOptional": 0
+    },
+    "location": {
+      "countries": [
+        "United States"
+      ],
+      "cities": [
+        "Los Angeles"
+      ],
+      "primaryCountry": "United States",
+      "primaryCity": "Los Angeles",
+      "confidence": "high",
+      "evidence": [
+        {
+          "kind": "city",
+          "value": "Los Angeles",
+          "country": "United States",
+          "source": "structured-place",
+          "matched": "los angeles",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "United States",
+          "source": "structured-place",
+          "matched": "los angeles",
+          "confidence": "high"
+        }
+      ],
+      "isMultiCountry": false,
+      "isMultiCity": false,
+      "needsReview": false,
+      "reviewReasons": []
     }
   },
   "media": {

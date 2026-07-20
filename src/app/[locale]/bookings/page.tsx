@@ -51,16 +51,6 @@ export default async function BookingsPage({
       avatarUrl={user?.imageUrl ?? null}
       labels={{
         editProfile: t('editProfile'),
-        orders: t('navOrders'),
-        membership: t('membership'),
-        favorites: t('favorites'),
-        notices: t('notices'),
-        reviews: t('reviews'),
-        settings: t('settings'),
-        tabAll: t('tabAll'),
-        tabPendingPayment: t('tabPendingPayment'),
-        tabPendingTravel: t('tabPendingTravel'),
-        tabPendingReview: t('tabPendingReview'),
         empty: t('empty'),
         emptyHint: t('emptyHint'),
         paid: t('paid'),

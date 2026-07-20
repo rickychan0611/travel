@@ -120,6 +120,71 @@
       "otherCurrencySupport": [],
       "productRateInfoList": [],
       "isLocalResidentOptional": 0
+    },
+    "location": {
+      "countries": [
+        "United States",
+        "Canada"
+      ],
+      "cities": [
+        "Seattle",
+        "Vancouver",
+        "Victoria"
+      ],
+      "primaryCountry": "United States",
+      "primaryCity": "Seattle",
+      "confidence": "high",
+      "evidence": [
+        {
+          "kind": "city",
+          "value": "Seattle",
+          "country": "United States",
+          "source": "structured-place",
+          "matched": "seattle",
+          "confidence": "high"
+        },
+        {
+          "kind": "city",
+          "value": "Vancouver",
+          "country": "Canada",
+          "source": "structured-place",
+          "matched": "溫哥華",
+          "confidence": "high"
+        },
+        {
+          "kind": "city",
+          "value": "Victoria",
+          "country": "Canada",
+          "source": "structured-place",
+          "matched": "維多利亞",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "United States",
+          "source": "structured-place",
+          "matched": "seattle",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Canada",
+          "source": "structured-place",
+          "matched": "溫哥華",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Canada",
+          "source": "structured-place",
+          "matched": "維多利亞",
+          "confidence": "high"
+        }
+      ],
+      "isMultiCountry": true,
+      "isMultiCity": true,
+      "needsReview": false,
+      "reviewReasons": []
     }
   },
   "media": {

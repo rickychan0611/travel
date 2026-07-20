@@ -9,6 +9,8 @@ const isProtectedRoute = createRouteMatcher([
   '/agent(.*)',
   '/(.+)/bookings(.*)',
   '/bookings(.*)',
+  '/(.+)/profile(.*)',
+  '/profile(.*)',
 ])
 
 export const proxy = clerkMiddleware(async (auth, req) => {

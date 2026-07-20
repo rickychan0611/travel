@@ -289,6 +289,54 @@
         }
       ],
       "isLocalResidentOptional": 0
+    },
+    "location": {
+      "countries": [
+        "Canada"
+      ],
+      "cities": [
+        "Calgary",
+        "Banff"
+      ],
+      "primaryCountry": "Canada",
+      "primaryCity": "Calgary",
+      "confidence": "high",
+      "evidence": [
+        {
+          "kind": "city",
+          "value": "Calgary",
+          "country": "Canada",
+          "source": "structured-place",
+          "matched": "calgary",
+          "confidence": "high"
+        },
+        {
+          "kind": "city",
+          "value": "Banff",
+          "country": "Canada",
+          "source": "structured-place",
+          "matched": "banff",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Canada",
+          "source": "structured-place",
+          "matched": "calgary",
+          "confidence": "high"
+        },
+        {
+          "kind": "country",
+          "value": "Canada",
+          "source": "structured-place",
+          "matched": "banff",
+          "confidence": "high"
+        }
+      ],
+      "isMultiCountry": false,
+      "isMultiCity": true,
+      "needsReview": false,
+      "reviewReasons": []
     }
   },
   "media": {
