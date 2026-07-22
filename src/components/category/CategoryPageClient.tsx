@@ -1,8 +1,9 @@
 'use client'
 
+import { useState } from 'react'
 import Link from 'next/link'
 import type { Route } from 'next'
-import { ChevronLeft, ChevronRight, Filter, Search } from 'lucide-react'
+import { ChevronDown, ChevronLeft, ChevronRight, Filter, Search } from 'lucide-react'
 import { ProductCard } from '@/components/home/ProductCard'
 import { getLocalizedText, type TourCategory } from '@/data/tour-categories'
 import {
@@ -14,6 +15,7 @@ import {
 } from '@/lib/shopify/product-filters'
 import type { CollectionProduct } from '@/lib/shopify/types'
 import { catalogKeywordHref } from '@/lib/catalog-keywords'
+import { cn } from '@/lib/utils'
 
 type Copy = {
   home: string
@@ -83,6 +85,9 @@ function FacetRow({ label, name, options, selected }: { label: string; name: str
 }
 
 function FilterForm({ path, filters, options, copy }: { path: string; filters: ProductFilterState; options: ProductFilterOptions; copy: Copy }) {
+  const activeCount = activeProductFilterCount(filters)
+  const [facetsOpen, setFacetsOpen] = useState(activeCount > 0)
+
   return (
     <form action={path} method="get" className="rounded-md border border-[#e1e5ea] bg-white p-4 shadow-sm">
       <div className="flex flex-col gap-3 md:flex-row">
@@ -99,49 +104,74 @@ function FilterForm({ path, filters, options, copy }: { path: string; filters: P
         <button type="submit" className="h-11 cursor-pointer rounded bg-[#168df0] px-7 text-sm font-semibold text-white hover:bg-[#087edc]">{copy.search}</button>
       </div>
 
-      <FacetRow label={copy.region} name="region" options={options.regions} selected={filters.regions} />
-      <FacetRow label={copy.productType} name="productType" options={options.productTypes} selected={filters.productTypes} />
-      <FacetRow label={copy.departureCountry} name="departureCountry" options={options.departureCountries} selected={filters.departureCountries} />
-      <FacetRow label={copy.departureCity} name="departureCity" options={options.departureCities} selected={filters.departureCities} />
-      <FacetRow label={copy.returnCity} name="returnCity" options={options.returnCities} selected={filters.returnCities} />
-      <FacetRow label={copy.destination} name="destination" options={options.destinations} selected={filters.destinations} />
-      <FacetRow label={copy.label} name="label" options={options.labels} selected={filters.labels} />
-      <FacetRow label={copy.travelDays} name="days" options={options.days} selected={filters.days.map(String)} />
+      <button
+        type="button"
+        onClick={() => setFacetsOpen((open) => !open)}
+        aria-expanded={facetsOpen}
+        className="mt-4 flex w-full cursor-pointer items-center justify-between rounded border border-[#edf0f3] bg-[#f8fafc] px-3 py-2.5 text-sm font-semibold text-[#303133] hover:bg-[#f1f5f9]"
+      >
+        <span className="flex items-center gap-2">
+          <Filter className="h-4 w-4 text-[#168df0]" />
+          {copy.filters}
+          {activeCount > 0 ? (
+            <span className="rounded-full bg-[#168df0] px-2 py-0.5 text-xs font-medium text-white">{activeCount}</span>
+          ) : null}
+        </span>
+        <ChevronDown className={cn('h-4 w-4 text-[#909399] transition-transform', facetsOpen && 'rotate-180')} />
+      </button>
 
-      <div className="grid gap-2 border-t border-[#edf0f3] py-3 md:grid-cols-[150px_1fr]">
-        <span className="text-sm font-medium text-[#303133]">{copy.travelDays}</span>
-        <div className="flex flex-wrap items-center gap-2">
-          <input name="minDays" type="number" min="1" defaultValue={filters.minDays} placeholder={copy.min} className="h-9 w-28 rounded border border-[#d7dce2] px-3 text-sm" />
-          <span className="text-[#909399]">–</span>
-          <input name="maxDays" type="number" min="1" defaultValue={filters.maxDays} placeholder={copy.max} className="h-9 w-28 rounded border border-[#d7dce2] px-3 text-sm" />
+      <div
+        className={cn(
+          'grid transition-[grid-template-rows] duration-200 ease-out',
+          facetsOpen ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]',
+        )}
+      >
+        <div className="overflow-hidden">
+          <FacetRow label={copy.region} name="region" options={options.regions} selected={filters.regions} />
+          <FacetRow label={copy.productType} name="productType" options={options.productTypes} selected={filters.productTypes} />
+          <FacetRow label={copy.departureCountry} name="departureCountry" options={options.departureCountries} selected={filters.departureCountries} />
+          <FacetRow label={copy.departureCity} name="departureCity" options={options.departureCities} selected={filters.departureCities} />
+          <FacetRow label={copy.returnCity} name="returnCity" options={options.returnCities} selected={filters.returnCities} />
+          <FacetRow label={copy.destination} name="destination" options={options.destinations} selected={filters.destinations} />
+          <FacetRow label={copy.label} name="label" options={options.labels} selected={filters.labels} />
+          <FacetRow label={copy.travelDays} name="days" options={options.days} selected={filters.days.map(String)} />
+
+          <div className="grid gap-2 border-t border-[#edf0f3] py-3 md:grid-cols-[150px_1fr]">
+            <span className="text-sm font-medium text-[#303133]">{copy.travelDays}</span>
+            <div className="flex flex-wrap items-center gap-2">
+              <input name="minDays" type="number" min="1" defaultValue={filters.minDays} placeholder={copy.min} className="h-9 w-28 rounded border border-[#d7dce2] px-3 text-sm" />
+              <span className="text-[#909399]">–</span>
+              <input name="maxDays" type="number" min="1" defaultValue={filters.maxDays} placeholder={copy.max} className="h-9 w-28 rounded border border-[#d7dce2] px-3 text-sm" />
+            </div>
+          </div>
+
+          <div className="grid gap-2 border-t border-[#edf0f3] py-3 md:grid-cols-[150px_1fr]">
+            <span className="text-sm font-medium text-[#303133]">{copy.price}</span>
+            <div className="flex flex-wrap items-center gap-2">
+              <input name="minPrice" type="number" min="0" step="0.01" defaultValue={filters.minPrice} placeholder={copy.min} className="h-9 w-32 rounded border border-[#d7dce2] px-3 text-sm" />
+              <span className="text-[#909399]">–</span>
+              <input name="maxPrice" type="number" min="0" step="0.01" defaultValue={filters.maxPrice} placeholder={copy.max} className="h-9 w-32 rounded border border-[#d7dce2] px-3 text-sm" />
+            </div>
+          </div>
+
+          <div className="grid gap-2 border-t border-[#edf0f3] py-3 md:grid-cols-[150px_1fr]">
+            <span className="text-sm font-medium text-[#303133]">{copy.departureDate}</span>
+            <div className="flex flex-wrap items-center gap-2">
+              <input name="departureFrom" type="date" defaultValue={filters.departureFrom} className="h-9 rounded border border-[#d7dce2] px-3 text-sm" />
+              <span className="text-[#909399]">–</span>
+              <input name="departureTo" type="date" defaultValue={filters.departureTo} className="h-9 rounded border border-[#d7dce2] px-3 text-sm" />
+            </div>
+          </div>
+
+          <FacetRow label={copy.transfer} name="transfer" options={options.transfers} selected={filters.transfers} />
+          <FacetRow label={copy.tourFormat} name="tourFormat" options={options.tourFormats} selected={filters.tourFormats} />
+          <FacetRow label={copy.confirm} name="confirm" options={options.confirmMethods} selected={filters.confirmMethods} />
+
+          <div className="flex items-center justify-end gap-3 border-t border-[#edf0f3] pt-4">
+            <Link href={path as Route} className="cursor-pointer text-sm text-[#606266] hover:text-tff-blue">{copy.clear}</Link>
+            <button type="submit" className="cursor-pointer rounded bg-[#168df0] px-6 py-2.5 text-sm font-semibold text-white hover:bg-[#087edc]">{copy.apply}</button>
+          </div>
         </div>
-      </div>
-
-      <div className="grid gap-2 border-t border-[#edf0f3] py-3 md:grid-cols-[150px_1fr]">
-        <span className="text-sm font-medium text-[#303133]">{copy.price}</span>
-        <div className="flex flex-wrap items-center gap-2">
-          <input name="minPrice" type="number" min="0" step="0.01" defaultValue={filters.minPrice} placeholder={copy.min} className="h-9 w-32 rounded border border-[#d7dce2] px-3 text-sm" />
-          <span className="text-[#909399]">–</span>
-          <input name="maxPrice" type="number" min="0" step="0.01" defaultValue={filters.maxPrice} placeholder={copy.max} className="h-9 w-32 rounded border border-[#d7dce2] px-3 text-sm" />
-        </div>
-      </div>
-
-      <div className="grid gap-2 border-t border-[#edf0f3] py-3 md:grid-cols-[150px_1fr]">
-        <span className="text-sm font-medium text-[#303133]">{copy.departureDate}</span>
-        <div className="flex flex-wrap items-center gap-2">
-          <input name="departureFrom" type="date" defaultValue={filters.departureFrom} className="h-9 rounded border border-[#d7dce2] px-3 text-sm" />
-          <span className="text-[#909399]">–</span>
-          <input name="departureTo" type="date" defaultValue={filters.departureTo} className="h-9 rounded border border-[#d7dce2] px-3 text-sm" />
-        </div>
-      </div>
-
-      <FacetRow label={copy.transfer} name="transfer" options={options.transfers} selected={filters.transfers} />
-      <FacetRow label={copy.tourFormat} name="tourFormat" options={options.tourFormats} selected={filters.tourFormats} />
-      <FacetRow label={copy.confirm} name="confirm" options={options.confirmMethods} selected={filters.confirmMethods} />
-
-      <div className="flex items-center justify-end gap-3 border-t border-[#edf0f3] pt-4">
-        <Link href={path as Route} className="cursor-pointer text-sm text-[#606266] hover:text-tff-blue">{copy.clear}</Link>
-        <button type="submit" className="cursor-pointer rounded bg-[#168df0] px-6 py-2.5 text-sm font-semibold text-white hover:bg-[#087edc]">{copy.apply}</button>
       </div>
     </form>
   )
@@ -152,7 +182,6 @@ export function CategoryPageClient({ keyword, category, products, locale, filter
   const description = getLocalizedText(category.description, locale)
   const copy = localeCopy(locale)
   const path = catalogKeywordHref(locale, keyword)
-  const activeCount = activeProductFilterCount(filters)
   const pageHref = (page: number) => {
     const query = productFilterSearchParams(filters, { page })
     return `${path}${query ? `?${query}` : ''}` as Route
@@ -170,14 +199,7 @@ export function CategoryPageClient({ keyword, category, products, locale, filter
       </section>
 
       <section className="mx-auto max-w-[1200px] px-4 py-6">
-        <div className="hidden md:block"><FilterForm path={path} filters={filters} options={filterOptions} copy={copy} /></div>
-        <details className="group md:hidden">
-          <summary className="flex cursor-pointer list-none items-center justify-between rounded-md border border-[#e1e5ea] bg-white p-4 font-semibold text-[#303133]">
-            <span className="flex items-center gap-2"><Filter className="h-4 w-4" />{copy.filters}{activeCount > 0 ? <span className="rounded-full bg-[#168df0] px-2 py-0.5 text-xs text-white">{activeCount}</span> : null}</span>
-            <ChevronRight className="h-4 w-4 transition-transform group-open:rotate-90" />
-          </summary>
-          <div className="mt-2"><FilterForm path={path} filters={filters} options={filterOptions} copy={copy} /></div>
-        </details>
+        <FilterForm path={path} filters={filters} options={filterOptions} copy={copy} />
 
         <div className="my-5 flex items-center justify-between rounded-md border border-[#e5e7eb] bg-white px-4 py-3 text-sm text-[#606266]">
           <span>{total} {copy.tours}</span>
