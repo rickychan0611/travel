@@ -1,8 +1,11 @@
-import { revalidatePath } from 'next/cache'
+import { revalidatePath, revalidateTag } from 'next/cache'
 import { NextResponse } from 'next/server'
 import { assertOwnerUser } from '@/lib/admin/auth'
 import { revalidateStorefrontCaches } from '@/lib/admin/revalidate'
-import { setStorefrontSsrEnabled } from '@/lib/admin/storefront-settings'
+import {
+  setStorefrontSsrEnabled,
+  STOREFRONT_SETTINGS_CACHE_TAG,
+} from '@/lib/admin/storefront-settings'
 
 export async function POST(request: Request) {
   try {
@@ -13,6 +16,7 @@ export async function POST(request: Request) {
     }
 
     const settings = await setStorefrontSsrEnabled(body.ssrEnabled)
+    revalidateTag(STOREFRONT_SETTINGS_CACHE_TAG, { expire: 0 })
     revalidateStorefrontCaches()
     revalidatePath('/', 'layout')
     return NextResponse.json({ ok: true, ...settings })
