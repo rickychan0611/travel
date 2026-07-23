@@ -18,7 +18,6 @@ const LOCALE_LABELS: Record<string, string> = {
 
 export function StatusBar({ locale }: { locale: string }) {
   const t = useTranslations('nav')
-  const th = useTranslations('home')
   const ts = useTranslations('statusBar')
   const currentLocale = useLocale()
   const pathname = usePathname()
@@ -34,7 +33,6 @@ export function StatusBar({ locale }: { locale: string }) {
     <div className="hidden w-full border-b border-[#eee] bg-[#f7f7f7] text-xs text-[#999] md:block">
       <div className="mx-auto flex h-[32px] max-w-[1200px] items-center justify-between px-4">
         <div className="flex items-center gap-2">
-          <span>{th('welcome')}</span>
           <Show when="signed-out">
             <Link href={`/${locale}/login` as Route} className="text-tff-orange hover:underline">
               {t('login')}
