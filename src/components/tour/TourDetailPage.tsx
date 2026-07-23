@@ -326,7 +326,6 @@ export function TourDetailPage({ tour }: Props) {
             )}
 
             <TourCalendar
-              departureDates={departureDates}
               dateMap={dateMap}
               months={months}
               activeMonth={activeMonth}
@@ -334,7 +333,6 @@ export function TourDetailPage({ tour }: Props) {
               selectedDate={selectedDate}
               setSelectedDate={selectDepartureDate}
               currency={tour.currency}
-              fallbackPrice={tour.fromPrice}
             />
           </div>
 
@@ -584,7 +582,6 @@ function OverviewCard({ title, body }: { title: string; body: string }) {
 }
 
 function TourCalendar({
-  departureDates,
   dateMap,
   months,
   activeMonth,
@@ -592,9 +589,7 @@ function TourCalendar({
   selectedDate,
   setSelectedDate,
   currency,
-  fallbackPrice,
 }: {
-  departureDates: TourAvailabilityDay[]
   dateMap: Map<string, TourAvailabilityDay>
   months: string[]
   activeMonth: string
@@ -602,7 +597,6 @@ function TourCalendar({
   selectedDate: string | null
   setSelectedDate: (date: string) => void
   currency: string
-  fallbackPrice: number
 }) {
   const t = useTranslations('tourDetail')
   const tc = useTranslations('calendar')
@@ -632,12 +626,7 @@ function TourCalendar({
           <p>{t('calendarHintSelect')}</p>
         </div>
         <div className="flex overflow-x-auto border-b">
-          {months.map((monthValue) => {
-            const monthDays = departureDates.filter((date) => date.date.startsWith(monthValue) && date.available)
-            const lowest = monthDays.length > 0
-              ? Math.min(...monthDays.map((date) => date.lowestPrice))
-              : fallbackPrice
-            return (
+          {months.map((monthValue) => (
               <button
                 key={monthValue}
                 type="button"
@@ -645,10 +634,8 @@ function TourCalendar({
                 className={`min-w-[92px] px-3 py-2 text-center ${activeMonth === monthValue ? 'border-b-2 border-[#1683e9]' : ''}`}
               >
                 <b className={activeMonth === monthValue ? 'text-[#1683e9]' : ''}>{monthLabel(monthValue)}</b>
-                <p className="text-[12px] text-[#ff5b00]">{money(lowest, currency, locale)}</p>
               </button>
-            )
-          })}
+          ))}
         </div>
         <div className="grid grid-cols-7 border-l border-t text-[12px]">
           {weekdays.map((day) => (

@@ -189,8 +189,12 @@ export function CategoryPageClient({ keyword, category, products, locale, filter
 
   return (
     <main className="bg-[#f5f7fa]">
-      <section className="relative overflow-hidden bg-[#10253f] text-white">
-        <div className="absolute inset-0 bg-cover bg-center opacity-45" style={{ backgroundImage: `url(${category.heroImage})` }} />
+      <section className="relative overflow-hidden text-white">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: 'url(/tff/category-hero-banner.png)' }}
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#10253f]/80 via-[#10253f]/55 to-[#10253f]/25" />
         <div className="relative mx-auto max-w-[1200px] px-4 py-12 md:py-16">
           <nav className="mb-4 text-sm text-white/75"><Link href={`/${locale}` as Route} className="hover:text-white">{copy.home}</Link><span className="mx-2">/</span><span>{title}</span></nav>
           <h1 className="max-w-3xl text-3xl font-bold md:text-5xl">{title}</h1>
