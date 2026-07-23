@@ -5,6 +5,8 @@ import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
+import { getLandingPageContent } from '@/lib/admin/homepage-admin'
+import { DEFAULT_HEADER_LOGO_PATH } from '@/lib/homepage/types'
 
 export default async function LocaleLayout({
   children,
@@ -17,11 +19,15 @@ export default async function LocaleLayout({
   if (!routing.locales.includes(locale as typeof routing.locales[number])) {
     notFound()
   }
-  const messages = await getMessages()
+  const [messages, landing] = await Promise.all([
+    getMessages(),
+    getLandingPageContent(locale).catch(() => null),
+  ])
+  const logoUrl = landing?.headerLogo?.url || DEFAULT_HEADER_LOGO_PATH
   return (
     <NextIntlClientProvider messages={messages}>
       <StatusBar locale={locale} />
-      <Header locale={locale} />
+      <Header locale={locale} logoUrl={logoUrl} hotlineLines={landing?.hotlineLines} />
       <main className="flex-1 bg-white">{children}</main>
       <Footer locale={locale} />
       {/* Floating contact sidebar is intentionally hidden. */}

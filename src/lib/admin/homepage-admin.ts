@@ -4,6 +4,8 @@ import { shopifyAdminClient } from '@/lib/shopify/admin-client'
 import { SHOPIFY_CACHE_REVALIDATE_SECONDS, SHOPIFY_CACHE_TAGS } from '@/lib/shopify/cache'
 import { deleteAdminMetaobject, updateAdminMetaobject, upsertAdminMetaobject } from '@/lib/admin/shopify-admin'
 import {
+  DEFAULT_HOTLINE_LINES_BY_LOCALE,
+  HOTLINE_LOCALE_FIELD_SUFFIXES,
   HOMEPAGE_METAOBJECT_TYPES,
   homepageTitles,
   localizedHomepageTitle,
@@ -128,7 +130,7 @@ type DefinitionField = [key: string, name: string, type: string, referenceType?:
 type Definition = { type: string; name: string; fields: DefinitionField[] }
 
 export const HOMEPAGE_DEFINITIONS: Definition[] = [
-  { type: HOMEPAGE_METAOBJECT_TYPES.config, name: 'Homepage Config', fields: [['initialized', 'Initialized', 'boolean'], ['schema_version', 'Schema version', 'number_integer']] },
+  { type: HOMEPAGE_METAOBJECT_TYPES.config, name: 'Homepage Config', fields: [['initialized', 'Initialized', 'boolean'], ['schema_version', 'Schema version', 'number_integer'], ['header_logo', 'Header logo', 'file_reference'], ...Object.entries(HOTLINE_LOCALE_FIELD_SUFFIXES).flatMap(([locale, suffix]) => DEFAULT_HOTLINE_LINES_BY_LOCALE.en.map((_, index) => [`hotline_line_${index + 1}_${suffix}`, `Hotline line ${index + 1} (${locale})`, 'single_line_text_field'] as DefinitionField))] },
   { type: HOMEPAGE_METAOBJECT_TYPES.hero, name: 'Homepage Hero Slide', fields: localizedFields([['image', 'Image', 'file_reference'], ['link_enabled', 'Link banner', 'boolean'], ['category_slug', 'Category slug', 'single_line_text_field'], ['position', 'Position', 'number_integer']]) },
   { type: HOMEPAGE_METAOBJECT_TYPES.destinationGroup, name: 'Homepage Destination Group', fields: localizedFields([['position', 'Position', 'number_integer']]) },
   { type: HOMEPAGE_METAOBJECT_TYPES.destinationLink, name: 'Homepage Destination Link', fields: localizedFields([['group', 'Destination group', 'metaobject_reference', HOMEPAGE_METAOBJECT_TYPES.destinationGroup], ['category_slug', 'Category slug', 'single_line_text_field'], ['position', 'Position', 'number_integer']]) },
@@ -156,6 +158,8 @@ export function buildHomepageDefinitionField(
       ? [{ name: 'list.max', value: '6' }]
       : type === 'metaobject_reference'
         ? [{ name: 'metaobject_definition_id', value: definitionIds.get(referenceType || '') || '' }]
+      : key.startsWith('hotline_line_')
+        ? [{ name: 'max', value: '18' }]
       : undefined
   if (type === 'metaobject_reference' && !validations?.[0]?.value) {
     throw new Error(`Homepage definition ${key} is missing its target metaobject definition`)
@@ -225,8 +229,26 @@ function order(record: HomepageMetaobjectRecord) {
 
 export async function getLandingPageContent(locale: string, cached = true): Promise<LandingPageContent> {
   const records = await loadHomepageRecords(cached)
-  const initialized = records.some((record) => record.type === HOMEPAGE_METAOBJECT_TYPES.config && record.fields.initialized === 'true')
-  if (!initialized) return { initialized: false, heroSlides: [], destinationGroups: [], seasonItems: [], tourSections: [] }
+  const configRecord = records.find((record) => record.type === HOMEPAGE_METAOBJECT_TYPES.config && (record.handle === 'main' || record.fields.initialized === 'true'))
+    || records.find((record) => record.type === HOMEPAGE_METAOBJECT_TYPES.config)
+  const initialized = Boolean(configRecord && configRecord.fields.initialized === 'true')
+  const headerLogo = configRecord?.images.header_logo || null
+  const hotlineLinesByLocale = Object.fromEntries(Object.entries(HOTLINE_LOCALE_FIELD_SUFFIXES).map(([supportedLocale, suffix]) => {
+    const localeKey = supportedLocale as keyof typeof DEFAULT_HOTLINE_LINES_BY_LOCALE
+    const lines = DEFAULT_HOTLINE_LINES_BY_LOCALE[localeKey].map((fallback, index) => {
+      const localizedKey = `hotline_line_${index + 1}_${suffix}`
+      const legacyKey = `hotline_line_${index + 1}`
+      if (configRecord && Object.hasOwn(configRecord.fields, localizedKey)) return configRecord.fields[localizedKey]
+      if (configRecord && Object.hasOwn(configRecord.fields, legacyKey)) return configRecord.fields[legacyKey]
+      return fallback
+    })
+    return [supportedLocale, lines]
+  })) as LandingPageContent['hotlineLinesByLocale']
+  const localeKey = locale === 'zh-TW' ? 'zh-TW' : locale === 'zh-CN' ? 'zh-CN' : 'en'
+  const hotlineLines = hotlineLinesByLocale[localeKey]
+  if (!initialized) {
+    return { initialized: false, headerLogo, hotlineLines, hotlineLinesByLocale, heroSlides: [], destinationGroups: [], seasonItems: [], tourSections: [] }
+  }
 
   const heroSlides = records.filter((record) => record.type === HOMEPAGE_METAOBJECT_TYPES.hero).sort((a, b) => order(a) - order(b)).map((record) => ({
     id: record.id, title: localizedHomepageTitle(record.fields, locale), titles: homepageTitles(record.fields), categorySlug: record.fields.category_slug || '', linkEnabled: record.fields.link_enabled ? record.fields.link_enabled === 'true' : Boolean(record.fields.category_slug), position: order(record), image: record.images.image || null,
@@ -270,7 +292,7 @@ export async function getLandingPageContent(locale: string, cached = true): Prom
     categories: categories.filter((category) => category.sectionId === record.id),
   }))
 
-  return { initialized, heroSlides, destinationGroups, seasonItems, tourSections }
+  return { initialized, headerLogo, hotlineLines, hotlineLinesByLocale, heroSlides, destinationGroups, seasonItems, tourSections }
 }
 
 export async function ensureHomepageDefinitions() {

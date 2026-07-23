@@ -1,21 +1,26 @@
 import { AdminPageHeader, AdminPanel } from '@/components/admin/AdminCards'
 import { listAdminOrders } from '@/lib/admin/shopify-admin'
+import { getTranslations } from 'next-intl/server'
 
 export const dynamic = 'force-dynamic'
 
 export default async function AdminOrdersPage({
   searchParams,
+  params,
 }: {
   searchParams: Promise<{ q?: string }>
+  params: Promise<{ locale: string }>
 }) {
+  const { locale } = await params
+  const t = await getTranslations({ locale, namespace: 'admin' })
   const { q } = await searchParams
   const orders = await listAdminOrders({ q, first: 50 })
 
   return (
     <>
       <AdminPageHeader
-        title="Orders"
-        description="Read-only Shopify order visibility for tour operations. Payment capture, refunds, and compliance remain in Shopify Checkout/Admin."
+        title={t('ordersTitle')}
+        description={t('ordersDesc')}
       />
       <AdminPanel>
         <form className="mb-4 flex gap-2">
@@ -23,9 +28,9 @@ export default async function AdminOrdersPage({
             name="q"
             defaultValue={q ?? ''}
             className="h-10 min-w-0 flex-1 rounded-lg border border-slate-300 bg-white px-3 text-sm text-slate-950"
-            placeholder="Search Shopify orders, email, customer..."
+            placeholder={t('ordersSearchPlaceholder')}
           />
-          <button className="rounded-lg bg-slate-950 px-4 text-sm font-semibold text-white">Search</button>
+          <button className="rounded-lg bg-slate-950 px-4 text-sm font-semibold text-white">{t('search')}</button>
         </form>
         <div className="space-y-3">
           {orders.map((order) => (
@@ -54,7 +59,7 @@ export default async function AdminOrdersPage({
               </div>
             </a>
           ))}
-          {orders.length === 0 ? <p className="text-sm text-slate-600">No orders found.</p> : null}
+          {orders.length === 0 ? <p className="text-sm text-slate-600">{t('noOrdersFound')}</p> : null}
         </div>
       </AdminPanel>
     </>

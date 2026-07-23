@@ -8,6 +8,10 @@ export const CART_CREATE_MUTATION = `#graphql
       cart {
         id
         checkoutUrl
+        cost {
+          subtotalAmount { amount currencyCode }
+          totalAmount { amount currencyCode }
+        }
       }
       userErrors {
         field

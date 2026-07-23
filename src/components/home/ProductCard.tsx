@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { useTranslations } from 'next-intl'
 import type { Route } from 'next'
 import type { CollectionProduct } from '@/lib/shopify/types'
+import { formatMoney } from '@/lib/money'
 
 export function ProductCard({
   product,
@@ -19,7 +20,7 @@ export function ProductCard({
   const title = product.localizedTitle ?? product.title
   const place = product.localizedPlace ?? product.productType.replace(/-/g, ' ')
   const { amount, currencyCode } = product.priceRange.minVariantPrice
-  const price = parseFloat(amount).toFixed(0)
+  const price = formatMoney(amount, currencyCode, locale)
   const href = `/${locale}/tours/${product.handle}` as Route
   const isMock = product.id.startsWith('mock-')
   const resolvedHref = isMock ? (`/${locale}/tours` as Route) : href
@@ -48,7 +49,6 @@ export function ProductCard({
             <div className="mt-3 flex items-baseline gap-1">
               <span className="text-sm text-white/75">{t('from')}</span>
               <span className="text-2xl font-bold text-white">
-                {currencyCode === 'USD' ? '$' : `${currencyCode} `}
                 {price}
               </span>
               <span className="text-sm text-white/75">{t('perPerson')}</span>
@@ -87,7 +87,6 @@ export function ProductCard({
         <div className="mt-auto pt-3">
           <span className="text-sm text-[#909399]">{t('from')} </span>
           <span className="text-lg font-bold text-tff-orange">
-            {currencyCode === 'USD' ? '$' : `${currencyCode} `}
             {price}
           </span>
           <span className="text-sm text-[#909399]">{t('perPerson')}</span>

@@ -1,15 +1,18 @@
 import { AdminPageHeader, AdminPanel } from '@/components/admin/AdminCards'
 import { AdminSyncForm } from '@/components/admin/AdminSyncForm'
 import { getAdminUser } from '@/lib/admin/auth'
+import { getTranslations } from 'next-intl/server'
 
 export const dynamic = 'force-dynamic'
 
-export default async function AdminSyncPage() {
+export default async function AdminSyncPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params
+  const t = await getTranslations({ locale, namespace: 'admin' })
   const user = await getAdminUser()
   if (!user?.isOwner) {
     return (
-      <AdminPanel title="Owner access required">
-        <p className="text-sm text-slate-700">Sync can overwrite Shopify content and is restricted to owner accounts.</p>
+      <AdminPanel title={t('ownerRequired')}>
+        <p className="text-sm text-slate-700">{t('syncOwnerOnly')}</p>
       </AdminPanel>
     )
   }
@@ -17,10 +20,10 @@ export default async function AdminSyncPage() {
   return (
     <>
       <AdminPageHeader
-        title="ToursBMS sync"
-        description="Import product IDs, extract localized JSON, dry-run payloads, or apply updates to Shopify. Manual edits are preserved unless the sync script is explicitly changed to overwrite them."
+        title={t('syncTitle')}
+        description={t('syncDesc')}
       />
-      <AdminPanel title="Run sync job" description="For large batches, keep this page open. Production should later move this to a durable queue.">
+      <AdminPanel title={t('runSyncJob')} description={t('runSyncJobDesc')}>
         <AdminSyncForm />
       </AdminPanel>
     </>

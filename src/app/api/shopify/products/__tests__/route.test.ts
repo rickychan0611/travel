@@ -70,7 +70,7 @@ describe('GET /api/shopify/products', () => {
 
     expect(requestSpy).toHaveBeenCalledWith(
       expect.any(String),
-      expect.objectContaining({ variables: { handle: 'hot-seasonal', first: 10 } })
+      expect.objectContaining({ variables: { handle: 'hot-seasonal', first: 10, country: 'US' } })
     )
   })
 
@@ -82,7 +82,7 @@ describe('GET /api/shopify/products', () => {
 
     expect(requestSpy).toHaveBeenCalledWith(
       expect.any(String),
-      expect.objectContaining({ variables: { handle: 'hot-seasonal', first: 20 } })
+      expect.objectContaining({ variables: { handle: 'hot-seasonal', first: 20, country: 'US' } })
     )
   })
 

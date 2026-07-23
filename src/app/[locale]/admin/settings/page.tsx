@@ -3,6 +3,7 @@ import { AdminPageHeader, AdminPanel } from '@/components/admin/AdminCards'
 import { StorefrontRenderingToggle } from '@/components/admin/StorefrontRenderingToggle'
 import { getAdminUser } from '@/lib/admin/auth'
 import { getStorefrontSettings } from '@/lib/admin/storefront-settings'
+import { getTranslations } from 'next-intl/server'
 
 export const dynamic = 'force-dynamic'
 
@@ -12,11 +13,12 @@ export default async function AdminSettingsPage({
   params: Promise<{ locale: string }>
 }) {
   const { locale } = await params
+  const t = await getTranslations({ locale, namespace: 'admin' })
   const user = await getAdminUser()
   if (!user?.isOwner) {
     return (
-      <AdminPanel title="Owner access required">
-        <p className="text-sm text-slate-700">Settings are restricted to owner accounts.</p>
+      <AdminPanel title={t('ownerRequired')}>
+        <p className="text-sm text-slate-700">{t('settingsOwnerOnly')}</p>
       </AdminPanel>
     )
   }
@@ -25,29 +27,29 @@ export default async function AdminSettingsPage({
   return (
     <>
       <AdminPageHeader
-        title="Settings"
-        description="Operational controls for cache refresh and Shopify connection health."
+        title={t('settingsTitle')}
+        description={t('settingsDesc')}
       />
       <div className="grid gap-4 lg:grid-cols-2">
-        <AdminPanel title="Storefront rendering" description="Control whether Shopify storefront data is cached. SSR is enabled by default during local development.">
+        <AdminPanel title={t('storefrontRendering')} description={t('storefrontRenderingDesc')}>
           <StorefrontRenderingToggle initialEnabled={storefrontSettings.ssrEnabled} />
         </AdminPanel>
-        <AdminPanel title="Cache refresh" description="Refresh Shopify product lists, tour pages, category pages, and product cards.">
+        <AdminPanel title={t('cacheRefresh')} description={t('cacheRefreshDesc')}>
           <CacheRefreshForm locale={locale} />
         </AdminPanel>
-        <AdminPanel title="Shopify connection">
+        <AdminPanel title={t('shopifyConnectionTitle')}>
           <dl className="space-y-3 text-sm">
             <div>
-              <dt className="text-slate-500">Store domain</dt>
-              <dd className="font-mono text-slate-900">{process.env.NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN || 'Missing'}</dd>
+              <dt className="text-slate-500">{t('storeDomain')}</dt>
+              <dd className="font-mono text-slate-900">{process.env.NEXT_PUBLIC_SHOPIFY_STORE_DOMAIN || t('missing')}</dd>
             </div>
             <div>
-              <dt className="text-slate-500">Admin API version</dt>
+              <dt className="text-slate-500">{t('adminApiVersion')}</dt>
               <dd className="font-mono text-slate-900">{process.env.SHOPIFY_ADMIN_API_VERSION || '2026-01'}</dd>
             </div>
             <div>
-              <dt className="text-slate-500">Admin token</dt>
-              <dd className="font-mono text-slate-900">{process.env.SHOPIFY_ADMIN_ACCESS_TOKEN ? 'Configured' : 'Missing'}</dd>
+              <dt className="text-slate-500">{t('adminToken')}</dt>
+              <dd className="font-mono text-slate-900">{process.env.SHOPIFY_ADMIN_ACCESS_TOKEN ? t('configured') : t('missing')}</dd>
             </div>
           </dl>
         </AdminPanel>

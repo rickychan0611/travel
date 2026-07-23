@@ -1,8 +1,10 @@
 'use client'
 
 import { useState } from 'react'
+import { useTranslations } from 'next-intl'
 
 export function CacheRefreshForm({ locale }: { locale: string }) {
+  const t = useTranslations('admin')
   const [handle, setHandle] = useState('')
   const [message, setMessage] = useState('')
   const [pending, setPending] = useState(false)
@@ -18,13 +20,13 @@ export function CacheRefreshForm({ locale }: { locale: string }) {
     })
     const json = await response.json()
     setPending(false)
-    setMessage(json.ok ? 'Cache refresh queued.' : json.error || 'Cache refresh failed.')
+    setMessage(json.ok ? t('cacheQueued') : json.error || t('cacheFailed'))
   }
 
   return (
     <form onSubmit={submit} className="space-y-3">
       <label className="block">
-        <span className="text-sm text-slate-700">Optional product handle</span>
+        <span className="text-sm text-slate-700">{t('optionalHandle')}</span>
         <input
           value={handle}
           onChange={(event) => setHandle(event.target.value)}
@@ -33,7 +35,7 @@ export function CacheRefreshForm({ locale }: { locale: string }) {
         />
       </label>
       <button className="rounded-lg bg-slate-950 px-4 py-2 text-sm font-semibold text-white" disabled={pending}>
-        {pending ? 'Refreshing...' : 'Refresh storefront cache'}
+        {pending ? t('refreshing') : t('refreshCache')}
       </button>
       {message ? <p className="text-sm text-slate-700">{message}</p> : null}
     </form>

@@ -12,7 +12,7 @@ import { isIsoCalendarDate } from '@/lib/toursbms/date'
 import { extractDepartureSectionHtml } from '@/lib/toursbms/rich-content'
 
 const TOUR_PRODUCT_QUERY = `#graphql
-  query TourProduct($id: ID!, $variantsAfter: String) {
+  query TourProduct($id: ID!, $variantsAfter: String, $country: CountryCode!) @inContext(country: $country) {
     product(id: $id) {
       id
       handle
@@ -21,7 +21,6 @@ const TOUR_PRODUCT_QUERY = `#graphql
       tags
       productType
       vendor
-      status
       media(first: 30) {
         nodes {
           ... on MediaImage {
@@ -38,8 +37,8 @@ const TOUR_PRODUCT_QUERY = `#graphql
           id
           title
           sku
-          price
-          inventoryQuantity
+          price { amount currencyCode }
+          availableForSale
           selectedOptions {
             name
             value
@@ -118,7 +117,6 @@ type ShopifyTourProduct = {
   tags: string[]
   productType: string
   vendor: string
-  status: string
   media: { nodes: Array<{ id?: string; image?: { url: string; altText: string | null } | null }> }
   variants: {
     nodes: ShopifyVariant[]
@@ -146,8 +144,8 @@ type ShopifyVariant = {
   id: string
   title: string
   sku?: string | null
-  price: string
-  inventoryQuantity: number | null
+  price: { amount: string; currencyCode: string }
+  availableForSale: boolean
   selectedOptions: Array<{ name: string; value: string }>
   priceType?: { value: string } | null
   travelerType?: { value: string } | null
@@ -280,7 +278,7 @@ function buildAvailability(product: ShopifyTourProduct, departureRows: Metaobjec
     if (!isIsoCalendarDate(date) || !label) continue
 
     const departure = departuresByDate.get(date)
-    const amount = numberValue(variant.price)
+    const amount = numberValue(variant.price.amount)
     const price: TourPrice = {
       priceType: priceTypeFromVariant(variant),
       travelerType: travelerTypeFromVariant(variant),
@@ -294,17 +292,17 @@ function buildAvailability(product: ShopifyTourProduct, departureRows: Metaobjec
     if (existing) {
       existing.prices.push(price)
       existing.lowestPrice = Math.min(existing.lowestPrice, amount)
-      existing.available = existing.available || product.status === 'ACTIVE'
+      existing.available = existing.available || variant.availableForSale
       existing.status = existing.available ? existing.status : 'sold-out'
       continue
     }
 
-    const remainingStock = numberValue(departure?.remaining_stock, variant.inventoryQuantity ?? 0)
+    const remainingStock = numberValue(departure?.remaining_stock, 0)
     const pricingMode = product.variants.nodes.some((candidate) => {
       const type = priceTypeFromVariant(candidate)
       return type >= 3 && type <= 6
     }) ? 'room_occupancy' : 'per_person'
-    const available = product.status === 'ACTIVE' && (departure?.status !== 'closed')
+    const available = variant.availableForSale && (departure?.status !== 'closed')
     grouped.set(date, {
       date,
       available,
@@ -438,6 +436,7 @@ export async function getShopifyTourProductByHandle(
   manifest: SyncManifest,
   _requestedHandle: string,
   locale: string,
+  countryCode = 'US',
 ): Promise<TourDetailData | null> {
   if (!manifest.shopifyProductId) return null
   let after: string | null = null
@@ -446,7 +445,7 @@ export async function getShopifyTourProductByHandle(
 
   do {
     const response: { data?: ShopifyTourProductResponse; errors?: unknown } = await client.request<ShopifyTourProductResponse>(TOUR_PRODUCT_QUERY, {
-      variables: { id: manifest.shopifyProductId, variantsAfter: after },
+      variables: { id: manifest.shopifyProductId, variantsAfter: after, country: countryCode },
       // Departure status, capacity, and price variants are operational data.
       // Always read them from Shopify so a saved room rate is immediately
       // selectable and checkout totals cannot be calculated from stale data.
@@ -469,11 +468,7 @@ export async function getShopifyTourProductByHandle(
   }
 
   const productCode = metaValue(shopifyProduct.productCode) || manifest.productCode || ''
-  const availabilitySummary = parseJson<{ supportedCurrencies?: Array<{ currencyNum?: string }> }>(
-    metaValue(shopifyProduct.availabilitySummary),
-    {},
-  )
-  const currency = availabilitySummary.supportedCurrencies?.[0]?.currencyNum || 'USD'
+  const currency = shopifyProduct.variants.nodes[0]?.price.currencyCode || 'USD'
   const departureRows = metaobjects(shopifyProduct.departureRefs)
   const availability = buildAvailability(shopifyProduct, departureRows, currency)
   const basePrices = buildBasePrices(availability)

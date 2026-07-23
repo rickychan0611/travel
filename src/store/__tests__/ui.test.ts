@@ -2,17 +2,17 @@ import { describe, it, expect, beforeEach } from 'vitest'
 import { useUIStore } from '../ui'
 
 beforeEach(() => {
-  useUIStore.setState({ currency: 'USD', mobileMenuOpen: false })
+  useUIStore.setState({ market: { countryCode: 'US', countryName: 'United States', currencyCode: 'USD' }, mobileMenuOpen: false })
 })
 
-describe('ui store — currency', () => {
+describe('ui store — market', () => {
   it('defaults to USD', () => {
-    expect(useUIStore.getState().currency).toBe('USD')
+    expect(useUIStore.getState().market.currencyCode).toBe('USD')
   })
 
-  it('updates currency via setCurrency', () => {
-    useUIStore.getState().setCurrency('CAD')
-    expect(useUIStore.getState().currency).toBe('CAD')
+  it('updates market via setMarket', () => {
+    useUIStore.getState().setMarket({ countryCode: 'CA', countryName: 'Canada', currencyCode: 'CAD' })
+    expect(useUIStore.getState().market.countryCode).toBe('CA')
   })
 })
 

@@ -14,7 +14,13 @@ import { MEGA_NAV } from '@/data/home-mock'
 import { getLocalizedText } from '@/data/tour-categories'
 import { catalogKeywordHref } from '@/lib/catalog-keywords'
 
-export function MobileMenu({ locale }: { locale: string }) {
+export function MobileMenu({
+  locale,
+  logoUrl = '/tff/header-logo.png',
+}: {
+  locale: string
+  logoUrl?: string
+}) {
   const open = useUIStore((s) => s.mobileMenuOpen)
   const setOpen = useUIStore((s) => s.setMobileMenuOpen)
   const pathname = usePathname()
@@ -42,7 +48,13 @@ export function MobileMenu({ locale }: { locale: string }) {
       >
         <div className="flex flex-col gap-1 p-5 flex-1 overflow-y-auto">
           <Link href={`/${locale}` as Route} className="mb-3 block cursor-pointer">
-            <Image src="/tff/header-logo.png" alt="途风" width={110} height={28} className="h-7 w-auto" />
+            <Image
+              src={logoUrl}
+              alt="途风"
+              width={110}
+              height={28}
+              className="h-7 w-auto"
+            />
           </Link>
 
           <nav className="mb-4 flex flex-col gap-0.5">

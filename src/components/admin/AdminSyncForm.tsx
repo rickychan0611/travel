@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from 'react'
+import { useTranslations } from 'next-intl'
 
 type SyncResult = {
   ok: boolean
@@ -11,9 +12,10 @@ type SyncResult = {
 }
 
 export function AdminSyncForm() {
+  const t = useTranslations('admin')
   const [ids, setIds] = useState('')
   const [mode, setMode] = useState<'dry-run' | 'extract-only' | 'apply'>('dry-run')
-  const [publish, setPublish] = useState('')
+  const [publish, setPublish] = useState('Travel Website Development')
   const [locales, setLocales] = useState('en,zh-CN,zh-TW')
   const [overwrite, setOverwrite] = useState(false)
   const [running, setRunning] = useState(false)
@@ -40,7 +42,7 @@ export function AdminSyncForm() {
   return (
     <form onSubmit={submit} className="space-y-5">
       <label className="block">
-        <span className="text-sm font-medium text-slate-800">ToursBMS product IDs</span>
+        <span className="text-sm font-medium text-slate-800">{t('productIds')}</span>
         <textarea
           value={ids}
           onChange={(event) => setIds(event.target.value)}
@@ -52,19 +54,19 @@ export function AdminSyncForm() {
 
       <div className="grid gap-4 md:grid-cols-3">
         <label className="block">
-          <span className="text-sm font-medium text-slate-800">Mode</span>
+          <span className="text-sm font-medium text-slate-800">{t('mode')}</span>
           <select
             value={mode}
             onChange={(event) => setMode(event.target.value as 'dry-run' | 'extract-only' | 'apply')}
             className="mt-2 h-10 w-full rounded-lg border border-slate-300 bg-white px-3 text-sm text-slate-950"
           >
-            <option value="dry-run">Dry run</option>
-            <option value="extract-only">Extract only</option>
-            <option value="apply">Apply to Shopify</option>
+            <option value="dry-run">{t('dryRun')}</option>
+            <option value="extract-only">{t('extractOnly')}</option>
+            <option value="apply">{t('applyShopify')}</option>
           </select>
         </label>
         <label className="block">
-          <span className="text-sm font-medium text-slate-800">Locales</span>
+          <span className="text-sm font-medium text-slate-800">{t('locales')}</span>
           <input
             value={locales}
             onChange={(event) => setLocales(event.target.value)}
@@ -72,12 +74,12 @@ export function AdminSyncForm() {
           />
         </label>
         <label className="block">
-          <span className="text-sm font-medium text-slate-800">Publish target</span>
+          <span className="text-sm font-medium text-slate-800">{t('publishTarget')}</span>
           <input
             value={publish}
             onChange={(event) => setPublish(event.target.value)}
             className="mt-2 h-10 w-full rounded-lg border border-slate-300 bg-white px-3 text-sm text-slate-950"
-            placeholder="Optional, e.g. Headless"
+            placeholder={t('publishPlaceholder')}
           />
         </label>
       </div>
@@ -90,7 +92,7 @@ export function AdminSyncForm() {
           className="mt-0.5 size-4"
         />
         <span>
-          Overwrite editable Shopify content from ToursBMS. Leave this off for normal reruns so manual admin edits are preserved.
+          {t('overwriteWarning')}
         </span>
       </label>
 
@@ -99,13 +101,13 @@ export function AdminSyncForm() {
         disabled={running}
         className="inline-flex h-10 items-center rounded-lg bg-slate-950 px-4 text-sm font-semibold text-white disabled:opacity-60"
       >
-        {running ? 'Running sync...' : 'Run sync'}
+        {running ? t('runningSync') : t('runSync')}
       </button>
 
       {result ? (
         <div className="rounded-lg border border-slate-200 bg-slate-50 p-4">
           <div className={result.ok ? 'text-sm font-medium text-emerald-700' : 'text-sm font-medium text-rose-700'}>
-            {result.ok ? 'Completed' : 'Failed'}
+            {result.ok ? t('completed') : t('failed')}
           </div>
           {result.command ? <pre className="mt-3 overflow-x-auto text-xs text-slate-600">{result.command.join(' ')}</pre> : null}
           {result.error ? <pre className="mt-3 whitespace-pre-wrap text-xs text-rose-700">{result.error}</pre> : null}

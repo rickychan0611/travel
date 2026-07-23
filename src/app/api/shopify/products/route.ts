@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { shopifyClient } from '@/lib/shopify/client'
 import { COLLECTION_PRODUCTS_QUERY } from '@/lib/shopify/queries/product'
+import { getShopifyLocalization, selectMarketCountry } from '@/lib/shopify/market'
 
 export async function GET(request: NextRequest) {
   const { searchParams } = new URL(request.url)
@@ -12,8 +13,13 @@ export async function GET(request: NextRequest) {
   }
 
   try {
+    const requestedCountry = searchParams.get('country')
+    const localization = requestedCountry ? await getShopifyLocalization() : null
+    const country = localization
+      ? (selectMarketCountry(localization.availableCountries, requestedCountry)?.isoCode ?? localization.country.isoCode)
+      : (process.env.NEXT_PUBLIC_DEFAULT_COUNTRY || 'US').toUpperCase()
     const { data, errors } = await shopifyClient.request(COLLECTION_PRODUCTS_QUERY, {
-      variables: { handle: collection, first },
+      variables: { handle: collection, first, country },
     })
 
     if (errors) {

@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import { HelpCircle } from 'lucide-react'
+import { getTranslations } from 'next-intl/server'
 import { AdminActionForm } from '@/components/admin/AdminActionForm'
 import { AdminPageHeader, AdminPanel } from '@/components/admin/AdminCards'
 import { ConfirmSubmitButton } from '@/components/admin/ConfirmSubmitButton'
@@ -203,6 +204,7 @@ export default async function AdminProductDetailPage({
   searchParams: Promise<{ contentLocale?: string }>
 }) {
   const { locale, handle } = await params
+  const t = await getTranslations({ locale, namespace: 'admin' })
   const { contentLocale: requestedContentLocale } = await searchParams
   const contentLocale = locales.some(([value]) => value === requestedContentLocale) ? requestedContentLocale! : 'en'
   const product = await getAdminProductByHandle(handle)
@@ -270,13 +272,13 @@ export default async function AdminProductDetailPage({
             <Link className="rounded-lg border border-slate-300 px-3 py-2 text-sm text-slate-700 hover:bg-slate-100" href={`/${locale}/tours/${product.handle}`} target="_blank">
               View storefront
             </Link>
-            {product.adminUrl ? <a className="rounded-lg bg-slate-950 px-3 py-2 text-sm font-semibold text-white" href={product.adminUrl} target="_blank" rel="noreferrer">Open Shopify</a> : null}
+            {product.adminUrl ? <a className="rounded-lg bg-slate-950 px-3 py-2 text-sm font-semibold text-white" href={product.adminUrl} target="_blank" rel="noreferrer">{t('detailOpenShopify')}</a> : null}
           </div>
         }
       />
 
       <div className="space-y-4">
-        <AdminPanel title="Overview" description="Operational settings. Customer-facing text is in the Content section below." collapsible defaultOpen>
+        <AdminPanel title={t('detailOverview')} description="Operational settings. Customer-facing text is in the Content section below." collapsible defaultOpen>
           <AdminActionForm action={saveOverview} submitLabel="Save overview" className="grid gap-4 md:grid-cols-2">
             <input type="hidden" name="locale" value={locale} />
             <input type="hidden" name="productId" value={product.id} />
@@ -389,7 +391,7 @@ export default async function AdminProductDetailPage({
           </AdminActionForm>
         </AdminPanel>
 
-        <AdminPanel title="Content" description={contentLocale === 'en' ? 'English is the default storefront content and also updates the Shopify product title/description.' : 'Translation content is stored in Shopify content records.'} collapsible>
+        <AdminPanel title={t('detailContent')} description={contentLocale === 'en' ? 'English is the default storefront content and also updates the Shopify product title/description.' : 'Translation content is stored in Shopify content records.'} collapsible>
           <LocaleTabs locale={locale} handle={product.handle} contentLocale={contentLocale} />
           <AdminActionForm action={saveContentAction} submitLabel="Save content" className="space-y-4">
             <HiddenContext locale={locale} contentLocale={contentLocale} handle={product.handle} product={product} />
@@ -400,7 +402,7 @@ export default async function AdminProductDetailPage({
           </AdminActionForm>
         </AdminPanel>
 
-        <AdminPanel title="Highlights" description="Add, edit, delete, and reorder customer-facing highlight sentences." collapsible>
+        <AdminPanel title={t('detailHighlights')} description="Add, edit, delete, and reorder customer-facing highlight sentences." collapsible>
           <HighlightsEditor
             action={saveHighlightsAction}
             locale={locale}
@@ -412,7 +414,7 @@ export default async function AdminProductDetailPage({
           />
         </AdminPanel>
 
-        <AdminPanel title="Itinerary" description="Edit the tour day by day. Route/stops stay saved to Shopify itinerary-day records." collapsible>
+        <AdminPanel title={t('detailItinerary')} description="Edit the tour day by day. Route/stops stay saved to Shopify itinerary-day records." collapsible>
           <div id="itinerary" className="space-y-4">
             {itineraryDays.map((day, index) => (
               <div key={day.id} className="rounded-lg border border-slate-200 bg-slate-50 p-4">
@@ -461,7 +463,7 @@ export default async function AdminProductDetailPage({
         </AdminPanel>
 
         <div className="grid gap-4">
-          <AdminPanel title="Cost sections" description="Includes, excludes, and other pricing notes." collapsible defaultOpen>
+          <AdminPanel title={t('detailCosts')} description="Includes, excludes, and other pricing notes." collapsible defaultOpen>
             <div className="space-y-3">
               {costSections.map((section) => (
                 <div key={section.id} className="rounded-lg border border-slate-200 bg-slate-50 p-3">
@@ -504,7 +506,7 @@ export default async function AdminProductDetailPage({
             </div>
           </AdminPanel>
 
-          <AdminPanel title="Policies & notices" description="Staff-friendly policy rows." collapsible>
+          <AdminPanel title={t('detailPolicies')} description="Staff-friendly policy rows." collapsible>
             <div className="space-y-3">
               {policies.map((policy) => (
                 <div key={policy.id} className="rounded-lg border border-slate-200 bg-slate-50 p-3">
@@ -544,7 +546,7 @@ export default async function AdminProductDetailPage({
         </div>
 
         <div className="grid gap-4">
-          <AdminPanel title="Pickup / dropoff" collapsible>
+          <AdminPanel title={t('detailPickup')} collapsible>
             <div className="space-y-3">
               {pickupDropoffs.map((point) => (
                 <div key={point.id} className="rounded-lg border border-slate-200 bg-slate-50 p-3">
@@ -584,7 +586,7 @@ export default async function AdminProductDetailPage({
             </div>
           </AdminPanel>
 
-          <AdminPanel title="Add-ons" collapsible>
+          <AdminPanel title={t('detailAddons')} collapsible>
             <div className="space-y-3">
               {addons.map((addon) => (
                 <div key={addon.id} className="rounded-lg border border-slate-200 bg-slate-50 p-3">
@@ -633,7 +635,7 @@ export default async function AdminProductDetailPage({
           </AdminPanel>
         </div>
 
-        <AdminPanel title="Images" collapsible>
+        <AdminPanel title={t('detailImages')} collapsible>
           <div id="images" className="grid gap-4 md:grid-cols-3">
             {product.media.map((image) => (
               <div key={image.id} className="rounded-lg border border-slate-200 bg-slate-50 p-2">
@@ -656,7 +658,7 @@ export default async function AdminProductDetailPage({
           </div>
         </AdminPanel>
 
-        <AdminPanel title="Dates & prices" description="Set variants once, then price individual or multiple departure days from the calendar." collapsible defaultOpen>
+        <AdminPanel title={t('detailDates')} description="Set variants once, then price individual or multiple departure days from the calendar." collapsible defaultOpen>
           <div id="dates">
             <DatePricingCalendar
               locale={locale}
@@ -673,19 +675,19 @@ export default async function AdminProductDetailPage({
           </div>
         </AdminPanel>
 
-        <AdminPanel title="Danger zone" description="Archive is safer than delete. Permanent delete removes the Shopify product." collapsible>
+        <AdminPanel title={t('detailDanger')} description="Archive is safer than delete. Permanent delete removes the Shopify product." collapsible>
           <div className="flex flex-col gap-4 md:flex-row">
             <form action={archiveProductAction} className="rounded-lg border border-amber-300 bg-amber-50 p-4">
               <input type="hidden" name="locale" value={locale} />
               <input type="hidden" name="handle" value={product.handle} />
               <input type="hidden" name="productId" value={product.id} />
-              <button className="rounded-lg bg-amber-700 px-4 py-2 text-sm font-semibold text-white">Archive product</button>
+              <button className="rounded-lg bg-amber-700 px-4 py-2 text-sm font-semibold text-white">{t('archiveProduct')}</button>
             </form>
             <form action={deleteProductAction} className="rounded-lg border border-red-300 bg-red-50 p-4">
               <input type="hidden" name="locale" value={locale} />
               <input type="hidden" name="productId" value={product.id} />
               <TextInput label="Type DELETE to permanently delete" name="confirm" />
-              <button className="mt-3 rounded-lg bg-red-700 px-4 py-2 text-sm font-semibold text-white">Delete product</button>
+              <button className="mt-3 rounded-lg bg-red-700 px-4 py-2 text-sm font-semibold text-white">{t('deleteProduct')}</button>
             </form>
           </div>
         </AdminPanel>

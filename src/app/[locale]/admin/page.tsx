@@ -1,3 +1,4 @@
+import { getTranslations } from 'next-intl/server'
 import { AdminLinkButton, AdminPageHeader, AdminPanel, AdminStatCard } from '@/components/admin/AdminCards'
 import { getAdminUser } from '@/lib/admin/auth'
 import { listAdminOrders, listAdminProducts } from '@/lib/admin/shopify-admin'
@@ -21,6 +22,7 @@ export default async function AdminDashboardPage({
   params: Promise<{ locale: string }>
 }) {
   const { locale } = await params
+  const t = await getTranslations({ locale, namespace: 'admin' })
   const [user, productLoad, orderLoad] = await Promise.all([
     getAdminUser(),
     loadDashboardData(listAdminProducts({ first: 50 })),
@@ -35,42 +37,42 @@ export default async function AdminDashboardPage({
   return (
     <>
       <AdminPageHeader
-        title="Operations dashboard"
-        description="Shopify is the live source for customer-facing tour content, variants, add-ons, and orders. Use this panel for safe product operations and cache refreshes."
-        action={<AdminLinkButton href={`/${locale}/admin/products`}>Manage products</AdminLinkButton>}
+        title={t('dashboardTitle')}
+        description={t('dashboardDescription')}
+        action={<AdminLinkButton href={`/${locale}/admin/products`}>{t('manageProducts')}</AdminLinkButton>}
       />
 
       <div className="grid gap-4 md:grid-cols-4">
-        <AdminStatCard label="Loaded products" value={products.length} note="Shopify tour products" />
-        <AdminStatCard label="Active products" value={activeCount} note="Visible when published" />
-        <AdminStatCard label="Bookable" value={bookableCount} note="Has date/rate variants" />
-        <AdminStatCard label="Recent orders" value={orders.length} note="Latest Shopify orders" />
+        <AdminStatCard label={t('statLoadedProducts')} value={products.length} note={t('statLoadedProductsNote')} />
+        <AdminStatCard label={t('statActiveProducts')} value={activeCount} note={t('statActiveProductsNote')} />
+        <AdminStatCard label={t('statBookable')} value={bookableCount} note={t('statBookableNote')} />
+        <AdminStatCard label={t('statRecentOrders')} value={orders.length} note={t('statRecentOrdersNote')} />
       </div>
 
       <div className="mt-6">
-        <AdminPanel title="Shopify connection">
+        <AdminPanel title={t('shopifyConnectionTitle')}>
           {loadErrors.length > 0 ? (
             <div className="space-y-2 text-sm text-red-700">
               {loadErrors.map((error) => <p key={error}>{error}</p>)}
             </div>
           ) : (
-            <p className="text-sm text-emerald-700">
-              Connected to Shopify Admin API. Showing live product and order data from your store.
-            </p>
+            <p className="text-sm text-emerald-700">{t('shopifyConnected')}</p>
           )}
         </AdminPanel>
       </div>
 
       <div className="mt-6 grid gap-4 lg:grid-cols-2">
-        <AdminPanel title="Next actions">
+        <AdminPanel title={t('nextActionsTitle')}>
           <div className="space-y-3 text-sm text-slate-700">
-            <p>Sync a small batch from ToursBMS, review warnings, then publish only the products ready for customers.</p>
-            <p>Use Categories & Filters to spot missing city, country, price, or bookable facts before building advanced filters.</p>
-            {user?.isOwner ? <AdminLinkButton href={`/${locale}/admin/sync`}>Open sync controls</AdminLinkButton> : null}
+            <p>{t('nextActionsSync')}</p>
+            <p>{t('nextActionsCategories')}</p>
+            {user?.isOwner ? (
+              <AdminLinkButton href={`/${locale}/admin/sync`}>{t('openSyncControls')}</AdminLinkButton>
+            ) : null}
           </div>
         </AdminPanel>
 
-        <AdminPanel title="Recent Shopify products">
+        <AdminPanel title={t('recentProductsTitle')}>
           <div className="divide-y divide-slate-200">
             {products.slice(0, 6).map((product) => (
               <a key={product.id} href={`/${locale}/admin/products/${product.handle}`} className="flex items-center justify-between gap-4 py-3 text-sm">
@@ -83,14 +85,13 @@ export default async function AdminDashboardPage({
                 </span>
               </a>
             ))}
-            {products.length === 0 ? <p className="text-sm text-slate-600">No Shopify tour products found for tag:tour.</p> : null}
+            {products.length === 0 ? <p className="text-sm text-slate-600">{t('noProducts')}</p> : null}
           </div>
         </AdminPanel>
       </div>
 
       <div className="mt-6 grid gap-4 lg:grid-cols-2">
-
-        <AdminPanel title="Recent orders">
+        <AdminPanel title={t('recentOrdersTitle')}>
           <div className="divide-y divide-slate-200">
             {orders.slice(0, 5).map((order) => (
               <a key={order.id} href={order.adminUrl} target="_blank" rel="noreferrer" className="flex items-center justify-between py-3 text-sm">
@@ -103,7 +104,7 @@ export default async function AdminDashboardPage({
                 </span>
               </a>
             ))}
-            {orders.length === 0 ? <p className="text-sm text-slate-600">No orders found yet.</p> : null}
+            {orders.length === 0 ? <p className="text-sm text-slate-600">{t('noOrders')}</p> : null}
           </div>
         </AdminPanel>
       </div>

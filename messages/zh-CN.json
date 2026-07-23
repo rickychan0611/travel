@@ -17,6 +17,19 @@
     "cruise": "全球邮轮",
     "luxury": "高端度假"
   },
+  "statusBar": {
+    "language": "语言",
+    "languageAria": "语言",
+    "currencyAria": "货币",
+    "currencies": {
+      "USD": "$ 美元",
+      "CAD": "C$ 加元",
+      "CNY": "¥ 人民币",
+      "EUR": "€ 欧元",
+      "AUD": "A$ 澳元",
+      "HKD": "HK$ 港币"
+    }
+  },
   "home": {
     "heroTitle": "探索世界，精彩每一天",
     "heroSubtitle": "专业旅游服务，带您畅游全球",
@@ -376,5 +389,52 @@
       "refunded": "已退款",
       "other": "处理中"
     }
+  },
+  "admin": {
+    "metaTitle": "管理后台 | 途风",
+    "brand": "管理后台",
+    "brandSubtitle": "Shopify 旅游运营",
+    "navDashboard": "仪表盘",
+    "navProducts": "产品",
+    "navLandingPage": "首页管理",
+    "navSync": "同步",
+    "navCategories": "分类与筛选",
+    "navOrders": "订单",
+    "navSettings": "设置",
+    "logOut": "退出登录",
+    "roleOwner": "所有者",
+    "roleStaff": "员工",
+    "accessRequiredTitle": "需要管理员权限",
+    "accessRequiredDesc": "您的账户需要在 Clerk public metadata 中设置角色 <owner>owner</owner> 或 <staff>staff</staff> 才能打开此面板。",
+    "dashboardTitle": "运营仪表盘",
+    "dashboardDescription": "Shopify 是面向客户的行程内容、变体、附加服务与订单的实时数据源。请在此面板进行安全的产品操作与缓存刷新。",
+    "manageProducts": "管理产品",
+    "statLoadedProducts": "已加载产品",
+    "statLoadedProductsNote": "Shopify 旅游产品",
+    "statActiveProducts": "已上架产品",
+    "statActiveProductsNote": "发布后可见",
+    "statBookable": "可预订",
+    "statBookableNote": "含日期/价格变体",
+    "statRecentOrders": "近期订单",
+    "statRecentOrdersNote": "最新 Shopify 订单",
+    "shopifyConnectionTitle": "Shopify 连接",
+    "shopifyConnected": "已连接 Shopify Admin API，正在显示商店中的实时产品与订单数据。",
+    "nextActionsTitle": "下一步",
+    "nextActionsSync": "先从小批量 ToursBMS 同步开始，检查警告后，再发布准备就绪的产品。",
+    "nextActionsCategories": "使用「分类与筛选」检查缺失的城市、国家、价格或可预订信息，再构建高级筛选。",
+    "openSyncControls": "打开同步控制",
+    "recentProductsTitle": "最近的 Shopify 产品",
+    "noProducts": "未找到带 tag:tour 的 Shopify 旅游产品。",
+    "recentOrdersTitle": "近期订单",
+    "noOrders": "暂无订单。",
+    "categoriesTitle": "分类与筛选", "categoriesDesc": "这些数据来自 Shopify 产品元字段和标签，用于前台分类与筛选。", "productsScanned": "已扫描产品", "missingCountry": "缺少国家", "missingCity": "缺少城市", "bookableProducts": "可预订产品", "countries": "国家", "cities": "城市", "productTypes": "产品类型", "bookingState": "预订状态",
+    "ordersTitle": "订单", "ordersDesc": "用于旅游运营的只读 Shopify 订单视图。收款、退款与合规操作仍在 Shopify 中完成。", "ordersSearchPlaceholder": "搜索订单、邮箱或客户……", "search": "搜索", "noOrdersFound": "未找到订单。",
+    "productsTitle": "产品", "productsDesc": "管理 Shopify 旅游产品、筛选数据、同步内容及日期/价格变体。", "createTour": "+ 新建行程", "productList": "产品列表", "productSearchPlaceholder": "搜索标题、标签或产品编号……", "product": "产品", "status": "状态", "bookable": "可预订", "contentOnly": "仅内容", "variants": "变体", "minPrice": "最低价", "city": "城市", "lastSynced": "最近同步",
+    "createTourTitle": "新建行程", "createTourDesc": "创建空白 Shopify 旅游产品，之后可添加内容、日期、图片和附加项目。", "backToProducts": "返回产品", "tourTitle": "行程标题", "productCode": "产品编号", "urlHandle": "URL 标识", "productType": "产品类型", "optional": "可选", "createProduct": "创建产品",
+    "settingsTitle": "设置", "settingsDesc": "缓存刷新与 Shopify 连接状态的运营控制。", "ownerRequired": "需要所有者权限", "settingsOwnerOnly": "设置仅限所有者账户。", "storefrontRendering": "前台渲染", "storefrontRenderingDesc": "控制是否缓存 Shopify 前台数据。本地开发默认启用 SSR。", "cacheRefresh": "刷新缓存", "cacheRefreshDesc": "刷新 Shopify 产品列表、行程页、分类页和产品卡片。", "storeDomain": "商店域名", "adminApiVersion": "Admin API 版本", "adminToken": "Admin 令牌", "missing": "缺失", "configured": "已配置",
+    "syncTitle": "ToursBMS 同步", "syncDesc": "导入产品编号、提取多语言 JSON、试运行数据或应用更新到 Shopify。除非启用覆盖，否则保留手动编辑。", "syncOwnerOnly": "同步可能覆盖 Shopify 内容，仅限所有者账户。", "runSyncJob": "运行同步任务", "runSyncJobDesc": "大批量操作时请保持此页面开启。生产环境后续应迁移到持久队列。", "productIds": "ToursBMS 产品编号", "mode": "模式", "dryRun": "试运行", "extractOnly": "仅提取", "applyShopify": "应用到 Shopify", "locales": "语言", "publishTarget": "发布目标", "publishPlaceholder": "Travel Website Development", "overwriteWarning": "使用 ToursBMS 覆盖可编辑的 Shopify 内容。正常重跑请关闭，以保留后台手动编辑。", "runningSync": "同步中……", "runSync": "运行同步", "completed": "已完成", "failed": "失败",
+    "optionalHandle": "可选产品 URL 标识", "refreshing": "刷新中……", "refreshCache": "刷新前台缓存", "cacheQueued": "已加入缓存刷新队列。", "cacheFailed": "缓存刷新失败。", "serverRendering": "服务器端渲染", "serverRenderingDesc": "开启后禁用 Shopify 数据缓存；关闭后使用正常的 30 分钟前台缓存。", "on": "开", "off": "关", "saving": "保存中……", "settingSaveFailed": "无法保存设置。", "ssrOn": "SSR 已开启，前台数据始终为最新。", "ssrOff": "SSR 已关闭，前台缓存已启用。",
+    "landingTitle": "首页管理", "landingDesc": "使用 Shopify 元对象和文件管理首页内容。", "landingPublishedDesc": "更改保存到 Shopify 后会发布到所有语言版本。", "siteBranding": "网站品牌", "saveBranding": "保存品牌设置", "hotlineLines": "页头服务热线", "setupBackend": "设置 Shopify 后端", "setupBackendDesc": "导入完成前，当前首页会继续正常显示。", "setupImport": "设置并导入当前页面", "heroBanners": "首页横幅", "hotDestinationMenu": "热门目的地菜单", "seasonalItems": "当季必玩", "tourCollections": "行程合集", "save": "保存", "delete": "删除", "add": "添加", "adding": "添加中……",
+    "detailOpenShopify": "在 Shopify 中打开", "detailOverview": "概览", "detailContent": "内容", "detailHighlights": "亮点", "detailItinerary": "行程", "detailCosts": "费用部分", "detailPolicies": "政策与通知", "detailPickup": "接送地点", "detailAddons": "附加项目", "detailImages": "图片", "detailDates": "日期与价格", "detailDanger": "危险操作", "archiveProduct": "归档产品", "deleteProduct": "删除产品"
   }
 }

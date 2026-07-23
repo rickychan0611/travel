@@ -1,15 +1,15 @@
 import { create } from 'zustand'
 
 interface UIStore {
-  currency: string
+  market: { countryCode: string; countryName: string; currencyCode: string }
   mobileMenuOpen: boolean
-  setCurrency: (currency: string) => void
+  setMarket: (market: UIStore['market']) => void
   setMobileMenuOpen: (open: boolean) => void
 }
 
 export const useUIStore = create<UIStore>((set) => ({
-  currency: 'USD',
+  market: { countryCode: 'US', countryName: 'United States', currencyCode: 'USD' },
   mobileMenuOpen: false,
-  setCurrency: (currency) => set({ currency }),
+  setMarket: (market) => set({ market }),
   setMobileMenuOpen: (open) => set({ mobileMenuOpen: open }),
 }))

@@ -23,6 +23,9 @@ export async function POST(request: Request) {
     const mode = body.mode === 'apply' || body.mode === 'extract-only' ? body.mode : 'dry-run'
     const locales = String(body.locales || 'en,zh-CN,zh-TW')
     const publish = String(body.publish || '').trim()
+      || (mode === 'apply'
+        ? String(process.env.SHOPIFY_STOREFRONT_PUBLICATION_NAME || 'Travel Website Development').trim()
+        : '')
     const args = [
       'scripts/sync-toursbms-shopify.mjs',
       '--ids',

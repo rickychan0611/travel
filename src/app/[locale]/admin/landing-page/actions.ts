@@ -12,7 +12,7 @@ import {
   uploadPublicHomepageImage,
 } from '@/lib/admin/homepage-admin'
 import { expireHomepageCaches } from '@/lib/admin/revalidate'
-import { HOMEPAGE_METAOBJECT_TYPES, normalizeShopifyProductId } from '@/lib/homepage/types'
+import { DEFAULT_HOTLINE_LINES_BY_LOCALE, HOMEPAGE_METAOBJECT_TYPES, HOTLINE_LINE_MAX_LENGTH, HOTLINE_LOCALE_FIELD_SUFFIXES, normalizeShopifyProductId } from '@/lib/homepage/types'
 import { moveHomepageItem, sortHomepageItems, type HomepageOrderDirection } from '@/lib/homepage/order'
 import { HOME_BANNERS, HOT_DESTINATIONS, SEASON_MUST_PLAY } from '@/data/home-mock'
 import { HOMEPAGE_TOUR_SECTIONS } from '@/data/tour-categories'
@@ -155,6 +155,43 @@ export async function initializeLandingPageAction(
     return saved('Current landing page imported into Shopify')
   } catch (error) {
     return failed(error, 'The landing page could not be initialized.')
+  }
+}
+
+export async function saveLandingBrandingAction(
+  _previousState: AdminFormState,
+  formData: FormData,
+): Promise<AdminFormState> {
+  await assertAdminUser()
+  try {
+    await ensureHomepageDefinitions()
+    const configs = await listHomepageMetaobjects(HOMEPAGE_METAOBJECT_TYPES.config)
+    const config = configs.find((record) => record.handle === 'main') || configs[0]
+    const imageId = text(formData, 'imageId')
+    const hotlineFields = Object.fromEntries(Object.entries(HOTLINE_LOCALE_FIELD_SUFFIXES).flatMap(([locale, suffix]) =>
+      DEFAULT_HOTLINE_LINES_BY_LOCALE.en.map((_, index) => {
+        const formSuffix = locale === 'zh-CN' ? 'ZhCn' : locale === 'zh-TW' ? 'ZhTw' : 'En'
+        const value = text(formData, `hotlineLine${index + 1}${formSuffix}`)
+        if (value.length > HOTLINE_LINE_MAX_LENGTH) throw new Error(`${locale} hotline line ${index + 1} must be ${HOTLINE_LINE_MAX_LENGTH} characters or fewer`)
+        return [`hotline_line_${index + 1}_${suffix}`, value]
+      }),
+    ))
+
+    await saveHomepageMetaobject(
+      HOMEPAGE_METAOBJECT_TYPES.config,
+      config?.id || '',
+      config?.handle || 'main',
+      {
+        initialized: config?.fields.initialized || 'false',
+        schema_version: config?.fields.schema_version || '2',
+        header_logo: imageId,
+        ...hotlineFields,
+      },
+    )
+    finishHomepageMutation()
+    return saved('Site branding saved')
+  } catch (error) {
+    return failed(error, 'Site branding could not be saved.')
   }
 }
 

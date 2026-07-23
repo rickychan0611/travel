@@ -64,11 +64,13 @@ async function readShopifyProduct(manifest: ShopifySyncManifest, handle: string,
   if (!manifest) return null
 
   try {
-    const [{ shopifyAdminClient }, { getShopifyTourProductByHandle }] = await Promise.all([
-      import('@/lib/shopify/admin-client'),
+    const [{ shopifyClient }, { getShopifyTourProductByHandle }, { getSelectedMarket }] = await Promise.all([
+      import('@/lib/shopify/client'),
       import('@/lib/shopify/tour-product'),
+      import('@/lib/shopify/market'),
     ])
-    return getShopifyTourProductByHandle(shopifyAdminClient, manifest, handle, locale || 'en')
+    const market = await getSelectedMarket()
+    return getShopifyTourProductByHandle(shopifyClient, manifest, handle, locale || 'en', market.isoCode)
   } catch (error) {
     console.error('Failed to load Shopify tour product', error)
     return null

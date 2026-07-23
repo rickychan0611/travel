@@ -4,6 +4,7 @@ import { SHOPIFY_CACHE_REVALIDATE_SECONDS, SHOPIFY_CACHE_TAGS } from './cache'
 import { ALL_PRODUCTS_QUERY } from './queries/product'
 import type { CollectionProduct } from './types'
 import { isStorefrontSsrEnabled } from '@/lib/admin/storefront-settings'
+import { getSelectedMarket, marketCacheTags } from './market'
 
 type ProductsResponse = {
   products?: {
@@ -158,14 +159,15 @@ export async function fetchProductsByQuery({
   first = 24,
   max = first,
 }: FetchProductsOptions = {}): Promise<CollectionProduct[]> {
+  const market = await getSelectedMarket()
   const products: CollectionProduct[] = []
   let after: string | null = null
 
   while (products.length < max) {
     const pageSize = Math.min(first, max - products.length)
     const { data } = await shopifyReadRequest<ProductsResponse>(ALL_PRODUCTS_QUERY, {
-      variables: { first: pageSize, after, query },
-      tags: [SHOPIFY_CACHE_TAGS.products],
+      variables: { first: pageSize, after, query, country: market.isoCode },
+      tags: marketCacheTags(market.isoCode, [SHOPIFY_CACHE_TAGS.products]),
     })
     const result = data as ProductsResponse | null
     const nodes = result?.products?.nodes ?? []
@@ -192,7 +194,7 @@ export async function fetchProductsByQueries(queries: string[], first = 24, max 
 }
 
 const PRODUCTS_BY_IDS_QUERY = `#graphql
-  query HomepageProductsByIds($ids: [ID!]!) {
+  query HomepageProductsByIds($ids: [ID!]!, $country: CountryCode!) @inContext(country: $country) {
     nodes(ids: $ids) {
       ... on Product {
         id
@@ -210,9 +212,10 @@ const PRODUCTS_BY_IDS_QUERY = `#graphql
 
 export async function fetchProductsByIds(ids: string[], locale: string) {
   if (ids.length === 0) return []
+  const market = await getSelectedMarket()
   const { data, errors } = await shopifyReadRequest<{ nodes?: Array<CollectionProduct | null> }>(PRODUCTS_BY_IDS_QUERY, {
-    variables: { ids },
-    tags: [SHOPIFY_CACHE_TAGS.products, SHOPIFY_CACHE_TAGS.productCards, SHOPIFY_CACHE_TAGS.homepage],
+    variables: { ids, country: market.isoCode },
+    tags: marketCacheTags(market.isoCode, [SHOPIFY_CACHE_TAGS.products, SHOPIFY_CACHE_TAGS.productCards, SHOPIFY_CACHE_TAGS.homepage]),
   })
   if (errors) throw new Error(`Could not load homepage products: ${JSON.stringify(errors)}`)
   const byId = new Map((data?.nodes ?? []).filter((node): node is CollectionProduct => Boolean(node?.id)).map((node) => [node.id, node]))

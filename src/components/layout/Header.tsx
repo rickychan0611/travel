@@ -10,10 +10,18 @@ import { CartIcon } from './CartIcon'
 import { MobileMenu } from './MobileMenu'
 import { MobileMenuButton } from './MobileMenuButton'
 import { MegaNav } from './MegaNav'
-import { PHONE_LINES } from '@/data/home-mock'
+import { DEFAULT_HOTLINE_LINES } from '@/lib/homepage/types'
 import { catalogKeywordHref } from '@/lib/catalog-keywords'
 
-export function Header({ locale }: { locale: string }) {
+export function Header({
+  locale,
+  logoUrl = '/tff/header-logo.png',
+  hotlineLines = DEFAULT_HOTLINE_LINES,
+}: {
+  locale: string
+  logoUrl?: string
+  hotlineLines?: readonly string[]
+}) {
   const router = useRouter()
   const [query, setQuery] = useState('')
 
@@ -29,10 +37,10 @@ export function Header({ locale }: { locale: string }) {
       <header className="relative z-50 w-full bg-white">
         {/* Main header row — matches old ToursForFun chrome */}
         <div className="mx-auto flex max-w-[1200px] items-center justify-between gap-5 px-4 py-3">
-          {/* Logo */}
+          {/* Logo · display 160×60; upload 320×120 recommended */}
           <Link href={`/${locale}` as Route} className="hidden shrink-0 md:block">
             <Image
-              src="/tff/header-logo.png"
+              src={logoUrl}
               alt="Tours4fun 途风旅游"
               width={160}
               height={60}
@@ -87,9 +95,9 @@ export function Header({ locale }: { locale: string }) {
           {/* Phone lines — two columns, centered */}
           <div className="hidden shrink-0 text-center text-sm leading-[1.55] text-[#666] lg:block">
             <div className="mt-0.5 grid grid-flow-col grid-rows-3 gap-x-4">
-              {PHONE_LINES.map((p) => (
-                <p key={p.region}>
-                  {p.region} {p.number}
+              {hotlineLines.map((line, index) => (
+                <p key={`${index}-${line}`}>
+                  {line}
                 </p>
               ))}
             </div>
@@ -120,7 +128,7 @@ export function Header({ locale }: { locale: string }) {
 
         <MegaNav locale={locale} />
       </header>
-      <MobileMenu locale={locale} />
+      <MobileMenu locale={locale} logoUrl={logoUrl} />
     </>
   )
 }

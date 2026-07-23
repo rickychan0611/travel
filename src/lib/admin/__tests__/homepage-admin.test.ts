@@ -27,4 +27,16 @@ describe('homepage metaobject definitions', () => {
       new Map(),
     )).toThrow('missing its target metaobject definition')
   })
+
+  it('limits hotline metaobject fields to 18 characters', () => {
+    expect(buildHomepageDefinitionField(
+      ['hotline_line_1', 'Hotline line 1', 'single_line_text_field'],
+      new Map(),
+    )).toEqual({
+      key: 'hotline_line_1',
+      name: 'Hotline line 1',
+      type: 'single_line_text_field',
+      validations: [{ name: 'max', value: '18' }],
+    })
+  })
 })

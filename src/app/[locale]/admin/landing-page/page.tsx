@@ -1,15 +1,22 @@
 import { getAdminUser } from "@/lib/admin/auth";
 import { getLandingPageContent } from "@/lib/admin/homepage-admin";
-import { HOMEPAGE_METAOBJECT_TYPES } from "@/lib/homepage/types";
+import {
+  HEADER_LOGO_DISPLAY_SIZE,
+  HEADER_LOGO_RECOMMENDED_SIZE,
+  HOMEPAGE_METAOBJECT_TYPES,
+  HOTLINE_LINE_MAX_LENGTH,
+} from "@/lib/homepage/types";
 import { AdminActionForm } from "@/components/admin/AdminActionForm";
 import { AdminPageHeader, AdminPanel } from "@/components/admin/AdminCards";
 import { AdminOrderControls } from "@/components/admin/AdminOrderControls";
 import { AdminPanelCloseButton } from "@/components/admin/AdminPanelCloseButton";
 import { ShopifyImageField } from "@/components/admin/ShopifyImageField";
 import { ChevronDown } from "lucide-react";
+import { getTranslations } from "next-intl/server";
 import {
   initializeLandingPageAction,
   reorderLandingItemAction,
+  saveLandingBrandingAction,
   saveLandingItemAction,
 } from "./actions";
 
@@ -56,12 +63,14 @@ function TextField({
   defaultValue,
   type = "text",
   required = false,
+  maxLength,
 }: {
   label: string;
   name: string;
   defaultValue?: string | number;
   type?: string;
   required?: boolean;
+  maxLength?: number;
 }) {
   return (
     <label className="block">
@@ -70,6 +79,7 @@ function TextField({
         name={name}
         type={type}
         required={required}
+        maxLength={maxLength}
         defaultValue={defaultValue}
         className={inputClass}
       />
@@ -142,12 +152,70 @@ function ProductPreview({
   );
 }
 
+function BrandingPanel({
+  headerLogo,
+  hotlineLinesByLocale,
+  labels,
+}: {
+  headerLogo: Awaited<ReturnType<typeof getLandingPageContent>>["headerLogo"];
+  hotlineLinesByLocale: Awaited<ReturnType<typeof getLandingPageContent>>["hotlineLinesByLocale"];
+  labels: { title: string; save: string; hotline: string; saving: string };
+}) {
+  return (
+    <AdminPanel
+      title={labels.title}
+      description={`Header logo · display ${HEADER_LOGO_DISPLAY_SIZE.width} × ${HEADER_LOGO_DISPLAY_SIZE.height}px (desktop). Upload ${HEADER_LOGO_RECOMMENDED_SIZE} (2×) PNG or WebP with a transparent background for best results.`}
+      collapsible
+      defaultOpen
+    >
+      <AdminActionForm
+        action={saveLandingBrandingAction}
+        submitLabel={labels.save}
+        pendingLabel={labels.saving}
+        className={panelFormClass}
+        footerClassName="flex flex-wrap items-center gap-3"
+        submitClassName={submitClass}
+      >
+        <ShopifyImageField
+          label="Header logo"
+          recommendedSize={HEADER_LOGO_RECOMMENDED_SIZE}
+          initialImage={headerLogo}
+          fit="contain"
+        />
+        <p className="text-xs leading-5 text-slate-500">
+          Shown at {HEADER_LOGO_DISPLAY_SIZE.width} ×{" "}
+          {HEADER_LOGO_DISPLAY_SIZE.height}px in the desktop header and scaled
+          down in the mobile menu. Leave empty and save to restore the default
+          logo.
+        </p>
+        <div className="border-t border-slate-200 pt-3">
+          <div className="mb-2 text-sm font-medium text-slate-900">{labels.hotline}</div>
+          <div className="space-y-3">
+            {hotlineLinesByLocale.en.map((_, index) => (
+              <div key={index} className="rounded-lg border border-slate-200 bg-white p-3">
+                <div className="mb-2 text-xs font-medium uppercase tracking-wide text-slate-500">Line {index + 1}</div>
+                <div className="grid gap-3 md:grid-cols-3">
+                  <TextField label={`English (maximum ${HOTLINE_LINE_MAX_LENGTH})`} name={`hotlineLine${index + 1}En`} defaultValue={hotlineLinesByLocale.en[index]} maxLength={HOTLINE_LINE_MAX_LENGTH} />
+                  <TextField label={`简体中文 (maximum ${HOTLINE_LINE_MAX_LENGTH})`} name={`hotlineLine${index + 1}ZhCn`} defaultValue={hotlineLinesByLocale['zh-CN'][index]} maxLength={HOTLINE_LINE_MAX_LENGTH} />
+                  <TextField label={`繁體中文 (maximum ${HOTLINE_LINE_MAX_LENGTH})`} name={`hotlineLine${index + 1}ZhTw`} defaultValue={hotlineLinesByLocale['zh-TW'][index]} maxLength={HOTLINE_LINE_MAX_LENGTH} />
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </AdminActionForm>
+    </AdminPanel>
+  );
+}
+
 export default async function LandingPageAdmin({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "admin" });
+  const brandingLabels = { title: t("siteBranding"), save: t("saveBranding"), hotline: t("hotlineLines"), saving: t("saving") };
   const [user, content] = await Promise.all([
     getAdminUser(),
     getLandingPageContent(locale, false),
@@ -157,34 +225,37 @@ export default async function LandingPageAdmin({
     return (
       <>
         <AdminPageHeader
-          title="Landing page"
-          description="Manage the homepage with Shopify metaobjects and Shopify Files."
+          title={t("landingTitle")}
+          description={t("landingDesc")}
         />
-        <AdminPanel
-          title="Set up Shopify backend"
-          description="The existing hardcoded landing page remains live until this import finishes."
-        >
-          {user?.isOwner ? (
-            <AdminActionForm
-              action={initializeLandingPageAction}
-              submitLabel="Set up and import current page"
-              pendingLabel="Setting up and importing…"
-              footerClassName="flex flex-wrap items-center gap-3"
-            >
-              <p className="mb-4 max-w-3xl text-sm leading-6 text-slate-600">
-                This creates the homepage metaobject definitions, uploads the
-                current managed images to Shopify Files, imports the current
-                menu and seasonal content, and freezes the current six product
-                choices per tour tab.
+        <div className="space-y-4">
+          <BrandingPanel headerLogo={content.headerLogo} hotlineLinesByLocale={content.hotlineLinesByLocale} labels={brandingLabels} />
+          <AdminPanel
+            title={t("setupBackend")}
+            description={t("setupBackendDesc")}
+          >
+            {user?.isOwner ? (
+              <AdminActionForm
+                action={initializeLandingPageAction}
+                submitLabel={t("setupImport")}
+                pendingLabel="Setting up and importing…"
+                footerClassName="flex flex-wrap items-center gap-3"
+              >
+                <p className="mb-4 max-w-3xl text-sm leading-6 text-slate-600">
+                  This creates the homepage metaobject definitions, uploads the
+                  current managed images to Shopify Files, imports the current
+                  menu and seasonal content, and freezes the current six product
+                  choices per tour tab.
+                </p>
+              </AdminActionForm>
+            ) : (
+              <p className="text-sm text-slate-600">
+                An owner must initialize the landing page before staff can edit
+                it.
               </p>
-            </AdminActionForm>
-          ) : (
-            <p className="text-sm text-slate-600">
-              An owner must initialize the landing page before staff can edit
-              it.
-            </p>
-          )}
-        </AdminPanel>
+            )}
+          </AdminPanel>
+        </div>
       </>
     );
   }
@@ -192,12 +263,14 @@ export default async function LandingPageAdmin({
   return (
     <>
       <AdminPageHeader
-        title="Landing page"
-        description="Changes are stored in Shopify and published to every locale immediately after save."
+        title={t("landingTitle")}
+        description={t("landingPublishedDesc")}
       />
       <div className="space-y-4">
+        <BrandingPanel headerLogo={content.headerLogo} hotlineLinesByLocale={content.hotlineLinesByLocale} labels={brandingLabels} />
+
         <AdminPanel
-          title="Hero banners"
+          title={t("heroBanners")}
           description="Autoplay slideshow. A linked banner searches with its visible translated title."
           collapsible
         >
@@ -213,8 +286,8 @@ export default async function LandingPageAdmin({
                 />
                 <AdminActionForm
                   action={saveLandingItemAction}
-                  submitLabel="Save banner"
-                  deleteLabel="Delete banner"
+                  submitLabel={`${t("save")} ${t("heroBanners")}`}
+                  deleteLabel={`${t("delete")} ${t("heroBanners")}`}
                   deleteConfirmMessage="Delete this banner?"
                   className="space-y-3"
                   footerClassName="flex flex-wrap items-center gap-3"
@@ -239,8 +312,8 @@ export default async function LandingPageAdmin({
             ))}
             <AdminActionForm
               action={saveLandingItemAction}
-              submitLabel="Add banner"
-              pendingLabel="Adding…"
+              submitLabel={`${t("add")} ${t("heroBanners")}`}
+              pendingLabel={t("adding")}
               className="space-y-3 rounded-lg border border-dashed border-slate-300 p-3"
               footerClassName="flex flex-wrap items-center gap-3"
               submitClassName={submitClass}
@@ -264,7 +337,7 @@ export default async function LandingPageAdmin({
         </AdminPanel>
 
         <AdminPanel
-          title="Hot destination menu"
+          title={t("hotDestinationMenu")}
           description="Four fixed groups with editable destination links. Each visible title becomes its search keyword."
           collapsible
         >
@@ -295,7 +368,7 @@ export default async function LandingPageAdmin({
                   />
                   <AdminActionForm
                     action={saveLandingItemAction}
-                    submitLabel="Save group"
+                    submitLabel={t("save")}
                     className="space-y-3"
                     footerClassName="flex flex-wrap items-center gap-3"
                     submitClassName={submitClass}
@@ -322,8 +395,8 @@ export default async function LandingPageAdmin({
                         />
                         <AdminActionForm
                           action={saveLandingItemAction}
-                          submitLabel="Save link"
-                          deleteLabel="Delete link"
+                          submitLabel={t("save")}
+                          deleteLabel={t("delete")}
                           deleteConfirmMessage="Delete this destination link?"
                           className="space-y-3"
                           footerClassName="flex flex-wrap items-center gap-3"
@@ -340,8 +413,8 @@ export default async function LandingPageAdmin({
                     ))}
                     <AdminActionForm
                       action={saveLandingItemAction}
-                      submitLabel="Add destination link"
-                      pendingLabel="Adding…"
+                      submitLabel={t("add")}
+                      pendingLabel={t("adding")}
                       className="space-y-3 rounded-lg border border-dashed border-slate-300 bg-white p-3"
                       footerClassName="flex flex-wrap items-center gap-3"
                       submitClassName={submitClass}
@@ -367,7 +440,7 @@ export default async function LandingPageAdmin({
         </AdminPanel>
 
         <AdminPanel
-          title="当季必玩"
+          title={t("seasonalItems")}
           description="Seasonal linked image cards."
           collapsible
         >
@@ -383,8 +456,8 @@ export default async function LandingPageAdmin({
                 />
                 <AdminActionForm
                   action={saveLandingItemAction}
-                  submitLabel="Save item"
-                  deleteLabel="Delete item"
+                  submitLabel={t("save")}
+                  deleteLabel={t("delete")}
                   deleteConfirmMessage="Delete this seasonal item?"
                   className="space-y-3"
                   footerClassName="flex flex-wrap items-center gap-3"
@@ -405,8 +478,8 @@ export default async function LandingPageAdmin({
             ))}
             <AdminActionForm
               action={saveLandingItemAction}
-              submitLabel="Add seasonal item"
-              pendingLabel="Adding…"
+              submitLabel={t("add")}
+              pendingLabel={t("adding")}
               className="space-y-3 rounded-lg border border-dashed border-slate-300 p-3"
               footerClassName="flex flex-wrap items-center gap-3"
               submitClassName={submitClass}
@@ -426,7 +499,7 @@ export default async function LandingPageAdmin({
         </AdminPanel>
 
         <AdminPanel
-          title="Tour collections"
+          title={t("tourCollections")}
           description="Repeatable sections, category tabs, and up to six ordered product codes per tab."
           collapsible
         >
@@ -455,8 +528,8 @@ export default async function LandingPageAdmin({
                   />
                   <AdminActionForm
                     action={saveLandingItemAction}
-                    submitLabel="Save section"
-                    deleteLabel="Delete section"
+                    submitLabel={t("save")}
+                    deleteLabel={t("delete")}
                     deleteConfirmMessage="Delete this tour section and all of its categories?"
                     className="mt-3 space-y-3"
                     footerClassName="flex flex-wrap items-center gap-3"
@@ -494,8 +567,8 @@ export default async function LandingPageAdmin({
                           />
                           <AdminActionForm
                             action={saveLandingItemAction}
-                            submitLabel="Save category"
-                            deleteLabel="Delete category"
+                            submitLabel={t("save")}
+                            deleteLabel={t("delete")}
                             deleteConfirmMessage="Delete this tour category?"
                             className="mt-3 space-y-3"
                             footerClassName="flex flex-wrap items-center gap-3"
@@ -543,8 +616,8 @@ export default async function LandingPageAdmin({
                       </summary>
                       <AdminActionForm
                         action={saveLandingItemAction}
-                        submitLabel="Add tour category"
-                        pendingLabel="Adding…"
+                        submitLabel={t("add")}
+                        pendingLabel={t("adding")}
                         className="space-y-3 border-t border-slate-200 p-3"
                         footerClassName="flex flex-wrap items-center gap-3"
                         submitClassName={submitClass}
@@ -588,8 +661,8 @@ export default async function LandingPageAdmin({
               </summary>
               <AdminActionForm
                 action={saveLandingItemAction}
-                submitLabel="Add tour section"
-                pendingLabel="Adding…"
+                submitLabel={t("add")}
+                pendingLabel={t("adding")}
                 className="space-y-3 border-t border-slate-200 p-3"
                 footerClassName="flex flex-wrap items-center gap-3"
                 submitClassName={submitClass}

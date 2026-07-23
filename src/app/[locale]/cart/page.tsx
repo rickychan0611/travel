@@ -14,6 +14,7 @@ import {
   getCartTotal,
   useCartStore,
 } from '@/store/cart'
+import { useUIStore } from '@/store/ui'
 
 export default function CartPage() {
   const params = useParams()
@@ -25,6 +26,7 @@ export default function CartPage() {
 
   const items = useCartStore((s) => s.items)
   const removeItem = useCartStore((s) => s.removeItem)
+  const market = useUIStore((s) => s.market)
 
   const [checkoutLoading, setCheckoutLoading] = useState(false)
   const [checkoutError, setCheckoutError] = useState<string | null>(null)
@@ -41,11 +43,15 @@ export default function CartPage() {
       const res = await fetch('/api/shopify/cart', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ items, buyerEmail, returnUrl }),
+        body: JSON.stringify({ items, buyerEmail, returnUrl, countryCode: market.countryCode }),
       })
       const data = await res.json()
       if (!res.ok) {
         setCheckoutError(data.error ?? 'Checkout failed. Please try again.')
+        return
+      }
+      if (data.cost?.totalAmount?.currencyCode !== market.currencyCode) {
+        setCheckoutError('Shopify returned a different checkout currency. Refresh the page and select your country again.')
         return
       }
       window.location.href = data.checkoutUrl

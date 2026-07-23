@@ -17,6 +17,19 @@
     "cruise": "全球郵輪",
     "luxury": "高端度假"
   },
+  "statusBar": {
+    "language": "語言",
+    "languageAria": "語言",
+    "currencyAria": "貨幣",
+    "currencies": {
+      "USD": "$ 美元",
+      "CAD": "C$ 加元",
+      "CNY": "¥ 人民幣",
+      "EUR": "€ 歐元",
+      "AUD": "A$ 澳元",
+      "HKD": "HK$ 港幣"
+    }
+  },
   "home": {
     "heroTitle": "探索世界，精彩每一天",
     "heroSubtitle": "專業旅遊服務，帶您暢遊全球",
@@ -375,5 +388,52 @@
       "refunded": "已退款",
       "other": "處理中"
     }
+  },
+  "admin": {
+    "metaTitle": "管理後台 | 途風",
+    "brand": "管理後台",
+    "brandSubtitle": "Shopify 旅遊營運",
+    "navDashboard": "儀表板",
+    "navProducts": "產品",
+    "navLandingPage": "首頁管理",
+    "navSync": "同步",
+    "navCategories": "分類與篩選",
+    "navOrders": "訂單",
+    "navSettings": "設定",
+    "logOut": "登出",
+    "roleOwner": "擁有者",
+    "roleStaff": "員工",
+    "accessRequiredTitle": "需要管理員權限",
+    "accessRequiredDesc": "您的帳戶需要在 Clerk public metadata 中設定角色 <owner>owner</owner> 或 <staff>staff</staff> 才能開啟此面板。",
+    "dashboardTitle": "營運儀表板",
+    "dashboardDescription": "Shopify 是面向客戶的行程內容、變體、附加服務與訂單的即時資料來源。請在此面板進行安全的產品操作與快取刷新。",
+    "manageProducts": "管理產品",
+    "statLoadedProducts": "已載入產品",
+    "statLoadedProductsNote": "Shopify 旅遊產品",
+    "statActiveProducts": "已上架產品",
+    "statActiveProductsNote": "發佈後可見",
+    "statBookable": "可預訂",
+    "statBookableNote": "含日期/價格變體",
+    "statRecentOrders": "近期訂單",
+    "statRecentOrdersNote": "最新 Shopify 訂單",
+    "shopifyConnectionTitle": "Shopify 連線",
+    "shopifyConnected": "已連線 Shopify Admin API，正在顯示商店中的即時產品與訂單資料。",
+    "nextActionsTitle": "下一步",
+    "nextActionsSync": "先從小批量 ToursBMS 同步開始，檢查警告後，再發佈準備就緒的產品。",
+    "nextActionsCategories": "使用「分類與篩選」檢查缺失的城市、國家、價格或可預訂資訊，再建立進階篩選。",
+    "openSyncControls": "開啟同步控制",
+    "recentProductsTitle": "最近的 Shopify 產品",
+    "noProducts": "未找到帶 tag:tour 的 Shopify 旅遊產品。",
+    "recentOrdersTitle": "近期訂單",
+    "noOrders": "暫無訂單。",
+    "categoriesTitle": "分類與篩選", "categoriesDesc": "這些資料來自 Shopify 產品中繼欄位和標籤，用於前台分類與篩選。", "productsScanned": "已掃描產品", "missingCountry": "缺少國家", "missingCity": "缺少城市", "bookableProducts": "可預訂產品", "countries": "國家", "cities": "城市", "productTypes": "產品類型", "bookingState": "預訂狀態",
+    "ordersTitle": "訂單", "ordersDesc": "用於旅遊營運的唯讀 Shopify 訂單檢視。收款、退款與合規操作仍在 Shopify 中完成。", "ordersSearchPlaceholder": "搜尋訂單、信箱或客戶……", "search": "搜尋", "noOrdersFound": "找不到訂單。",
+    "productsTitle": "產品", "productsDesc": "管理 Shopify 旅遊產品、篩選資料、同步內容及日期/價格變體。", "createTour": "+ 新增行程", "productList": "產品清單", "productSearchPlaceholder": "搜尋標題、標籤或產品編號……", "product": "產品", "status": "狀態", "bookable": "可預訂", "contentOnly": "僅內容", "variants": "變體", "minPrice": "最低價", "city": "城市", "lastSynced": "最近同步",
+    "createTourTitle": "新增行程", "createTourDesc": "建立空白 Shopify 旅遊產品，之後可加入內容、日期、圖片和附加項目。", "backToProducts": "返回產品", "tourTitle": "行程標題", "productCode": "產品編號", "urlHandle": "URL 識別碼", "productType": "產品類型", "optional": "選填", "createProduct": "建立產品",
+    "settingsTitle": "設定", "settingsDesc": "快取重新整理與 Shopify 連線狀態的營運控制。", "ownerRequired": "需要擁有者權限", "settingsOwnerOnly": "設定僅限擁有者帳戶。", "storefrontRendering": "前台算繪", "storefrontRenderingDesc": "控制是否快取 Shopify 前台資料。本機開發預設啟用 SSR。", "cacheRefresh": "重新整理快取", "cacheRefreshDesc": "重新整理 Shopify 產品清單、行程頁、分類頁和產品卡片。", "storeDomain": "商店網域", "adminApiVersion": "Admin API 版本", "adminToken": "Admin 權杖", "missing": "缺少", "configured": "已設定",
+    "syncTitle": "ToursBMS 同步", "syncDesc": "匯入產品編號、擷取多語言 JSON、試跑資料或套用更新至 Shopify。除非啟用覆寫，否則保留手動編輯。", "syncOwnerOnly": "同步可能覆寫 Shopify 內容，僅限擁有者帳戶。", "runSyncJob": "執行同步工作", "runSyncJobDesc": "大量操作時請保持此頁面開啟。正式環境後續應移至持久佇列。", "productIds": "ToursBMS 產品編號", "mode": "模式", "dryRun": "試跑", "extractOnly": "僅擷取", "applyShopify": "套用至 Shopify", "locales": "語言", "publishTarget": "發佈目標", "publishPlaceholder": "Travel Website Development", "overwriteWarning": "使用 ToursBMS 覆寫可編輯的 Shopify 內容。一般重跑請關閉，以保留後台手動編輯。", "runningSync": "同步中……", "runSync": "執行同步", "completed": "已完成", "failed": "失敗",
+    "optionalHandle": "選填產品 URL 識別碼", "refreshing": "重新整理中……", "refreshCache": "重新整理前台快取", "cacheQueued": "已加入快取重新整理佇列。", "cacheFailed": "快取重新整理失敗。", "serverRendering": "伺服器端算繪", "serverRenderingDesc": "開啟後停用 Shopify 資料快取；關閉後使用一般的 30 分鐘前台快取。", "on": "開", "off": "關", "saving": "儲存中……", "settingSaveFailed": "無法儲存設定。", "ssrOn": "SSR 已開啟，前台資料永遠保持最新。", "ssrOff": "SSR 已關閉，前台快取已啟用。",
+    "landingTitle": "首頁管理", "landingDesc": "使用 Shopify 中繼物件和檔案管理首頁內容。", "landingPublishedDesc": "變更儲存至 Shopify 後會發佈到所有語言版本。", "siteBranding": "網站品牌", "saveBranding": "儲存品牌設定", "hotlineLines": "頁首服務熱線", "setupBackend": "設定 Shopify 後台", "setupBackendDesc": "匯入完成前，目前首頁會繼續正常顯示。", "setupImport": "設定並匯入目前頁面", "heroBanners": "首頁橫幅", "hotDestinationMenu": "熱門目的地選單", "seasonalItems": "當季必玩", "tourCollections": "行程合集", "save": "儲存", "delete": "刪除", "add": "新增", "adding": "新增中……",
+    "detailOpenShopify": "在 Shopify 中開啟", "detailOverview": "概覽", "detailContent": "內容", "detailHighlights": "亮點", "detailItinerary": "行程", "detailCosts": "費用區段", "detailPolicies": "政策與通知", "detailPickup": "接送地點", "detailAddons": "附加項目", "detailImages": "圖片", "detailDates": "日期與價格", "detailDanger": "危險操作", "archiveProduct": "封存產品", "deleteProduct": "刪除產品"
   }
 }

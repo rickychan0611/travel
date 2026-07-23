@@ -2,10 +2,18 @@ import { NextRequest, NextResponse } from 'next/server'
 import { shopifyClient } from '@/lib/shopify/client'
 import { CART_CREATE_MUTATION } from '@/lib/shopify/queries/cart'
 import type { CartItem } from '@/store/cart'
+import { getShopifyLocalization } from '@/lib/shopify/market'
 
 interface CartCreateResult {
   cartCreate: {
-    cart: { id: string; checkoutUrl: string } | null
+    cart: {
+      id: string
+      checkoutUrl: string
+      cost: {
+        subtotalAmount: { amount: string; currencyCode: string }
+        totalAmount: { amount: string; currencyCode: string }
+      }
+    } | null
     userErrors: Array<{ field: string[]; message: string }>
   }
 }
@@ -48,15 +56,18 @@ export async function POST(request: NextRequest) {
   let items: CartItem[]
   let buyerEmail: string | undefined
   let returnUrl: string | undefined
+  let countryCode: string | undefined
 
   try {
     const body = await request.json()
     items = body.items
     buyerEmail = body.buyerEmail
     returnUrl = typeof body.returnUrl === 'string' ? body.returnUrl : undefined
+    countryCode = typeof body.countryCode === 'string' ? body.countryCode.trim().toUpperCase() : undefined
     if (!Array.isArray(items) || items.length === 0) {
       return NextResponse.json({ error: 'items array is required' }, { status: 400 })
     }
+    if (!countryCode) return NextResponse.json({ error: 'countryCode is required' }, { status: 400 })
   } catch {
     return NextResponse.json({ error: 'Invalid request body' }, { status: 400 })
   }
@@ -77,13 +88,24 @@ export async function POST(request: NextRequest) {
   ])
 
   try {
+    const defaultCountry = (process.env.NEXT_PUBLIC_DEFAULT_COUNTRY || 'US').toUpperCase()
+    if (countryCode !== defaultCountry) {
+      const localization = await getShopifyLocalization()
+      if (!localization.availableCountries.some((country) => country.isoCode === countryCode)) {
+        return NextResponse.json({ error: 'Country is not available' }, { status: 400 })
+      }
+    }
+    const buyerIp = request.headers.get('x-forwarded-for')?.split(',')[0]?.trim()
+      ?? request.headers.get('x-real-ip')
+      ?? undefined
     const { data, errors } = await shopifyClient.request<CartCreateResult>(
       CART_CREATE_MUTATION,
       {
         variables: {
           lines,
-          buyerIdentity: buyerEmail ? { email: buyerEmail } : undefined,
+          buyerIdentity: { ...(buyerEmail ? { email: buyerEmail } : {}), countryCode },
         },
+        ...(buyerIp ? { headers: { 'Shopify-Storefront-Buyer-IP': buyerIp } } : {}),
       }
     )
 
@@ -97,7 +119,8 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: userErrors[0].message }, { status: 422 })
     }
 
-    let checkoutUrl = data?.cartCreate?.cart?.checkoutUrl
+    const cart = data?.cartCreate?.cart
+    let checkoutUrl = cart?.checkoutUrl
     if (!checkoutUrl) {
       return NextResponse.json({ error: 'No checkout URL returned' }, { status: 502 })
     }
@@ -106,7 +129,7 @@ export async function POST(request: NextRequest) {
       checkoutUrl = `${checkoutUrl}?return_to=${encodeURIComponent(returnUrl)}`
     }
 
-    return NextResponse.json({ checkoutUrl })
+    return NextResponse.json({ checkoutUrl, cost: cart?.cost })
   } catch (err) {
     console.error('Cart create failed:', err)
     return NextResponse.json({ error: 'Failed to create cart' }, { status: 500 })

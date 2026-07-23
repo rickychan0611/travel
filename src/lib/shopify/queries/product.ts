@@ -1,5 +1,5 @@
 export const PRODUCT_QUERY = `#graphql
-  query GetProduct($handle: String!) {
+  query GetProduct($handle: String!, $country: CountryCode!) @inContext(country: $country) {
     product(handle: $handle) {
       id
       handle
@@ -41,7 +41,7 @@ export const PRODUCT_QUERY = `#graphql
 `
 
 export const ALL_PRODUCTS_QUERY = `#graphql
-  query GetAllProducts($first: Int!, $after: String, $query: String) {
+  query GetAllProducts($first: Int!, $after: String, $query: String, $country: CountryCode!) @inContext(country: $country) {
     products(first: $first, after: $after, query: $query) {
       nodes {
         id
@@ -85,7 +85,7 @@ export const ALL_PRODUCTS_QUERY = `#graphql
 `
 
 export const COLLECTION_PRODUCTS_QUERY = `#graphql
-  query GetCollection($handle: String!, $first: Int!) {
+  query GetCollection($handle: String!, $first: Int!, $country: CountryCode!) @inContext(country: $country) {
     collection(handle: $handle) {
       id
       handle

@@ -29,7 +29,7 @@ const makeRequest = (body: unknown) =>
   new NextRequest('http://localhost/api/shopify/cart', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(body),
+    body: JSON.stringify(body && typeof body === 'object' ? { countryCode: 'US', ...body } : body),
   })
 
 const makeSuccess = (checkoutUrl = 'https://store.myshopify.com/checkouts/abc') => ({
@@ -96,25 +96,25 @@ describe('POST /api/shopify/cart', () => {
     await POST(makeRequest({ items: [makeItem()], buyerEmail: 'user@example.com' }))
 
     const variables = requestSpy.mock.calls[0][1]?.variables
-    expect(variables?.buyerIdentity).toEqual({ email: 'user@example.com' })
+    expect(variables?.buyerIdentity).toEqual({ email: 'user@example.com', countryCode: 'US' })
   })
 
-  it('omits buyerIdentity when buyerEmail is absent', async () => {
+  it('passes country identity when buyerEmail is absent', async () => {
     requestSpy.mockResolvedValueOnce(makeSuccess() as never)
 
     await POST(makeRequest({ items: [makeItem()] }))
 
     const variables = requestSpy.mock.calls[0][1]?.variables
-    expect(variables?.buyerIdentity).toBeUndefined()
+    expect(variables?.buyerIdentity).toEqual({ countryCode: 'US' })
   })
 
-  it('omits buyerIdentity when buyerEmail is an empty string', async () => {
+  it('passes country identity when buyerEmail is an empty string', async () => {
     requestSpy.mockResolvedValueOnce(makeSuccess() as never)
 
     await POST(makeRequest({ items: [makeItem()], buyerEmail: '' }))
 
     const variables = requestSpy.mock.calls[0][1]?.variables
-    expect(variables?.buyerIdentity).toBeUndefined()
+    expect(variables?.buyerIdentity).toEqual({ countryCode: 'US' })
   })
 
   // ── Line item construction ────────────────────────────────────────────────

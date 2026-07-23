@@ -5,28 +5,24 @@ import { useTranslations, useLocale } from 'next-intl'
 import { usePathname, useRouter } from 'next/navigation'
 import { Show } from '@clerk/nextjs'
 import type { Route } from 'next'
-import { ChevronDown, Smartphone } from 'lucide-react'
+import { ChevronDown } from 'lucide-react'
 import { routing } from '@/i18n/routing'
-import { useUIStore } from '@/store/ui'
 import { CartIcon } from './CartIcon'
+import { CurrencySwitcher } from './CurrencySwitcher'
 
-const CURRENCIES = [
-  { code: 'USD', label: '$ 美元' },
-  { code: 'CAD', label: 'C$ 加元' },
-  { code: 'CNY', label: '¥ 人民币' },
-  { code: 'EUR', label: '€ 欧元' },
-  { code: 'AUD', label: 'A$ 澳元' },
-  { code: 'HKD', label: 'HK$ 港币' },
-]
+const LOCALE_LABELS: Record<string, string> = {
+  en: 'English',
+  'zh-CN': '简体中文',
+  'zh-TW': '繁體中文',
+}
 
 export function StatusBar({ locale }: { locale: string }) {
   const t = useTranslations('nav')
   const th = useTranslations('home')
+  const ts = useTranslations('statusBar')
   const currentLocale = useLocale()
   const pathname = usePathname()
   const router = useRouter()
-  const { currency, setCurrency } = useUIStore()
-  const currencyLabel = CURRENCIES.find((c) => c.code === currency)?.label ?? '$ 美元'
 
   function switchLocale(next: string) {
     const segments = pathname.split('/')
@@ -57,47 +53,23 @@ export function StatusBar({ locale }: { locale: string }) {
 
         <div className="flex items-center gap-4 text-[#666]">
           <label className="relative inline-flex cursor-pointer items-center gap-0.5 hover:text-tff-orange">
-            <span>语言</span>
+            <span>{ts('language')}</span>
             <ChevronDown className="h-3 w-3" />
             <select
               value={currentLocale}
               onChange={(e) => switchLocale(e.target.value)}
               className="absolute inset-0 cursor-pointer opacity-0"
-              aria-label="Language"
+              aria-label={ts('languageAria')}
             >
               {routing.locales.map((l) => (
                 <option key={l} value={l}>
-                  {l === 'zh-CN' ? '简体中文' : l === 'zh-TW' ? '繁體中文' : 'English'}
+                  {LOCALE_LABELS[l] ?? l}
                 </option>
               ))}
             </select>
           </label>
 
-          <label className="relative inline-flex cursor-pointer items-center gap-0.5 hover:text-tff-orange">
-            <span>{currencyLabel}</span>
-            <ChevronDown className="h-3 w-3" />
-            <select
-              value={currency}
-              onChange={(e) => setCurrency(e.target.value)}
-              className="absolute inset-0 cursor-pointer opacity-0"
-              aria-label="Currency"
-            >
-              {CURRENCIES.map((c) => (
-                <option key={c.code} value={c.code}>
-                  {c.label}
-                </option>
-              ))}
-            </select>
-          </label>
-
-          <button
-            type="button"
-            className="inline-flex items-center gap-1 text-tff-orange hover:opacity-80"
-            aria-label="APP"
-          >
-            <Smartphone className="h-3.5 w-3.5" />
-            APP
-          </button>
+          <CurrencySwitcher className="max-w-52 text-xs" />
 
           <div className="scale-90">
             <CartIcon locale={locale} />

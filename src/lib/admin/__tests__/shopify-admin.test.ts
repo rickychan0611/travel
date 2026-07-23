@@ -15,16 +15,23 @@ describe('admin product creation', () => {
     vi.restoreAllMocks()
   })
 
-  it('creates its initial Shopify variant as a non-physical item', async () => {
-    const request = vi.spyOn(shopifyAdminClient, 'request').mockResolvedValue({
-      data: {
-        productSet: {
-          product: { id: 'gid://shopify/Product/1', handle: 'example-tour' },
-          userErrors: [],
-          productSetOperation: { userErrors: [] },
+  it('creates its initial Shopify variant as a non-physical item and publishes to the storefront channel', async () => {
+    const request = vi.spyOn(shopifyAdminClient, 'request')
+      .mockResolvedValueOnce({
+        data: {
+          productSet: {
+            product: { id: 'gid://shopify/Product/1', handle: 'example-tour' },
+            userErrors: [],
+            productSetOperation: { userErrors: [] },
+          },
         },
-      },
-    })
+      })
+      .mockResolvedValueOnce({
+        data: { publications: { nodes: [{ id: 'gid://shopify/Publication/1', name: 'Travel Website Development' }] } },
+      })
+      .mockResolvedValueOnce({
+        data: { publishablePublish: { userErrors: [] } },
+      })
 
     await createAdminProduct({
       title: 'Example tour',
@@ -40,6 +47,10 @@ describe('admin product creation', () => {
           inventoryItem: { requiresShipping: false },
         }],
       },
+    })
+    expect(request.mock.calls[2]?.[1]?.variables).toMatchObject({
+      id: 'gid://shopify/Product/1',
+      input: [{ publicationId: 'gid://shopify/Publication/1' }],
     })
   })
 })

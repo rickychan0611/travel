@@ -77,11 +77,32 @@ export type HomepageTourSection = {
 
 export type LandingPageContent = {
   initialized: boolean
+  headerLogo: HomepageImage | null
+  hotlineLines: string[]
+  hotlineLinesByLocale: Record<SupportedHomepageLocale, string[]>
   heroSlides: HomepageHeroSlide[]
   destinationGroups: HomepageDestinationGroup[]
   seasonItems: HomepageSeasonItem[]
   tourSections: HomepageTourSection[]
 }
+
+export const DEFAULT_HEADER_LOGO_PATH = '/tff/header-logo.png'
+/** Display size in the desktop header. Recommend uploading 2× (320 × 120). */
+export const HEADER_LOGO_DISPLAY_SIZE = { width: 160, height: 60 } as const
+export const HEADER_LOGO_RECOMMENDED_SIZE = '320 × 120 px'
+export const HOTLINE_LINE_MAX_LENGTH = 18
+export type SupportedHomepageLocale = 'en' | 'zh-CN' | 'zh-TW'
+export const HOTLINE_LOCALE_FIELD_SUFFIXES: Record<SupportedHomepageLocale, string> = {
+  en: 'en',
+  'zh-CN': 'zh_cn',
+  'zh-TW': 'zh_tw',
+}
+export const DEFAULT_HOTLINE_LINES_BY_LOCALE: Record<SupportedHomepageLocale, readonly string[]> = {
+  en: ['24/7 Service Hotline', '(US)866-638-6888', 'Intl 626-389-8666', 'TW 886-277039159', 'HK 852-30024111', 'China 023-81744260'],
+  'zh-CN': ['7x24小时服务热线', '(美国)866-638-6888', '(国际)1-626-389-8666', '(台湾)886-277039159', '(香港)852-30024111', '(大陆)023-81744260'],
+  'zh-TW': ['7x24小時服務熱線', '(美國)866-638-6888', '(國際)1-626-389-8666', '(台灣)886-277039159', '(香港)852-30024111', '(大陸)023-81744260'],
+}
+export const DEFAULT_HOTLINE_LINES = DEFAULT_HOTLINE_LINES_BY_LOCALE['zh-CN']
 
 export type HomepageMetaobjectRecord = {
   id: string

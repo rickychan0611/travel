@@ -44,7 +44,9 @@ Options:
   --skip-upload           Extract and build payloads only.
   --dry-run               Do not write Shopify. Default unless --apply is provided.
   --apply                 Write to Shopify Admin API.
-  --publish <handle>      Publish to publication whose name/handle includes this value, e.g. headless.
+  --publish <handle>      Publish to publication whose name/handle includes this value.
+                          Defaults to SHOPIFY_STOREFRONT_PUBLICATION_NAME or
+                          "Travel Website Development" when --apply is used.
   --list-publications     Print available Shopify publication names/IDs and exit.
   --status <status>       Shopify product status. Defaults to DRAFT, or ACTIVE when publishing.
   --overwrite-from-toursbms
@@ -930,6 +932,9 @@ async function syncOneProduct(client, jsonByLocale, existingManifest, args) {
   }
 
   const publication = await publishProduct(client, product.id, args.publish)
+  if (args.publish) {
+    await publishProduct(client, addonProduct.id, args.publish)
+  }
   manifest.publication = publication ? { id: publication.id, name: publication.name } : null
   manifest.syncedAt = new Date().toISOString()
   return manifest
@@ -944,6 +949,10 @@ async function main() {
 
   const env = loadEnv()
   assertShopifyEnv(env, (args.apply && !args.skipUpload) || args.listPublications)
+
+  if (args.apply && !args.publish) {
+    args.publish = String(env.SHOPIFY_STOREFRONT_PUBLICATION_NAME || 'Travel Website Development').trim()
+  }
 
   if (args.listPublications) {
     const client = new ShopifyAdminClient(env)

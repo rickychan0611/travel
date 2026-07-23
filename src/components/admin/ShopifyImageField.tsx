@@ -11,11 +11,13 @@ export function ShopifyImageField({
   label,
   recommendedSize,
   initialImage,
+  fit = 'cover',
 }: {
   name?: string
   label: string
   recommendedSize: string
   initialImage?: HomepageImage | null
+  fit?: 'cover' | 'contain'
 }) {
   const inputRef = useRef<HTMLInputElement>(null)
   const [selected, setSelected] = useState<FileImage | null>(initialImage || null)
@@ -29,6 +31,8 @@ export function ShopifyImageField({
   const [error, setError] = useState('')
   const expected = recommendedSize.match(/(\d+)\s*×\s*(\d+)/)
   const dimensionsDiffer = Boolean(selected?.width && expected && (selected.width !== Number(expected[1]) || selected.height !== Number(expected[2])))
+  const objectClass = fit === 'contain' ? 'object-contain' : 'object-cover'
+  const previewClass = fit === 'contain' ? 'relative h-20 w-44 shrink-0 overflow-hidden rounded-md border border-slate-200 bg-white' : 'relative h-28 w-44 shrink-0 overflow-hidden rounded-md bg-slate-100'
 
   async function loadImages(after?: string | null) {
     setLoading(true)
@@ -75,14 +79,20 @@ export function ShopifyImageField({
     <div className="rounded-lg border border-slate-200 bg-white p-3">
       <input type="hidden" name={name} value={selected?.id || ''} />
       <div className="flex flex-wrap items-start gap-4">
-        <div className="relative h-28 w-44 shrink-0 overflow-hidden rounded-md bg-slate-100">
-          {selected?.url ? <Image src={selected.url} alt={selected.altText || label} fill className="object-cover" sizes="176px" /> : <span className="flex h-full items-center justify-center text-xs text-slate-500">No image selected</span>}
+        <div className={previewClass}>
+          {selected?.url ? <Image src={selected.url} alt={selected.altText || label} fill className={objectClass} sizes="176px" /> : <span className="flex h-full items-center justify-center text-xs text-slate-500">No image selected</span>}
         </div>
         <div className="min-w-0 flex-1">
           <div className="text-sm font-medium text-slate-900">{label}</div>
           <div className="mt-1 text-xs text-slate-500">Recommended: {recommendedSize} · JPEG, PNG, or WebP · maximum 10 MB</div>
           {selected?.width ? <div className="mt-1 text-xs text-slate-500">Selected: {selected.width} × {selected.height}px</div> : null}
-          {dimensionsDiffer ? <div className="mt-1 text-xs font-medium text-amber-700">This image does not match the recommended dimensions and will be cropped to fit.</div> : null}
+          {dimensionsDiffer ? (
+            <div className="mt-1 text-xs font-medium text-amber-700">
+              {fit === 'contain'
+                ? 'This image does not match the recommended dimensions and will be scaled to fit.'
+                : 'This image does not match the recommended dimensions and will be cropped to fit.'}
+            </div>
+          ) : null}
           <div className="mt-3 flex flex-wrap items-center gap-2">
             <label className="cursor-pointer rounded-lg bg-slate-950 px-3 py-2 text-xs font-semibold text-white">
               {uploading ? 'Uploading…' : 'Upload image'}

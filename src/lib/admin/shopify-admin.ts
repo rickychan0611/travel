@@ -730,7 +730,9 @@ export async function createAdminProduct(input: {
   )
   assertUserErrors(data.productSet?.userErrors, 'Create product')
   assertUserErrors(data.productSet?.productSetOperation?.userErrors, 'Create product operation')
-  return data.productSet?.product
+  const product = data.productSet?.product
+  if (product?.id) await publishAdminProductToStorefront(product.id)
+  return product
 }
 
 export async function archiveAdminProduct(productId: string) {

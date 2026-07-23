@@ -17,6 +17,19 @@
     "cruise": "Cruises",
     "luxury": "Luxury"
   },
+  "statusBar": {
+    "language": "Language",
+    "languageAria": "Language",
+    "currencyAria": "Currency",
+    "currencies": {
+      "USD": "$ USD",
+      "CAD": "C$ CAD",
+      "CNY": "¥ CNY",
+      "EUR": "€ EUR",
+      "AUD": "A$ AUD",
+      "HKD": "HK$ HKD"
+    }
+  },
   "home": {
     "heroTitle": "Explore the World, One Adventure at a Time",
     "heroSubtitle": "Professional tour services for travelers worldwide",
@@ -375,5 +388,52 @@
       "refunded": "Refunded",
       "other": "Processing"
     }
+  },
+  "admin": {
+    "metaTitle": "Admin | Tours",
+    "brand": "Admin",
+    "brandSubtitle": "Shopify tour operations",
+    "navDashboard": "Dashboard",
+    "navProducts": "Products",
+    "navLandingPage": "Landing Page",
+    "navSync": "Sync",
+    "navCategories": "Categories & Filters",
+    "navOrders": "Orders",
+    "navSettings": "Settings",
+    "logOut": "Log out",
+    "roleOwner": "owner",
+    "roleStaff": "staff",
+    "accessRequiredTitle": "Admin access required",
+    "accessRequiredDesc": "Your account needs Clerk public metadata role <owner>owner</owner> or <staff>staff</staff> to open this panel.",
+    "dashboardTitle": "Operations dashboard",
+    "dashboardDescription": "Shopify is the live source for customer-facing tour content, variants, add-ons, and orders. Use this panel for safe product operations and cache refreshes.",
+    "manageProducts": "Manage products",
+    "statLoadedProducts": "Loaded products",
+    "statLoadedProductsNote": "Shopify tour products",
+    "statActiveProducts": "Active products",
+    "statActiveProductsNote": "Visible when published",
+    "statBookable": "Bookable",
+    "statBookableNote": "Has date/rate variants",
+    "statRecentOrders": "Recent orders",
+    "statRecentOrdersNote": "Latest Shopify orders",
+    "shopifyConnectionTitle": "Shopify connection",
+    "shopifyConnected": "Connected to Shopify Admin API. Showing live product and order data from your store.",
+    "nextActionsTitle": "Next actions",
+    "nextActionsSync": "Sync a small batch from ToursBMS, review warnings, then publish only the products ready for customers.",
+    "nextActionsCategories": "Use Categories & Filters to spot missing city, country, price, or bookable facts before building advanced filters.",
+    "openSyncControls": "Open sync controls",
+    "recentProductsTitle": "Recent Shopify products",
+    "noProducts": "No Shopify tour products found for tag:tour.",
+    "recentOrdersTitle": "Recent orders",
+    "noOrders": "No orders found yet.",
+    "categoriesTitle": "Categories & filters", "categoriesDesc": "These facts come from Shopify product metafields and tags and power customer-facing categories and filters.", "productsScanned": "Products scanned", "missingCountry": "Missing country", "missingCity": "Missing city", "bookableProducts": "Bookable products", "countries": "Countries", "cities": "Cities", "productTypes": "Product types", "bookingState": "Booking state",
+    "ordersTitle": "Orders", "ordersDesc": "Read-only Shopify order visibility for tour operations. Payment capture, refunds, and compliance remain in Shopify.", "ordersSearchPlaceholder": "Search orders, email, customer...", "search": "Search", "noOrdersFound": "No orders found.",
+    "productsTitle": "Products", "productsDesc": "Manage Shopify tour products, filter facts, synced content, and date/rate variants.", "createTour": "+ Create new tour", "productList": "Product list", "productSearchPlaceholder": "Search title, tag, product code...", "product": "Product", "status": "Status", "bookable": "Bookable", "contentOnly": "Content only", "variants": "Variants", "minPrice": "Min price", "city": "City", "lastSynced": "Last synced",
+    "createTourTitle": "Create new tour", "createTourDesc": "Start a blank Shopify tour product. Add content, dates, images, and add-ons after creation.", "backToProducts": "Back to products", "tourTitle": "Tour title", "productCode": "Product code", "urlHandle": "URL handle", "productType": "Product type", "optional": "Optional", "createProduct": "Create product",
+    "settingsTitle": "Settings", "settingsDesc": "Operational controls for cache refresh and Shopify connection health.", "ownerRequired": "Owner access required", "settingsOwnerOnly": "Settings are restricted to owner accounts.", "storefrontRendering": "Storefront rendering", "storefrontRenderingDesc": "Control whether Shopify storefront data is cached. SSR is enabled by default during local development.", "cacheRefresh": "Cache refresh", "cacheRefreshDesc": "Refresh Shopify product lists, tour pages, category pages, and product cards.", "storeDomain": "Store domain", "adminApiVersion": "Admin API version", "adminToken": "Admin token", "missing": "Missing", "configured": "Configured",
+    "syncTitle": "ToursBMS sync", "syncDesc": "Import product IDs, extract localized JSON, dry-run payloads, or apply updates to Shopify. Manual edits are preserved unless overwrite is enabled.", "syncOwnerOnly": "Sync can overwrite Shopify content and is restricted to owner accounts.", "runSyncJob": "Run sync job", "runSyncJobDesc": "For large batches, keep this page open. Production should later move this to a durable queue.", "productIds": "ToursBMS product IDs", "mode": "Mode", "dryRun": "Dry run", "extractOnly": "Extract only", "applyShopify": "Apply to Shopify", "locales": "Locales", "publishTarget": "Publish target", "publishPlaceholder": "Travel Website Development", "overwriteWarning": "Overwrite editable Shopify content from ToursBMS. Leave this off for normal reruns so manual edits are preserved.", "runningSync": "Running sync...", "runSync": "Run sync", "completed": "Completed", "failed": "Failed",
+    "optionalHandle": "Optional product handle", "refreshing": "Refreshing...", "refreshCache": "Refresh storefront cache", "cacheQueued": "Cache refresh queued.", "cacheFailed": "Cache refresh failed.", "serverRendering": "Server-side rendering", "serverRenderingDesc": "On disables Shopify data caching. Off uses the normal 30-minute storefront cache.", "on": "On", "off": "Off", "saving": "Saving...", "settingSaveFailed": "The setting could not be saved.", "ssrOn": "SSR is on. Storefront data is always fresh.", "ssrOff": "SSR is off. Storefront caching is enabled.",
+    "landingTitle": "Landing page", "landingDesc": "Manage homepage content with Shopify metaobjects and Files.", "landingPublishedDesc": "Changes are stored in Shopify and published to every locale after saving.", "siteBranding": "Site branding", "saveBranding": "Save branding", "hotlineLines": "Header hotline lines", "setupBackend": "Set up Shopify backend", "setupBackendDesc": "The current landing page remains live until import finishes.", "setupImport": "Set up and import current page", "heroBanners": "Hero banners", "hotDestinationMenu": "Hot destination menu", "seasonalItems": "Seasonal items", "tourCollections": "Tour collections", "save": "Save", "delete": "Delete", "add": "Add", "adding": "Adding...",
+    "detailOpenShopify": "Open Shopify", "detailOverview": "Overview", "detailContent": "Content", "detailHighlights": "Highlights", "detailItinerary": "Itinerary", "detailCosts": "Cost sections", "detailPolicies": "Policies & notices", "detailPickup": "Pickup / dropoff", "detailAddons": "Add-ons", "detailImages": "Images", "detailDates": "Dates & prices", "detailDanger": "Danger zone", "archiveProduct": "Archive product", "deleteProduct": "Delete product"
   }
 }
