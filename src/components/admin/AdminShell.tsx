@@ -40,7 +40,7 @@ export async function AdminShell({
     <section className="min-h-[calc(100vh-180px)] bg-white text-slate-950">
       <div className="mx-auto flex max-w-[1440px] gap-0">
         <aside className="sticky top-0 hidden h-screen w-72 shrink-0 border-r border-slate-200 bg-white px-4 py-6 lg:block">
-          <Link href={`/${locale}/admin`} className="mb-8 flex items-center gap-3">
+          <Link href={`/${locale}/admin/products`} className="mb-8 flex items-center gap-3">
             <span className="flex size-10 items-center justify-center rounded-lg bg-slate-950 text-white">
               <ShieldCheck className="size-5" />
             </span>
@@ -88,7 +88,7 @@ export async function AdminShell({
         <div className="min-w-0 flex-1">
           <div className="border-b border-slate-200 bg-white px-4 py-3 lg:hidden">
             <div className="flex items-center justify-between">
-              <Link href={`/${locale}/admin`} className="font-semibold">{t('brand')}</Link>
+              <Link href={`/${locale}/admin/products`} className="font-semibold">{t('brand')}</Link>
               <div className="flex items-center gap-2">
                 <span className="rounded bg-slate-950 px-2 py-1 text-xs text-white">{roleLabel}</span>
                 <SignOutButton redirectUrl={`/${locale}`}>

@@ -21,6 +21,8 @@
     "language": "語言",
     "languageAria": "語言",
     "currencyAria": "貨幣",
+    "countryAria": "國家或地區",
+    "clearCartConfirm": "切換國家會清空購物車，因為 Shopify 價格因市場而異。是否繼續？",
     "currencies": {
       "USD": "$ 美元",
       "CAD": "C$ 加元",

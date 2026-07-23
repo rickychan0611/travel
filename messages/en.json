@@ -21,6 +21,8 @@
     "language": "Language",
     "languageAria": "Language",
     "currencyAria": "Currency",
+    "countryAria": "Country or region",
+    "clearCartConfirm": "Changing country will clear your cart because Shopify prices differ by market. Continue?",
     "currencies": {
       "USD": "$ USD",
       "CAD": "C$ CAD",

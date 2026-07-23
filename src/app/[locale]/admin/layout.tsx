@@ -29,7 +29,7 @@ export default async function AdminLayout({
   const { userId } = await auth()
 
   if (!userId) {
-    redirect(loginPath(locale, `/${locale}/admin`) as Route)
+    redirect(loginPath(locale, `/${locale}/admin/products`) as Route)
   }
 
   const user = await getAdminUser()
